@@ -1,5 +1,11 @@
 MTD Knowledge Graph Pipeline
 
+Dataset (PDF Corpus)
+
+All scientific articles used in this project are available here:
+
+🔗 Google Drive (Public Read-Only):
+
 An Automated Pipeline for Geological Knowledge Extraction and Interpretation
 
 This repository provides a complete end-to-end pipeline for constructing a Geoscience-Aware Knowledge Graph from scientific articles related to Mass-Transport Deposits (MTDs).
