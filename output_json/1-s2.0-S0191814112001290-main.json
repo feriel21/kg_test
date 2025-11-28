@@ -1,0 +1,2947 @@
+[
+    {
+        "element_id": "019bb104609ded09e8972c9b57866090",
+        "text": "Contents lists available at SciVerse ScienceDirect",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                207.94949340820312,
+                73.39111328125,
+                400.6310119628906,
+                81.36131286621094
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "afe26d102db46f9c78efb3a86b8cd02a",
+        "text": "Journal of Structural Geology",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                207.04249572753906,
+                97.73271179199219,
+                401.5019226074219,
+                111.68031311035156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cfe125006d3e2b089477d7275c9d24b0",
+        "text": "journal homepage: www.elsevier.com/locate/jsg",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                189.80780029296875,
+                129.3470458984375,
+                418.6980285644531,
+                137.31724548339844
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1d5a55524de360433b5dbb103752d7c9",
+        "text": "Gravitational instabilities triggered by ﬂuid overpressure and downslope\nincision e Insights from analytical and analogue modelling",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                177.5178680419922,
+                511.4579772949219,
+                208.34413146972656
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "813c7358220192ae20237aa3600d2273",
+        "text": "Aurélien Lacoste a,*, Bruno C. Vendeville b, Régis Mourgues a, Lies Loncke c, Maxime Lebacq b",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                217.7681121826172,
+                504.34600830078125,
+                230.53094482421875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5763b3ec6dec5b37e6351e8436ad92ea",
+        "text": "a LGPN, UMR 6112, Université du Maine, Avenue Olivier Messiaen, 72085 Le Mans Cedex 09, France\nb UMR 8217 Géosystèmes, Université de Lille 1, Cité scientiﬁque, Bâtiment SN5, 59655 Villeneuve d’Ascq, France\nc Université de Perpignan Via Domitia, Laboratoire IMAGES, 52 avenue Paul Alduy, 66800 Perpignan, France",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                235.34762573242188,
+                367.6709289550781,
+                261.7362060546875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "747b7b9b1ea8bd613d93227c6b76a8fc",
+        "text": "a r t i c l e i n f o",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                286.0430603027344,
+                138.18283081054688,
+                295.0093688964844
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "eade996086dd68ab8b767e55338c1976",
+        "text": "a b s t r a c t",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                206.92909240722656,
+                286.0430603027344,
+                274.6579284667969,
+                295.0093688964844
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c8a9c5ea78a665f3cb24f24abc6de5b1",
+        "text": "Article history:\nReceived 19 December 2011\nReceived in revised form\n21 May 2012\nAccepted 25 May 2012\nAvailable online 6 June 2012",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                306.7239074707031,
+                129.64178466796875,
+                355.9657287597656
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "580d45bd665be08f385fcdd14336348e",
+        "text": "Fluid overpressure at the base of low-permeability strata reduces effective stress, allowing for gravita-\ntional sliding of the overlying cover. The force driving sliding is the slope-parallel component of the\nweight of the cover, whereas the resisting forces are the friction at the base of the cover and the but-\ntressing resistance to shortening, which can be critically reduced by incision at the base of the slope. We\ndeveloped an analytical model and undertook a series of analogue experiments to better understand the\nevolution of a sedimentary cover sliding above a low-permeability layer subjected to ﬂuid overpressure.\nWhere a downslope buttress was present, the sliding sheet length decreased with increasing pore-ﬂuid\npressure. In the absence of such buttress, the slide’s length increased exponentially with increasing pore-\nﬂuid pressure. Another important difference dealt with geometry and kinematics. Buttressed slides\nconsisted of one large slope-parallel mass rigidly translated and bounded by downslope thrusts and\nupslope normal faults. With increasing pore-ﬂuid pressure, the contractional structures propagated\nupslope. By contrast, non-buttressed slides showed intense strain: deformation started with normal\nfaults forming near the incision, then propagating upslope throughout the slide’s evolution.\n\u0001 2012 Elsevier Ltd. All rights reserved.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                206.92909240722656,
+                307.1155090332031,
+                562.6246948242188,
+                438.6413879394531
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "55c10384d3ae57572509e1546bf21d64",
+        "text": "Keywords:\nGravitational instabilities\nFluid overpressure\nAnalytical modelling\nAnalogue modelling",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                369.43182373046875,
+                118.86011505126953,
+                410.0596618652344
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b4b4a62e35906edf7869f09460261dd8",
+        "text": "1. Introduction",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                478.5495910644531,
+                104.6442642211914,
+                486.519775390625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6d9069abe609e2039424951ad87dcde7",
+        "text": "Mass movements are a major erosional process along both\npassive and active margins. The onset of gravitational instabilities is\nthe result of the effect of preparatory factors, such as the lithology\nof the décollement layer and of the cover, coupled with external\npredisposing factors reducing the forces resisting downward\nmotion, such as seismic activity (Keefer, 1984), heavy rainfall (Chen\net al., 2006) or ﬂuid overpressure (Mourgues et al., 2009). In\nparticular, these factors cause the effective stress of weak layers,\nsuch as shale, to decrease. Therefore, these layers may act as\ndécollement layers for the overlying cover.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51141357421875,
+                499.47137451171875,
+                293.65380859375,
+                601.5616455078125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fd8e2c6c2b5b471f3409735eceb656e8",
+        "text": "Terzaghi (1923) and Hubbert and Rubey (1959) have demon-\nstrated that the effective rock stress of low-permeability layers,\nhence the frictional force between such layers and the overlying\ncover, can be critically reduced in the presence of ﬂuid over-\npressure. Overpressures are responsible for promoting gravita-\ntional submarine slides, as in the Amazon fan (Cobbold et al., 2004;\nMourgues et al., 2009), the Niger delta (Weber and Daukoru, 1975;",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51141357421875,
+                604.0802001953125,
+                293.62896728515625,
+                674.8157958984375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0f0c8624a5567f02bf932a41a72b8693",
+        "text": "Mourgues and Cobbold (2006) and Mourgues et al. (2009) have\nconducted analogue sandbox modelling of sliding above over-\npressured shale, in which compressed air was applied at the base of\na low-permeability layer, therefore promoting sliding. In these\nmodels having a downslope buttress, sliding can occur only if the\ndriving force can overcome the buttressing resisting force down-\nslope, i.e., if the slide reaches a minimum required length\n(Mourgues and Cobbold, 2006; Mourgues et al., 2009). These\nauthors observed that, in the presence of a resisting force at the\n* Corresponding author. Tel.: þ33 2 43832653; fax: þ33 2 43833795.\nE-mail address: aurelacoste@gmail.com (A. Lacoste).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                47.565399169921875,
+                624.9984741210938,
+                562.5991821289062,
+                716.6558227539062
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "71098a0a6cdf5a47c141edf6da27c63c",
+        "text": "0191-8141/$ e see front matter \u0001 2012 Elsevier Ltd. All rights reserved.\nhttp://dx.doi.org/10.1016/j.jsg.2012.05.011",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                728.3922729492188,
+                262.15838623046875,
+                743.452392578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e2a1ce4aff05c761cd49ebb3c940c352",
+        "text": "Hooper et al., 2002), or the Champion delta (Van Rensbergen and\nMorley, 2000), and avalanches (e.g., the Storegga slide, Norway,\nw3000 km3, Haﬂidason et al., 2004), as well as large onshore mass\nmovements (Waitawhiti landslides, New Zealand, 111.106 m3,\nLacoste et al., 2009).\nBesides, sliding along a detachment plane can be facilitated in\nthe case of the absence of force resisting shortening at the base of\nthe slope. Such a force can be decreased, and even entirely elimi-\nnated, by downslope incision, therefore leading to landsliding.\nHowever, the triggering of gravitational instability when the\ndownslope buttress is removed requires an incision that is deep\nenough, cutting the cover all the way down to the mechanically\nweak layers (e.g., swelling clays, Azañon et al., 2005; overpressured\nshale, Lacoste et al., 2011).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.5161437988281,
+                478.5655822753906,
+                562.5908203125,
+                622.4799194335938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "07555653a43487725cef6ddb4e47d0c8",
+        "text": "base of the slope, the sliding mass comprised three distinct\ndomains: (1) an extensional domain upslope, (2) a non-deformed\nslab at mid-slope and (3) a contractional domain downslope\n(Fig. 1A). Mourgues and Cobbold (2006) also showed that the cover\ndeformation was greater (a greater number of normal faults and\nthrusts initiated in the upslope and downslope parts of the model,\nrespectively) where the value of the basal slope angle was higher.\nThe downward displacement of the non-deformed slab also\nincreased with the basal slope angle increasing.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.81690979003906,
+                66.3354721069336,
+                283.8929748535156,
+                157.99269104003906
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "44b002c51ea8b2042e327803b64c1599",
+        "text": "Lacoste et al. (2011) have investigated experimentally the\ninﬂuence of the permanent removal of the downslope buttress\non the initiation, structure and evolution of such gravity-driven\ninstabilities. They showed that, in models subjected to constant\nvalley incision, gravitational collapse and normal faulting prop-\nagated retrogressively from the valley ﬂanks to the upslope\ndomain (Fig. 1B). The number of faults, as well as the area\naffected by deformation, increased with increasing air pressure.\nThe deformed area also greatly increased with increasing basal\nslopes.\nIn this article, we present, on the basis of the work by Mourgues\nand Cobbold (2006), a 2-D analytical model of gravity sliding of\na sedimentary cover on a plane subjected to ﬂuid overpressure. We\ncalculate the forces applied to the system and determine the\nminimum slide length required for sliding to occur, under different\nboundary conditions: (1) in the presence and (2) in the absence of\na downslope buttress. We also document two series of experimental",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.80860900878906,
+                160.45547485351562,
+                283.9261474609375,
+                335.85546875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a71f22a7008fd185100330cbee665cfa",
+        "text": "Fig. 1. Analogue sandbox modelling of sliding above an overpressured low-permeability layer. (A) Top: Overhead photograph (left) and line-drawing (right) of a model having\na downslope buttress (Mourgues and Cobbold, 2006). Bottom: Schematic cross section. (B) Side photographs of the initial (top) and last (centre) stages of a model with a downslope\nincision (Lacoste et al., 2011). Bottom: Schematic cross section. Solid arrows indicate the sense of sliding. Dashed arrows show the sense of propagation of the deformation.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.8251953125,
+                719.90185546875,
+                552.883544921875,
+                743.4037475585938
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "83a475334ad58182e93eaefa3ac73afa",
+        "text": "models that we conducted to conﬁrm our analytical predictions.\nFinally, we discuss the discrepancies between analytical predictions\nand experimental data to determine more precisely the inﬂuence of\nthe absence and the presence of a downslope buttress on the\nstructural style.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.8216247558594,
+                66.27142333984375,
+                552.881103515625,
+                116.17279815673828
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f7648ff8f5e3569867b6137f34880a12",
+        "text": "2. Analytical expression of the sliding sheet length",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.82989501953125,
+                132.80661010742188,
+                506.8868103027344,
+                140.7768096923828
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7c4e1cef0597d391df40f3ff85d0b6fd",
+        "text": "To outline the morphological evolution of masses sliding above\na planar substratum subjected to pore-ﬂuid overpressure, we built\na mechanical model based on the equilibrium of forces and\nassumptions on the effective stresses.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.82989501953125,
+                153.72836303710938,
+                552.9142456054688,
+                193.1090850830078
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b8be2d5c5b1d78f2202be1855038ede9",
+        "text": "2.1. Inﬁnite slope model",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.82989501953125,
+                209.65521240234375,
+                390.4289245605469,
+                217.7130889892578
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e0e1d3f2f01568d7b0c3455c9d607e6d",
+        "text": "It is ﬁrst convenient to consider the simplistic case of an inﬁnite\nslope (Terzaghi, 1950; Hubbert and Rubey, 1959; Lambe and\nWhitman, 1969; Crans et al., 1980; Mandl and Crans, 1981; Mello\nand Pratson, 1999). The equation of equilibrium of total stresses\nin the sediments subjected to gravity is:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.8381652832031,
+                230.57696533203125,
+                552.9390869140625,
+                280.47833251953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cd758c3624e41c199812887a5949bc1c",
+        "text": "Vs ¼ rbg\n(1)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.8330078125,
+                289.69549560546875,
+                552.8368530273438,
+                300.9593200683594
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "401b25bdb3d4ceded5eac7eddb9cc81e",
+        "text": "where s is the total stress tensor, g is the gravity and rb the bulk\ndensity. The presence of ﬂuids in the porous medium implies that\na part of the total stresses is supported by the ﬂuid phase. Terzaghi",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.8330078125,
+                306.5198974609375,
+                552.8877563476562,
+                336.45574951171875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "208554d75dec22a488ba25cdd891b903",
+        "text": "(1923) deﬁned the effective stress tensor s’ as the sole parameter\ncontrolling the deformation of a porous media:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.517486572265625,
+                65.29156494140625,
+                293.6433410644531,
+                84.73865509033203
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "aeed17be5a510f8eff14d68103fbcd62",
+        "text": "s0 ¼ s \u0002 Pf Id\n(2)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                92.00074005126953,
+                293.5836486816406,
+                106.04122161865234
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3cc469425e208b97a47b6b6a799d0c67",
+        "text": "with Pf the pore pressure and Id the identity matrix. Expressed in\nterms of effective stresses, Eq. (1) becomes:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51637649536133,
+                113.50399017333984,
+                293.59246826171875,
+                131.9071807861328
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "18f97a60940a6972fad8d9ab235b0367",
+        "text": "Vs0 ¼ rbg \u0002 VPf ¼ rbg \u0002 rwg \u0002 VPov ¼ reg \u0002 VPov\n(3)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                139.16920471191406,
+                293.5827941894531,
+                153.17344665527344
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ac044d933817c9550dc929b39042be0d",
+        "text": "with rw the density of water. rwg is the hydrostatic part of the ﬂuid\npressure gradient VPf. rwg acts on the solid matrix as a buoyancy\nforce (body force) equivalent to the Archimedes force (Dahlen,\n1990; Mourgues and Cobbold, 2003). The effective weight of the\nsediments then becomes the buoyant weight reg ¼ rbg \u0002 rwg. VPov\nis the non-hydrostatic part of VPf, also called gradient of ﬂuid\noverpressure. This gradient induces a seepage force -VPov to the\nsystem. This force is not inevitably vertical and therefore may\ncontribute to slope instability. With references axes (x, z) being\nrespectively parallel and perpendicular to the slope a, Eq. (3)\nbecomes:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.515045166015625,
+                159.62860107421875,
+                293.66607666015625,
+                273.2425537109375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ee2d29750d3effcf14c18ca3595ede4d",
+        "text": "vs0\nxx=vx þ vs0\nxz=vz ¼ regsin a þ vPov=vx\n(4a)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                282.1942443847656,
+                293.5829772949219,
+                294.4422912597656
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4b8215d7104b2d82526b5c9f64831c90",
+        "text": "vs0\nxz=vx þ vs0\nzz=vz ¼ regcos a þ vPov=vz\n(4b)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51446533203125,
+                306.0052490234375,
+                293.5651550292969,
+                318.2532958984375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bcf914ff41ec1f30140feeed6082dda7",
+        "text": "In the inﬁnite slope model, the assumption is made that the\nslope is long enough so that longitudinal stress gradients are\nnegligible: vs’xx/vx ¼ vs’xz/vx ¼ 0. The gradient of ﬂuid overpressure\nis assumed to be perpendicular to the slope. Mandl and Crans\n(1981) justiﬁed this approximation on the grounds that compac-\ntion is invariant along the slope and that the principal axes of the\npermeability tensor are approximately parallel and perpendicular\nto the free surface. In such analysis, we deﬁne the generalized pore-\nﬂuid overpressure ratio, modiﬁed from Hubbert and Rubey (1959):",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.52116012573242,
+                324.8241271972656,
+                293.663818359375,
+                416.56695556640625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5cbaa1de25ac9b004b4fa67f01723bbb",
+        "text": "l ¼ Pov=regzcos a\n(5)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                425.98529052734375,
+                293.5827941894531,
+                437.19232177734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a148a7a644b8bbb58d3ce28d378d1e04",
+        "text": "with Pov the pore-ﬂuid pressure at depth z, re the effective density\nof the sliding cover (re ¼ rb \u0002 rw) and a the basal slope angle.\nWe consider in this study the case of a non-cohesive system.\nAssuming that sediments obey a MohreCoulomb criterion of\ndeformation, gliding occurs when the shear stress on a plane\nparallel to the slope reaches the yield stress, following the Coulomb\nlaw:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                442.8096008300781,
+                293.63299560546875,
+                514.58837890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "677a5fe51a33b2f62607f3fe346a8004",
+        "text": "s0\nxz ¼ s ¼ ms0\nzz\n(6)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                523.5359497070312,
+                293.5827941894531,
+                536.13671875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6cc17ca1b5da22ceaa240f05a350c7aa",
+        "text": "with s the shear stress at yield, m the coefﬁcient of internal friction.\nOn the upper surface of the sediments (z ¼ 0), s’xz ¼ 0. Combining\nEqs. (4)e(6) therefore leads to the condition required for sliding of\nthe cohesionless cover (Hubbert and Rubey, 1959):",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51884078979492,
+                541.3419189453125,
+                293.57000732421875,
+                581.765869140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0b6595ce41718c26c257a8633e5e6b2e",
+        "text": "tan a ¼ ð1 \u0002 lÞtan f\n(7)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                591.1883544921875,
+                293.5827941894531,
+                601.0173950195312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "80c5e57efd9456bd417e0ee4d982b9ab",
+        "text": "with 4 the angle of friction. It is here important to underline\nthat the hydrostatic pore pressure has no effect on the stability",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                608.0126953125,
+                293.522705078125,
+                627.5155639648438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6fc67a350c976b63817e7d1dfd8f6360",
+        "text": "Fig. 2. Stresses and forces applied in a buttressed model (A) and an incised model (B). Fw is the driving force induced by the weight of the model, Fb is the basal frictional resisting\nforce, Fext\ns\nand Ftoe\ns\nare the forces exerted by s0\nxx acting on the upper and lower edges of the system, respectively.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51531982421875,
+                728.4624633789062,
+                562.5928344726562,
+                745.1583862304688
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "35250c1e154a5d0b515315338996d789",
+        "text": "of a submarine slope. Indeed, under hydrostatic conditions, the\nstability of a submarine slope is similar to that of a dry emerged\nslope. In stratiﬁed sediments, the pressure gradient varies from\none layer to another in response to changes in permeability. We\nwill assume thereafter a sedimentary cover having a constant\ncoefﬁcient of ﬂuid pressure l and an angle of friction 4. At the\nbase of this cover, the coefﬁcient of ﬂuid pressure and the\ncoefﬁcient of friction have speciﬁc values lb and mb, respectively\n(Davis et al., 1983). For a detachment to occur at the base of the\ncover:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.5176696777344,
+                66.3337631225586,
+                562.5690307617188,
+                168.41798400878906
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c23095e135515bc790ed4b8970d8cb6e",
+        "text": "mbð1 \u0002 lbÞ \u0003 mð1 \u0002 lÞ\n(8)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.5274963378906,
+                187.8184051513672,
+                562.5865478515625,
+                199.08213806152344
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "de887dc78c89381d918f591e2e57a619",
+        "text": "2.1.2. Length of a frontally conﬁned sliding sheet\nIn the inﬁnite slope model, stress gradient is not parallel to the\nslope. As a consequence, as soon as condition (8) is satisﬁed, the\ncover may slide. However, in natural systems, lateral variations of\npore pressure and mechanical parameters may induce a resistance\nat the toe (Fig. 2A).\nWhen a detachment appears, part of the weight of the cover is\ntransferred from the base to the toe. Sliding occurs when the\ntransferred weight reaches values high enough to overcome the\ndistal buttress resisting force and initiate thrust faults, i.e, when\nthe sliding mass reaches a certain length. Lambe and Whitman\n(1969),\nMandl\n(1988)\nand\nMourgues\nand\nCobbold\n(2006)\nshowed that the minimal length necessary for sliding to occur\ncan be determined by writing the balance between forces driving\ndownward motion of the sedimentary cover and forces resisting\nthis motion. Lambe and Whitman (1969) demonstrated that the\nfollowing force systems could be used when evaluating the\nstability of a wedge:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.5274963378906,
+                220.56591796875,
+                562.61669921875,
+                406.486572265625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1b0285a7cffd84981c7ade49ade656a9",
+        "text": "- Total weight, boundary pore pressures and boundary effective\nstresses,\n- Buoyant weight, seepage force and boundary effective stresses.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                320.8855895996094,
+                419.43817138671875,
+                562.6451416015625,
+                448.3301086425781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "77225c89722ffdd017902e63d0d80f0f",
+        "text": "These two approaches are strictly equivalent, and we chose to\nuse the latter in our study.\nIn the case of an inﬁnite slope, the main driving force derives\nfrom the slope-parallel component of the weight (hereafter\ndenoted as Fw) and the resisting force arises from frictional\nresistance (Fb) along the sliding plane. When considering sliding\nsheets having a ﬁnite length (Fig. 2A), additional forces must be\nintroduced: the resistance on the lower edge (Fstoe) and the result\nof stresses on the upper edge (Fsext) (Terzaghi, 1959). The driving\nforce Fsext, generated by the thrust of the mass upslope the upper\nedge of the sliding cover, and the resisting force Fstoe, induced by\nthe presence of a downslope buttress, correspond to Rankine\nactive and passive states, respectively (Lambe and Whitman,\n1969).\nWhen\nwriting\nthe\nbalance\nof\nforces\napplied\nto\na buttressed system (see Appendix for further details), we obtain\nthe length L of the sliding sheet:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.52362060546875,
+                461.2817077636719,
+                562.6450805664062,
+                626.1591186523438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1026c201f9e4d2c4f3c59138016ef891",
+        "text": "L ¼\n2ð1 \u0002 lÞm\nﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ\n1 \u0002 FS2\np",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.825199127197266,
+                60.53614044189453,
+                137.72218322753906,
+                84.15779876708984
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0e1d37cd04cd78283b4a6fed6020d370",
+        "text": "ðtan a \u0002 ð1 \u0002 lbÞmbÞcos fH\n(9)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.47476577758789,
+                75.70939636230469,
+                283.8856506347656,
+                91.59233093261719
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8e4445bb590e01fb2a0e83715ed16e83",
+        "text": "with H the cover thickness and FS ¼ tan a=ðð1 \u0002 lÞtan fÞ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.825199127197266,
+                97.0394515991211,
+                249.74859619140625,
+                106.31855010986328
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "00e2d723d223ee9e2aadb6e164337eaf",
+        "text": "2.1.3. Length of a sliding sheet where the distal buttress is absent\nWhere the downslope buttress has been removed by incision,\nthe basal detachment may intersect the bevelled surface (Fig. 2B).\nIn such system, Fstoe ¼ 0 and Fs ¼ Fsext. Considering a cohesionless\nsystem, we obtain:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.82218933105469,
+                119.1186752319336,
+                283.8818359375,
+                168.9275665283203
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "aeb2af11ee4d824b3b862d6fc02a04b5",
+        "text": "Fs ¼ Fext\ns\n¼\nZ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.825199127197266,
+                172.7357940673828,
+                89.94561767578125,
+                194.61041259765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7ba8214bd118f37d9eaaa1ff8cea1d0a",
+        "text": "H\ns0ext\nxx dh ¼ 0:5ð1 \u0002 lÞregH2ð2Y \u0002 1Þcos a\n(10)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                85.09600067138672,
+                182.35801696777344,
+                283.86834716796875,
+                205.54515075683594
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6c927d3ba03803e42660dd299774b3c8",
+        "text": "with Y ¼ ð1 \u0004 sin f\nﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ\n1 \u0002 FS2\np\nÞ=cos2 f. Where the cover is cohesive,\na vertical cliff may form downslope, whereas a slope having\na negligible cohesion remains subjected to the critical taper\nconditions (Dahlen, 1984). For convenience, we will assume the\nwedge-like downslope part of the cover to have a stable surface\nslope and to slide rigidly. In comparison with the buttressed model,\nthe seepage force in this case has an x-component that must be\nadded to the balance of forces. We obtain the sliding sheet length\nby writing the balance of forces applied to a non-buttressed system\n(see Appendix for details):",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.823570251464844,
+                204.0682373046875,
+                283.8996276855469,
+                315.08929443359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f6939019fcaa9a4152a476bd3408c9c0",
+        "text": "\u0004\nH\n(11)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                175.69129943847656,
+                319.45257568359375,
+                283.8681945800781,
+                339.8977355957031
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "af7912d1f21466b30d0db4f1090efdfa",
+        "text": "L ¼ 0:5\n\u0003ð1 \u0002 lÞð2Y \u0002 1Þ þ l\nmbð1 \u0002 lbÞ \u0002 tan a \u0002\n1\ntan b",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.825199127197266,
+                319.4542541503906,
+                175.66574096679688,
+                347.33404541015625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "60108700a2a7f8a2337e2fc90cefdfa4",
+        "text": "2.2. Analytical results",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.825199127197266,
+                370.0393981933594,
+                113.21826171875,
+                378.00958251953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b66540b23ba5f0a7f3dcd6fa71e81507",
+        "text": "In this section, we describe the evolution of the sliding sheet\nlength at yield, depending on the boundary conditions. Mourgues\nand Cobbold (2006) and Lacoste et al. (2011) showed that the\nevolution of the deformation greatly differed depending on\nwhether or not a distal buttress was present (Fig. 1). To better\nunderstand these differences, we plotted, for both cases, the\nsliding sheet lengths versus the coefﬁcient of ﬂuid pressure lb\n(Fig. 3).\nOur model conﬁrms the observation by Mourgues and Cobbold\n(2006) and Mourgues et al. (2009) that a minimum length is\nrequired for the driving forces (i.e., the weight of the cover) to\novercome the frictional and the downslope buttress resisting\nforces. This length decreases with increasing lb, because of the",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.81694030761719,
+                390.961181640625,
+                283.9261779785156,
+                525.3876342773438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1d3e78d5ec1446d828d2912096ef444f",
+        "text": "Fig. 4. Inﬂuence of the basal slope angle (a) and the cover thickness (H) on the evolution of the sliding sheet length with respect to lb in the presence (A) and in the absence (B) of\na downslope buttress.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.82012939453125,
+                727.62744140625,
+                552.8466796875,
+                743.4013671875
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "7f300182fe021074c6b9810a7791eb4a",
+        "text": "Fig. 3. Evolution of the sliding sheet length with respect to the coefﬁcient of ﬂuid\npressure (lb), in the presence (bold line) or in the absence (dashed line) of a downslope\nbuttress. The vertical asymptote corresponds to the inﬁnite slope model.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.82672119140625,
+                262.7167663574219,
+                552.8836059570312,
+                286.2864685058594
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "089916bb903de1f49e170c13914a2c3a",
+        "text": "decrease of the frictional force by ﬂuid overpressure (Fig. 3). By\ncontrast,\nthe\npredicted\nsliding\nsheet\nlength\nincreases\nwith\nincreasing coefﬁcient of ﬂuid pressure (lb) in models having no\ndownslope resisting force (Fig. 3). In this case, the curve also has\na horizontal and a vertical asymptote (Fig. 3). The horizontal\nasymptote shows that short instabilities may form even where the\nvalue of lb is low. The vertical asymptote corresponds to values of lb\nfor which the sliding sheet may reach an inﬁnite length. This case\ncorresponds to the inﬁnite slope model (Mandl and Crans, 1981), in\nwhich the entire cover is predicted to slide for a given value of lb.\nThis value can be determined either graphically or using Eq. (8).\nWe also determined the sliding sheet length evolution with\nrespect to lb for different values of the basal slope angle (a) and\ncover thickness (H) (Fig. 4). The physical properties of the materials\nwe used are presented in Table 1. Where a buttress is present,\na greater slope (a) requires smaller values of the coefﬁcient of ﬂuid\npressure at the base (lb) to trigger sliding, thus facilitating mass\nmovement (Fig. 4A). On the contrary, where the cover is thicker, the\ncritical ﬂuid pressure is greater. Increases in the slope angle\nstrongly reduces the value of lb required to trigger sliding (Fig. 4A),\nwhereas variations in cover thickness has only a minor inﬂuence",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.82122802734375,
+                307.1318359375,
+                552.9105224609375,
+                524.3912963867188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e707bedaf80e2978ea7179c0439abcbf",
+        "text": "Table 1\nPhysical properties of the materials used in this study. Bulk densities and angles of internal friction were determined after Schellart (2000), Panien et al. (2006) and Yamada\net al. (2006).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                66.40274810791016,
+                562.5932006835938,
+                89.90472412109375
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "e653afba4b229b2d15c7aff89e68e955",
+        "text": "Material\nGrain size\n(mm)\nBulk density\n(kg m3)\nAngle of internal\nfriction (\u0005)\nCoefﬁcient of internal\nfriction m\nPermeability\n(Darcy)\nCohesion\n(Pa)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.48078918457031,
+                97.62472534179688,
+                556.55615234375,
+                112.75493621826172
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "b30629ae24f9b303b3cfad71bb5be5e0",
+        "text": "Coarse sand (cover)\n316\n1600\n34\n0.67\n100\n0\nGlass microbeads (décollement)\n106\n1600\n24\n0.44\n6\n0",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.47113037109375,
+                117.7115249633789,
+                532.6786499023438,
+                132.6505126953125
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "2f9b183d29e6654dc2a78eaad1d8eabc",
+        "text": "(Fig. 4A). On the other hand, in non-buttressed models, an increase\nin the basal slope angle and/or in the cover thickness leads to\na decrease in the ﬂuid pressure required to trigger sliding (Fig. 4B).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.511409759521484,
+                155.45681762695312,
+                293.57916259765625,
+                184.34877014160156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b07d30db19d882d1eb1bad5cb32f7d01",
+        "text": "3. Experimental modelling",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                197.52352905273438,
+                151.13613891601562,
+                205.4937286376953
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e2f82272c75552194d9e9254687a93aa",
+        "text": "3.1. Experimental set-up and procedure",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                218.44528198242188,
+                188.1953887939453,
+                226.4154815673828
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2af596c1c5bcc4699ea79b0276b58c38",
+        "text": "We used the experimental set-up built by Mourgues et al.\n(2009). The models were constructed between two ﬁxed lateral\nglass walls, on top of a sieve at the base of which compressed air\nwas injected (Fig. 5A). The distribution of the air pressure in the\nmodels varied with the pressure applied at the model’s base, and\nthe thickness and permeability of the layers (Fig. 5B). During the\nexperiments, the air pressure was monitored using a digital\nmanometer (precision \u0004 0.1%). Our models comprised a 3 cm coarse\nsand (Table 1) substratum layer, overlain by a 0.5 mm low-\npermeability layer of\nglass\nmicrobeads\n(Table 1)\nlayer and\na coarse sand cover (Fig. 5A). Mourgues and Cobbold (2006)\nshowed that high permeability contrasts between the décolle-\nment and the cover promote gravity sliding. Coarse sand allowed\nfor rapid air ﬂow, hence low air pressure, below and above the low-\npermeability décollement layer. We considered the cohesion of the\nsand and microbeads to be negligible (Table 1). Indeed, in the\nmoisture conditions of the laboratory (w40%), no vertical cliff could\nform in these materials.\nModels were 150 cm long, 60 cm large, and were built on a tilted\nbase, with or without a downslope initial incision (Fig. 5). In both\ncases, we performed two series of experiments, corresponding to\ncover thicknesses of 1 cm and 2 cm, respectively. Each series\ncomprised three experiments, corresponding to basal slopes\nranging between 2\u0005 and 4\u0005.\nWe raised the air pressure at the base until sliding of the cover\noccurred. For each sliding episode, we measured, on the basis of\noverhead photographs, the length of the sliding sheet. In the\nincised models, immediately after each sliding episode, we\nremoved the slid material, to prevent the formation of a downslope\nbuttress. In both buttressed and incised series of experiments, we\nthen raised the air pressure again. We repeated this operation until",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.516876220703125,
+                239.36703491210938,
+                293.6704406738281,
+                561.191162109375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d6d2812d108ac6dd0b3e8e14db5de5c9",
+        "text": "Fig. 5. Experimental setup. A: Schematic cross-section view. B: Theoretical pressure proﬁles within the model. a is the basal slope angle, Pfb is the applied basal ﬂuid pressure. Note\nthat the ﬂuid pressure approaches the lithostatic pressure at the base of the microbeads layer.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.515716552734375,
+                727.62744140625,
+                562.6442260742188,
+                743.4013671875
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "dbea1f522fea866b431fc7b6210f2c3e",
+        "text": "the whole model either deformed or exploded. The air pressure,\nmeasured continuously through the experiments, allowed us to\ncalculate the value of the coefﬁcient of ﬂuid pressure lb for each\ndeformation episode. We measured the pressure at the top of the\nhomogenizing box. Nevertheless, pressure values at the base of the\nlow-permeability layer differ because of the loss in pressure head\ndue to the sudden ﬂow expansion between the connecting pipes\nand the basal injectors (Fig. 5). We measured this head loss\nexperimentally. Actual pressure values at the base of the model are\nabout 70% the pressure values measured at the top of the homog-\nenizing box (Fig. 5). Potential air spread outside the model, espe-\ncially in lateral areas, may also lead to misestimating the pressures.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.5215759277344,
+                155.46017456054688,
+                562.6307983398438,
+                278.52239990234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "889acea1860b075bf1d3ab31dced20c7",
+        "text": "3.2. Experimental limitations",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.529052734375,
+                291.6971435546875,
+                418.74468994140625,
+                299.6673278808594
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "93168aea6dd7e283201a10c84060ad84",
+        "text": "The experimental procedure we followed faced two major\ntechnical constraints.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.529052734375,
+                312.6189270019531,
+                562.5885620117188,
+                331.077880859375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "31398d90c2f675ba26abe0af47f10d29",
+        "text": "(1) The friction along the sidewalls tends to resist sliding and,\nbecause the forces driving deformation are small, can greatly\ninﬂuence deformation and control the 3-D morphology of\nfaults and thrusts. Therefore, we built models that were wide\ncompared with their thickness and we measured the sliding\nsheet lengths in the centre of our models, where the inﬂuence\nof sidewall friction was minimal. Finally, in most models, we\ninserted glass microbeads along the sidewalls to reduce the\neffective stresses there, thus reducing lateral friction.\n(2) Ideally, one model should correspond to one given value for the\nﬂuid pressure, cover thickness, and length of the sliding mass.\nTesting each parameter rapidly would amount to several tens of\nexperiments, if not more. As construction and deformation of\neach model took several days, we had to limit the total number\nof experiments for logistical reasons and therefore, could not\nundertake several tens of experiments. To compensate for this\nlimitation, we progressively varied the value of one parameter\n(namely, the applied pore-ﬂuid pressure) during the experi-\nment, assuming that this single experiment represented several\nexperiments conducted under different air-pressure values.\nThis approach worked very well with incised models. In these",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                313.0624694824219,
+                344.02947998046875,
+                562.6714477539062,
+                561.2172241210938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bbf89a5e8a6e9cfe8304d439a4bed3c4",
+        "text": "Fig. 6. Structural evolution of the buttressed models, example of a model having a 2 cm-thick cover and a 3\u0005 basal slope angle. A: Line drawings of the evolution of deformation,\nfrom the ﬁrst stage (1) to the last stage (4) of deformation, with increasing lb. Numbers indicate the order of formation of the upslope normal faults and the related downslope\nthrusts. B: Overhead photograph of the ultimate stage of deformation. C: 3-D view of the ultimate stage of a buttressed model. D: Cross section (up) and line drawing (bottom). See\n(B) for location. The arrows indicate the sense of sliding.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.822967529296875,
+                506.9632263183594,
+                552.88134765625,
+                541.4012451171875
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "b479e10701644b616f785494de0cebad",
+        "text": "models, the analytical solution predicts a maximum value of the\nslid mass length, and this value increases with increasing applied\nﬂuid pressure. Thus, during one single experiment, the ﬁrst slide\nwas short (providing the critical value for the slid mass under\nlow ﬂuid pressure conditions), then, as air pressure increased,\nthe slid length increased, indicating the critical value for the slid\nmass for higher ﬂuid pressure conditions (Lacoste et al., 2011).\nConsequently, one single experiment could be regarded as\nequivalent of a set of different experiments conducted under\ndifferent values of pore-ﬂuid pressure. Such an analogy is less\nstraightforward when dealing with buttressed experiments,\nwherethe analytical model predicts a minimum critical length of\nthe slid mass (i.e., longer block could also slide) that decreases\nwith increasing ﬂuid pressure (Mourgues et al., 2009).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.464111328125,
+                557.69287109375,
+                283.8992919921875,
+                701.6825561523438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5a6f868b63f4f737ba081ba4eccafb96",
+        "text": "Theoretically, testing this set up would need multiple models,\neach one having a given cover thickness and slope value, and\na minimum area where the air pressure was applied, and check",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.81483459472656,
+                714.6340942382812,
+                283.9323425292969,
+                743.526123046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a0a7981c9d5a3732498b450fa6a76f90",
+        "text": "whether sliding could occur. Then we would increase the area\nsubjected to air pressure until sliding occurred. Such a scheme\nwould have required hundreds of experiments. Instead, we ran\nmodels whose entire base was subjected to air pressure from the\nstart, and progressively raised the air pressure as the model\nevolved. For speciﬁc critical values for cover thickness, basal slope,\nand ﬂuid pressure, the model would deform. But if the length of the\narea subjected to air pressure was greater than the critical\nminimum value for sliding, the entire model was likely to slide. In\nother words, model results did not provide us with the value of this\ncritical length, but a value that was e generally e greater than the\ncritical one. We worked around this caveat by progressively\nincreasing the air pressure in the model as it evolved. Typically,\na long panel of the cover slid during the ﬁrst episode, forming an\narray of normal faults updip and thrust faults downdip. Measuring\nthe shortest distance between the two deformation domains\nprovided the value for the length of the slid mass. With ongoing\ndeformation and increasing ﬂuid pressure, thrusts propagated",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.81951904296875,
+                557.9957885742188,
+                552.9287719726562,
+                743.8290405273438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0551c852d7758c9b4ecdbebe78be4fe8",
+        "text": "Fig. 7. Experimental evolutions of the sliding sheet length with respect to lb in buttressed models.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                156.58580017089844,
+                636.1818237304688,
+                448.43988037109375,
+                644.4700317382812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9f4fdb9e73a52905d5c42ef930b51b2c",
+        "text": "updip, while the extensional domain was passively translated\ndowndip: the length of the cover block translated rigidly decreased\nuntil a point when the system became totally blocked, regardless of\nthe air pressure we applied. At that stage, the length of the slid\nmass could be considered as the minimum critical length for\na given cover-thickness/ﬂuid-pressure conﬁguration. So, unlike the\nnon-buttressed experiments, each buttressed model could provide\nonly one critical value and could not be regarded as a substitute for",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                662.5746459960938,
+                293.6371765136719,
+                743.7990112304688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a944d0b94de527e2e541315c1bfbca8e",
+        "text": "multiple experiments. Moreover, the evolution of buttressed\nmodels also hindered the reliability of the procedure. During the\nearly stages, where the length of the slid mass was usually greater\nthan the critical length, thrusts and folds formed downdip, thick-\nening the cover and the décollement, and normal faults formed\nupdip where syntectonic sedimentation maintained the cover\nthickness constant, but the décollement thickness decreased.\nOverall, the conditions changed along the downslope and upslope",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.53265380859375,
+                662.5826416015625,
+                562.6254272460938,
+                743.8070068359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1831cc079b0a7394744d69d61a7477d9",
+        "text": "Fig. 8. Experimental evolutions of the sliding sheet length with respect to lb in incised models.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                151.710205078125,
+                588.3897094726562,
+                433.9303894042969,
+                596.6778564453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f1bd3745013b3b2486756a202deba131",
+        "text": "boundaries of the system, and this change may have had some\ninﬂuence on the result. These observations explain why the quan-\ntitative data collected on the buttressed models are a bit more\nerratic in matching the solutions predicted by the analytical model.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.825199127197266,
+                610.2471923828125,
+                283.9427185058594,
+                649.6279907226562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6a65e7670f855c30fbace8d3aff78601",
+        "text": "3.3. Results",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.825199127197266,
+                662.5795288085938,
+                75.80261993408203,
+                670.5497436523438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2f630738de6372538d5c162a6ceee6a0",
+        "text": "Each experiment was conducted twice to ensure that the results\nwere reproducible. We measured the average values of the sliding\nsheet lengths, with respect to the coefﬁcient of ﬂuid pressure (lb)\ncalculated at the base of the low-permeability microbeads layer, for\ncover thicknesses of 1 cm and 2 cm, and basal slope angles ranging\nfrom 2\u0005 to 4\u0005. We estimated the error in the determination of the",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.822540283203125,
+                683.5012817382812,
+                283.89300537109375,
+                743.7948608398438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "beb92007020d36d266c8d0e730eff31c",
+        "text": "coefﬁcient of ﬂuid pressure to be \u00040.05. This estimation accounts\nfor the precision of the digital manometer and uncertainties in the\npermeability values of the materials, which are difﬁcult to evaluate\nand can also vary depending on the way in which the different\nlayers were deposited. The models with basal slope angles lower\nthan 2\u0005 are not presented here because sand volcanoes formed and\nthe models eventually blew out before the experiments ended.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.8287048339844,
+                610.15576171875,
+                552.8881225585938,
+                681.03369140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "68ff1ded60744dcc3056d894f3087e0e",
+        "text": "3.3.1. Buttressed models\nAs observed by Mourgues and Cobbold (2006) and Mourgues\net al. (2009), the slid mass comprised three domains (Fig. 6). An\nextensional domain formed ﬁrst on upper edges of the models. A\ntranslated, non-deformed slab has been observed at mid-slope.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.8287048339844,
+                693.9852294921875,
+                552.896484375,
+                743.7990112304688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "16ae86b22b8b7d0909dd2af78d24af97",
+        "text": "Contractional structures developed on lower edges (Fig. 6A1) and,\nwith air pressure increasing, propagated updip (Fig. 6A2e3). When\nthe air pressure reached large values, such as models having a 2 cm\ncover thickness and a 3\u0005 basal slope angle, lb ¼ 0.97, the model slid\nas a whole (Fig. 6A4). This deformation stage reused the ﬁrst formed\nthrust. Thickening of the downslope contractional toe eventually\nblocked deformation propagation. With increasing air pressure,\nsand volcanoes formed (Fig. 6B and C). These volcanoes appeared\nﬁrst on or near normal faults, where faulting had thinned the cover,\nthereby decreasing the lithostatic pressure and increasing the\ncoefﬁcient of ﬂuid pressure.\nIn the buttressed models, the sliding sheet lengths decreased\nwith increasing lb (Fig. 7). The sliding sheet length increase where\nthe coefﬁcient of ﬂuid pressure reached values close to lb ¼ 1\n(Fig. 7) was due to changes in boundary conditions caused by the\nformation of successive thrusts and the thickening of the lower\nedge of the models (see Section 5.2).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.509239196777344,
+                66.3354721069336,
+                293.64337158203125,
+                241.6658477783203
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "dabd6fed3ad0bb2c20cc5c0ba3591b61",
+        "text": "3.3.2. Incised models\nThe sliding sheet lengths in incised models increased with lb\nincreasing (Fig. 8). We observed a threshold in lb, above which the\nlength of the sliding sheet greatly increased. This threshold was\nbetter\nexpressed\nin\nthe\nmodels\nhaving\nthe\nthinner\ncover\n(thickness ¼ 1 cm) than in the models having a 2 cm-thick cover. In\nthe latter case, sliding sheet lengths evolved exponentially, without\nclearly deﬁning any threshold. As in the theoretical predictions\n(Fig. 4B), an increase in cover thickness and/or in the basal slope\nangle reduced the value of the coefﬁcient of ﬂuid pressure required\nfor the cover to slide (Fig. 8). For example, in the case of a 1 cm-thick\ncover, in order for the slide to reach a length of 30 cm, lb must be\nequal to 0.97 where the system is tilted by 2\u0005, 0.88 where it is tilted\nby 3\u0005, and 0.78 where it is tilted by 4\u0005 (Fig. 8).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51819610595703,
+                254.61740112304688,
+                293.6983947753906,
+                398.58966064453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c833c6ceebfd15cca4acd93a7eb7dcfb",
+        "text": "4. Discussion",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.511871337890625,
+                411.5406799316406,
+                96.38079071044922,
+                419.5108642578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "873257e49674a2eed53b62faa0fc13e8",
+        "text": "4.1. Sliding processes in models subjected to ﬂuid overpressure",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.511871337890625,
+                432.3747863769531,
+                272.87420654296875,
+                440.4326477050781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "460a2e9445dc1c49b0c58b56dea5214e",
+        "text": "Numerous experiments have emphasized the role of pore-ﬂuid\npressure in the triggering of mass movements (e.g., Wang and\nSassa, 2003; Mourgues et al., 2009; Lacoste et al., 2011). However,\nan important distinction should be made between the inﬂuence of\nﬂuid overpressure in the cover and along the base of the cover,\nrespectively. On one hand, slope instability arises from water ﬂows\n(Ghiassian and Ghareh, 2008) and saturation of the potentially\nmobile cover (Wang and Sassa, 2003). In that case, sliding takes\nplace on or near the top of the basal detachment layer (e.g., swelling\nclays, Shuzui, 2001). On the other hand, the critical decrease in the\neffective stress along the base of an overpressured layer allows for\nsliding of the overlying cover to occur, regardless of the ﬂuid\nsaturation of this cover.\nOur results conﬁrm that, in models having a downslope\nbuttress, the sliding sheet length decreases with the basal pore-\nﬂuid pressure increasing, as observed by Mourgues and Cobbold\n(2006) and Mourgues et al. (2009). In these models, the contrac-\ntional structures form ﬁrst in the downslope part and propagate\nupdip. This stacking mechanism is similar to that described in\nexperimental salt-detached gravity-driven thrusts belts by Dooley\net al. (2007). In contrast, in models subjected to downslope inci-\nsion, the sliding sheet length increases with increasing pore-ﬂuid\npressure.\nThe presence of a downslope resisting force prevents the\nformation of slope instability below a threshold of the coefﬁcient of\nﬂuid pressure (lb) (Figs. 3 and 7), for which the value of the fric-\ntional resisting force at the base of the cover decreases enough to\nallow for sliding to occur. In buttressed models where the value of",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.511810302734375,
+                453.29656982421875,
+                293.6575012207031,
+                743.794189453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5d98fbabdea3cabab0235dc972bb8542",
+        "text": "lb was smaller, the driving forces induced by the weight of the cover\nand/or the basal slope had to reach sufﬁcient values to overcome\nthe buttressing resistance (Fig. 7). An increase in cover thickness,\nbasal slope angle and/or coefﬁcient of ﬂuid pressure causes\na decrease in the sliding sheet length, i.e., the distance between the\nupslope normal fault and the downslope thrust (Fig. 6; Mourgues\nand Cobbold, 2006).\nIn incised models subjected to ﬂuid overpressure, combined low\nbasal resistance related to ﬂuid overpressure and the lack of\ndownslope buttress critically reduce the forces resisting sliding and\ntrigger deformation, even where the driving forces are moderate. In\nsuch a case, slope instabilities can form even at small lb values\n(Figs. 4B and 8). The driving forces Fw and Fs do not depend on the\ncoefﬁcient of ﬂuid pressure. Therefore, with lb increasing, the\nsliding sheet lengths increases (Fig. 8), because of the progressive\ndecrease in the value of the frictional force Fb. In the absence of\ndistal buttress, the deformation thus propagates retrogressively\nfrom the valley ﬂanks upslope (Lacoste et al., 2011). To limit the\ntotal number of experiments, we decided to raise the air pressure\nprogressively. Nonetheless, with the coefﬁcient of ﬂuid pressure\nremaining constant, an increase in the basal slope (i.e., the driving\nforces Fw and Fs) would have yielded similar results.\nThe mechanical behaviour of the material during the deforma-\ntion phases may also affect the geometry and kinematics of the\nsliding masses. Early studies showed that deformation had a strong\ninﬂuence on the mechanical properties of natural rocks (Byerlee,\n1978; Paterson, 1978). Following these observations, Lohrmann\net al. (2003) demonstrated that granular analogue materials were\nsubjected to strain hardening prior to failure and subsequent strain\nsoftening. This transition from peak strength to residual strength\nduring deformation could account for the structural evolution of\nthe slides. However, Schreurs et al. (2006) showed that the glass\nmicrobeads used in our experiments (Table 1) are subjected to <9%\nstrain softening, which represents a change between peak and\nresidual angle of internal friction <2\u0005. This effect is therefore\nnegligible in comparison with the inﬂuence of increasing air pres-\nsure on the reduction of the basal frictional resisting force.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.51690673828125,
+                65.29156494140625,
+                562.6548461914062,
+                450.8620300292969
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "708a1795b71879f16b809f7974434a71",
+        "text": "4.2. Comparison between experimental and analytical models",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.529052734375,
+                463.8136291503906,
+                539.2555541992188,
+                471.7838134765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "88993751887b538cdadcdbd0425bd5a5",
+        "text": "The experimental results are in good agreement with the\ntheoretical predictions of the analytical model. The predicted\nevolutions of the sliding sheet lengths are depicted in the models\nby the propagation of the extensional and contractional domains. In\nmodels having a downslope buttress, we observed an exponential\ndecrease in the sliding sheet length with increasing lb, except in the\nexperimental model having a 2 cm-cover thickness and a 2\u0005-basal\nslope angle (not presented in this article), in which this decrease\nwas moderate. In the latter model, strong lateral friction combined\nwith weak driving forces hampered sliding. In models subjected to\nincision, the sliding sheet length increased exponentially with\nincreasing lb. We also observed that the coefﬁcient of ﬂuid pressure\nrequired for the cover to slide decreased with the basal slope angle\nand/or the cover thickness increasing (Figs. 4B and 8). An increase\nin the cover thickness also decreases the concavity of the curve\n(Fig. 4B). In the analogue models, the sliding lengths evolutions in\nmodels having a 2 cm-thick cover effectively tend to be more linear.\nHowever, despite the general agreement between the analytical\nand experimental curves, several differences require further\ndiscussion. No vertical asymptote, corresponding to the inﬁnite-\nslope model case (Crans et al., 1980; Mello and Pratson, 1999),\nwas observed in our analogue models. Indeed, the evolution of\ndeformation in the experiments led to different stress states than\nthe initial boundary conditions, for which the analytical curves\nwere drawn. In the buttressed models case, the calculated sliding",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.5240173339844,
+                484.73541259765625,
+                562.6617431640625,
+                743.8053588867188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a8e268b835811078cb4f10cc3a94c8ee",
+        "text": "length is a minimum length. In the experiments, the slides may\nhave a length greater than that minimum value (Fig. 6A4). The\nprogressive thickening of the cover increased the resisting force at\nthe base of the slope, which favoured the updip propagation of the\ndeformation during the ﬁrst episodes of sliding. However, in late\nstages (Fig. 6A4), the buttressing force reached a critical value and\nprevented the formation of new structures, therefore leading to the\nresumption of motion along former thrusts. As a consequence, in\nbuttressed models, the measured sheet length is not always the\nminimum sliding length (see Section 4.2). This difference could\naccount for discrepancies between the analytical and analogue\nmodels.\nIn the incised models case, the thinning of the cover and the\nimportant amount of strain at the base of the slope at the end of\nexperiments hampered sliding of inﬁnitely-long sheets, as pre-\ndicted by the analytical calculations (inﬁnite slope model, Crans\net al., 1980; Mello and Pratson, 1999). Moreover, in these experi-\nments, we simulated river incision by vacuuming the downslope\npart of the cover. The valley ﬂank slope was controlled by the angle\nof repose of the cohesionless sand (34\u0005, Table 1). In practice, the\ndownslope wedge-like geometry of the cover generated a resisting\nforce. As weak a force as this might be, it turned out to be great\nenough to prevent the whole cover from sliding. In the experiments\nwith incision that involved a 2 cm-thick cover, the sharp increase in\nthe sliding-sheet length with increasing lb was not clearly visible,\nexcept for the 3\u0005-basal slope angle model (Fig. 8). Because the\nresisting force induced by the wedge increases with increasing\ncover thickness, it therefore opposes sliding in the models having\na thick cover (i.e., 2 cm), even where the frictional basal force (Fb)\nhad been reduced by the effect of ﬂuid overpressure.\nLateral friction along the sidewalls may also have a strong\ninﬂuence on sliding evolution by adding a supplementary resisting\nforce. Because the driving forces as compared with forces gener-\nated by the sedimentary cover thickness and the basal slope angle,\nas well as the shear frictional resisting force at the base of the\ncover, are small, lateral frictional forces can become proportionally\nquite important, and control the evolution of deformation of\nanalogue models subjected to ﬂuid overpressure (Costa and\nVendeville, 2004; Schreurs et al., 2006; Vendeville, 2007). There-\nfore, to overcome the resulting force resisting sliding, the driving\nforces (the basal slope angle and/or the cover thickness) must be\nincreased.\nThe evolution of the sliding sheet length with respect to lb also\ndepends on the values of the décollement layer and cover cohesion.\nHigh cohesion values hamper sliding. In our analytical calculations\n(Fig. 4), we assumed that our sands were dry and had no cohesion.\nHowever, air-moisture in the laboratory may have raised the sand’s\ncohesion to non-negligible levels. The materials (sand and glass\nmicrobeads) that we used in these models could then have had\na cohesion greater than previously expected when the experiments\nwere performed, which would lead to greater resistance to sliding.\nFurther\nexperiments\ninvolving\ncohesive\nmaterials\nwould\nbe\nrequired to conﬁrm this hypothesis.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.82078552246094,
+                66.3354721069336,
+                283.97320556640625,
+                618.2278442382812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d87609b5897c807b02b3a1f3fe54813b",
+        "text": "5. Conclusions",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.82805633544922,
+                631.2352294921875,
+                92.30847930908203,
+                639.2054443359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "147d5e49a9b5c43ad0cfe3a4b6d6b0f8",
+        "text": "We developed a 2-D analytical model that investigated the\ninﬂuence of incision and the removal of downslope buttress on\nthe structural evolution of a cover sliding on a low-permeability\nlayer\nsubjected\nto\nﬂuid\noverpressure.\nWe\nalso\nconducted\nanalogue experiments that helped us better understand the style\nand evolution of deformation determined with the analytical\ncalculations.\nModel\nresults\nshow\nthat\nsliding\ndeformation\nprocesses greatly differ depending on whether a distal buttress is\npresent or not:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.81976318359375,
+                652.1570434570312,
+                283.9232482910156,
+                743.8143310546875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c6e0de41176e1d8e1f38d16259954a0b",
+        "text": "- In models having a downslope buttress, the sliding sheet\nlength decreases with the coefﬁcient of ﬂuid pressure (lb)\napplied at the base of the model increasing.\n- In models subjected to downslope incision, the sliding sheet\nlength increases with lb increasing. Slope instabilities may\nform even in the case when values of lb are low.\n- In both buttressed and incised models, the value of lb required\nfor the cover to slide decreases when the basal slope angle and/\nor the cover thickness increase (albeit with less impact than the\nslope angle).\n- Deformation in incised models is controlled by extensional\nstructures spreading retrogressively from the valley ﬂank\nupslope. In buttressed models, deformation is mostly accom-\nmodated by contractional structures forming on the lower\nedges of the models. These structures migrate updip as the\nbasal pore-ﬂuid pressure is increasing.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.1800842285156,
+                66.06832122802734,
+                552.943359375,
+                230.9571075439453
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c62bd6abe4e620b0b5a45030b6d9140a",
+        "text": "Acknowledegments",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.8406066894531,
+                248.38790893554688,
+                379.6145324707031,
+                256.35809326171875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "eb6f71fcaaa8959e94af276b493b4c16",
+        "text": "We are grateful to José Miguel Azañon and Michel Jaboyedoff for\ncareful and constructive reviews.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.8406066894531,
+                269.3096618652344,
+                552.8339233398438,
+                287.76861572265625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "168c6932d240ce51380541c0afc8e1ac",
+        "text": "Appendix",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.8406066894531,
+                305.199462890625,
+                339.6210021972656,
+                313.1696472167969
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b0c9f76e7f99b90b022d903e60b4e86b",
+        "text": "A.1. Balance of forces in a frontally conﬁned system",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.8406066894531,
+                326.0335693359375,
+                490.1704406738281,
+                334.0914306640625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3e55440564dacd9cee4cbc8ec4386387",
+        "text": "On a segment of a cohesionless system deﬁned between an\nextensional part upslope and a thrust front downslope (Fig. A1), the\nbalance of forces along the x-axis can be written as:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.857177734375,
+                346.9553527832031,
+                552.9249877929688,
+                375.9349670410156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "177aa1182aee0ee8b1829a2cf123d069",
+        "text": "Fw þ Fs þ Fb ¼ 0\n(a1)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.8330078125,
+                386.2935485839844,
+                552.8445434570312,
+                396.7828674316406
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "96e3b6a1eec2592d1869981f59bf3adc",
+        "text": "where Fw is the x-component of a gravitational body force\nexpressed with the buoyant weight:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.8330078125,
+                403.03460693359375,
+                552.91748046875,
+                421.4935607910156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cc565ab2e5566eb3df5277dcabf50a33",
+        "text": "Fw ¼ regHLsin a\n(a2)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.8330078125,
+                430.6907958984375,
+                552.8416748046875,
+                441.95452880859375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b6a79ab0c7b4bea1d730e85c19010c48",
+        "text": "with L, the length of the sliding sheet and H its thickness. Fb is the\nsurface force exerted at the base and governed by the frictional\nsliding condition (6). Assuming no lateral variation of frictional\nresistance along the décollement, we can write:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.8330078125,
+                448.6156921386719,
+                552.8513793945312,
+                487.94061279296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bc0c8416c01f02f28e4cf73efb0f0e98",
+        "text": "Fb ¼\nZ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.8330078125,
+                491.68756103515625,
+                329.4731140136719,
+                513.68359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fef1ab6277c380c0154e97360843f222",
+        "text": "L\nsbdx ¼ \u0002mbs0\nzz ¼ \u0002mbð1 \u0002 lbÞregHLcos a\n(a3)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                325.5306091308594,
+                501.3690490722656,
+                552.8416748046875,
+                524.55615234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "00a75ed47ed20c142fe9c59069211fdc",
+        "text": "Fs is the net force exerted by s0\nxx acting on the upper and lower\nedges of the system (Fig. A1):",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.83251953125,
+                530.569580078125,
+                552.8837280273438,
+                550.3574829101562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6ac16a1eb824559d49fd4008199d1cd8",
+        "text": "Fs ¼ Fext\ns\n\u0002 Ftoe\ns\n¼\nZ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.8330078125,
+                554.1655883789062,
+                384.4652099609375,
+                576.0402221679688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "702bcc10eb3fa9dc01be2ab558a1c9a4",
+        "text": "H\ns0ext\nxx bdh \u0002\nZ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                379.6156921386719,
+                554.1655883789062,
+                431.8693542480469,
+                586.9749755859375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4a357ce35953bc3e09c554a4aabb134a",
+        "text": "H\ns0toe\nxx bdh\n(a4)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                427.0108947753906,
+                563.7879638671875,
+                552.8500366210938,
+                586.9749755859375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fa1ee0e4a0bf9fbe11e8866493640375",
+        "text": "Fig. A1. Stresses and forces applied in our model. Fw is the driving force induced by the\nweight of the model, Fb is the basal frictional resisting force, Fext\ns\nand Ftoe\ns\nare the forces\nexerted by s0\nxx acting on the upper and lower edges of the system, respectively.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.8311767578125,
+                719.90185546875,
+                552.8925170898438,
+                745.1583862304688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "13bb12383107fb09ce5fda36f45a19e8",
+        "text": "When the system starts sliding, normal faults form at the upper\nedge and thrust faults appear at the lower edge, as postulated by\nNye (1952) in the case of glacier deformation. s0\nxx in both edges may\nthus be calculated at yield. In the extensional part, Mandl and Crans\n(1981) calculated that the dips of the normal faults depend on the\namount of ﬂuid overpressure in the cover. Mourgues and Cobbold\n(2003) used sandbox experiments to verify these predictions and\nnoted that the orientation of the main principal stress was inﬂu-\nenced by the seepage force, a force assumed to be perpendicular to\nthe slope. They also showed that the dips of the normal faults could\nbe described by using expressions of s0\nxz and s0\nzz deduced from the\ninﬁnite slope model:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.517913818359375,
+                66.3354721069336,
+                293.654296875,
+                189.3371124267578
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fe55b1655639b35f8dbe51f60da70198",
+        "text": "s0\nxz ¼ regzsin a\n(a5)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                198.2887420654297,
+                293.5849914550781,
+                210.88951110839844
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "15efc6ec05d30bac5a3edf9e93617b39",
+        "text": "s0\nzz ¼ ð1 \u0002 lÞregzcos a\n(a5.1)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                222.1564178466797,
+                293.5928955078125,
+                234.70018005371094
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "de87ff4af04b6257235616bd97b9f7e0",
+        "text": "Fig. A2. Mohr’s circle representation of the values of s0\nxx in the upslope part (s0ext\nxx ,\nextension) and downslope part (s0toe\nxx , compression) of the model.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51808166503906,
+                421.59844970703125,
+                293.5986022949219,
+                439.47088623046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6ae17fcdf77919472ef8c5b406be9286",
+        "text": "We used this hypothesis to estimate s0\nxx in the extensional\ntrailing edge ðs0ext\nxx Þ and in the contractional leading edge ðs0toe\nxx Þ. The\nassociated extensional and contractional states of stress correspond\nto Rankine active and passive states, respectively (Lambe and\nWhitman, 1969). Fig. A2 shows the Mohr circle for this state of\nstresses, according to hypotheses (a5) and (a5.1), assuming no\ncohesion. From simple geometrical considerations (Fig. A2), we can\nwrite:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51580810546875,
+                448.1380615234375,
+                293.6167297363281,
+                530.6897583007812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fcfdb9521bb862ed3777df6a47cfe479",
+        "text": "r ¼ s0sin f ¼\nﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ\ns0xz2 þ \u0005\u0005s0xx þ s0zz\n\u0006\u00072\u00062\nq\n(a6)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                535.1663208007812,
+                293.589599609375,
+                557.220458984375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "23a3fb55bbb162107a6044650c13113c",
+        "text": "s0 ¼ \u0005s0\nxx þ s0\nzz\n\u0006\u00072\n(a7)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                564.6493530273438,
+                293.5887756347656,
+                582.2847900390625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "476c5bfaa98f0e078c177d899d38187b",
+        "text": "Combining Eqs. (a5.1)e(a7), we ﬁnd:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.48189926147461,
+                588.9563598632812,
+                193.96583557128906,
+                597.0142211914062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "82efc41a388445dff02019d53c5f64af",
+        "text": "s0\nxx ¼ s0\nzzð2Y \u0002 1Þ\n(a8)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                605.9673461914062,
+                293.57904052734375,
+                618.5681762695312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8db58da1406d7238b4d1f0d9f8e1a595",
+        "text": "with Y ¼ ð1 \u0004 sin f\nﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ\n1 \u0002 FS2\np\nÞ=cos2 f. FS can be considered as\na factor of safety evaluating the internal stability of the cohesionless\ncover:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51829528808594,
+                615.9421997070312,
+                293.5860595703125,
+                653.7091674804688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f34604ae8b5567bcfdd0d6f841b99515",
+        "text": "FS ¼ tan a=ðð1 \u0002 lÞtan fÞ\n(a9)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                663.1317138671875,
+                293.585205078125,
+                672.960693359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "691d62596279d468ffb67068be42f992",
+        "text": "The sedimentary cover becomes instable for FS \u0006 1. Fs can be\nevaluated from Eq. (a4):",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51573181152344,
+                680.9122314453125,
+                293.5917663574219,
+                699.4588623046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7875ca9b250f525763ca96c3aefce7b6",
+        "text": "ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ\n1 \u0002 FS2\np\n(a10)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                150.46299743652344,
+                703.8871459960938,
+                293.5654296875,
+                722.1779174804688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0a41c89dfb151b9de5f0abf7c29ecc4e",
+        "text": "Fs ¼ \u00022ð1 \u0002 lÞmrgH2cos a\ncos f",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                706.7852172851562,
+                148.96673583984375,
+                728.122802734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5ff2a5bb51684c868a6a31212cd2097f",
+        "text": "L ¼\n2ð1 \u0002 lÞm\nﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ\n1 \u0002 FS2\np",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.5274963378906,
+                60.53614044189453,
+                416.4203186035156,
+                84.15779876708984
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "99edb96cca898f970a526feebd896f81",
+        "text": "ðtan a \u0002 ð1 \u0002 lbÞmbÞcos fH\n(a11)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                330.17706298828125,
+                75.70939636230469,
+                562.5704345703125,
+                91.59233093261719
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a376837c2e16bf65e7d7c9a27602fd14",
+        "text": "The negative value of Fs in Eq. (a10) shows this force acts as\na resisting force. Therefore, sliding only occurs if the condition\n(1 \u0002 lb)mb \u0003 tan a is satisﬁed. Where (1 \u0002 lb)mb ¼ tan a, L reaches an\ninﬁnite length. This limit corresponds to the inﬁnite slope model\nand is satisﬁed for Fs ¼ 0. Beyond this limit, as the pore ﬂuid\npressure lb increases, the length of the sliding sheet allowed to\nglide decreases.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.5267333984375,
+                98.1969223022461,
+                562.6278686523438,
+                168.9275665283203
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ab63c19ccf74011502c1803aba1a4610",
+        "text": "A.2. Length of a sliding sheet where the distal buttress is absent",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.5267333984375,
+                186.75692749023438,
+                545.20458984375,
+                194.7271270751953
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a67f92978a7f6af44e52f989449a91c9",
+        "text": "In comparison with the buttressed model, the seepage force\nnow has an x-component that must be added to the balance of\nforces. Eq. (a1) then becomes:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.5184326171875,
+                207.67868041992188,
+                562.5613403320312,
+                236.5706329345703
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7bdcbbe1e8adf3b78a9c93f63c2c7671",
+        "text": "Fw þ Fs þ Fb þ FSF ¼ 0\n(a12)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.5274963378906,
+                246.8856964111328,
+                562.5740356445312,
+                257.3750305175781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "97f279f4f6179124b69215ea5e68ca14",
+        "text": "FSF is the x-component of the seepage force:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                323.48968505859375,
+                263.6835021972656,
+                491.3704528808594,
+                272.95758056640625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c56c218fb870f0c68c16d8eea24d8252",
+        "text": "FSF ¼ \u0002\nZ Z Z",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.5274963378906,
+                275.4065856933594,
+                371.59552001953125,
+                297.11676025390625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c007019b77fb85e1b2e78ede6fbed7fc",
+        "text": "V\n/\nPovdv ¼ \u0002\nZ Z",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                375.760498046875,
+                275.4065856933594,
+                445.5863037109375,
+                296.25384521484375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "499820514bc768d27add42ab2816d289",
+        "text": "Pov dS\n\b! ¼\nZ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                449.801513671875,
+                275.4065856933594,
+                494.958251953125,
+                296.69952392578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0e3e86c311ffe56811f241362914c6f4",
+        "text": "Povdh",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                499.1809997558594,
+                286.94708251953125,
+                521.7537231445312,
+                296.25384521484375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1016332c7dfb70feb3e5d048db7a1349",
+        "text": "V",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                366.8597106933594,
+                301.8796691894531,
+                370.83990478515625,
+                308.2159423828125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "546567bcb37254b113b1ca61101c4cf3",
+        "text": "H",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                490.110107421875,
+                301.8796691894531,
+                494.7756042480469,
+                308.2159423828125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7aade8f4975315dfda4ef0dfd6963a58",
+        "text": "S",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                441.58099365234375,
+                301.9930725097656,
+                444.8033447265625,
+                308.329345703125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4b7adc2c226fd862bdc04939054cf934",
+        "text": "¼ 0:5lregH2cos a\n(a13)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                326.83843994140625,
+                311.7442626953125,
+                562.572998046875,
+                323.5797424316406
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a3780e96b5b69d6fef8dcbe833e6edaa",
+        "text": "Fw can then be expressed as:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                323.48968505859375,
+                331.03460693359375,
+                432.531005859375,
+                340.365478515625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d9b270dd8339bb6465b878debe315f26",
+        "text": "Fw ¼ regHLsin a þ 0:5regH2Lsin a=tan b\n(a14)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.5274963378906,
+                349.21826171875,
+                562.572998046875,
+                361.0537414550781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ada5334f067b2db5a56c1a7e5d1b3e6e",
+        "text": "where b is the angle of the downslope wedge and L the length of the\nslide. Assuming that s0\nzz may be estimated by Eq. (a5) along the\ndetachment, the basal frictional force Fb becomes:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.5267333984375,
+                366.67108154296875,
+                562.5892944335938,
+                397.9654846191406
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2fdc6c108c22ca8bd718d122f45826c2",
+        "text": "Fb ¼ \u0002mbð1 \u0002 lbÞregHcos aðL þ 0:5H=tan bÞ\n(a15)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.5274963378906,
+                406.0293884277344,
+                562.5759887695312,
+                417.6458435058594
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "10acef0524a0815913df6a966f83ae83",
+        "text": "Combining Eqs. a12ea15, length L is given by:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                323.48968505859375,
+                423.86663818359375,
+                498.2756652832031,
+                431.92449951171875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8253c8bc4f81c3f77689240810dcde35",
+        "text": "\u0004\nH\n(a16)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                454.3369140625,
+                436.2966613769531,
+                562.5753784179688,
+                456.7418212890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "681089a8417bbca2000fd7ecb318c529",
+        "text": "L ¼ 0:5\n\u0003ð1 \u0002 lÞð2Y \u0002 1Þ þ l\nmbð1 \u0002 lbÞ \u0002 tan a \u0002\n1\ntan b",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.5274963378906,
+                436.29833984375,
+                454.3680419921875,
+                464.1781311035156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d208c97739f15ff7f14cf1ca8432222a",
+        "text": "Unlike in the buttressed model case, sliding here occurs even if\n(1 \u0002 lb)mb \u0006 tan a is not satisﬁed yet. Indeed, in incised models, Fs\nbecomes a driving force (Fs > 0) and a seepage force is added. L\nincreases with lb. In other terms, deformation starts close to the\ndownslope wedge and spreads retrogressively.\nIf the cover is cohesive, Eq. (a8) is modiﬁed as s0ext\nxx\nand z are not\nlinearly dependent. The expression of Fext\ns\nbecomes more complex\nand must be numerically integrated. Close to the surface, s0\nxx\nbecomes negative (Fig. A2). If cohesion is high enough, Fs may even\ntransform into a resisting force (Fs < 0). In such a case, and for\nFs þ FSF < 0, sliding is only triggered for (1 \u0002 lb)mb \u0003 tan a. This\nbehaviour is similar to the behaviour of the buttressed model,\nwhere sliding starts with an inﬁnite length.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.5227355957031,
+                470.7825927734375,
+                562.6609497070312,
+                604.3297729492188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0a426d22b3100ac0d785bf5c6db0cbd2",
+        "text": "References",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.5279235839844,
+                622.0953369140625,
+                354.17388916015625,
+                630.0655517578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "141174f36bc5c2b0f20be5d738bdd2d7",
+        "text": "Azañon, J.M., Azor, A., Vicente Pérez-Peña, J., Carrillo, J.M., 2005. Late Quaternary\nlarge-scale rotational slides induced by river incision: the Arroyo de Gor area\n(Guadix basin, SE Spain). Geomorphology 69, 152e168.\nByerlee, J., 1978. Friction of rocks. Pure and Applied Geophysics 116, 615e626.\nChen, H., Dadson, S., Chi, Y.-G., 2006. Recent rainfall-induced landslides and debris\nﬂow in northern Taiwan. Geomorphology 77, 112e125.\nCobbold, P.R., Mourgues, R., Boyd, K., 2004. Mechanism of thin-skinned detachment\nin the Amazon Fan: assessing the importance of ﬂuid overpressure and\nhydrocarbon generation. Marine and Petroleum Geology 21, 1013e1025.\nCosta, E., Vendeville, B., 2004. Experimental insights on the geometry and kine-\nmatics of fold-and-thrust belts above weak, viscous evaporitic décollement:\nreply to comments by Hemin Koyi and James Cotton. Journal of Structural\nGeology 26, 2141e2143.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.5274963378906,
+                641.4388427734375,
+                562.5963134765625,
+                743.4739379882812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c2532265a405a36a96fca62f8527cb4d",
+        "text": "Crans, W., Mandl, G., Haremboure, J., 1980. On the theory of growth faulting:\na geomechanical delta model based on gravity sliding. Journal of Petroleum\nGeology 2, 265e307.\nDahlen, F.A., 1984. Non-cohesive critical Coulomb wedges: an exact solution. Jour-\nnal of Geophysical Research 89, 10125e10133.\nDahlen, F.A., 1990. Critical taper model of fold-and-thrust belts and accretionary\nwedges. Annual Review of Earth and Planetary Science 18, 55e99.\nDavis, D., Suppe, J., Dahlen, F.A., 1983. Mechanics of fold-and-thrust belts and\naccretionary wedges. Journal of Geophysical Research 88 (B2), 1153e1172.\nDooley, T.P., Jackson, M.P.A., Hudec, M.R., 2007. Initiation and growth of salt-based\nthrust belts on passive margins: results from physical models. Basin Research\n19, 165e177.\nGhiassian, H., Ghareh, S., 2008. Stability of sandy slopes under seepage conditions.\nLandslides 5, 397e406.\nHaﬂidason, H., Sejrup, H.P., Nygard, A., Mienert, J., Bryn, P., Lien, R., Forsberg, C.F.,\nBerg, K., Masson, D., 2004. The Storegga Slide: architecture, geometry and slide-\ndevelopment. Marine Geology 213, 201e234.\nHooper, R.J., Fitzsimmons, R.J., Grant, N., Vendeville, B.C., 2002. The role of defor-\nmation in controlling depositional patterns in the south-central Niger Delta,\nWest Africa. Journal of Structural Geology 24, 847e859.\nHubbert, M.K., Rubey, W.W., 1959. Role of ﬂuid pressure in mechanics of overthrust\nfaulting. Geological Society of America Bulletin 70, 115e166.\nKeefer, D.K., 1984. Landslides caused by earthquakes. Geological Society of America\nBulletin 95, 406e421.\nLacoste, A., Loncke, L., Chanier, F., Bailleul, J., Vendeville, B.C., Mahieux, G., 2009.\nMorphology and structure of a landslide complex in an active margin setting:\nthe Waitawhiti complex, North Island, New Zealand. Geomorphology 109,\n184e196.\nLacoste, A., Vendeville, B.C., Loncke, L., 2011. Inﬂuence of combined incision and\nﬂuid overpressure on slope stability: experimental modelling and natural\napplications. Journal of Structural Geology 33, 731e742.\nLambe, T.W., Whitman, R.V., 1969. Soil Mechanics. Wiley, New York, 553 pp.\nLohrmann, J., Kukowski, N., Adam, J., Oncken, O., 2003. The impact of analogue\nmaterial properties on the geometry, kinematics, and dynamics of convergent\nsand wedges. Journal of Structural Geology 25, 1691e1711.\nMandl, G., 1988. Mechanics of tectonic faulting: models and basic concepts. In:\nDevelopments in Structural Geology. Elsevier, p. 407.\nMandl, G., Crans, W., 1981. Gravitational gliding in deltas. In: McClay, K.R., Price, N.J.\n(Eds.), Thrust and Nappe Tectonics. Geological Society Special Publication, vol.\n9, pp. 41e54.\nMello, U.T., Pratson, L.F., 1999. Regional slope stability and slope-failure mechanics\nfrom the two-dimensional state of stress in an inﬁnite slope. Marine Geology\n154, 339e356.\nMourgues, R., Cobbold, P.R., 2003. Some tectonic consequences of ﬂuid over-\npressures and seepage forces as demonstrated by sandbox modelling. Tecto-\nnophysics 376, 75e97.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.81195831298828,
+                66.40274810791016,
+                283.9336853027344,
+                431.4857482910156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b670dee666fb9380f902faf99c00aeaf",
+        "text": "Mourgues, R., Cobbold, P.R., 2006. Sandbox experiments on gravitational spreading\nand gliding in the presence of ﬂuid overpressures. Journal of Structural Geology\n28, 887e901.\nMourgues, R., Lecomte, E., Vendeville, B., Raillard, S., 2009. An experimental\ninvestigation of gravity-driven shale tectonics in progradational delta. Tecto-\nnophysics 474, 643e656.\nNye, J.F., 1952. The mechanics of glacier ﬂow. Journal of Glaciology 2, 82e93.\nPanien, M., Schreurs, G., Pﬁffner, A., 2006. Mechanical behaviour of granular materials\nused in analogue modelling: insights from grain characterisation, ring-shear tests\nand analogue experiments. Journal of Structural Geology 28, 1710e1724.\nPaterson, M.S., 1978. Experimental Rock Deformation. Springer, New York, 254 pp.\nSchellart, W.P., 2000. Shear test results for cohesion and friction coefﬁcients for\ndifferent granular materials: scaling implications for their usage in analogue\nmodelling. Tectonophysics 324, 1e16.\nSchreurs, G., Buiter, S.J.H., Boutelier, D., Corti, G., Costa, E., Cruden, A.R., Daniel, J.-M.,\nHoth, S., Koyi, H.A., Kukowski, N., Lohrmann, J., Ravaglia, A., Schlische, R.W.,\nWithjack, M.O., Yamada, Y., Cavozzi, C., Del Ventisette, C., Elder Brady, J.A.,\nHoffmann-Rothe, A., Mengus, J.-M., Montanari, D., Nilforoushan, F., 2006.\nAnalogue benchmarks of shortening and extension experiments. In: Geological\nSociety of London Special Publication, vol. 253, pp. 1e27.\nShuzui, H., 2001. Process of slip-surface development and formation of slip-surface\nclay in landslides in tertiary volcanic rocks, Japan. Engineering Geology 61,\n199e219.\nTerzaghi, K.v., 1923. Die Berechnung der Durchlässigkeitsziffer des Tones aus dem\nVerlauf der hydrodynamischen Spannungerscheinungen. Akad. Wissensch.\nWien., Math. Naturw. KL. Abt. 132, 125e138.\nTerzaghi, K.v., 1950. Mechanics of landslides. In: Paige, S. (Ed.), Application of\nGeology to Engineering Practice. Geological Society of America, pp. 83e123.\nNew York.\nTerzaghi, K.v., 1959. Soil mechanics in action. Civil Engineering 29, 69e70.\nVan Rensbergen, P., Morley, C.K., 2000. 3D seismic study of a shale expulsion\nsyncline at the base of the Champion delta, offshore Bruneï, and its implications\nfor the early structural evolution of large delta systems. Marine and Petroleum\nGeology 17, 861e872.\nVendeville, B.C., 2007. The 3-D nature of stress ﬁelds in physical experiments and its\nimpact on models overall evolution. In: European Geosciences Union General\nAssembly, 15e20 April.\nWang, G., Sassa, K., 2003. Pore-pressure generation and movement of rainfall-\ninduced landslides: effects of grain size and ﬁne-particle content. Engineering\nGeology 69, 109e125.\nWeber, K.J., Daukoru, E.M., 1975. Petroleum geology of the Niger delta. In:\nProceedings of the Ninth World Petroleum Congress. Geology, vol. 2. Applied\nScience Publishers, Ltd., London, pp. 210e221.\nYamada, Y., Kaneda, K., Matsuoka, T., 2006. Inﬂuences of material properties on\nanalogue model experiments of geologic structures. Journal of the Society of\nMaterials Sciences, Japan 55, 452e457.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814112001290-main.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.83013916015625,
+                66.46610260009766,
+                552.92822265625,
+                431.4763488769531
+            ],
+            "is_full_width": false
+        }
+    }
+]

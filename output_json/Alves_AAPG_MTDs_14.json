@@ -1,0 +1,3156 @@
+[
+    {
+        "element_id": "52632cbaf3c35cf78788635b59d3ecbe",
+        "text": "Assessing the internal character,\nreservoir potential, and seal\ncompetence of mass-transport\ndeposits using seismic texture:\nA geophysical and\npetrophysical approach",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                55.78580093383789,
+                54.73128890991211,
+                342.6483154296875,
+                211.71463012695312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "822d0ab7bc1a1abed005655a0394f39a",
+        "text": "Tiago M. Alves, Kuncho Kurtev,\nGregory F. Moore, and Michael Strasser",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                55.78580093383789,
+                224.52577209472656,
+                275.1199951171875,
+                249.73277282714844
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "defaa11fe9a6152a5e88998e44c4918b",
+        "text": "ABSTRACT",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                55.78580093383789,
+                286.30023193359375,
+                117.3731689453125,
+                297.454345703125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3e2d4227e58d8f7c3bc5bc9632ea48d5",
+        "text": "Three-dimensional (3-D) seismic volumes from southeast\nBrazil, southeast Japan, and borehole data from the Ocean\nDrilling and Integrated Ocean Drilling Programs are used to\ndemonstrate a new method to distinguish mass-transport de-\nposits (MTDs) from confining hemipelagites, quantify MTDs\ninternal architecture, and assess their reservoir potential or seal\ncompetence—the contrast, directionality, energy (CDE) meth-\nod. The CDE values extracted from 3-D seismic data can be tied\nto any ground-truthed property of strata regardless of their\ndepositional history, age, and lithology. The application of the\nCDE method is, however, dependent on seismic-data acqui-\nsition parameters and selected processing sequences and should\nbe independently applied to different seismic volumes. Bore-\nhole data indicate contrast (C) to reflect MTDs lithological\nheterogeneity and degree of disaggregation, which increase\nproportionally to the absolute value of C. More uniform values\nof P-wave velocity (Vp) and peak shear strength are recorded in\nstrata with lower contrast. Directionality (D) relates to the\nexistence of syn- or postdepositional fabric such as compres-\nsional ridges, imbricated strata or faults. Energy (E) relates to\nthe acoustic impedance of strata, with high-amplitude reflec-\ntions correlating with strata with higher shear strength, i.e.,\nhigh Vp and shear-wave velocity (Vs) values, or with abrupt",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                55.78546905517578,
+                304.2270202636719,
+                342.7970275878906,
+                625.0540771484375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "42bdb5d0c977781cf04cc36b040ed79a",
+        "text": "Copyright ©2014. The American Association of Petroleum Geologists. All rights reserved.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                55.78580093383789,
+                669.057861328125,
+                303.41790771484375,
+                677.0577392578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e44be75360d9d939350bbe8585acd405",
+        "text": "Manuscript received March 28, 2013; provisional acceptance June 10, 2013; revised manuscript received\nJuly 8, 2013; final acceptance September 12, 2013.\nDOI:10.1306/09121313117",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                55.78580093383789,
+                681.076904296875,
+                342.6982421875,
+                710.1093139648438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ecc689ac4dda989b363c534c52c587c5",
+        "text": "AUTHORS",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                372.64239501953125,
+                63.07949447631836,
+                424.6509094238281,
+                73.21959686279297
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c8ccc69581ee471b14ade64cac656c9a",
+        "text": "Tiago M. Alves \u0001 3D Seismic Lab, School of\nEarth and Ocean Sciences, Cardiff University,\nMain Building, Park Place, Cardiff CF10 3AT,\nUnited Kingdom; alvest@cardiff.ac.uk",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                372.64239501953125,
+                80.83769226074219,
+                545.9409790039062,
+                127.05448150634766
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "685bc61193e58de235954735877474d6",
+        "text": "Tiago Alves has headed the 3D Seismic Lab\nsince 2012. He completed a B.Sc. degree in\nengineering geology in 1997 (Portugal) and a\nPh.D. in geology at the University of Manchester\n(United Kingdom) in 2002. He has been working\nin multiple projects on deep-water continental\nmargins since 1997. Tiago’s research interests\ninclude quantitative seismic interpretation to\nassess reservoir compartmentalization, seal\ncompetence, and fluid migration in sedimentary\nbasins.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                372.6413879394531,
+                133.00872802734375,
+                545.9612426757812,
+                263.0289001464844
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "606c33a3cb5de063aebd5af091053e6c",
+        "text": "Kuncho Kurtev \u0001 School of Civil Engineer-\ning and Geosciences, Newcastle University,\nNewcastle, United Kingdom;\nKuncho.Kurtev@newcastle.ac.uk",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                372.6413879394531,
+                272.80145263671875,
+                543.4141235351562,
+                319.0183410644531
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a43e0c2d551ac54de41285846528ece1",
+        "text": "Kuncho Kurtev has an M.Sc. degree in petro-\nphysics, a Ph.D. in structural geology and a DESS\ndegree (specialized graduate diploma) in res-\nervoir modelling, Paris School of Mines, France.\nHe has worked in consortia such as Caprocks,\nGeoPoP-3 and in projects on shale gas. His re-\nsearch interests are on seal capacity modeling,\noverpressure prediction, and geological upscal-\ning. He is now a senior research geologist at\nSintef Petroleum A. S., Norway.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                372.6413879394531,
+                325.0295715332031,
+                545.9310913085938,
+                443.0308532714844
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8c2d9ba354ec6638bcf4a936f1253c21",
+        "text": "Gregory F. Moore \u0001 Department of Geol-\nogy and Geophysics, University of Hawaii, 1680\nEast–west Road, Post 813, Honolulu, Hawaii\n96822; gmoore@hawaii.edu",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                372.6413879394531,
+                452.80340576171875,
+                545.9373168945312,
+                499.0202941894531
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "dee7de20522efa2476e0b55e01870e5f",
+        "text": "Gregory Moore received his Ph.D. in geology\nfrom Cornell University in 1977. After working\nat Scripps Institution of Oceanography (1978–\n1982), Cities Service Oil Company Research Lab\n(1982–1983) and the University of Tulsa (1984–\n1988), he joined the University of Hawaii, where\nhe is a professor of marine geophysics. His work\nhas been on tectonics and sedimentation pro-\ncesses in convergent margins.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                372.64141845703125,
+                505.031494140625,
+                545.9501953125,
+                611.0136108398438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2e68dbc63e73340709281d6bb562c4af",
+        "text": "Michael Strasser \u0001 Geological Institute,\nEidgenössische Technische Hochschule Zurich,\nNO G 46, Sonneggstrasse 5, Zurich 8092, Swit-\nzerland; michael.strasser@erdw.ethz.ch",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                372.6424560546875,
+                620.8421630859375,
+                545.9483032226562,
+                667.0590209960938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "aa239fc00182d27e5996dc1b7adb1530",
+        "text": "Michael Strasser conducts research on the\nquantitative characterization of dynamic sedi-\nmentary and tectonic processes along ocean",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                372.64349365234375,
+                673.0132446289062,
+                539.5213623046875,
+                706.9945678710938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "df27c647cf94dc6943621d56ca6191f5",
+        "text": "margins and in lakes, with a special focus on\nsubaquatic landslides, making use of integrated\ngeophysical, sedimentological, geotechnical and\nmodeling techniques. He gained his Ph.D. in\n2007 from ETH Zurich. After 4 years post-\ndoctoral experience at MARUM-Bremen (Ger-\nmany) he has been an assistant professor for\nsediment dynamics at ETH Zurich since 2011.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.06610107421875,
+                51.99468231201172,
+                215.32891845703125,
+                146.01449584960938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6ff2fc46cee3af177a46999568f803be",
+        "text": "contrasts in density (bright spots). This work shows that dis-\ntinct values of C, D, and E reflect variable degrees of vertical\nand horizontal connectivity in strata and, consequently, their\nseal and reservoir potential. The CDE values are thus sub-\ndivided in nine classes, which are represented in ternary plots\nto cover the full spectrum of MTDs and any confining strata.\nAs a result, the data in this article confirm that lower seal\ncompetence, and higher reservoir potential, is recorded in\nstrata with large D or moderate CDE values.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                233.2913055419922,
+                53.191036224365234,
+                520.2695922851562,
+                176.21603393554688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "16f206cd1fff788029260023562b527d",
+        "text": "ACKNOWLEDGEMENTS",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.06610107421875,
+                171.08023071289062,
+                165.00233459472656,
+                181.22032165527344
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "805983e9e88d7636dbdee03a7ea19009",
+        "text": "This research used samples and data provided\nby the Integrated Ocean Drilling Program\n(IODP). T. M. Alves acknowledges the permis-\nsion conceded by CGG/Veritas for the use of\nthe data included in this paper. Schlumberger is\nalso acknowledged for the provision of aca-\ndemic licenses to the 3D Seismic Lab. Frances\nWhitehurst (AAPG geological consultant), L.\nMoscardelli, and two anonymous reviewers are\nthanked for their constructive comments. We\nalso acknowledge the support of the U.S. Na-\ntional Science Foundation Award OCE-0451790\nand the CAPROCKS consortium.\nThe AAPG Editor thanks Senior Associate Editor\nChristopher A. L. Jackson and the following re-\nviewers for their work on this paper: Lorena\nMoscardelli and an anonymous reviewer.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.06610107421875,
+                189.02197265625,
+                215.35580444335938,
+                390.986083984375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e7ea27ad4647d0a5043b161259aaed59",
+        "text": "INTRODUCTION",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                233.2913055419922,
+                209.31100463867188,
+                318.769775390625,
+                220.46511840820312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "28d82e9d5cbbd6a9d9e0cb3ab004807b",
+        "text": "Landslide deposits reflect gravitational movements of near-\nsurface strata in which the internal cohesion of failed material\nis maintained (Nemec, 1990; Hampton et al., 1996; Locat,\n2001; Everhøi et al., 2005; Lee et al., 2006; Sultan et al., 2007).\nOnshore landslide deposits are commonly remobilized through\nrelatively small distances (Varnes, 1978; Mulder and Cochonat,\n1996; Burg et al., 2008). In contrast, submarine landslides can\nreach hundreds of kilometers in single or recurrent instability\nevents, which commonly result in the accumulation of large vol-\numes of strata, or mass-transport deposits (MTDs) (Hühnerbach\net al., 2004; Moscardelli and Wood, 2008). Similar instability\nphenomena are observed on other planets, where it is believed\nthat earthquakes, or hydrologic cycles, are of enough magni-\ntude to trigger large-scale slope instability on weakened surface\nrocks (McEwen, 1989; Schulz, 2002; Lucas and Mangeney,\n2007; Moscardelli and Wood, 2011; Moscardelli et al., 2012).\nWireline and sediment core data from continental margins\naround the world have shown that distinct degrees of stratal\ndisaggregation in MTDs are reflected as variations in their struc-\ntural and petrophysical properties (Dott, 1963; Nardin et al.,\n1979). These variations commonly result in the migration and\nescape of fluids to the surface (Paull et al., 1996, 2003; Bünz\net al., 2005; Flemings et al., 2005; Masson et al., 2006), partic-\nularly in regions with low net-to-gross ratios or showing signifi-\ncant internal deformation in the form of folds, faults, and frac-\ntures (Flemings et al, 2005; Bull et al., 2008). In addition, MTDs\nabove certain porosity thresholds comprise important hydro-\ncarbon reservoirs, as in the case of the Oligocene Frio Forma-\ntion of south Texas (Ogiesoba and Hammes 2012), the Mio-\ncene Harang embankment in Louisiana (Edwards, 2000), or\nthe prolific Ubit, Asabo, and Enang fields from offshore Nigeria\n(Clayton et al., 1998; Apotria et al., 2004; Bruso et al., 2004).\nMost of these oil and gas fields comprise either large-scale\nblocks or coarse-grained material that was slumped, translated,",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                233.2913055419922,
+                235.17547607421875,
+                520.2926635742188,
+                708.1641845703125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5d9fb92fe6ffb1cc8c56ca539ee4fb87",
+        "text": "and eroded on continental slopes that were later\ncovered by deep-water shales (Vazquez et al.,\n1997; Joiner et al., 1999; Galloway et al., 2000;\nAbreu and Hill, 2004; Moscardelli and Wood,\n2008). In such complex stratigraphic successions,\nto recognize and describe MTDs was shown to be\ncrucial to optimal well planning and hydrocarbon\nproduction (Ogiesoba and Hammes, 2012).\nNotwithstanding their economic importance,\na key difficulty when interpreting buried MTDs\nconcerns their recognition as either reservoir in-\ntervals or competent seal units. Caveats are par-\nticularly recorded when interpreting older MTDs,\nknowing of their tendency to lose diagnostic fea-\ntures with increasing compaction. In fact, original\ndepositional features, compartmentalization styles,\ndips of remnant strata, and degree of strata disrup-\ntion (or tortuosity, sensu Salem and Chilingarian,\n2000; Matthews et al., 2008; Tiab and Donaldson,\n2011) approach those of confining bedded strata at\ndepths of 7000–10,000 ft (2133–3048 m) (Ogiesoba\nand Hammes, 2012). Advanced methods to recog-\nnize MTDs, and their internal character, are there-\nfore necessary to assist their interpretation in deeply\nburied successions. In particular, any new methods\nmust be useful (1) to assess seal competence in\nstratigraphic sequences recording multiple insta-\nbility events, (2) to understand the reservoir po-\ntential of individual MTDs, and (3) to examine the\ndegree of recurrence and regional scales of individ-\nual mass-transport events (Day et al., 1999; Driscoll\net al., 2000; Masson et al., 2002; Haflidason et al.,\n2004; Pérez-Torrado et al., 2006; Urgeles et al., 2007;\nLee, 2009; Yamada et al., 2012). New methods\nshould also be applicable to different geophysical\ndata sets, ranging from industry three-dimensional\n(3-D) seismic volumes to high-resolution reflec-\ntion profiles. They should also be applicable to data\nsets such as side-scan sonar mosaics, bathymetric\nmaps, chirp profiles, or light detection and ranging\n(LIDAR), in both the two-dimensional (R2) and\nthree-dimensional space (R3) (Metternicht et al.,\n2005).\nIn this article, we use high-quality 3-D seismic\nvolumes from southeast Japan and southeast Bra-\nzil, together with borehole data from the Nankai\nTrough and 11 other drilling sites from the Ocean",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                55.78471374511719,
+                53.191036224365234,
+                289.02520751953125,
+                708.2224731445312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a05b0637d28ea0dca2846223c2bcf3b0",
+        "text": "Drilling Program (ODP) and Integrated Ocean\nDrilling Program (IODP) to demonstrate a new\nmethod to recognize MTDs, assess their seal com-\npetence, and conclude on their reservoir potential\n(Figure 1). The new method is based on three tex-\ntural parameters on seismic data: contrast (C), di-\nrectionality (D), and energy (E). Seismic texture is\ndefined as a reflection amplitude pattern charac-\nterized by the magnitude and variation of neigh-\nboring data in a seismic volume (Haralick et al.,\n1973; Gao, 2003; Chopra and Marfurt, 2007). The\nthree parameters proposed here are subdivided\ninto nine different classes, and their distribution is\nplotted on ternary diagrams to represent the in-\nternal fabric and seismic texture of MTDs. The re-\nsulting contrast, directionality and energy (CDE)\ndistribution plots can be tied to ground-truthed\nproperties of MTDs derived from downhole, wire-\nline, or sediment core data. The CDE method is\ntherefore applicable to individual geophysical data\nsets allowing attribute extraction from MTDs. In\nsummary, the scientific objectives of this article are\nas follows:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                312.83050537109375,
+                53.191768646240234,
+                546.0259399414062,
+                372.2031555175781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3998a10b72e15bf406c726451f170e86",
+        "text": "• To present a new methodology to characterize\nMTDs in terms of their internal architecture;\n• To investigate how the parameters used in the\nnew methodology, contrast (C), directionality\n(D), and energy (E), relate to lithological and\npetrophysical variations in MTDs;\n• To propose ternary diagrams as the best way to\ndistinguish MTDs in terms of their CDE values\nand, thus, assess their reservoir potential and seal\ncompetence.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                312.83050537109375,
+                389.01361083984375,
+                545.9447021484375,
+                526.2374877929688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d01eeff709fe3ac08d7eefa2c06b669e",
+        "text": "The article starts by summarizing the internal\ncharacter of MTDs on seismic and borehole data,\nbased on Deep-Sea Drilling Program (DSDP), ODP,\nand IODP data. It then continues by presenting the\nmathematical and geophysical concepts behind the\nnew CDE method. In the data analysis section, we\ntest the CDE method in three case studies from\nsoutheast Japan (Nankai Trough) and southeast\nBrazil (Espírito Santo Basin) (Figure 1). Borehole\ndata from the IODP Expedition 333 are used to\ncorrelate the petrophysical properties of drilled\nstrata with their CDE distribution. At the end of the",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                312.83050537109375,
+                543.1864013671875,
+                546.00390625,
+                708.1637573242188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6ef5bfb3c75630327ff6d0fd3d5851c0",
+        "text": "Figure 1. (A) Location map of the studied\n3-D seismic volumes and DSDP-ODP-IODP\n(Deep Sea Drilling Program, Ocean Drilling\nProgram, and Integrated Ocean Drilling Pro-\ngram) borehole data sets used in this article.\nRegions referred to in Figure 4 are in shown in\nitalic. (B) Regional bathymetric map of the\nNankai Trough depicting the location of the\ninterpreted 3-D seismic volume. Arrow in the\ninset map shows the location of the inter-\npreted seismic volume of southeast Japan.\nCool colors indicate greater depths, whereas\nred colors are observed in the shallower\nKumano Basin. (C) Location map of the in-\nterpreted 3-D seismic volumes (BES-100 and\nBM-ES-1) from southeast Brazil (Espírito Santo\nBasin). Black boxes highlight the study areas\nreferred to in this article. IBT = Izu-Bonin\ntrench; KPR = Kyushu-Palau ridge; FSC = fossil\nspreading center; PSP = Philippine Sea plate.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                30.047199249267578,
+                47.85607147216797,
+                196.78689575195312,
+                285.8772277832031
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b6831110393544f0d29c1e3acd101631",
+        "text": "article, we discuss (1) expected CDE values for\nspecific regions of MTDs, and (2) seal compe-\ntence and reservoir potential as a function of CDE\ndistribution.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                55.78580093383789,
+                53.191036224365234,
+                288.9175109863281,
+                106.20047760009766
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5d251572c27acf3431be5b781b6c195c",
+        "text": "DATA AND METHODS",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                55.785804748535156,
+                153.24142456054688,
+                172.54747009277344,
+                164.39553833007812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "da442963100a1227c836b2d3870aff91",
+        "text": "This work used 3-D seismic data covering 672 km2",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                55.785804748535156,
+                176.75088500976562,
+                288.92559814453125,
+                190.10598754882812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0583b347c08eb4a861faa3a2cff86067",
+        "text": "(259 mi2) of the continental slope offshore Nankai\n(southeast Japan) and 2400 km2 (927 mi2) of the\nEspírito Santo Basin (southeast Brazil) (Figures 1,\n2). The interpreted seismic volumes were chosen\nfor comprising high-resolution data in two regions\nwhere stratigraphic control exists on the inter-\npreted successions. The southeast Japan prestack\ndepth migrated (PSDM) volume is located in a\nregion drilled by multiple IODP expeditions (Ex-\npedition 314 Scientists, 2009; Expedition 316 Sci-\nentists, 2009a, b; Expedition 333 Scientists, 2011;\nMoore et al., 2013) (Figures 2A, 3A, 4A). Offshore\nNankai, drilled strata comprise clays and silts al-\nternating with coarser turbidites and volcaniclastic\nintervals (Figure 5A). Vertical seismic resolution\napproaches 6 m (20 ft) in the PSDM volume of\nsoutheast Japan based on the dominant wave-\nlength of approximately 24 m (79 ft) observed on\nsynthetic logs and seismic profiles (Figure 5A).\nThis same seismic volume has an inline spacing of\n12.5 m (41.0 ft), a crossline spacing of 18.75 m\n(61.52 ft), with a sampling interval of 5 ms. Its\nprocessing sequence included prestack multiple\nremoval and data conditioning (amplitude recov-\nery, time-variant filtering, and predictive decon-\nvolution), followed by 3-D prestack depth migra-\ntion (Moore et al., 2007).\nIn the case study from southeast Brazil, the fo-\ncus was on two distinct 3-D seismic volumes ac-\nquired south the Abrolhos Bank, a large volca-\nnic plateau that sourced volcaniclastic sands and\nshales to the continental slope from the Eocene\nto the present day (Fiduk et al., 2004; Schreiner\net al., 2009) (Figure 2B, C). Interpreted Miocene–\nHolocene strata thus comprise interbedded car-\nbonate and siliciclastic units, megablocks, sand, and\ngravels sourced from the Abrolhos Bank (Fiduk",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                55.785518646240234,
+                190.75411987304688,
+                289.0041809082031,
+                708.107177734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "108990353a202a3eb140410d814f161d",
+        "text": "Figure 2. Location maps of the interpreted 3-D seismic volumes\nfrom the three case studies considered in this work. (A) Prestack\ndepth migrated (PSDM) seismic volume from the Nankai Trough.\n(B) Poststack time migrated (PSTM) seismic volume from BES-\n100, Espírito Santo Basin, southeast Brazil. (C) PSTM seismic volume\nfrom BM-ES-1, Espírito Santo Basin, southeast Brazil. Regional\nlocation maps are shown in Figure 1.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                312.8313903808594,
+                626.01025390625,
+                545.9369506835938,
+                708.0111083984375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bdcf6f753b935e1ecf050130e3247fe0",
+        "text": "Figure 3. Uninterpreted\nseismic lines from south-\neast Japan and south-\neast Brazil depicting the\nstructure and internal\ncharacter of strata in the\nthree case studies consid-\nered in this article. (A)\nPrestack depth migrated\n(PSDM) inline 2315 from\nthe Nankai Trough, south-\neast Japan. (B) Poststack\ntime migrated (PSTM) pro-\nfile from the BES-100\nblock, southeast Brazil,\nshowing a series of blocks\nof Miocene age. (C) PSTM\nprofile from the BM-ES-1\nblock located in the lower\nslope region of the Espirito\nSanto Basin, where halo-\nkinesis is marked by the\npresence of developed salt\ndiapirs, salt walls, and ad-\njacent minibasins. The lo-\ncation of the seismic sec-\ntions is shown in Figure 2.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                30.047199249267578,
+                47.85607147216797,
+                123.76313018798828,
+                369.84014892578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d470350fc66143f8aef2c767e902ee4f",
+        "text": "et al., 2004; França et al., 2007) (Figures 3B, C; 4B,\nC). Seismic resolution for the intervals of interest in\nthis article approaches 10 m (33 ft) in the two in-\nterpreted poststack time migrated (PSTM) volumes\nfrom the BES-100 and BM-ES-1 (Figure 1C). This\nvertical resolution was estimated based on the\ndominant frequency of the southeast Brazil seis-",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                30.047199249267578,
+                615.131103515625,
+                263.2592468261719,
+                710.1500244140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4e12240b8f71ce49a057ab12432cf978",
+        "text": "mic volumes (40 Hz) and on an estimated P-wave\nvelocity of 1700 m/s (5577 ft/s) obtained from\ncorrelative strata at DSDP Site 516 (Barker et al.,\n1983) (Figure 5B). The southeast Brazil seismic\nvolumes have bin spacings of 12.5 m (41.0 ft) and\n2-ms vertical sampling windows. They were ac-\nquired with a 6 × 5700-m (6 × 18,700-ft) array of",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                287.092041015625,
+                615.131103515625,
+                520.2006225585938,
+                710.1500244140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c6edbca442c65b6aaa892bd8080791c9",
+        "text": "streamers. Data processing included resampling,\nspherical divergence corrections, and zero-phase\nconversions undertaken prior to stacking, 3-D pre-\nstack time migration using the Stolt algorithm and\none-pass 3-D migration.\nIn this work, MTDs are imaged using root-mean-\nsquare (RMS) amplitude, coherence, and dip maps.\nRoot-mean-square amplitude data provide mea-",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                55.785797119140625,
+                592.964111328125,
+                288.92742919921875,
+                701.928955078125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fb7618e40966efa1881b77ba59d1f9ae",
+        "text": "Figure 4. (A) Interpreted\nprestack depth migrated\n(PSDM) inline 2315 from the\nNankai Trough showing the\nstructure of the imbricated\nthrust zone (ITZ) in which\nMTD 5 and MTD 6 were in-\nterpreted. (B) Poststack time\nmigrated (PSTM) seismic\nprofile from southeast Brazil\n(BES-100) depicting the de-\nposition of a heterogeneous,\nblocky MTD, the second case\nstudy considered in this arti-\ncle. (C) PSTM seismic profile\nshowing recurrent MTDs in\nsoutheast Brazil (BM-ES-1).\nThe profile highlights the\npresence of heterogeneous\nMTDs in terms of their am-\nplitude and degree of struc-\ntural deformation. Note\nthe presence of a high- to\nmoderate-amplitude faulted\nMTD A in sequences N20–\nN60 and growing diapirs\ndeforming older MTDs in\nE40–N10. The location of the\nthree seismic sections is\nshown in Figure 2. MTD =\nmass transport deposit.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                439.88018798828125,
+                47.85607147216797,
+                545.9623413085938,
+                417.85968017578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7c91f86c0ddbb4429d5d644554d697d9",
+        "text": "surements of the RMS amplitude of a seismic\nwave reflected at normal incidence on an inter-\nface (Brown, 2011). The peak amplitudes of re-\nflected seismic waves, positive or negative, are\nroot-squared into positive values of amplitude,\nthus emphasizing large reflection events over low-\namplitude background strata. Coherence maps\nprovide measurements of the continuity between",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                312.83062744140625,
+                592.964111328125,
+                545.9976806640625,
+                701.928955078125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "615cd7f4743f631afd00ed8ca5177f3d",
+        "text": "seismic traces in a specified window (Brown, 2011).\nCoherence attributes are particularly helpful to\nrecognize faults, blocks, and other features that\ndisrupt the lateral continuity of seismic reflections.\nDip maps compute best-fit planes between im-\nmediate neighbour traces on a time or depth slice\nand calculate magnitude (gradient) of dip (Brown,\n2011). Dip values are measured in degrees in re-\nlation to a horizontal plane.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                55.78580093383789,
+                53.191036224365234,
+                288.9813232421875,
+                176.21603393554688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "784a7ce1723752745bd66eb74bf3ffa9",
+        "text": "GEOLOGICAL AND GEOPHYSICAL BACKGROUND",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                55.105995178222656,
+                211.29544067382812,
+                289.15960693359375,
+                222.44955444335938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7da7fdb03f308a73551ed45fb2be5100",
+        "text": "Geological Setting of Southeast Japan",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                55.78580093383789,
+                237.26116943359375,
+                247.84425354003906,
+                248.415283203125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d2bbd818b1c53c0714f57a315ce40e8a",
+        "text": "The Nankai Trough results from the subduction of\nthe Philippine Sea plate beneath the Eurasian plate\nalong southeast Japan (Figure 1B). The study area\nis located in the imbricate thrust zone (ITZ) of the\nNankai Trough, a highly deformed area of the con-\ntinental slope of southeast Japan (Moore et al.,\n2009) (Figures 1B, 2A). Here, the continental slope\nis dominated by a megasplay fault (MSF) separating\nthe ITZ from an inner forearc basin to the north-\nwest of the study area (Kumano Basin, Park et al.,\n2002; Tobin and Kinoshita, 2006) (Figures 1B, 3A,\n4A). Seaward from the MSF, a submarine channel\nsystem and recurrent MTDs (MTDs 1 to 6; Expe-\ndition 333 Scientists, 2011) were generated in what\nwas interpreted as a broad zone of deformation\n(Alves, 2013) (Figures 3A, 4A).\nThe present-day tectonic and depositional set-\ntings of the ITZ were initiated at approximately\n2.2 Ma in a frontal wedge-toe position (Strasser\net al., 2011). Splay-fault movement was initiated\nat about 1.95 Ma in the lower part of the wedge.\nOngoing megasplay slip occurs since about 1.55 Ma\n(Strasser et al., 2009). As a result of the complex",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                55.785797119140625,
+                263.1817321777344,
+                289.0142822265625,
+                582.1932373046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3fc6bd486f8d4ee6f759e572440f2d00",
+        "text": "Figure 5. (A) Correlation panel between seismic data and key physical properties of MTDs 5 and 6 at IODP Site C0018A, Nankai\nTrough. Note the contrasting seismic character of low-amplitude strata in MTD 6 when compared with turbidite units in unit Ib.\nHorizons H1 to H3 are shown in detail as to locate the surfaces mapped in this work. Figure modified from Expedition 333 Shipboard\nScientific Party (2011). (B) Correlation panel for southeast Brazil showing part of the blocky MTD in BES-100 and the corresponding\nages of main seismic unconformities in Espírito Santo Basin. Stratigraphic information from the Espírito Santo Basin is taken from\nFrança et al. (2007). The location of the profile in the figure is shown in Figures 3C and 4C. Velocity data for ODP Site 516 was taken\nfrom Barker et al. (1983). Average velocities for the interpreted seismic units are shown in parenthesis. CSF-B = core depth below sea\nfloor; MTD = mass transport deposit.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                55.785797119140625,
+                616.3724365234375,
+                546.0108032226562,
+                710.3924560546875
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "0f7a4fb3d25e95482a619f6b4cbe667a",
+        "text": "interaction between fault-propagation folding, sea-\nfloor instability, and faulting, the age of MTDs sea-\nward from the MSF rangefrom 2.87 Ma to Holocene\n(<100 yr b.p.) (Kimura et al., 2011; Strasser et al.,\n2011, 2012).\nSeismic stratigraphic units in the Nankai Trough\nare shown in Figure 5A and correlated with bore-\nhole data from IODP Hole C0018A (Expedition\n333 Scientists, 2011). In the ITZ, the largest MTD\n6 has a maximum thickness of 182 m (597 ft) and\nan area approaching 20 km2 (7.7 mi2) (Strasser\net al., 2011). The MTD 6 divides the slope sedi-\nments into two distinct subunits; unit Ib, com-\nprising a sandy turbidite sequence, and unit Ia\nwith ash-bearing hemipelagites and multiple MTDs\n(Figures 4A, 5A). The larger MTD 6 has been drilled\nand cored at Site C0018A, where it reaches a thick-\nness of 61.5 m (201.7 ft), and was emplaced be-\ntween 0.85 and 1.05 Ma (Expedition 333 Scien-\ntists, 2011; Strasser et al., 2012). Above this,\nMTD 5 comprises a younger instability episode\nand is part of unit Ia (Expedition 316 Scientists,\n2009a, b) (Figures 4A, 5A).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                312.83062744140625,
+                53.190731048583984,
+                546.0324096679688,
+                372.2027893066406
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "520cd5bdcb523441a99830aedebd0d17",
+        "text": "Geological Setting Offshore Southeast Brazil",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                312.8314208984375,
+                391.2946472167969,
+                538.6691284179688,
+                402.4487609863281
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "993240883dee80cacd11e80550f2dc27",
+        "text": "The Espírito Santo Basin is the northernmost of\na series of Upper Jurassic–Cretaceous rift basins\ndeveloped in southeast Brazil (Chang et al., 1992)\n(Figure 1C). Following synrift extension, the early\npostrift geology of the basin was dominated by\nthe accumulation of large volumes of Aptian evap-\norites, an event followed by the incision of sub-\nmarine channel systems and the triggering of signif-\nicant mass-wasting events in the Cenozoic (Moreira\nand Carminatti, 2004). From the Late Cretaceous\nonward, at least eight episodes of channel incision\nare recorded on the continental slope of Espírito",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                312.830322265625,
+                417.2152099609375,
+                546.0291748046875,
+                582.1924438476562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "33a4508bace5801063319aeafefc5fb3",
+        "text": "highly deformed sediments with no original depo-\nsitional structures or, instead, a mix of moderate\ndeformed to undeformed intervals with a great part\nof the original bedding still preserved in the form\nof remnant and rafted strata (Bull et al., 2008;\nAlves, 2010; Alves and Lourenço, 2010; Gamboa\net al., 2011).\nBull et al. (2008) demonstrated that mass\nmovements generate specific kinematic indicators,\ndepending on the relative location of strata in rela-\ntion to the headwall (proximal erosive), transla-\ntional (intermediate), and toe (distal) parts of\nMTDs. This is an important character, as strata\nwithin specific zones of MTDs can show similar\ndeformation styles, basal erosional features, and\nboundary features regardless of their size or litho-\nlogical nature (Varnes, 1978; Frey-Martinez et al.,\n2006; Bull et al., 2008). However, the provenance\n(i.e., source strata) and magnitude of downslope\ntransport of MTDs are key factors controlling\ntheir internal architecture (e.g., Jenner et al., 2007;\nOmosanya and Alves, 2013), commonly adding\ncomplexity to any MTD classification based on 3-D\ngeomorphological features alone. Provenance and\ntransporting distances are also important controls\non MTD potential as seals or reservoirs because\nporosity and permeability are significantly reduced\nafter downslope gravitational movements be-\ncause of the high degree of deformation they show\n(Moscardelli et al., 2006). In contrast, MTDs\nshowing small transporting distances show vari-\nable lithologies, and variable porosity and per-\nmeability of strata in their interior, characters that\nincrease their reservoir potential (Ogiesoba and\nHammes, 2012).\nBorehole data from offshore Nankai (Strasser\net al., 2012), Gulf of Mexico (Flemings et al., 2005),\nand 10 other DSDP, ODP, and IODP drilling sites\nshowed MTDs to comprise heterogeneous depos-\nits with distinct degrees of internal deformation,\ntheir lithologies ranging from brecciated to fine\nclay material deposited in distinct depositional\nand tectonic settings (e.g., Amazon Fan, Flood\net al., 1997; Gulf of Mexico, Flemings et al., 2005;\nNankai Trough, Mikada et al., 2005; Walvis Ridge,\nKroonet al.,2007; Dugan,2012;Strasser et al.,2012)\n(Figures 5A, 6). As a result of their heterogeneity,",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                287.0931396484375,
+                53.190670013427734,
+                520.276611328125,
+                708.2198486328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "baf936a63ea3458f4f8723d86bcb68fb",
+        "text": "Santo (Fiduk et al., 2004). Sediment progradation\nonto the continental slope also resulted in signifi-\ncant halokinesis, further destabilizing the south-\neast Brazilian margin and feeding large salt fair-\nways, canopies, and diapirs toward the distal slope\n(e.g., Fiduk et al., 2004). These phenomena oc-\ncurred together with thin-skinned extension up-\nslope because of the gravitational gliding of post-\nsalt strata (Demercian et al., 1993), in large-scale\nmovements that were also facilitated by volcanic\nactivity at the Abrolhos Bank between 60 and\n40 Ma (Mohriak, 2005).\nThe seismic stratigraphy of the Espírito Santo\nBasin is shown in Figure 5B. The MTDs analyzed\nin this article are part of the N20–N60 sequences,\nwhich comprise an alternating succession of chaotic\nto continuous reflections, at places interrupted by\nincising submarine channels (Figures 3B, C; 4A, B).\nMoreira and Carminatti (2004) interpreted the\nN20–N60 sequences as representing successive re-\ngressive and transgressive events on the Brazilian\nmargin. The age of N20–N60 ranges from the early\nMiocene to Holocene, meaning that it is age equiva-\nlent to the Rio Doce (siliciclastic), Caravelas (carbon-\nate), and Urucutuca (shaley) Members (Figure 5B).\nIn the BES-100 volume, the N20–N60 sequences\ncomprise an alternation of the three latter units\n(França et al., 2007) (Figures 3B, 4B). In the BE-\nMS-1 volume, the interpreted MTDs are part of a\nmoderate- to low-amplitude sequence, at places de-\nformed by closely spaced normal faults (Figures 3C,\n4C). These strata should correspond to an alter-\nnation of shales and sands deposited in the lower\nslope region of Espírito Santo.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                30.047195434570312,
+                53.191036224365234,
+                263.24383544921875,
+                526.2366943359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "987df746c9ad0cc77ce4bc81cb486aa6",
+        "text": "SEISMIC AND PETROPHYSICAL CHARACTER\nOF MASS-TRANSPORT DEPOSITS",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                29.14080047607422,
+                560.2953491210938,
+                263.1855773925781,
+                584.4888916015625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "71676cad0a312aacdd31311671182e5c",
+        "text": "On seismic-reflection data, MTDs are commonly\nshown as intervals of distinct seismic amplitudes\nand facies when compared with confining units\nabove and below (Ogiesoba and Hammes, 2012).\nThey commonly present chaotic to deformed in-\nternal reflections with evidence of downslope grav-\nitational transport (Nardin et al., 1979; Moscardelli\nand Wood, 2008). Therefore, MTDs can comprise",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                30.048309326171875,
+                599.1992797851562,
+                263.1778564453125,
+                708.1640625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "42557ded7319cc496f19a8a4cc97dfef",
+        "text": "Figure 6. P-wave velocity, shear strength, and\nbulk density curves for IODP Site 308, Gulf of\nMexico. Modified from Flemings et al. (2005).\n(B) Velocity (Vp) and density values for mass-\ntransport deposits (MTDs) drilled in 10 ODP-\nIODP sites. The Vp and density curves show a\nrelative increase in MTD intervals. Specifically\nfor Vp curves, the difference between minimum\nand maximum Vp values is relatively higher\nwhen crossing some of the shown MTDs.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                375.58978271484375,
+                47.85607147216797,
+                545.9102172851562,
+                165.85635375976562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6b1125e39da6eb2b807232b29793ba47",
+        "text": "seismic-borehole correlations commonly show\nMTDs to comprise intervals with significant var-\niations in P-wave velocity (Vp) and peak shear\nstrength when compared with adjacent strata\n(Figure 5A; MTDs 2 and 4 in Figure 6A, B).\nAyres and Theilen (2001) demonstrated in the\nBarents Sea that variations in Vp and shear-wave\nvelocity (Vs) relate to changes in the compress-\nibility of sea-floor sediments. These changes are, in\nturn, associated with variations in lithology, po-\nrosity, degree of cementation, and amounts of sand\nand silt in strata (Flodin et al., 2003, 2005). In\ndetail, Vs is particularly sensitive to changes in the\ncompressibility of shales, an observation that led\nFlodin et al. (2003) to suggest that correlations\nbetween geophysical and petrophysical data must\nconsider the ratio Vp\n2/Vs\n2 as the main parameter\ninducing variations in the acoustic impedance of\nstrata. This latter ratio is related to petrophysical\nproperties of subsurface strata through the follow-\ning equation:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                30.046985626220703,
+                53.191036224365234,
+                263.2647705078125,
+                344.19677734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6bc8a5342c23b8156f40ea4af1f37094",
+        "text": "tural features can be used to characterize an image\nvolume. In the specific case of MTDs, their internal\nvariability can be specifically quantified by three\ndistinct textural parameters: contrast, directional-\nity, and energy. Contrast (C) indicates the relative\ndegree of heterogeneity and disaggregation of strata,\nparameters that are useful to discriminate remnant\nstrata from slumps, slides, or debris flows (Nardin\net al., 1979). Directionality (D) is related to the\npresence of kinematic indicators, faults, remnant or\nrafted blocks, and complex internal fabrics (e.g., Bull\net al., 2008). It also relates to any inherited (or\npostdepositional) fabric that may affect perme-\nability in 3-D. Energy (E) gives an account of strata\nreflectivity, itself a function of their acoustic im-\npedance. On image data, these three textural pa-\nrameters can be defined by the following equations\n(see Chopra and Marfurt, 2007). In equations 2 to\n4, Pi,j denotes the ith row and the jth column of a\nco-occurrence matrix:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                287.09228515625,
+                53.191707611083984,
+                520.304443359375,
+                330.1942443847656
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "786bc1031e5398418ef9820ef3b0ed19",
+        "text": "1. Contrast is a measure of the contrast of the image\nor of the amount of local variation present in an\nimage:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                287.09228515625,
+                347.2004089355469,
+                520.2427978515625,
+                386.20672607421875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ac12517c0aaf1f68dd22ce16da315bf4",
+        "text": "Vp=Vs\n\u0001\n\u00022 ¼ Kp=N þ Kb=N þ 4=3\nð1Þ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                66.84089660644531,
+                356.0189208984375,
+                263.1508483886719,
+                377.66448974609375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f8a4ed7a77372569a85e5ea2b41704e6",
+        "text": "in which Kb and N are the frame moduli, and Kp\ndescribes the pore space effects of fluid saturation,\nSw, and porosity, f (Murphy et al., 1991). Equation 1\nindicates that harder sediment with higher values\nof shear strength, if not filled by a fluid of lower\ndensity, has higher Vp values, particularly when\ndealing with sharp rheological contrasts between,\nfor instance, sands and clays (e.g., Koesoemadinata\nand McMechan, 2001; Blanchard et al., 2010).\nThis postulate confirms the overall trend for higher\npeak values in Vp and density recorded in most\nMTDs drilled at DSDP, ODP, and IODP sites,\nwhich essentially crossed heterogeneous MTDs\ncomprising a mixture of sand, silt, clay, and lithified\nsediments (Figures 1A, 5A, 6).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                30.046615600585938,
+                403.2126770019531,
+                263.28411865234375,
+                610.200439453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d2eb0f67f22ad5475697a6f03b2f7f65",
+        "text": "Contrast is high for strata with contrasting am-\nplitudes. Conversely, the directionality of strata\nis low when contrast is high. Contrast (C) relates\nto the degree of disaggregation of MTDs with\nthe larger values indicating highly disaggregated,\nheterolithic deposits.\n2. Directionality (or homogeneity, sensu Chopra\nand Marfurt, 2007) is a measure of the overall\nsmoothness of an image:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                287.0928955078125,
+                445.3921813964844,
+                520.2796020507812,
+                568.4172973632812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "006a3089c3777a95e3c2c5c65fc04170",
+        "text": "SEISMIC TEXTURE AS A TOOL TO\nCHARACTERIZE MASS-TRANSPORT DEPOSITS",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                30.047569274902344,
+                644.315185546875,
+                259.4820861816406,
+                668.4515380859375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ffb0f5948d302cf205e6df077d7d8899",
+        "text": "Haralick et al. (1973) and Chopra and Marfurt\n(2007) showed that 14 different measures of tex-",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                30.047569274902344,
+                683.1619262695312,
+                263.1925354003906,
+                708.1651611328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "31f78d555ad3dc41ba4800bede930b5a",
+        "text": "Contrast ¼ ∑\ni\n∑\nj\ni−j\nð\nÞ2Pi;j\nð2Þ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                352.515380859375,
+                404.66058349609375,
+                520.1971435546875,
+                426.91241455078125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f30ff943c03161331b5d08d9b6574fd7",
+        "text": "1",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                444.018798828125,
+                581.001953125,
+                450.0908508300781,
+                592.0020751953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7c80b453a5687b405a15ff33f8e5b829",
+        "text": "Directionality ¼ ∑\ni\n∑\nj",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                321.0523986816406,
+                588.2890014648438,
+                421.09368896484375,
+                608.0460815429688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "af8a40018c564f4a41538370ba73d8cd",
+        "text": "1 þ 1−j\nð\nÞ2Pi;j\nð3Þ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                422.9294128417969,
+                588.2896728515625,
+                520.1971435546875,
+                609.0652465820312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f3a25388bd462d44b3ff2dd73b95d784",
+        "text": "Highly contrasted pixels result in low-directionality\nvalues. Thus, directionality is inversely propor-\ntional to contrast and is useful for quantifying\nreflection continuity on an oriented Cartesian\nplane. Directionality (D) highlights the variabil-\nity of MTD strata in specific directions.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                299.62200927734375,
+                627.2069091796875,
+                520.2805786132812,
+                708.22265625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7a7463ef69e1f3109026f38f11daf672",
+        "text": "3. Energy is a measure of textural uniformity of an\nimage and is mathematically given as",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                55.78580093383789,
+                53.191036224365234,
+                288.8933410644531,
+                78.19425201416016
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bb7aebf546c2a29340ee45181af9f08c",
+        "text": "Energy ¼ ∑\ni\n∑\nj\nP2\ni;j\nð4Þ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                137.30975341796875,
+                97.15826416015625,
+                288.8900451660156,
+                118.72970581054688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b3f777ae51c05bf28d36c51db7560605",
+        "text": "Energy (E) can be correlated with the presence\nof high-amplitude strata, e.g., cemented sands or\nclays, hydrocarbon accumulations, carbonates,\nand intervals significantly affected by diagenesis.\nConversely, E is low when all the elements in the\nmatrix are equal and of low amplitude.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                68.31492614746094,
+                137.607177734375,
+                288.9229431152344,
+                218.62283325195312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "290de24b3028fe4f400f9b0a3a362239",
+        "text": "The Chopra and Marfurt (2007) method is\napplied by compiling co-occurrence and proba-\nbility tables for any relevant seismic attribute (i.e.,\namplitude, coherence, magnitude, etc.) for spe-\ncific directions. For instance, in MTDs with a\nmarked internal fabric high-amplitude features\ncan be preferentially aligned, thus implying that\npermeability can be lower in different directions\nto this latter fabric. The interpreter should thus\nconsider the co-occurrence matrix that is the most\nconservative for a specific direction q (0°, 45°, 90°,\nor 135°).\nCo-occurrence matrices are, however, of dif-\nficult application when using common seismic\ninterpretation techniques. In the published lit-\nerature, basic attribute maps such as RMS am-\nplitude, reflection strength, variance or coherence,\ndip, structural, and thickness maps are exten-\nsively used to characterize MTDs (Bull et al.,\n2008; Moscardelli and Wood, 2008; Alves, 2010).\nAny new methods should, therefore, abridge\nthe Chopra and Marfurt (2007) method with\nseismic attribute maps used by academia and\nindustry.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                55.785804748535156,
+                235.62899780273438,
+                289.0263977050781,
+                568.6436157226562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "25b2d03e3cb6f50b93dae62cce12ad9a",
+        "text": "THE CONTRAST, DIRECTIONALITY, ENERGY\nMETHOD: ABRIDGING TWO-DIMENSIONAL\nAND THREE-DIMENSIONAL\nTEXTURAL PARAMETERS",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                55.786895751953125,
+                606.2167358398438,
+                269.64208984375,
+                656.3749389648438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8e71ca2acf8c5fca87e4bf9adf0bb8c7",
+        "text": "Matrices are proposed as the best tools to rep-\nresent the complex variability of MTDs in 3-D,\nabridging seismic texture analyses and seismic",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                55.786895751953125,
+                671.0853271484375,
+                288.9449768066406,
+                710.0916748046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9aa89ba9589ecfa25caf3b12fac4d2ec",
+        "text": "attribute maps computed during seismic interpre-\ntation. Matrices relate to linear maps by mathe-\nmatically representing an orientation vector within\nan area (R2) or in a volume (R3) (Datta, 2010).\nFinally, they facilitate operations such as multi-\nplications and additions between measured phys-\nical and acoustic properties. By using matrices to\ndefine the internal character of MTDs, the inter-\npreter can also introduce a pondering factor, c, to\nany confirmed physical property, as matrices rep-\nresent linear transformations of the form f(x) = cx,\nwith c being a constant (Datta, 2010). Hence, in\nthe 3-D space, the seismic texture of MTDs can be\nrepresented by a 3 × 3 square matrix of the type\n(Aki and Richards, 2002)",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                312.8316955566406,
+                53.190975189208984,
+                546.0119018554688,
+                260.2348327636719
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6f0abb78d39fcf405dd705f44876e295",
+        "text": "\u0003\u0003\u0003\u0003\u0003\u0003",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                402.3494873046875,
+                273.9276123046875,
+                405.8915100097656,
+                317.5836486816406
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d6df20e2df70cc3862b8eaf15de61119",
+        "text": "\u0003\u0003\u0003\u0003\u0003\u0003\nð5Þ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                482.34332275390625,
+                273.92864990234375,
+                545.9359741210938,
+                317.5846862792969
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1f9c92c6202e096a99fe5482cb8662ac",
+        "text": "Ai;j ¼ a1;1\na1;2\na1;3\na2;1\na2;2\na2;3\na3;1\na3;2\na3;3",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                372.8714599609375,
+                283.16851806640625,
+                480.01702880859375,
+                321.53851318359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c2fe0ff612804288e89f0e373771f845",
+        "text": "where the magnitude of a seismic attribute between\ntwo points, or seismic traces, is given by the equa-\ntion of a Euclidian vector (Figure 7):",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                312.83172607421875,
+                347.4861755371094,
+                546.0723266601562,
+                386.49249267578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "020a51513c10c438dd69d06113ff49a8",
+        "text": "a ¼ axi þ ayj þ axk\nð6Þ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                384.3213806152344,
+                401.8268127441406,
+                545.9353637695312,
+                413.947998046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3af8d3a84ea6b23ee538863e3cc9580e",
+        "text": "The latter equation implies that, when in-\nterpreting seismic data, the following matrices\nrepresent the full spectrum of MTD variability in\na 3-D seismic volume:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                312.8322448730469,
+                431.8426818847656,
+                545.9815673828125,
+                484.85211181640625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0511c00c4a7500b07c2e3ab0520677e5",
+        "text": "\u0003\u0003\u0003\u0003\u0003\u0003",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                398.3810119628906,
+                491.6283264160156,
+                401.92303466796875,
+                535.2833251953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bafec60a52ea80cc957a4c749beccfab",
+        "text": "\u0003\u0003\u0003\u0003\u0003\u0003\nð7Þ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                486.3114013671875,
+                491.6283264160156,
+                545.9351806640625,
+                535.2833251953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "df3df7a5042315157b55a70d4ca0c8b2",
+        "text": "Ci;j ¼ C1;1\nC1;2\nC1;3\nC2;1\nC2;2\nC2;3\nC3;1\nC3;2\nC3;3",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                368.9008483886719,
+                500.8692321777344,
+                483.98553466796875,
+                539.2391967773438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "39de5e04f7833835c99a49fcaa337246",
+        "text": "\u0003\u0003\u0003\u0003\u0003\u0003",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                398.4377136230469,
+                549.0015258789062,
+                401.979736328125,
+                592.6565551757812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c61be084f6d921dfb2037d2d37e9872f",
+        "text": "\u0003\u0003\u0003\u0003\u0003\u0003\nð8Þ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                487.04901123046875,
+                549.0015258789062,
+                545.935791015625,
+                592.6565551757812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6e3e187327b2ff6e0b7297ee071aa38f",
+        "text": "Di;j ¼ D1;1\nD1;2\nD1;3\nD2;1\nD2;2\nD2;3\nD3;1\nD3;2\nD3;3",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                368.16363525390625,
+                558.2424926757812,
+                484.7225341796875,
+                596.6124877929688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "59b46314a3704e85b7b22bf642196e7c",
+        "text": "\u0003\u0003\u0003\u0003\u0003\u0003",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                400.81878662109375,
+                605.864501953125,
+                404.3608093261719,
+                649.51953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fe0a8a9496561cc27e1afee58d33e7c8",
+        "text": "\u0003\u0003\u0003\u0003\u0003\u0003\nð9Þ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                482.51324462890625,
+                605.864501953125,
+                545.9353637695312,
+                649.51953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0078aeaf4abe46d6e34f01c84414f322",
+        "text": "Ei;j ¼ E1;1\nE1;2\nE1;3\nE2;1\nE2;2\nE2;3\nE3;1\nE3;2\nE3;3",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                372.6996154785156,
+                615.1054077148438,
+                480.1871337890625,
+                653.4754028320312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "80de81d1108850970fcc62944e2c884d",
+        "text": "To extract CDE values from seismic attribute\nmaps, we suggest the interpreter work with row\ndata only, such as the matrices in equations 7, 8,",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                312.8322448730469,
+                670.972900390625,
+                545.94873046875,
+                709.9793090820312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "166c80ab1cf213c14225c42d59cddd26",
+        "text": "each element Ci,j, Di,j, Ei,j from seismic attribute\nmaps and plot them together in a ternary plot to\nrepresent the contribution of each parameter to the\ninternal character of MTDs (Figure 8). The CDE\nvalues can then be correlated with borehole data or\nother information to ground-truth the calculated\nCDE distribution.\nTwo caveats when applying the CDE method\ncomprise (1) the use of different amplitude spec-\ntrums in CDE calculations caused by the merging\nof different seismic volumes, and (2) the use of\nvolumes with distinct decimations and sampling\nintervals. The extraction of CDE values is only\nmeaningful if the vertical resolution of the seismic\nsignal is enough to resolve any offsets and geolog-\nical features within MTDs, i.e., observed changes\nin stratal or fault dips depend on the bin size of the\nseismic volume as well as its vertical and lateral\nresolution (Yilmaz, 1987). In this case, coarse data\ndecimations and vertical samplings will obliterate\npart of the amplitude signal of seismic data, re-\nducing the accuracy of the interpretation.\nAnother limitation arises from the fact that\nabsolute values of amplitude recorded by a seis-\nmic volume depend primarily on the energy and\ntype of signal source(s) used during acquisition, as\nwell as on any bypass frequency filtering and am-\nplitude boost selected during processing (Damuth,\n1980; Damuth et al., 1988; Evans, 1997). Aggres-\nsive frequency bypass filters applied during data\nprocessing result in the significant trimming of",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                287.0926513671875,
+                53.184200286865234,
+                520.2960205078125,
+                484.2273254394531
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "10ae28ae67f057043877356b0d3dba8f",
+        "text": "Figure 7. Spatial representation of a vector equation. The 3-D\ndistribution of a seismic attribute can be considered as a vector\nof magnitude, a, in the 3-D space. In practice, this signifies that\nany seismic attribute calculated between two seismic traces\ncan be given a vector magnitude and direction. This concept\nfollows Haralick et al.’s (1973) definition of seismic texture,\nwhich is defined as a reflection amplitude pattern characterized\nby the magnitude and variation of neighboring data in a seismic\nvolume.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                30.047195434570312,
+                381.66387939453125,
+                263.17364501953125,
+                487.7030334472656
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e2bc46baafa584a0136f4cfd99fcc899",
+        "text": "and 9, which are transformed in 1 × 3 matrices in\nthe two-dimensional (2-D) (R2) space:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                30.047199249267578,
+                511.7232666015625,
+                263.1414794921875,
+                536.7265014648438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "11fac3d71b9f7912787d67b10c319c46",
+        "text": "\u0003\u0003\u0003\u0003\u0003\u0003\nð10Þ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                208.6331787109375,
+                543.4388427734375,
+                263.1540832519531,
+                587.1499633789062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "635e40e85723882cfebc7e20af5c74df",
+        "text": "\u0003\u0003\u0003\u0003\u0003\u0003",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                188.4501953125,
+                543.43994140625,
+                191.9922332763672,
+                587.1510620117188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4280386773e13de2efe69721888f3303",
+        "text": "\u0003\u0003\u0003\u0003\u0003\u0003",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                158.57171630859375,
+                543.4409790039062,
+                162.11375427246094,
+                587.1521606445312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fe181bdcf4149bb4f1e9768a6aea5a97",
+        "text": "\u0003\u0003\u0003\u0003\u0003\u0003",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                136.2349090576172,
+                543.4420776367188,
+                139.77694702148438,
+                587.1532592773438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b50901ece651040cfe4b51d70308fc33",
+        "text": "\u0003\u0003\u0003\u0003\u0003\u0003",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                104.14541625976562,
+                543.4431762695312,
+                107.68744659423828,
+                587.154296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f31ec1c9978d43b978f5b2429e8ad42c",
+        "text": "\u0003\u0003\u0003\u0003\u0003\u0003",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                82.60171508789062,
+                543.4442749023438,
+                86.14374542236328,
+                587.1553955078125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "712bac54c795f3f781e84d7660d4c91c",
+        "text": "E ¼ E1\nE2\nE3",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                167.5863037109375,
+                552.7383422851562,
+                206.782958984375,
+                590.2958984375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "61e647acda43d3f6bf77521fdec5e593",
+        "text": "D ¼ D1\nD2\nD3",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                113.15999603271484,
+                552.740478515625,
+                156.7357940673828,
+                590.298095703125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f5983cd25cb5884a71d311c61567d9db",
+        "text": "C ¼ C1\nC2\nC3",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                60.378211975097656,
+                552.7426147460938,
+                102.31059265136719,
+                590.3002319335938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7dc83c92f5d316b64a8f70328c8c09bf",
+        "text": "The interpreter must calculate, for each pa-\nrameter C, D, and E, a threefold value reflecting\nif extracted seismic-attribute magnitudes are rela-\ntively large, average, or low. For instance, a C1-D3-\nE2 interval represents one with low contrast, highly\ndirectional, moderate-energy strata. In practice,\nthe interpreter can extract the absolute values for",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                30.05095100402832,
+                612.0618286132812,
+                263.2882995605469,
+                707.0806884765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "05a41765234fcd14235f7991c0ae4ed0",
+        "text": "Figure 8. The CDE ternary plot proposed to represent the full\nspectrum of MTD internal character.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                287.0928039550781,
+                685.25439453125,
+                520.15234375,
+                707.2736206054688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4362189c457cb7370d177b4d699a07d1",
+        "text": "seismic amplitudes, with the resulting loss of sig-\nnificant information (Yilmaz, 1987). In addition to\ndata trimming, the amplitude spectrum of seismic\ndata, maximum penetration depths, and vertical\nand horizontal resolutions depend on the seismic\nsource used, i.e., if the acquisition system is of\nmoderate, high, or low resolution (see Faugères\net al., 1999, for an impact of different seismic\nmethods in the visualization of deep-marine strata).\nIn practice, this signifies that too low a signal fre-\nquency or spatial Nyquist number (a function of\nthe CMP trace spacing and acquisition geome-\ntry) will have an impact on what features are\nresolved on distinct 3-D volumes. Low vertical\nand horizontal resolutions can cause thin MTDs\nto be shown as fairly continuous strata or be\ncompletely unresolved (Widess, 1973; Morlet\net al., 1982).\nDespite these limitations, directionality (D)\nshould remain relatively constant in distinct 3-D\nvolumes if linear features are resolved, as it com-\nprises a seismic textural feature independent from\nselected acquisition parameters. For the purpose of\nrecognizing MTDs from confining hemipelagites,\ndepth-converted data should be primarily used to\ncalculate D, but the interpreter can also use two-\nway time volumes to calculate a relative (two-\nway time) D value, also considering that dips are\nprogressively hard to resolve with depth. Time-\ndepth conversions can also be applied locally to\nPSTM volumes to better estimate the absolute val-\nues of D.\nAbsolute amplitude values used in the calcu-\nlation of E and C can, however, vary significantly\ndepending on signal strength, frequency, and acous-\ntic source(s) used. To limit any discrepancies, am-\nplitude values of MTDs should be considered in\nthe CDE method relative to the background\namplitude of confining strata. In this article, we\nhomogenized C and E values using an algorithm\nthat considers the full spectrum of amplitudes\nwithin hemipelagites and continuous strata con-\nfining the MTDs to which the CDE method is\napplied. This same algorithm converts absolute\nvalues of C, D, and E in a constant sum, a necessary\ncondition to represent CDE values in ternary plots\n(Figure 8).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 15,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                55.785797119140625,
+                53.191036224365234,
+                289.0187072753906,
+                708.22021484375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c8db046dd474e9d5e7c26b649fd7663b",
+        "text": "MAPPING THE INTERNAL VARIABILITY\nOF MASS-TRANSPORT DEPOSITS\nON SEISMIC DATA",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 15,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                312.83062744140625,
+                57.31686782836914,
+                522.0802612304688,
+                94.49275970458984
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9f48c0c71d9de3c2c383e23d016e507f",
+        "text": "Considering seismic attribute maps are compiled\nwithin a window small enough that the low-pass\nfiltering effects from masking remain tolerable, yet\nlarge enough that the extracted information ex-\nhibits statistical significance (Brown, 2011), MTDs\nshould be first recognized using the common in-\nterpretation criteria; they comprise chaotic to struc-\nturally deformed strata showing evidence of down-\nslope movement or kinematic indicators on seismic\ndata (Bull et al., 2008) (Figure 9). These kinematic\nindicators can include features as varied as scours\n(Posamentier and Kolla, 2003; Weimer and Shipp,\n2004), basal grooves and striations (Gee et al.,\n2006), cat claws (Moscardelli et al., 2006), monkey\nfingers (McGilvery and Cook, 2003), frontal and\nlateral ramps and flats (Lucente and Pini, 2003),\nand faults and compressional ridges (Frey-Martinez\net al., 2006).\nTo apply the CDE method, the top and basal\nsurfaces of MTDs should be mapped in detail. These\ntop and basal surfaces will limit the seismic vol-\nume in which CDE values will be extracted. The\nsecond interpretation step consists in the com-\npilation of attribute maps (or 3-D volumes) from\navailable geophysical data (Figure 9). When using\n3-D seismic data, we favor the compilation of plan-\nview attribute data in the form of RMS ampli-\ntude and maximum magnitude (e.g., reflection\nstrength, cf., Brown, 2011) maps in successive in-\ntervals crossing the MTDs to account for their 3-D\nvariability (see Zeng et al., 1998a, b). Root-mean-\nsquare amplitude or maximum-magnitude maps\nprovide phase-independent records of amplitude\nvariations and highlight high-amplitude strata, in-\ndependently of their polarity, from low-amplitude\nfeatures (Brown, 2011). Reflective features such as\nremnant strata, or variations in the physical prop-\nerties of MTDs that lead to contrasts in acoustic\nimpedance, are shown as subgeometric features of\nrelatively high reflection strength (i.e., Energy), if\nspatially resolved on seismic data. Relatively intact\nblocks of strata can also be shown as zones with\nhigher numbers of zero crossings, or low acoustic",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 15,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                312.83062744140625,
+                109.1458740234375,
+                546.0294189453125,
+                708.16259765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "acc474b3ea53d9844ec2aee0d309bc56",
+        "text": "variance, in contrast to debrites. Hence, when ap-\nplying the CDE method, the interpreter should\nalso be aware of vertical-section geometry and sizes\nof resolvable features in the interpreted strata, as\nwell as the polarity of reflections inside and on the\nflanks of MTDs.\nThe third step in the CDE method is to verify\nthe vertical resolution of resolved geological fea-\ntures within MTDs, as well as the degree of\nstructural complexity experienced by failed strata\n(Figure 9). Values of C and E can be calculated in a\nfourth step by extracting amplitude values from\npredefined (cropped) volumes in MTDs, between\ntheir top and bottom surfaces, before being plotted\nwith directionality (D) on ternary plots (Figure 8).\nSteps 5 and 6 comprise the extraction of strata\ndips from these same volumetric attributes, and\nthe final C, D, and E values plotted following the\nworkflow in Figure 9. Chaos, coherence, and dip\nvalues can also be extracted to assist the inter-\npretation of the MTD acoustic variability.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 16,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                287.0928039550781,
+                53.191036224365234,
+                520.2993774414062,
+                344.1961975097656
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "588237a825580557f694d8c38d1b96cc",
+        "text": "TESTING THE CONTRAST, DIRECTIONALITY,\nENERGY METHOD",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 16,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                286.4690856933594,
+                380.2953186035156,
+                520.1463012695312,
+                404.48895263671875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2d373d3e03e4562781847ec99597ad59",
+        "text": "MTDs 5 and 6: Nankai Trough (Southeast Japan)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 16,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                286.5823974609375,
+                419.2433776855469,
+                520.3983154296875,
+                430.3974914550781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "858351a40c5fca5fee06199cead2278f",
+        "text": "In the Nankai Trough, IODP Expedition 333 drilled\nat Site C0018A a series of Quaternary MTD (MTDs\n1 to 6, Strasser et al., 2012; Figure 5A). Strata in\nMTD 5 and MTD 6 comprise homogeneous silty\nclay, minor amounts of volcaniclastic material, to-\ngether with convoluted strata and debrites. In con-\ntrast, strata below MTD 6 are shown on 3-D seismic\nprofiles as high-amplitude continuous reflections\n(unit Ib, Figures 5A, 10). These continuous strata\nin unit Ib comprise well-stratified sandy turbidites,\nsome volcaniclastic, interbedded with shales and\nsilts (Figure 5A).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 16,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                287.0928039550781,
+                445.1639404296875,
+                520.2772216796875,
+                610.1412353515625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cea93d0464b31680d0fd7ecad56cbc2d",
+        "text": "Figure 9. Recommended workflow for the application of the\nCDE classification. In this work, we favor seismic attributes\nmost commonly used in the interpretation of 3-D seismic data.\nThe same workflow, however, can be used with any other seis-\nmic attributes tied to significant petrophysical and geological\nproperties.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 16,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                287.0928039550781,
+                640.1834716796875,
+                520.2294311523438,
+                710.1651611328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "31642013f603ec2bfff7b87387313001",
+        "text": "Figure 10. (A) Uninterpreted PSDM inline 2315 showing the internal character of units crossed by IODP borehole C00018A. (B)\nInterpreted PSDM profile across IODP Site C0018A showing variations in thickness and internal reflectivity within MTD 5 and MTD 6. The\nlocation of the seismic profile is shown in Figures 1B, 2A, and in the RMS amplitude maps in Figure 11.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 17,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                55.78580093383789,
+                576.6875,
+                546.0111083984375,
+                610.6688232421875
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "af825c71c7063fe2066a86978c468940",
+        "text": "On 3-D seismic data, MTDs 5 and 6 are shown\nas chaotic, poorly continuous strata of low ampli-\ntude, whereas turbidites in unit Ib are revealed as\ncontinuous moderate- to high-amplitude reflec-\ntions (Figures 10, 11A). We mapped the top and",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 17,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                55.786033630371094,
+                637.4681396484375,
+                288.9870910644531,
+                704.4807739257812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4ab5842a9e9531673baf4d24158b314d",
+        "text": "bottom surfaces in MTDs 5 and 6 and compared\nthem with high-amplitude continuous strata below\nMTD 6 to test the CDE method (Figure 11A).\nAfter computing RMS amplitude maps of the in-\ntervals of interest, we extracted three 100 × 100",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 17,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                312.83087158203125,
+                637.4681396484375,
+                546.040771484375,
+                704.4807739257812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "69823be33dc608f17f5c862fe2db4762",
+        "text": "Figure 11. Seismic profiles,amplitude data,dipmaps,andCDE plots for strata in\nthe Nankai Trough (IODP Site C0018A). (A) Section of PSDM inline 2315 depicting\nthe depths of the three 3-D volumes extracted for the CDE plots in Figure 11E–G,\nand the relative location of horizons H1 to H3. See Figure 10 for the location of the\nseismic section in this figure. (B) Root-mean-square (RMS) amplitude map of\nMTD 5 showing the morphology and extent of this same deposit. The 3-D volume\naroundIODPSiteC0018AusedintheCDEplots is highlightedinthefigure.(C)RMS\namplitude map of MTD 6 showing the extent of the 3-D volume extracted around\nIODP Site C0018A (white box). MTD 6 is depicted as comprising relatively high-C,\nlow-E strata. (D) RMS amplitude data from an interval between the base of MTD 6\nand horizons H3 depicting a typical RMS amplitude map through continuous,\nmoderate-amplitude (E2) strata in unit Ib. (E) CDE plot for MTD 5 (unit Ia). (F) CDE\nplot for MTD 6 (unit Ia). (G) CDE plot for turbidite sand, silt, and mud in unit Ib.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 18,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                243.77938842773438,
+                556.5047607421875,
+                520.2815551757812,
+                710.50634765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "de15261b2243a938fbcfee5fc7fd3acf",
+        "text": "Figure 12. Root-mean-square (RMS) amplitude map 324 ms below the sea floor (50 ms interval) of the heterogeneous, blocky mass-\ntransport deposits (MTD) from BES-100, southeast Brazil. Note the presence of high-amplitude blocks in between low-amplitude debrites.\nThe relative location of the profiles in Figures 13 and 14, and of the study area referred to in Figure 15, is shown on the map.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 19,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                55.78580093383789,
+                294.6402587890625,
+                545.9730834960938,
+                328.6216125488281
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "7c681b8ed056b4474e622fa3b831e6f3",
+        "text": "lines and 100-ms-thick cropped seismic volumes\naround Site C0018A (Figure 11A–D). We directly\nextracted amplitude and dip values from the\ncropped volume, which were plotted in the ternary\ndiagrams in Figure 11E–G.\nAn important feature of both MTD 5 and\nMTD 6 is that peak-strength values and bulk den-\nsity vary substantially (Figure 5A). This character\nsuggests seismic waves to be reflected out of rela-\ntively undisturbed, lithified strata in the two MTDs,\nmost likely because of the presence of structurally\ndeformed intervals and lithified debris-flow clasts in\ntheir interior (see Strasser et al., 2012) (Figure 11B,\nC). As a result of these heterogeneities, CDE val-\nues for MTD 5 plot as a scattered distribution of\npoints, with energy values reaching a maximum\nvalue of approximately 0.5. This distribution results\nfrom the presence of relatively high-amplitude re-\nflections in MTD 5 (Figure 11A, E). Some of these\nhigh-amplitude reflections are possibly related to\nthe presence of free gas and gas hydrates in the\nsediment (Kinoshita et al., 2011). In comparison,\nMTD 6 plots as strata with relatively high contrast\nand relatively lower energy maxima. Directionality\n(D) values range here from approximately 5° to",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 19,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                55.78580093383789,
+                355.8177185058594,
+                289.0011291503906,
+                702.8355712890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "326526b07b3b6651e8091020d787b8e5",
+        "text": "about 45°, a similar value to MTD 5 (Figure 11F).\nStrata below MTD 6, comprising laterally contin-\nuous turbidite sands with reservoir potential, plot\nas a set of CDE points with relatively higher energy\nand moderate contrast when compared to MTD 5\nand MTD 6 (Figure 11D, G). Here, the scattering\nof directionality (D) values is because of strata de-\nformation caused by folding and faulting, a con-\ntrasting feature from remnant strata in the following\ncase study.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 19,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                312.83172607421875,
+                355.8175964355469,
+                546.0249633789062,
+                492.845703125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a45af655eac54e15b91c1b78c4f299ec",
+        "text": "Heterogeneous, Blocky Mass-Transport\nDeposits (BES-100, Southeast Brazil)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 19,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                312.83172607421875,
+                526.84716796875,
+                512.171142578125,
+                551.0407104492188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "78b991356a45e75d699cbbd36e436bf5",
+        "text": "Root-mean-square amplitude data computed with-\nin an interval 40–50 ms above the base of an MTD\nfrom southeast Brazil (Block BES-100, Espírito\nSanto Basin) show remnant and rafted blocks in\nbetween chaotic to transparent debrites (Figures 2B,\n12). Remnant and rafted blocks are shown as partly\ngeometric features of high reflection strength\n(Figures 13A, 14A). Remnant blocks are com-\nmonly intersected by faults propagating from un-\nderlying strata and do not show any significant",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 19,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                312.83172607421875,
+                565.7510986328125,
+                546.0130004882812,
+                702.7793579101562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "db70d1e20acf6f0ab4a2c20fd56c0062",
+        "text": "Figure 13. Uninterpeted poststack time migrated (PSTM) seismic sections showing key structural and depositional features in the\nblocky and faulted mass-transport deposit (MTD) from southeast Brazil.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 20,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                30.047195434570312,
+                503.61029052734375,
+                520.1773681640625,
+                525.572509765625
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "a7cdb072a17764712fcc7b7a64c58ed0",
+        "text": "disruption of strata at their base. Rafted blocks are\nshown as individual blocks embedded in low-\namplitude to chaotic strata, presenting significant\ndisruption of basal strata. In contrast, debrites and\nother mass-wasted strata are seen as low-amplitude\nregions (Figures 13A, 14A).\nAfter computing the RMS amplitude map in\nFigure 10A, we extracted two 100 × 100 lines and\n100-ms-thick seismic volumes in two different\nareas (Figure 15A–C). Area 1 comprises a region of",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 20,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                30.047197341918945,
+                561.1595458984375,
+                263.1612854003906,
+                698.130615234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "91c50d4517769a5d51b5cc7be3fdd1d4",
+        "text": "moderate-energy, chaotic strata deposited between\nremnant blocks (Figure 15A, C). Area 2 coincides\nwith a remnant block showing subparallel strata\n(Figure 15B, C). No major faults are observed in the\nremnant block (area 2), which is likely to comprise\nalternate limestones and shales (Caravelas Member;\nBrush et al., 2004; Fiduk et al., 2004) (Figure 5B).\nAmplitude and dip values were extracted from\nthe volume and plotted in the ternary diagram in\nFigure 15D and E.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 20,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                287.0931396484375,
+                561.1595458984375,
+                520.2489624023438,
+                698.130615234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "56d08713dc12f1ded36ba5b454daf22e",
+        "text": "Figure 14. Interpreted seismic sections of southwest Brazil, as shown in Figure 13. (A) Poststack time migrated (PSTM) seismic profile\ndepicting the structure and geometry of remnant blocks in southeast Brazil, as well as confining debrites. Note the presence of normal\nfaults underneath some of the rafted blocks. (B) North–south seismic profile across the faulted and steepened mass-transport deposit\n(MTD) case studies from southeast Brazil. Note the presence of tight normal faults in the headwall region of the faulted MTD, which\nrecords limited movement on the flanks of salt diapir B. See Figures 1C, 2B and C for the location of the seismic profiles, part of the BES-\n100 and BM-ES-1 volume.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 21,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                55.785797119140625,
+                503.61029052734375,
+                545.9089965820312,
+                573.5919799804688
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "31ac04bfedefe0270fe5489b9806c710",
+        "text": "Area 1 plots as a wide distribution of values,\nwith two clusters in the ternary plot represent-\ning two distinct amplitude ranges (Figure 15D).\nHigh-amplitude strata reflecting small rafted blocks\nplot as moderate-E strata. Low-amplitude back-\nground strata plot as low-E strata to the left of the\nternary diagram (Figure 15D). Strikingly, high-\nangle rafted and thrusted strata in area 1 plot as",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 21,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                55.78602600097656,
+                598.746826171875,
+                288.9309997558594,
+                707.7688598632812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5cb8cdbbaecc21776ee6642f399e951f",
+        "text": "high D point toward the top of the ternary dia-\ngram (Figure 15D).\nStrata in area 2 plot as C3-D1-E1 to C1-D1-E3\ntypes, with very low values of D reflecting the sub-\nparallel nature of strata in the remnant blocks, i.e.,\nnot deformed during sea-floor failure (Figure 15E).\nTherefore, the ternary plot for area 2 is also repre-\nsentative of nondeformed, subhorizontal strata.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 21,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                312.83087158203125,
+                598.746826171875,
+                545.9703369140625,
+                707.7688598632812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6725c102e744518616c83eb3dc29015e",
+        "text": "Figure 15. Seismic profiles, amplitude data, dip maps, and CDE plots for strata in the blocky mass-transport deposits (MTD) in BES-100\n(southeast Brazil). (A) Poststack time migrated (PSTM) seismic profile depicting the location of the 3-D volume extracted in a chaotic,\ndeformed MTD. (B) PSTM seismic profile depicting the location of the 3-D volume extracted in a remnant block. (C) RMS amplitude map\nand associated dip maps of the MTD considered in the case study. The relative location of the 3-D volumes extracted for the CDE plots is\nalso shown in areas 1 and 2. (D) CDE plot for the chaotic MTD in area 1. (E) CDE plot for undeformed strata in the remnant block of area 2.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 22,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                30.047195434570312,
+                649.4810791015625,
+                520.159423828125,
+                707.5006713867188
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "ed2e53340b4972f9b5b6ea48ea548545",
+        "text": "Faulted, Heterogeneous Mass-Transport\nDeposits (BM-ES-1, Southeast Brazil)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 23,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                55.78580093383789,
+                56.29709243774414,
+                259.4899597167969,
+                80.49068450927734
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "94104637da8a3fb1813ac640455de919",
+        "text": "In this example, two MTDs generated on the flanks\nof a rising diapir in Block BM-ES-1, Espírito Santo\nBasin, were mapped and analyzed (Figures 2C;\n13B, 14B). The uppermost MTD A does not show\nremnant and rafted blocks but, instead, is crosscut\nby a pervasive fabric, comprising extensional faults\nand compressional ridges generated during the ris-\ning of salt diapir B (Figures 13B, 14B). Faults are\nshown as low-amplitude lineaments on RMS am-\nplitude maps, with high-amplitude strata separat-\ning individual faults, i.e., reflecting an important\ncontrast between faulted and nonfaulted strata\n(Figures 13B, 14B). High-amplitude strata are\nlikely to comprise interbedded sands and shales\n(Fiduk et al., 2004) (Figures 5B). The closely spaced\nfaults, and moderately deformed strata separating\nthem, denote limited movement of this MTD,\nwhich was confined to the south and west by ris-\ning salt diapirs (Figures 2C, 13B, 14B). The low-\nermost MTD B comprises chaotic strata deformed\nand tilted on the flanks of the rising salt diapir B\n(Figures 13B, 14B).\nWe once again extracted data from seismic\nvolumes 100 × 100 lines and 100 ms crossing the\nfaulted, central region of the MTDs (Figure 16A,\nB). Amplitude and dip values were extracted from\nthe volume, and CDE values were plotted in the\nternary diagrams in Figure 16C and D. Strata in the\nfaulted MTD A plots toward the left of the ternary\ndiagram (as with MTDs 5 and 6 in Nankai and\narea 1 in southeast Brazil), i.e., being predomi-\nnantly of the C3 to C2 types. Importantly, the\nrange in D is relatively wide in the faulted MTD\nA for relatively low E values, despite the sharp\ncontrast in amplitude observed on RMS amplitude\nmaps (Figure 16B). This latter character results in\nhigh-C strata in MTD A (Figure 16A).\nSteeply dipping strata in MTD B are of mod-\nerate to low amplitude and have been deformed by\nhalokinesis and growth of the diapir (Figures 13B,\n14B, 16A). As expected, CDE values for MTD B\nplot well into the D2 section of the ternary plot,\nwith low E and moderate C (Figure 16D). This\ncorrelates with the likely presence of low net-to-",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 23,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                55.785797119140625,
+                95.2010498046875,
+                289.0176086425781,
+                708.2208251953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "aeee290b5e98e43684b742ab944aad29",
+        "text": "gross strata of low E, significantly deformed and\ntilted by the rising of salt diapir B.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 23,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                312.83062744140625,
+                53.190181732177734,
+                545.9878540039062,
+                78.19339752197266
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "472d9c5f56158e4a83b846561bc9ec39",
+        "text": "DISCUSSION",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 23,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                312.83062744140625,
+                115.3133316040039,
+                380.90472412109375,
+                126.4674301147461
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6aebe3617c3e582721fcc0b41d8eb021",
+        "text": "The Contrast, Directionality, Energy Method\nand Recognition of Mass-Transport Deposits\non Seismic Data",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 23,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                312.83062744140625,
+                141.27908325195312,
+                539.085205078125,
+                178.39779663085938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d06a28a756b9c8600202f203b795e77e",
+        "text": "To demonstrate the use of the CDE method, we\nplotted in the ternary diagram in Figure 17 all data\npoints from the heterogeneous, blocky MTD from\nsoutheast Brazil together with CDE values for\nsteeply steeping strata flanking diapir B (Figures 13B,\n14B, 16A). In this CDE plot, we discriminate be-\ntween strata with distinct degrees of disaggregation\nalternating and intact blocks with remnant sub-\nhorizontal strata. Based on the plot in Figure 17 and\non data from the two other case studies, wide-\nspread CDE distributions in ternary plots are sug-\ngested to be the key diagnostic character that\ndistinguishes in-situ, nondeformed MTDs from\nconfining non-MTD strata (Figure 17). In particular,\nsubhorizontal layered strata will be shown with\nvariable CD values, but very low D (Figure 17). This\nobservation is significant and has implications to\nthe distinction of different zones in MTDs, known\nto comprise distinct internal fabrics and strata\nthicknesses (Frey-Martinez et al., 2006). The CDE\nmethod can therefore be used to recognize regions\nof MTDs, at the same time allowing the quantifi-\ncation of the seismic texture in such regions. This\npostulate will be the basis of the following discus-\nsion on the value of CDE values to distinguish\ndifferent zones in MTDs.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 23,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                312.83062744140625,
+                193.16424560546875,
+                546.0294799804688,
+                554.18505859375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0785c623e6d89fb320da18f63d09cec0",
+        "text": "Contrasting (High-C) Strata as Reflecting\nLithological Contrasts and Distinct Degrees\nof Disaggregation",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 23,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                312.83062744140625,
+                589.207275390625,
+                531.544677734375,
+                626.3831787109375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8e6ed0fec3cedae3cebf5d2d4d4cc6f6",
+        "text": "In the blocky MTD from southeast Brazil, strata of\ncontrasting amplitudes are visible in distal and in-\ntermediate regions, where rafted blocks alternate\nwith adjacent debris flows (Figures 12, 13A, 14A).\nThis is a character common to translation zones of",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 23,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                312.83062744140625,
+                641.093505859375,
+                545.9735717773438,
+                708.1061401367188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f7152ed34f0dbc965794be3d8d188092",
+        "text": "Figure 16. Seismic profiles, amplitude data, dip maps, and contrast, directionality, energy (CDE) plots for faulted and steepened mass-\ntransport deposits (MTDs) from Block BM-ES-1, southeast Brazil. (A) Seismic profile showing the internal character of the faulted and\nsteepened MTDs. The location of the seismic profile is shown in Figures 15B and (B). (B) RMS amplitude map of the faulted MTD A\nshowing the locations of the seismic profile in (A) and the 3-D volumes used for the corresponding CDE plots in (C) and (D). The inset\nshows dip maps of the faulted MTD A and steepened MTD B. (C) CDE plot of the faulted MTD from Block BM-ES-1. (D) CDE plot for the\nsteepened MTD B deposited on the flanks of salt diapir B. Note the low E of strata and the wide distribution of D in this MTD.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 24,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                30.047199249267578,
+                544.0890502929688,
+                520.247314453125,
+                614.1278076171875
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "0a16fefd9276c2b9f6d16dab26e6200b",
+        "text": "MTDs, where debrites are common, as they record\nthe bulk of downslope movement of such strata\n(Varnes, 1978; Frey-Martinez et al., 2006). Dis-\ntinct degrees of strata remobilization can occur\nin this region, a factor creating variations in the",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 24,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                30.047199249267578,
+                641.2098388671875,
+                263.2339172363281,
+                708.2224731445312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1225947ffe721d5d567ae299128afce2",
+        "text": "absolute values of C and E. Directionality (D)\ncan vary according to any inherited or postdepo-\nsitional fabric present in the sediment. Poorly de-\nformed blocks of strata whose downslope transla-\ntion was limited, or suppressed at some point during",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 24,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                287.092041015625,
+                641.2098388671875,
+                520.2437744140625,
+                708.2224731445312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7e1aeba540650598740c918cdb6df6ed",
+        "text": "Figure 17. Contrast, directionality, energy (CDE) plot for the blocky, chaotic, and steepened mass-transport deposit (MTD) in BM-ES-1\nand BES-100 (southeast Brazil). The plot comprises 15,300 data points and is used to highlight three end members of MTDs, and the way\ntheir internal character is reflected on CDE plots by distinct clusters of points, with different shapes and distributions. Note the emphasis\ngiven to the relationship between distinct clusters on the CDE plot and the internal character of strata. Ternary plots should be used to\ncorrelate sand-silt-clay distributions (or any other petrophysical property) with CDE parameters of individual MTDs. Example CDE values\nare presented in the adjacent tables.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 25,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                55.78580093383789,
+                352.9772644042969,
+                545.9149780273438,
+                422.9590148925781
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "4762f21aa405e441780e08f09f4e9f90",
+        "text": "downslope movement (e.g., Mosher et al., 2004),\ntend to present higher E, but variable D. Internal\nfeatures will preferentially follow the direction\nof prevalent fabric or secondary directions of frac-\ntures associated with major faults (e.g., Odling\net al., 1999). Such a change in the character of\nremnant strata leads us to consider variable values\nof C as reflecting distinct degrees of disaggrega-\ntion in MTDs. In the case study from BES-100 in\nsoutheast Brazil, disaggregated strata in between\nblocks have low C, whereas distal strata compris-\ning multiple rafted blocks have high C. This char-\nacter is interpreted to reflect different lithologies\nin MTDs comprising relatively intact blocks and\nconfining debrites (Figure 17). Undisturbed high-\namplitude blocks, likely composed of lithified li-\nthologies (higher Vp and shear strength), plot as\nvariable-D strata with low C and high E values\n(Figures 13A, 14A, 17).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 25,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                55.78580093383789,
+                445.16583251953125,
+                288.9780578613281,
+                708.1658325195312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7395641171cdfd0de603f83f558a1e9f",
+        "text": "High Directionality (D) Reflecting Internal\nStructural Fabric",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 25,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                312.83111572265625,
+                445.26788330078125,
+                523.2993774414062,
+                469.4043273925781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9cfdbca178f62abf5b965a6c29b049e5",
+        "text": "Directionality (D) can vary according to any in-\nherited or postdepositional fabric in MTDs. Fea-\ntures with impact on the absolute values of D\ninclude (1) compressional or extensional ridges in\ntranslated strata, (2) vertical propagated faults from\nunderlying units, and (3) depressions caused by\ndifferential compaction (Alves, 2010). At the basal\nglide plane, erosional ridges, steps, and remnant\n(but aligned) ridges of strata close to basal shear\nplanes of MTDs are important features of high D\n(see Alves, 2013).\nToe regions show the largest variability in terms\nof absolute values of D because of the existence of\ninherited topography that will potentially con-\ntrol the degree of internal deformation of either\nfrontally emergent or frontally confined MTDs",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 25,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                312.83111572265625,
+                487.2320861816406,
+                546.0068359375,
+                708.221923828125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b6e14dd2bb9b16e5bfea67df5eead7ac",
+        "text": "and calcarenites in their interior (Caravelas Mem-\nber, França et al., 2007).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 26,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                287.092041015625,
+                53.189571380615234,
+                520.216064453125,
+                78.19278717041016
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "20fa3dad69a08077306251fe03d57ba0",
+        "text": "(Frey-Martinez et al, 2006). For instance, frontally\nconfined MTDs will present a toe region domi-\nnated by compression of failed strata against de-\nfined buttresses. Frontally emergent MTDs will\nshow unrestricted downslope translation of failed\nstrata until the slope angle will balance sediment\ninertia and lead to the complete stop of the MTD\n(Alves, 2013). Therefore, in toe regions of MTDs,\nfailed sediment will potentially show low C, D,\nand E when reflecting a high degree of disaggre-\ngation and very moderate amplitude contrasts in\nstrata. One significant control on C and E is the\nnature of the source of material remobilized during\nsea-floor failure; fine-grained material with large\nplasticity will tend to present lower values of C and\nE than coarser grained MTDs (Figure 17).\nThe relative value of D will depend on how\npervasive the structural fabric of an MTD is in re-\nlation to C and E. Illustrating this fact, rafted strata\nin the blocky MTD in BES-100 (southeast Brazil)\nshowing steep angles with the basal glide plane plot\nas moderate to high D on the CDE ternary diagram\n(Figure 17). A similar CDE distribution is observed\nin MTD B from BM-ES-1, with D2 and D3 points\nrepresenting strata with large dip values.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 26,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                30.047197341918945,
+                53.191036224365234,
+                263.24713134765625,
+                400.2086486816406
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8fae860a426b95d71acfc1dd5f09a650",
+        "text": "Assessing Reservoir Potential and Seal\nCompetence with the Contrast, Directionality,\nEnergy Method",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 26,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                287.092041015625,
+                99.3251724243164,
+                518.1393432617188,
+                136.44387817382812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "af6071810f5119b357aa8a7cfc33d9dc",
+        "text": "Figure 18 shows a series of ternary plots that sum-\nmarize the average CDE values calculated for the\ncase studies in this article. The same figure shows\nvalues of D related to vertical structural dip. When\nestimated visually from attribute maps, the inter-\npreter can correlate the ternary plot data with\nthe nine classes of MTDs proposed, ranging from\nC1-D1-E1 to C3-D3-E3. This procedure is flexible\nenough to allow the boundaries between regions of\ndifferent risk in Figure 18B to be changed de-\npending on empirical data acquired on new bore-\nhole sites.\nThe variable character of MTDs on seismic and\nborehole data can therefore be simplified by the\nuse of ternary plots. In fact, barycentric systems\nallow the interpreter to statistically plot any CDE\nparameter and statistically correlate the calculated\nvalues with borehole lithological and petrophysical\ndata (Figure 18A). The CDE method can be used\nto assess the internal structure of any other types of\nstrata, with distinct textures, in any given direction.\nEach measured point will have a CDE value that\ntotals 1.0 (or 100%) and representing a relative\nproportion of C, D, and E to its internal charac-\nter. In essence, the interpreter should plot the\nabsolute values of CDE in a series of plots that\ninclude the following:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 26,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                287.092041015625,
+                151.2103271484375,
+                520.3260498046875,
+                526.2342529296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6d56f2e9bd7b8587d9f9221f11fa58e8",
+        "text": "High Energy (E) as a Function of\nAcoustic Impedance",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 26,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                30.047197341918945,
+                420.3213195800781,
+                192.9520721435547,
+                444.457763671875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8af32bf1b8b8c21acbd59d2787c7f764",
+        "text": "The absolute values of E will directly relate to the\nacoustic impedance of strata. The value of E may\nalso depend on the presence of fluids (i.e., bright\nspots or dim spots) in specific regions of MTDs,\nthus making this parameter the most useful in\nidentifying the presence of reservoir potential in\nMTDs. Regions with low D but variable C and E\nrepresent strata with low or no remobilization.\nThese would represent, in a stratified reservoir,\nthe features with the larger reservoir potential.\nThis assumption is corroborated by the examples\nin Figure 10, southeast Japan, in which turbidites\nand hemipelagites in unit Ib are shown as high-E\ncontinuous strata, and reveal a lower degree of dis-\naggregation in comparison to failed sediment in\nMTD 6 (Figure 10). In southeast Brazil, large-scale\nblocks also show energy values between E2 and\nE3, likely in response to the presence of carbonates",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 26,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                30.047197341918945,
+                459.2242126464844,
+                263.2031555175781,
+                708.2202758789062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3c51d6faeb1307f72105dca7db43c9f9",
+        "text": "1. Statistical plots extracted are compiled for the\nthree spatial directions, x–y–z. The more direct\nway to assess the architecture of MTDs is to\nundertake a statistical plot of CDE, with direc-\ntionality being extracted from dip data of strata\nwithin the MTD (Figure 18A). A value of D\napproaching 1.0 will be given to vertical dip\nangles (90o).\n2. Petrophysical plots correlate the probability\ndistribution of sands, silt, and clays (or other\nlithologies) with the CDE values calculated on\nstatistical plots.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 26,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                287.092041015625,
+                543.2403564453125,
+                520.2898559570312,
+                708.2224731445312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3f105f5410a20d71910b06fdb11a2494",
+        "text": "Figure 18. Ternary plots relating the average contrast, directionality, energy (CDE) values of mass-transport deposits (MTDs) analyzed\nin this work and their sealing risk. (A) Average CDE plot for the seven MTDs interpreted in this article. (B) Seal risk plot for the seven\nMTDs, highlighting the central and uppermost part of CDE plots as representing the zones of higher seal risk. High-energy strata is\nconsidered in this seal risk plot to relate to presence of lithified, cemented strata, excluding the presence of bright spots, bottom-\nsimulating reflections or any other evidence of subsurface fluid, common signs of compromised seal competency.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 27,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                55.78580093383789,
+                545.1661376953125,
+                545.8839111328125,
+                603.1287841796875
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "a80e63cd9089c63c0d9bce393e23145e",
+        "text": "3. Risk plots are then calculated considering the\ntexture of the interpreted MTDs and their li-\nthology (Figure 18B).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 27,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                55.78580093383789,
+                625.2791137695312,
+                288.86578369140625,
+                664.2855224609375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e7eaff6e383d247697fa022f027a1645",
+        "text": "The CDE data from MTDs considered in this\nwork plot toward the C corner of ternary plots",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 27,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                55.785804748535156,
+                681.2916259765625,
+                288.8724365234375,
+                706.294921875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "71424e0d64cc3707f394995847acb0d6",
+        "text": "and show variable values of E and D (Figure 18B).\nLow-energy–high-contrast and high-energy–low-\ncontrast strata are shown as the stratal types with\nthe lower risk in terms of fluid leakage, assuming\nthat high E values are not related to the presence\nof fluids (i.e., bright spots). Moderate CDE values,",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 27,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                312.82958984375,
+                625.2791137695312,
+                545.9986572265625,
+                706.294921875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e9a28cf2903579e708d8b3287a8bc6cd",
+        "text": "which are plotted toward the center of the ternary\ndiagrams, are the types of strata with the larger\nsealing risk. Conversely, these will be the intervals\nwith the largest reservoir potential.\nHigh-D strata (D2 and D3) are considered here\nto also pose a high sealing risk if related to stratal\ndip. Faulted MTDs will present variable seal risks\ndepending on the leakage factor of faults inter-\nsecting the MTD (e.g., Morris et al., 1996; Odling\net al., 2004). In the case studies documented in\nthis work, subhorizontal undisturbed strata plot\nwith a distinct character, allowing the separation\nof marginal (undisturbed) strata and moderately\ndeformed and highly deformed strata as distinct\nclusters on CDE ternary plots.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 28,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                30.047197341918945,
+                53.191036224365234,
+                263.2504577636719,
+                260.2347106933594
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a2af73c195fbdaab7ad8a90fc7b8f198",
+        "text": "An important conclusion from this article is\nthat specific CDE distributions separate MTDs\nfrom stratified intervals. When plotted on ternary\ndiagrams, CDE distributions can also be used to\nidentify distinct sediment sources from which MTDs\ncan derive. In particular, MTDs comprising coarse-\ngrained strata should differ from homogeneous\nmudstones and shales in terms of their continuity,\ninternal architecture, and amplitude.\nThis work also shows that specific regions in\nMTDs present specific C, D, and E values that can\nbe plotted against borehole petrophysical proper-\nties via ternary plots. The most common MTDs in\nnature (chaotic to transparent) will plot as mod-\nerate- to high-C and -D strata with relatively low\nvalues of E. Strata with a marked vertical direc-\ntionality (dilational faults or steeply dipping strata)\npresent high values of D. In essence, lower seal\ncompetence is recorded in the strata with large D\nor moderate C, D, and E values. High values of D\nand E can be related with sandy, bedded horizons\nwith reservoir potential. They can also correlate\nwith the presence of fluids (bright spots), further\npresenting the CDE method as a valid approach to\ncharacterize MTDs in terms of their reservoir po-\ntential and seal competence. By using this same\nmethod for successive intervals, one can estimate\nthe degree of internal organization, continuity (or,\ninstead, chaos), and reflectivity of any type of\nsubsurface strata.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 28,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                287.0936584472656,
+                95.20037841796875,
+                520.2836303710938,
+                512.2335815429688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "71aa1627aee514d32f0f79fdf8ca4cf9",
+        "text": "CONCLUSIONS",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 28,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                30.047197341918945,
+                293.3297119140625,
+                109.98492431640625,
+                304.48382568359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e7a05db66bbd6d80ca7796a3954327f4",
+        "text": "Three parameters are defined to classify the full\nspectrum of MTDs strata in nature: contrast (C),\ndirectionality (D), and energy (E) of high-amplitude\nreflections within failed strata. These parameters\ncan be subdivided into nine classes that can be\ncorrelated to any ground-truthed physical property\nof MTDs. They are scale independent but survey\ndependent because of the impact of distinct sur-\nvey geometries and acquisition equipment on seis-\nmic signals, a caveat resolved by statistically com-\nparing absolute amplitude of reflections in MTDs\nwith background amplitude from confining strata,\nor intervals of known lithology. As a result, the\nCDE method is resolution independent and ap-\nplicable to any marine geophysical data set al-\nlowing attribute (and sound amplitude) extrac-\ntion from MTDs. The data presented in this article\nrelate C, D, and E with the following properties:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 28,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                30.047197341918945,
+                319.19415283203125,
+                263.292236328125,
+                568.1900634765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "de206ab5b5cfbd37c65b818336e1d51e",
+        "text": "REFERENCES CITED",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 28,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                287.0936584472656,
+                540.3389282226562,
+                384.0815734863281,
+                551.4929809570312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "eebab844248500086c06d8607bf89b7a",
+        "text": "Abreu, V., and R. Hill, 2004, Lithofacies association, stratal\ngeometries and stratigraphic stacking in deepwater slope\nchannel systems: Examples from Ainsa Basin (Spain), and\nEdop field (offshore Nigeria): NAPE and AAPG West\nAfrica Deepwater Regional Conference, accessed Febru-\nary 7, 2014, www.searchanddiscovery.com/documents\n/abstracts/2004regional_west_africa/abstracts/abreu.htm.\nAki, K., and P. G. Richards, 2002, Quantitative seismolo-\ngy, 2nd ed.: University Science Books ed.: Sausalito,\nCalifornia, 700 p.\nAlves, T. M., 2010, 3D seismic examples of differential com-\npaction in mass-transport deposits and their effect on\npost-failure strata: Marine Geology, v. 271, p. 212–224.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 28,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                287.0928039550781,
+                566.8058471679688,
+                520.2861938476562,
+                707.7818603515625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9ab45965e1ea6b0e1b655f9c3b93d4c8",
+        "text": "• Contrast (C) reflects stratal disaggregation\nand the degree of heterogeneity of strata in\nMTDs.\n• Directionality (D) is directly related to the ex-\nistence of a syn- or postdepositional fabric as,\nfor instance, on basal shear surfaces of MTDs.\n• Energy (E) is related to stratal connectivity, with\nhigh-amplitude reflections commonly correl-\nated with lower net-to-gross ratios. Relatively",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 28,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                30.047197341918945,
+                585.00048828125,
+                263.2625427246094,
+                708.1641845703125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3d08f068dd8d73ce6600e2b26b66b21c",
+        "text": "higher Vp and peak-strength values are recorded\nin deposits with higher E.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 28,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                299.5639343261719,
+                53.190670013427734,
+                520.2660522460938,
+                78.19425201416016
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "395ef33aa1b2baceaf8cf5af4abec97e",
+        "text": "Alves, T. M., 2012, Scale-relationships and geometry of\nnormal faults reactivated during gravitational gliding\nof Albian rafts (Espírito Santo Basin, SE Brazil):\nEarth and Planetary Science Letters, v. 331–332,\np. 80–96.\nAlves, T. M., and S. D. N. Lourenço, 2010, Geomorphologic\nfeatures related to gravitational collapse: Submarine land-\nsliding to lateral spreading on a late Miocene–Quaternary\nslope (SE Crete, eastern Mediterranean): Geomorpholo-\ngy, v. 123, p. 13–33.\nAlves, T. M., M. Strasser, and G. F. Moore, in press, Erosional\nfeatures as indicators of thrust fault activity (Nankai\nTrough, Japan): Marine Geology, doi:10.1016/j.margeo\n.2013.07.011.\nApotria, T., R. Lindholm, W. Metner, M. Eze1, D. Gunn, J.\nGeslin, P. Rumelhart, F. Goulding, and S. Mitchell, 2004,\nVolume interpretation of shelf collapse processes and\nBiafra “disturbed” reservoirs, eastern Niger Delta joint\nventure: AAPG International Conference, Cancun, Mex-\nico, accessed February 7, 2014, www.searchanddiscovery\n.com/documents/abstracts/2004intl_cancun/short\n/A89639.pdf.\nAyres, A., and F. Theilen, 2001, Relationship between P-\nand S-wave velocities and geological properties of near-\nsurface sediments of the continental slope of the Barents\nSea: Geophysical Prospecting, v. 47, p. 431–441.\nBarker, P. F., R. T. Buffler, and L. A. Gambôa, 1983, A seis-\nmic reflection study of the Rio Grande Rise, in P. F.\nBarker, R. L. Carlson, and D. A. Hohnson, eds., Initial\nReports of the Deep Sea Drilling Program: Washington,\nDC, Government Printing Office, p. 953–976.\nBlanchard, T., M. van der Baan, R. Clark, and B. Kurmashov,\n2010, P-wave attenuation as an additional tool for\nmonitoring CO2 injection sites: Society of Explora-\ntion Geophysicists Expanded Abstracts, v. 29, p. 4252–\n4256.\nBrown, A. R., 2011, Interpretation of three-dimensional seis-\nmic data, 7th ed.: AAPG Memoir 42, 315 p.\nBrush, E., J. C. Fiduk, F. Love, P. Gibbs, S. Brink-Larsen, and\nG. Farrow, 2004, The Rio Doce Canyon system in the\nnorthern Espirito Santo Basin, offshore Brazil: A model\nfor interpreting ancient deep-water sand transportation\nfairways: AAPG Search and Discovery article 30028, ac-\ncessed October 3, 2013, http://www.searchanddiscovery\n.com/documents/2004/brush/.\nBruso, J. M. Jr., S. I. Getz, and R. L. Wallace, 2004, Geology\nwill support further discoveries in Gulf of Guinea’s\nGolden Rectangle: Oil & Gas Journal, February 2004,\np. 30–38.\nBull, S., J. Carwtright, and M. Huuse, 2008, A review of ki-\nnematic indicators from mass-transport complexes using\n3D seismic data: Marine and Petroleum Geology, v. 26,\np. 1132–1151.\nBünz, S., J. Mienert, P. Bryn, and K. Berg, 2005, Fluid flow\nimpact on slope failure from 3D seismic data: A case\nstudy in the Storegga Slide: Basin Research, v. 17,\np. 109–122.\nBurg, J.-P., D. Bernoulli, J. Smit, A. Dolati, and A. Bahroudi,\n2008, A giant catastrophic mud-and-debris flow in the\nMiocene Makran: Terra Nova, v. 20, p. 188–193.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 29,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                55.784881591796875,
+                51.807533264160156,
+                289.07843017578125,
+                709.7647094726562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5188dc0c8cbd4c41564d33121bc28c51",
+        "text": "Chang, H. K., R. O. Kowsmann, A. M. F. Figueiredo, and\nA. A. Bender, 1992, Tectonics and stratigraphy of the\nEast Brazil rift system: An overview: Tectonophysics,\nv. 213, p. 97–138.\nChopra, S., and K. J. Marfurt, 2007, Seismic attributes for\nprospect identification and reservoir characteriza-\ntion: Society of Exploration Geophysicists, 464 p.\nClayton, C. A., M. F. Cohen, M. Anis, T. W. Cooley, M. M.\nHonarpour, J. P. Wallace, and M. R. Chambers, 1998,\nUbit field rejuvenation: A case history of reservoir man-\nagement of a giant oil field, offshore Nigeria: Society of\nPetroleum Engineers Annual Technical Conference\nand Exhibition, SPE Paper 49165, 16 p., doi:10.2118\n/49165-MS.\nDamuth, J. E., 1980, Use of high-frequency (3.5 kHz–\n12 kHz) echograms in the study of nearbottom sedimen-\ntation processes in the deep-sea: A review: Marine Ge-\nology, v. 38, p. 51–75.\nDamuth, J. E., R. D. Flood, R. O. Kowsmann, R. H. Belderson,\nand M. A. Gorini, 1988, Anatomy and growth pattern of\nAmazon deep-sea fan as revealed by long-range side-scan\nsonar (GLORIA) and high-resolution seismic studies:\nAAPG Bulletin, v. 72, p. 885–911.\nDatta, B. N., 2010, Numerical linear algebra and applica-\ntions, 2nd ed.: Society for the Industrial and Applied\nMathematics, 530 p.\nDay, S. J., J. C. Carracedo, H. Guillou, and P. Gravestock,\n1999, Recent structural evolution of the Cumbre Vieja\nvolcano, La Palma, Canary Islands: Volcanic rift zone re-\nconfiguration as a precursor to volcanic flank instability?:\nJournal of Volcanology and Geothermal Research, v. 94,\np. 135–167.\nDemercian, S., P. Szatmari, and P. R. Cobbold, 1993, Style\nand pattern of salt diapirs due to thin-skinned gravita-\ntional gliding, Campos and Santos Basins, offshore Brazil:\nTectonophysics, v. 228, p. 393–433.\nDott, R. H., 1963, Dynamics of subaqueous gravity deposi-\ntional processes: AAPG Bulletin, v. 47, p. 104–128.\nDriscoll, N. W., J. K. Weissel, and J. A. Goff, 2000, Potential\nfor large-scale submarine slope failure and tsunami gen-\neration along the U.S. mid-Atlantic Coast: Geology,\nv. 28, p. 407–410.\nDugan, B., 2012, Petrophysical and consolidation behavior of\nmass transport deposits from the northern Gulf of Mex-\nico, IODP Expedition 308: Marine Geology, v. 315–\n318, p. 98–107.\nEdwards, M. B., 2000, Origin and significance of retrograde\nfailed shelf margins: Tertiary northern Gulf Coast Basin:\nGulf Coast Association of Geological Societies Transac-\ntions, v. 50, p. 81–93.\nEvans, B. J. 1997, A handbook for seismic data acquisition\nin exploration: Society of Exploration Geophysicists,\n305 p.\nEverhøi, A., D. Issler, F. V. De Blasio, T. Isltad, C. B. Harbitz,\nand P. Gauer, 2005, Emerging insights into the dynamics\nof submarine debris flows: Natural Hazard and Earth\nSystem Science, v. 5, p. 633–648.\nExpedition 314 Scientists, 2009, Expedition 314 Site C0004,\nin NanTroSEIZE Stage 1: Investigations of seismogen-\nesis, Nankai Trough, Japan: Proceedings of the",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 29,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                312.8216552734375,
+                51.800697326660156,
+                546.0433349609375,
+                709.7498168945312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b3be1fae86f288ac67d32407c7085a0f",
+        "text": "flow on continental margins: Journal of Geophysical Re-\nsearch: Solid Earth, v. 116, doi:10.1029/2011JB008357.\nGao, D., 2003, Volume texture extraction for 3D seismic\nvisualization and interpretation: Geophysics, v. 68,\np. 1294–1302.\nGee, M. J. R., R. L. Gawthorpe, and S. J. Friedman, 2006,\nTriggering and evolution of a giant submarine landslide,\noffshore Angola, revealed by 3D seismic stratigraphy\nand geomorphology: Journal of Sedimentary Research,\nv. 76, p. 9–19.\nHaflidason, H., H. P. Sejrup, A. Nygård, J. Mienert, P. Bryn,\nR. Lien, C. F. Forsberg, K. Berg, and D. Masson, 2004,\nThe Storegga slide: Architecture, geometry and slide de-\nvelopment: Marine Geology, v. 213, p. 201–234.\nHampton, M. A., H. J. Lee, and J. Locat, 1996, Submarine\nlandslides: Reviews in Geophysics, v. 34, p. 33–59.\nHaralick, R. M., K. S. Shanmungam, and H. Its, 1973, Tex-\ntural features for image classification: Institute of Electri-\ncal and Electronics Engineers Transactions on Systems,\nMan and Cybernetics, v. 6, p. 610–621.\nHuchon, P., B. Taylor, and A. Klaus, eds., 2002, Proceedings\nof the Ocean Drilling Program, Scientific Results: Col-\nlege Station, Texas, v. 180.\nHühnerbach, V., D. G. Masson, and partners of the COSTA\nproject, 2004, Landslides in the North Atlantic and its\nadjacent seas: An analysis of their morphology, setting\nand behavior: Marine Geology, v. 213, p. 343–362.\nJenner, K. A., D. J. W. Piper, D. C. Campbell, and D. C.\nMosher, 2007, Lithofacies and origin of late Quaternary\nmass transport deposits in submarine canyons, central\nScotian slope, Canada: Sedimentology, v. 54, p. 19–38.\nJoiner, S. D., R. D. Kreisa, R. B. Bloch, and J. B. Paul, 1999,\nDefining reservoir-rock properties, deep-water deposi-\ntional facies of the Qua Iboe Member, Pliocene, offshore\nNigeria: Society of Petroleum Engineers Annual Techni-\ncal Conference and Exhibition, doi:10.2118/56859-MS.\nKimura, G., G. F. Moore, M. Strasser, E. Screaton, D. Curewitz,\nC. Streiff, and H. Tobin, 2011, Spatial and temporal\nevolution of the megasplay fault in the Nankai Trough:\nGeochemistry, Geophysics, Geosystems, v. 12, Q0A008,\n18 p., doi:10.1029/2010GC003335.\nKinoshita, M., G. F. Moore, and Y. Kido, 2011, Heat flow\nestimated from BSR and IODP borehole data: Implication\nof recent uplifting of the imbricate thrust zone in the Nan-\nkai Trough off Kumano: Geochemistry, Geophysics, Geo-\nsystems, v. 12, doi:10.1029/2011GC003609.\nKoesoemadinata, A. P., and G. A. McMechan, 2001, Empir-\nical estimation of viscoelastic seismic parameters from\npetrophysical properties of sandstone: Geophysics,\nv. 66, p. 1457–1470.\nKroon, D., J. C. Zachos, and Leg 208 Scientific Party, 2007,\nLeg 208 synthesis: Cenozoic climate cycles and excur-\nsions, in D. Kroon, J. C. Zachos, and C. Richter, eds.,\nProceedings of the Ocean Drilling Program, Scientific\nResults, 208: College Station, Texas (Ocean Drilling\nProgram), p. 1–55, doi:10.2973/odp.proc.sr.208.201\n.2007.\nLee, H. J., 2009, Timing of occurrence of large submarine\nlandslides on the Atlantic Ocean margin: Marine Geolo-\ngy, v. 264, p. 53–64.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 30,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                287.0885009765625,
+                51.792640686035156,
+                520.2462158203125,
+                709.7353515625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6db82a476fbf3a3c2221864a71adaf31",
+        "text": "Integrated Ocean Drilling Program, v. 314/315/316,\ndoi:10.2204/iodp.proc.314315316.116.2009.\nExpedition 316 Scientists, 2009a, Expedition 316 Site\nC0008, in NanTroSEIZE Stage 1: Investigations of seis-\nmogenesis, Nankai Trough, Japan: Proceedings of the In-\ntegrated Ocean Drilling Program, v. 314/315/316,\ndoi:10.2204/iodp.proc.314315316.136.2009.\nExpedition 316 Scientists, 2009b, Expedition 316 Site\nC0004, in NanTroSEIZE Stage 1: Investigations of seis-\nmogenesis, Nankai Trough, Japan: Proceedings of the In-\ntegrated Ocean Drilling Program, v. 314/315/316,\ndoi:10.2204/iodp.proc.314315316.133.2009.\nExpedition 333 Scientists, 2011, NanTroSEIZE Stage 2: sub-\nduction inputs 2 and heat flow: Proceedings of the Inte-\ngrated Ocean Drilling Program, v. 333, doi:10.2204\n/iodp.pr.333.2011.\nFaugères, J.-C., D. A. V. Stow, P. Imbert, and A. Viana,\n1999, Seismic features of contourite drifts: Marine Ge-\nology, v. 162, p. 1–38.\nFiduk, J. C., E. R. Brush, L. E. Anderson, P. B. Gibbs, and\nM. G. Rowan, 2004, Salt deformation, magmatism,\nand hydrocarbon prospectivity in the Espírito Santo Ba-\nsin, offshore Brazil, in P. J. Post, D. Olson, K. T. Lyons,\nS. L. Palmes, P. F. Harison, and N. C. Rosen, eds., Salt-\nsediment interactions and hydrocarbon prospectivity:\nConcepts, applications, and case studies for the 21st cen-\ntury: Gulf Coast Section SEPM 24th Annual Confer-\nence, p. 370–392.\nFlemings, P. B., I. Behrmann, T. Davies, C. John, and the\nExpedition 308 Project Team, 2005, Gulf of Mexico\nhydrogeology—Overpressure and fluid flow processes\nin the deepwater Gulf of Mexico: Slope stability, seeps,\nand shallow-water flow: IODP Scientific Prospects,\ndoi:30810.2204/iodp.sp.308.\nFlodin, E. A., M. Prasad, and A. Aydin, 2003, Petrophysical\nconstraints on deformation styles in Aztec Sandstone:\nPure and Applied Geophysics, v. 160, p. 1589–1610.\nFlodin, E. A., M. Gerdes, A. Aydin, and W. D. Wiggins,\n2005, Petrophysical properties and sealing capacity of\nfault rock, Aztec Sandstone, Nevada, in R. Sorkhabi and\nY. Tsuji, eds., Faults, fluid flow, and petroleum traps:\nAAPG Memoir 85, p. 197–217.\nFlood, R. D., D. J. W. Piper, A. Klaus, and L. C. Peterson,\neds., 1997, Proceedings of the Ocean Drilling Program,\nScientific Results, College Station, Texas (Ocean Dril-\nling Program), v. 155, 679 p.\nFrança, R. L., A. C. del Rey, C. V. Tagliari, J. R. Brandão, and\nP. R. Fontanelli, 2007, Bacia do Espirito Santo: Boletim\nGeociencias da Petrobras, v. 15, p. 501–509.\nFrey-Martinez, J., J. Cartwright, and D. James, 2006, Fron-\ntally confined versus frontally emergent submarine land-\nslides: A 3D seismic characterization: Marine and Petro-\nleum Geology, v. 25, p. 585–604.\nGalloway, W. E., P. E. Caney-Curry, X. Li, and R. T. Buffler,\n2000, Cenozoic depositional history of the Gulf of Mexico\nBasin: AAPG Bulletin, v. 84, no. 11, p. 1743–1774, doi:10\n.1306/8626C37F-173B-11D7-8645000102C1865D.\nGamboa, D., T. M. Alves, and J. Cartwright, 2011, Distribu-\ntion and characterization of failed (mega) blocks along salt\nridges, southeast Brazil: Implications for vertical fluid",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 30,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                30.047698974609375,
+                51.807533264160156,
+                263.25927734375,
+                709.756591796875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "02b4bb6270ff634620ea11543bbec949",
+        "text": "Lee, H., H. Ryan, R. E. Kayen, P. J. Haeussler, P. Dartnell,\nand M. A. Hampton, 2006, Varieties of submarine fail-\nure morphologies of seismically induced landslides in\nAlaskan fjords: Norwegian Journal of Geology, v. 86,\np. 221–230.\nLocat, J., 2001, Instabilities along ocean margins: A geomor-\nphological and geotechnical perspective: Marine Geolo-\ngy, v. 18, p. 503–512.\nLucas, A., and A. Mangeney, 2007, Mobility and topographic\neffects for large Valles Marineris landslides on Mars:\nGeophysical Research Letters, v. 34, L10201, doi:10\n.1029/2007GL029835.\nLucente, C. C., and G. A. Pini, 2003, Anatomy and emplace-\nment mechanism of a large submarine slide within a\nMiocene foredeep in the northern Apennines, Italy: A\nfield perspective: American Journal of Science, v. 303,\np. 565–602.\nMasson, D. G., A. B. Watts, M. J. R. Gee, R. Urgeles, N. C.\nMitchell, T. P. Le Bas, and M. Canals, 2002, Slope fail-\nures on the flanks of the western Canary Islands: Earth-\nScience Reviews, v. 57, p. 1–35.\nMasson, D. G., C. B. Harbitz, R. B. Wynn, G. Pedersen, and\nF. Lovholt, 2006, Submarine landslides: Processes, trig-\ngers and hazard prediction: Philosophical Transactions\nof the Royal Society A, v. 384, p. 2009–2039.\nMatthews, J. D., J. N. Carter, K. D. Stephen, R. W. Zimmerman,\nA.Skorstad, T.Manzocchi, and J. A. Howell, 2008, Assess-\ning the effect of geological uncertainty on recovery esti-\nmates in shallow-marine reservoirs: The application of res-\nervoir engineering to the SAIGUP project: Petroleum\nGeoscience, v. 14, p. 35–44.\nMcEwen, A. S., 1989, Mobility of large rock avalanches: Ev-\nidence from Valles Marineris, Mars: Geology, v. 17,\np. 1111–1114.\nMcGilvery, T. A., and D. L. Cook, 2003, The influence of\nlocal gradients on accommodation space and linked de-\npositional elements across a stepped slope profile, off-\nshore Brunei, in H. H. Roberts, N. C. Rosen, R. H.\nFillon, and J. B. Anderson, eds., Shelf margin deltas\nand linked down slope petroleum systems: Global\nsignificance and future exploration potential: Gulf\nCoast Section SEPM 23rd Annual Research Confer-\nence, p. 387–419.\nMetternicht, G., L. Hurni, and R. Gogu, 2005, Remote sens-\ning of landslides: An analysis of the potential contribu-\ntion to geo-spatial systems for hazard assessment in\nmountainous environments: Remote Sensing of the En-\nvironment, v. 98, p. 284–303.\nMikada, H., G. F. Moore, A. Taira, K. Becker, J. C. Moore,\nand A. Klaus, eds., 2005, Proceedings of the Ocean Dril-\nling Program, Scientific Results, College Station, Texas\n(Ocean Drilling Program), v. 190–196.\nMohriak, W. U., 2005, Interpretação geológica e geofísica da\nBacia do Espírito Santo e da região de Abrolhos: Petro-\ngrafia, datação radiométrica e visualização sísmica das\nrochas vulcânicas: Boletim de Geociencias da Petrobras,\nv. 14, p. 133–142.\nMoore, G. F., N. L. Bangs, A. Taira, S. Kuramoto, E. Pangborn,\nand H. Tobin, 2007, Three dimensional splay fault",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 31,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                55.785789489746094,
+                51.807533264160156,
+                289.045166015625,
+                698.7531127929688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8dda947280e13b5bc56c7cee4d1e97b0",
+        "text": "geometry and implications for tsunami generation: Sci-\nence, v. 318, p. 1128–1131, doi:10.1126/science.1147195.\nMoore, G. F., et al., 2009, Structural and seismic stratigraph-\nic framework of the NanTroSEIZE State 1 transect, in\nNanTroSEIZE Stage 1: Investigations of seismogenesis,\nNankai Trough, Japan: Proceedings of the Integrated\nOcean Drilling Program, v. 314–316, doi:10.2204\n/iodp.proc.314315316.102.2009.\nMoore, G., K. Kanagawa, M. Strasser, B. Dugan, L. Maeda,\nS. Toczko, and the Expedition 338 Scientists, 2013,\nNanTroSEIZE Stage 3: NanTroSEIZE plate boundary\ndeep riser 2: Integrated Ocean Drilling Program Pre-\nliminary Report 338, doi:10.2204/iodp.pr.338.2013.\nMoreira, J. L. P., and M. Carminatti, 2004, Eocene slope and\nbasin depositional systems in the Santos Basin: Boletim\nde Geociências da Petrobras, v. 12, p. 73–87.\nMorlet, J., G. Arens, E. Fourgeau, and D. Goard, 1982, Wave\npropagation and sampling theory—Part I. Complex sig-\nnal and scattering in multilayered media: Geophysics,\nv. 47, p. 203–221.\nMorris, A., D. A. Ferril, and D. B. Henderson, 1996, Slip-\ntendency analysis and fault reactivation: Geology, v. 24,\np. 275–278.\nMoscardelli, L., and L. Wood, 2008, New classification sys-\ntem for mass transport complexes in offshore Trinidad:\nBasin Research, v. 20, p. 73–98.\nMoscardelli, L., and L. Wood, 2011, Deep-water erosional\nremnants in eastern offshore Trinidad as terrestrial ana-\nlogs for teardrop-shaped islands on Mars: Implications\nfor outflow channel formation: Geology, v. 39, p. 699–\n702.\nMoscardelli, L., L. Wood, and P. Mann, 2006, Mass-transport\ncomplexes and associated processes in the offshore area\nof Trinidad and Venezuela: AAPG Bulletin, v. 90,\np. 1059–1088.\nMoscardelli, L., T. Dooley, D. Dunlap, M. Jackson, and L.\nWood, 2012, Deep-water polygonal fault systems as ter-\nrestrial analogs for large-scale Martian polygonal terrains:\nGSA Today, v. 22, p. 2–9.\nMosher, D.C., D. J. W. Piper, D. C. Campbell, and K.A.\nJenner, 2004, Near-surface geology and sediment-failure\ngeohazards of the central Scotian slope: AAPG Bulletin,\nv. 88, p. 703–723.\nMosher, D. C., J. Erbacher, and M. Malone, eds., 2007, Pro-\nceedings of the Ocean Drilling Program, Scientific Re-\nsults: College Station, Texas, v. 207.\nMulder, T., and P. Cochonat, 1996, Classification of offshore\nmass movements: Journal of Sedimentary Research,\nv. 66, p. 43–57.\nMurphy, W. F., L. M. Schwartz, and B. Hornby, 1991, Inter-\npretation physics of Vp and Vs in sedimentary rocks: So-\nciety of Petroleum and Well Log Analysts 32nd Annual\nLogging Symposium, 24 p.\nNardin, T. R., F. J. Hein, D. S. Gorsline, and B. D. Edwards,\n1979, A review of mass movement processes, sediment,\nand acoustic characteristics and contrasts in slope and\nbase-of-slope systems versus canyon-fan-basin floor sys-\ntems: SEPM Special Publication 27, p. 61–73.\nNemec, W., 1990, Aspects of sediment movement on steep",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 31,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                312.8256530761719,
+                51.788124084472656,
+                546.0380249023438,
+                698.7694702148438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6cfa45eae7dc78a317dd58a37a00b698",
+        "text": "seismic data: Geochemistry, Geophysics, Geosystems,\nv. 12, Q0AD13, 24 p., doi:10.1029/2010GC003431.\nStrasser, M., P. Henry, T. Kanamatsu, M. K. Thu, G. F.\nMoore, and the IODP Expedition 333 Scientists, 2012,\nScientific drilling of mass-transport deposits in the Nankai\naccretionary wedge: First results from IODP Expedition\n333, in Y. Yamada, K. Kawamura, K. Ikehara, Y. Ogawa,\nR. Urgeles, D. Mosher, J. Chaytor, and M. Strasser, eds.,\nSubmarine mass movements and their consequences:\nAdvances in Natural and Technological Hazard Re-\nsearch, v. 31, p. 671–681, doi:10.1007/978-94-007-2162\n-3_60.\nSultan, N., M. Voisset, T. Marsset, E. Cauquil, and J.-L.\nColliat, 2007, Potential role of compressional structures\nin generating submarine slope failures in the Niger Delta:\nMarine Geology, v. 237, p. 169–190.\nTiab, D., and E. C. Donaldson, 2011, Petrophysics: Theory\nand practice of measuring reservoir rock and fluid trans-\nport properties: Oxford, Elsevier, 976 p.\nTobin, H. J., and M. Kinoshita, 2006, NanTroSEIZE: The\nIODP Nankai Trough seismogenic zone experiment:\nScientific Drilling, p. 23–27.\nUrgeles, R., J. Locat, and B. Dugan, 2007, Recursive failure of\nthe Gulf of Mexico continental slope: Timing and\ncauses, in V. Lykoussis, D. Sakellariou, and J. Locat,\neds., Submarine mass movement and their conse-\nquences: Dordrecht, Springer, Advances in Natural\nand Technological Hazards Research, v. 27, p. 209–\n219.\nVarnes, D. J., 1978, Slope movement types and processes,\nin R. L. Schuster and R. J. Krizek, eds., Landslides:\nAnalysis and control: Washington, D.C., National\nAcademy of Sciences,Transportation Research Board\nSpecial Report 176, p. 11–33.\nVazquez, R., A. Mendoza, A. Lopez, M. Linares, and H.\nBernal, 1997, 3-D seismic role in the integral study of\nthe Arcabuz-Culebra field, Mexico: The Leading Edge,\nv. 16, no. 12, p. 1763–1766.\nWeaver, P. P. E., H.-U. Schmincke, J. V. Firth, and W.\nDuffield, eds., 1998, Proceedings of the Ocean Dril-\nling Program, Scientific Results: College Station, Texas,\nv. 157.\nWeimer, P., and C. Shipp, 2004, Mass transport complex:\nMusing on past uses and suggestions for future direc-\ntions: Offshore Technology Conference, Houston, Texas\nOTC Paper 16752, 10 p.\nWidess, M., 1973, How thin is a thin bed?: Geophysics, v. 38,\np. 1176–1180.\nYamada, Y., Y. Yamashita, and Y. Yamamoto, 2012, Sub-\nmarine landslides at subduction margins: Insights\nfrom physical models: Tectonophysics, v. 484, p. 156–\n167.\nYilmaz, O., 1987, Seismic data processing: Society of Explo-\nration Geophysicists, v. 2, 536 p.\nZeng, H., M. M. Backus, K. T. Barrow, and N. Tyler, 1998a,\nStratal slicing: Part I. Realistic 3-D seismic model: Geo-\nphysics, v. 63, p. 502–513, doi:10.1190/1.1444351.\nZeng, H., S. C. Henry, and J. P. Riola, 1998b, Stratal slicing:\nPart II. Real seismic data: Geophysics, v. 63, p. 514–522,\ndoi:10.1190/1.1444352.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 32,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                287.08758544921875,
+                51.790809631347656,
+                520.3099975585938,
+                709.7371215820312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5f0cd4d341e1c7ca8f16579e81e81445",
+        "text": "delta slopes: International Association of Sedimentolo-\ngists Special Publication 10, p. 20–73.\nOdling, N. E., et al., 1999, Variations in fracture system ge-\nometry and their implications for fluid flow in fractured\nhydrocarbon reservoirs: Petroleum Geoscience, v. 5,\np. 373–384.\nOdling, N. E., S. D. Harris, and R. J. Knipe, 2004, Permeabil-\nity scaling properties of fault damage zones in siliclastic\nrocks: Journal of Structural Geology, v. 26, p. 1727–\n1747.\nOgiesoba, O., and U. Hammes, 2012. Seismic interpretation\nof mass-transport deposits within the upper Oligocene\nFrio Formation, south Texas Gulf Coast: AAPG Bulle-\ntin, v. 96, p. 845–868.\nOmosanya, K. O., and T. M. Alves, 2013, A 3-dimensional\nseismic method to assess the provenance of mass-\ntransport deposits (MTDs) on salt-rich continental slopes\n(Espírito Santo Basin, SE Brazil): Marine and Petroleum\nGeology, v. 44, p. 223–239.\nPark, J. O., T. Tsuru, S. Kodaira, P. R. Cummins, and Y.\nKaneda, 2002, Splay fault branching along the Nankai\nsubduction zone: Science, v. 297, p. 1157–1160.\nPaull, C. K., W. J. Buelow, W. Ussler III, and W. S. Borowski,\n1996, Increased continental-margin slumping frequency\nduring sea-level lowstands above gas hydrate-bearing sed-\niments: Geology, v. 24, p. 143–146.\nPaull, C. K., P. Brewer, W. Ussler, E. Peltzer, G. Rehder, and\nD. Clague, 2003, An experiment demonstrating that\nmarine slumping is a mechanism to transfer methane\nfrom seafloor gas-hydrate deposits into the upper ocean\nand atmosphere: Geo-Marine Letters, v. 22, p. 198–\n203.\nPérez-Torrado, F. J., R. Paris, M. C. Cabrera, J.-L. Schneider,\nP. Wassmer, J.-C. Carracedo, A. Rodriguez-Santana,\nand F. Santana, 2006, Tsunami deposits related to the\nflank collapse in oceanic volcanoes: The Agaete Valley\nevidence, Gran Canaria, Canary Islands: Marine Geolo-\ngy, v. 227, p. 135–149.\nPosamentier, H. W., and V. Kolla, 2003, Seismic geomor-\nphology and stratigraphy of depositional elements in\ndeep-water settings: Journal of Sedimentary Research,\nv. 73, p. 367–388.\nSalem, H. S., and G. V. Chilingarian, 2000, Influence of po-\nrosity and direction of flow on tortuosity in unconsolidated\nporous media: Energy Sources, v. 22, p. 207–213.\nSchreiner, S., M. B. F. M. de Souza, and J. P. R. Migliorelli,\n2009, Modelo digital da geomorfologia do fundo oceâni-\nco do centro-sul da Bacia do Espírito Santo e norte da\nBacia de Campos: Boletim de Geociencias da Petrobras,\nv. 17, p. 365–369.\nSchulz, R. A., 2002, Stability of rock slopes in Valles Mari-\nneris, Mars: Geophysical Research Letters, v. 29, p. 38.1–\n38.4.\nStrasser, M., et al., 2009, Origin and evolution of a splay fault\nin the Nankai accretionary wedge: Nature, v. 2, p. 648–\n652.\nStrasser, M., G. F. Moore, G. Kimura, A. J. Kopf, M. B.\nUnderwood, J. Guo, and E. J. Screaton, 2011, Slump-\ning and mass transport deposition in the Nankai fore\narc: Evidence from IODP drilling and 3-D reflection",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Alves_AAPG_MTDs_14.pdf",
+            "page_number": 32,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                30.046798706054688,
+                51.807533264160156,
+                263.2871398925781,
+                709.7546997070312
+            ],
+            "is_full_width": false
+        }
+    }
+]

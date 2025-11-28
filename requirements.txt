@@ -1,0 +1,29 @@
+# Core
+numpy
+pandas
+tqdm
+matplotlib
+seaborn
+scikit-learn
+networkx
+python-louvain
+openpyxl
+
+# NLP
+nltk
+spacy
+rake-nltk
+sentence-transformers
+
+# PDF parsing
+PyMuPDF==1.23.7
+
+# Visualization
+matplotlib
+seaborn
+
+# Graph formats
+lxml
+
+# Optional GPU acceleration
+torch

@@ -1,0 +1,1332 @@
+[
+    {
+        "element_id": "b585e5968e0c039f7c1143d72ce30c2f",
+        "text": "STRUCTURAL TEXTURE SIMILARITY METRICS FOR RETRIEVAL APPLICATIONS",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                71.16000366210938,
+                88.89586639404297,
+                542.0242919921875,
+                106.81671142578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a49e4cec2a22b8ffb44d7392a926920f",
+        "text": "Xiaonan Zhao1, Matthew G. Reyes2, Thrasyvoulos N. Pappas1, David L. Neuhoff 2",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                110.51959228515625,
+                118.17450714111328,
+                502.4318542480469,
+                134.88787841796875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "31264f2a2caf771510a51a6a993041b2",
+        "text": "1EECS Department, Northwestern Univ., Evanston, IL 60208\n2EECS Department, Univ. of Michigan, Ann Arbor, MI 48109",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                157.31924438476562,
+                146.49317932128906,
+                455.7745666503906,
+                176.89938354492188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e1e9866af6f335d99178032f3f745c86",
+        "text": "ABSTRACT\nTraditional image similarity metrics compare two images on a\npoint-by-point basis. On the other hand, structural similarity\nmetrics (SSIM) attempt to base image similarity on “struc-\ntural” information. We evaluate the performance of SSIM\nmetrics in the context of texture similarity, and propose new\nmetrics that incorporate the best features of SSIM and elimi-\nnate the most serious drawbacks. We show that the proposed\nnew texture similarity metrics outperform SSIM and its vari-\nations, as well as PSNR and other traditional metrics. We\ndemonstrate the advantages of the new metrics on a carefully\nselected set of 39 texture pairs and comparisons with informal\nsubjective test results.\nIndex Terms— content-based retrieval, texture similarity",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.479644775390625,
+                201.00323486328125,
+                298.2630920410156,
+                374.9373779296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a2ed758ca6e6bad28c68fee8f33b2d44",
+        "text": "1. INTRODUCTION",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                129.84042358398438,
+                379.4433898925781,
+                222.62356567382812,
+                394.37738037109375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a23161d3ac6180835fb0585bbaea7606",
+        "text": "The objective evaluation of the similarity of two images is of\ngreat interest for a variety of applications, including image\nquality evaluation, compression, and retrieval. The focus of\nthis paper is on texture similarity for content-based retrieval.\nIn contrast to traditional compression applications, texture re-\ntrieval is especially challenging because it allows substantial\npoint-by-point variations in textures that humans judge to be\nessentially identical. The goal of this paper is to develop tex-\nture similarity metrics that agree with human perception.\nMost existing image similarity metrics compare two im-\nages on a point-by-point basis. This includes both image do-\nmain metrics, such as peak signal-to-noise ratio (PSNR), and\na variety of metrics that incorporate a multiscale frequency\ndecomposition, such as DCT, subband, and DWT based met-\nrics [1]. The latter can incorporate low-level models of the\nHVS. On the other hand, structural similarity metrics (SSIM)\n[2] attempt to extract “structural” information from the im-\nages. The intent is to allow substantial point-by-point changes\nthat do not affect image structure, such as intensity and con-\ntrast changes, while remaining sensitive to changes that erode\nstructure, such as blurring and ringing.\nSSIM and its derivatives have been shown to perform well\nfor a variety of distortions, including additive white noise,\nblurring, compression artifacts, contract and intensity shifts,\nrotations, translations, and zoom [2]. In [3] the performance\nof SSIM metrics was examined in the context of realistic dis-\ntortions that arise in video coding and transmission applica-",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.478790283203125,
+                396.2411804199219,
+                298.3741455078125,
+                720.899658203125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ea67b7e3f07229217649daa2846f7b1c",
+        "text": "tions.\nIn this paper, our focus is on texture similarity for\nretrieval. We show that the ability of both traditional and\nSSIM metrics to predict perceived similarity of texture image\npatches is not as satisfactory. We propose new SSIM metrics\nthat take advantage of the most powerful aspects of the SSIM\napproach and improve on its most serious limitations. Exper-\nimental results with a carefully selected set of 39 texture pairs\nand comparisons with informal subjective test results indicate\nthat the metric modiﬁcations lead to signiﬁcant performance\nimprovements. Indeed, we expect that the new metrics will\nhelp in the design of new generation texture retrieval tech-\nniques. While our focus is on texture, we believe that the new\nmetrics will apply equally well to general images.\nThe rest of this paper is organized as follows. Section 2\nreviews SSIMs. Section 3 proposes new metrics for texture\nsimilarity. Section 4 analyzes the experimental results. The\nconclusions are summarized in Section 5.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                315.239990234375,
+                201.60118103027344,
+                559.17041015625,
+                406.61968994140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "49be81488ce9f27cf59b90f188e6bfd1",
+        "text": "2. REVIEW OF SSIM METRICS",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                363.480712890625,
+                411.60345458984375,
+                510.3706359863281,
+                426.5374450683594
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "79dd7e2bedbed44d9add93f0738a6f02",
+        "text": "The SSIM metrics [2] attempt to account for high-level prop-\nerties of the human visual system (HVS), but employ no ex-\nplicit model of the HVS. As described in [4], the basic SSIM\nmetric combines three terms: a luminance (mean) comparison\nterm, a contrast (variance) comparison term, and a “structure”\nterm. Given two images or image patches (windows) x and y\nto be compared, the luminance comparison term is deﬁned as",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                315.2408447265625,
+                428.4012451171875,
+                559.0281982421875,
+                513.8997192382812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ff0c85de06ca961128f83ae026c505e7",
+        "text": "l(x, y) = 2µxµy + C1",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                386.6406555175781,
+                516.4682006835938,
+                482.2748718261719,
+                533.7542114257812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f16dd5f252551b333a036440f42348eb",
+        "text": "µ2x + µ2y + C1\n(1)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                428.6400146484375,
+                519.7210693359375,
+                559.0660400390625,
+                542.3906860351562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ec91ca8a9d4fa50c246b447714a199ee",
+        "text": "where µx and µy are the means of the two windows. The\ncontrast comparison term is deﬁned as",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                315.24005126953125,
+                541.6810302734375,
+                558.8958129882812,
+                567.2994995117188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b227ceb04a4421e41eb6144e10fb3032",
+        "text": "c(x, y) = 2σxσy + C2",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                386.28033447265625,
+                569.5079956054688,
+                482.5145263671875,
+                586.9140014648438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0cad39ab960a527d43dc067b73f3cfa5",
+        "text": "σ2x + σ2y + C2\n(2)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                429.4800109863281,
+                572.8810424804688,
+                559.0659790039062,
+                595.5506591796875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b3cc61327fae01dc5a5c1add40aed91e",
+        "text": "where σ2\nx and σ2\ny are the variances of the two windows. The\nstructure term is deﬁned as",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                315.239990234375,
+                595.0809936523438,
+                558.8798217773438,
+                620.8194580078125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fd162ab96422ba2f383b304402a9a0cd",
+        "text": "s(x, y) = σxy + C3",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                392.28033447265625,
+                619.0679321289062,
+                477.11456298828125,
+                636.3539428710938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2fa1469c12bc69bb49bff7f153f90bdb",
+        "text": "σxσy + C3\n(3)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                435.8399963378906,
+                622.321044921875,
+                559.0659790039062,
+                644.0306396484375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3014e3a432e2b1587b26f2b57e6520f8",
+        "text": "where σxy is the covariance between the two windows. C1,\nC2, and C3 are small constants. These three terms are com-\nbined to give a composite measure of structural similarity:\nSSIM(x, y) = l(x, y)αc(x, y)βs(x, y)γ\n(4)\nwhere α, β, and γ are positive weights, typically set to 1. The\nSSIM is typically evaluated in a small sliding window (e.g.,",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                315.23968505859375,
+                642.2410278320312,
+                559.0704956054688,
+                720.8994750976562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ad4443cdab41b4343c88ea4a1bf19611",
+        "text": "7 × 7), and the overall image similarity is obtained as the\nspatial average over the entire image. This basic SSIM metric\nis sensitive to spatial translation [5].\nThe SSIM idea can easily be extended to the complex\nwavelet domain [5]. The complex wavelet SSIM (CWSSIM)\nis computed over a subband of the complex wavelet trans-\nform. Note that the wavelet subbands (with the exception of\nthe lowpass subband) are zero mean, so the luminance term\naffects only the baseband calculations, otherwise it is equal to\none. In [5], they set α = β = γ = 1 and C3 = C2/2. The\noverall image similarity can then be computed as the average\nover all spatial locations and subbands, or over a subset of\nthe subbands. The CWSSIM implementation provides invari-\nance to small spatial translations, rotations, and scaling. In\naddition, it can incorporate perceptual weights that reﬂect the\nnoise visibility thresholds of the different subbands [3]. In\nthe experiments of Section 4, we use a 3-level, 6-orientation\nsteerable ﬁlter decomposition [6].",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.47908020019531,
+                67.92100524902344,
+                298.2736511230469,
+                285.41949462890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f14f5c608d9da3ec06d8916cd592c664",
+        "text": "3. NEW TEXTURE SIMILARITY METRICS",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                75.95897674560547,
+                293.64324951171875,
+                276.4388122558594,
+                308.5772399902344
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "733846b8dc0e9dbb3829ac29fef04277",
+        "text": "We now propose new SSIM metrics that better account for\nperceptual texture similarity. As we saw above, our goal is to\ntake advantage of the most powerful aspects of existing SSIM\nmetrics and to improve on their most serious limitations.\nOne of the most powerful ideas behind the SSIM approach\nto image quality is the fact that it moves away from point-by-\npoint comparisons that characterize traditional metrics, and\ninstead, bases the comparisons on region statistics. The hope\nis that as long as the region statistics are the same, the images,\nand in particular the textures, will look the same even though\nthere may be substantial point-by-point variations. However,\nthe original SSIM does not fully embrace this new philoso-\nphy, as the structure term – the one that actually gives the\nmetric its name – is in fact a point-by-point comparison. Al-\nthough the structure term can capture some of the shape dif-\nferences between the two images, it is too constrained to cap-\nture the perceptual similarity of two textures. Thus, we pro-\npose to eliminate the structure term and to replace it with ad-\nditional terms that depend on region statistics.\nOur motivation comes from the texture analysis/synthesis\nliterature. In [7], large texture patches are constructed from\nsmall texture patches in a visually seamless fashion without\neven reference to an original texture. It is thus very unlikely\nthat this extrapolated texture will match the original texture\non a point-by-point basis. Thus, in order to allow signiﬁcant\npoint-by-pointvariations in the proposed new metrics, we will\ndrop the structure term. However, as we will see in Section 4,\nthe luminance and contrast terms are not enough to ensure\nthe visual/structural similarity of the textures, so we will then\nadd more terms that depend on region statistics. Portilla and\nSimoncelli [8] demonstrated that a wide variety of textures\ncan be synthesized using a large set of statistical parameters\nthat characterize the coefﬁcients of a multiscale frequency de-\ncomposition. While the texture analysis/synthesis problem",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.47705078125,
+                311.5210266113281,
+                298.29083251953125,
+                720.8995361328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2603d6464e09408db220c6a33cc815f8",
+        "text": "requires several hundred parameters, the hope is that a much\nsmaller set will be adequate for texture similarity.\nThus, the main idea is to use a broader set of subband\nstatistics to account for texture characteristics. Note that the\nmean and variance used in the existing SSIM metrics do not\nprovide any directional information. Although direction is\naccounted for implicitly when we compute statistics of sub-\nbands with different orientations, we propose adding the ﬁrst\norder autocovariance in the horizontal, vertical, and two diag-\nonal directions. The autocovariances are then normalized by\nthe variance to obtain the ﬁrst order correlation coefﬁcients in\nthe four directions. The horizontal is deﬁned as follows:\nρx(0, 1) = E{(xi,j −µx)(xi,j+1 −µx)}/σ2\nx\n(5)\nThe expected value is an empirical average over the window.\nThe vertical and diagonal terms are deﬁned in a similar fash-\nion. Note that in contrast to the variance, which takes val-\nues in the entire positive real axis, the correlation coefﬁcients\ncan be negative, and take values in the ﬁnite interval [−1, 1].\nThus, the new comparison terms must take a different form\nthan those of (1) and (2). After extensive experimentation,\nwe selected the following formula:\nc0,1(x, y) = 1 −0.5 (|ρx(0, 1) −ρy(0, 1)|)p\n(6)\nwhich provides numbers in the interval [0, 1]. In this paper,\nwe set p = 1. The other three terms are deﬁned similarly.\nNote that these terms are bounded, symmetrical with respect\nto x and y, and have a unique maximum.\nWe considered adding all four of the new terms to the\nSSIM equation, but our experiments indicate that the hori-\nzontal and vertical terms are adequate, and that the diagonal\nterms do not have a signiﬁcant effect on the results. Thus, the\nnew structural texture similarity (STSIM) metric becomes:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                315.23553466796875,
+                67.92106628417969,
+                559.1445922851562,
+                449.9395751953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ad78b81322eb4a41f41c3cffc864533c",
+        "text": "STSIM(x, y)= l(x, y)\n1\n4 c(x, y)\n1\n4 c0,1(x, y)\n1\n4 c1,0(x, y)\n1\n4 (7)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                320.99700927734375,
+                450.9610290527344,
+                559.0659790039062,
+                466.674072265625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8a6fdc5139bc92bcc1f202dc1b7c46b8",
+        "text": "Note that the exponents sum to one in order to normalize the\nmetric values so that we can compare metrics with different\nnumbers of terms. Note also that, with the elimination of the\nstructure term, the metric values are always positive. This\nmetric can be implemented in the original image domain or in\nthe subband domain. The equation above gives an error map,\nwhich can be spatially averaged to obtain an overall similarity\nvalue. As in the original SSIM, we calculate all the parame-\nters in a sliding window over the entire image.\nA natural question is whether these image statistics are\nadequate for SSIM. For example, one could argue for adding\nhigher order autocovariances and the corresponding correla-\ntion coefﬁcients. Note, however, that computing higher order\nautocovariances is essentially equivalent to computing ﬁrst\norder autocovariances of decimated images. In order to avoid\naliasing, a much better approach would be to downsample (ﬁl-\nter and decimate) the images and then compute the ﬁrst order\nstatistics. This naturally leads to a multiresolution approach,\nthat is, computing the STSIM over the subbands of a multires-\nolution frequency decomposition, then combining the results\nover both space and frequency.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                315.239990234375,
+                468.0010070800781,
+                559.0582275390625,
+                720.8994750976562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "05521346462a9bf54b6add9a694d8870",
+        "text": "Once the metric values at each image location of each sub-\nband are computed, a natural question is how to combine the\nmetric values. We considered two approaches:\nApproach A: Average over both space and frequency (radial\nand angular orientation).\nApproach B: Multiply the metric values across frequency\nﬁrst, normalized by taking the m-th root (where m is the num-\nber of subbands), and then take the spatial average.\nThe advantage of the ﬁrst approach is that it is consis-\ntent with the CWSSIM, and that perceptual weights can be\nincluded in a natural way. The advantage of the second is\nthat the weakest matches tend to dominate (when multiplying\nnumbers in the [0, 1] interval). For the same reason, in Ap-\nproach A, it is important to multiply the different terms ﬁrst,\nthen do the spatial averaging; otherwise, the localized differ-\nences will be diminished.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.47895812988281,
+                67.92100524902344,
+                298.3097229003906,
+                264.05950927734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b69796bd40c5185e4c5d7ae89176f884",
+        "text": "4. EXPERIMENTAL RESULTS",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                105.83895874023438,
+                270.36328125,
+                246.4871063232422,
+                285.2972717285156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "04e52b9a4336ad34d53ed14629acc362",
+        "text": "In order to evaluate the SSIM and proposed STSIM metrics\nin the context of texture retrieval, we assembled a comprehen-\nsive set of textures that includes natural scenes, man-made ob-\njects, graphic images, and textiles. We selected about 30 tex-\nture patches from the Brodatz set, standard test image images\n(e.g., “Lena,” “baboon”), various online texture databases,\nand the authors’ photo collection. They were arranged in 39\npairs that include both similar and dissimilar pairs. Some of\nthese pairs are shown in Fig. 1. In order to obtain a prelim-\ninary evaluation of the metric predictions, we conducted an\ninformal subjective test with four subjects. Figure 1 shows\n16 of the 39 pairs along with the subjective scores, in a scale\nfrom 1 to 10, where 10 indicates that the pairs are highly sim-\nilar and 1 indicates that they are completely dissimilar.\nOur goal was to compare the proposed STSIM metrics\nwith the existing SSIM metrics as well as PSNR, and also, to\ninvestigate the need for perceptual weighting (subband noise\nvisibility). In addition, we compared the two error pooling\napproaches we discussed in the previous section. Since our\ngoal is texture retrieval, instead of measuring correlation of\nthe metric predictions with the subjective assessments, we\njudge a metric by its ability to discriminate between similar\nand dissimilar texture pairs. Thus, we consider that a metric\nis good if the values it assigns to similar pairs of textures are\nconsistently above the values it assigns to dissimilar textures.\nThat is, there is a threshold (or an interval) such that metric\nvalues above the threshold (interval) indicate similarity and\nbelow the threshold (interval) indicate dissimilarity.\nIn order to make it easier to compare the different ap-\nproaches, we implemented a variation of the CWSSIM metric\nthat is based on a 3-level, 6-orientation steerable ﬁlter decom-\nposition, with both α = β = γ = 1 and α = β = γ = 1/3. We\nalso tested the CWSSIM metric without the structure term.\nThe proposed STSIM metric was computed using the same\ndecomposition and four terms, as in (7). In all cases, we used\na 7 × 7 sliding window. For all three metric types, we tested",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.4769287109375,
+                288.0009460449219,
+                298.37677001953125,
+                720.8994750976562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e6223656dc670cbbf88743a7db1b45d0",
+        "text": "the two pooling approaches, additive (A) and multiplicative\n(B). For Approach A, we tried the three algorithms both with\nand without perceptual weighting, and found the perceptual\nweighting does not help; in fact, it makes things a bit worse.1",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                315.236328125,
+                67.92100524902344,
+                558.9063110351562,
+                117.53948974609375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "39f3f377d94dfceb368ab057b1513a38",
+        "text": "Our results for Approach A are shown in Fig. 2. The hori-\nzontal axis shows the different textures arranged according to\ndecreasing subjective score; each texture is assigned an inte-\nger from 1 to 39. The vertical axis shows the metric values.\nThe vertical dashed line indicates the boundary between the\nsimilar and dissimilar pairs. The horizontal dotted lines show\nreasonable threshold values to separate similar from dissimi-\nlar textures. Note that (with the exception of Pair 5 discussed\nbelow) the STSIM does the best job at distinguishing similar\nand dissimilar textures. Note also that removing the “struc-\nture” term deteriorates the performance of the CWSSIM met-\nric. The two additional terms of the STSIM metric more than\nmake up for that, however. Another interesting observation\nis that for the CWSSIM metric using α = β = γ = 1/3 per-\nforms better than α = β = γ = 1. Moreover, the 1/3 power\nresults in a more reasonable range of metric values, which is\nalso consistent with the other metric variations.\nWe should point out that the textures of Pair 5, which\npresent a special case, are similar at a coarse scale but are\nquite different at a ﬁne scale. Thus, the metric values are quite\nlow. If, however, we use a larger sliding window for texture\nanalysis, then the metric values become considerably higher.\nThe results for Approach B are shown in Fig. 3, and they\nare good (and comparable to Approach A) for all three met-\nrics, irrespective of which terms are included in the metric.\nThis is because two textures will be dissimilar if they are dis-\nsimilar in one scale and orientation. This is exactly what mul-\ntiplicative pooling does: the weakest matches dominate. One\nthe other hand, Approach A may be more suited for image\ncompression applications, where the relative ordering of sim-\nilar textures become important. More extensive testing will\nbe needed to determine the best approach. Finally, we also\ntested the basic image-domain SSIM and PSNR. The results\nare not shown here, but both have serious limitations and are\nclearly outperformed by the metrics shown here. Speciﬁcally,\nthe SSIM values in all the experiments are in general very low\nand do not reﬂect changes in perceptual similarity, while the\nPSNR has inconsistent results for several of the test pairs.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                315.2337341308594,
+                116.04106140136719,
+                559.0125122070312,
+                572.6995849609375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "81b3261b908a70240120b535bbec6563",
+        "text": "5. CONCLUSIONS",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                393.8350830078125,
+                577.443359375,
+                480.27294921875,
+                592.3773803710938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "38d85d58938f2181f8046d15d3e8c465",
+        "text": "We proposed new structural texture similarity metrics that in-\ncorporate the best features of SSIMs and eliminate their most\nserious drawbacks. Our primary focus has been in texture\nsimilarity. We have shown that the proposed new metrics out-\nperform conventional SSIM and its variations, as well as tra-\nditional metrics such as PSNR. However, while the proposed\nmetrics provide a nice threshold for separating similar and\ndissimilar pairs, they do not appear to have the same scaling",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                315.2345275878906,
+                594.8411254882812,
+                559.0339965820312,
+                692.339599609375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "82efc3ee485adfe08529c03f5f634e67",
+        "text": "1However, even though it does not help for texture retrieval, perceptual\nweighting may be necessary in applications like image compression.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                315.2403564453125,
+                699.176513671875,
+                558.3297729492188,
+                720.3395385742188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8d54da2702ca491aaa3fd295f093a577",
+        "text": "pair 1 – 9.5\npair 2 – 9.5\npair 4 – 9.0\npair 5 – 8.75\npair 6 – 7.75\npair 7 – 7.5\npair 14 – 4.75\npair 15 – 4.5",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                69.5999984741211,
+                189.96104431152344,
+                545.5679931640625,
+                203.69952392578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3b5d91e2fb350c3aa5530fa15e824e73",
+        "text": "pair 16 – 4.0\npair 18 – 3.0\npair 21 – 2.5\npair 22 – 2.5\npair 24 – 2.25\npair 27 – 1.5\npair 33 – 1.0\npair 35 – 1.0\nFig. 1. Selected texture pairs used in the experiments – subjective scores. First row: similar pairs. Second row: dissimilar pairs.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.479339599609375,
+                324.6010437011719,
+                558.5119018554688,
+                349.8572692871094
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "bdaa3ae4dc094bf9e1f1b0d510e7f0f3",
+        "text": "1",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                83.76830291748047,
+                357.9427795410156,
+                86.65950012207031,
+                365.64398193359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "af7fc3d2a1ac667a6fcc1f3d4ad19507",
+        "text": "CWSSIM original",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                207.00799560546875,
+                360.0334167480469,
+                272.8827209472656,
+                370.64898681640625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bd13b1471bfdb5447762dd6bf6cf9864",
+        "text": "CWSSIM no S−term (1/2)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                207.00799560546875,
+                370.8988037109375,
+                266.100830078125,
+                378.6000061035156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f9316e5c1c229ee6ad272b9765d94dde",
+        "text": "0.9",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                79.43489837646484,
+                371.9607849121094,
+                86.66289520263672,
+                379.6619873046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1ca72b7a543a6ce5999fe67c37fd15c6",
+        "text": "CWSSIM (1/3)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                207.00799560546875,
+                378.82879638671875,
+                240.52200317382812,
+                386.5299987792969
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "915b74a8396ab92bfd5798c52b0034a2",
+        "text": "0.8",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                79.43489837646484,
+                386.00079345703125,
+                86.66289520263672,
+                393.7019958496094
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "18598996921848e6eff7fa0f8d5d65ee",
+        "text": "STSIM (1/4)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                207.00799560546875,
+                386.7807922363281,
+                235.0360107421875,
+                394.48199462890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "821fcb3921ca1063e7758c48ae0cf81a",
+        "text": "0.7",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                79.43489837646484,
+                400.0408020019531,
+                86.66289520263672,
+                407.74200439453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f5a68f986810e21415c95ed223fd32fd",
+        "text": "0.6",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                79.43489837646484,
+                414.0588073730469,
+                86.66289520263672,
+                421.760009765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "de61977d01427b22a56636b3db085eff",
+        "text": "metric value",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                70.8541030883789,
+                418.3370056152344,
+                78.55530548095703,
+                446.364990234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1c3b300c94d55b793b848a5a5d19c0db",
+        "text": "0.5",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                79.43489837646484,
+                428.0987854003906,
+                86.66289520263672,
+                435.79998779296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3eadffd65b0d097dc447a8a07e558de0",
+        "text": "0.4",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                79.43489837646484,
+                442.1387939453125,
+                86.66289520263672,
+                449.8399963378906
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fb971eae7a95a1554af728cf8a9f9886",
+        "text": "0.3",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                79.43489837646484,
+                456.1578063964844,
+                86.66289520263672,
+                463.8590087890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "08d6cd3ad3d5b692e3b86c315839c86b",
+        "text": "0.2",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                79.43489837646484,
+                470.1977844238281,
+                86.66289520263672,
+                477.89898681640625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c287cadad3d955a638b84e73a42063ac",
+        "text": "0.1",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                79.43489837646484,
+                484.23779296875,
+                86.66289520263672,
+                491.9389953613281
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "03166c28dc7fef09df7f5e41e7107a1e",
+        "text": "0\n5\n10\n15\n20\n25\n30\n35\n40\n0",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                83.76830291748047,
+                498.2778015136719,
+                275.40740966796875,
+                509.6189880371094
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b973f16c6bd5abcf2783cfe9d265d71a",
+        "text": "texture pair, decreasing subjective score",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                133.5800018310547,
+                506.9227600097656,
+                226.6393585205078,
+                514.6239624023438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b5b597f916f544ba982709c386f32610",
+        "text": "Fig. 2. Additive error pooling for the various metrics.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                69.72000122070312,
+                519.9632568359375,
+                282.7001953125,
+                534.8972778320312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9406e60fb0735ef6e7ed3ff18f41c890",
+        "text": "properties as human vision. This points to the need for further\nmetric development (e.g., by including more subband statis-\ntics), as well as perceptual tuning.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.4794921875,
+                543.9610595703125,
+                298.14404296875,
+                581.6995239257812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3f137feaa4e9a6e11a6243a313d385a1",
+        "text": "6. REFERENCES\n[1] T. N. Pappas, et al., “Perceptual criteria for image quality\nevaluation,” in Handbook of Image and Video Processing,\nA. C. Bovik, Ed., pp. 939–959. Academic Pr., 2005.\n[2] Z. Wang, et al., “Image quality assessment: From error\nvisibility to structural similarity,” IEEE Tr. Image Proc.,\nvol. 13, pp. 600–612, Apr. 2004.\n[3] A. C. Brooks, T. N. Pappas, “Structural similarity quality\nmetrics in a coding context: Exploring the space of real-\nistic distortions,” Human Vision and Electronic Imaging\nXI, Jan. 2006, Proc. SPIE Vol. 6057, pp. 6057OU-1–12.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.47917175292969,
+                585.84326171875,
+                298.1791687011719,
+                720.8994750976562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "149ee2c6a642073a3dbc9f1af3e8e67b",
+        "text": "1",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                344.3330078125,
+                357.5307922363281,
+                347.2242126464844,
+                365.23199462890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fd3f9956fe275e06f7cfce27befecf4e",
+        "text": "CWSSIM no S−term (1/2)\nCWSSIM (1/3)\nSTSIM (1/4)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                469.3500061035156,
+                359.62139892578125,
+                533.7728271484375,
+                385.1650085449219
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5fc0496e91317e4fa6d272afe461a786",
+        "text": "0.9",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                340.0,
+                371.6578063964844,
+                347.2279968261719,
+                379.3590087890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0ae3c30058cc3d208e34d916710d268f",
+        "text": "0.8",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                340.0,
+                385.8057861328125,
+                347.2279968261719,
+                393.5069885253906
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1cb1a4a0956541dc3ee12778393d46cb",
+        "text": "0.7",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                340.0,
+                399.95379638671875,
+                347.2279968261719,
+                407.6549987792969
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1080b1a52bab35cab7efa890f9fe4e45",
+        "text": "0.6",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                340.0,
+                414.102783203125,
+                347.2279968261719,
+                421.8039855957031
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b35216efa9b08ea4b18ed3e5a879d6d6",
+        "text": "metric value",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                331.4187927246094,
+                418.489013671875,
+                339.1199951171875,
+                446.5169982910156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2e144fd38a6965d55dae9ee6c0a07d2e",
+        "text": "0.5",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                340.0,
+                428.25079345703125,
+                347.2279968261719,
+                435.9519958496094
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8967882f2073ccce20a59babe70d39ee",
+        "text": "0.4",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                340.0,
+                442.3777770996094,
+                347.2279968261719,
+                450.0789794921875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "626375fa0f2a3c91d14c432e18250dbf",
+        "text": "0.3",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                340.0,
+                456.5257873535156,
+                347.2279968261719,
+                464.22698974609375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "96e33e68853df8ccc7232b4e3815ad52",
+        "text": "0.2",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                340.0,
+                470.6737976074219,
+                347.2279968261719,
+                478.375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8d96b2152c5131b73059fe3d6965231e",
+        "text": "0.1",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                340.0,
+                484.8227844238281,
+                347.2279968261719,
+                492.52398681640625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8587796e7c3f8f74d60671f72220d45f",
+        "text": "0\n5\n10\n15\n20\n25\n30\n35\n40\n0",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                344.3330078125,
+                498.9707946777344,
+                536.29736328125,
+                510.3119812011719
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d0f0118289fb7745f638f6edb399840c",
+        "text": "texture pair, decreasing subjective score",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                394.3179931640625,
+                507.6157531738281,
+                487.3771667480469,
+                515.3169555664062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2cffd8697832e44c596532259390f302",
+        "text": "Fig. 3. Multiplicative error pooling for the various metrics.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                319.67999267578125,
+                519.9632568359375,
+                554.2493286132812,
+                534.8972778320312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2beafda0509c51b3e93b92abb95a0e8b",
+        "text": "[4] Z. Wang, et al., “Structural approaches to image quality\nassessment,” in Handbook of Image and Video Process-\ning, A. C. Bovik, Ed., pp. 961–974. Academic Pr., 2005.\n[5] Z. Wang, E. P. Simoncelli, “Translation insensitive image\nsimilarity in complex wavelet domain,” Proc. ICASSP,\nPhiladelphia, PA, 2005, vol. II, pp. 573–576.\n[6] E.P. Simoncelli, et al., “Shiftable multi-scale transforms,”\nIEEE Tr. Inform. Th., vol. 38, pp. 587–607, Mar. 1992.\n[7] A. A. Efros, W. T. Freeman, “Image quilting for texture\nsynthesis and transfer,” Proc. SIGGRAPH-01, Los Ange-\nles, CA, Aug. 2001, pp. 341–346.\n[8] J. Portilla, E. P. Simoncelli, “A parametric texture model\nbased on joint statictics of complex wavelet coefﬁcients,”\nInt. J. Comp. Vision, vol. 40, no. 1, pp. 49–71, Oct. 2000.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "zhao_icip08.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                315.23992919921875,
+                542.7021484375,
+                558.9403686523438,
+                710.5795288085938
+            ],
+            "is_full_width": false
+        }
+    }
+]

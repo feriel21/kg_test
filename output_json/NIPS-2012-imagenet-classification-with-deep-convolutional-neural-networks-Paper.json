@@ -1,0 +1,1807 @@
+[
+    {
+        "element_id": "88f7e891534357aabc9f31bae5aecd8c",
+        "text": "ImageNet Classiﬁcation with Deep Convolutional\nNeural Networks",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                125.66999816894531,
+                109.69583892822266,
+                486.33282470703125,
+                146.8362274169922
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c9407ae5235ccd4d9911f24f246404bc",
+        "text": "Alex Krizhevsky\nUniversity of Toronto\nkriz@cs.utoronto.ca",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                115.84199523925781,
+                187.6595458984375,
+                229.41554260253906,
+                219.1210174560547
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cf727d4565dc1399d026786f3cf80ebf",
+        "text": "Ilya Sutskever\nUniversity of Toronto\nilya@cs.utoronto.ca",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                243.23501586914062,
+                187.6595458984375,
+                356.8088073730469,
+                219.1210174560547
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "05536bd24d2c5ca4d9a547bd34f77be8",
+        "text": "Abstract",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                283.7580261230469,
+                249.295166015625,
+                328.2433166503906,
+                261.2503662109375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7714681df72164067c7ecf3253b67439",
+        "text": "We trained a large, deep convolutional neural network to classify the 1.2 million\nhigh-resolution images in the ImageNet LSVRC-2010 contest into the 1000 dif-\nferent classes. On the test data, we achieved top-1 and top-5 error rates of 37.5%\nand 17.0% which is considerably better than the previous state-of-the-art. The\nneural network, which has 60 million parameters and 650,000 neurons, consists\nof ﬁve convolutional layers, some of which are followed by max-pooling layers,\nand three fully-connected layers with a ﬁnal 1000-way softmax. To make train-\ning faster, we used non-saturating neurons and a very efﬁcient GPU implemen-\ntation of the convolution operation. To reduce overﬁtting in the fully-connected\nlayers we employed a recently-developed regularization method called “dropout”\nthat proved to be very effective. We also entered a variant of this model in the\nILSVRC-2012 competition and achieved a winning top-5 test error rate of 15.3%,\ncompared to 26.2% achieved by the second-best entry.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                143.86602783203125,
+                277.6014709472656,
+                468.138671875,
+                419.0699768066406
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c55533a418e5798fe58392d69ac51c74",
+        "text": "1\nIntroduction",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00003051757812,
+                447.67706298828125,
+                190.81370544433594,
+                459.63226318359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0c0de80ee1ec81697cc2648982a0e854",
+        "text": "Current approaches to object recognition make essential use of machine learning methods. To im-\nprove their performance, we can collect larger datasets, learn more powerful models, and use bet-\nter techniques for preventing overﬁtting. Until recently, datasets of labeled images were relatively\nsmall — on the order of tens of thousands of images (e.g., NORB [16], Caltech-101/256 [8, 9], and\nCIFAR-10/100 [12]). Simple recognition tasks can be solved quite well with datasets of this size,\nespecially if they are augmented with label-preserving transformations. For example, the current-\nbest error rate on the MNIST digit-recognition task (<0.3%) approaches human performance [4].\nBut objects in realistic settings exhibit considerable variability, so to learn to recognize them it is\nnecessary to use much larger training sets. And indeed, the shortcomings of small image datasets\nhave been widely recognized (e.g., Pinto et al. [21]), but it has only recently become possible to col-\nlect labeled datasets with millions of images. The new larger datasets include LabelMe [23], which\nconsists of hundreds of thousands of fully-segmented images, and ImageNet [6], which consists of\nover 15 million labeled high-resolution images in over 22,000 categories.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00003051757812,
+                475.23236083984375,
+                504.00347900390625,
+                616.7018432617188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "421def1507be239bcd5071b5c179b532",
+        "text": "To learn about thousands of objects from millions of images, we need a model with a large learning\ncapacity. However, the immense complexity of the object recognition task means that this prob-\nlem cannot be speciﬁed even by a dataset as large as ImageNet, so our model should also have lots\nof prior knowledge to compensate for all the data we don’t have. Convolutional neural networks\n(CNNs) constitute one such class of models [16, 11, 13, 18, 15, 22, 26]. Their capacity can be con-\ntrolled by varying their depth and breadth, and they also make strong and mostly correct assumptions\nabout the nature of images (namely, stationarity of statistics and locality of pixel dependencies).\nThus, compared to standard feedforward neural networks with similarly-sized layers, CNNs have\nmuch fewer connections and parameters and so they are easier to train, while their theoretically-best\nperformance is likely to be only slightly worse.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00003051757812,
+                623.67626953125,
+                504.00341796875,
+                732.2688598632812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f87c73e939cf09d7d20f9e7c432edd7d",
+        "text": "Geoffrey E. Hinton\nUniversity of Toronto\nhinton@cs.utoronto.ca",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                370.6290283203125,
+                187.6595458984375,
+                496.1579895019531,
+                219.1210174560547
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d0ba4c7ff8afb35e6132850f235488e7",
+        "text": "Despite the attractive qualities of CNNs, and despite the relative efﬁciency of their local architecture,\nthey have still been prohibitively expensive to apply in large scale to high-resolution images. Luck-\nily, current GPUs, paired with a highly-optimized implementation of 2D convolution, are powerful\nenough to facilitate the training of interestingly-large CNNs, and recent datasets such as ImageNet\ncontain enough labeled examples to train such models without severe overﬁtting.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                84.26844787597656,
+                504.00335693359375,
+                138.06698608398438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e79448c52f27227710c9aa3e25c7b1ab",
+        "text": "The speciﬁc contributions of this paper are as follows: we trained one of the largest convolutional\nneural networks to date on the subsets of ImageNet used in the ILSVRC-2010 and ILSVRC-2012\ncompetitions [2] and achieved by far the best results ever reported on these datasets. We wrote a\nhighly-optimized GPU implementation of 2D convolution and all the other operations inherent in\ntraining convolutional neural networks, which we make available publicly1. Our network contains\na number of new and unusual features which improve its performance and reduce its training time,\nwhich are detailed in Section 3. The size of our network made overﬁtting a signiﬁcant problem, even\nwith 1.2 million labeled training examples, so we used several effective techniques for preventing\noverﬁtting, which are described in Section 4. Our ﬁnal network contains ﬁve convolutional and\nthree fully-connected layers, and this depth seems to be important: we found that removing any\nconvolutional layer (each of which contains no more than 1% of the model’s parameters) resulted in\ninferior performance.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                145.0403594970703,
+                504.0033264160156,
+                275.5508117675781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "23bb205dada837237804706769aeec71",
+        "text": "In the end, the network’s size is limited mainly by the amount of memory available on current GPUs\nand by the amount of training time that we are willing to tolerate. Our network takes between ﬁve\nand six days to train on two GTX 580 3GB GPUs. All of our experiments suggest that our results\ncan be improved simply by waiting for faster GPUs and bigger datasets to become available.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                282.52520751953125,
+                504.0032958984375,
+                325.3647766113281
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9d0c11e9e730f0ec7ce074fcfdc49f8d",
+        "text": "2\nThe Dataset",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                345.15887451171875,
+                187.35861206054688,
+                357.11407470703125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e941ec4a88bd6336ff9c8b8bca86dcaf",
+        "text": "ImageNet is a dataset of over 15 million labeled high-resolution images belonging to roughly 22,000\ncategories. The images were collected from the web and labeled by human labelers using Ama-\nzon’s Mechanical Turk crowd-sourcing tool. Starting in 2010, as part of the Pascal Visual Object\nChallenge, an annual competition called the ImageNet Large-Scale Visual Recognition Challenge\n(ILSVRC) has been held. ILSVRC uses a subset of ImageNet with roughly 1000 images in each of\n1000 categories. In all, there are roughly 1.2 million training images, 50,000 validation images, and\n150,000 testing images.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                371.93218994140625,
+                504.00341796875,
+                447.6487121582031
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "af545a6573893c8f43a81da9271839da",
+        "text": "ILSVRC-2010 is the only version of ILSVRC for which the test set labels are available, so this is\nthe version on which we performed most of our experiments. Since we also entered our model in\nthe ILSVRC-2012 competition, in Section 6 we report our results on this version of the dataset as\nwell, for which test set labels are unavailable. On ImageNet, it is customary to report two error rates:\ntop-1 and top-5, where the top-5 error rate is the fraction of test images for which the correct label\nis not among the ﬁve labels considered most probable by the model.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                454.6221008300781,
+                504.0032958984375,
+                519.379638671875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c8c5c0763d8754159f607be470389ae5",
+        "text": "ImageNet consists of variable-resolution images, while our system requires a constant input dimen-\nsionality. Therefore, we down-sampled the images to a ﬁxed resolution of 256 × 256. Given a\nrectangular image, we ﬁrst rescaled the image such that the shorter side was of length 256, and then\ncropped out the central 256×256 patch from the resulting image. We did not pre-process the images\nin any other way, except for subtracting the mean activity over the training set from each pixel. So\nwe trained our network on the (centered) raw RGB values of the pixels.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                526.35302734375,
+                504.00335693359375,
+                591.1106567382812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1511274276175e628df0e38bddcc3c3c",
+        "text": "3\nThe Architecture",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                610.9047241210938,
+                213.480712890625,
+                622.8599243164062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "afa7420183678a7f884262e114abd8fd",
+        "text": "The architecture of our network is summarized in Figure 2. It contains eight learned layers —\nﬁve convolutional and three fully-connected. Below, we describe some of the novel or unusual\nfeatures of our network’s architecture. Sections 3.1-3.4 are sorted according to our estimation of\ntheir importance, with the most important ﬁrst.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                637.6780395507812,
+                504.0032958984375,
+                680.5176391601562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9f93e41bd69dcd89e1437deef6ceb5f2",
+        "text": "1http://code.google.com/p/cuda-convnet/",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                120.65299987792969,
+                721.5196533203125,
+                266.73162841796875,
+                732.0283813476562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "80672ff68f994c3c07282452ef2f2f46",
+        "text": "3.1\nReLU Nonlinearity",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                84.17748260498047,
+                212.04937744140625,
+                94.14008331298828
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9fd2768f4d6df04e65df8455e4906b27",
+        "text": "The standard way to model a neuron’s output f as\na function of its input x is with f(x) = tanh(x)\nor f(x) = (1 + e−x)−1. In terms of training time\nwith gradient descent, these saturating nonlinearities\nare much slower than the non-saturating nonlinearity\nf(x) = max(0, x). Following Nair and Hinton [20],\nwe refer to neurons with this nonlinearity as Rectiﬁed\nLinear Units (ReLUs). Deep convolutional neural net-\nworks with ReLUs train several times faster than their\nequivalents with tanh units. This is demonstrated in\nFigure 1, which shows the number of iterations re-\nquired to reach 25% training error on the CIFAR-10\ndataset for a particular four-layer convolutional net-\nwork. This plot shows that we would not have been\nable to experiment with such large neural networks for\nthis work if we had used traditional saturating neuron\nmodels.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                107.99993896484375,
+                108.25181579589844,
+                323.9633483886719,
+                293.7877502441406
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bd97bbf6d471205e0403e9974364616f",
+        "text": "We are not the ﬁrst to consider alternatives to tradi-\ntional neuron models in CNNs. For example, Jarrett\net al. [11] claim that the nonlinearity f(x) = |tanh(x)|\nworks particularly well with their type of contrast nor-\nmalization followed by local average pooling on the\nCaltech-101 dataset. However, on this dataset the pri-\nmary concern is preventing overﬁtting, so the effect\nthey are observing is different from the accelerated\nability to ﬁt the training set which we report when us-\ning ReLUs. Faster learning has a great inﬂuence on the\nperformance of large models trained on large datasets.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                107.99992370605469,
+                300.7611389160156,
+                323.9891357421875,
+                420.3126525878906
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1dbba60179ff2fe930d09ad29ed6d20e",
+        "text": "3.2\nTraining on Multiple GPUs",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                107.99992370605469,
+                444.49310302734375,
+                246.7589874267578,
+                454.4556884765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3d809369cceb500d5a6ffa5f30f59960",
+        "text": "A single GTX 580 GPU has only 3GB of memory, which limits the maximum size of the networks\nthat can be trained on it. It turns out that 1.2 million training examples are enough to train networks\nwhich are too big to ﬁt on one GPU. Therefore we spread the net across two GPUs. Current GPUs\nare particularly well-suited to cross-GPU parallelization, as they are able to read from and write to\none another’s memory directly, without going through host machine memory. The parallelization\nscheme that we employ essentially puts half of the kernels (or neurons) on each GPU, with one\nadditional trick: the GPUs communicate only in certain layers. This means that, for example, the\nkernels of layer 3 take input from all kernel maps in layer 2. However, kernels in layer 4 take input\nonly from those kernel maps in layer 3 which reside on the same GPU. Choosing the pattern of\nconnectivity is a problem for cross-validation, but this allows us to precisely tune the amount of\ncommunication until it is an acceptable fraction of the amount of computation.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                107.99992370605469,
+                468.7990417480469,
+                504.0032958984375,
+                588.3505859375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "77fd44313b4cfbfef34d303df3fb7d98",
+        "text": "The resultant architecture is somewhat similar to that of the “columnar” CNN employed by Cire¸san\net al. [5], except that our columns are not independent (see Figure 2). This scheme reduces our top-1\nand top-5 error rates by 1.7% and 1.2%, respectively, as compared with a net with half as many\nkernels in each convolutional layer trained on one GPU. The two-GPU net takes slightly less time\nto train than the one-GPU net2.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                107.99992370605469,
+                595.3240356445312,
+                504.00323486328125,
+                649.1226196289062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5891453f802c67d206a097217a60508c",
+        "text": "2The one-GPU net actually has the same number of kernels as the two-GPU net in the ﬁnal convolutional\nlayer. This is because most of the net’s parameters are in the ﬁrst fully-connected layer, which takes the last\nconvolutional layer as input. So to make the two nets have approximately the same number of parameters, we\ndid not halve the size of the ﬁnal convolutional layer (nor the fully-conneced layers which follow). Therefore\nthis comparison is biased in favor of the one-GPU net, since it is bigger than “half the size” of the two-GPU\nnet.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                671.7066650390625,
+                504.0010070800781,
+                732.0283813476562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "746745f2ee4f136927618826ed0e35d7",
+        "text": "Figure 1: A four-layer convolutional neural\nnetwork with ReLUs (solid line) reaches a 25%\ntraining error rate on CIFAR-10 six times faster\nthan an equivalent network with tanh neurons\n(dashed line). The learning rates for each net-\nwork were chosen independently to make train-\ning as fast as possible.\nNo regularization of\nany kind was employed. The magnitude of the\neffect demonstrated here varies with network\narchitecture, but networks with ReLUs consis-\ntently learn several times faster than equivalents\nwith saturating neurons.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                333.92095947265625,
+                272.9374694824219,
+                504.0047302246094,
+                403.206298828125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f1a52b926e78d33f2bb5a26f1ebbc37b",
+        "text": "3.3\nLocal Response Normalization",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                84.17748260498047,
+                260.4775695800781,
+                94.14008331298828
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c4327bbe2b531a0ec4c3d0bab8287e1c",
+        "text": "ReLUs have the desirable property that they do not require input normalization to prevent them\nfrom saturating. If at least some training examples produce a positive input to a ReLU, learning will\nhappen in that neuron. However, we still ﬁnd that the following local normalization scheme aids\ngeneralization. Denoting by ai\nx,y the activity of a neuron computed by applying kernel i at position\n(x, y) and then applying the ReLU nonlinearity, the response-normalized activity bi\nx,y is given by\nthe expression",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                104.79145812988281,
+                504.0047302246094,
+                171.63497924804688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7d43e38abc774d10c81355c6220bea4a",
+        "text": "",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                262.2380065917969,
+                174.53724670410156,
+                270.9552917480469,
+                184.49984741210938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0f2334fa940db92e69e8c8c814063941",
+        "text": "min(N−1,i+n/2)\nX",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                296.7030029296875,
+                176.33328247070312,
+                357.6663818359375,
+                195.05984497070312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3e5ddce77f485ba07ba7cd994ab53373",
+        "text": "bi\nx,y = ai\nx,y/",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                211.08700561523438,
+                185.6206817626953,
+                262.2383117675781,
+                199.824462890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d8daa59451cea95ebd843f8d39ce8388",
+        "text": "j=max(0,i−n/2)\n(aj\nx,y)2",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                297.6319885253906,
+                185.6206817626953,
+                386.32806396484375,
+                209.0784912109375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7ea1522976dc817c1163f8b7981251c7",
+        "text": "k + α",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                262.2380065917969,
+                187.39878845214844,
+                295.008056640625,
+                202.43283081054688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bba0ef23a190db0820a4d59d888ceae9",
+        "text": "where the sum runs over n “adjacent” kernel maps at the same spatial position, and N is the total\nnumber of kernels in the layer. The ordering of the kernel maps is of course arbitrary and determined\nbefore training begins. This sort of response normalization implements a form of lateral inhibition\ninspired by the type found in real neurons, creating competition for big activities amongst neuron\noutputs computed using different kernels. The constants k, n, α, and β are hyper-parameters whose\nvalues are determined using a validation set; we used k = 2, n = 5, α = 10−4, and β = 0.75. We\napplied this normalization after applying the ReLU nonlinearity in certain layers (see Section 3.5).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                107.99996948242188,
+                213.26377868652344,
+                504.0032043457031,
+                289.2108459472656
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ac680b0035d209c9f7dc8465b2c4cf44",
+        "text": "This scheme bears some resemblance to the local contrast normalization scheme of Jarrett et al. [11],\nbut ours would be more correctly termed “brightness normalization”, since we do not subtract the\nmean activity. Response normalization reduces our top-1 and top-5 error rates by 1.4% and 1.2%,\nrespectively. We also veriﬁed the effectiveness of this scheme on the CIFAR-10 dataset: a four-layer\nCNN achieved a 13% test error rate without normalization and 11% with normalization3.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                296.1842346191406,
+                504.00335693359375,
+                349.9828186035156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ac27d151a91eceab99670de398d3434f",
+        "text": "3.4\nOverlapping Pooling",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                107.99996948242188,
+                364.5252685546875,
+                218.41542053222656,
+                374.48785400390625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "55c4f5aa2ac8307e4ba885b39a8e94fb",
+        "text": "Pooling layers in CNNs summarize the outputs of neighboring groups of neurons in the same kernel\nmap. Traditionally, the neighborhoods summarized by adjacent pooling units do not overlap (e.g.,\n[17, 11, 4]). To be more precise, a pooling layer can be thought of as consisting of a grid of pooling\nunits spaced s pixels apart, each summarizing a neighborhood of size z × z centered at the location\nof the pooling unit. If we set s = z, we obtain traditional local pooling as commonly employed\nin CNNs. If we set s < z, we obtain overlapping pooling. This is what we use throughout our\nnetwork, with s = 2 and z = 3. This scheme reduces the top-1 and top-5 error rates by 0.4% and\n0.3%, respectively, as compared with the non-overlapping scheme s = 2, z = 2, which produces\noutput of equivalent dimensions. We generally observe during training that models with overlapping\npooling ﬁnd it slightly more difﬁcult to overﬁt.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                107.99996948242188,
+                385.13922119140625,
+                504.0050048828125,
+                493.7317199707031
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d21f2d71dec438d061246ee8efad7f34",
+        "text": "3.5\nOverall Architecture",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00003051757812,
+                508.275146484375,
+                218.76426696777344,
+                518.2377319335938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "74e3e7b6984e9dd47d175b4da2c54a0c",
+        "text": "Now we are ready to describe the overall architecture of our CNN. As depicted in Figure 2, the net\ncontains eight layers with weights; the ﬁrst ﬁve are convolutional and the remaining three are fully-\nconnected. The output of the last fully-connected layer is fed to a 1000-way softmax which produces\na distribution over the 1000 class labels. Our network maximizes the multinomial logistic regression\nobjective, which is equivalent to maximizing the average across training cases of the log-probability\nof the correct label under the prediction distribution.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00003051757812,
+                528.8890991210938,
+                504.0032958984375,
+                593.6456909179688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8be6de317435892be816400a7f87dc2d",
+        "text": "The kernels of the second, fourth, and ﬁfth convolutional layers are connected only to those kernel\nmaps in the previous layer which reside on the same GPU (see Figure 2). The kernels of the third\nconvolutional layer are connected to all kernel maps in the second layer. The neurons in the fully-\nconnected layers are connected to all neurons in the previous layer. Response-normalization layers\nfollow the ﬁrst and second convolutional layers. Max-pooling layers, of the kind described in Section\n3.4, follow both response-normalization layers as well as the ﬁfth convolutional layer. The ReLU\nnon-linearity is applied to the output of every convolutional and fully-connected layer.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00003051757812,
+                600.6200561523438,
+                504.00335693359375,
+                676.3356323242188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b1ed697cfbbca46d24939be59358c6ff",
+        "text": "The ﬁrst convolutional layer ﬁlters the 224×224×3 input image with 96 kernels of size 11×11×3\nwith a stride of 4 pixels (this is the distance between the receptive ﬁeld centers of neighboring",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00003051757812,
+                682.9503784179688,
+                504.0033874511719,
+                704.2316284179688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "251419d6fe4f58479f00b0e5f506cfb6",
+        "text": "3We cannot describe this network in detail due to space constraints, but it is speciﬁed precisely by the code\nand parameter ﬁles provided here: http://code.google.com/p/cuda-convnet/.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                711.556640625,
+                504.00030517578125,
+                732.0283813476562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0de4e8b0ceb9c0783996783c7c3b9067",
+        "text": "β",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                395.53900146484375,
+                171.7736358642578,
+                400.0580139160156,
+                178.7474365234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b6396fad792ab97d7f2c6edb854c734d",
+        "text": "",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                386.8219909667969,
+                174.53724670410156,
+                395.5392761230469,
+                184.49984741210938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fa953003bb59c1599a812ecadb9c95da",
+        "text": "",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                386.8219909667969,
+                192.47023010253906,
+                395.5392761230469,
+                202.43283081054688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "759c19f34732e317daca86d61df158f1",
+        "text": "Figure 2: An illustration of the architecture of our CNN, explicitly showing the delineation of responsibilities\nbetween the two GPUs. One GPU runs the layer-parts at the top of the ﬁgure while the other runs the layer-parts\nat the bottom. The GPUs communicate only at certain layers. The network’s input is 150,528-dimensional, and\nthe number of neurons in the network’s remaining layers is given by 253,440–186,624–64,896–64,896–43,264–\n4096–4096–1000.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                216.16847229003906,
+                504.0043029785156,
+                269.726318359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "17a79aa75ae875545372cebbdab9512b",
+        "text": "neurons in a kernel map). The second convolutional layer takes as input the (response-normalized\nand pooled) output of the ﬁrst convolutional layer and ﬁlters it with 256 kernels of size 5 × 5 × 48.\nThe third, fourth, and ﬁfth convolutional layers are connected to one another without any intervening\npooling or normalization layers. The third convolutional layer has 384 kernels of size 3 × 3 ×\n256 connected to the (normalized, pooled) outputs of the second convolutional layer. The fourth\nconvolutional layer has 384 kernels of size 3 × 3 × 192 , and the ﬁfth convolutional layer has 256\nkernels of size 3 × 3 × 192. The fully-connected layers have 4096 neurons each.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                107.99996948242188,
+                291.2353820800781,
+                504.00323486328125,
+                366.9509582519531
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a4131e67d5d46731592cdd5f0623c243",
+        "text": "4\nReducing Overﬁtting",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00004577636719,
+                385.5490417480469,
+                233.74484252929688,
+                397.5042419433594
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "31f7766ec878c43be4f527790ba66f9e",
+        "text": "Our neural network architecture has 60 million parameters. Although the 1000 classes of ILSVRC\nmake each training example impose 10 bits of constraint on the mapping from image to label, this\nturns out to be insufﬁcient to learn so many parameters without considerable overﬁtting. Below, we\ndescribe the two primary ways in which we combat overﬁtting.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00004577636719,
+                411.60333251953125,
+                504.0033874511719,
+                454.4429016113281
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "041a694d3d8810addb4e69dda5976f6f",
+        "text": "4.1\nData Augmentation",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00004577636719,
+                470.6843566894531,
+                213.76296997070312,
+                480.6469421386719
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d934934dd1947acd96fa7722c27b8072",
+        "text": "The easiest and most common method to reduce overﬁtting on image data is to artiﬁcially enlarge\nthe dataset using label-preserving transformations (e.g., [25, 4, 5]). We employ two distinct forms\nof data augmentation, both of which allow transformed images to be produced from the original\nimages with very little computation, so the transformed images do not need to be stored on disk.\nIn our implementation, the transformed images are generated in Python code on the CPU while the\nGPU is training on the previous batch of images. So these data augmentation schemes are, in effect,\ncomputationally free.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00004577636719,
+                491.8143005371094,
+                504.0035095214844,
+                567.5299072265625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2e55ef2df54e805cd8caa8bdbd854d9f",
+        "text": "The ﬁrst form of data augmentation consists of generating image translations and horizontal reﬂec-\ntions. We do this by extracting random 224 × 224 patches (and their horizontal reﬂections) from the\n256×256 images and training our network on these extracted patches4. This increases the size of our\ntraining set by a factor of 2048, though the resulting training examples are, of course, highly inter-\ndependent. Without this scheme, our network suffers from substantial overﬁtting, which would have\nforced us to use much smaller networks. At test time, the network makes a prediction by extracting\nﬁve 224 × 224 patches (the four corner patches and the center patch) as well as their horizontal\nreﬂections (hence ten patches in all), and averaging the predictions made by the network’s softmax\nlayer on the ten patches.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00003051757812,
+                574.5042724609375,
+                504.00335693359375,
+                672.1378784179688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7d37c774d334ddffdc123d05de45ad8c",
+        "text": "The second form of data augmentation consists of altering the intensities of the RGB channels in\ntraining images. Speciﬁcally, we perform PCA on the set of RGB pixel values throughout the\nImageNet training set. To each training image, we add multiples of the found principal components,",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00003051757812,
+                679.111328125,
+                504.0033264160156,
+                710.9918823242188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "12d26f9079a71e57efb612b7b2c1c305",
+        "text": "4This is the reason why the input images in Figure 2 are 224 × 224 × 3-dimensional.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                120.65299987792969,
+                721.5196533203125,
+                427.17010498046875,
+                732.0283813476562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d24939291b9341d69829502c0c82792b",
+        "text": "with magnitudes proportional to the corresponding eigenvalues times a random variable drawn from\na Gaussian with mean zero and standard deviation 0.1. Therefore to each RGB image pixel Ixy =\n[IR\nxy, IG\nxy, IB\nxy]T we add the following quantity:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                84.26844787597656,
+                504.00323486328125,
+                118.99748992919922
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a271306a39c93d435680552d35e20e84",
+        "text": "[p1, p2, p3][α1λ1, α2λ2, α3λ3]T",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                240.53500366210938,
+                124.75355529785156,
+                369.8962707519531,
+                137.3353271484375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a57b7ac86c8e9fa8c16a7c4823292afc",
+        "text": "where pi and λi are ith eigenvector and eigenvalue of the 3 × 3 covariance matrix of RGB pixel\nvalues, respectively, and αi is the aforementioned random variable. Each αi is drawn only once\nfor all the pixels of a particular training image until that image is used for training again, at which\npoint it is re-drawn. This scheme approximately captures an important property of natural images,\nnamely, that object identity is invariant to changes in the intensity and color of the illumination. This\nscheme reduces the top-1 error rate by over 1%.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                107.99993896484375,
+                142.9735870361328,
+                504.00323486328125,
+                208.08981323242188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fa55301089e231c5dcc5d43fd52f4404",
+        "text": "4.2\nDropout",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                107.99993896484375,
+                222.7972412109375,
+                166.21139526367188,
+                232.7598419189453
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8fff1c2380011384a9bbcbcfacc83d81",
+        "text": "Combining the predictions of many different models is a very successful way to reduce test errors\n[1, 3], but it appears to be too expensive for big neural networks that already take several days\nto train. There is, however, a very efﬁcient version of model combination that only costs about a\nfactor of two during training. The recently-introduced technique, called “dropout” [10], consists\nof setting to zero the output of each hidden neuron with probability 0.5. The neurons which are\n“dropped out” in this way do not contribute to the forward pass and do not participate in back-\npropagation. So every time an input is presented, the neural network samples a different architecture,\nbut all these architectures share weights. This technique reduces complex co-adaptations of neurons,\nsince a neuron cannot rely on the presence of particular other neurons. It is, therefore, forced to\nlearn more robust features that are useful in conjunction with many different random subsets of the\nother neurons. At test time, we use all the neurons but multiply their outputs by 0.5, which is a\nreasonable approximation to taking the geometric mean of the predictive distributions produced by\nthe exponentially-many dropout networks.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                107.99993896484375,
+                243.4112091064453,
+                504.0032653808594,
+                384.8806457519531
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9f572108c950806e72ef7c3b616ded72",
+        "text": "We use dropout in the ﬁrst two fully-connected layers of Figure 2. Without dropout, our network ex-\nhibits substantial overﬁtting. Dropout roughly doubles the number of iterations required to converge.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                107.99993896484375,
+                391.85504150390625,
+                504.0030822753906,
+                412.7766418457031
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "668e7038ff07b5104cf6f20e98698bf4",
+        "text": "5\nDetails of learning",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00003051757812,
+                440.79913330078125,
+                219.39859008789062,
+                452.75433349609375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "297345de66ef4dce43bda626351539ba",
+        "text": "We trained our models using stochastic gradient descent\nwith a batch size of 128 examples, momentum of 0.9, and\nweight decay of 0.0005. We found that this small amount\nof weight decay was important for the model to learn. In\nother words, weight decay here is not merely a regularizer:\nit reduces the model’s training error. The update rule for\nweight w was",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00003051757812,
+                465.83544921875,
+                338.1361083984375,
+                541.5519409179688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "36a7ae823a64598132630062b74b3ee9",
+        "text": "vi+1\n:=\n0.9 · vi −0.0005 · ϵ · wi −ϵ ·\n\u001c ∂L",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                112.19702911376953,
+                540.5228271484375,
+                302.7026062011719,
+                565.8983154296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8330556b2ee088ca7b63f01bb153f59a",
+        "text": "wi",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                304.1990051269531,
+                553.2653198242188,
+                315.9430236816406,
+                569.2059326171875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e9486b6e5a1d9717d1bcb4fc942e853b",
+        "text": "∂w",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                289.760009765625,
+                561.4039306640625,
+                302.7412414550781,
+                571.3665161132812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2ead35e2c40fbdfec81a3f550beda822",
+        "text": "Di\nwi+1\n:=\nwi + vi+1",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                109.89399719238281,
+                566.8687133789062,
+                333.5830078125,
+                586.782470703125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6db966d2474ef4f69c8e882e5ba6f5ec",
+        "text": "where i is the iteration index, v is the momentum variable, ϵ is the learning rate, and\nD\n∂L\n∂w\n\f\f\nwi",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00000762939453,
+                591.8212890625,
+                477.55499267578125,
+                610.3519287109375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fd28c444ade30cb57b11ed4765b90ab0",
+        "text": "the average over the ith batch Di of the derivative of the objective with respect to w, evaluated at\nwi.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                611.4899291992188,
+                504.0019226074219,
+                633.2535400390625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d4fab17dceac8aba5931634ceb9f6b87",
+        "text": "We initialized the weights in each layer from a zero-mean Gaussian distribution with standard de-\nviation 0.01. We initialized the neuron biases in the second, fourth, and ﬁfth convolutional layers,\nas well as in the fully-connected hidden layers, with the constant 1. This initialization accelerates\nthe early stages of learning by providing the ReLUs with positive inputs. We initialized the neuron\nbiases in the remaining layers with the constant 0.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00003814697266,
+                639.616455078125,
+                504.0033264160156,
+                693.4140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "15365506b5e20457142f8767eeef8e55",
+        "text": "We used an equal learning rate for all layers, which we adjusted manually throughout training.\nThe heuristic which we followed was to divide the learning rate by 10 when the validation error\nrate stopped improving with the current learning rate. The learning rate was initialized at 0.01 and",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00003814697266,
+                700.388427734375,
+                504.0032653808594,
+                732.26904296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "12225c7e2c25de806b07d5b3597087cc",
+        "text": "Figure 3: 96 convolutional kernels of size\n11×11×3 learned by the ﬁrst convolutional\nlayer on the 224×224×3 input images. The\ntop 48 kernels were learned on GPU 1 while\nthe bottom 48 kernels were learned on GPU\n2. See Section 6.1 for details.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                348.093994140625,
+                501.0224609375,
+                504.001953125,
+                565.5393676757812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7bfb6c37f2dd22de3d5000a3778c3296",
+        "text": "E",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                478.54998779296875,
+                591.8212890625,
+                484.63714599609375,
+                601.783935546875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "659d7f5a237cf75f18748b3ccf6a0333",
+        "text": "Di is",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                484.63800048828125,
+                595.9464721679688,
+                504.00006103515625,
+                613.8790283203125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "720a9d25486cc4c6bcd7544384842564",
+        "text": "reduced three times prior to termination. We trained the network for roughly 90 cycles through the\ntraining set of 1.2 million images, which took ﬁve to six days on two NVIDIA GTX 580 3GB GPUs.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                84.26844787597656,
+                504.0032043457031,
+                105.19003295898438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d0e4a0c0e2b680e5f73aada0cdf267d2",
+        "text": "6\nResults",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                126.02812957763672,
+                163.12542724609375,
+                137.98333740234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a9cd5bfe55ff8e1ad093bb4c3c155e0c",
+        "text": "Our results on ILSVRC-2010 are summarized in Table 1. Our network achieves top-1 and top-5\ntest set error rates of 37.5% and 17.0%5. The best performance achieved during the ILSVRC-\n2010 competition was 47.1% and 28.2% with an approach that averages the predictions produced\nfrom six sparse-coding models trained on different features [2], and since then the best pub-\nlished results are 45.7% and 25.7% with an approach that averages the predictions of two classi-\nﬁers trained on Fisher Vectors (FVs) computed from two types of densely-sampled features [24].",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                107.99998474121094,
+                153.4274444580078,
+                504.0032958984375,
+                218.18399047851562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "03d7bb85a9a8e51a8779a878af64e9f0",
+        "text": "We also entered our model in the ILSVRC-2012 com-\npetition and report our results in Table 2.\nSince the\nILSVRC-2012 test set labels are not publicly available,\nwe cannot report test error rates for all the models that\nwe tried. In the remainder of this paragraph, we use\nvalidation and test error rates interchangeably because\nin our experience they do not differ by more than 0.1%\n(see Table 2). The CNN described in this paper achieves\na top-5 error rate of 18.2%. Averaging the predictions\nof ﬁve similar CNNs gives an error rate of 16.4%. Training one CNN, with an extra sixth con-\nvolutional layer over the last pooling layer, to classify the entire ImageNet Fall 2011 release\n(15M images, 22K categories), and then “ﬁne-tuning” it on ILSVRC-2012 gives an error rate of\n16.6%. Averaging the predictions of two CNNs that were pre-trained on the entire Fall 2011 re-\nlease with the aforementioned ﬁve CNNs gives an error rate of 15.3%.\nThe second-best con-\ntest entry achieved an error rate of 26.2% with an approach that averages the predictions of sev-\neral classiﬁers trained on FVs computed from different types of densely-sampled features [7].",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                107.99996948242188,
+                236.11744689941406,
+                504.0033264160156,
+                410.4628601074219
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8c054d41b91588545d8c348ab4465018",
+        "text": "Finally, we also report our error\nrates on the Fall 2009 version of\nImageNet with 10,184 categories\nand 8.9 million images. On this\ndataset we follow the convention\nin the literature of using half of\nthe images for training and half\nfor testing. Since there is no es-\ntablished test set, our split neces-\nsarily differs from the splits used\nby previous authors, but this does\nnot affect the results appreciably.\nOur top-1 and top-5 error rates\non this dataset are 67.4% and\n40.9%, attained by the net described above but with an additional, sixth convolutional layer over the\nlast pooling layer. The best published results on this dataset are 78.1% and 60.9% [19].",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                417.4375,
+                504.0030212402344,
+                591.782958984375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fedf94f661845d3ec1a7dffa9398fe54",
+        "text": "Model\nTop-1 (val)\nTop-5 (val)\nTop-5 (test)\nSIFT + FVs [7]\n—\n—\n26.2%\n1 CNN\n40.7%\n18.2%\n—\n5 CNNs\n38.1%\n16.4%\n16.4%\n1 CNN*\n39.0%\n16.6%\n—\n7 CNNs*\n36.7%\n15.4%\n15.3%",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                256.5379943847656,
+                431.0945129394531,
+                496.5264892578125,
+                499.9280700683594
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "801ca7ede8be1e8be000405deb8bfe7a",
+        "text": "Table 2: Comparison of error rates on ILSVRC-2012 validation and\ntest sets. In italics are best results achieved by others. Models with an\nasterisk* were “pre-trained” to classify the entire ImageNet 2011 Fall\nrelease. See Section 6 for details.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                250.5599822998047,
+                511.364501953125,
+                504.0040283203125,
+                553.96337890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "145a1fbe6522d57a2e83a07f6b9ca167",
+        "text": "6.1\nQualitative Evaluations",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                610.264404296875,
+                230.5897674560547,
+                620.2269897460938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d8d12feba7cbb7cff2c4fffc0dedbbaa",
+        "text": "Figure 3 shows the convolutional kernels learned by the network’s two data-connected layers. The\nnetwork has learned a variety of frequency- and orientation-selective kernels, as well as various col-\nored blobs. Notice the specialization exhibited by the two GPUs, a result of the restricted connec-\ntivity described in Section 3.5. The kernels on GPU 1 are largely color-agnostic, while the kernels\non on GPU 2 are largely color-speciﬁc. This kind of specialization occurs during every run and is\nindependent of any particular random weight initialization (modulo a renumbering of the GPUs).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                632.2904052734375,
+                504.0032958984375,
+                697.0469360351562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0f9cefe4567b5f8bc8ccc465fee71716",
+        "text": "5The error rates without averaging predictions over ten patches as described in Section 4.1 are 39.0% and\n18.3%.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                711.556640625,
+                504.00042724609375,
+                732.0283813476562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "29af198e546718838e9ca335f8ec4458",
+        "text": "Model\nTop-1\nTop-5\nSparse coding [2]\n47.1%\n28.2%\nSIFT + FVs [24]\n45.7%\n25.7%\nCNN\n37.5%\n17.0%",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                347.6159973144531,
+                232.8375244140625,
+                498.1711120605469,
+                278.9560852050781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fac1a05df0e95882d643cb0f6ace0125",
+        "text": "Table 1: Comparison of results on ILSVRC-\n2010 test set.\nIn italics are best results\nachieved by others.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                341.63897705078125,
+                290.3934631347656,
+                503.99908447265625,
+                322.03338623046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "898f38d1f6c0b5ee2ca958f1c8094ba7",
+        "text": "Figure 4: (Left) Eight ILSVRC-2010 test images and the ﬁve labels considered most probable by our model.\nThe correct label is written under each image, and the probability assigned to the correct label is also shown\nwith a red bar (if it happens to be in the top 5). (Right) Five ILSVRC-2010 test images in the ﬁrst column. The\nremaining columns show the six training images that produce feature vectors in the last hidden layer with the\nsmallest Euclidean distance from the feature vector for the test image.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                107.99999237060547,
+                244.0464630126953,
+                504.00384521484375,
+                297.60430908203125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4760f5568a99bb7e36fbb9c1781c2673",
+        "text": "In the left panel of Figure 4 we qualitatively assess what the network has learned by computing its\ntop-5 predictions on eight test images. Notice that even off-center objects, such as the mite in the\ntop-left, can be recognized by the net. Most of the top-5 labels appear reasonable. For example,\nonly other types of cat are considered plausible labels for the leopard. In some cases (grille, cherry)\nthere is genuine ambiguity about the intended focus of the photograph.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                324.8183898925781,
+                504.00335693359375,
+                378.6169738769531
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4f840ec6ec93f4895fe2133b5d849734",
+        "text": "Another way to probe the network’s visual knowledge is to consider the feature activations induced\nby an image at the last, 4096-dimensional hidden layer. If two images produce feature activation\nvectors with a small Euclidean separation, we can say that the higher levels of the neural network\nconsider them to be similar. Figure 4 shows ﬁve images from the test set and the six images from\nthe training set that are most similar to each of them according to this measure. Notice that at the\npixel level, the retrieved training images are generally not close in L2 to the query images in the ﬁrst\ncolumn. For example, the retrieved dogs and elephants appear in a variety of poses. We present the\nresults for many more test images in the supplementary material.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                385.5903625488281,
+                504.0033264160156,
+                472.2658996582031
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "03766df701c2345da30e7e1951f2b312",
+        "text": "Computing similarity by using Euclidean distance between two 4096-dimensional, real-valued vec-\ntors is inefﬁcient, but it could be made efﬁcient by training an auto-encoder to compress these vectors\nto short binary codes. This should produce a much better image retrieval method than applying auto-\nencoders to the raw pixels [14], which does not make use of image labels and hence has a tendency\nto retrieve images with similar patterns of edges, whether or not they are semantically similar.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                479.2392883300781,
+                504.00335693359375,
+                533.037841796875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b30b274bedafd6757ccd8fc67fc9b681",
+        "text": "7\nDiscussion",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                556.0919799804688,
+                179.7431640625,
+                568.0471801757812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "87cd0e379e9e7c86c241bde9cb464d12",
+        "text": "Our results show that a large, deep convolutional neural network is capable of achieving record-\nbreaking results on a highly challenging dataset using purely supervised learning. It is notable\nthat our network’s performance degrades if a single convolutional layer is removed. For example,\nremoving any of the middle layers results in a loss of about 2% for the top-1 performance of the\nnetwork. So the depth really is important for achieving our results.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                584.8212280273438,
+                504.0032653808594,
+                638.6198120117188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "77c766a4683fd534b8444358b9f23fb3",
+        "text": "To simplify our experiments, we did not use any unsupervised pre-training even though we expect\nthat it will help, especially if we obtain enough computational power to signiﬁcantly increase the\nsize of the network without obtaining a corresponding increase in the amount of labeled data. Thus\nfar, our results have improved as we have made our network larger and trained it longer but we still\nhave many orders of magnitude to go in order to match the infero-temporal pathway of the human\nvisual system. Ultimately we would like to use very large and deep convolutional nets on video\nsequences where the temporal structure provides very helpful information that is missing or far less\nobvious in static images.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                645.59326171875,
+                504.0032653808594,
+                732.2688598632812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a364195b8922ca2c963d546d497c605a",
+        "text": "References",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                84.17748260498047,
+                154.28627014160156,
+                94.14008331298828
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d49fecae8f433f5c8599df1f4fda766d",
+        "text": "[1] R.M. Bell and Y. Koren. Lessons from the netﬂix prize challenge. ACM SIGKDD Explorations Newsletter,\n9(2):75–79, 2007.\n[2] A. Berg, J. Deng, and L. Fei-Fei.\nLarge scale visual recognition challenge 2010. www.image-\nnet.org/challenges. 2010.\n[3] L. Breiman. Random forests. Machine learning, 45(1):5–32, 2001.\n[4] D. Cire¸san, U. Meier, and J. Schmidhuber. Multi-column deep neural networks for image classiﬁcation.\nArxiv preprint arXiv:1202.2745, 2012.\n[5] D.C. Cire¸san, U. Meier, J. Masci, L.M. Gambardella, and J. Schmidhuber. High-performance neural\nnetworks for visual object classiﬁcation. Arxiv preprint arXiv:1102.0183, 2011.\n[6] J. Deng, W. Dong, R. Socher, L.-J. Li, K. Li, and L. Fei-Fei. ImageNet: A Large-Scale Hierarchical\nImage Database. In CVPR09, 2009.\n[7] J. Deng, A. Berg, S. Satheesh, H. Su, A. Khosla, and L. Fei-Fei.\nILSVRC-2012, 2012.\nURL\nhttp://www.image-net.org/challenges/LSVRC/2012/.\n[8] L. Fei-Fei, R. Fergus, and P. Perona. Learning generative visual models from few training examples: An\nincremental bayesian approach tested on 101 object categories. Computer Vision and Image Understand-\ning, 106(1):59–70, 2007.\n[9] G. Grifﬁn, A. Holub, and P. Perona. Caltech-256 object category dataset. Technical Report 7694, Cali-\nfornia Institute of Technology, 2007. URL http://authors.library.caltech.edu/7694.\n[10] G.E. Hinton, N. Srivastava, A. Krizhevsky, I. Sutskever, and R.R. Salakhutdinov. Improving neural net-\nworks by preventing co-adaptation of feature detectors. arXiv preprint arXiv:1207.0580, 2012.\n[11] K. Jarrett, K. Kavukcuoglu, M. A. Ranzato, and Y. LeCun. What is the best multi-stage architecture for\nobject recognition? In International Conference on Computer Vision, pages 2146–2153. IEEE, 2009.\n[12] A. Krizhevsky. Learning multiple layers of features from tiny images. Master’s thesis, Department of\nComputer Science, University of Toronto, 2009.\n[13] A. Krizhevsky. Convolutional deep belief networks on cifar-10. Unpublished manuscript, 2010.\n[14] A. Krizhevsky and G.E. Hinton. Using very deep autoencoders for content-based image retrieval. In\nESANN, 2011.\n[15] Y. Le Cun, B. Boser, J.S. Denker, D. Henderson, R.E. Howard, W. Hubbard, L.D. Jackel, et al. Hand-\nwritten digit recognition with a back-propagation network. In Advances in neural information processing\nsystems, 1990.\n[16] Y. LeCun, F.J. Huang, and L. Bottou. Learning methods for generic object recognition with invariance to\npose and lighting. In Computer Vision and Pattern Recognition, 2004. CVPR 2004. Proceedings of the\n2004 IEEE Computer Society Conference on, volume 2, pages II–97. IEEE, 2004.\n[17] Y. LeCun, K. Kavukcuoglu, and C. Farabet.\nConvolutional networks and applications in vision.\nIn\nCircuits and Systems (ISCAS), Proceedings of 2010 IEEE International Symposium on, pages 253–256.\nIEEE, 2010.\n[18] H. Lee, R. Grosse, R. Ranganath, and A.Y. Ng. Convolutional deep belief networks for scalable unsuper-\nvised learning of hierarchical representations. In Proceedings of the 26th Annual International Conference\non Machine Learning, pages 609–616. ACM, 2009.\n[19] T. Mensink, J. Verbeek, F. Perronnin, and G. Csurka. Metric Learning for Large Scale Image Classiﬁ-\ncation: Generalizing to New Classes at Near-Zero Cost. In ECCV - European Conference on Computer\nVision, Florence, Italy, October 2012.\n[20] V. Nair and G. E. Hinton. Rectiﬁed linear units improve restricted boltzmann machines. In Proc. 27th\nInternational Conference on Machine Learning, 2010.\n[21] N. Pinto, D.D. Cox, and J.J. DiCarlo. Why is real-world visual object recognition hard? PLoS computa-\ntional biology, 4(1):e27, 2008.\n[22] N. Pinto, D. Doukhan, J.J. DiCarlo, and D.D. Cox. A high-throughput screening approach to discovering\ngood forms of biologically inspired visual representation. PLoS computational biology, 5(11):e1000579,\n2009.\n[23] B.C. Russell, A. Torralba, K.P. Murphy, and W.T. Freeman. Labelme: a database and web-based tool for\nimage annotation. International journal of computer vision, 77(1):157–173, 2008.\n[24] J. Sánchez and F. Perronnin. High-dimensional signature compression for large-scale image classiﬁcation.\nIn Computer Vision and Pattern Recognition (CVPR), 2011 IEEE Conference on, pages 1665–1672. IEEE,\n2011.\n[25] P.Y. Simard, D. Steinkraus, and J.C. Platt. Best practices for convolutional neural networks applied to\nvisual document analysis. In Proceedings of the Seventh International Conference on Document Analysis\nand Recognition, volume 2, pages 958–962, 2003.\n[26] S.C. Turaga, J.F. Murray, V. Jain, F. Roth, M. Helmstaedter, K. Briggman, W. Denk, and H.S. Seung. Con-\nvolutional networks can learn to generate afﬁnity graphs for image segmentation. Neural Computation,\n22(2):511–538, 2010.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                107.99990844726562,
+                100.80611419677734,
+                504.0046691894531,
+                707.8146362304688
+            ],
+            "is_full_width": false
+        }
+    }
+]

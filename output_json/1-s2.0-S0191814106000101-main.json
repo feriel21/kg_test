@@ -1,0 +1,3403 @@
+[
+    {
+        "element_id": "7c9c028272c0ebf311bcec70a3730926",
+        "text": "Journal of Structural Geology 28 (2006) 887–901",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                222.46290588378906,
+                101.68392944335938,
+                382.732666015625,
+                109.65412902832031
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "829a2b5d6cf892933772ab575a6095ec",
+        "text": "Sandbox experiments on gravitational spreading and gliding\nin the presence of ﬂuid overpressures",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                95.24410247802734,
+                147.83074951171875,
+                509.84027099609375,
+                185.063720703125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b2bb143b4f9cadf7ccf21eef67ae254b",
+        "text": "R. Mourgues a,b,*, P.R. Cobbold a",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                213.39210510253906,
+                196.42393493652344,
+                391.72454833984375,
+                212.22218322753906
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7a941ad11bf8618f71873ff8b8060d80",
+        "text": "a Ge´osciences-Rennes (UMR 6118), Campus de Beaulieu, Universite´ de Rennes 1, Avenue du Ge´ne´ral-Leclerc, 35042 Rennes Cedex, France\nb LGRMP, Universite´ du Maine, 72085 Le Mans Cedex 09, France",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                74.381103515625,
+                218.61634826660156,
+                530.7402954101562,
+                240.0794677734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3b0a03b22ab0b15f77677e1114e7a9c2",
+        "text": "Received 2 November 2004; received in revised form 16 December 2005; accepted 24 December 2005\nAvailable online 29 March 2006",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                135.4961395263672,
+                248.12185668945312,
+                469.6463317871094,
+                266.4102783203125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6edf3955f54ffc3b47381b8a11f419f0",
+        "text": "Abstract",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                285.2744445800781,
+                75.82950592041016,
+                294.2407531738281
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "762b539c59db0c8af09ed67a04dc8b8c",
+        "text": "Whereas in previous analogue experiments on gravitational spreading and gliding, detachment occurred on a ductile layer, we have used a\nrelatively new technique of injecting compressed air into sand packs so as to simulate the effects of ﬂuid overpressures in sedimentary strata and to\ntrigger slope instabilities. In our experiments, the governing equations yield scales for dimensions, stresses and ﬂuid pressure. However, the more\ntransitory phenomena of production and decrease of overpressure cannot be suitably scaled. By using layers of differing permeability, we are able\nto produce sharp detachments in models made of sand alone. The experiments involve gravity spreading or gravity gliding. In gravity spreading,\npropagation of the detachment and of extensional deformation depends on the ﬂuid pressure. For medium values of ﬂuid overpressure, normal\nfaults are closely spaced, numerous and bound rotated blocks. They propagate progressively toward the back of the model. For the highest\npressures, the deformation propagates very fast and faults bound non-rotated blocks, which slide on an efﬁcient basal detachment. Fault dips are\nalso controlled by ﬂuid pressure and by frictional resistance at the base. To model gravitational gliding required an apparatus with a more complex\nsystem of air injection. We did a series of experiments using injection windows of various lengths and compared the results with predictions from\na quasi-3D analytical model of sliding. In contrast with predictions for an inﬁnite slope, sliding depends on (1) the ﬂuid overpressure on the\ndetachment, (2) the ﬂuid overpressure in the body of the sliding sheet, and (3) the shape of the detachment surface. In particular, we show that\nfrictional resistance at the lower edge is a primary control on the dynamics of gliding.\nq 2006 Elsevier Ltd. All rights reserved.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                303.2646484375,
+                562.58056640625,
+                459.719482421875
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "19a4cdec1e8676f2cc55d876958cb546",
+        "text": "Keywords: Fluid overpressure; Slope instability; Gravity spreading; Gravity gliding; Analogue modelling; Analytical solutions",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                472.14697265625,
+                451.99853515625,
+                480.1988830566406
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "238094dfd2ecb342e27a87cdd3218cba",
+        "text": "1. Introduction",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                501.7572021484375,
+                107.22380065917969,
+                511.7198181152344
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bfbe38b8c34d8d657fec05342a7afc42",
+        "text": "Gravitational gliding of the uppermost layers of sediment\nis a common phenomenon on continental margins and in\nmany deltas (Fig. 1). The resulting thin-skinned deformation\nis visible on seismic sections as faults and folds. Some\ngood examples have been described from the Niger Delta\n(Evamy et al., 1978; Damuth, 1994; Cohen and McClay,\n1996), the Gulf of Mexico (Worral and Snelson, 1989), the\nBrazilian margin (Cobbold and Szatmari, 1991), the Gulf of\nGuinea (Mauduit, 1998) and the Amazon Fan (Cobbold\net al., 2004).\nFor sediments to glide on gentle delta slopes (between 0.5\nand 48), the resistance to horizontal shearing at the base must be",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51869201660156,
+                526.1060180664062,
+                293.5762023925781,
+                671.3935546875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b6693b8140ab44e32358f8737e236d7a",
+        "text": "* Corresponding author. Correspondence address: LGRMP, Universite´ du\nMaine, 72085 Le Mans Cedex 09, France. Fax: 33 (0)243833237.\nE-mail address: Regis.Mourgues@univ-lemans.fr (R. Mourgues).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51942443847656,
+                692.7379760742188,
+                293.5895080566406,
+                721.7105712890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "86ee30f2e46cfb4f8bd0334e27234ce8",
+        "text": "0191-8141/$ - see front matter q 2006 Elsevier Ltd. All rights reserved.\ndoi:10.1016/j.jsg.2005.12.013",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.519744873046875,
+                730.9774169921875,
+                277.3410949707031,
+                748.925537109375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6caaa8dc4a386e0ad1d1f578cad094f8",
+        "text": "www.elsevier.com/locate/jsg",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                470.04205322265625,
+                112.11532592773438,
+                562.5769653320312,
+                120.08552551269531
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c5ef2f8b976f5336aaa3fb85a31be5b5",
+        "text": "very small (Mandl and Crans, 1981). This will be so, for\nexample, if there is a basal layer of ductile material, such as salt\nor soft sediment. Alternatively, ﬂuid overpressure may carry\npart of the weight, so reducing the frictional resistance at the\nbase. Under these conditions, the detachment may be a thin\nshear zone or fault (Brun and Choukroune, 1983). For the last\ntwo decades, thin-skinned gravitational deformation has been\nwidely studied by sandbox modelling. There is a long history of\nusing silicone putty to model salt or shale (Vendeville, 1987;\nVendeville and Cobbold, 1987; Cobbold and Szatmari, 1991;\nMauduit et al., 1997a,b; Mauduit, 1998; Maillard et al., 2003;\nBrun and Fort, 2004), assuming that these geological materials\nare ductile when they deform slowly (Fig. 1). In contrast, the\nuse of pore ﬂuids in sandbox models is more recent.\nCompressed air provides a practical source (Cobbold and\nCastro, 1999). Cobbold et al. (2001) were able to verify some\nof the theoretical predictions for thrust wedges containing ﬂuid\noverpressures. They showed that permeability is important in\ncontrolling the positions of thin-skinned detachments. More\nrecently, Mourgues and Cobbold (2003) have used the same",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.5238037109375,
+                501.841064453125,
+                562.5803833007812,
+                745.5392456054688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "846790c3f1ac9e8550c420d9f423d7d3",
+        "text": "Nomenclature",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.68980026245117,
+                79.50861358642578,
+                103.12991333007812,
+                89.4712142944336
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4a1ecea04e92f37f40f99f802232505d",
+        "text": "s\nTotal stress tensor, Pa\ns0\nEffective stress tensor, Pa\nq\nDarcy velocity, m sK1",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.68980026245117,
+                97.24885559082031,
+                182.8081817626953,
+                131.39422607421875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2f85ffa69b9e8ebd03d44aa0493ab879",
+        "text": "Fw\nWeight per unit volume, N mK3",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.68980026245117,
+                131.18673706054688,
+                209.64474487304688,
+                144.2969970703125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cb90cf8482d7c27e0bea731ea910fe4e",
+        "text": "Fb\nBuoyancy force per unit volume, N mK3",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.68980026245117,
+                143.09219360351562,
+                244.22744750976562,
+                156.25921630859375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f61bae5e3e719babef7a94565229aaae",
+        "text": "Fs\nSeepage force per unit volume, N mK3",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.68980026245117,
+                155.05435180664062,
+                237.02737426757812,
+                168.2213134765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f2f17ba26d244054591cadffe5aa61f6",
+        "text": "k\nIntrinsic permeability, m2",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.68980026245117,
+                167.01669311523438,
+                182.65870666503906,
+                179.1865234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "72301eb1ff1a670d858f074e00eebfd4",
+        "text": "t\nShear stress, Pa\ntf\nYield shear stress, Pa\nsn\nNormal stress, Pa\nP\nFluid pressure, Pa\nPd\nFluid pressure on detachment, Pa\nPb\nBasal ﬂuid pressure, Pa\nl\nRatio of pore pressure and vertical stress, –\nlb\nl ratio on detachment, –\nDst\nVariation of total stress, Pa\nPPjnh\nNon-hydrostatic part of the ﬂuid pressure gradient,\nPa mK1",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.68980026245117,
+                180.9276885986328,
+                283.68243408203125,
+                310.7138977050781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a019fe510be86a5952216dccc28568c9",
+        "text": "experimental technique for demonstrating the signiﬁcance of\nseepage forces in tectonics.\nIn this paper, we further explore the potential of using\ncompressed air. The focus is on gravity spreading and gliding\nin overpressured strata, as a result of slope instability. We start\nby discussing the scaling of sandbox models involving pore\nﬂuids. We show that granular materials such as sand are not\nadequate for modelling the production or diffusion of",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71179962158203,
+                330.231689453125,
+                283.83599853515625,
+                426.30804443359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "53dcbf5e63f86380686d688417e4586e",
+        "text": "Fig. 1. Detachments involving ductile material (1) or ﬂuid overpressures in purely brittle sediment (2). Seismic example of growth faults and salt rollers (1-a) is from\nthe Angolan margin (after Fort, 2002). Experimental model (1-b) involves a basal layer of silicone putty (after Fort, 2002). Sharp detachment (2-c) is in\noverpressured shale from the Niger delta (line drawing; after Morley and Guerin, 1996). This kind of structure has not been properly modelled so far.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71099853515625,
+                720.8837890625,
+                552.7967529296875,
+                748.8097534179688
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "e8f3b243ae3cbaf81b8dd844fbde9b63",
+        "text": "m\nCoefﬁcient of internal friction, –\nms\nCoefﬁcient of sliding (sand against wall), –\nc\nCohesion, Pa\nK\nRatio of horizontal and vertical effective stress, –\nKs\nSoftening parameter, –\nrb\nBulk density, kg mK3",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7196044921875,
+                97.24897766113281,
+                538.063720703125,
+                168.2213134765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0256b6362d39458a7171172e5bb7fbf9",
+        "text": "rs\nSolid density, kg mK3",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7196044921875,
+                167.01669311523438,
+                427.5156555175781,
+                180.18365478515625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "edbb4e2ce842caaa73d8644549bc2882",
+        "text": "rw\nFluid density, kg mK3",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7196044921875,
+                178.97879028320312,
+                427.5156555175781,
+                192.089111328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4734df837b72add2aedde806f89d1b2e",
+        "text": "f\nPorosity, –\nab\nBulk compressibility, PaK1",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7196044921875,
+                192.88990783691406,
+                448.4352722167969,
+                216.0135498046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e42bf677b67aa93419d9cd56222598de",
+        "text": "b\nCompressibility of pore ﬂuid, PaK1",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7196044921875,
+                214.86544799804688,
+                481.5439758300781,
+                227.0352783203125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "15b25a3551ba1487af62cef7f5e476cc",
+        "text": "bs\nCompressibility of solid grains, PaK1",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7196044921875,
+                226.82754516601562,
+                489.3675537109375,
+                239.93792724609375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1c87aa58d2d4331111c3bab438ad1c54",
+        "text": "a\nSlope angle, degrees (8)\nH\nThickness of slide, m\nl\nWidth of slide, m\nL\nLength of slide, m",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7186279296875,
+                240.7387237548828,
+                434.0687561035156,
+                286.78924560546875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "75208be709a657512dcad139f50529b7",
+        "text": "overpressure, which are transitory phenomena. On the other\nhand, the granular materials are valid for situations where ﬂuid\nﬂow is steady. We brieﬂy discuss how ﬂuid overpressure\ndecreases the angle of stability of a slope and we describe a\nseries of experiments on gravity spreading, where the apparatus\nprovides a uniform basal ﬂuid pressure. Then we introduce a\nnew apparatus, which allows us (1) to deﬁne the shape of an\noverpressured window, (2) to provide a non-uniform ﬂuid",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7189025878906,
+                330.2297058105469,
+                552.7276611328125,
+                426.3050537109375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f00c4c5cdecd0f67cd8186bce8147fd0",
+        "text": "pressure at the base of the model, and (3) to model entire\nsliding sheets. Finally, we illustrate some simple experiments\non gravity gliding and compare them with an analytical model\nof a sliding sheet. The good agreement between sandbox\nresults and analytical predictions prepares the way for more\nrealistic experiments in the future.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                69.6144790649414,
+                293.5890808105469,
+                139.330810546875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e3950e264e7132ddb605d37c1757ab77",
+        "text": "2. Scaling of models involving pore ﬂuid",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                155.47596740722656,
+                215.45245361328125,
+                165.4385528564453
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "662646486cba09288f49b91ba0a4a759",
+        "text": "If pore ﬂuids are overpressured, the main difﬁculty in\nmodelling geological deformation is that the ﬂuid pressure,\nﬂuid ﬂow and matrix deformation are all coupled (Strayer et\nal., 2001). To achieve proper scaling of a deformable saturated\nmedium, we need to consider the governing equations for the\nsolid matrix and for the ﬂuid.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                179.4840545654297,
+                293.5771179199219,
+                249.25714111328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d9dbd2b0241f5000f924fc129f86c132",
+        "text": "2.1. Solid matrix",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51970291137695,
+                264.1935119628906,
+                110.0970230102539,
+                274.1561279296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ddf9dad7d2545bb1945fe18529df98c8",
+        "text": "In terms of Cartesian coordinates, x, the following\ngoverning equations express the macroscopic balance of\neffective stresses (Terzaghi, 1923), body forces and ﬂuid\npressure gradients (Dahlen, 1990):",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                288.1177062988281,
+                293.5732421875,
+                334.06878662109375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "739f8f128389aa880591e0e13bffce35",
+        "text": "vs0\nij\nvxj\nZ rbgiKvP\nvxi\n(1)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                43.02989959716797,
+                340.7225036621094,
+                293.5501708984375,
+                368.25885009765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a1a7ad1aa11d176a99a53264c861b277",
+        "text": "Here, s is the macroscopic effective stress tensor for the solid\nframework, P is the macroscopic ﬂuid pressure, rb is the bulk\ndensity of the aggregate, g is the acceleration due to gravity, and\nsufﬁxesiandjrefertoCartesiantensororvectorcomponents.The\nbulk density is (1Kf)rsCfrf, where f is the porosity and rs and\nrf are the densities of solid particles and ﬂuid, respectively.\nEach parameter in Eq. (1) can be written as the product of a\ndimensionless variable (denoted here by a prime) and a\nconstant reference value (denoted here by the subscript o). Eq.\n(1) then becomes:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.5194091796875,
+                376.1775207519531,
+                293.6376037597656,
+                494.0018005371094
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "988a0d492d949694a2c63d9ab5bc31c8",
+        "text": "vs0*\nij\nvx*\nj\nZ r*\nbg*K\nPo\nLorbogo",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                78.29290008544922,
+                500.7666015625,
+                171.46798706054688,
+                529.8336791992188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5a52d9c5b492196a8b69f933f1748dd6",
+        "text": "so\nLorbogo",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                43.02989959716797,
+                503.9638366699219,
+                73.4458999633789,
+                529.0547485351562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "93ca8ffd491ca96da28713094e342be2",
+        "text": "vP*",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                176.3148956298828,
+                503.9638366699219,
+                191.31048583984375,
+                514.0826416015625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "da8bd5299b6990128934eecd80de9618",
+        "text": "vx*\ni\n(2)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                177.1085968017578,
+                510.9686584472656,
+                293.5501708984375,
+                529.8336791992188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "22fabae0d4ec68bab95d761660508b12",
+        "text": "The ratios, so/Lorbogo and Po/Lorbogo, are also dimensionless.\nThey may be set to unity, by a suitable choice of reference\nvalues. On applying them to a model and its natural prototype,\nwe obtain scaling ratios for stress and ﬂuid pressure, in terms of\nscaling ratios for density, gravitational acceleration, and\nlength, L:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.520538330078125,
+                537.6959838867188,
+                293.5749816894531,
+                607.7276000976562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a7c8e17775cc4ead31878e706f93f7eb",
+        "text": "gP Z Pm\nPr\nZ sm\nsr\nZ gs Z gLgrgg\n(3)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.520530700683594,
+                613.381103515625,
+                293.5501708984375,
+                638.4720458984375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "291d90c67d3d027f1ec9fc5397fa1b92",
+        "text": "where",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.52056884765625,
+                644.6509399414062,
+                66.8791275024414,
+                654.613525390625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ae43d6d6d16d9bc720d3119a2319af6b",
+        "text": "gL Z Lm\nLr\n;\ngr Z rbm\nrbr\n;\ngg Z gm\ngr\nZ 1",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.52056884765625,
+                660.3228149414062,
+                204.42726135253906,
+                685.4137573242188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "98c7b7d069dacd735764989e2e6a5dcc",
+        "text": "Here sufﬁxes m and r refer to variables in model and nature,\nrespectively. Eq. (3) lays the foundation for scale modelling in\nthe presence of pore ﬂuids (Cobbold et al., 2001).\nTo a ﬁrst approximation, brittle rock and granular materials\nfail according to a Coulomb yield envelope, which is a linear",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.52107238769531,
+                691.5925903320312,
+                293.5665588378906,
+                749.403564453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2b5a783a464178fee2ee8526029939d8",
+        "text": "relationship between the shear stress tf and the effective\nnormal stress s0\nn acting on a plane:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.5281982421875,
+                69.35908508300781,
+                562.4953002929688,
+                93.52361297607422
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9706b0773e4ce58643cf3b0a25ef82f3",
+        "text": "tf Z c Cms0\nn\n(4)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.5274963378906,
+                100.5147476196289,
+                562.5580444335938,
+                114.5166015625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c13bb56628fd3681e6d06bf27d9325d5",
+        "text": "Here c is the cohesion and m is a dimensionless coefﬁcient of\ninternal friction. The latter must be the same in model and\nnature, whereas the former scales in the same way as stress\n(Davy and Cobbold, 1991). If the stress ratio between model\nand nature is 10K5 (1 cm being equivalent to 1 km), 100 Pa for\nthe cohesion in a model will represent a reasonable value of\n10 MPa in nature (Byerlee, 1978). In our experiments, we used\nFontainebleau sand. Mourgues and Cobbold (2003) obtained\nits yield envelope for a range of effective normal stresses, down\nto values as small as 5 Pa. For normal stresses greater than\n30 Pa, the failure envelope for sifted sand is linear, the\ncohesion being smaller than 40 Pa and the coefﬁcient of\ninternal friction being close to 1.5. For normal stresses smaller\nthan 30 Pa, m increases as stress decreases, reaching a\nmaximum of 2.5. Hence the yield envelope is not linear near\nthe origin, but curves into it.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.52734375,
+                123.78077697753906,
+                562.5859375,
+                313.3206787109375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "810f744c9ca8a3380571e98fb6d78d76",
+        "text": "2.2. Pore ﬂuid",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.52789306640625,
+                333.1327209472656,
+                369.6367492675781,
+                343.0953369140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "15073afce7436fb83369fca9db519d93",
+        "text": "In the Earth’s crust, pore ﬂuid pressure tends to increase\nwith depth, as a result\nof gravity. If\nthe pores are\ninterconnected, the pressure gradient will be hydrostatic.\nThis can be taken as a reference state. Overpressures\n(or\nunderpressures)\ncan\ndevelop\nif\nsome\nmechanism\ndisturbs this reference state. However, abnormal pressures\nwill tend to dissipate as soon as the generating mechanism\nstops and provided that the rocks are permeable. In practice,\ntherefore, overpressures are likely to be transitory (Neuzil,\n1994).\nFor the generation of ﬂuid overpressure in situ, several\nmechanisms have been suggested (Osborne and Swarbrick,\n1997; Swarbrick et al., 2002). The overpressure may result\nfrom either (1) a reduction in the pore space, due to\ncontraction of the solid matrix, or (2) an increase in the\nvolume of pore ﬂuid. In sedimentary basins and deltas, the\nmain causes of matrix contraction are likely to be either\nvertical compaction during burial or horizontal contraction of\ntectonic origin. Amongst the mechanisms producing an\nincrease in ﬂuid volume are thermal dilation, mineralogical\ntransformations (for example, smectite to illite) and\nhydrocarbon generation.\nThis last mechanism not only increases the volume of pore\nﬂuid, but also reduces that of the matrix. Probably the most\nefﬁcient of all mechanisms is the production of thermogenic\ngas, which typically occurs at depths of over 5 km (Barker,\n1990).\nIn a porous elastic material, ﬂuid pressure can vary in space\nand time, in sympathy with the mean total stress (Shi and\nWang, 1986; Ge and Garven, 1992; Neuzil, 1995):",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.52789306640625,
+                357.1590881347656,
+                562.619384765625,
+                713.7953491210938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ef7ffc881d2d5e7396f509c842e79886",
+        "text": "k\nvf\nV2P\n\u0001\u0001\u0001nh Cab",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.9814453125,
+                719.0142822265625,
+                371.4804992675781,
+                748.6830444335938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "37fdd298b6986c5f83b44586c9f84d4d",
+        "text": "dst\ndt Z fbKfbs Cab\n\u0002\n\u0003 dP\ndt\n(5)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                374.1164855957031,
+                722.416015625,
+                562.5587768554688,
+                747.4193725585938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "98ab019edc93e7f57d1ca6cdf74f654b",
+        "text": "Here Pjnh is the non-hydrostatic part of the pore pressure (in\nother words, the overpressure or underpressure) that drives\nﬂuid ﬂow, st is the mean total stress, ab is the bulk\ncompressibility, bs and b express the compressibility of solid\ngrains and pore ﬂuid, respectively, and Q is an internal source\nof ﬂuid pressure (for example, by gas generation).\nEq. (5) is a generalized equation of diffusion. It expresses\nthe fact that any ﬂuctuation in ﬂuid pressure has three potential\ncontributions. One of them is the source term, Q. Another is the\nvariation in mean stress resulting from compaction:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71179962158203,
+                68.80770874023438,
+                283.7579650878906,
+                187.17950439453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "29036209926b8b35ed7d446b52c51cf4",
+        "text": "ab\nfbKfbs Cab",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.22200012207031,
+                195.38429260253906,
+                92.097900390625,
+                222.3756561279297
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a68856442a103d18dbaa4d052cfd5d39",
+        "text": "dst\ndt",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                96.88819885253906,
+                195.38429260253906,
+                109.33604431152344,
+                219.211669921875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4c748a6bd427f2803ca54d6c14af2889",
+        "text": "The third is the pressure gradient, which derives from\nDarcy’s law and governs ﬂuid ﬂow:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.712886810302734,
+                227.9578094482422,
+                283.6985778808594,
+                249.88250732421875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c6295f6c4e843d1a34455b10f49f2f42",
+        "text": "k\nðfbKfbs CabÞvf\nV2P\n\u0001\u0001\u0001nh",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.221702575683594,
+                252.03494262695312,
+                136.12017822265625,
+                283.60406494140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "22a2e37ab1e72d4ad9ec6b7eda1f19cc",
+        "text": "Typically,bZ4!10K10 PaK1 for waterand bsZ10K11 PaK1",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                44.67399978637695,
+                284.19708251953125,
+                283.7421875,
+                299.76153564453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a17a857cf7a728d51be8c0945f560e39",
+        "text": "for solid grains. The bulk compressibility, ab, depends mainly on\nthe solid matrix and ranges from 10K8 to 10K11 PaK1 (Ge and\nGarven, 1992; Shi and Wang, 1986), depending on the state of\ncompaction. As a ﬁrst approximation, we shall neglect bs in\ncomparison with a, so that Eq. (5) becomes:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71179962158203,
+                300.32293701171875,
+                283.845703125,
+                358.3926086425781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9eb89edcba44d0164e8ab07d07312da1",
+        "text": "k\nvf\nV2P\n\u0001\u0001\u0001nh Ca dst\ndt Z fb Ca\n\u0002\n\u0003 dP\ndt CQ\n(6)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.221534729003906,
+                360.545166015625,
+                283.7773132324219,
+                390.2138671875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4762442356c62f61d2d69d506d9ae3bf",
+        "text": "This equation is valid for elastic deformation. In nature,\nhowever, most deformation is non-elastic and irrecoverable.\nFor large deformation, the compressibility, as measured\non samples of sediment, is not necessarily representative of\nthe overall behaviour. Neuzil (1986) has suggested using a\nhigher compressibility to take this disparity into account.\nFrom Eq. (6), we can distinguish two time scales: one (Tc)\nfor the build-up of pressure and the other (Td) for its\ndissipation.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.7127685546875,
+                397.1280822753906,
+                283.82208251953125,
+                502.7326965332031
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bfa41e53ea922e974ab492b762dffa77",
+        "text": "2.3. Build-up of overpressure by loading without drainage",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.7127685546875,
+                522.6015625,
+                269.625244140625,
+                532.5641479492188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e27e8b11fe68a0dbcaecd2b98cebf9cd",
+        "text": "If the load increases quickly (due, for example, to a rapid\nrate of sedimentation or to tectonic thickening) and the\npermeability is small enough, then Tc/Td and diffusion can\nbe neglected, so that Eq. (6) becomes:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.7127685546875,
+                546.5711059570312,
+                283.7444763183594,
+                592.4208984375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6ad7b7d9d9967fde57bdb5c3a3eeb583",
+        "text": "dP\ndt Z\nab\nfb Ca\n\u0002\n\u0003 dst\ndt\n(7)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.22200012207031,
+                600.6251831054688,
+                283.7414855957031,
+                626.1425170898438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5c02149dc956708f12b8f3c1a721e4d3",
+        "text": "Here we have assumed that the source, Q, is also negligible.\nFor young and readily compactable sediment, ab[b, so that\nEq. (7) integrates to:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71089172363281,
+                634.9664916992188,
+                283.7095947265625,
+                668.9564208984375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7786fac6be66e9643609c905816c18dc",
+        "text": "DP Z Dst\n(8)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.712738037109375,
+                674.279296875,
+                283.74224853515625,
+                687.9082641601562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0d5cb0661c8109bcfb0453e97700c68c",
+        "text": "The scaling of this equation does not imply any strong\nrelationship between values of compressibility for matrix and\nﬂuid. Model materials must simply satisfy:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71266555786133,
+                695.333984375,
+                283.7043151855469,
+                729.2207641601562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "63b6c73ca6c7bb8888c3e659e0d8bae2",
+        "text": "Young’s modulus for loose and dense sands ranges\nbetween 10 and 50 MPa. Thus, the compressibility ab is\naround 10K7 PaK1 or less, if we assume irreversible\ndeformation. Water as an experimental pore ﬂuid satisﬁes\ncondition (9), because bZ4!10K10 PaK1. On the other hand,\ncondition (9) does not hold for air, because bZ10K5 PaK1, so\nthat, from Eq. (7), the change in ﬂuid pressure will be no more\nthan 1% of the change in stress, Dst.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.71868896484375,
+                69.6167984008789,
+                552.7577514648438,
+                164.19622802734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f01732511cebf28daf73e841264d13c9",
+        "text": "2.4. Dissipation of overpressure",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.72064208984375,
+                183.06785583496094,
+                431.52337646484375,
+                193.03045654296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e513b1be6e3ae740087757493d1a2a1c",
+        "text": "Now consider that st is invariant. Eq. (6) becomes:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                313.6259460449219,
+                206.83583068847656,
+                521.4247436523438,
+                218.701416015625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "36ae17ee3873c959d3976c8156293d5a",
+        "text": "vP\nvt Z\nk\nðab CfbÞvf\nV2P nh\nj\n(10)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                302.1731872558594,
+                224.7512969970703,
+                552.7420654296875,
+                251.74266052246094
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5398b1e14b8c938da9f9e72409b7520e",
+        "text": "We also assume that Q vanishes and that ab[b.\nEq. (10) governs the dissipation of overpressure by a\ndiffusion mechanism (Darcy ﬂow). The reference time for this\ndiffusion is:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7209167480469,
+                255.78919982910156,
+                552.7265625,
+                302.3797607421875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b795e90e2655fcdfc35e8d1848230d37",
+        "text": "to Z vocoL2\no\nko\n(11)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7209167480469,
+                310.2762756347656,
+                552.7424926757812,
+                336.80914306640625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "af1cbc025e1ba6becfc16f69e79edb47",
+        "text": "Here, coZ(aboCfbo). The reference time increases with ﬂuid\nviscosity, hydraulic resistivity (1/ko) and compressibility. The\ntime ratio is therefore:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7196350097656,
+                341.15252685546875,
+                552.7158813476562,
+                377.3847961425781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "05da43c296f6c3ff6cd0114e2670b8ec",
+        "text": "gt Z gvg2\nLgcgK1\nk\n(12)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.72003173828125,
+                383.61541748046875,
+                552.7424926757812,
+                397.2437438964844
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "71a590917564fc50601ef4c3db7ce0c3",
+        "text": "In their experiments, Cobbold et al. (2001) applied Darcy’s\nlaw:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.72076416015625,
+                404.7830505371094,
+                552.7325439453125,
+                426.707763671875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ebfaac0edebdeb38bd3aae5fd31012e1",
+        "text": "\u0001\u0001\u0001nh\n(13)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                347.9242858886719,
+                428.349853515625,
+                552.7424926757812,
+                455.0137634277344
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0955607d25ba9174af48e91305da0b21",
+        "text": "vP\nvxi",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                333.8081970214844,
+                432.87091064453125,
+                345.3110046386719,
+                457.8903503417969
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "38e228a1d21a5903ffb329078f4d5195",
+        "text": "qi Z k\nvf",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.72076416015625,
+                433.027099609375,
+                330.2906799316406,
+                457.96185302734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "da9d9c16f0f823a2744384f88082e748",
+        "text": "The time ratio deduced from this equation is slightly\ndifferent:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.72076416015625,
+                464.1974182128906,
+                552.6835327148438,
+                486.12213134765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c3a25a3b3a216ef8826f00c6633e289c",
+        "text": "gt Z gvg2\nLgK1\ns gK1\nk\n(14)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.72076416015625,
+                492.3524169921875,
+                552.7424926757812,
+                506.4433288574219
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "01e098204ea4dc14abea2c2fad8ab6a9",
+        "text": "If the elastic properties of the material are properly scaled,\nwe must have gsZgK1\nc (Hubbert, 1937), so that Eqs. (12) and\n(14) become identical. In contrast, if the elastic properties of a\nmodel material are not properly scaled, as so often happens in\npractice (Ramberg, 1967), Eq. (12) may be preferable.\nIn the previous paragraph, we have demonstrated that water\nmakes a good pore ﬂuid for modelling the generation of\noverpressure by compaction. By assuming reference values of\nkmZ5!10K11 m2 (Table 1), krZ10K16 m2, abrZ10K8 PaK1,\namZ10K7 PaK1 and gLZ10K5, the time ratio is 2!10K15.\nThis means that 1 s in an experiment is equivalent to 15 Ma in\nnature! The reference time for diffusion in a sand model, 3 cm\nthick, is close to 2 ms if the ﬂuid is water and 1.5 ms if it is air.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7187194824219,
+                512.6692504882812,
+                552.7518920898438,
+                666.1214599609375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ce2adf26044ee97cf798e4cdeb614296",
+        "text": "Table 1\nPermeability of model material, for different grain sizes",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7196044921875,
+                674.7357788085938,
+                482.30694580078125,
+                692.6838989257812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2b86180563b8f471c1566d3cd7e02e26",
+        "text": "Material\nGrain size (10K6 m)\nPermeability (10K12 m2)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7196044921875,
+                697.5829467773438,
+                523.6617431640625,
+                709.1248168945312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d7f9c20a64566edfb57612d4f4093d7c",
+        "text": "Sand 1\n315–400\n120G10\nSand 2\n200–315\n70G5\nSand 3\n!200\n30G5",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.718017578125,
+                715.6117553710938,
+                472.0013732910156,
+                744.4249877929688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d927d1ef8dd134645a1398e7605edee8",
+        "text": "This means that, although we can model the generation of ﬂuid\noverpressures by a compaction mechanism when the material\nis very compressible, dissipation is quasi-instantaneous. Thus,\nproperly scaled analogue modelling of such transitory\nphenomena, using air or water as a pore ﬂuid and sand as a\nbrittle material, would seem to be impossible. In addition, it\nmay be difﬁcult to model any changes in permeability during\nfaulting.\nIn conclusion, our sand models will be scaled for the\nbalance of forces, stresses and ﬂuid pressures, but not for time.\nThe ﬂuid pressure distribution in the sand will be controlled\nonly by the boundary conditions and transitory overpressures\nwill be negligible. Water and air have different viscosities, but\nthey can equally well be used. Nevertheless, for practical\nreasons, it may be easier to use air.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                69.6144790649414,
+                293.5909729003906,
+                246.93292236328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b278d4e5818a7c1ee3dfa7305a360253",
+        "text": "3. Stability of an inﬁnitely long submarine slope with\nabnormal ﬂuid pressures",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                264.49578857421875,
+                270.7090148925781,
+                286.4205017089844
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e223e85f1f5567a2fb885ad014a5682b",
+        "text": "By carrying part of the stress, a ﬂuid overpressure reduces\nthe frictional resistance within sloping sediments and can\ntrigger gravitational gliding. To estimate slope stability, it is\nusually enough to consider variations in one dimension\n(Terzaghi, 1950; Hubbert and Rubey, 1959; Lambe and\nWhitman, 1969; Crans et al., 1980; Mandl and Crans, 1981;\nMello and Pratson, 1999). The assumption is that the slope is\ninﬁnitely long, so that longitudinal stress gradients are\nnegligible. The gradient of ﬂuid overpressure and the direction\nof ﬂuid ﬂow are assumed to be perpendicular to the slope.\nMandl and Crans (1981) justiﬁed this approximation on the\ngrounds that compaction is invariant along the slope and that\nthe principal axes of the permeability tensor (which is\npotentially anisotropic) are approximately parallel and per-\npendicular to the free surface.\nIn terms of coordinates x and z, parallel and perpendicular to\nthe slope, Eq. (1) becomes:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.519691467285156,
+                300.4659729003906,
+                293.5671691894531,
+                501.70855712890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b949afa70c7ac671bcd7d9b5277daa8a",
+        "text": "vs0\nxz\nvz Z rbgsinaKvP\nvx\n(15)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                43.02989959716797,
+                508.4201354980469,
+                293.54278564453125,
+                534.1519165039062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "18a83d7098eab60a4ca0796c2776b701",
+        "text": "vs0\nzz\nvz Z rbgcosaKvP\nvz\n(16)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                43.02989959716797,
+                544.1366577148438,
+                293.5416564941406,
+                569.9252319335938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8e69632210cd8a8c72a461e804ad16a8",
+        "text": "Fig. 2. One-dimensional analysis of slope stability. Above depth Za, pore ﬂuid is in hydrostatic state (a). Beneath it, rapid increase in pore pressure results from\nconﬁning layer of small permeability. Even further down, pore ﬂuid maintains nearly lithostatic pressure. For an inﬁnite slope, shear stress sxz becomes equal to yield\nstress tf at depth Zd (b), triggering detachment (c).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.517730712890625,
+                720.8020629882812,
+                562.5958862304688,
+                750.11376953125
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "862da4f33e708140521c97a152155d46",
+        "text": "If the sediment has a Mohr–Coulomb yield envelope,\ngliding will occur when the shear stress on a plane parallel to\nthe slope reaches the yield stress:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.52618408203125,
+                69.6155776977539,
+                562.5729370117188,
+                103.50237274169922
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5349346c17d049f653f0d42dc1073713",
+        "text": "s0\nxz Z tf Z c Cm s0\nzzKP\n\u0004\n\u0005\n(17)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.52618408203125,
+                103.27335357666016,
+                562.5487060546875,
+                122.679931640625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "90ef5919461855113ca9c442291304ae",
+        "text": "In stratiﬁed sediment, the pressure gradient varies from one\nlayer to another, in response to changes in permeability\n(Fig. 2). The yield stress is reached at a depth Zd (Fig. 2), which\nis determined by the intensity of overpressure. At this depth, a\ndetachment appears and the sediment begins to slide.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.5269775390625,
+                130.3329315185547,
+                562.534423828125,
+                188.1436767578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3e44560bd2e410d602fa6c2e44d4e334",
+        "text": "4. Experiments on gravity spreading",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.52764892578125,
+                202.02137756347656,
+                468.5013427734375,
+                211.9839630126953
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8e0159eef20a2a0b74e036f2646b77b6",
+        "text": "In a ﬁrst series of experiments, we have used the apparatus\nof Cobbold et al. (2001) to model the development of normal\nfaults and the propagation of a detachment during gravity\nspreading of a sedimentary sequence (Fig. 3). Each model was\nhoused in a bottomless rectangular plastic box (30 cm long and\n20 cm wide). The box rested on a reservoir for compressed air,\nwhich provided a uniform ﬂuid pressure. A sieve at the base of\nthe box allowed air to percolate into the overlying sand.\nModels were constructed in successive layers in order to create\nnon-linear proﬁles of pore pressure, as in nature (Fig. 2). The\nbottom layer, 1 cm thick, was of coarse sand (315–400 mm).\nThe next layer, 1 cm thick, was of ﬁne sand (125–200 mm) and\nhad a smaller permeability (Table 1). The third and ﬁnal layer,\n3 cm thick, was again of coarse sand. For such a multilayered\nmodel, pressure proﬁles are necessarily kink-like, if ﬂuid\nmigrates upwards (Fig. 3).\nAt the beginning of each experiment, the apparatus was\ntilted a few degrees. The end wall of the box was then\nwithdrawn at a steady velocity of 10 cm/h. This allowed the\nmodel, except for its basal layer of coarse sand, to spread under\nits own weight. The displacement of the end wall was limited to\n5 cm, except in experiments 7d and 11b, where it was stopped\nat 3.5 and 3.2 cm, respectively, because blowouts occurred at\nthe upper end of the model (Fig. 4d and f).\nTo understand how the detachment was operating, we\nslightly improved on the experimental technique, by introdu-\ncing into some experiments (7c and 11b) a series of coloured\ninternal markers (Fig. 4). Transverse lines of coloured sand\nwere built into (1) the basal coarse-grained layer and (2) the",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.52764892578125,
+                226.0294647216797,
+                562.5782470703125,
+                570.7603759765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b4fe3fb8e213b52377bb3bcb5f491027",
+        "text": "Fig. 3. (A) Apparatus for experiments on gravitational spreading. Model rests on sieve, which occupies window in pressure chamber. Compressed air enters pressure\nchamber through feeder tube and percolates through sieve and overlying model. Pressure is measured with U-tube manometer. Withdrawal of sliding piston allows\nmodel to spread under its own weight. (B) Details of multilayered model. Sand 1 and Sand 3 are described in Table 1. (C) Theoretical proﬁles of pressure in\nmultilayered model. Fluid pressure approaches lithostatic values at base of ﬁne sand (Sand 3).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71179962158203,
+                294.326416015625,
+                552.826416015625,
+                332.1737060546875
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "6ae1df5a2c9f307749a0478dbdf36496",
+        "text": "overlying ﬁne-grained layer. The markers were in pairs,\nvertically aligned. As a result of deformation, they became\noffset. We conducted two series of spreading experiments\n(series A and series B), for various values of basal ﬂuid\npressure. At the end of each experiment, we rendered the\nmodels cohesive, by wetting them, and then we sectioned them\n(Fig. 4).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71179962158203,
+                341.4001770019531,
+                283.75830078125,
+                423.0785827636719
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "efeaae678055cbede15105a18576a053",
+        "text": "4.1. Series A",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.7108039855957,
+                440.4527893066406,
+                84.18158721923828,
+                450.4154052734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3ad67c02dec08304ff819c1075148870",
+        "text": "The apparatus was tilted through 78 and experiments were\ndone for basal ﬂuid pressures (Pb) ranging from 0 to 620 Pa.\nFor little or no ﬂuid ﬂow (Pb!300 Pa), the models remained\nstable and no internal structures appeared. Instead, a natural\ntalus formed in the space left behind by the moving end wall.\nThe larger was the ﬂuid pressure, the smaller was the slope of\nthe talus. At intermediate values of ﬂuid pressure, normal faults\ndeveloped. For moderate pressures (PbZ300 and 500; Fig. 4a\nand b), normal faults were numerous and closely spaced.\nBetween them were rotated blocks. Deformation propagated\nfrom the sliding wall toward the back of the box. The rate of\npropagation was faster for higher pressures. Thus, at the end of\nexperiment 7c, deformation had reached the back of the box\n(Fig. 4c). In this experiment, the ﬁnal offsets of the coloured\nmarkers into the basal coarse-grained layer and the overlying\nﬁne-grained layer decreased systematically towards the back of\nthe box, conﬁrming that the overlying material had slid as a\nseries of small blocks, separated by normal faults (Fig. 4c). At\nthe highest values of ﬂuid overpressure (experiment 7d) only\nthree faults formed, bounding non-rotated rigid blocks\n(Fig. 4d). In the ﬁrst stages of this experiment, faults formed\nat the back of the box. In all experiments, normal faults rooted\ninto a detachment, beneath the layer of small permeability. The\nunderlying coarse-grained layer never deformed.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71080017089844,
+                464.34381103515625,
+                283.7694091796875,
+                749.4017333984375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2af809f5201ee4c844b2fe140b0a10ed",
+        "text": "For these experiments, we have measured the dip of the\nyoungest normal fault and plotted it against the ﬂuid pressure at\nthe base of the model (Fig. 6). For values of Pb between 400\nand 550 Pa, faults ﬂatten (from 57 to 508) with increasing ﬂuid\npressure. For the highest pore ﬂuid pressure (620 Pa;\nexperiment 7d), the fault dip is much larger (close to 628).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7200012207031,
+                341.4004211425781,
+                552.7498168945312,
+                411.11669921875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4a404abf2af4af49c8f116970ca40d61",
+        "text": "4.2. Series B",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.718994140625,
+                426.1666259765625,
+                353.1897888183594,
+                436.1292419433594
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3902c70d0c3b195f6933f149555d1856",
+        "text": "In these experiments, the apparatus was tilted through 118.\nThe results were basically similar to those of series A. For little\nﬂuid ﬂow, models were stable. In experiment 11a (PbZ450 Pa),\nfaults were closely spaced, blocks rotated and deformation\npropagated towards the back (Fig. 4e). At higher ﬂuid pressure\n(PbZ500 Pa; experiment 11b), faults bounded non-rotated and\nrigid blocks (Fig. 4f). Coloured markers 5–7 acquired identical\noffsets of 2 cm, whereas markers 3 and 4 acquired smaller\noffsets (Fig. 4f). This result proves that the detachment was\nefﬁcient and that the overlying sand slid essentially as two rigid\nblocks, separated by an extensional normal fault. The\ndetachment appeared in the initial stages of the experiment\nand deformation reached the back of the box at the same time.\nThere were, however, some differences between series A and\nseries B. In series A, all faults had the same vergence, whereas in\nseries B, a few antithetic faults formed. In contrast, Vendeville\n(1987) and McClay and Ellis (1987) reported that, for sand\npacks stretching above a rubber sheet, antithetic faults were\nmore numerous when slopes were gentler.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.71795654296875,
+                450.0576477050781,
+                552.7495727539062,
+                675.304443359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "926e3d648dc0a300b470edef2bf4226c",
+        "text": "4.3. Discussion",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.71875,
+                690.3544311523438,
+                363.3713073730469,
+                700.3170166015625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2c2882cd1e3936ebe5e861bca7a2d70c",
+        "text": "4.3.1. Nature of the detachment\nIn the experiments of series A and series B, the style of\ndeformation depended on the ﬂuid pressure. For high ﬂuid",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.71875,
+                715.412353515625,
+                552.7166137695312,
+                749.4013061523438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d766dd2191e30ace6b512e03fb2347cc",
+        "text": "Fig. 4. Experiments on gravitational spreading. Photographs show ﬁnal stages of deformation for longitudinal sections. Line drawings show interpretations. Models\nwere built in three layers (made of Sand 1 or Sand 3). Models a–d (Series A) were tilted through 78, models e and f (Series B) through 118. Fluid pressure P was\nmeasured at base of model and non-dimensional ﬂuid pressure, lZP/(rgz cos a), was calculated for base of ﬁne sand (Sand 3). In experiments 7c and 11b, markers\n(black or white diamonds in photographs) were introduced near base of sand. Before deformation, pairs of markers were vertically aligned. After deformation,\nmarkers (open circles, in interpretations) became offset (so that linking straight lines are now oblique).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.519683837890625,
+                523.649169921875,
+                562.64794921875,
+                571.474365234375
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "58721a1f9b72b7888c6f62134cdce6fa",
+        "text": "pressure (experiments 7d and 11b), detachment was efﬁcient\nand appeared in the initial stages of deformation. The overlying\nsand slid essentially as a series of rigid blocks. For lower ﬂuid\npressure (experiments 7c and 11a), deformation propagated\nfrom the sliding wall towards the back of the box and the\noverlying material slid as a series of smaller rotated blocks,\nseparated by normal faults.\nTo understand how the detachment was operating, we can\nassume that the slope was inﬁnitely long and estimate the shear\nstress s0\nxz at the base of the ﬁne sand in experiments 7c and 7d.\nUnder these conditions, by integration of Eq. (15):",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                588.6378784179688,
+                293.5671691894531,
+                718.165771484375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "65ac0a0d4c7c094063df4882ee678e56",
+        "text": "To a good approximation, the yield stress, tf, on a plane\nparallel to the slope is given by the Mohr–Coulomb envelope\n(Eq. (4)). Because the sand was poured and not sifted, we take a\nsmaller coefﬁcient of internal friction (mZ1) than that\ndetermined by Mourgues and Cobbold (2003). We also assume\nthat the cohesion is negligible. Under these conditions, for\nexperiments 7c and 7d, the basal shear stress is smaller than the\nyield stress (Fig. 5). We can deﬁne a safety parameter,\nFSafZs0\nxz=tf, at the base of the ﬁne sand. For experiment 7c,\nFSafZ0.5, but for experiment 7d, FSafZ0.85. We infer that the\nsecond model was closer to failure, so that a detachment\nformed more easily. More realistically, the withdrawal of the\nend wall should have decreased the longitudinal stress s0\nxx and",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.52783203125,
+                588.3799438476562,
+                562.6076049804688,
+                748.2696533203125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8a42a5e0c7a244f1e4f952d9235ca39f",
+        "text": "Fig. 5. Theoretical proﬁles of shear stress for two experiments (7c and 7d;\nFig. 4). Shear stress s0\nxz is for inﬁnite slope and yield stress tf is for plane\nparallel to slope. Safety parameter FSaf is deﬁned as (s0\nxz=tf).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71080017089844,
+                212.40518188476562,
+                283.8035583496094,
+                241.6352081298828
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d9f18618f1331d9a5f2242a1414423dc",
+        "text": "Fig. 6. Measured dip of normal faults versus basal ﬂuid pressure, Pb, for models\ntilted through 78.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71134948730469,
+                423.4477844238281,
+                283.79656982421875,
+                441.47760009765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8d5efa6dc36a7cb3128c8c2cea74bd31",
+        "text": "Fig. 7. Reorientation of principal stresses and conjugate extensional faults as function of overpressure gradient (after Mourgues and Cobbold, 2003). Conjugate\nextensionalfaults form above velocitydiscontinuitybetween sliding sieves (b). Assuming that maximal compressive stress s1 bisects dihedral angle between conjugate\nfaults, angle between s1 and z must increase with increasing ratio, l. Theoretical curves are for inﬁnite slope (c). Reorientation is due to seepage force Fs (a).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71014404296875,
+                722.4144897460938,
+                552.84228515625,
+                751.6444702148438
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "d9ef09e5ecc6c3a9ce99208cba564ef5",
+        "text": "therefore its gradient vs0\nxx=vx. From the equations of stress\nequilibrium (1), any such decrease must have been compen-\nsated by an increase in the vertical gradient of shear stress,\nvs0\nxz=vz. In experiments 7d and 11b, this change should have\nbeen enough for the basal shear stress to reach the yield stress,\ncreating a detachment throughout the model.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7196044921875,
+                67.3493423461914,
+                552.749755859375,
+                139.33111572265625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6c22e342644a18948284e15d25a5aa6f",
+        "text": "4.3.2. Dips of normal faults\nIn the experiments of series A, we observed that the dip of\nthe youngest faults depended on the ﬂuid pressure (Fig. 6). The\nsame remark can be made for the experiments of series B. For\nvalues of Pb between 400 and 550 Pa, we attribute the\nﬂattening of the faults to seepage forces (Mourgues and\nCobbold, 2003). The equations of state for effective stress (1)\ncan be written:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.72021484375,
+                155.91233825683594,
+                552.7477416992188,
+                249.655517578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "11b1fb4ee410a64d49302404cc869896",
+        "text": "\u0001\u0001\u0001nh\n(19)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                430.6960144042969,
+                254.30264282226562,
+                552.7424926757812,
+                280.9666748046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ed1d7dba7fdc7ce75e549499828070bb",
+        "text": "vs0\nij\nvxj\nZ ð1KfÞðrsKrwÞgiKvP\nvxi",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                302.1731872558594,
+                256.3067932128906,
+                428.1392822265625,
+                283.8431396484375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "76b9a2cc566dfa9f9a8611bb6a0ed3c9",
+        "text": "Here f is porosity, rs and rw are solid and water density,\nrespectively, and the composite subscript nh refers to the non-\nhydrostatic part of the ﬂuid pressure gradient. According to\nthese equations, the forces acting on each element of solid\nmatrix are (1) its weight FwZ(1Kf)rsg, (2) a buoyancy force,\nFaZK(1Kf)rwg and (3) a seepage force, FsZKVPjnh.\nAlthough the ﬁrst two forces act vertically, the third one may\nact in another orientation, so modifying the principal values\nand orientations of effective stresses. In our experiments, the\nseepage force was perpendicular to the slope. If conjugate\nfaults develop above a velocity discontinuity, Mourgues and\nCobbold (2003) have shown that principal stresses and faults\nﬂatten with depth, as a function of the increasing overpressure\ngradient (Fig. 7). For the highest ﬂuid pressure (620 Pa), we",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7201232910156,
+                291.7618103027344,
+                552.7569580078125,
+                457.3775939941406
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "52347118df7891f3d2aef3ffd0e39b0c",
+        "text": "Fig. 8. Mohr diagram illustrating how a decrease in shearing resistance on a\ndetachment causes normal faults to become steeper.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                231.68069458007812,
+                293.5971374511719,
+                249.5722198486328
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "17be9d2640fdde235e5e00ec3ce1a9f1",
+        "text": "attribute the much larger fault dip to a decrease in shear stress\non the detachment, as a result of softening during ongoing\nsliding. Such an effect has been observed in shear tests (Mandl\net al., 1977). Assuming that the decrease is passed on into the\nupper part of the model and that s0\nzz remains constant, we\npredict, from a Mohr circle for stresses at yield, that normal\nfaults should be steeper (Fig. 8).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969528198242,
+                258.8553771972656,
+                293.541259765625,
+                340.5343017578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "586ea7e8c836429d7ee64303fbe3076e",
+        "text": "5. Experiments on gravity gliding",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.52064514160156,
+                364.333740234375,
+                186.7939910888672,
+                374.2963562011719
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fc7729336aa8980167ae42a8c376696f",
+        "text": "5.1. New apparatus with ﬂuid injectors",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.52064514160156,
+                388.2396545410156,
+                200.65093994140625,
+                398.2022705078125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "350d7d0b5f9e37a8185545bb8e449fd9",
+        "text": "At the scale of a continental slope or a delta, gravitational\ninstability may result in a large sliding sheet. At its leading\nedge, there may be a belt of compressional deformation (fold-\nand-thrust belt).\nIt would appear that to model a sliding sheet of reasonable\nthickness requires a larger apparatus than the one described\npreviously (20 cm by 30 cm). Moreover, in the previous\nexperiments 7d and 11b, the displacement of the end wall was",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.52064514160156,
+                412.2660217285156,
+                293.5920104980469,
+                505.9065246582031
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "07c7e801f16a1f7c124e6bdab837888d",
+        "text": "stopped before the end of the experiment, because blowouts\noccurred at the upper end of the model (Fig. 4d and f). These\ndevastating explosions were due to a lack of overburden in the\nextensional part. To avoid such unstable explosions in\nexperiments with high ﬂuid pressures, we needed to change\nthe basal boundary conditions on pressure (constant pressure).\nSo we constructed new apparatus, which allows us (1) to house\nlarger models, (2) to vary the size and shape of the area of\ninjection, (3) to control the ﬂuid pressure at all points under the\nmodel and (4) to avoid devastating explosions.\nAs before, the new apparatus has a reservoir at uniform\npressure (Fig. 9). This reservoir receives compressed air\nthrough a basal system of perforated plates, which diffuses the\nﬂow. From the reservoir, air ﬂows through a ﬁrst sieve and into\na series of rectangular tubes (injectors), 5 cm wide. The model\nitself rests on a second sieve, immediately above the injectors.\nThere are two ways of using the injectors (Fig. 10):",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.52777099609375,
+                69.61539459228516,
+                562.5823974609375,
+                275.3961181640625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5f315a6c030ee37e519f476baa2efd2c",
+        "text": "1. Each tube contains a different preset thickness of sand\n(Fig. 10a). The pressure in each tube depends on the\nthickness of sand within it and also on the thickness and\npermeability of overlying parts of the model. By selecting\nthe thickness of sand in each tube, it is possible to\napproach a desired distribution of ﬂuid pressure beneath\nthe model, while the pressure in the reservoir remains\nconstant.\n2. Each tube is full of sand to the maximum height (25 cm).\nThe tubes then act as buffers, regulating the ﬂow of air\nbetween reservoir and model. Where the model is thin,\nthe ﬂuid pressure at the base is low; where the model is\nthick, the pressure is high (Fig. 10b). In other words, the\nratio between pore pressure and overburden pressure is\nnearly constant. As a result of such buffering, explosions\nare less catastrophic or do not occur at all. This is the\nmethod that we have selected for the experiments that are\ndescribed below.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                313.00225830078125,
+                287.60028076171875,
+                562.577392578125,
+                505.6318664550781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "03efe3597d0428ac822e0b1eac9a5317",
+        "text": "Fig. 10. Two methods of using injectors. In Method 1 (a), each tube contains different preset thicknesses of sand. Resulting pressure, Pb, at base of model varies\nhorizontally. In Method 2 (b), all tubes are full of sand. They act as buffers, regulating ﬂow of air between reservoir and model. Fluid pressure beneath model varies\nhorizontally, in such a way that ratio l of pore pressure and overburden stress is nearly uniform, from one vertical proﬁle to another.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71014404296875,
+                298.89349365234375,
+                552.779296875,
+                326.9012145996094
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "73decc73469b019ce7ae2bcff6e27c21",
+        "text": "An additional advantage of the new apparatus is that we\nmay deﬁne a basal window of any required size or shape,\nsimply by blocking the outlying tubes.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71190643310547,
+                346.10577392578125,
+                283.7304992675781,
+                379.935791015625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ee39a76a61fb7d687413d8dc75808b3d",
+        "text": "5.2. Fluidisation of ﬁne sand at high ﬂuid pressure",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71190643310547,
+                395.893310546875,
+                238.70053100585938,
+                405.8559265136719
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5d7c60e528ba729ff18da54683198bd0",
+        "text": "To test the new apparatus, we did an experiment at high\nﬂuid pressure. The aim was to trigger gravity gliding on a\ngentle slope. The injection window was 40 cm long by 25 cm\nwide (Fig. 11). On each side of the window and at its lower\nedge were walls of glass, which reduced the sliding friction.\nThe internal structure of the model was similar to those",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.7119026184082,
+                419.8628845214844,
+                283.7464294433594,
+                489.635986328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "575c4102a4d25b1df0c9487a54cc70af",
+        "text": "Fig. 11. Four stages in the progressive development of surface structures during gravitational gliding. Model and new apparatus were tilted through 58. Gliding (black\narrows) occurred when ﬂuid pressure reached critical value. It resulted in rifts at trailing edge of gliding sheet and thrusts at leading edge. In contrast to what\nhappened using the previous apparatus, no devastating explosions occurred in rifts. Instead, small bubbles reached the surface and sheet of ﬂuidised sand, coming\nfrom the intermediate layer, and spread out on the surface.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.711761474609375,
+                710.8541870117188,
+                552.8152465820312,
+                748.8097534179688
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "24e767c344e35cd13ee025943c213426",
+        "text": "described previously: 1 cm of coarse sand for the lowermost\nlayer, 1 cm of ﬁne sand for the intermediate one and 1.5 cm of\ncoarse sand for the uppermost layer. Once the model was in\nplace, we tilted the apparatus through 58 and increased the ﬂuid\npressure in the reservoir. At an estimated basal pressure of\n450 Pa, the model started to slide. However, as a result of\nfrictional stick-slip, the sliding soon stopped. We therefore\nincreased the ﬂuid pressure to 470 Pa and this produced further\nsliding. Rifts appeared near the trailing edge of the slide. At\nthis stage, small bubbles reached the surface in the rifts,\ncreating pockmarks, and ﬁne sand from the intermediate layer\nspread out like a ﬂuid on the free surface of the model.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.718994140625,
+                346.1058044433594,
+                552.7266235351562,
+                489.638916015625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d33860584aad66af084d2c8462a23e60",
+        "text": "In contrast to what happened in previous experiments on\ngravity spreading, the ﬂuidisation was stable and did not\ndegenerate into devastating explosions.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                69.6144790649414,
+                293.5591735839844,
+                103.50127410888672
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "955a5b2ea9f8dbf1a5b3183d1ede5cea",
+        "text": "5.3. Length of detachment and dynamics of sliding",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                118.21147155761719,
+                247.8995819091797,
+                128.174072265625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a31d23d95634468d78e3861455343133",
+        "text": "To\ntest\nthe\ndynamics\nof\ngliding\nand\nto\ncalibrate\nfuture experiments, we did a series of experiments using\ninjection windows of various lengths. The conﬁgurations of\nthe models were similar to those described in the previous\nsection. The sliding mass was 2.5 cm thick. The injection\nwindows were 20, 30, 50 or 70 cm long. The window was\n20 cm from the lower endwall. We increased the pressure in\nthe\nreservoir\nuntil\nthe\npressure\nat\nthe\nbase\nof\nthe\nmodel reached 400 Pa. Then we carefully and progressively",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                142.2378387451172,
+                293.59002685546875,
+                247.8404541015625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b2abf1a459392a3502f10b2fbfd912b8",
+        "text": "Fig. 12. Four experiments on gravitational gliding in the new apparatus. Length (L) of injection window varied, from one experiment to another. Photographs of\nupper surface show structural development, for increasing angles of slope (a). Thrusts (traces lined by black triangles) formed sequentially, migrating upslope. For\ndisplacement history of marker (star), see Fig. 13.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                720.8020629882812,
+                562.5971069335938,
+                748.8097534179688
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "f061d5ab31bf8a4e052c500ccc1cb7d4",
+        "text": "tilted\nthe\napparatus,\nto\na\nmaximal\nslope\nof\n188,\nusing a forklift truck and avoiding tremors. We took a\nphotograph of the upper surface for every 0.28 of increasing\nslope.\nIn all experiments, an extensional domain appeared at the\nupper edge of the injection window (Fig. 12). In experiments\nGl20 and Gl30, a single fore-thrust developed at the lower edge\nof the window. In experiments Gl50 and Gl70, three and four\npop-ups appeared, bounded by fore-thrusts and back-thrusts.\nThe ﬁrst fore-thrust appeared at the lower edge of the window\nand the following ones stepped back, reducing the length of the\nrigidly gliding mass, as the slope increased. For each\nexperiment, we plotted the displacement of a selected surface\nmarker (star; Fig. 12) versus the angle of slope, obtaining the\nfollowing results (Fig. 13a):",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.52679443359375,
+                69.47918701171875,
+                562.5963134765625,
+                247.784423828125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f399e415964f824444e3f2400b3d7dd9",
+        "text": "Fig. 13. (a) Displacement of a marker at the back of a sliding sheet versus angle\nof slope, for different lengths of injection window. For photographs of\nexperiments and position of marker (star), see Fig. 12. (b) Comparison of\nexperimental critical slope and analytical results.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.7117919921875,
+                440.99090576171875,
+                283.7828063964844,
+                478.83819580078125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7f33354f6728b9cbb78d899a62c6f90e",
+        "text": "1. The shorter was the injection window (and hence the slide),\nthe steeper was the critical slope required for gliding to\nstart. For models GL70 and GL50, the critical slope was 11\nor 128, whereas for models GL30 and GL20, it was more\nlike 14 or 158.\n2. Displacement accumulated in steps.\n3. The magnitude of the ﬁrst step was proportional to the\nlength of the slide. For model GL70, the ﬁrst step was 1 cm\nlong. This was enough to develop a fore-thrust at the\nleading edge (Fig. 12d). For model GL50, the ﬁrst step was\nmore like 0.5 cm and no thrust fault developed. For models\nGL20 and GL30, the markers moved progressively and\nextensional structures appeared at the upper edge of the\ninjection window; but true sliding did not occur until the\nslope had reached about 158 (the critical slope).\n4. Each step, or sudden increase in displacement, correlated\nwith the development of a fore-thrust or pop-up. During the\nintervening periods of stability, no structures were\ndeveloping.\n5. In our experiments, compressional failure occurred within\nthe injection window, but not outside it. As a result,",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                34.185791015625,
+                493.0536804199219,
+                283.7568054199219,
+                749.1134643554688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7f1fa57171a4b836a71a093f1ac112e8",
+        "text": "successive thrusting could only propagate upslope and the\nlength of the rigidly gliding sheet necessarily decreased.\nHowever, it never became shorter than 20 cm. By then, the\nslope was about 158. At later stages, all sheets appeared to\nbehave in much the same way. Steps were as large as 2 cm\nand they alternated with periods of stability, during which\nthe slope increased by as much as 28.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                315.6650695800781,
+                69.61038970947266,
+                552.7411499023438,
+                151.288818359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4bc97d4bc108d8643b08625330411f94",
+        "text": "5.4. Discussion",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.71844482421875,
+                179.26524353027344,
+                363.3710021972656,
+                189.22784423828125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4a8ceab3ea726ec89529bf1bc9afff87",
+        "text": "5.4.1. Analytical model of gravity gliding\nWhen a detachment appears in sloping sediments, part of the\nweight is taken off the base and thrown against the toe of the\nslope. In terms of stress gradients, (sxz/(z diminishes and (sxx/(x\nincreases (Eq. (1)). If the slope is long enough, the increase in\nsxx leads to failure, by development of thrust faults at the toe of\nthe slope. For a given angle of slope, Mandl (1988, p. 212)\ndetermined the maximal length of an inﬁnitely wide sheet, by\nassuming that the stress gradient (sxx/(x results from a decrease\nin sliding resistance on the basal detachment. Alternatively, for\na given length of slide, the slope must be wide enough for the\nunbalanced weight to overcome the resistance at the toe,\ncreating thrust faults. In a slide of ﬁnite width, the stress\ngradient (sxx/(x also depends on the frictional resistance at the\nlateral edges of the slide, that is to say on its width, and the\nresistance at the toe is controlled by the presence of ﬂuid\noverpressure in the sliding sheet.\nTo quantify these parameters and to explain the results of\nour experiments on gravity gliding, we have developed a quasi-\n3D analytical model of a sliding sheet with lateral friction\n(Fig. 14 and Appendix A). It is based on the following\nassumptions. (1) The sliding sheet is bounded by a normal fault\nat the trailing edge and by a thrust fault at the leading edge. (2)\nThe sheet slides on a basal detachment (at a depth H) that is\nparallel to its upper surface. (3) There is lateral friction, but s0\nxy\nand s0\nxx are constant in the y direction. (4) At yield, effective\nstresses satisfy a Coulomb criterion. (5) Fluid pressure on the\ndetachment (lb) is different from that in the body of the sheet\n(l). (6) Gliding occurs when the yield stress is reached at the\nleading edge.\nWe have plotted some solutions of the analytical model\n(Fig. 15) to show how the critical slope depends on (1) the\nlength of the slide, (2) lateral friction and the width of the sheet,\nand (3) ﬂuid pressure. For a sheet longer than 1 m (L/HO30),\nthe critical slope is only a few degrees more than for an\ninﬁnitely long model (Fig. 15a and b). For a shorter sheet, the\nresistance to sliding is signiﬁcant. It becomes a ﬁrst-order",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.71795654296875,
+                207.27110290527344,
+                552.776123046875,
+                647.752197265625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3e0215498864b0e81dab969d98d9d901",
+        "text": "Fig. 15. Results of analytical model (Appendix A). (a) Critical slope for sliding, as function of length of sliding sheet (L), for various values of basal ﬂuid pressure, lb.\n(b) The same, but for internal ﬂuid pressure, l. (c) and (d) Effect of lateral friction.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51788330078125,
+                345.4267883300781,
+                562.5718383789062,
+                363.5249938964844
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "f9d2f7b98069af57a4449e15eabb3e85",
+        "text": "parameter for sheets shorter than 60 cm (L/H!20). Lateral\nfriction also contributes to the sliding resistance (Fig. 15c and\nd). The slope required to trigger a slide increases as its width\ndiminishes. For wide sliding sheets (L/HO20), lateral friction\nis negligible.\nThe ﬁnal parameter that controls the resistance to sliding is\nthe strength of the sheet. This depends on the material, but also\non the ﬂuid overpressure. We distinguish between pressure at\nthe base of the sheet and pressure within it. For both factors,\noverpressure reduces the critical slope for sliding, but for\ndifferent reasons. For long sheets, the basal pressure is more\nimportant (Fig. 15a), because it reduces the resistance to\nsliding. For short sheets, the internal pressure is more important\n(Fig. 15b), because it decreases the resistance of thrust faults at\nthe leading edge.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51674270629883,
+                372.0097351074219,
+                293.565185546875,
+                551.0919799804688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b0146f112374f90fcfe544042e11ccce",
+        "text": "5.4.2. Analysis of experimental results\nThe ﬁrst result of the experiments on gliding was that the\nshorter was the injection window, the steeper was the critical\nslope required for gliding to start. This seems to be in\nagreement with theory. Fig. 13b shows that our analytical\nmodel provides good predictions of this experimental result.\nThe second result was that the magnitude of the ﬁrst step was\nproportional to the length of the slide. For models with a long\ndetachment (model GL70), the ﬁrst step was 1 cm long and\nwent with the development of a fore-thrust at the leading edge.\nFor the smallest models (GL20 and GL30), the sand moved\nprogressively before true sliding occurred. In this case, we\nattribute the ﬁrst displacements to longitudinal compaction\nwithin the sliding sheet, which otherwise remained stable,\nbecause of resistance at the leading edge. Nevertheless, the",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51674270629883,
+                570.9608154296875,
+                293.5722351074219,
+                749.4034423828125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2a2bc5b2123df3dad55de60d6790adf8",
+        "text": "basal detachment must have been already active. Indeed, for\nmodels GL20 and GL30, the observed critical slopes ﬁt the\ncurves for lower basal friction (that is, a coefﬁcient of softening\nks!1; see Appendix A); whereas, for models GL50 and GL70,\nthe observed critical slopes ﬁt the curves for higher basal\nfriction (Fig. 13b). We infer that detachment was active before\nthe critical slope was attained and that this preliminary\nactivation resulted in softening on the detachment.\nFinally, the step-like displacement curves (Fig. 13) are partly\ndue to the sequential nature of the thrusting, in response to\nﬂuctuations in the longitudinal stress. Nieuwland et al. (2000),\nusing sensitive strain gauges, have measured such ﬂuctuations, in\nexperiments on thrusting in sand packs. As soon as one thrust has\nformed,the resistancetosliponitdecreases,leadingtoa periodof\nrapid slip. However, slip on that thrust results in local thickening\nofthe model,which inturn causesan increase inresistancetoslip.\nA period of stability then ensues, during which the longitudinal\nstress builds up again, to the failure limit. At that point, another\nthrust forms and the process repeats. Although a similar process\nshould occur in models that detach on a ductile layer, we would\nnot predict for them such sudden increases in displacement, but\nrather more gentle increases. Notice also that in our experiments,\nthe sudden increases in displacement may have meant that\nsigniﬁcant inertial forces were involved. If so, Eq. (1) needs\nadditional terms.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.52484130859375,
+                372.75244140625,
+                562.6588134765625,
+                669.63427734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "905c70760d9af4bdc02f9eacf744d0cc",
+        "text": "6. Conclusions",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.52740478515625,
+                691.5059204101562,
+                373.3762512207031,
+                701.468505859375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7d338245d343215e5650aa723e03c4c2",
+        "text": "We have used a relatively new technique (injection of\ncompressed air into sand packs; Cobbold et al., 2001) to model\nthe\ntriggering\nof\ngravitational\ninstabilities\nby\nﬂuid",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.52740478515625,
+                715.5140380859375,
+                562.5840454101562,
+                749.4008178710938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6bd943eeb407f33addff6972f0803d01",
+        "text": "overpressure. Basal detachments take the appearance of thin\nﬂat shear bands, in contrast to what happens in experiments\nwhere silicone putty provides the basal weakness. In\nexperiments on gravity spreading, ﬂuid overpressure facilitated\ndetachment and extensional deformation. At moderate values\nof ﬂuid overpressures, normal faults propagated upslope, from\nthe leading edge to the trailing edge of the sliding sheet.\nNumerous closely spaced normal faults formed between quasi-\nrigid blocks that tilted. At the highest overpressures, the\ndeformation propagated very fast and blocks slid without\ntilting on an efﬁcient basal detachment. The angle of fault dip\nwas a function of ﬂuid pressure and of frictional resistance at\nthe base. To model gravitational gliding, we have built a new\napparatus with injectors, which allows us to change the shape\nof the overpressured window and which avoids devastating\nexplosions. We have carried out a series of experiments using\ninjection windows of various lengths. In models shorter than\n60 cm, frictional resistance at the leading edge controlled the\ndynamics of gliding and the critical slope that was necessary to\ntrigger the slide. Gliding occurred in steps, during which\nsudden increases in displacement alternated with periods of\nstability, due to the sequential nature of thrusting at the leading\nedge. The experimental results agree with analytical\npredictions.\nThese experiments represent a ﬁrst stage in the analogue\nmodelling of gravitational instabilities due to overpressures on\ndelta slopes and passive margins. They pave the way for more\nrealistic models of tectonics involving non-viscous detach-\nments. In a future article, we aim to model more realistic\ngeometries of delta slopes, as well as spatial variations of\noverpressures and sedimentation. Nevertheless, readers should\nbe aware of one major limitation of the technique: transitory\nphenomena (overpressure build-up or dissipation) are not\nscaled but imposed by the experimenter. Also, it may be\ndifﬁcult to model any change in permeability during faulting.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71179962158203,
+                69.6144790649414,
+                283.7822265625,
+                486.061279296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "be28f82d968235534f7d272e2fdc49cc",
+        "text": "Acknowledgements",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71179962158203,
+                500.3922424316406,
+                115.2409896850586,
+                510.3548583984375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "dbaf224ad4eb80b080f846552ed38b09",
+        "text": "The authors wish to thank F. Storti and B. Vendeville for\ntheir constructive reviews.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71179962158203,
+                524.3435668945312,
+                283.7413024902344,
+                546.2682495117188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "74f69e98168537f24c3d56cc16876255",
+        "text": "Appendix A. Analytical model of a sliding sheet in three\ndimensions",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71179962158203,
+                562.0169067382812,
+                274.4582214355469,
+                583.9415893554688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ce7454438506cc7fce584b608632f975",
+        "text": "We consider a sliding sheet in three dimensions (Fig. 14). The\nsheetabutsa normalfault atits trailingedgeanda thrust fault atits\nleading edge. At a depth H, the sheet slidesona basal detachment,\nwhich is parallel to the upper surface of slope a. We consider\nlateral friction but we assume that s0\nxy and s0\nxx are constant in the\ny direction. For an elementary volume dV of thickness dz, length\ndx and width l (width of the slide), at depth H/2, we write the\nbalance of forces, making four further assumptions.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71080017089844,
+                597.9871215820312,
+                283.8270568847656,
+                691.63330078125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ed6e40ef836f6bae37bd9ad175db279d",
+        "text": "1. For lateral friction, we assume a Coulomb criterion, where ms\nis the coefﬁcient of sidewall friction.\n2. Following the silo model (Jansen, 1895; Mourgues and\nCobbold, 2003), we assume that the vertical stress s0\nv",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                34.298545837402344,
+                703.296142578125,
+                283.7391052246094,
+                750.6674194335938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "86515bc882b4721afef2282412279a06",
+        "text": "automatically results in a proportional horizontal stress s0\nh:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                315.6661071777344,
+                67.3493423461914,
+                552.7205810546875,
+                80.8406982421875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "835a86a9f15d279bcf06c4ec97019592",
+        "text": "s0\nh Z Ks0\nv\n(A1)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7208251953125,
+                86.3415298461914,
+                552.8344116210938,
+                100.3433837890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c6f765c49689293a93c69648ade891a5",
+        "text": "This assumption is valid for granular or elastic media. In\ngranular materials, 0.5 is a suitable value for K (Lambe and\nWhitman, 1969), so that:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.72100830078125,
+                107.59854888916016,
+                552.8324584960938,
+                141.4853515625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b25268776b855855497339b8b29390ef",
+        "text": "s0\nyy Z Kðrgz=cosaKPÞ\n(A2)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.72100830078125,
+                146.71939086914062,
+                552.8328857421875,
+                160.6497344970703
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0ecba3c3629bd1c6f1151f880740ba87",
+        "text": "3. For basal friction on the detachment, we also assume a\nCoulomb criterion and we introduce the parameter ks that\nrepresents softening on the shear zone. At depth H:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                303.249755859375,
+                180.33592224121094,
+                552.8082275390625,
+                214.16583251953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4b3545e3a50ba8eedc5ff1fa57938294",
+        "text": "s0\nxz Z ksms0\nzz\n(A3)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7207946777344,
+                219.45639038085938,
+                552.8344116210938,
+                233.45794677734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9e5911182c66592ba792245ad868c28a",
+        "text": "At yield, ksZ1 and after activation of the detachment ks\ndiminishes.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7196044921875,
+                237.8013153076172,
+                552.7410278320312,
+                262.128173828125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "821531267c622091b453819e762d0bff",
+        "text": "4. We assume a linear variation of s0\nxz with depth between\nsurface and detachment.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                303.2498474121094,
+                271.8407287597656,
+                552.748779296875,
+                296.030517578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "50934f2329d513fe8c297d9472086ece",
+        "text": "We now write the balance of forces across the volume dV in\nthe x direction, using Eqs. (A1)–(A3):",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.72003173828125,
+                307.8495788574219,
+                552.8253784179688,
+                329.87646484375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e3e77517289a9614e692f0a3f5ac2df2",
+        "text": "ds0\nxxdzl C2msK\n\u0006 rgH\n2cosaKP zZH=2\n\u0007\ndxdz\n\u0001\u0001\u0001",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.72003173828125,
+                326.58648681640625,
+                463.72918701171875,
+                354.99090576171875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3c8e3ce76d7aa2d9a748d4052a91b9e4",
+        "text": "\u0001\u0001\u0001\u0001\n(A4)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                384.60546875,
+                354.8188781738281,
+                552.8350219726562,
+                386.46112060546875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "deb2d7da83ab705a57c8d1351f46ab58",
+        "text": "CksmðrgcosaKP\nzZH\nHÞdxdzl Z rgdxdzlsina",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.1320495605469,
+                365.17431640625,
+                482.4262390136719,
+                386.17230224609375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8da47d23c0e8538dc51711e9ff8d8b05",
+        "text": "On simplifying, we obtain:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                313.626953125,
+                389.81463623046875,
+                420.7398376464844,
+                399.7772521972656
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4227e3f3fae68067674e59fbbcc0918f",
+        "text": "\b",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                401.0459289550781,
+                399.5498352050781,
+                408.30865478515625,
+                413.4476623535156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e4ca610a90f1c2180a7614e6fc2287e8",
+        "text": "ds0\nxx ZrgdxsinaK2msK\nrgH\n2cosaKP zZH=2\n\u0001\u0001\n\u0005 dx\nl",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7216491699219,
+                405.10577392578125,
+                489.0077209472656,
+                430.5057373046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "03bf5d14f9844e65cf9f4e3e6a5fe4ee",
+        "text": "\u0001\u0001\u0001\n\u0007\ndx\nðA5)\n\u0006",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                352.11907958984375,
+                426.9888916015625,
+                553.1165771484375,
+                452.678466796875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "41311cd8429b2648e95973282663c983",
+        "text": "Kksm rgcosaKP zZH\nH",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                330.86041259765625,
+                434.39642333984375,
+                420.84954833984375,
+                455.23541259765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4e4ecdaa7f80900f566736ed444b6256",
+        "text": "At the trailing and leading edges of the sheet, on normal and\nthrust faults, we assume that stresses are at yield. At a depth H/2,\nwe estimate s0\nzz and s0\nxz to be:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.71929931640625,
+                460.9076843261719,
+                552.7499389648438,
+                496.780029296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "61a9055faf9d31f45a2c7a676ddc8439",
+        "text": "s0\nzz Z rgðH=2ÞcosaKP zZH=2\n\u0001\u0001",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.72003173828125,
+                494.1703796386719,
+                419.66937255859375,
+                514.0877685546875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c15df2652b4ea743ca3fccaced6cb324",
+        "text": "s0\nxz Z ksmðH=2Þ rgcosaKP zZH=H\n\u0001\u0001\n\u0005\n\u0004",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7198791503906,
+                519.2852172851562,
+                448.0746154785156,
+                539.1460571289062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d1ce5f67b6a5a47913f0c984f8552a94",
+        "text": "From these values, we determine s0\nxx at yield in the\nextensional and compressional parts of the sheet and we deduce\nthe total variation of s0\nxx (Ds0\nxx) in the sliding sheet (Fig. A1),",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7206115722656,
+                544.64697265625,
+                552.8374633789062,
+                582.83984375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ce51ded7431e38a3594c02624923d179",
+        "text": "Fig. A1. Mohr circles for states of stress at compressional leading edge and\nextensional trailing edge of gliding sheet, according to analytical model. For\nfurther explanation, see text.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7196044921875,
+                720.8837890625,
+                552.7890625,
+                748.8097534179688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6cff45b1f34f34e8c8207aa15e8dbfbd",
+        "text": "between points A and B (Fig. 14). Then, from Eq. (A5), we\nobtain the length of the sheet L.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 15,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                69.6144790649414,
+                293.65185546875,
+                91.53917694091797
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8f4ec1e605d01e6381697e3c6683e645",
+        "text": "References",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 15,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                117.37897491455078,
+                88.39549255371094,
+                127.3415756225586
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f751f90e0aa29e6c376bb5fc9d005e84",
+        "text": "Barker, C., 1990. Calculated volume and pressure changes during the thermal\ncracking of oil to gas in reservoirs. American Association of Petroleum\nGeologists Bulletin 74, 1254–1261.\nBrun, J.P., Choukroune, P., 1983. Normal faulting, block tilting and decollement\nin a stretched crust. Tectonics 2, 345–356.\nBrun, J.P., Fort, X., 2004. Compressional salt tectonics (Angolan margin).\nTectonophysics 382, 129–150.\nByerlee, J.D., 1978. Friction of rocks. Pure and Applied Geophysics 116, 615–\n626.\nCobbold, P.R., Castro, L., 1999. Fluid pressure and effective stress in sandbox\nmodels. Tectonophysics 301, 1–19.\nCobbold, P.R., Szatmari, P., 1991. Radial gravitational gliding on passive\nmargins. Tectonophysics 188, 249–289.\nCobbold, P.R., Durand, S., Mourgues, R., 2001. Sandbox modelling of thrust\nwedges with ﬂuid-assisted detachments. Tectonophysics 334, 245–258.\nCobbold, P.R., Mourgues, R., Boyd, K., 2004. Mechanism of thin-skinned\ndetachment in the Amazon Fan: assessing the importance of ﬂuid\noverpressure and hydrocarbon generation. Marine and Petroleum Geology\n21, 1013–1025.\nCohen, H.A., McClay, K., 1996. Sedimentation and shale tectonics of the\nnorthwestern Niger Delta front. Marine and Petroleum Geology 13, 313–328.\nCrans, W., Mandl, G., Haremboure, J., 1980. On the theory of growth faulting: a\ngeomechanical delta model based on gravity sliding. Journal of Petroleum\nGeology 2, 265–307.\nDahlen, F.A., 1990. Critical taper model offold-and-thrust belts and accretionary\nwedges. Annual Review of Earth and Planetary Sciences 18, 55–99.\nDamuth, J.E., 1994. Neogene gravity tectonics and depositional processes on the\ndeep Niger Delta continental margin. Marine and Petroleum Geology 11,\n320–346.\nDavy, P., Cobbold, P.R., 1991. Experiments on shortening of a 4-layer model of\nthe continental lithosphere. Tectonophysics 188, 1–25.\nEvamy, B.D., Haremboure, J., Kamerling, P., Knaap, W.A., Molloy, F.A.,\nRowlands, P.H., 1978. Hydrocarbon habitat of Tertiary Niger Delta.\nAmerican Association of Petroleum Geologists Bulletin 62, 1–39.\nFort, X., 2002. Processus de la tectonique salife`re de la marge angolaise. PhD\nThesis, University of Rennes 1, 225pp.\nGe, S., Garven, G., 1992. Hydromechanical modeling of tectonically driven\ngroundwater ﬂow with application to the Arkoma foreland basin. Journal of\nGeophysical Research 97 (B6), 9119–9144.\nHubbert, M.K., 1937. Theory of scale models as applied to the study of geologic\nstructures. Geological Society of America Bulletin 48, 1459–1520.\nHubbert, M.K., Rubey, W.W., 1959. Role of ﬂuid pressure in mechanics of\noverthrust faulting. Geological Society of America Bulletin 70, 115–166.\nJansen, H.A., 1895. Versuche u¨ber Getreidedruck in Silozellen. Zeitschrift des\nVereiner Deutscher Ingenieure 39, 1045–1049.\nLambe, T.W., Whitman, R.V., 1969. Soil Mechanics. Wiley, New York. 553pp.\nMaillard, A., Gaullier, V., Vendeville, B.C., Odonne, F., 2003. Inﬂuence of\ndifferential compaction on salt tectonics in Ligurian–Provenc¸al Basin,\nNorthwest Mediterranean. Marine and Petroleum Geology 20, 13–27.\nMandl, G., 1988. Mechanics of Tectonic Faulting: Models and Basic Concepts,\nDevelopments in Structural Geology. Elsevier, Amsterdam. 407pp.\nMandl, G., Crans, W., 1981. Gravitational gliding in deltas. In: McClay, K.R.,\nPrice, N.J. (Eds.), Thrust and Nappe Tectonics Geological Society of London\nSpecial Publication 9, pp. 41–54.\nMandl, G., de Jong, L.N.J., Maltha, A., 1977. Shear zones in granular material.\nRock Mechanics 9, 95–144.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 15,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                141.36898803710938,
+                293.676025390625,
+                697.2747802734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "37f76e98d415c4781f1d99e90935649d",
+        "text": "Mauduit, T., 1998. De´formation gravitaire synse´dimentaire sur une marge\npassive: mode´lisation analogique et application au Golfe de Guine´e.\nMe´moires de Ge´osciences-Rennes 83, 1–251.\nMauduit, T., Gaullier, V., Brun, J.P., Guerin, G., 1997a. On the asymmetry of\nturtle-back growth anticlines. Marine and Petroleum Geology 14, 763–771.\nMauduit, T., Guerin, G., Brun, J.P., Lecanu, H., 1997b. Raft tectonics: the effects\nof basal slope angle and sedimentation rate on progressive extension. Journal\nof Structural Geology 19, 1219–1230.\nMcClay, K., Ellis, P.G., 1987. Geometries of extensional fault systems developed\nin model experiments. Geology 15, 341–344.\nMello, U.T., Pratson, L.F., 1999. Regional slope stability and slope-failure\nmechanics from the two-dimensional state of stress in an inﬁnite slope.\nMarine Geology 154, 339–356.\nMorley, C.K., Guerin, G., 1996. Comparison of gravity-driven deformation\nstyles and behavior associated with mobile shales and salt. Tectonics 15,\n1154–1170.\nMourgues, R., Cobbold, P.R., 2003. Some tectonic consequences of ﬂuid\noverpressures and seepage forces as demonstrated by sandbox modelling.\nTectonophysics 376, 75–97.\nNeuzil, C.E., 1986. Groundwater ﬂow in low-permeability environments. Water\nResources Research 22, 1163–1195.\nNeuzil, C.E., 1994. How permeable are clays and shales? Water Resources\nResearch 30, 145–150.\nNeuzil, C.E., 1995. Abnormal pressures as hydrodynamic phenomena. American\nJournal of Science 295, 742–786.\nOsborne, M.J., Swarbrick, R.E., 1997. Mechanisms for generating overpressure\nin sedimentary basins: a reevaluation. American Association of Petroleum\nGeologists Bulletin 81, 1023–1041.\nNieuwland, D.A., Urai, J.L., Knoop, M., 2000. In-situ stress measurements in\nmodel experiments of tectonic faulting. In: Lehner, F.K., Urai, J.L. (Eds.),\nAspects of Tectonic Faulting. Springer, Berlin, pp. 155–166.\nRamberg, H., 1967. Model experimentation of the effect of gravity on tectonic\nprocesses. Geophysical Journal of the Royal Astronomical Society 14, 307–\n329.\nShi, Y., Wang, C.Y., 1986. Pore pressure generation in sedimentary basins:\noverloading versus aquathermal. Journal of Geophysical Research 91 (B2),\n2153–2162.\nStrayer, L.M., Hudleston, P.J., Lorig, L.J., 2001. A numerical model of\ndeformation and ﬂuid-ﬂow in evolving thrust wedge. Tectonophysics 335,\n121–145.\nSwarbrick, R.E., Osborne, M.J., Yardley, G.S., 2002. The magnitude of\noverpressure from the main generating mechanisms under realistic basin\nconditions. American Association of Petroleum Geologists Memoir 76, 1–12.\nTerzaghi, K.v., 1923. Die Berechnung der Durchla¨ssigkeitsziffer des Tones aus\ndem Verlauf der hydrodynamischen Spannungerscheinungen. Sitzungsber-\nichte der Akademie der Wissenschaften in Wien, mathematischnaturwissen-\nshaftliche Klasse, Abteilung IIa 132, 125–138.\nTerzaghi, K.v., 1950. Mechanics of landslides. In: Paige, S. (Ed.), Application of\nGeology to Engineering Practice. Geological Society of America, New York,\npp. 83–123.\nVendeville, B., 1987. Champs de failles et tectonique en extension. Mode´lisation\nexpe´rimentale. Me´moires et Documents du Centre Armoricain d’Etude\nStructurale des Socles 15, 1–395.\nVendeville, B., Cobbold, P.R., 1987. Glissements gravitaires synse´dimentaires et\nfailles normales listriques: mode`les expe´rimentaux. Comptes Rendus de\nl’Acade´mie des Sciences de Paris, Tome 305, Se´ries II 16, 1313–1320.\nWorral, D.M., Snelson, S., 1989. Evolution of the northern Gulf of Mexico, with\nemphasis on Cenzoic growth faulting and the role of salt. In: Bally, A.W.,\nPalmer, A.R. (Eds.), The Geology of North America: an Overview\nGeological Society of America, Decade of North American Geology,\nVolume A, pp. 97–138.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0191814106000101-main.pdf",
+            "page_number": 15,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.5290832519531,
+                69.47891235351562,
+                562.68603515625,
+                696.4299926757812
+            ],
+            "is_full_width": false
+        }
+    }
+]

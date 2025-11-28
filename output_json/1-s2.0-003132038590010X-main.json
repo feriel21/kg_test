@@ -1,0 +1,2339 @@
+[
+    {
+        "element_id": "2d6e54918c93ca9abc63cf3bcd279de3",
+        "text": "MULTIDIMENSIONAL ATTRIBUTE ANALYSIS AND \nPATTERN RECOGNITION FOR SEISMIC INTERPRETATION",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                97.20001220703125,
+                101.10955047607422,
+                454.58856201171875,
+                131.35723876953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "921c0a85da049736c25a01a52657e8b5",
+        "text": "J. H. JUSTICE, I D. J. HAWKINS 2 and G. WONG 1 \nJ Department of Geology and Geophysics, The University of Calgary, Calgary, Alberta, Canada T2N IN4, \nand 2Dipix Systems Limited, Ottawa, Ontario, Canada K2E 7J5",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                95.280029296875,
+                139.87673950195312,
+                457.34295654296875,
+                173.40280151367188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0acc6a23ecebdc6b5f871e3a71d98d86",
+        "text": "(Received 7 December 1984; received for publication 5 March 1985)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                162.72003173828125,
+                183.07675170898438,
+                390.2060241699219,
+                195.24282836914062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8bb8084b7e1086f569c7ef555751e06f",
+        "text": "Al~traet--The interpretation of exploration seismic data to infer the probable locations of commercial \nquantities of hydrocarbons has deep roots in pattern analysis. In this paper we suggest a broad-based \nprogram or framework for treating the interpretation of seismic data as a problem or a collection of many \nproblems in pattern recognition. \nThe basis for this approach is the identification of a large number of objective or quantitative attributes \nwhich may be combined in a variety of ways via pattern analysis to infer the information necessary to \naccurately interpret exploration seismic data, and to locate potentially commercial hydrocarbon reservoirs.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                93.84005737304688,
+                203.95675659179688,
+                458.006591796875,
+                270.6028137207031
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f940360b0542fb3ac82436bdc641a421",
+        "text": "Seismic \nCluster analysis \nAnalytic signal \nBright spots \nInteractive pattern analysis",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                94.08004760742188,
+                279.5567321777344,
+                425.93023681640625,
+                291.7228088378906
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5f3d7c4de17b267eb8cae9d30166a83b",
+        "text": "!. INTRODUCTION",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                134.6400604248047,
+                320.9893798828125,
+                200.01698303222656,
+                329.31353759765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4edd47b80919842cfd27fe6698f55d30",
+        "text": "The interpretation of seismic data to infer the probable \nlocations of commercial accumulations of hydrocar- \nbons has deep roots in pattern analysis. Over a period \nof many years, the experience of many field cases has \nbeen accumulated; comparisons of data with the \nresults of drilling have been made; geological and \ngeophysical knowledge have begun to be integrated \nand, slowly, unified approaches to seismic interpret- \nation based on sound geological and geophysical \nprinciples have begun to emerge, almost always related \nin various ways to the concepts of pattern recognition \nand analysis. \nThe earliest discoveries using geophysical methods \nwere based on the identification of probable structural \ntraps for hydrocarbons using observed traveltimes \nderived from reflections of acoustic energy from inter- \nfaces in the Earth separating different lithologic units. \nA variety of trapping mechanisms were identified and \nthe structural configurations of these traps were \nsought as a simple form ofpattern recognition on data \nwhich had been processed and displayed in such a way \nas to approximate a cross section of the near surface \nmaterial in the Earth (usually not exceeding depths of \nabout 10 kin). \nIt wasn't very long before the concept of a different \ntype of trap began to assume importance, this being \nknown as the stratigraphic trap. A stratigraphic trap \nmay be constrasted to a structural trap by referring to \none of the first definitions given for these two concepts \nby Marr: tt~ \n\"A structural trap is one where sedimentary rocks have \nbeen folded and possibly faulted to produce a domal or \nanticlinal shaped closure, irrespective of size, that is \ncapable of trapping hydrocarbons in porous blanket",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                64.320068359375,
+                340.9967346191406,
+                274.5248107910156,
+                719.1629028320312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "610a2b5d1dc47a31aa39c45b45a01923",
+        "text": "391",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                272.40020751953125,
+                724.5167846679688,
+                286.0711669921875,
+                736.682861328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8fb36a7d3030222758fa84f24453283c",
+        "text": ", \n1985 Pattern Recognition Sociel)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                391.9200134277344,
+                51.70936965942383,
+                484.83544921875,
+                60.033531188964844
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c2d2034746c3476015f3e8d82542cb98",
+        "text": "strata which are arched over the top of the fold or \nuplift. \nStratigraphic traps are all porous rock masses in the \nsubsurface which can !rap hydrocarbons and which \nare not structural traps. This includes [paraphrase]: \n1. blanket porous strata which are truncated or \npinched out ... \n2. porous strata which terminate by lateral transition \ninto nonporous strata \n3. porous strata interrupted by barriers of all kinds, \nsuch as permeability, pressure, secondary min- \neralization, etc. \n4. strand lines of either elastics or carbonates. \n5. reefs, buried topography, lenses, bars, etc.\" \nWhile there may be disagreement on the actual \nforms of these definitions or even their precise mean- \ning, there is a significant implication in the distinction \nmade here. That is, that while a stratigraphic trap may \nwell have a structural expression (reefs, lenses, bars, \netc.), it becomes of interest only when the probable \ndepositional environment and therefore the actual \nnature of the lithoiogic unit is inferred in some way. \nThat is, the identification of a reef suggests the \npossibility of porous hydrocarbon reservoirs within \nwhat may be a larger carbonate/evaporite complex. \nThe identification of bars or channel sands suggest \nlithologies conducive to hydrocarbon reservoirs, i.e. \nporosities and permeabilities suitable for the accumu- \nlation of hydrocarbons, provided that some trapping \nagent such as an impervious seal to the reservoir and a \nsource of hydrocarbons to charge the reservoir are \nboth present. \nThe implication is, then, that we must go beyond \nstructure and infer probable lithologies and probable \npresence of hydrocarbons. The first step in this direc- \ntion was suggested above in the form of a \"facies\"",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                281.5201110839844,
+                318.91680908203125,
+                492.25836181640625,
+                718.202880859375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a0c419f6d429998cb1957c7057352c15",
+        "text": "6 \n,~ \nj",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                120.72001647949219,
+                68.4439926147461,
+                142.0560302734375,
+                75.69871520996094
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "df2fe70925005f0de996e8073049fff6",
+        "text": "CDP",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                222.72003173828125,
+                86.23518371582031,
+                241.51768493652344,
+                98.13246154785156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cde5777d4fcc74a1a1c4f6e024608960",
+        "text": "Gathers",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                216.2400360107422,
+                101.35517883300781,
+                249.30380249023438,
+                113.25245666503906
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b3e40c2a76f2b8f4e6cb12bd3094bd9d",
+        "text": "Stack \nCDP Section \nIAgrate",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                110.88005065917969,
+                191.8351593017578,
+                349.9091796875,
+                204.69239807128906
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2fddb13a40f07bbca25a33ccfcb4da15",
+        "text": "Fig. 1. Seismic processing and imaging.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                220.320068359375,
+                266.1165466308594,
+                355.80072021484375,
+                278.2826232910156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "33a85318e3e782a4837312c31cb7bc89",
+        "text": "analysis to determine the probable environment of \ndeposition leading to an identification of the probable \nlithologies and their characteristics. \nToday, we may apply many sophisticated proce- \ndures to the interpretation of seismic data, using a \nrelatively large number of attributes, in an attempt to \ninfer as much information as possible about the actual \nstructure and composition of the stratigraphic section \nin the region of interest. \nThe trend, therefore, is toward identification of \nlithoiogic parameters as a function of depth and lateral \nposition within the Earth and these may include the \ninference of elastic parameters, and their associated \nphysical expressions including velocities, as well as \ndensities, porosity and permeability, probable grain \nsize and distribution (elastics), degree of saturation, \nand the nature of the saturating fluids (oil, gas, brine, \nfor example) and their pressures, and the probable \nmineralogical composition and integrity of the rock. \nThe seismic method is by far the most widely used \nmethod in the quest for hydrocarbon traps but it is \nsupplemented by many additional types of measure- \nments, particularly those which may be made in the \nborehole once a well is drilled. We may try, therefore to \nrelate borehole measurements to seismic expressions \nin order to extrapolate properties of producing \nhorizons, for example, away from the borehole. This, in \nturn, constitutes an interesting problem in pattern \nanalysis and recognition. \nHaving thus stated that our goal is the extraction of \nas much information as possible from seismic data, let \nus go on to begin to quantify and to formulate our \nproblem as one ultimately involving many aspects of \npattern analysis and recognition. \nOur program for approaching this problem and for \nintegrating the various data which may be provided \nfor analysis is to keep the human element in the pattern \nrecognition/interpretation process to the greatest pos- \nsible degree. This is done through the use of an",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                68.39997863769531,
+                292.27655029296875,
+                276.2960205078125,
+                723.9625854492188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "66e6594deea1f348dc558ddd307cb50a",
+        "text": "NMO",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                325.6800537109375,
+                86.95515441894531,
+                346.3240051269531,
+                98.85243225097656
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4baf2dd1fce20152c003ee12e6f17438",
+        "text": "interactive computer/image analysis system which can \npresent many types of data and results ofdata analysis, \nas well as operational tools including pattern recog- \nnition algorithms, to the interpreter for his use. We do \nnot feel that a completely automated system is yet \npossible which can replace the human element in this \npro~ss.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                283.2000732421875,
+                292.99652099609375,
+                488.6228942871094,
+                370.9225769042969
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "269a8be55ea637504d8975bcc893f224",
+        "text": "II. BRIEF OVERVIEW OF SEISMIC DATA \nAND DISPLAY",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                315.8400573730469,
+                387.89825439453125,
+                454.9821472167969,
+                406.623046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e30c648bc785003376d8b08d9684cd2d",
+        "text": "Seismic data results from recording the energy \nwhich returns to the surface of the Earth from a high \nenergy source of acoustic waves (a buried dynamite \nexplosion for example) propagating downward into \nthe Earth and reflecting back to the surface whenever a \nchange in acoustic impedance (velocity times density) \noccurs. Usually velocity or density variations occur at \nthe boundaries between layers which are more-or-less \nlithologically homogeneous and so the reflecting bound- \naries tend to conform with the lithologic boundaries of \ninterest within the Earth. Even more precisely, they \ntend to conform to common (chronological) time \nevents, i.e. chronostratigraphic boundaries within the \nEarth. \nToday, the most common format for gathenng and \ndisplaying seismic data is the CDP (common depth \npoint) or, more properly CMP (common mid point) \nformat. In this method, a single reflecting point on an \n(assumed) horizontal reflector is imaged from several \ndifferent offsets between sources and receivers (Fig. 1). \nIn the case of many overlying layers, ray tracing is \nusually used to estimate the actual travel paths \nfollowed, and, from observed two-way travel times, \ninformation concerning 'average' velocities to the \nreflector can be inferred. From these velocities some \ninference of interval velocities within the layers can \nalso be made. \nThe travel-time data for a single (assumed) reflecting",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                282.47991943359375,
+                415.156494140625,
+                488.78704833984375,
+                725.4026489257812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4c16fd07facfbba0f8667c5521656bce",
+        "text": "point is then corrected for the corresponding offset of \nthe source and receiver and the resulting corrected \ntrace for this source-receiver pair represents data \nwhich would have been obtained at a coincident \nsource-receiver pair directly above the reflecting point \n('normal move-out' or NMO correction). \nSince there were many such source-receiver pairs \n(each with different offset) used in the data acquisition \nstage, we now have many seismic traces representing \nthe signal which would have been obtained by the \nsame coincident source-receiver pair at the surface \nabove the (assumed) reflecting point. \nThese traces are now 'stacked' (summed) in order to \nimprove signal-to-noise ratio. If we have done our \ncorrections well, the desired (primary) reflections from \nthe interface will add in phase and other events, \ncoherent or incoherent will tend to sum out of phase \nand so be eliminated in this 'stacking' process. \nAt this point we may try to remove the 'blurring' \neffect of the actual source wavelet by attempting to \n\"deconvolve' it from the trace to produce a perfect \nimpulse response. We are limited in these efforts by \nimperfect knowledge of this wavelet and by the fact \nthat seismic data is severely band-limited,'having lost \nboth low and high frequencies. \nif we now place the processed trace for each \nreflecting point side-by-side at the surface position of \nthis common mid point (the coincident source- \nreceiver Iocation), an image will appear from the \nalignment of reflection events from contiguous re- \nflectors forming a kind of image of the subsurface with \ntwo-way time in place of the depth variable. \nThe image will, in general, be distorted due to the \noriginal assumption of a horizontal reflector, which is \nnot usually met in practice. This assumption led us to \nincorrectly place the reflecting point beneath the \ncommon mid point (CMP) location. \nWe may correct the data for this error by performing \nan additional (image) processing step which 'migrates' \nthe reflection (approximately) to its correct location \nwithin the section. \nThe resulting display showing the approximate \nconfiguration of reflecting horizons within the Earth as \nwell as information (including velocities) obtained \nfrom the original data set shall become the focal point \nof our attention in an attempt to identify the kind of \ninformation we seek (Section I). \nThe interested reader is referred to Robinson and \nTreitel, TM Sheriff ~3~ and Wood and Treitel ~4~ for further \ndiscussion of the topics in this section.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                64.55996704101562,
+                57.31668472290039,
+                274.2271423339844,
+                613.5626831054688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "53eab874ce76389c3d80f3abead7cdb6",
+        "text": "IlL ATTRIBUTES DERIVABLE FROM SEISMIC DATA \nAND THEIR USE IN PATTERN RECOGNITION",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                78.48009490966797,
+                627.8983154296875,
+                261.3144836425781,
+                646.6231079101562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0f5e1cead6796f0dde0f3f27a5b49d4e",
+        "text": "in our work in pattern recognition for seismic \ninterpretation we have established a rather broad \nprogram which includes the use of many visual or \nmathematically derivable attributes each of which \ncontributes in some way to constructing an image of \nthe subsurface which is as complete as possible with",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                65.76010131835938,
+                654.4365844726562,
+                274.6160888671875,
+                721.0827026367188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5feca0d820e3f92695fddfdaa834588c",
+        "text": "Table I. Seismic attributes",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                339.360107421875,
+                59.23660659790039,
+                430.4090270996094,
+                71.4026870727539
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4280ae7b4a244a74297b05b4f97d61dd",
+        "text": "I. Amplitude \n2. Computed attenuation/frequency parameters \n3. Velocity \n4. Phase \n5. Acoustic impedance/pseudo vclocity \n6. Seismic facies relationships \n7. Polarity \n8. Attributes derivable from borehole surveys \n9. Structural/stratigraphic patterns \n10. Variation of reflection coeffii:ient with angle \nI I. Attributes derivable from combined modes of \npropagation \n12. Attributes derivable from parametric models",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                282.7200927734375,
+                75.31661987304688,
+                455.51849365234375,
+                196.92263793945312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "93fb1603e9f1bb4ac663bcfe04c1e606",
+        "text": "respect to the lithologic parameters of interest which \nhave been mentioned earlier. \nWe shall begin with a discussion of the most \ncommonly used attributes for this analysis and shall \nthen discuss these separately or in groups indicating \nhow we have integrated them into our overall program \nof pattern recognition and interpretation. \nAs mentioned earlier, we have tried to make max- \nimum use of human pattern recognition capabilities by \nutilizing an interactive computer/imaging system \nrather than attempting to design a completely auto- \nmated system which we feel could only poorly approxi- \nmate human interaction at this time. We do however, \npresent access to a variety of automated pattern \nrecognition procedures for the interpreter to aid in \nevaluation and decision making based on his knowl- \nedge of the prospect and the other data which is at his \ndisposal. \nRecalling that our goal is nothing short of a \ncomplete inference and understanding of all the litho- \nlogic characteristics of interest (and understanding \nthat this goal is by no means achievable today) we have \nidentified the set of attributes listed in Table I to be \nused in pattern recognition/interpretation as applied \nto seismic data. \nOf course the list in Table 1 is not mutually \nexclusive, there is some overlap between the various \ncomponents on this list and other attributes may be \nadded which are not explicitly listed here. Given a \nlarge multidimensional set of attributes such as those \nlisted, we can then use this set with a variety of pattern \nanalysis/recognition \nalgorithms \nincluding, \nfor \nexample, classification and cluster analysis; image \nanalysis and recognition algorithms such as matched \nfilters; scale and translation invariant pattern recog- \nnition algorithms, etc. \nOur approach is to present the attributes and \nprocedures to the interpreter via an imaging system \nwhich allows a wide variety of displays, including split \nscreen capability, design and use of color look-up \ntables, superposition of images, image processing \nalgorithms (edge detectors, filters, etc.) and pattern \nanalysis graphical displays (cluster diagrams, etc.). \nWe may now summarize, in tabular form, some of \nthe types of information which can be derived from the",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                283.68011474609375,
+                223.39657592773438,
+                492.2962646484375,
+                721.3226928710938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "73850dcbf9f7ebe2b064c5e5d44865c7",
+        "text": "Table 2. Analysis of seismic attributes",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                211.19998168945312,
+                62.36933135986328,
+                342.4340515136719,
+                74.21524810791016
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ed6b2f1f1639bf3b674b05c78695652a",
+        "text": "Attribute \nFeatures \nUsed to identify \nMethods",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                66.71998596191406,
+                78.68933868408203,
+                412.3514709472656,
+                90.5352554321289
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "51cde82533e88e1c409d9d8ec330971e",
+        "text": "Seismic facies \nDelta, reef, Aeolian \nrelationships \npelagic, etc.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                66.47998046875,
+                94.52936553955078,
+                240.86842346191406,
+                115.25528717041016
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7da0c687e53a2d08c99fd7e340eb525a",
+        "text": "Depositional environments, \ndepositional history, \nprobable rock types, traps, \nsource rocks, reservoirs, \netc.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                275.7599792480469,
+                94.76935577392578,
+                372.0587158203125,
+                142.3752899169922
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6cec39979177f85b8196fc5c517fc546",
+        "text": "Q- I, spectral plots \nand model coefficients",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                171.11997985839844,
+                148.28936767578125,
+                249.96572875976562,
+                169.2552947998047
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f5b5cb8977f4c53c047a91cf37e1393e",
+        "text": "Computed attenuation/ \nfrequency parameters",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                65.99998474121094,
+                148.52935791015625,
+                148.03167724609375,
+                169.2552947998047
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e586fe120cffd29009b99b83d2cc8cf4",
+        "text": "Rock type, porosity, \nhydrocarbons, thin \nbeds, etc.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                275.75994873046875,
+                149.00933837890625,
+                347.75762939453125,
+                178.6152801513672
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "751c9bde7177168327f275a88440a3e1",
+        "text": "Velocity",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                65.75997924804688,
+                184.28936767578125,
+                96.5255355834961,
+                196.1352996826172
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7607fff3ef6ff3fd370f9d5713f16454",
+        "text": "Stacking velocity, RMS \nvelocity, migration \nvelocity, interval \nvelocity, etc.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                170.8799591064453,
+                184.76934814453125,
+                253.2606201171875,
+                223.2552947998047
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "055f3919793ba672fe2821bb13bed3a0",
+        "text": "Rock type, porosity, \nhydrocarbons",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                275.75994873046875,
+                185.00933837890625,
+                347.6741943359375,
+                205.4952850341797
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "781aaf97d74242535f36b4a84af1bf31",
+        "text": "Phase",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                65.75997924804688,
+                228.92938232421875,
+                87.28121185302734,
+                240.7753143310547
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cf70919e5582b7c9823c8b23853889f9",
+        "text": "Phase, instantaneous \nfrequency",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                170.87997436523438,
+                229.40936279296875,
+                243.506591796875,
+                250.1352996826172
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0225ed9eb9a71fccabca76fc3c4e05a3",
+        "text": "Reflecting horizons, \nstructure (facies), \nhydrocarbons, thin \nbeds, etc.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                275.2799072265625,
+                229.64935302734375,
+                345.13189697265625,
+                268.1352844238281
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "673db8b71d81d05004fec80ece95be75",
+        "text": "Amplitude",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                65.51998138427734,
+                274.04937744140625,
+                104.25990295410156,
+                285.8952941894531
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "20793a181865f6128ce05297cb68916f",
+        "text": "Amplitude (corrected \nin various ways), true \namplitude, relative \namplitude, reflection \nenergy",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                170.1599884033203,
+                274.28936767578125,
+                245.9071044921875,
+                322.3752746582031
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6625b249ce9a644352ea68062685feab",
+        "text": "Bright spots, dim spots, \nchanges in lithological \ncharacteristics",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                275.0398864746094,
+                274.52935791015625,
+                358.2413024902344,
+                304.6152648925781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "aa7892662cd487cc9ab58f28059980c4",
+        "text": "Polarity",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                65.27998352050781,
+                328.28936767578125,
+                94.81036376953125,
+                340.1352844238281
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4d27864469cc9f82aaa465fa9109949b",
+        "text": "Polarity",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                170.1599884033203,
+                328.76934814453125,
+                199.69036865234375,
+                340.6152648925781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9362e268a234db152f9a8ce2617e9f16",
+        "text": "Changes in reflection \ncoefficients, \nhydrocarbons",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                274.7999267578125,
+                329.00933837890625,
+                348.98065185546875,
+                359.0952453613281
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c047ee402c9607b5cb8a071f6b802e53",
+        "text": "Acoustic impedance/pseudo \nvelocity",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                65.03998565673828,
+                364.7693786621094,
+                162.7194061279297,
+                385.73529052734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "425bc77c2f532212fbd4baf5b39f710f",
+        "text": "Pseudo velocity, pseudo \nacoustic impedance, \npseudo density",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                170.1599884033203,
+                365.2493591308594,
+                253.9582061767578,
+                395.09527587890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "10c36728e3237772ff24724063245f55",
+        "text": "Rock type, porosity, \npressure, saturation, \nhydrocarbons",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                275.0399169921875,
+                365.7293395996094,
+                347.1941833496094,
+                395.57525634765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7cdb629823bc6ecdb6638e587bf782ba",
+        "text": "Variation of \nreflection coefficient \nwith angle",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                64.79998016357422,
+                401.2493896484375,
+                136.04563903808594,
+                431.0953063964844
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2bda514c53c33a476b3d6a27a1339c2d",
+        "text": "Shear and compressional \nvelocities, density, \nacoustic impedance",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                169.9199981689453,
+                401.4893493652344,
+                257.37310791015625,
+                431.57525634765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "47d413343f3f9b444bc5507a8c302d93",
+        "text": "Elastic moduli, lithology, \nporosity, hydrocarbons",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                274.5599060058594,
+                401.9693298339844,
+                363.3064880371094,
+                422.93524169921875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d3848f07bc29e0439c739dcde44f051f",
+        "text": "Attributes derivable \nfrom combined modes \nof propagation",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                64.79998016357422,
+                437.4893798828125,
+                143.1229248046875,
+                467.3352966308594
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0341bc051f271b2f649a7a9196216c89",
+        "text": "Shear and compressional \nvelocities, ratios, etc.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                169.6800079345703,
+                437.7293395996094,
+                257.3731384277344,
+                458.69525146484375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6ebc167e3de8c6ba439ac05cf990bd93",
+        "text": "Elastic moduli, lithology, \nporosity, hydrocarbons",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                274.55987548828125,
+                438.2093200683594,
+                363.30645751953125,
+                459.17523193359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "eae12c6ed732212bf4a0870bcdf793dd",
+        "text": "Attributes derivable \nfrom parametric models",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                64.55998992919922,
+                482.849365234375,
+                148.87425231933594,
+                503.8152770996094
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ebee02299ca226cf9e39d71a4cc19af2",
+        "text": "AR and ARMA coefficients, Changes due to variations \nfactor coefficients, etc. \nin rock properties which \nmay be identified",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                169.6798858642578,
+                483.5693054199219,
+                365.4881286621094,
+                513.4152221679688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "576165b0c54c699840d7a4d57a702eb2",
+        "text": "Struct ural/st ratigraphic \npatterns",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                64.31999206542969,
+                519.08935546875,
+                147.36949157714844,
+                539.5753173828125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0ef3d1fcb4355c259506287b370dd85d",
+        "text": "Pinchouts, faults, \nfolding, thrusting, \nfracturing, closure",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                169.4398651123047,
+                519.3292846679688,
+                234.03616333007812,
+                548.9352416992188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0a29a0eb20528300f063626414cccea7",
+        "text": "Traps, reservoirs",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                274.31988525390625,
+                519.809326171875,
+                334.06427001953125,
+                531.6552734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3dbb29c33bbc513caed73a31c67c4c08",
+        "text": "Atttributes derivable \nfrom borehole surveys",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                64.31999206542969,
+                554.609375,
+                143.16549682617188,
+                575.5753173828125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cca20eb94985b2106f091f8375e466c2",
+        "text": "Various well log \nparameters--sonic \nvelocity, conductivity, \ndensity, etc., VSP \nderived parameters, \nparameters derived \nfrom core analysis",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                169.1998748779297,
+                554.8493041992188,
+                246.82159423828125,
+                620.4552612304688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bf6545c26129d63cbcdcd9590259e921",
+        "text": "Interval velocity, \nacoustic impedance, \nrock type and age, \nporosity, saturation, \npermeability",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                274.07989501953125,
+                555.329345703125,
+                345.26324462890625,
+                603.17529296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "993354f442e91c1a6e94c5e3d3d04cab",
+        "text": "attribute set listed above and some of the methods \nassociated with these attributes (Table 2). \nHaving presented a broad introduction to our \nattributes, their derivation and use, let us now consider \nthese in more detail, indicating how the various data \nmay be integrated to yield as complete an interpre- \ntation of the data as possible.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                64.79994201660156,
+                645.0892944335938,
+                270.34490966796875,
+                722.9352416992188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7dde0901b959cd78cb8ebfa2b5471455",
+        "text": "Zero crossing, phase, shift and \nscale invariant pattern \nrecognition, interactive \ninterpretation, nearest \nneighbor classification",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                380.39990234375,
+                94.76935577392578,
+                485.62664794921875,
+                142.3752899169922
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3844ef00e332ca9d621e619b08f1e9d5",
+        "text": "Data adaptive spectral \nestimators, spectral ratios, \nrise time, etc.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                380.159912109375,
+                148.76934814453125,
+                471.3586730957031,
+                178.6152801513672
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "94e1ca34cc3c21cca7f83eb4e34b79d1",
+        "text": "Conventional NMO \nprocedures, model-based \nformulations, inverse ray \ntracing, direct inversion",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                379.919921875,
+                184.76934814453125,
+                466.8999328613281,
+                223.7352752685547
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "90a368f93041ba6aeb9684b0f31bbbde",
+        "text": "Analytic signal, spectral \nanalysis",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                380.15997314453125,
+                229.88934326171875,
+                463.5140380859375,
+                250.3752899169922
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2ba85a554397434bd1c8975143689b5c",
+        "text": "Spherical divergence \ncorrection, attenuation \ncorrections, transmission \ncorrections, AGC correction, \nanalytic signal",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                379.67999267578125,
+                274.76934814453125,
+                481.1389465332031,
+                323.0952453613281
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0907d8a84c34d389899d8fd9da4d301b",
+        "text": "Analytic signal, seismic \ntrace",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                379.91998291015625,
+                329.48931884765625,
+                459.9881591796875,
+                350.4552307128906
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d23490b49692e9154c648f5aca5b5645",
+        "text": "Travel-time inversion \ntechniques (various)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                379.67999267578125,
+                365.96929931640625,
+                454.3968505859375,
+                386.9352111816406
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6727c59c368689c122f7f3017068fa0c",
+        "text": "Matrix inversion from \ncorrected field records",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                379.20001220703125,
+                402.44927978515625,
+                456.919189453125,
+                423.4151916503906
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "aeb2762437e813866e92c9de89722572",
+        "text": "Conventional velocity \nanalysis, identification \nof wave modes, ray tracing \nin complex models, etc.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                379.199951171875,
+                438.44927978515625,
+                473.177734375,
+                477.6551818847656
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "43104400071ac9d8df3a138935acc8f4",
+        "text": "Autoregressive modeling. \nspectral analysis, factor \nanalysis, etc.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                378.9599609375,
+                484.04925537109375,
+                467.2373962402344,
+                513.8952026367188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fb80f532e10cd32f8d6bc16bf6c9f572",
+        "text": "Image processing, horizon \ntracking",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                378.9599609375,
+                520.2892456054688,
+                470.1027526855469,
+                541.0151977539062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a60616c014fa570b67d6137bfab43372",
+        "text": "Diverse",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                379.199951171875,
+                555.8092651367188,
+                406.8022766113281,
+                567.6552124023438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cea8646da1548cb24dbd767f561fd51c",
+        "text": "IV. SEISMIC FACIES ANALYSIS AND \nSTRUCTURAL/b~'rRATIGRAPH IC PA'I'rERNS",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.9599609375,
+                646.2892456054688,
+                460.4377746582031,
+                667.1387939453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "aa7492f6325362efc2e11d38d6b9e2a2",
+        "text": "We cannot hope to present here a comprehensive \ndiscussion of seismic facies analysis since many vol- \numes could be and have been written on this subject. \nHowever, we do want to discuss this in relation to our",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                280.7999572753906,
+                677.729248046875,
+                485.73486328125,
+                722.4552001953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "68cfa4c83cb64eb3e497dc68767a8f69",
+        "text": "Fig. 2. A seismic section.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                234.47998046875,
+                372.4366760253906,
+                320.3542175292969,
+                384.6027526855469
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "dccfb26139ba56acbc7582f5b8816ab2",
+        "text": "program of interactive interpretation assisted by pat- \ntern recognition as an important piece of that puzzle, \nGeometric seismic facies analysis relates to the most \nclassical aspects of pattern recognition in that we seek \nto identify and classify (visual) patterns in the data as a \nguide to inferring the original depositional environ- \nment and, thereby, draw some conclusions concerning \nprobable rock types and characteristics as an aid in \ninterpreting the other types of data we shall derive. \nEnvironments of deposition in sedimentary basins \nmay be roughly divided into three main categories. ~s)",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                63.12001037597656,
+                405.3166809082031,
+                272.400146484375,
+                527.642822265625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "14d28021e77bfa9ef14dd88c5dcc1dd5",
+        "text": "f \nFluviatile \n1. Continental \nLacustrine \nEolian",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                66.00008392333984,
+                534.9168090820312,
+                192.1993408203125,
+                566.0428466796875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c9e5b37bae4eb86e0d613930e3991487",
+        "text": "2. Transitional \n[\" Lobate (deltas) \n(shorelines) \n~ linear \nf",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                65.28009033203125,
+                570.19677734375,
+                208.63925170898438,
+                662.7741088867188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d68cb98940cf0bbde3ba7698d8a4fce4",
+        "text": "reer \nshelf \n3. Marine \nturbidite",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                65.52010345458984,
+                597.7968139648438,
+                184.46372985839844,
+                629.8828735351562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2f0c967582794bcee3c148775269851f",
+        "text": "pelagic",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                150.00009155273438,
+                631.6367797851562,
+                178.7636260986328,
+                643.8028564453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "86014912c3c28a36fe641a516efbf341",
+        "text": "After Selley: (5) \n\"A sedimentary facies is a coherent unit of sedimen- \ntary rock which may be distinguished from other units \nby such attributes as geometry, lithology, sedimentary \nstructures and fossils.\" \n\"Seismic facies analysis is the description and inter- \npretation of seismic reflection parameters including",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                65.52008819580078,
+                647.4767456054688,
+                273.4430236816406,
+                725.162841796875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f8eef07a26dd492af4a8d49aa3e80f90",
+        "text": "geometry, continuity, amplitude, frequency and inter- \nval velocity. \"~6) \nA sedimentary facies will generally be identified with \none of the three main sedimentary environments listed \nabove and will be classified in seismic data primarily \non the basis of seismic patterns (geometry) within the \nfacies and their relation to the surrounding strata as \nrevealed in the seismic section. Identification of a facies \nmay include consideration of probable sinking or \nuplift of the basement structure during deposition; and \nrise, fall, or stillstand of sea level during this period. In \naddition to determining the depositional environment \nwe also attempt to infer the probable source of the \nsediments and their \"energy' which may provide a clue \nto grain size and distribution and which may in turn \nindicate probable zones where porosity may occur and \nprobable zones where source rocks or seals may have \nformed. Facies may often be bounded in a natural way \nby unconformities. \nVarious attempts have been made to classify a basic \nset of patterns (geometry) which tend to reveal the \ninformation referred to above. In particular, a basic set \nof seismic reflection patterns is identified in Sangree \nand Widmier. \nAtlases of sedimentary structures have \nbeen compiled and may be found in Selley ~5) for \nexample. These may be combined in various ways to \nreveal the depositional history of the unit. ~6\" 8) \nSangree and Widmier ~) and Sheriff 9) show the \nrelations of these patterns to common depositional",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                280.320068359375,
+                404.3567199707031,
+                487.5099182128906,
+                725.162841796875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b2226b4ff01203f868019e763a68168e",
+        "text": ".-%..~'\" \nt:, \n-.,.. \n<' ~.,.,..~.,, \n,.--~.\",..,- \n%\" \n.-.'~'~,,,.~ .... \nire'\"\" \n.\".*. \n-- \n.........-\"'~-.. \n\"'-",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                97.92001342773438,
+                80.47110748291016,
+                477.6599426269531,
+                89.75574493408203
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "421ac80acc3f0fe7e44d62886a486c15",
+        "text": "- \n• \n- . ~ - ' ' -  \n, \n....... \n\"+-,- \"-,~ \n\"\" \nD-. \n,- \n• \n_\" \nf\"--,....,\" \n,.'.'_\"~ \n-'---~",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                85.92001342773438,
+                137.1799774169922,
+                474.256103515625,
+                147.07278442382812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f8d36e87b0413e55045ac118208f7120",
+        "text": "• \n.,i~.. \n._ \n. \n~ \n. \n. \nv.. \n- -.< \n~ - ~ i ~ . _ . . . ~  \n..I- \nj.... -'~-~.- \n-,. \n..,t \n: .... \n_ ~  \n,,:'i.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                79.4400634765625,
+                180.5047607421875,
+                475.2149963378906,
+                206.68350219726562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "70ed16e28f7f647816cd13fe1bcb2ccb",
+        "text": "__;..~. \n:..:-_;.---~.,. \n.. \n, \n.... \n,, \n. \n.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                79.92007446289062,
+                214.59483337402344,
+                448.80633544921875,
+                224.7866668701172
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "dfaa4c8c97d7abaa4b6df87f2d6c1f8e",
+        "text": "...,i. -,'~\"---\"---~, \n:c-,... -_-~',,\"\"'- \n\"'-'\"'- \n\"~\"\" \n\"'\" \n''r'- \n. \n_~ \n\" \n' \n,~ \n\"l~ \n\"~\" \n-v---.~ \n- . , .  \n• \n. \n,, \n.,~. - \n¥.r -'~..,,,-- .../,..., ,- ._\",. ?x. . '~,~\"'v.\"\" \n\"\"\"",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                97.2000732421875,
+                228.017578125,
+                465.8448486328125,
+                259.2000732421875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d034c44dd2e3abf22406ad923997d734",
+        "text": "/ ' \"  \n' \n'~ \n\"-\"\" \n\" \n\" \n\"\"-,\"- \n''~\"-- \n-~ \n\":r\" \n\"- \n'\", \n\" \n-;, \n. \n.\n-\n ,,._. \n\"\" i \nl~v \n~ \" \"~\" \n\" .~ \n\"~ ,.. \n'~-~l.. \n' ~' \"~'~N~, \n, \n< \"~l~",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                99.840087890625,
+                266.81121826171875,
+                474.87554931640625,
+                293.6403503417969
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "eb10917b6e4e53defea36c2d3a7a91eb",
+        "text": ". ~.. \"\"..: \"' ,..,L \n3~, T~'.~.,,-.. \n' .,..:?~.\"--,---- \n.. d.i. ,c/:,7~,,,/. ~ ~\" \"~'. \n. \nj- \n,,-- \n,~ \n,v. \n-,, \n.~\" \nw'.~..\\., -, _% \n,--,.,-- ~.. \n, ~-.. \n~..;.%~\" \n• - \n.,-~",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                90.24008178710938,
+                300.2384338378906,
+                481.3976745605469,
+                321.85235595703125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d0d7e2c81935acefec980e986c647702",
+        "text": ",,.-...' v,' \n.\" \n~ \n,,-'s. \n\" ~. d's \"~>, \n.%,%._ ~. , \n. l~, \n.\n.\n~\n.\n~\n \n.., \n~ \n.\" .~- . \n, \n. \",,--,,..",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                101.52008056640625,
+                325.5111389160156,
+                472.2452087402344,
+                334.7957763671875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "74b99aba9edad147f7a87aca9a78da29",
+        "text": "L \n550 \nP \nl \nZOOM \n. \nDIPIX",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                88.08010864257812,
+                372.063232421875,
+                461.80096435546875,
+                389.1701965332031
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "62bcafedc5e137617bd793fadb2c895b",
+        "text": "Fig. 3. Zero crossing display.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                230.64013671875,
+                394.9966735839844,
+                330.667724609375,
+                407.1627502441406
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "abbaca1070128c8493436e455cf5b781",
+        "text": "environments and give the relationship between the \nseismic attribute and its geological interpretation. In \ncarrying out an interpretation based on reflection \ngeometry, as we have described here, it is important to \npresent the interpreter with several capabilities which \nenhance his ability to properly interpret the selected \nfacies. \nFirst it is important to have a sharp, clean display of \nthe geometric (structural) information revealed in the \nseismic section. Figure 2 shows a portion of a seismic \nsection, as it might appear on our image analysis \nsystem, representing an image of the subsurface which \nhas been constructed as explained previously. One \nalternative form of display, for example, would be to \nimage zero crossings as shown in Fig. 3. The data \nshould not be contaminated heavily by noise in order \nto use this procedure. A second alternative which turns \nout to be quite useful in this respect is a phase display. \nThis type of display will be discussed later. We may \nthen apply various procedures such as smoothing and \nedge detectors to the data in order to enhance \ncontinuity of reflections or to highlight discontinuities \nwhich may result from faulting or other terminations \nof the reflector. \nAnother useful procedure is to be able to 'flatten' (or \notherwise distort) a given reflecting horizon which has \nbeen identified such as an erosional surface (un-",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                68.40011596679688,
+                424.51666259765625,
+                275.6672668457031,
+                722.5227661132812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "72420620c725e3e5938078f9b801a59d",
+        "text": "...... - -.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                357.8400573730469,
+                226.3509979248047,
+                495.8688659667969,
+                262.9217224121094
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "041474bc9330de01a7a0f8540af9ccbf",
+        "text": "conformity). By distorting a horizon back to its \nprobable shape at the time of its occurrence, we can \ninfer the actual configuration at that time of the \nunderlying facies. A river channel which is sand-filled \nand subsequently buried by clays may take the form \n(due to differential compaction) shown in Fig. 4a. \nFlattening on the upper horizon clearly reveals the \noriginal structure of the river channel as shown in Fig. \n4b. \nFlattening on the lower horizon may indicate a \nmound such as a reef occurrance as shown in Fig. 4c. \nWe have to look further to identify the correct choice \nbetween these two possibilities. In the actual example \nillustrated the reef would b¢ ruled out because it would \nhave to have continued growing after the layer above it \n(which does not thin across the mound) had been \ndeposited--an unlikely scenario. \nFinally, we may apply certain pattern recognition \nalgorithms such as scale and translation invariant \npattern recognition, horizon tracking, and image \nprocessing to identify locations in the data where \npinchouts, faulting, etc. may have occurred. \nWe have given some indication of how we approach \nfacie analysis using reflection geometry and some of \nthe imaging/recognition tools which have been de- \nscribed in conjunction with an interactive imaging \nsystem. The final identification of the pattern (the",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                282.24017333984375,
+                424.75665283203125,
+                488.3780212402344,
+                723.0027465820312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "31532edb5d1e9bb9bbd6cb043694a517",
+        "text": "(o)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                82.80001831054688,
+                59.810028076171875,
+                95.52242279052734,
+                71.35162353515625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a78bb2668d17b39be994ab04eb192bda",
+        "text": "(b)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                86.88002014160156,
+                176.11666870117188,
+                99.72695922851562,
+                188.28274536132812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f53cfef3022dc6c0ea2f8acaef07e2c7",
+        "text": "~:.~!(!...~..,.~::--;..-~-;-!:.;.~.':..-.:~.,g.~':~-",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                124.56002044677734,
+                197.47665405273438,
+                230.06723022460938,
+                209.64273071289062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5d86685bca633b6abcf298ce96e936e4",
+        "text": "j\n~",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                114.48001861572266,
+                340.1257019042969,
+                167.71337890625,
+                350.0506591796875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9d01f7d6598dedeaa8add19880de73df",
+        "text": "Fig. 4. Buried channel.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                135.36001586914062,
+                369.316650390625,
+                214.6999053955078,
+                381.48272705078125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f24530d31fdf4b8aeafc10389f8f9863",
+        "text": "decision process) has been left to the interpreter. \nThe other attributes which we shall analyze all \ncontribute to facies analysis in various ways but we \nshall consider them separately and in relation to \nadditional examples. Because of the enormity of this \nsubject, we shall discuss the use of many of these \nattributes only by way of example. \nStructural and stratigraphic expressions of several \ntypes of traps are shown in Fig. 5. \"°~ Figure 5A shows \nan anticline trap which is the type of trap associated \nwith the very first oil discovery and for some time was \nthought to be the only trapping mechanism for \npetroleum hydrocarbons. The existence of free gas in \nthis type of trap depends on the pressures present in the \nreservoir. At high pressures, the gas will go into \nsolution in the oil and at lower pressures will appear as \nshown. This type of trap is an example of structural \ntrap. In Fig. 5B is shown a salt dome which is formed \nby the plastic flow of buried salts which may be the \nresult of evaporation of an ancient sea bed. As the salt \nis buried and subjected to increasing pressure, it is \ncapable of plastic flow and can force its way up \nthrough the sedimentary overburden, pulling the beds \nup alongside its flanks. This upward dip, terminating \nagainst the impermeable salt, produces a potential \ntrapping mechanism and, indeed, this type of trap is \nvery common in the Gulf Coast region of the United \nStates. Many early traps which were found in this \nregion were of this type.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                64.55999755859375,
+                397.3966369628906,
+                273.6976013183594,
+                719.8827514648438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fa386287dd56ed10e8bc4d48c647ccd6",
+        "text": "In Fig. 5C, a stratigraphic trap is shown consisting \nof a dipping bed in which a change of porosity occurs \ndue to diagenesis of the layer to the left creating pore \nspace. Stratigraphic traps can be extremely subtle and \ndifficult to detect using seismic methods but they are \nbecoming more and more important as the more easily \ndetected structural traps which have not been found \nbecame fewer in number. In Fig. 5D, a reef trap is \nshown, which is important in many pools found in \nNorth America, including Texas and New Mexico, \nMichigan, and Western Canada, for example. These \nreefs frequently still contain porous material and often \nare associated with source rocks, such as bituminous \nshales, surrounding them. \nIn Fig. 5E another common type of trap is shown, \nknown as the fault trap, which is produced as a result of \nfaulting in the Earth, which may bring an impermeable \nsediment into contact with a porous and permeable \none as shown in the illustration. The oil migrates \nthrough the permeable layer until it encounters the \nimpermeable material into which it cannot flow, and \nso a trap is formed. Finally, in Fig. 5F, we see an \nexample of a hydrologic trap in which water pressure \ndue to surface waters entering folded strata at both \nends holds the oil in place due to the pressure of the \nformation waters. An example of this type of trap \nwould be the San Juan Basin in New Mexico.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                280.3199462890625,
+                56.59665298461914,
+                487.34710693359375,
+                356.2826232910156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5acfe88908d3433952c9885bd20a6b32",
+        "text": "V. ATTRIBUTES DERIVABLE FROM THE ANALYTIC \nSIGNAL",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                294.96002197265625,
+                375.6455993652344,
+                476.4417419433594,
+                394.6905517578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0cb92f72ca5deb284e2b37ac82e5aed0",
+        "text": "If we are given a seismic trace s, we can calculate \nanother trace, q, the Hilbert transform of s, so that the \ncomplex signal",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                282.47998046875,
+                403.39654541015625,
+                488.1571350097656,
+                437.6426086425781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cf821236a7d7dbf223b8524cfeddf20f",
+        "text": "w(t) = s(t) + iq(t)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                352.3199768066406,
+                443.2067565917969,
+                418.7076721191406,
+                454.34228515625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "16913a5ccdc8105777e9dad4f717b72e",
+        "text": "is analytic. The complex trace, w, is called the analytic \nsignal generated by the (real) trace, s. We may then \ncalculate magnitude and phase of the analytic signal \nusing the expressions",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                282.47998046875,
+                459.3165283203125,
+                488.8011169433594,
+                505.3226013183594
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "109a45a4c5ae5bea0e99c59d5f3f5356",
+        "text": "R(t) = [s2(t) + q2(t)]~",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                343.6799621582031,
+                509.4765319824219,
+                428.2614440917969,
+                521.6426391601562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f017a7b1c05c477d145cc3324be6399e",
+        "text": "and \n0(t) = arctan [q(t)/s(t)],",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                282.9599609375,
+                526.7565307617188,
+                433.8534851074219,
+                538.922607421875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e534449d18d1564e67100816505e21e2",
+        "text": "respectively. \nR has been called the 'reflection strength' or 'reflec- \ntion energy' and 0 the 'instantaneous phase'. ~1 J \nWe may also define an 'instantaneous frequency' \nequal to the derivative of 0 with respect to time, t. In \npractice, instantaneous frequency is often smoothed by \naveraging this quantity over some window weighted \nby reflection strength, for example. The result is called \n'averaged weighted frequency'. \nThese attributes can be useful when used alone, or in \nconjunction with other attributes to make inferences \nconcerning the lithological characteristics of the layers \nwhich bound a reflecting horizon. \nReflection energy, R (also called the complex envel- \nope), is not the usual envelope which we imagine \nassociated with the real trace, s. It can be a useful",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                282.719970703125,
+                543.5565795898438,
+                489.96844482421875,
+                720.1226196289062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cdb5b03abf06b5a7367b12e448c68569",
+        "text": "(a) \n(b)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                175.6799774169922,
+                154.0160369873047,
+                399.84478759765625,
+                165.31283569335938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "220cb2c514d47c340e7fab968498b678",
+        "text": "(c) \n(d)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                175.4399871826172,
+                293.9693908691406,
+                390.2020568847656,
+                307.6328430175781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "405bde2431ba181f8471f11e2af590e1",
+        "text": "(e) \nif)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                196.55999755859375,
+                473.9693908691406,
+                390.0709533691406,
+                485.8153076171875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4b0c8c9045129fd08bcdf42f7511f8d5",
+        "text": "Fig. 5. Some common hydrocarbon traps. [J. H. Justice, Array processing in exploration seismology, Array \nSional Processino. S. Haykin, ed., p. 28 (1985). Reprinted by permission of Prentice-Hall, Inc., Englewood \nCliffs, NJ.]",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                95.04000854492188,
+                495.32940673828125,
+                456.70123291015625,
+                525.6553344726562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b61ec7f39b07918e4091a6e63d5eb37c",
+        "text": "discriminator between reflections which result from \nconstructive interference of several smaller reflections \nrather than from a single large reflection/3) In partic- \nular, a composite reflection may vary considerably \nalong a line as the component reflections change, \nwhereas a single reflector will tend to yield a constant \nR along the line. \nInstantaneous phase can be an extremely useful \nquantity in tracking reflection events since curves of \nconstant phase should delineate a reflector very well \nacross the section, this quantity being independent of \nreflection strength. As a result, weak but coherent \nevents may be emphasized in this display. An instan- \ntaneous phase display is used in Fig. 9 (shown \nsuperimposed with amplitude). This type of display can \nform a useful adjunct to facies analysis based on \ngeometry and can be used in place of the zero-crossing",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                64.55998229980469,
+                536.8494262695312,
+                271.8439025878906,
+                723.1753540039062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "08868c1a0b4dcbe8a1b0e5e272954303",
+        "text": "display mentioned earlier. We might point out that \nsudden and easily detected phase changes can occur \nwith the onset of each new reflection event so that the \nphase display tends to resemble an image enhanced \nsection. \nFrequency, either instantaneous or weighted can be \na useful indicator of absorption where this is signifi- \ncant enough to be observed. The major example of this \nwould be as a direct hydrocarbon indicator. Gas \ncharged reservoirs are known to be strongly attenuat- \ning to high frequencies in the seismic signal. These \nreservoirs often exhibit characteristic low frequency",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                279.8399353027344,
+                536.8494262695312,
+                485.743896484375,
+                668.2153930664062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b254117511f6d02c3ae42a917d4f1c50",
+        "text": "Fig. 6. Pseudo velocity display. \nFig. 7. Amplitude display. \nFig. ! 1. Cluster analysis. \nFig. 12. Cluster analysis.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                333.119873046875,
+                680.1294555664062,
+                440.0668640136719,
+                723.4154052734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "706ff11d3c5fe5bf6ea29f38f749579d",
+        "text": "[]",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                259.67999267578125,
+                363.0742492675781,
+                270.94140625,
+                378.3646545410156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0cd75489cb46a148f5f0613fdf65a006",
+        "text": "[]",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                260.1600036621094,
+                634.0956420898438,
+                271.207763671875,
+                647.7814331054688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d2d36d74da013437b97d3686008b0275",
+        "text": "OJ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                470.6400146484375,
+                269.7740173339844,
+                478.1759948730469,
+                277.1000061035156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3db9280d49d67226acc47d26d3990e0c",
+        "text": "[]",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-003132038590010X-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                475.44000244140625,
+                361.29632568359375,
+                486.8533630371094,
+                378.7145690917969
+            ],
+            "is_full_width": false
+        }
+    }
+]

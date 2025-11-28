@@ -1,0 +1,2586 @@
+[
+    {
+        "element_id": "f7761b14f63d788ce367cfdf90da852f",
+        "text": "Texture Synthesis Using Convolutional Neural\nNetworks",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                136.64500427246094,
+                109.69583892822266,
+                475.358154296875,
+                146.8362274169922
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a51ec550db956901b1328d65e4341fc9",
+        "text": "Leon A. Gatys\nCentre for Integrative Neuroscience, University of T¨ubingen, Germany\nBernstein Center for Computational Neuroscience, T¨ubingen, Germany\nGraduate School of Neural Information Processing, University of T¨ubingen, Germany\nleon.gatys@bethgelab.org",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                134.58901977539062,
+                187.77154541015625,
+                477.41119384765625,
+                241.15098571777344
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "18e9ffc3d91a9aa50f8f1a3b5134fdd7",
+        "text": "arXiv:1505.07376v3  [cs.CV]  6 Nov 2015",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                10.940000534057617,
+                211.70001220703125,
+                37.619998931884766,
+                555.0
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "dcd8d4b01eaf83eae61872850ecb38ae",
+        "text": "Alexander S. Ecker\nCentre for Integrative Neuroscience, University of T¨ubingen, Germany\nBernstein Center for Computational Neuroscience, T¨ubingen, Germany\nMax Planck Institute for Biological Cybernetics, T¨ubingen, Germany\nBaylor College of Medicine, Houston, TX, USA",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                163.5800018310547,
+                259.801513671875,
+                448.419189453125,
+                313.6910095214844
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "de7b8a77585076f75729742ca4f9740e",
+        "text": "Matthias Bethge\nCentre for Integrative Neuroscience, University of T¨ubingen, Germany\nBernstein Center for Computational Neuroscience, T¨ubingen, Germany\nMax Planck Institute for Biological Cybernetics, T¨ubingen, Germany",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                163.5800323486328,
+                331.8314514160156,
+                448.419189453125,
+                374.7619934082031
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "54dbd862541d5f41ce448b62664aab9f",
+        "text": "Abstract",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                283.75701904296875,
+                404.4250793457031,
+                328.2423095703125,
+                416.3802795410156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cf3c9f55334ef4ed8a6af5d5b5fd2416",
+        "text": "Here we introduce a new model of natural textures based on the feature spaces\nof convolutional neural networks optimised for object recognition. Samples from\nthe model are of high perceptual quality demonstrating the generative power of\nneural networks trained in a purely discriminative fashion. Within the model, tex-\ntures are represented by the correlations between feature maps in several layers of\nthe network. We show that across layers the texture representations increasingly\ncapture the statistical properties of natural images while making object informa-\ntion more and more explicit. The model provides a new tool to generate stimuli\nfor neuroscience and might offer insights into the deep representations learned by\nconvolutional neural networks.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                143.86502075195312,
+                430.9853820800781,
+                468.1376953125,
+                539.577880859375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "50b45622f52b1da18a40a5bf714862b4",
+        "text": "1\nIntroduction",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00001525878906,
+                563.8190307617188,
+                190.81369018554688,
+                575.7742309570312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8e9a2148f236a31130690651536993b5",
+        "text": "The goal of visual texture synthesis is to infer a generating process from an example texture, which\nthen allows to produce arbitrarily many new samples of that texture. The evaluation criterion for the\nquality of the synthesised texture is usually human inspection and textures are successfully synthe-\nsised if a human observer cannot tell the original texture from a synthesised one.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00001525878906,
+                589.8033447265625,
+                504.0032958984375,
+                632.6419067382812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4c6985e44beb3cb64259b11d6cbd00f2",
+        "text": "In general, there are two main approaches to ﬁnd a texture generating process. The ﬁrst approach is\nto generate a new texture by resampling either pixels [5, 28] or whole patches [6, 16] of the original\ntexture. These non-parametric resampling techniques and their numerous extensions and improve-\nments (see [27] for review) are capable of producing high quality natural textures very efﬁciently.\nHowever, they do not deﬁne an actual model for natural textures but rather give a mechanistic pro-\ncedure for how one can randomise a source texture without changing its perceptual properties.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00001525878906,
+                639.6163330078125,
+                504.00341796875,
+                704.3729248046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "500474988abb9d6d1666b832ec3964ec",
+        "text": "In contrast, the second approach to texture synthesis is to explicitly deﬁne a parametric texture\nmodel. The model usually consists of a set of statistical measurements that are taken over the",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00001525878906,
+                711.3472900390625,
+                504.0032958984375,
+                732.2689208984375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "19aeccf3d1edcd69aba6b4f65dd12552",
+        "text": "conv5_\n1\n512\n...\n4\n3 2\n1",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                158.50299072265625,
+                108.91264343261719,
+                203.20835876464844,
+                132.8244171142578
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "30b205f85c853dbf3d7bef35d4d7e5cf",
+        "text": "pool4",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                188.1240997314453,
+                137.48570251464844,
+                205.24609375,
+                148.7067108154297
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d9fc1435d5058f368482eb52c900c147",
+        "text": "1\n512\n...",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                149.16119384765625,
+                148.37405395507812,
+                160.15936279296875,
+                160.7709197998047
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "39c70f82d2d8397922ce48ca1ebbce6b",
+        "text": "4\n3 2\n1",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                193.84567260742188,
+                156.3107452392578,
+                200.06858825683594,
+                173.2601318359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "61dc5a07e319ba90919d8d2e40535e87",
+        "text": "conv4_",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                171.44338989257812,
+                157.8778076171875,
+                192.07699584960938,
+                169.09881591796875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f1494855b75977bd03289465b195cc89",
+        "text": "pool3",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                188.1240997314453,
+                176.8802032470703,
+                205.24609375,
+                188.10121154785156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0f4d492dae1dddb278c73219ea8103a9",
+        "text": "1\n256\n...",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                140.33990478515625,
+                187.99266052246094,
+                151.3380584716797,
+                200.3895263671875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a2d97bc004541baa56183e3b716a167a",
+        "text": "4\n3 2\n1",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                187.4920654296875,
+                196.0138397216797,
+                193.71499633789062,
+                212.95431518554688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "94a55829613b088b90a4ae1640ed6413",
+        "text": "conv3_",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                165.44540405273438,
+                197.72940063476562,
+                186.07899475097656,
+                208.95040893554688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2ed05913c3e058320e1eb17c89134840",
+        "text": "pool2",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                188.1240997314453,
+                216.35830688476562,
+                205.24609375,
+                227.57931518554688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c31d4268a2a8dc91c3a769db17786c16",
+        "text": "conv2_\n1\n128\n...\n2\n1",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                130.8448028564453,
+                228.4956512451172,
+                183.5816192626953,
+                247.770263671875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1617bde50940b38c5e3b9a7a82b6b0e3",
+        "text": "pool1",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                188.1240997314453,
+                252.38461303710938,
+                205.24609375,
+                263.6056213378906
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b38854fcd8156255edbb4f115db72037",
+        "text": "1\n64\n...",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                123.83499908447266,
+                261.9790344238281,
+                133.5948028564453,
+                274.37591552734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3204291ea57bcf729a85478c1be3eb19",
+        "text": "conv1_ 2\n1",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                149.58499145507812,
+                270.3793029785156,
+                175.9698944091797,
+                282.7497863769531
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f6e2cf9141752bc2a6aa60edea625f91",
+        "text": "input\nGradient\ndescent",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                188.1240997314453,
+                282.7543029785156,
+                440.27960205078125,
+                302.37530517578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5febb2a9d4aee0754ae4bda8fd86a94f",
+        "text": "# feature",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                121.83499908447266,
+                289.5578918457031,
+                144.06500244140625,
+                297.7579040527344
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6a227bb99f21863d5f3aa816af1612ff",
+        "text": "maps",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                126.41999816894531,
+                295.5578918457031,
+                139.47999572753906,
+                303.7579040527344
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ddbeb362e8b405ad74e719ec8f6d4bc6",
+        "text": "Figure 1: Synthesis method. Texture analysis (left). The original texture is passed through the CNN\nand the Gram matrices Gl on the feature responses of a number of layers are computed. Texture\nsynthesis (right). A white noise image ˆ⃗x is passed through the CNN and a loss function El is\ncomputed on every layer included in the texture model. The total loss function L is a weighted sum\nof the contributions El from each layer. Using gradient descent on the total loss with respect to the\npixel values, a new image is found that produces the same Gram matrices ˆGl as the original texture.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                107.99998474121094,
+                393.0084533691406,
+                504.00396728515625,
+                462.8320617675781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3e571dffc5271aa5b66ee244818d5373",
+        "text": "spatial extent of the image. In the model a texture is uniquely deﬁned by the outcome of those\nmeasurements and every image that produces the same outcome should be perceived as the same\ntexture. Therefore new samples of a texture can be generated by ﬁnding an image that produces the\nsame measurement outcomes as the original texture. Conceptually this idea was ﬁrst proposed by\nJulesz [13] who conjectured that a visual texture can be uniquely described by the Nth-order joint\nhistograms of its pixels. Later on, texture models were inspired by the linear response properties\nof the mammalian early visual system, which resemble those of oriented band-pass (Gabor) ﬁlters\n[10, 21]. These texture models are based on statistical measurements taken on the ﬁlter responses\nrather than directly on the image pixels. So far the best parametric model for texture synthesis\nis probably that proposed by Portilla and Simoncelli [21], which is based on a set of carefully\nhandcrafted summary statistics computed on the responses of a linear ﬁlter bank called Steerable\nPyramid [24]. However, although their model shows very good performance in synthesising a wide\nrange of textures, it still fails to capture the full scope of natural textures.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                508.10943603515625,
+                504.00335693359375,
+                649.5790405273438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7c7eb1e31b6fdc3c8846c935b69134ab",
+        "text": "In this work, we propose a new parametric texture model to tackle this problem (Fig. 1). Instead\nof describing textures on the basis of a model for the early visual system [21, 10], we use a con-\nvolutional neural network – a functional model for the entire ventral stream – as the foundation for\nour texture model. We combine the conceptual framework of spatial summary statistics on feature\nresponses with the powerful feature space of a convolutional neural network that has been trained on\nobject recognition. In that way we obtain a texture model that is parameterised by spatially invariant\nrepresentations built on the hierarchical processing architecture of the convolutional neural network.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                656.5524291992188,
+                504.00335693359375,
+                732.2689819335938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4a8ab52b3701128f93a84e06df037056",
+        "text": "2\nConvolutional neural network",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                82.64812469482422,
+                279.31805419921875,
+                94.60332489013672
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4d6317ad278e14d059b1ac44eeb76fa1",
+        "text": "We use the VGG-19 network, a convolutional neural network trained on object recognition that was\nintroduced and extensively described previously [25]. Here we give only a brief summary of its\narchitecture.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                108.97444152832031,
+                504.0033264160156,
+                140.85501098632812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f06f6097431908838ea0843404b599c8",
+        "text": "We used the feature space provided by the 16 convolutional and 5 pooling layers of the VGG-19\nnetwork. We did not use any of the fully connected layers. The network’s architecture is based on\ntwo fundamental computations:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                147.8294219970703,
+                504.0032958984375,
+                179.70999145507812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "abb71d85952307447febff0712329db7",
+        "text": "1. Linearly rectiﬁed convolution with ﬁlters of size 3 × 3 × k where k is the number of input\nfeature maps. Stride and padding of the convolution is equal to one such that the output\nfeature map has the same spatial dimensions as the input feature maps.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                131.41200256347656,
+                192.46571350097656,
+                504.0046081542969,
+                224.70596313476562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "029575bf8be7a533d1d64212c0bf44f5",
+        "text": "2. Maximum pooling in non-overlapping 2×2 regions, which down-samples the feature maps\nby a factor of two.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                131.41200256347656,
+                230.8756866455078,
+                504.001953125,
+                252.15695190429688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2d1630292e6732ac9210973f1c765cf5",
+        "text": "These two computations are applied in an alternating manner (see Fig. 1). A number of convolutional\nlayers is followed by a max-pooling layer. After each of the ﬁrst three pooling layers the number of\nfeature maps is doubled. Together with the spatial down-sampling, this transformation results in a\nreduction of the total number of feature responses by a factor of two. Fig. 1 provides a schematic\noverview over the network architecture and the number of feature maps in each layer. Since we\nuse only the convolutional layers, the input images can be arbitrarily large. The ﬁrst convolutional\nlayer has the same size as the image and for the following layers the ratio between the feature map\nsizes remains ﬁxed. Generally each layer in the network deﬁnes a non-linear ﬁlter bank, whose\ncomplexity increases with the position of the layer in the network.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                107.99998474121094,
+                265.2723388671875,
+                504.00341796875,
+                362.9068298339844
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8f489bd118e1dbb9d5f862920b35a949",
+        "text": "The trained convolutional network is publicly available and its usability for new applications is\nsupported by the caffe-framework [12]. For texture generation we found that replacing the max-\npooling operation by average pooling improved the gradient ﬂow and one obtains slightly cleaner\nresults, which is why the images shown below were generated with average pooling. Finally, for\npractical reasons, we rescaled the weights in the network such that the mean activation of each ﬁlter\nover images and positions is equal to one. Such re-scaling can always be done without changing the\noutput of a neural network if the non-linearities in the network are rectifying linear 1.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                107.99998474121094,
+                369.8802185058594,
+                504.0032958984375,
+                445.5967712402344
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c87b7d640ddf028c372053c981b270e1",
+        "text": "3\nTexture model",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                107.99996948242188,
+                464.6468505859375,
+                199.3257293701172,
+                476.60205078125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "411aaf5da8396f229d54e9e844acb195",
+        "text": "The texture model we describe in the following is much in the spirit of that proposed by Portilla\nand Simoncelli [21]. To generate a texture from a given source image, we ﬁrst extract features of\ndifferent sizes homogeneously from this image. Next we compute a spatial summary statistic on the\nfeature responses to obtain a stationary description of the source image (Fig. 1A). Finally we ﬁnd a\nnew image with the same stationary description by performing gradient descent on a random image\nthat has been initialised with white noise (Fig. 1B).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                107.99996948242188,
+                490.97314453125,
+                504.0033264160156,
+                555.7296752929688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a730a9d2093791e51f8decab301404b3",
+        "text": "The main difference to Portilla and Simoncelli’s work is that instead of using a linear ﬁlter bank\nand a set of carefully chosen summary statistics, we use the feature space provided by a high-\nperforming deep neural network and only one spatial summary statistic: the correlations between\nfeature responses in each layer of the network.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                107.99996948242188,
+                562.7041015625,
+                504.0033874511719,
+                605.542724609375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d33fc8275fb47b78846436aa76b48b5b",
+        "text": "To characterise a given vectorised texture ⃗x in our model, we ﬁrst pass ⃗x through the convolutional\nneural network and compute the activations for each layer l in the network. Since each layer in the\nnetwork can be understood as a non-linear ﬁlter bank, its activations in response to an image form a\nset of ﬁltered images (so-called feature maps). A layer with Nl distinct ﬁlters has Nl feature maps\neach of size Ml when vectorised. These feature maps can be stored in a matrix F l ∈RNl×Ml, where\nF l\njk is the activation of the jth ﬁlter at position k in layer l. Textures are per deﬁnition stationary,\nso a texture model needs to be agnostic to spatial information. A summary statistic that discards\nthe spatial information in the feature maps is given by the correlations between the responses of",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                107.99996948242188,
+                612.2865600585938,
+                504.00341796875,
+                700.2007446289062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8b7e6d5a5ca832f248cf866bee2983f7",
+        "text": "1Source code to generate textures with CNNs as well as the rescaled VGG-19 network can be found at\nhttp://github.com/leongatys/DeepTextures",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                711.556640625,
+                504.0004577636719,
+                732.0283813476562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "54bf04f33a0326e2349f131c4c6af55d",
+        "text": "different features. These feature correlations are, up to a constant of proportionality, given by the\nGram matrix Gl ∈RNl×Nl, where Gl\nij is the inner product between feature map i and j in layer l:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                84.26844787597656,
+                504.0032958984375,
+                107.78305053710938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f4894dcc0a8458f492b39ce80edacf75",
+        "text": "Gl\nij =\nX",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                267.95703125,
+                115.04927062988281,
+                310.4859924316406,
+                129.7764892578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ab231fc2566fa3218b0471b36731862a",
+        "text": "k\nF l\nikF l\njk.\n(1)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.0830383300781,
+                115.57374572753906,
+                504.00042724609375,
+                138.64349365234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "16f605f518db015ea145fdf45b86c142",
+        "text": "A set of Gram matrices {G1, G2, ..., GL} from some layers 1, . . . , L in the network in response to\na given texture provides a stationary description of the texture, which fully speciﬁes a texture in our\nmodel (Fig. 1A).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00006103515625,
+                145.3747100830078,
+                504.0041198730469,
+                178.76602172851562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a702f4233458fdf255eeaaf19e52c83c",
+        "text": "4\nTexture generation",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00006103515625,
+                196.069091796875,
+                222.5667266845703,
+                208.0242919921875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "75a3dc680f7d3f4fcde1361712b4a131",
+        "text": "To generate a new texture on the basis of a given image, we use gradient descent from a white noise\nimage to ﬁnd another image that matches the Gram-matrix representation of the original image.\nThis optimisation is done by minimising the mean-squared distance between the entries of the Gram\nmatrix of the original image and the Gram matrix of the image being generated (Fig. 1B).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00006103515625,
+                221.3463897705078,
+                504.00335693359375,
+                264.1859436035156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "092560d563172cab6b4262def1f79c46",
+        "text": "Let ⃗x and ˆ⃗x be the original image and the image that is generated, and Gl and ˆGl their respective\nGram-matrix representations in layer l (Eq. 1). The contribution of layer l to the total loss is then",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00006103515625,
+                269.4853515625,
+                503.9990234375,
+                294.0219421386719
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "76a7a306b5c30b3ab134b820bf796176",
+        "text": "El =\n1\n4N 2\nl M 2\nl",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                238.09707641601562,
+                300.67779541015625,
+                296.257080078125,
+                327.2195129394531
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8689f1fb9c4f6b546b21af7aacdc6942",
+        "text": "X",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                299.60699462890625,
+                305.1163635253906,
+                314.0029602050781,
+                315.0789489746094
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "529e8c3da2ade1895144b2bc18255c08",
+        "text": "i,j",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                302.3599853515625,
+                321.50775146484375,
+                310.8401184082031,
+                328.4815673828125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a81614a6dcdb9208963468f7925dd942",
+        "text": "and the total loss is",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                336.493408203125,
+                184.38327026367188,
+                346.4560241699219
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c38760a2b223ec0161b042ecf6297d15",
+        "text": "L(⃗x, ˆ⃗x) =",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                265.8139953613281,
+                352.7598571777344,
+                306.7709655761719,
+                365.55145263671875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "051acd79fbd5d99e557b325fef72ffb6",
+        "text": "where wl are weighting factors of the contribution of each layer to the total loss. The derivative of\nEl with respect to the activations in layer l can be computed analytically:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                380.327880859375,
+                504.0037536621094,
+                402.9739990234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "87913323e0edd6e47dbe4da4da988b49",
+        "text": "\u0010\n( ˆF l)T \u0010\nGl −ˆGl\u0011\u0011",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                267.2870178222656,
+                408.9483337402344,
+                351.4833984375,
+                426.35491943359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4aff37265799ff215e42a0b6e16c8f73",
+        "text": "(\n1\nN 2\nl M 2\nl",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                232.02999877929688,
+                410.5913391113281,
+                263.9352722167969,
+                428.2845458984375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0dc776bb49aa20ab21d4ad2b1847bed9",
+        "text": "∂El\n∂ˆF l\nij\n=",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                198.28599548339844,
+                413.724853515625,
+                229.264892578125,
+                440.8915710449219
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "790e444ce0ce001fb322848f7077754a",
+        "text": "0\nif ˆF l\nij < 0 .\n(4)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                240.0560760498047,
+                420.6944885253906,
+                504.00042724609375,
+                443.1665344238281
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "23a7ca50d10edb09d3a51eb5a71d1e87",
+        "text": "The gradients of El, and thus the gradient of L(⃗x, ˆ⃗x), with respect to the pixels ˆ⃗x can be readily\ncomputed using standard error back-propagation [18]. The gradient ∂L",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00006103515625,
+                449.42193603515625,
+                504.0022277832031,
+                474.69610595703125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "55131f8117420449ab3d25d01be36568",
+        "text": "∂ˆ⃗x can be used as input for\nsome numerical optimisation strategy. In our work we use L-BFGS [30], which seemed a reasonable\nchoice for the high-dimensional optimisation problem at hand. The entire procedure relies mainly\non the standard forward-backward pass that is used to train the convolutional network. Therefore, in\nspite of the large complexity of the model, texture generation can be done in reasonable time using\nGPUs and performance-optimised toolboxes for training deep neural networks [12].",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                107.99996948242188,
+                464.73345947265625,
+                504.0032958984375,
+                531.281982421875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b0fde79a8aa18816a7add8fd063a19ae",
+        "text": "5\nResults",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                107.99996948242188,
+                548.5861206054688,
+                163.12539672851562,
+                560.5413208007812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fd76b7c62702eeae19bd83f00f7cb915",
+        "text": "We show textures generated by our model from four different source images (Fig. 2). Each row of\nimages was generated using an increasing number of layers in the texture model to constrain the\ngradient descent (the labels in the ﬁgure indicate the top-most layer included). In other words, for\nthe loss terms above a certain layer we set the weights wl = 0, while for the loss terms below\nand including that layer, we set wl = 1. For example the images in the ﬁrst row (‘conv1 1’) were\ngenerated only from the texture representation of the ﬁrst layer (‘conv1 1’) of the VGG network. The\nimages in the second row (‘pool1’) where generated by jointly matching the texture representations\non top of layer ‘conv1 1’, ‘conv1 2’ and ‘pool1’. In this way we obtain textures that show what\nstructure of natural textures are captured by certain computational processing stages of the texture\nmodel.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                107.99990844726562,
+                573.8624267578125,
+                504.0033264160156,
+                682.4560546875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "52610d58aaac27b62717239a26e52182",
+        "text": "The ﬁrst three columns show images generated from natural textures. We ﬁnd that constraining all\nlayers up to layer ‘pool4’ generates complex natural textures that are almost indistinguishable from\nthe original texture (Fig. 2, ﬁfth row). In contrast, when constraining only the feature correlations\non the lowest layer, the textures contain little structure and are not far from spectrally matched noise",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                689.429443359375,
+                504.0032653808594,
+                732.26904296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f7d60b4e75f4585bede28ce3feeef60d",
+        "text": "\u0010\nGl\nij −ˆGl\nij\n\u00112\n(2)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                315.6579895019531,
+                300.75970458984375,
+                504.0003662109375,
+                319.7143859863281
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "36dcfc87365f89cfb5c57d433fc321ea",
+        "text": "L\nX",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                309.5329895019531,
+                345.4706726074219,
+                323.928955078125,
+                363.2498779296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e12cef776747c54cd70cf811a105e741",
+        "text": "l=0\nwlEl\n(3)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.4049987792969,
+                355.5888671875,
+                504.0003662109375,
+                376.8815002441406
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "74911477f826190b7d3dbc4a7beff60a",
+        "text": "ji\nif ˆF l\nij > 0",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                351.4880676269531,
+                410.3258972167969,
+                408.7333679199219,
+                429.1275329589844
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "254a144a0448604e9a94fda43bf3598a",
+        "text": "conv1_1\npool1\npool4\npool3\npool2\noriginal\nPortilla & Simoncelli",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                145.93222045898438,
+                102.86962890625,
+                156.28330993652344,
+                621.8115844726562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b357a4e1f6107b73cd027d78fae04eed",
+        "text": "Figure 2: Generated stimuli. Each row corresponds to a different processing stage in the network.\nWhen only constraining the texture representation on the lowest layer, the synthesised textures have\nlittle structure, similarly to spectrally matched noise (ﬁrst row). With increasing number of layers on\nwhich we match the texture representation we ﬁnd that we generate images with increasing degree of\nnaturalness (rows 2–5; labels on the left indicate the top-most layer included). The source textures in\nthe ﬁrst three columns were previously used by Portilla and Simoncelli [21]. For better comparison\nwe also show their results (last row). The last column shows textures generated from a non-texture\nimage to give a better intuition about how the texture model represents image information.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                644.8384399414062,
+                504.0033264160156,
+                731.5130615234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e1f522f1d843e464f3b17b9d478d7884",
+        "text": "A\noriginal\n~852k parameters\n~1k parameters\n~177k parameters\n~10k parameters",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                79.76720428466797,
+                481.9749450683594,
+                91.24720001220703
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7a3fc925cff16257ea6db47863bdc20d",
+        "text": "B\nconv1\nconv2\nconv5\nconv4\nconv3",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                163.37619018554688,
+                480.0393981933594,
+                174.856201171875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "97e46d3bbc33156f3967e833d34cf633",
+        "text": "conv1_1\npool1\npool4\npool3\npool2\nC",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                246.76719665527344,
+                479.3822937011719,
+                258.2471923828125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "10b9883b579db8c5ea5769e65b5b6acc",
+        "text": "Figure 3: A, Number of parameters in the texture model. We explore several ways to reduce the\nnumber of parameters in the texture model (see main text) and compare the results. B, Textures\ngenerated from the different layers of the caffe reference network [12, 15]. The textures are of\nlesser quality than those generated with the VGG network. C, Textures generated with the VGG\narchitecture but random weights. Texture synthesis fails in this case, indicating that learned ﬁlters\nare crucial for texture generation.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                107.99996948242188,
+                343.22650146484375,
+                504.0033264160156,
+                408.0749816894531
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1bb03021fd247bef00e39dd3de73f649",
+        "text": "(Fig. 2, ﬁrst row). We can interpolate between these two extremes by using only the constraints\nfrom all layers up to some intermediate layer. We ﬁnd that the statistical structure of natural images\nis matched on an increasing scale as the number of layers we use for texture generation increases.\nWe did not include any layers above layer ‘pool4’ since this did not improve the quality of the\nsynthesised textures. For comparability we used source textures that were previously used by Portilla\nand Simoncelli [21] and also show the results of their texture model (Fig. 2, last row). 2",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                107.99996948242188,
+                431.8713684082031,
+                504.0033264160156,
+                496.6289367675781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e6fb2318e10e33a2333e4522b2d1e585",
+        "text": "To give a better intuition for how the texture synthesis works, we also show textures generated from\na non-texture image taken from the ImageNet validation set [23] (Fig. 2, last column). Our algorithm\nproduces a texturised version of the image that preserves local spatial information but discards the\nglobal spatial arrangement of the image. The size of the regions in which spatial information is\npreserved increases with the number of layers used for texture generation. This property can be\nexplained by the increasing receptive ﬁeld sizes of the units over the layers of the deep convolutional\nneural network.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                107.99996948242188,
+                503.6023254394531,
+                504.0032958984375,
+                579.3189086914062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "41de1a2ee3ec027c7e4e9e5be460ae24",
+        "text": "When using summary statistics from all layers of the convolutional neural network, the number\nof parameters of the model is very large. For each layer with Nl feature maps, we match Nl ×\n(Nl + 1)/2 parameters, so if we use all layers up to and including ‘pool4’, our model has ∼852k\nparameters (Fig. 3A, fourth column). However, we ﬁnd that this texture model is heavily over-\nparameterised. In fact, when using only one layer on each scale in the network (i.e. ‘conv1 1’,",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                107.99993896484375,
+                586.2923583984375,
+                504.0032653808594,
+                640.091064453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5e589202a82120d00b3b93827335cbec",
+        "text": "2A curious ﬁnding is that the yellow box, which indicates the source of the original texture, is also placed\ntowards the bottom left corner in the textures generated by our model. As our texture model does not store\nany spatial information about the feature responses, the only possible explanation for such behaviour is that\nsome features in the network explicitly encode the information at the image boundaries. This is exactly what\nwe ﬁnd when inspecting feature maps in the VGG network: Some feature maps, at least from layer ‘conv3 1’\nonwards, only show high activations along their edges. This might originate from the zero-padding that is used\nfor the convolutions in the VGG network and it could be interesting to investigate the effect of such padding on\nlearning and object recognition performance.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                651.7806396484375,
+                504.00103759765625,
+                732.0283813476562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "366ebc6f9db2356b46763610640b98c9",
+        "text": "1.0",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                234.21780395507812,
+                80.017578125,
+                243.9477996826172,
+                91.23857116699219
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0e1eccb2bdeddbaed9e42991847441f9",
+        "text": "Classification performance",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                222.49069213867188,
+                87.711669921875,
+                233.71170043945312,
+                170.17868041992188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6de4ec73053a045f1a0802b7dd5bbfa5",
+        "text": "0.8",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                234.21710205078125,
+                96.98037719726562,
+                243.9470977783203,
+                108.20137786865234
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8d096ba46226e20914ee025c1745dcb6",
+        "text": "0.6",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                234.21710205078125,
+                113.93438720703125,
+                243.9470977783203,
+                125.15538024902344
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "035d1aebcd59b427087e918c1c948a6b",
+        "text": "0.4",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                234.21710205078125,
+                130.8883819580078,
+                243.9470977783203,
+                142.10939025878906
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c065e78f48f8148cd6c4975b6c259396",
+        "text": "0.2",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                234.21710205078125,
+                147.84237670898438,
+                243.9470977783203,
+                159.06338500976562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f537e84bd296984494636eaf472ed887",
+        "text": "0",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                237.87109375,
+                164.79637145996094,
+                241.76309204101562,
+                176.0173797607422
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8d0f8ebfef2a54bd8110f822e5025153",
+        "text": "pool1\npool5\npool4\npool3\npool2",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                245.38909912109375,
+                173.3433837890625,
+                376.2680969238281,
+                184.56439208984375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "04629caf23f87bf8a0ec76055276ac73",
+        "text": "Decoding layer",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                287.4823913574219,
+                181.56637573242188,
+                334.1653747558594,
+                192.78738403320312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "66c7c6dc0ab0ad277bedfc87258aa00a",
+        "text": "Figure 4: Performance of a linear classiﬁer on top of the texture representations in different layers in\nclassifying objects from the ImageNet dataset. High-level information is made increasingly explicit\nalong the hierarchy of our texture model.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                210.0984649658203,
+                504.0032653808594,
+                241.97903442382812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "976153d3e7694de7e70ac6414a320af6",
+        "text": "and ‘pool1-4’), the model contains ∼177k parameters while hardly loosing any quality (Fig. 3A,\nthird column). We can further reduce the number of parameters by doing PCA of the feature vector\nin the different layers of the network and then constructing the Gram matrix only for the ﬁrst k\nprincipal components. By using the ﬁrst 64 principal components for layers ‘conv1 1’, and ‘pool1-\n4’ we can further reduce the model to ∼10k parameters (Fig. 3A, second column). Interestingly,\nconstraining only the feature map averages in layers ‘conv1 1’, and ‘pool1-4’, (1024 parameters),\nalready produces interesting textures (Fig. 3A, ﬁrst column). These ad hoc methods for parameter\nreduction show that the texture representation can be compressed greatly with little effect on the\nperceptual quality of the synthesised textures. Finding minimal set of parameters that reproduces\nthe quality of the full model is an interesting topic of ongoing research and beyond the scope of the\npresent paper. A larger number of natural textures synthesised with the ≈177k parameter model\ncan be found in the Supplementary Material as well as on our website3. There one can also observe\nsome failures of the model in case of very regular, man-made structures (e.g. brick walls).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                107.99996948242188,
+                262.9597473144531,
+                504.003662109375,
+                404.7890319824219
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1816096e1b83ebcb41d23d5342eba5f6",
+        "text": "In general, we ﬁnd that the very deep architecture of the VGG network with small convolutional\nﬁlters seems to be particularly well suited for texture generation purposes. When performing the\nsame experiment with the caffe reference network [12], which is very similar to the AlexNet [15], the\nquality of the generated textures decreases in two ways. First, the statistical structure of the source\ntexture is not fully matched even when using all constraints (Fig 3B, ‘conv5’). Second, we observe\nan artifactual grid that overlays the generated textures (Fig 3B). We believe that the artifactual grid\noriginates from the larger receptive ﬁeld sizes and strides in the caffe reference network.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00006103515625,
+                411.7624206542969,
+                504.00341796875,
+                487.4789733886719
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "59df6d5b6670b75b81c1ed0b8ddd8834",
+        "text": "While the results from the caffe reference network show that the architecture of the network is\nimportant, the learned feature spaces are equally crucial for texture generation. When synthesising\na texture with a network with the VGG architecture but random weights, texture generation fails\n(Fig. 3C), underscoring the importance of using a trained network.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00006103515625,
+                494.4523620605469,
+                504.0033874511719,
+                537.2919311523438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d829e514ced670fb78376ef442f45e84",
+        "text": "To understand our texture features better in the context of the original object recognition task of the\nnetwork, we evaluated how well object identity can be linearly decoded from the texture features\nin different layers of the network. For each layer we computed the Gram-matrix representation of\neach image in the ImageNet training set [23] and trained a linear soft-max classiﬁer to predict object\nidentity. As we were not interested in optimising prediction performance, we did not use any data\naugmentation and trained and tested only on the 224 × 224 centre crop of the images. We computed\nthe accuracy of these linear classiﬁers on the ImageNet validation set and compared them to the\nperformance of the original VGG-19 network also evaluated on the 224 × 224 centre crops of the\nvalidation images.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00006103515625,
+                544.265380859375,
+                504.0040588378906,
+                641.8999633789062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cac6d84506bd6cb79e2f8c49b64ea3f2",
+        "text": "The analysis suggests that our texture representation continuously disentangles object identity in-\nformation (Fig. 4). Object identity can be decoded increasingly well over the layers. In fact, linear\ndecoding from the ﬁnal pooling layer performs almost as well as the original network, suggesting\nthat our texture representation preserves almost all high-level information. At ﬁrst sight this might\nappear surprising since the texture representation does not necessarily preserve the global structure\nof objects in non-texture images (Fig. 2, last column). However, we believe that this “inconsis-",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00006103515625,
+                648.8733520507812,
+                504.0034484863281,
+                713.6309204101562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2b3f7a48fa360d5c6a4c3d88fad6406a",
+        "text": "3www.bethgelab.org/deeptextures",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                120.65299987792969,
+                721.5196533203125,
+                241.42848205566406,
+                732.0283813476562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "71743ecac42d6e776f3a5334eaa756b6",
+        "text": "top1 Gram",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                353.6488952636719,
+                138.96926879882812,
+                386.71685791015625,
+                150.19027709960938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0995269b08c2009ccf6ab8f9bb40b0b9",
+        "text": "top5 VGG\ntop1 VGG\ntop5 Gram",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                353.6488952636719,
+                145.0872802734375,
+                386.71685791015625,
+                168.5302734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c7ef9705c392f1b04bf0bb69a4a7f661",
+        "text": "tency” is in fact to be expected and might provide an insight into how CNNs encode object identity.\nThe convolutional representations in the network are shift-equivariant and the network’s task (object\nrecognition) is agnostic to spatial information, thus we expect that object information can be read\nout independently from the spatial information in the feature maps. We show that this is indeed the\ncase: a linear classiﬁer on the Gram matrix of layer ‘pool5’ comes close to the performance of the\nfull network (87.7% vs. 88.6% top 5 accuracy, Fig. 4).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                84.26844787597656,
+                504.0033264160156,
+                149.02597045898438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "99b61616be8107e34efa19eeb63df7ea",
+        "text": "6\nDiscussion",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                170.925048828125,
+                179.7431640625,
+                182.8802490234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a796e312fb9bf616e69888b60dc67459",
+        "text": "We introduced a new parametric texture model based on a high-performing convolutional neural\nnetwork. Our texture model exceeds previous work as the quality of the textures synthesised using\nour model shows a substantial improvement compared to the current state of the art in parametric\ntexture synthesis (Fig. 2, fourth row compared to last row).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                198.96034240722656,
+                504.0032653808594,
+                241.79989624023438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8a93720506c038cd0020809f61afddb9",
+        "text": "While our model is capable of producing natural textures of comparable quality to non-parametric\ntexture synthesis methods, our synthesis procedure is computationally more expensive. Neverthe-\nless, both in industry and academia, there is currently much effort taken in order to make the eval-\nuation of deep neural networks more efﬁcient [11, 4, 17]. Since our texture synthesis procedure\nbuilds exactly on the same operations, any progress made in the general ﬁeld of deep convolutional\nnetworks is likely to be transferable to our texture synthesis method. Thus we expect considerable\nimprovements in the practical applicability of our texture model in the near future.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                248.7732696533203,
+                504.00335693359375,
+                324.4897766113281
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7f3ba81e0c220b31f7170fae54b78ed0",
+        "text": "By computing the Gram matrices on feature maps, our texture model transforms the representations\nfrom the convolutional neural network into a stationary feature space. This general strategy has\nrecently been employed to improve performance in object recognition and detection [9] or texture\nrecognition and segmentation [3]. In particular Cimpoi et al. report impressive performance in\nmaterial recognition and scene segmentation by using a stationary Fisher-Vector representation built\non the highest convolutional layer of readily trained neural networks [3]. In agreement with our\nresults, they show that performance in natural texture recognition continuously improves when using\nhigher convolutional layers as the input to their Fisher-Vector representation. As our main aim is\nto synthesise textures, we have not evaluated the Gram matrix representation on texture recognition\nbenchmarks, but would expect that it also provides a good feature space for those tasks.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                331.4631652832031,
+                504.0033264160156,
+                440.0556945800781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9c18e7d9541740812fbe4ff7d7c1c4f7",
+        "text": "In recent years, texture models inspired by biological vision have provided a fruitful new analysis\ntool for studying visual perception. In particular the parametric texture model proposed by Por-\ntilla and Simoncelli [21] has sparked a great number of studies in neuroscience and psychophysics\n[8, 7, 1, 22, 20]. Our texture model is based on deep convolutional neural networks that are the\nﬁrst artiﬁcial systems that rival biology in terms of difﬁcult perceptual inference tasks such as ob-\nject recognition [15, 25, 26]. At the same time, their hierarchical architecture and basic computa-\ntional properties admit a fundamental similarity to real neural systems. Together with the increasing\namount of evidence for the similarity of the representations in convolutional networks and those in\nthe ventral visual pathway [29, 2, 14], these properties make them compelling candidate models for\nstudying visual information processing in the brain. In fact, it was recently suggested that textures\ngenerated from the representations of performance-optimised convolutional networks “may there-\nfore prove useful as stimuli in perceptual or physiological investigations” [19]. We feel that our\ntexture model is the ﬁrst step in that direction and envision it to provide an exciting new tool in the\nstudy of visual information processing in biological systems.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                447.03009033203125,
+                504.0032958984375,
+                599.4585571289062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "eeff4192d315f8c1deca968e460ac141",
+        "text": "Acknowledgments",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                617.6560668945312,
+                185.9374237060547,
+                627.61865234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ebdf08839712b7feabe419618a6448bf",
+        "text": "This work was funded by the German National Academic Foundation (L.A.G.), the Bernstein Center\nfor Computational Neuroscience (FKZ 01GQ1002) and the German Excellency Initiative through\nthe Centre for Integrative Neuroscience T¨ubingen (EXC307)(M.B., A.S.E, L.A.G.)",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                637.7650146484375,
+                504.0032653808594,
+                667.652587890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "55c2211ccc5478a5be1de5aa2d981f1c",
+        "text": "References",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00001525878906,
+                688.1967163085938,
+                163.54385375976562,
+                700.1519165039062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a6e8deb068798a2eac74bc0fb8f86892",
+        "text": "[1] B. Balas, L. Nakano, and R. Rosenholtz. A summary-statistic representation in peripheral vision explains\nvisual crowding. Journal of vision, 9(12):13, 2009.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                112.48301696777344,
+                713.0985107421875,
+                504.00067138671875,
+                732.0279541015625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "801246fae08830ff42f43c5f18239173",
+        "text": "[2] C. F. Cadieu, H. Hong, D. L. K. Yamins, N. Pinto, D. Ardila, E. A. Solomon, N. J. Majaj, and J. J.\nDiCarlo. Deep Neural Networks Rival the Representation of Primate IT Cortex for Core Visual Object\nRecognition. PLoS Comput Biol, 10(12):e1003963, December 2014.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                112.48300170898438,
+                85.02395629882812,
+                504.00079345703125,
+                113.9163818359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2544a28daee075bc0494652121da1d96",
+        "text": "[3] M. Cimpoi, S. Maji, and A. Vedaldi. Deep convolutional ﬁlter banks for texture recognition and segmen-\ntation. arXiv:1411.6836 [cs], November 2014. arXiv: 1411.6836.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                112.48300170898438,
+                119.49600219726562,
+                504.0007019042969,
+                138.4254150390625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b246efed074e3ce460eb343cad3dff42",
+        "text": "[4] E. L. Denton, W. Zaremba, J. Bruna, Y. LeCun, and R. Fergus.\nExploiting Linear Structure Within\nConvolutional Networks for Efﬁcient Evaluation. In NIPS, 2014.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                112.48299407958984,
+                144.00601196289062,
+                504.00079345703125,
+                162.93438720703125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "acfe740729f3fc992b55d999f4db7e1d",
+        "text": "[5] A. Efros and T. K. Leung. Texture synthesis by non-parametric sampling. In Computer Vision, 1999. The\nProceedings of the Seventh IEEE International Conference on, volume 2, pages 1033–1038. IEEE, 1999.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                112.48298645019531,
+                168.3561553955078,
+                504.0019226074219,
+                187.44439697265625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "064e5bbbaef1901c46b1192c2c95d836",
+        "text": "[6] A. A. Efros and W. T. Freeman. Image quilting for texture synthesis and transfer. In Proceedings of the\n28th annual conference on Computer graphics and interactive techniques, pages 341–346. ACM, 2001.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                112.48298645019531,
+                192.8651885986328,
+                504.00360107421875,
+                211.95343017578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c4f016489b3e86e57c577cfdf6aec257",
+        "text": "[7] J. Freeman and E. P. Simoncelli. Metamers of the ventral stream. Nature Neuroscience, 14(9):1195–1201,\nSeptember 2011.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                112.48300170898438,
+                217.3751983642578,
+                503.9986267089844,
+                236.46240234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "35c134709684fec08ab5aace41b8a11b",
+        "text": "[8] J. Freeman, C. M. Ziemba, D. J. Heeger, E. P. Simoncelli, and A. J. Movshon. A functional and perceptual\nsignature of the second visual area in primates. Nature Neuroscience, 16(7):974–981, July 2013.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                112.48303985595703,
+                242.04299926757812,
+                504.0009460449219,
+                260.972412109375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8cc0e5c5a9c8e71ce0c89381cfc0a23a",
+        "text": "[9] K. He, X. Zhang, S. Ren, and J. Sun. Spatial pyramid pooling in deep convolutional networks for visual\nrecognition. arXiv preprint arXiv:1406.4729, 2014.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                112.48306274414062,
+                266.5520324707031,
+                504.0007629394531,
+                285.4814453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "066c346d410f986606d3482aafb506a6",
+        "text": "[10] D. J. Heeger and J. R. Bergen. Pyramid-based Texture Analysis/Synthesis. In Proceedings of the 22Nd\nAnnual Conference on Computer Graphics and Interactive Techniques, SIGGRAPH ’95, pages 229–238,\nNew York, NY, USA, 1995. ACM.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00006103515625,
+                290.9032287597656,
+                504.0016174316406,
+                319.9534606933594
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "397d7bd016081d7f2d166575839ea164",
+        "text": "[11] M. Jaderberg, A. Vedaldi, and A. Zisserman. Speeding up Convolutional Neural Networks with Low\nRank Expansions. In BMVC 2014, 2014.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00003814697266,
+                325.5340576171875,
+                504.0010681152344,
+                344.46246337890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "21e70b4e5a68de80cbc87813c3150f47",
+        "text": "[12] Y. Jia, E. Shelhamer, J. Donahue, S. Karayev, J. Long, R. Girshick, S. Guadarrama, and T. Darrell.\nCaffe: Convolutional architecture for fast feature embedding. In Proceedings of the ACM International\nConference on Multimedia, pages 675–678. ACM, 2014.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00003051757812,
+                350.0430603027344,
+                504.0012512207031,
+                378.9344787597656
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "63022a1540a83e654935157df4ef8655",
+        "text": "[13] B. Julesz. Visual Pattern Discrimination. IRE Transactions on Information Theory, 8(2), February 1962.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00003051757812,
+                384.35626220703125,
+                502.6662292480469,
+                393.4814758300781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8d582d3d3ffcf2afe8aaf35374d56d97",
+        "text": "[14] S. Khaligh-Razavi and N. Kriegeskorte. Deep Supervised, but Not Unsupervised, Models May Explain\nIT Cortical Representation. PLoS Comput Biol, 10(11):e1003915, November 2014.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00006103515625,
+                399.06207275390625,
+                504.00091552734375,
+                417.990478515625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d27709b6fce2723527accc21a9afeec9",
+        "text": "[15] A. Krizhevsky, I. Sutskever, and G. E. Hinton. Imagenet classiﬁcation with deep convolutional neural\nnetworks. In Advances in Neural Information Processing Systems 27, pages 1097–1105, 2012.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00007629394531,
+                423.5710754394531,
+                504.0010986328125,
+                442.50048828125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c695a5b69b7b6782795af3a2c4bf40b9",
+        "text": "[16] V. Kwatra, A. Sch¨odl, I. Essa, G. Turk, and A. Bobick. Graphcut textures: image and video synthesis\nusing graph cuts. In ACM Transactions on Graphics (ToG), volume 22, pages 277–286. ACM, 2003.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00006103515625,
+                448.03607177734375,
+                504.0041809082031,
+                467.0094909667969
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "933310d6c112fd7c9f0f90ca174c0f36",
+        "text": "[17] V. Lebedev, Y. Ganin, M. Rakhuba, I. Oseledets, and V. Lempitsky. Speeding-up Convolutional Neural\nNetworks Using Fine-tuned CP-Decomposition. arXiv preprint arXiv:1412.6553, 2014.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00006103515625,
+                472.590087890625,
+                504.001220703125,
+                491.51849365234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "41484530cf39f7760a29d6543dbf29f5",
+        "text": "[18] Y. A. LeCun, L. Bottou, G. B. Orr, and K. R. M¨uller. Efﬁcient backprop. In Neural networks: Tricks of\nthe trade, pages 9–48. Springer, 2012.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00006103515625,
+                496.9402770996094,
+                503.9970397949219,
+                516.0285034179688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8e2e6ba72d8210d5cd95d13a600c8b23",
+        "text": "[19] A. J. Movshon and E. P. Simoncelli. Representation of naturalistic image structure in the primate visual\ncortex. Cold Spring Harbor Symposia on Quantitative Biology: Cognition, 2015.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00007629394531,
+                521.6080322265625,
+                504.0008239746094,
+                540.5374755859375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "68797c1de2cb3e9e593c0f65598e29d1",
+        "text": "[20] G. Okazawa, S. Tajima, and H. Komatsu. Image statistics underlying natural texture selectivity of neurons\nin macaque V4. PNAS, 112(4):E351–E360, January 2015.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00009155273438,
+                546.1180419921875,
+                504.00091552734375,
+                565.0465087890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0dc98d97d4aef31594e0c7646c47ed64",
+        "text": "[21] J. Portilla and E. P. Simoncelli. A Parametric Texture Model Based on Joint Statistics of Complex Wavelet\nCoefﬁcients. International Journal of Computer Vision, 40(1):49–70, October 2000.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00007629394531,
+                570.6270751953125,
+                504.0010070800781,
+                589.5565185546875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "befdd8b77793601e661ae9c0d49c28a7",
+        "text": "[22] R. Rosenholtz, J. Huang, A. Raj, B. J. Balas, and L. Ilie. A summary statistic representation in peripheral\nvision explains visual search. Journal of vision, 12(4):14, 2012.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00007629394531,
+                595.1360473632812,
+                504.0008544921875,
+                614.0654907226562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d481655af4afb4da0e6ea8c3b397e344",
+        "text": "[23] O. Russakovsky, J. Deng, H. Su, J. Krause, S. Satheesh, S. Ma, Z. Huang, A. Karpathy, A. Khosla,\nM. Bernstein, A. C. Berg, and L. Fei-Fei.\nImageNet Large Scale Visual Recognition Challenge.\narXiv:1409.0575 [cs], September 2014. arXiv: 1409.0575.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00009155273438,
+                619.6460571289062,
+                504.001220703125,
+                648.5374755859375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3da394cfd6de812309dacafa965892ac",
+        "text": "[24] E. P. Simoncelli and W. T. Freeman.\nThe steerable pyramid: A ﬂexible architecture for multi-scale\nderivative computation. In Image Processing, International Conference on, volume 3, pages 3444–3444.\nIEEE Computer Society, 1995.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00009155273438,
+                654.1180419921875,
+                504.0009460449219,
+                683.0094604492188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "861602a42263b07248666959ba43c2bd",
+        "text": "[25] K. Simonyan and A. Zisserman. Very Deep Convolutional Networks for Large-Scale Image Recognition.\narXiv:1409.1556 [cs], September 2014. arXiv: 1409.1556.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0000991821289,
+                688.5900268554688,
+                504.0010681152344,
+                707.5184936523438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b41180fb23a951731b6bc6dec36f95ba",
+        "text": "[26] C. Szegedy, W. Liu, Y. Jia, P. Sermanet, S. Reed, D. Anguelov, D. Erhan, V. Vanhoucke, and A. Rabi-\nnovich. Going Deeper with Convolutions. arXiv:1409.4842 [cs], September 2014. arXiv: 1409.4842.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00009155273438,
+                713.0990600585938,
+                504.00128173828125,
+                732.0285034179688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "76ec88203bbe969c6b589e3c986d76ac",
+        "text": "[27] L. Wei, S. Lefebvre, V. Kwatra, and G. Turk. State of the art in example-based texture synthesis. In\nEurographics 2009, State of the Art Report, EG-STAR, pages 93–117. Eurographics Association, 2009.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                85.02395629882812,
+                504.000732421875,
+                103.953369140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b2b178c5c617606129dbc1117569ae7b",
+        "text": "[28] L. Wei and M. Levoy. Fast texture synthesis using tree-structured vector quantization. In Proceedings\nof the 27th annual conference on Computer graphics and interactive techniques, pages 479–488. ACM\nPress/Addison-Wesley Publishing Co., 2000.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.0,
+                108.7761459350586,
+                504.00054931640625,
+                137.82635498046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "676dba64cb8178fcc6298b591f131494",
+        "text": "[29] D. L. K. Yamins, H. Hong, C. F. Cadieu, E. A. Solomon, D. Seibert, and J. J. DiCarlo. Performance-\noptimized hierarchical models predict neural responses in higher visual cortex. PNAS, page 201403112,\nMay 2014.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00000762939453,
+                142.80795288085938,
+                504.0011291503906,
+                171.6993408203125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "92d9bc466cd54216dc576dea25d9ecdf",
+        "text": "[30] C. Zhu, R. H. Byrd, P. Lu, and J. Nocedal. Algorithm 778: L-BFGS-B: Fortran subroutines for large-scale\nbound-constrained optimization. ACM Transactions on Mathematical Software (TOMS), 23(4):550–560,\n1997.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1505.07376v3.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                108.00000762939453,
+                176.68093872070312,
+                504.00091552734375,
+                205.57232666015625
+            ],
+            "is_full_width": false
+        }
+    }
+]

@@ -1,0 +1,999 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-11-28">
+    <creator>NetworkX 3.5</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="0" title="sources" type="string" />
+      <attribute id="1" title="relations_summary" type="string" />
+    </attributes>
+    <nodes>
+      <node id="equation" label="equation" />
+      <node id="front" label="front" />
+      <node id="transport" label="transport" />
+      <node id="upslope" label="upslope" />
+      <node id="deposition" label="deposition" />
+      <node id="basal friction" label="basal friction" />
+      <node id="slope" label="slope" />
+      <node id="mass movements" label="mass movements" />
+      <node id="waves" label="waves" />
+      <node id="lack" label="lack" />
+      <node id="movements" label="movements" />
+      <node id="landslides" label="landslides" />
+      <node id="sediments" label="sediments" />
+      <node id="structure" label="structure" />
+      <node id="pressure" label="pressure" />
+      <node id="horizontal" label="horizontal" />
+      <node id="excess pore pressure" label="excess pore pressure" />
+      <node id="sedimentation rates" label="sedimentation rates" />
+      <node id="input" label="input" />
+      <node id="systems" label="systems" />
+      <node id="pore pressure" label="pore pressure" />
+      <node id="place" label="place" />
+      <node id="basin" label="basin" />
+      <node id="evidence" label="evidence" />
+      <node id="horizontal components" label="horizontal components" />
+      <node id="blocks" label="blocks" />
+      <node id="mtds" label="mtds" />
+      <node id="channels" label="channels" />
+      <node id="erosion" label="erosion" />
+      <node id="leveed-channel complex" label="leveed-channel complex" />
+      <node id="deformation" label="deformation" />
+      <node id="types" label="types" />
+      <node id="surface" label="surface" />
+      <node id="margin" label="margin" />
+      <node id="figure" label="figure" />
+      <node id="fraction" label="fraction" />
+      <node id="method" label="method" />
+      <node id="equations" label="equations" />
+      <node id="lines" label="lines" />
+      <node id="figures" label="figures" />
+      <node id="continental slope" label="continental slope" />
+      <node id="slope angle" label="slope angle" />
+      <node id="values" label="values" />
+      <node id="tidal miocene deposits" label="tidal miocene deposits" />
+      <node id="sedimentation" label="sedimentation" />
+      <node id="lateral fluid flow" label="lateral fluid flow" />
+      <node id="flow" label="flow" />
+      <node id="mass transport complex" label="mass transport complex" />
+      <node id="rapid deposition" label="rapid deposition" />
+      <node id="headwall" label="headwall" />
+      <node id="source area" label="source area" />
+      <node id="velocity" label="velocity" />
+      <node id="its slope" label="its slope" />
+      <node id="deposits" label="deposits" />
+      <node id="sediment supply" label="sediment supply" />
+      <node id="clinoforms" label="clinoforms" />
+      <node id="gradient" label="gradient" />
+      <node id="basal part" label="basal part" />
+      <node id="formation" label="formation" />
+      <node id="basal shearsurface" label="basal shearsurface" />
+      <node id="distance" label="distance" />
+      <node id="basinward" label="basinward" />
+      <node id="seaward" label="seaward" />
+      <node id="ﬂuid overpressure" label="ﬂuid overpressure" />
+      <node id="constant" label="constant" />
+      <node id="normal faults" label="normal faults" />
+      <node id="shortening" label="shortening" />
+      <node id="sea ﬂoor" label="sea ﬂoor" />
+      <node id="angle" label="angle" />
+      <node id="effect" label="effect" />
+      <node id="presence" label="presence" />
+      <node id="increase" label="increase" />
+      <node id="deglaciation" label="deglaciation" />
+      <node id="continental margin" label="continental margin" />
+      <node id="faults" label="faults" />
+      <node id="susceptibility" label="susceptibility" />
+      <node id="load" label="load" />
+      <node id="failure" label="failure" />
+      <node id="sediment deposition" label="sediment deposition" />
+      <node id="earthquakes" label="earthquakes" />
+      <node id="event" label="event" />
+      <node id="rivers" label="rivers" />
+      <node id="gas pressure" label="gas pressure" />
+      <node id="state" label="state" />
+      <node id="unchanged" label="unchanged" />
+      <node id="pressure area" label="pressure area" />
+      <node id="means" label="means" />
+      <node id="earth pressure" label="earth pressure" />
+      <node id="frontard" label="frontard" />
+      <node id="lateral pressure" label="lateral pressure" />
+      <node id="distribution" label="distribution" />
+      <node id="shape" label="shape" />
+      <node id="vertical pressure" label="vertical pressure" />
+      <node id="top surface" label="top surface" />
+      <node id="normal pressure" label="normal pressure" />
+      <node id="critical toe circle" label="critical toe circle" />
+      <node id="abscissas" label="abscissas" />
+      <node id="section" label="section" />
+      <node id="discharge velocity" label="discharge velocity" />
+      <node id="water pressure" label="water pressure" />
+      <node id="surface tension" label="surface tension" />
+      <node id="water" label="water" />
+      <node id="contact pressure" label="contact pressure" />
+      <node id="base" label="base" />
+      <node id="highest values" label="highest values" />
+      <node id="process" label="process" />
+      <node id="arrows" label="arrows" />
+      <node id="surface temperatures" label="surface temperatures" />
+      <node id="change" label="change" />
+      <node id="active thrust faults" label="active thrust faults" />
+      <node id="shoreline clinoforms" label="shoreline clinoforms" />
+      <node id="fluvial" label="fluvial" />
+      <node id="shelf edge delta" label="shelf edge delta" />
+      <node id="listric faults" label="listric faults" />
+      <node id="basal conglomerates" label="basal conglomerates" />
+      <node id="erosion surface" label="erosion surface" />
+      <node id="basins" label="basins" />
+      <node id="role" label="role" />
+      <node id="rates" label="rates" />
+      <node id="local tectonics" label="local tectonics" />
+      <node id="units" label="units" />
+      <node id="surface slope angle" label="surface slope angle" />
+      <node id="stratigraphic surfaces" label="stratigraphic surfaces" />
+      <node id="pliocene deposits" label="pliocene deposits" />
+      <node id="maximum flooding surface" label="maximum flooding surface" />
+    </nodes>
+    <edges>
+      <edge source="equation" target="earth pressure" id="4" label="RELATED_TO" weight="3.0">
+        <attvalues>
+          <attvalue for="0" value="fe8e4061e420c7a5c38e39e9774911c0.json" />
+          <attvalue for="1" value="RELATED_TO(3)" />
+        </attvalues>
+      </edge>
+      <edge source="equation" target="vertical pressure" id="5" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="fe8e4061e420c7a5c38e39e9774911c0.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="equation" target="pressure" id="6" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="fe8e4061e420c7a5c38e39e9774911c0.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="equation" target="normal pressure" id="7" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="fe8e4061e420c7a5c38e39e9774911c0.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="equation" target="surface" id="8" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="fe8e4061e420c7a5c38e39e9774911c0.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="equation" target="horizontal components" id="9" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="fe8e4061e420c7a5c38e39e9774911c0.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="equation" target="discharge velocity" id="10" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="fe8e4061e420c7a5c38e39e9774911c0.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="equation" target="gas pressure" id="11" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="fe8e4061e420c7a5c38e39e9774911c0.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="front" target="basinward" id="14" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="1-s2.0-S0040195109002819-main.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="front" target="headwall" id="17" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="transport" target="place" id="169" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="PatrunoandHelland-Hansen2018-clinoformreview.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="deposition" target="place" id="345" label="RELATED_TO" weight="3.0">
+        <attvalues>
+          <attvalue for="0" value="these_Machado_Alberto_2018.json" />
+          <attvalue for="1" value="RELATED_TO(3)" />
+        </attvalues>
+      </edge>
+      <edge source="slope" target="gradient" id="376" label="RELATED_TO" weight="3.0">
+        <attvalues>
+          <attvalue for="0" value="fe8e4061e420c7a5c38e39e9774911c0.json" />
+          <attvalue for="1" value="RELATED_TO(3)" />
+        </attvalues>
+      </edge>
+      <edge source="slope" target="formation" id="381" label="TRIGGERED_BY" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="Two-scale_gravitational_collapse_in_the_Amazon_Fan.json" />
+          <attvalue for="1" value="TRIGGERED_BY(1)" />
+        </attvalues>
+      </edge>
+      <edge source="mass movements" target="waves" id="383" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="26692.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="waves" target="erosion" id="386" label="TRIGGERED_BY" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="Towards_the_Standardization_of_Sequence_Stratigrap.json" />
+          <attvalue for="1" value="TRIGGERED_BY(1)" />
+        </attvalues>
+      </edge>
+      <edge source="lack" target="movements" id="395" label="ASSOCIATED_WITH" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="26692.json" />
+          <attvalue for="1" value="ASSOCIATED_WITH(1)" />
+        </attvalues>
+      </edge>
+      <edge source="movements" target="role" id="399" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="Lamarche_SMMTC_2015_Intro.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="landslides" target="margin" id="412" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="masson-et-al-2006-submarine-landslides-processes-triggers-and-hazard-prediction.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="landslides" target="pore pressure" id="417" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="masson-et-al-2006-submarine-landslides-processes-triggers-and-hazard-prediction.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="sediments" target="input" id="428" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="1-s2.0-S0012821X05005297-main.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="sediments" target="seaward" id="434" label="RELATED_TO" weight="2.0">
+        <attvalues>
+          <attvalue for="0" value="1-s2.0-S0040195109002819-main.json" />
+          <attvalue for="1" value="RELATED_TO(2)" />
+        </attvalues>
+      </edge>
+      <edge source="sediments" target="continental slope" id="438" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="1-s2.0-S0277379106003507-main.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="sediments" target="process" id="439" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="fe8e4061e420c7a5c38e39e9774911c0.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="sediments" target="role" id="443" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="UcayaliPeneplainPaleo3.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="structure" target="transport" id="460" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="IPCCAR5SYR_Final.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="pressure" target="constant" id="474" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="1-s2.0-S0191814106000101-main.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="pressure" target="unchanged" id="475" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="fe8e4061e420c7a5c38e39e9774911c0.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="pressure" target="highest values" id="484" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="fe8e4061e420c7a5c38e39e9774911c0.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="sedimentation rates" target="rates" id="518" label="RELATED_TO" weight="2.0">
+        <attvalues>
+          <attvalue for="0" value="Towards_the_Standardization_of_Sequence_Stratigrap.json" />
+          <attvalue for="1" value="RELATED_TO(2)" />
+        </attvalues>
+      </edge>
+      <edge source="systems" target="pore pressure" id="539" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="26692.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="systems" target="basinward" id="541" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="Two-scale_gravitational_collapse_in_the_Amazon_Fan.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="pore pressure" target="failure" id="545" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="fe8e4061e420c7a5c38e39e9774911c0.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="basin" target="evidence" id="572" label="COMPOSED_OF" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="26692.json" />
+          <attvalue for="1" value="COMPOSED_OF(1)" />
+        </attvalues>
+      </edge>
+      <edge source="basin" target="units" id="576" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="these_Machado_Alberto_2018.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="basin" target="presence" id="578" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="these_Machado_Alberto_2018.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="basin" target="sediments" id="585" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="these_Machado_Alberto_2018.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="blocks" target="source area" id="735" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="1-s2.0-S0025322712000412-main.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="blocks" target="evidence" id="739" label="COMPOSED_OF" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="kinematicindicators2009.json" />
+          <attvalue for="1" value="COMPOSED_OF(1)" />
+        </attvalues>
+      </edge>
+      <edge source="mtds" target="types" id="754" label="COMPOSED_OF" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value=". Sutton &amp; Mitchum, 2011.json" />
+          <attvalue for="1" value="COMPOSED_OF(1)" />
+        </attvalues>
+      </edge>
+      <edge source="mtds" target="formation" id="763" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="BertonVesely2016b.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="mtds" target="seaward" id="772" label="LOCATED_IN" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="these_Machado_Alberto_2018.json" />
+          <attvalue for="1" value="LOCATED_IN(1)" />
+        </attvalues>
+      </edge>
+      <edge source="channels" target="erosion" id="783" label="COMPOSED_OF" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value=". Sutton &amp; Mitchum, 2011.json" />
+          <attvalue for="1" value="COMPOSED_OF(1)" />
+        </attvalues>
+      </edge>
+      <edge source="erosion" target="sediments" id="790" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="Sedimentology - 2001 - Mulder - The physical character of subaqueous sedimentary density flows and their deposits.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="leveed-channel complex" target="mtds" id="804" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value=". Sutton &amp; Mitchum, 2011.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="surface" target="shape" id="921" label="RELATED_TO" weight="2.0">
+        <attvalues>
+          <attvalue for="0" value="fe8e4061e420c7a5c38e39e9774911c0.json" />
+          <attvalue for="1" value="RELATED_TO(2)" />
+        </attvalues>
+      </edge>
+      <edge source="surface" target="top surface" id="922" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="fe8e4061e420c7a5c38e39e9774911c0.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="surface" target="slope" id="925" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="fe8e4061e420c7a5c38e39e9774911c0.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="surface" target="critical toe circle" id="926" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="fe8e4061e420c7a5c38e39e9774911c0.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="surface" target="rates" id="934" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="UcayaliPeneplainPaleo3.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="figure" target="fraction" id="983" label="COMPOSED_OF" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="3-540-45054-8.json" />
+          <attvalue for="1" value="COMPOSED_OF(1)" />
+        </attvalues>
+      </edge>
+      <edge source="figure" target="structure" id="990" label="COMPOSED_OF" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="download.json" />
+          <attvalue for="1" value="COMPOSED_OF(1)" />
+        </attvalues>
+      </edge>
+      <edge source="figure" target="contact pressure" id="991" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="fe8e4061e420c7a5c38e39e9774911c0.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="figure" target="surface" id="993" label="COMPOSED_OF" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="These_Verney.json" />
+          <attvalue for="1" value="COMPOSED_OF(1)" />
+        </attvalues>
+      </edge>
+      <edge source="fraction" target="increase" id="1015" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="IPCCAR5SYR_Final.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="method" target="structure" id="1027" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="1291233.1291297.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="equations" target="vertical pressure" id="1035" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="fe8e4061e420c7a5c38e39e9774911c0.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="lines" target="surface" id="1045" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="fe8e4061e420c7a5c38e39e9774911c0.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="lines" target="horizontal" id="1046" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="fe8e4061e420c7a5c38e39e9774911c0.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="lines" target="stratigraphic surfaces" id="1047" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="these_Machado_Alberto_2018.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="figures" target="surface" id="1056" label="COMPOSED_OF" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="3-540-45054-8.json" />
+          <attvalue for="1" value="COMPOSED_OF(1)" />
+        </attvalues>
+      </edge>
+      <edge source="figures" target="contact pressure" id="1057" label="COMPOSED_OF" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="fe8e4061e420c7a5c38e39e9774911c0.json" />
+          <attvalue for="1" value="COMPOSED_OF(1)" />
+        </attvalues>
+      </edge>
+      <edge source="sedimentation" target="lateral fluid flow" id="1267" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="1-s2.0-S0012821X0700795qdzfgj9-main.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="sedimentation" target="values" id="1268" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="1-s2.0-S0277379106003507-main.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="rapid deposition" target="failure" id="1330" label="TRIGGERED_BY" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="1-s2.0-S0277379113001601-main.json" />
+          <attvalue for="1" value="TRIGGERED_BY(1)" />
+        </attvalues>
+      </edge>
+      <edge source="rapid deposition" target="slope" id="1331" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="1-s2.0-S0277379113001601-main.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="headwall" target="source area" id="1347" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="1-s2.0-S0025322712000412-main.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="velocity" target="horizontal components" id="1366" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="Journal of Geophysical Research  Earth Surface - 2007 - Mangeney - Numerical modeling of self‐channeling granular flows and.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="its slope" target="angle" id="1374" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="Journal of Geophysical Research  Earth Surface - 2007 - Mangeney - Numerical modeling of self‐channeling granular flows and.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="deposits" target="basal part" id="1387" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="BertonVesely2016b.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="deposits" target="units" id="1395" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="s10236-010-0317-z.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="sediment supply" target="susceptibility" id="1407" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="1-s2.0-S0277379106003507-main.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="clinoforms" target="maximum flooding surface" id="1425" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="Towards_the_Standardization_of_Sequence_Stratigrap.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="gradient" target="clinoforms" id="1439" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="BertonVesely2016b.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="basal shearsurface" target="section" id="1474" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="kinematicindicators2009.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="distance" target="earth pressure" id="1485" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="fe8e4061e420c7a5c38e39e9774911c0.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="ﬂuid overpressure" target="constant" id="1529" label="RELATED_TO" weight="2.0">
+        <attvalues>
+          <attvalue for="0" value="1-s2.0-S0040195109002819-main.json" />
+          <attvalue for="1" value="RELATED_TO(2)" />
+        </attvalues>
+      </edge>
+      <edge source="ﬂuid overpressure" target="angle" id="1532" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="1-s2.0-S0191814106000101-main.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="normal faults" target="upslope" id="1549" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="1-s2.0-S0191814106000101-main.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="effect" target="basal friction" id="1685" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="1-s2.0-S0191814112001290-main.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="presence" target="normal faults" id="1737" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="these_Machado_Alberto_2018.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="increase" target="input" id="1739" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="1-s2.0-S0277379106003507-main.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="increase" target="sedimentation rates" id="1740" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="Moscardelli_and_Wood_2008.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="deglaciation" target="sediment supply" id="1748" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="1-s2.0-S0277379106003507-main.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="deglaciation" target="sedimentation" id="1749" label="RELATED_TO" weight="2.0">
+        <attvalues>
+          <attvalue for="0" value="Submarine_mass_movements_on_glaciated_and_non-glac.json|1-s2.0-S0277379106003507-main.json" />
+          <attvalue for="1" value="RELATED_TO(2)" />
+        </attvalues>
+      </edge>
+      <edge source="continental margin" target="shoreline clinoforms" id="1752" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="PatrunoandHelland-Hansen2018-clinoformreview.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="faults" target="base" id="1770" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="s11001-011-9123-3.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="faults" target="role" id="1772" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="Submarine_mass_movements_on_glaciated_and_non-glac.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="faults" target="deformation" id="1775" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="Two-scale_gravitational_collapse_in_the_Amazon_Fan.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="load" target="failure" id="1784" label="TRIGGERED_BY" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="1-s2.0-S0277379106003507-main.json" />
+          <attvalue for="1" value="TRIGGERED_BY(1)" />
+        </attvalues>
+      </edge>
+      <edge source="load" target="pressure" id="1785" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="fe8e4061e420c7a5c38e39e9774911c0.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="load" target="contact pressure" id="1786" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="fe8e4061e420c7a5c38e39e9774911c0.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="sediment deposition" target="failure" id="1789" label="TRIGGERED_BY" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="1-s2.0-S0277379106003507-main.json" />
+          <attvalue for="1" value="TRIGGERED_BY(1)" />
+        </attvalues>
+      </edge>
+      <edge source="earthquakes" target="margin" id="1805" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="Submarine_mass_movements_on_glaciated_and_non-glac.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="event" target="sediments" id="1819" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="1-s2.0-S0277379106003507-main.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="rivers" target="sediments" id="1868" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="masson-et-al-2006-submarine-landslides-processes-triggers-and-hazard-prediction.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="state" target="pressure" id="1910" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="fe8e4061e420c7a5c38e39e9774911c0.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="pressure area" target="normal pressure" id="1930" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="fe8e4061e420c7a5c38e39e9774911c0.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="pressure area" target="effect" id="1931" label="COMPOSED_OF" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="fe8e4061e420c7a5c38e39e9774911c0.json" />
+          <attvalue for="1" value="COMPOSED_OF(1)" />
+        </attvalues>
+      </edge>
+      <edge source="pressure area" target="distribution" id="1932" label="COMPOSED_OF" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="fe8e4061e420c7a5c38e39e9774911c0.json" />
+          <attvalue for="1" value="COMPOSED_OF(1)" />
+        </attvalues>
+      </edge>
+      <edge source="means" target="earth pressure" id="1934" label="RELATED_TO" weight="6.0">
+        <attvalues>
+          <attvalue for="0" value="fe8e4061e420c7a5c38e39e9774911c0.json" />
+          <attvalue for="1" value="RELATED_TO(6)" />
+        </attvalues>
+      </edge>
+      <edge source="means" target="surface" id="1935" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="fe8e4061e420c7a5c38e39e9774911c0.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="means" target="pressure" id="1938" label="RELATED_TO" weight="3.0">
+        <attvalues>
+          <attvalue for="0" value="fe8e4061e420c7a5c38e39e9774911c0.json" />
+          <attvalue for="1" value="RELATED_TO(3)" />
+        </attvalues>
+      </edge>
+      <edge source="means" target="lateral pressure" id="1939" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="fe8e4061e420c7a5c38e39e9774911c0.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="means" target="slope" id="1941" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="s10236-010-0317-z.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="earth pressure" target="section" id="1949" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="fe8e4061e420c7a5c38e39e9774911c0.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="frontard" target="equations" id="1951" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="fe8e4061e420c7a5c38e39e9774911c0.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="critical toe circle" target="surface" id="2014" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="fe8e4061e420c7a5c38e39e9774911c0.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="abscissas" target="slope angle" id="2021" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="fe8e4061e420c7a5c38e39e9774911c0.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="abscissas" target="vertical pressure" id="2022" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="fe8e4061e420c7a5c38e39e9774911c0.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="abscissas" target="water pressure" id="2025" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="fe8e4061e420c7a5c38e39e9774911c0.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="section" target="margin" id="2055" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="these_Machado_Alberto_2018.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="surface tension" target="flow" id="2081" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="fe8e4061e420c7a5c38e39e9774911c0.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="surface tension" target="water" id="2082" label="RELATED_TO" weight="2.0">
+        <attvalues>
+          <attvalue for="0" value="fe8e4061e420c7a5c38e39e9774911c0.json" />
+          <attvalue for="1" value="RELATED_TO(2)" />
+        </attvalues>
+      </edge>
+      <edge source="water" target="surface" id="2092" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="SB_watershed.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="water" target="excess pore pressure" id="2093" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="Sedimentology - 2001 - Mulder - The physical character of subaqueous sedimentary density flows and their deposits.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="contact pressure" target="base" id="2099" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="fe8e4061e420c7a5c38e39e9774911c0.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="highest values" target="clinoforms" id="2110" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="PatrunoandHelland-Hansen2018-clinoformreview.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="process" target="top surface" id="2116" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="fe8e4061e420c7a5c38e39e9774911c0.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="process" target="sediments" id="2117" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="PatrunoandHelland-Hansen2018-clinoformreview.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="arrows" target="channels" id="2144" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="1-s2.0-S1367912012005299-main.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="arrows" target="faults" id="2145" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="1-s2.0-S1367912012005299-main.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="surface temperatures" target="constant" id="2169" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="IPCCAR5SYR_Final.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="change" target="structure" id="2218" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="Image Quality Assessment.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="active thrust faults" target="shortening" id="2325" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="kinematicindicators2009.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="active thrust faults" target="deposits" id="2326" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="Megaslides_in_the_Foz_do_Amazonas_Basin_Brazilian_.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="active thrust faults" target="sea ﬂoor" id="2327" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="Two-scale_gravitational_collapse_in_the_Amazon_Fan.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="fluvial" target="clinoforms" id="2378" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="PatrunoandHelland-Hansen2018-clinoformreview.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="shelf edge delta" target="continental margin" id="2405" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="PatrunoandHelland-Hansen2018-clinoformreview.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="shelf edge delta" target="mass transport complex" id="2406" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="Moscardelli_and_Wood_2008.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="shelf edge delta" target="sediments" id="2407" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="Moscardelli_and_Wood_2008.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="listric faults" target="sediments" id="2437" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="s003670050077.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="listric faults" target="sea ﬂoor" id="2439" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="Two-scale_gravitational_collapse_in_the_Amazon_Fan.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="basal conglomerates" target="basal part" id="2465" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="UcayaliPeneplainPaleo3.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="erosion surface" target="base" id="2472" label="RELATED_TO" weight="2.0">
+        <attvalues>
+          <attvalue for="0" value="Moscardelli_and_Wood_2008.json|Basin Research - 2016 - Ortiz‐Karpf - Mass‐transport complexes as markers of deep‐water fold‐and‐thrust belt evolution .json" />
+          <attvalue for="1" value="RELATED_TO(2)" />
+        </attvalues>
+      </edge>
+      <edge source="basins" target="local tectonics" id="2495" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="Matos2000TectonicEvolutionoftheEquatorialSouthAltanticAGUGeophMon115.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="basins" target="surface" id="2497" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="The_Nazca_Ridge_and_uplift_of_the_Fitzca.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="rates" target="sedimentation rates" id="2514" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="Towards_the_Standardization_of_Sequence_Stratigrap.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="surface slope angle" target="deformation" id="2799" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="JGR Solid Earth - 2013 - Mourgues - The Coulomb critical taper theory applied to gravitational instabilities.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="surface slope angle" target="values" id="2800" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="JGR Solid Earth - 2013 - Mourgues - The Coulomb critical taper theory applied to gravitational instabilities.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="stratigraphic surfaces" target="base" id="3000" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="Moscardelli_and_Wood_2008.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+      <edge source="pliocene deposits" target="tidal miocene deposits" id="3206" label="LOCATED_IN" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="The_Nazca_Ridge_and_uplift_of_the_Fitzca.json" />
+          <attvalue for="1" value="LOCATED_IN(1)" />
+        </attvalues>
+      </edge>
+      <edge source="pliocene deposits" target="change" id="3209" label="RELATED_TO" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="The_Nazca_Ridge_and_uplift_of_the_Fitzca.json" />
+          <attvalue for="1" value="RELATED_TO(1)" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

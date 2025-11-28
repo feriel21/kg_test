@@ -1,0 +1,3023 @@
+[
+    {
+        "element_id": "7eb3ae48499c880055adc17a98eb6e74",
+        "text": "SEGMENTATION OF A SEISMIC SECTION \nUSING IMAGE PROCESSING AND ARTIFICIAL \nINTELLIGENCE TECHNIQUES",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                135.60003662109375,
+                99.99208068847656,
+                417.864990234375,
+                146.85206604003906
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4417108241706f8b044f803adcbf3e08",
+        "text": "P. L. LovE* \n., \nExploration Research, Gulf Research & Development Co., P.O. Box 37048, Houston, TX 77236, U.S.A.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                98.4000244140625,
+                155.48944091796875,
+                455.089599609375,
+                179.5753631591797
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e3b3783933d998eabe7a43f5f0e0ddce",
+        "text": "and",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                268.32000732421875,
+                190.2894287109375,
+                284.1511535644531,
+                202.13536071777344
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "470d8af993f6fd2d1c09e7a29318c01c",
+        "text": "M. SIMAAN \nInteractive Computing Laboratory, Department of Electrical Engineering, University of Pittsburgh, \nPittsburgh, PA 15261, U.S.A.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                94.80001831054688,
+                210.44940185546875,
+                456.4078369140625,
+                243.6553192138672
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e04018897ed9ffc9d5eb2204a0604c9d",
+        "text": "(Received 7 December 1984; received for publication 5 March 1985)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                163.19998168945312,
+                253.16937255859375,
+                390.72149658203125,
+                265.0152893066406
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "325f3538ef939e8636b4b17c6eee48a8",
+        "text": "Abstract--Methods for segmenting stacked seismic data into zones of common signal character based on \ntexture analysis are described. Their performance is demonstrated on a line of seismic data from the Gulf of \nMexico that had been manually segmented. Two segmentation methods are described. The first is a template \nmatching scheme that matches previously selected data templates with a block of pixels. The second uses \nstatistics determined by examining the run-length of seismic reflection events. The run-length method is \nextended, through a decision process called the RESOLVER, to incorporate heuristic rules to influence the \nsegmentation. A comparison is made between the automatic segmentations of the section and a manual \ninterpretation.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                94.55996704101562,
+                274.04937744140625,
+                459.05902099609375,
+                349.4952697753906
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8f1ef79d18eae325b069df24571dd6f2",
+        "text": "Texture analysis \nRun-length \nArtificial intelligence \nTemplate matching \nSeismic sections \nImage processing",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                94.56006622314453,
+                358.76934814453125,
+                446.9911804199219,
+                379.7352600097656
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9695ad0666fa08e091ac997b8d3bb488",
+        "text": "!. INTRODUCTION",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                134.8800506591797,
+                405.08935546875,
+                203.559814453125,
+                416.9352722167969
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bd5b7c7e0e5484792bcb73e46af3b2e6",
+        "text": "Two methods commonly used in the texture analysis of \nimages are adapted to the segmentation of stacked \nseismic sections into zones of common signal charac- \nter. The first of these matches a set of selected texture \npatterns with a block of pixels. The second method \nuses statistics generated from the run-length of re- \nflectors to segment the image. This latter method is \nthen extended to take into account geologic and \nstructural information in the section that a human \ninterpreter usually uses to guide and constrain a \nmanual segmentation. The algorithm which applies \nthese constraint rules is similar to rule-based search \nmethods commonly used in artificial intelligence \napplications. \nLarge zones with common seismic signal character- \nistics can be recognized on stacked seismic data from \nthe Gulf of Mexico. Figure I shows a manual segment- \nation of a portion of a Gulf of Mexico seismic line into \nfour character zones. It is believed that these regions \ncontain some geologic information. In particular, \nlarge-scale tectonic events have effects on image tex- \nture. These events include salt diapirs, shale ridges and \nregions of intense faulting. Further examination of the \ngeologic meaning of large-scale character changes",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                64.80005645751953,
+                425.2493591308594,
+                274.43804931640625,
+                692.2152709960938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1ad67b1029b0feef0f3c15dc63a44c35",
+        "text": "The template matching approach has received con- \nsiderable attention in the image processing literature \nas a tool for scene understanding and texture \nanalysis. (2-4) If the signal character and hence texture \ncan be captured in one or more templates extracted \nfrom each region in the image, it would then be \npossible to classify every pixel in the section by \n* Present address: ALCOA Technical Center, ALCOA \nCenter, PA 15069, U.S.A. \n409",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                66.48011779785156,
+                644.1293334960938,
+                492.5904846191406,
+                738.2952880859375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b65b372f88efb00044f31508c9e542fb",
+        "text": "requires the segmentation of large regional areas \ncontaining many miles of seismic data. The manual \ninterpretation of such areas is difficult to perform in a \nregionally consistent manner. This motivates the de- \nvelopment of an automatic analysis method. \nThese character zones are larger spatially than a \ntypical segmentation of a seismic section based on \nseismic stratigraphy. (I) Seismic stratigraphy asserts \nthat zones of common seismic signal character are \nrelated to the geologic environment in which their \nconstituent sediments were deposited. Different depo- \nsitionai environments lead to differences in reflector \ngeometry, lateral variability in reflector strength and \ncontinuity. Automatic seismic stratigraphy is a more \nambitious image processing problem than the pro- \nblem discussed in this paper. This work might be \nconsidered a preliminary investigation of such a \ntechnique with more limited goals.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                282.7200622558594,
+                403.1693420410156,
+                490.3645935058594,
+                604.8552856445312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "36e2c1d788e437968f604d4ac12a9874",
+        "text": "il. TEMPLATE MATCHING FOR SEGMENTATION",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.92010498046875,
+                624.2092895507812,
+                475.2306823730469,
+                636.0969848632812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6e64c0bac79eabed868a092969891628",
+        "text": ";'ig. I. A piece of stacked seismic section from the Gulf of Mexico. A manual interpretation of four large regions of common signal characler is shown by the dark lines,",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                99.84002685546875,
+                450.48095703125,
+                683.448974609375,
+                461.7825622558594
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "072be5b689871b186e37a8cc92292fc0",
+        "text": "m",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                744.9600219726562,
+                96.26494598388672,
+                746.7145385742188,
+                99.25654602050781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "14cc84f69655c326f84a7b01165c4e0e",
+        "text": "/:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                743.0400390625,
+                306.64752197265625,
+                750.072265625,
+                317.532958984375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f598c3b01960d83e9b9b9c0e905533cb",
+        "text": "7.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                743.0400390625,
+                341.37286376953125,
+                748.080078125,
+                348.0962219238281
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4dd4646053604b406982f93bdbdb7512",
+        "text": "matching its local texture, as characterized by the \nseismic data in its neighborhood, to these templates. In \nthis section we propose a least-squares approach for \ntemplate matching where the neighborhood around \nthe pixel to be classified is expressed as a linear \ncombination of the templates. The expansion coeffi- \ncients are simply calculated by applying a template- \ndependent filter (or mask) on the data• They are then \nused, along with a measure function, to arrive at a \nclassification of the pixel in question. \nLet W~, i = 1 .... , N be a set of N templates (selected \nby an expert from an already interpreted section) \nrepresenting the various textures present in the seismic \nsection. More than one template can be chosen from a \ngiven region. Each template is chosen as an archtype \nfor a particular expression of texture• The set of \ntemplates for a given region is intended to capture the \nrange of variability of texture in that region. It is also \nimportant that templates from one region have low \ncorrelation with templates from the other regions• This \nseemed to be generally true and did not greatly \ninfluence the final template choice. Templates were \nchosen by trial and error to maximize the number of \ncorrect classifications in each region• \nEach template is assumed to be an n × m matrix of \ndata pixels. It is also assumed that the section is \ncomposed of M distinct regions and that the templates \nare indexed such that I~ represents the set of indices ofi \nwhich correspond to region k. Thus the templates { W: \nM \ni ~lk} belong to region k, and ~ I~ (the union of the",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                64.56001281738281,
+                61.64936065673828,
+                273.2654724121094,
+                400.6151428222656
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9479756cbb142d13fffdbea0ab3bef87",
+        "text": "k=l \nsets of templates) = {i: i = 1 ..... N} (the set of all \ntemplates). \nIn order to establish a framework within which a \npixel x in the section can be classified, we consider a \nmatrix X of n time-samples and m space-samples \naround pixel x. It is well known that the set of n × m \nmatrices of real numbers equipped with the inner \nproduct:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                64.56007385253906,
+                401.2703552246094,
+                272.7823181152344,
+                495.8951721191406
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "963aa6dc2dd5fc424828b0f965742cc5",
+        "text": "<x, r> = \n,r X'Y \n= \n(1)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                104.16004943847656,
+                505.9123229980469,
+                271.3247985839844,
+                520.92431640625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1785beefa999c078cc8986643f76f0d9",
+        "text": "i=lj=l",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                182.88006591796875,
+                519.254638671875,
+                200.16221618652344,
+                526.9384765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5d70dea7f24423530b5108eff88fd402",
+        "text": "forms an inner product space. Let S denote this space \nand let Ilgll = x/(S, X) denote the standard norm \ndefined on this space. Now consider the set ~ of \nmatrices whose elements can be written as a linear \nN \ncombination of the form ~ a~Wi, where a~ for i = I,",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                65.28009033203125,
+                544.769287109375,
+                273.50555419921875,
+                606.2952270507812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9fb3b9fa4e56010f830d3562ecedc5b3",
+        "text": "i=l \n.... N are real numbers. Clearly ,,¢ is a subset orS. Based \non the projection theorem, ~5) with non-orthonormal \nbasis, a matrix X in S can be approximated in a least- \nsquares sense by a matrix",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                65.04014587402344,
+                607.1904296875,
+                273.1182556152344,
+                656.6952514648438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5d037ca922dd22042c919e8cbce56ceb",
+        "text": "N \n,f = Y. a,W,",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                142.0801544189453,
+                661.0946044921875,
+                194.6261749267578,
+                678.677490234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "43ac5617cc81b8a992c337b1117cf42f",
+        "text": "i=l",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                162.24014282226562,
+                678.6146240234375,
+                171.5292205810547,
+                686.2984619140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c777d54bbee43d15a7b43b7fc533947d",
+        "text": "in ,~ such that II X - ,,~ H is minimized, if the coefficients \na~ ..... a~ are selected to be the solution of the linear \nmatrix equation:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                64.80014038085938,
+                689.249267578125,
+                272.9425964355469,
+                722.6952514648438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "07abe9f04a951f44f8a3e29ce86ea23e",
+        "text": "(WJ, \nWI> \n... ((WI, WN) \n] aIil",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                284.6401062011719,
+                30.276744842529297,
+                456.61456298828125,
+                90.84026336669922
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "02fc52b607e25edefa14fa75b2196213",
+        "text": "I",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                282.2401123046875,
+                49.41048812866211,
+                303.6246337890625,
+                132.17808532714844
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "02fc52b607e25edefa14fa75b2196213",
+        "text": "Ew,,, w,> \nw.>l I",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                282.2400817871094,
+                49.5660400390625,
+                442.39752197265625,
+                134.9928436279297
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6cd17f1d519c8a3d0eb9f217a816b381",
+        "text": "X, Wj 1 \n.(2)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                428.40008544921875,
+                64.95674896240234,
+                483.7644348144531,
+                101.73988342285156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6047817a691eac838dcb2afd38a8a041",
+        "text": "• \n. \n(2 2",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                308.6401062011719,
+                82.86265563964844,
+                402.0982666015625,
+                89.1576156616211
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "234e15bab417ff9f7871cae22d07766b",
+        "text": "Note that the ijth entry of the N x N matrix in (2) is \nessentially the zero shift cross-correlation between the \nith and jth templates. The inverse of this matrix needs \nonly be determined once, and when applied to the \nright-hand side of (2), yields an expression for the ith \ncoefficient as follows:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                280.79998779296875,
+                135.329345703125,
+                487.2994384765625,
+                202.1352996826172
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "645f22ac29125e067e524de697bf91a6",
+        "text": "a~=(X, Fi), \ni= 1 ..... N \n(3)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                331.44000244140625,
+                200.79684448242188,
+                492.9840393066406,
+                232.3748321533203
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fe72ff72a8c378b40b949a2d90044498",
+        "text": "where",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                282.0,
+                231.32940673828125,
+                306.47186279296875,
+                243.1753387451172
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f52b40a4c8e79c23d6fe0ab909e92038",
+        "text": "N \nF~= ~ h OWj, \ni= I ..... N \n(4)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                327.6000061035156,
+                248.05477905273438,
+                487.6138916015625,
+                265.7353210449219
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7ba9ea584e25178f9ac63320f71d3ea1",
+        "text": "j=l",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                347.51995849609375,
+                266.63055419921875,
+                358.0050964355469,
+                273.3704528808594
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2f5e4ba7854d753954bb1cc76b070035",
+        "text": "is a template dependent mask. The term h o in (4) \ncorresponds to the ijth entry of the inverse of the cross- \ncorrelation matrix appearing in 12). Thus, the approx- \nimation of the neighborhood matrix X of the pixel \npoint x can be written as",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                281.7599182128906,
+                276.4494323730469,
+                487.8538513183594,
+                332.4553527832031
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "786f36c42c76b79bf5291c0f458c2129",
+        "text": "N \n,~ = ~ \n(x, F,) W,. \n(5)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                344.8799743652344,
+                337.0948181152344,
+                487.073974609375,
+                356.0281677246094
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5ed0f295d2b11a0761d610b76543d331",
+        "text": "i=l",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                364.5599670410156,
+                356.3905944824219,
+                375.04510498046875,
+                363.1304931640625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5cea6732b705b86ddff1673f807eef56",
+        "text": "In order to perform the classification, the projection \nmatrix )~k of X on the subspace ~ and the projection \nangle Ok between X and ,~ are given by the following \nexpressions which are a direct consequence of the \nprojection theorem: 5)",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                281.7599182128906,
+                366.689453125,
+                488.5116882324219,
+                422.6954040527344
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "260b26bc59c35316023eb77a084b4cd1",
+        "text": "a°k = Y\" <X, Fi> W i \n(6)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                344.8798828125,
+                428.6094970703125,
+                487.6138000488281,
+                440.4554138183594
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4065a17fdb2904228619d9f5b638de7e",
+        "text": "ie I i",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                367.91986083984375,
+                441.59063720703125,
+                378.755615234375,
+                448.3305358886719
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "500c4d9c5e1c6edf075871c9a0b1d6ba",
+        "text": "and",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                281.9998474121094,
+                450.4494934082031,
+                297.66357421875,
+                462.29541015625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "20f7104f5caa60ef240b52e9b871c821",
+        "text": "O~ = cos- ~ (X, gk) \nII X II If gk I1\" \n(7)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                339.35986328125,
+                472.84942626953125,
+                487.0738525390625,
+                494.5082092285156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "511f327b9c1713504ded440e1cea3f7e",
+        "text": "Classification can now be done based on any of the \nfollowing measures. \n(a) Largest projection norm. x is classified as belong- \ning to region k* if l[,~. [I >/ II Xk II for k --- 1 ..... M.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                281.9998779296875,
+                498.20947265625,
+                488.05389404296875,
+                543.8200073242188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "50ac17f8f326eaede95b7b78b22911f1",
+        "text": "(b) Smallest error norm. x is classified as belonging \nto region k* if ][ X - \"~k\" II ~< II X - gk It for k = 1 ..... \nM. \n(c) Smallest projection angle, x is classified as be- \nlonging to region k* if 0 k. ~< 0~ for k = I ..... M.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                282.23992919921875,
+                545.4894409179688,
+                488.334228515625,
+                601.2554321289062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "984a31d92d472a79aa4db92f129c5d60",
+        "text": "In all these cases, in order to control the effectiveness \nof the classification, a threshold level can be imposed in \naddition to the measure requirements. For instance, \nthe inequalities II g~. II t> ~, II X - gk. II ~</~ or 0~' _< 7 \nmay be imposed in addition to the above measures \nrespectively in order for the pixel to be classified. If the \nthreshold requirement is not met, the pixel is left \nunclassified. In practice it has been found that the \nsmallest projection angle is more effective than the \nother measures. \nAs a final point, note that because a seismic section",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                280.079833984375,
+                602.3694458007812,
+                487.0440673828125,
+                723.8954467773438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fd92de559023f21f645546e9c5bd7428",
+        "text": "tends to have layered reflections, it may be possible \nthat two pixels x, and x 2 in the same region, belonging \nto the same trace, but slightly separated in time, could \ngive drastically different expansion coefficients a~. This \nis an indication that the masks F~ in (4) can be sensitive \nto slight shifts in time on the section. In order to \novercome this problem, blocks of pixels are classified \ninstead of individual pixels, This is done by classifying \nevery pixel in the block using the projection-angle \nmeasure, and then assigning the entire block to the \nregion which receives the largest number of pixel \nclassifications. This sliding of the template over the \nblock of data is equivalent to cross-correlation. A very \nfast algorithm to implement this technique can be \ndeveloped by multiplying the template, and a panel of \ndata consisting of a large number of blocks, in the \nfrequency domain. \nBefore discussing an application of this method to a \nspecific real data example, we will discuss another \nsegmentation method based on the concept of run- \nlength.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                65.2799072265625,
+                65.95663452148438,
+                272.45587158203125,
+                299.642578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ff6a6619dba012bca0f99d1ae81d38fb",
+        "text": "IlL RUN-LENGTH SEGMENTATION",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                107.27992248535156,
+                321.15283203125,
+                232.70970153808594,
+                331.39794921875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "39d0b13f49c08fad07f5ce7e86557ca9",
+        "text": "Among the wide variety of features used for texture \nanalysis, gray-level run length has been used in only a \nfew applications. ~6 7j A gray-level run is defined as a \ncoilinearly connected set of pixels all having the same \ngray tone. The length of the run is the number of pixels \nin the run. Previous applications have extracted run \nlengths by making one-dimensional scans across an \nimage at a few angles. Statistics calculated from these \nrun lengths have been used to segment or identify the \nimage. \nParticular characteristics of seismic sections must be \nconsidered in the design of a run-length algorithm for \nseismic data. First, runs on a seismic section corre- \nspond to reflections many of which tend to be nearly \nhorizontal. The algorithm used here finds run lengths \nalong reflection events for a range of angles centered \non zero degrees. Second, a seismic section is com- \nplicated by the wide range of positive and negative \npixel values. To simplify the image, amplitude values \nlarger than a positive threshold are replaced by 'ones' \nand values less than the threshold are replaced by \n'zeros'. The result is a binary gray-tone level image \nwhere the 'ones' correspond to the dark streaks \n(positive reflections) in the section. Our run-length \nalgorithm operates on this simplified image. \nThe amplitude threshold was chosen by examining \nbinary images for a range of thresholds. The threshold \nshould be low enough so that the image retains texture \ncharacter but high enough to insure that the noise does \nnot create artificial runs. A value somewhat close to the \nmean of the histogram of amplitude values was used in \nour numerical tests. The results of the algorithm are \ninsensitive to changes of + 30% in this value. It is \nexpected that a single value could be used for seismic \nlines of similar acquisition and processing.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                66.47994995117188,
+                339.7965087890625,
+                273.3894958496094,
+                727.0826416015625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "28b761cbc045e6f5e708f5c774757e44",
+        "text": "Because of the large amount of data in a regional \nseismic survey it is essential that the run-length \nalgorithm can be stated in an efficient vector-oriented \nform. To explain the algorithm we begin by assuming \nthat every run in the image is horizontal. The al- \ngorithm is composed of a 'look-forward' and a 'look- \nbackward' loop. If Rr(i) is a component of a vector of \nrun lengths at the Kth horizontal location indexed by \nthe vertical pixel value i, and if Tr(i) is an element of the \nvector of pixel values at that location, then the look- \nforward loop is defined by:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                279.11993408203125,
+                65.47659301757812,
+                484.70709228515625,
+                188.04251098632812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "06db80f9699f48710f006c538d624670",
+        "text": "Re = TK + (Tr ° Tr + l) + (TK • TK + I • TK + :) +",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                278.63995361328125,
+                197.15963745117188,
+                472.8111572265625,
+                207.1230010986328
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7f5cbe981e7e1da149db7be34751d4f9",
+        "text": "• ..+(TK•TK+I \n•TK÷:...Ts) \n(8)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                339.119873046875,
+                211.15646362304688,
+                483.4424133300781,
+                223.32254028320312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d6d0b91e7bb4b498a2fd6033d53e0312",
+        "text": "where N is the number of horizontal locations in the \nimage and the operation • represents element by \nelement multiplication. Similarly, the look-backward \nloop is",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                279.5998229980469,
+                231.07644653320312,
+                484.47698974609375,
+                276.842529296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4b49ccf98feaed1ef7bba3ad5a676ed4",
+        "text": "R~. = T r + (TK• TK_I) + (TK• Tr_ ~ • Tr_2) +",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                279.3597717285156,
+                284.1418762207031,
+                474.312744140625,
+                295.70220947265625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f6f3e596ab08d2f64f383eab56ff45d7",
+        "text": "• ..+(TKOTK_IOTr_2...TI). \n(9)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                338.1597900390625,
+                299.9564514160156,
+                483.9949035644531,
+                312.1225280761719
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bb044b7e960395ccbd365a60c5f86e24",
+        "text": "In (8) and (9), the vertical index i has been suppressed. \nThe final run-length result is the sum of the two loops. \nThat is, Rr(i) = \nRe(i) + \nR~.(i) is the number of \ncontiguous 'ones' on either side of this location. \nTo generalize this algorithm to allow non- \nhorizontal reflectors it is necessary to define a vector \noperation (,) as shown in Fig. 2. When positive signals \noverlap in time the operation outputs a positive signal \nfor the duration of the overlap of both signals. When \nthey do not overlap, the operation corresponds to the \n'and' operation in Boolean algebra. Computationally \nthe (,) operation is the successive addition of shifts and \nmultiplies with all non-zero output samples norma- \nlized to one. The shifts are done to account for sloping \nreflectors over a range of slope (dip). The quantity \nT 1 • (T l • T2)is then equal to those pixels of T~ which \ncorrespond to pixels of T2 over a range of reflector dip. \nIn our numerical examples we have used a range of dip \nof _+45 °. We translate this into the appropriate \napparent dip on the seismic image. The look-forward \nloop is now modified to: \nRUN LENGTH CALCULATION",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                279.83966064453125,
+                317.7164611816406,
+                485.5180358886719,
+                570.6522827148438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4de8d5aeea281293b9f087a59ec737ab",
+        "text": "LOOK \n-- \nFORWARD",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                337.43963623046875,
+                570.9126586914062,
+                416.7184753417969,
+                580.49658203125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fd592fb5835a21097240ea6ec75be6be",
+        "text": "R ~ -T. -T. • T, *T. \n÷T. • T. * T,. • T,. *T,. \n• ... \nK\" K \nK (K \nK*I) K ( K (K1 ( K1 \nK 2))) \n-;-:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                283.67962646484375,
+                584.3430786132812,
+                476.7269287109375,
+                645.1734619140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2e5cb237c17aa6f0c6bbeb972ddfbc0c",
+        "text": "Fig. 2. A depiction of the (*) operation in the run-length \nalgorithm.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                280.55975341796875,
+                706.2765502929688,
+                485.5303039550781,
+                727.5626220703125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c073e97f83156436ed23888567ff89af",
+        "text": "~A \nA \nAAA \nxx \nDxxxxxxx~x~xDxxxOD~ \n~ \nxD \nxxDx \nA\n~\nA\n \nxxxxxxxxxxxxxxx \nD~OXO~DXXAXX \nXAXXX \n~\n/\n \nA~-\"~k4,~kKXXXXXAADAXXXXXXAX \n~XXX~A~~A~ \n& ~ & &  \n/ \n\\ ~ & - - ~ ^ X X X ^ ~ ^ ~ x x ~ x X X X X I ! I X X X ~ X ~ \" ~ E ~ X  \n\" \nXX~ \n[ \n\\ \n&Ab~xxxxxAxxxxxxx~xxxxx~xxxxxxxx \nxx \n~ \n\\ ~&~kx~xxxxxxxx~ \n~ x ~  \nx\n~\n~\n \ntt~t.~'~ I \n\\ \n~b~xxxxx~xx \n~&~ \n~XX~X~XXXA \n• \nI \n\\ \n~\nA\n~\nx\nx\nx\nx\nx\nx\nx\nx\n~\n6\n~\n~\n~\nx\nx\n \n~4~6 \n/ \n\\ 6666666xxxxx64666666_4.'6-zs6~aa~xhx \nX6 \n/ \n\\.,..6666666xxxx6666646~66666666~6X~ \n666 \n/ \n\\ ~ r d g 4 ~ x x x 6 ~ ~ 6 6 x  \n664666466 \n/ \n~ 66 \n6 \n66666466646666 \n64 \n/ \n] \n&666666&66666 \n6_i~46664XX~6666 \n66 \n/ \n[ \n666A666~664 \n/qg4\"x66646X~6 \n666/ \n[ \n~66466X6~64 \n~6 \n6~6466666646 \n666/ \nI \n~\n6\n4\n~\n6\n \n[ \n66 ~644666446 \n6461 6 \nI \n6666~666 \n]6 \n~646~666m6 \n66~64 \n~6~66~4466 \n/ \n6&64666&66~ \n66~6 \n~ \n6666466666 \n/ \n6 \n~664466666 \n46~6 \n6 \n6\\ \n66666466 \n6 \n/4 \n446~6466666666 \n66~ \n66 \n~ \n666646 \n66 \n/6 \n6 \n~66666666 \n4\" \n6\n6\n~\n~\n6\n6\n \n~ \n466666 \n6 \n/6 \n&6666~.~ \n646 \n66~66 \n666 \n~ \n&6666~_/b/ \n666~66\\66666666 \n66 \n666 \n6",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                127.92001342773438,
+                63.0895881652832,
+                425.5423583984375,
+                209.47280883789062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "140bd0491392c2170e3b7418b650cd88",
+        "text": "= REGION1 \nXffiREGION2 \n&ffiREGION3",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                141.11996459960938,
+                217.88961791992188,
+                293.1983337402344,
+                227.14305114746094
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7a4e56b7a00e19529c376d26775cd154",
+        "text": "Fig. 3. The classifiod section based on the template-matching algorithm. The [] symbol indicates a block of \npixels classified as region 1. The x indicates region 2 and the A region 3. The dark lines overlay the manual \ninterpretation shown in Fig. 1.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                94.07992553710938,
+                236.34393310546875,
+                457.3235778808594,
+                267.3101501464844
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "68d074c5013048f7e3ca1f78bba39a11",
+        "text": "R~ = T r + Tx o (Tx , Tx + I) +",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                65.99993896484375,
+                284.2563171386719,
+                190.85565185546875,
+                293.63360595703125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8bf8c1478265de19e21dc13985616d1d",
+        "text": "T x • (Tx * (Tx+ 1 • (Tr + 1 * Tx+2))) + ...",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                90.47996520996094,
+                301.53631591796875,
+                249.7895965576172,
+                310.9136047363281
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3aa59899a63e497093d03b964602b362",
+        "text": "+ Tr * (T~ * (Tx+ I • (... (TN- 1 * TN) ...))). (10)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                89.03997802734375,
+                315.7839050292969,
+                274.2616882324219,
+                328.3788757324219
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c9eb9f257a27f2755dea5ebcc4261f58",
+        "text": "Similarly the look-backward loop is modified to:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                65.99995422363281,
+                334.6601257324219,
+                258.0918884277344,
+                346.051025390625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f1841db108ede40a3be00d9cf3c63a51",
+        "text": "R~ = T K + T~O(Tx* \nTr_ l) +",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                65.99995422363281,
+                352.89630126953125,
+                190.85565185546875,
+                362.2735900878906
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e7a33a93cf70b8d5f89e4b06963fb7c9",
+        "text": "TK • (Tr * (Tx- I • (Tx_ l * Tx-2))) + ...",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                84.9599609375,
+                369.0511779785156,
+                248.17185974121094,
+                379.7388610839844
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "27b5de61ae51cd2ddaecc250cbaf95eb",
+        "text": "+ TKo(Tx,(TK_Ie(...(T~,TI)...)) ). (II)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                85.67997741699219,
+                384.82012939453125,
+                269.8464050292969,
+                396.2110290527344
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0caf122f2ed4a55ced1490806bcd2e6a",
+        "text": "In order to apply the run-length algorithm to \nsegmen! the seismic section, the pix¢l values Tx{i) are \nreplaced by an array of run lengths Ra(i) of the same \nsize. Statistics are then calculated over blocks of this \nrun-length array. Although it is possible to use many \nstatistics, it was found that the RMS-avvrage-run- \nlength and the avvrage-vertical-spacing-bctwcen-runs \nwere the most useful for classification. These arc \nintuitively natural variables since they are a measure of \nthe lateral continuity and dominant frequency of the \nreflectors. Based on these statistics, segmentation can \nbe accomplished by establishing threshold cuts as- \nsociated with each of the various character regions on \na two-dimensional scatter plot of these two statistics.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                65.76002502441406,
+                401.380126953125,
+                276.7221984863281,
+                556.2910766601562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f905821a769aff201123744eef11a1ee",
+        "text": "IV. EXAMPLE",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                143.52005004882812,
+                572.2056884765625,
+                191.79075622558594,
+                582.130615234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b12bb691f5575758c8cca3c0f9d1394a",
+        "text": "In this section, we consider an example of a real \nseismic section which is segmented manually by an \ninterpreter, and automatically using the template \nmatching and run-length algorithms. \nThe Gulf of Mexico stacked seismic section shown \nin Fig. 1 consists of 750 vertical time samples at 8 msec \nsampling period and 1200 horizontal distance samples \nat i 10 fcct sampling period. The manual interpretation \nof this section identifies four regions labeled 1-4 as \nhaving different signal character. For instance, region \nI is characterized by having short horizontal reflectors \nwith varying degrees of vertical spacing. Regions 2 and",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                64.56002807617188,
+                590.3439331054688,
+                271.6514587402344,
+                723.3101806640625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7e573cc45bd66031cc515e5e66d39961",
+        "text": "3 both have long continuous reflectors, with region 2 \nhaving, on the average, a smaller vertical spacing \nbetween them. Region 4, on the other hand, is charac- \nterized by chaotic reflections and line noise with \nvariable orientations. \nGeologically, the top of region 4 represents roughly \nthe base-of-reflectors in the Gulf of Mexico. It includes \nshale ridges and salt. domes. The progression from \nregion 1 to 2 to 3 is influenced by the general \ncompaction of sediments with depth. \nThe results of applying the template-matching al- \ngorithm to the section shown in Fig. I is displayed in \nFig. 3. Three templates per region were chosen from \nthe section for the analysis. The square box symbol (F-]) \nindicates region 1, the cross ( x ) region 2, the triangle \n(A) region 3. The lines drawn on Fig. 3 are the \nsegrnentation boundaries from the manual interpret- \nation shown on Fig. 1. The algorithm finds that most of \nregion 4 does not correlate well with templates from \nany region and thus it is easily classified. That is, region \n4 corresponds in almost all cases to the unclassified \npart of the image. There are some isolated unclassified \nblocks which do not correspond to region 4. \nIn general, this algorithm tends to confuse structural \ndip with signal character. Thus a large part of region 2 \nis classified as region 3. Similarly the classification of \nregion I is very sporadic, probably due to the varia- \nbility of the signal across the region. \nFigures 4-6 show the results of applying thc run- \nlength algorithm. Figure 4 shows the binary image \nobtained from Fig. 1 by applying a threshold on the \ndata. Clearly this image has preserved the horizontal \nrun-length characteristics of the original image. The \nrun-length statistics as applied to Fig. 4 are shown on \nFi& 5 along with straight-line boundaries used to \nclassify the data. These boundaries have been chosen \nmanually by examining where points, corresponding \nto blocks from a given region of the image, cluster in \nthis two dimensional parameter space. These same \nboundaries would be used to classify other seismic",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                282.72003173828125,
+                282.18389892578125,
+                489.8824157714844,
+                725.4701538085938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7082d232c8a31a6355da8263142b80d4",
+        "text": "t-J",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                55.68000030517578,
+                172.9055938720703,
+                63.690006256103516,
+                179.3087921142578
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fa22cb2babcdeafa6111c287c99e5084",
+        "text": "'.O",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                57.599998474121094,
+                226.1855926513672,
+                65.76959991455078,
+                232.5887908935547
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "be02f67450dc4efa02ee1ff51bcd220e",
+        "text": "b.D",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                57.599998474121094,
+                278.02557373046875,
+                66.40560150146484,
+                284.42877197265625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fb679585b96a8d575cf6f171996ed2a3",
+        "text": "5.{J",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                55.68000030517578,
+                386.02557373046875,
+                65.61119079589844,
+                392.42877197265625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "090f06eac495927cc1c6ea8ccac8ec3b",
+        "text": "rig. 4. The binary image obtained by applying a threshold to Fig. !.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                272.6400146484375,
+                455.0303955078125,
+                505.4651184082031,
+                466.6643981933594
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a08e10825050dc423f44b4f49748d292",
+        "text": "-t",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                743.0399780273438,
+                293.8655700683594,
+                747.1727905273438,
+                300.2687683105469
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "18d81ee71f8d0785f327d992e09053b8",
+        "text": "g \nt.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                743.0399780273438,
+                323.8655700683594,
+                747.25439453125,
+                334.3487854003906
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9b14372644bb75a46d0eb6f68bebff98",
+        "text": ", \nSegmentation of a seismic section",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                198.24000549316406,
+                61.99047088623047,
+                337.5233154296875,
+                73.62447357177734
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "526c1ff0a77695edd7a9bb6b4d47e8a7",
+        "text": "58.8",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                176.8800048828125,
+                89.82205200195312,
+                189.3835906982422,
+                96.74700927734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b31336aee3fceb59e47100f22ddc4a06",
+        "text": "lgg.ll \n158.g \n288. g \n25ll. 8",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                238.55999755859375,
+                89.84725189208984,
+                442.08270263671875,
+                96.7873306274414
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "47ba70b17989ebd3424540225b839553",
+        "text": "8.8",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                115.68000030517578,
+                89.93286895751953,
+                125.37001037597656,
+                96.6562271118164
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ab81b8eb38ad635ad4091f3d3c5b3185",
+        "text": "i",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                183.60000610351562,
+                112.73291778564453,
+                186.26112365722656,
+                119.4562759399414
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ca6988e9e3b76af5bb7aa5dd12205e6c",
+        "text": "£.g \n- \nZ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                82.80000305175781,
+                138.80001831054688,
+                117.57215881347656,
+                170.7029571533203
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "86a4d7b296f43e596d83bf65aaee0857",
+        "text": ".m \n, \nm",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                184.0800018310547,
+                160.62203979492188,
+                209.187255859375,
+                172.38731384277344
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0232af17e77966afd4b533ed1a732f89",
+        "text": "m \n• \nm \nm",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                231.60003662109375,
+                164.94204711914062,
+                266.82354736328125,
+                177.38702392578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e008d456491b487f7369b29431f42fcc",
+        "text": "O \n<",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                82.80000305175781,
+                172.39999389648438,
+                93.95136260986328,
+                197.3240203857422
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "49ac64c64e42bc607e871dbfdc857251",
+        "text": "I \nm",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                161.27999877929688,
+                204.06204223632812,
+                175.38272094726562,
+                210.98699951171875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6727cbb1982c27572d4d1d50dabcbcb5",
+        "text": "m \nj \n., \n< \no \n;",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                82.80000305175781,
+                217.76722717285156,
+                118.04928588867188,
+                262.1239929199219
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b82ff5d6deaa62f1860a827859c952ba",
+        "text": "° \no",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                196.55999755859375,
+                233.4008331298828,
+                225.12789916992188,
+                239.67994689941406
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b510d9963d34c23a46d6765017b517d2",
+        "text": "'m",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                247.44003295898438,
+                246.30209350585938,
+                254.1346893310547,
+                253.22705078125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e843d5ee0ad5b506e0d9c1c6e3001cba",
+        "text": "o \nom",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                207.59999084472656,
+                254.94204711914062,
+                227.6212921142578,
+                261.86700439453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "505d0197b27630a62d484e07508b0d72",
+        "text": "m \nI-- \n,: \nrr \nH J \n>",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                83.04000854492188,
+                262.4480285644531,
+                118.7291259765625,
+                308.22296142578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ae9ccc231ad9b80255b3f29b632c329a",
+        "text": "mmm \n~II~ \no~, ~ \nm m",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                172.80003356933594,
+                270.0621032714844,
+                217.86671447753906,
+                283.9470520019531
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b5011cd8ee3d1360e9e5d3534ed054b1",
+        "text": "- \n:- \nm \nm~m \n~' \nm \nm \n\"6-\"o \n-~-~ ..... ~ \"T~ \n.... \nOm..mo ° \n;",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                172.80003356933594,
+                285.902099609375,
+                276.49884033203125,
+                312.2840881347656
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ac464f08b0f34d89f01c9fc046062db4",
+        "text": "L.U",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                83.04000854492188,
+                311.8880310058594,
+                98.85472869873047,
+                326.3974609375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0b342c55020fc20d80150ed0928b4f58",
+        "text": "m \nme \n~ o m  \n•",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                189.60003662109375,
+                318.4583435058594,
+                250.37139892578125,
+                325.60650634765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cee2e8eb3c9a5b286973057a68ecabad",
+        "text": "me~ \nmm \"~ mm \n° m",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                172.800048828125,
+                330.7821044921875,
+                272.10321044921875,
+                337.79779052734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5cd4a2fbf31a18ae821475857a6d5320",
+        "text": "< \n; \nrr \nIll \n>",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                83.2800064086914,
+                331.7600402832031,
+                119.0150375366211,
+                384.3030090332031
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "17820b33e207247035cc0b8f2bde08d8",
+        "text": "!",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                185.52005004882812,
+                405.052978515625,
+                188.45835876464844,
+                411.7763366699219
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "317ce02a955bf2e282566f21d37c02d8",
+        "text": "58.8 \nlg8.g \n~.58.8 \n288.8 \n~58.Pl \na~",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                179.28005981445312,
+                434.4621276855469,
+                457.1334228515625,
+                441.3870849609375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1df0e8d5702688dd2f44c443c48e9218",
+        "text": "RMS \nRUN \nLENGTH",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                207.1200408935547,
+                447.44012451171875,
+                347.06121826171875,
+                463.964111328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "066f6c33e60bf94e7126058c1f4691f7",
+        "text": "Fig. 5. The position of blocks of pixels in a space defined by RMS run-length and average vertical spacing. \nThe lines indicate classification boundaries which were used to obtain the classified section shown in Fig. 6.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                88.80001831054688,
+                477.4305114746094,
+                474.3470458984375,
+                499.1445007324219
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cadad07c4a48477bf6e80e095e2b5fdb",
+        "text": "sections. In this sense, these data are being used as a \nThe final results of this classification technique are \ntraining set. Note that while there is some clustering, \nshown in Fig. 6. As in the template matching al- \nthere is also a large amount of variability in any one \ngorithm, the run-length algorithm does a good job of \nregion• \nclassifying all of region 4. This region is found to have",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                64.08001708984375,
+                513.1904907226562,
+                485.9466552734375,
+                558.1844482421875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "46e71f447be3333db8ebad5d87d4e753",
+        "text": "0 \n~ \nm \nILl \n4 \nP] \nD \n~ \nx \n0 \nD \n× \n/~ \nD \nPl \nD \nD \nI~ \n0 \n0 \n0 \nD \nx",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                139.92010498046875,
+                569.102783203125,
+                410.9795837402344,
+                575.397705078125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3c822d916d012c9d12d85782a15d4898",
+        "text": "~ \n~ \nx \nm \n0 \n0 \n[] \nI~ \n0 \nD \n0 \n>\" \nx \n0 \nm \nI\"1 \nX \n\"x\" \nX \nX \n)~ \n~ \n~\" \n\",r \nX \nI~ \nX \nI ~ \nX \nX \nD \nX \nX \nX \nX \nX \nX \nX \nX \n× \nX \nD \nX \nX \nX \nX \nX \nX \nX \nX \nX \nX \nX \nX \nX \nX \n~, \nX \nX \nX \nX \nX \nX \n× \n× \nX \nX \nX \nX \nA \nA \nA \n>, \n× \n\"~ \nX \n0 \nX \nX \nX \nX \nX \nX \nX \nX \nX \nX \nX \nX \nX \nX \nX \nX \nX \nX \nX \nX \nX \nX \nX \nX \n)~ _~_ 1'I \nI~ Pl \nX \n0 \n0 \n0 \nX \nX \nX \nX \n0 \n0 \n~ \n× \nX \n0 \n[] \n×",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                220.3201141357422,
+                578.4620361328125,
+                411.2209777832031,
+                624.8377075195312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3da16d00336a1265357acda48e0454b0",
+        "text": "I~ \n+ \n+ \n+ \n+ \n\\ \nx~'~----£L_x x \nx\n~\na\n \n+ \n~ \n~ \nD \nx",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                161.52017211914062,
+                628.0880126953125,
+                411.3620910644531,
+                636.0022583007812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1bd40640ca6d58567b90d00874369ef1",
+        "text": "O \n+1 \n÷ \n+ \n+ \n+ \n+ \n+~ \n+ \n[:9 \n~ \nA \nA \nA \nA \nO \nI \" ~  \nt~ \n-'. \nm \nX \nX \no \n+/ + + + \n+ + +l \no \nA A A ~ ~S O/+ \n+N \n+ \nA × \nO \n-¢ \n-~ \n+ \n+ \n+ \n+ \n+l \n× \nx \nA \nA \nA \nA \n+l+ \n+ \n\\ \n~ \nX \nX \nA \nX \nt5 \n~ \n~ \n*- \n+ \n+ \n+I \n+ \n+ \nA \nA \n× \nA \n+ \n+1 + \n+ \n\"1% + \n+ \nX \n~- \n4 \n+ \n+ \n+ \n+ \n+t \n+ \nO \nA \nA \n~ \n+ \n+ \n+) \n+ \nrn \nrq \nA \no \nI \n\"~ \n~, \n+ \n+ \n+ \n+~ \nA \nA \nA \nA \nA \n~ \n4 \n+ \n+ \n+] \n+ \n+ \n13 \nA \n(+ \n~ \n, \n+ \n+ \n+ \n+\\+ \n,', \nx \nA \n/~ \nA \n/.~ \n+ \n+ \n/ \n~ \nA \n+ \n/~ \nl \n~ \n4 \n~ \n+ \n+ \n+ \n\\+ \n+ \nt~ \nA \nx \n/+ \n+ \n+ \n( \nO \nA \nx \nx \nx",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                140.880126953125,
+                639.6620483398438,
+                412.33770751953125,
+                685.8464965820312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3ad625c6acc128221cc4d4ab0cd602a7",
+        "text": "o \nI \n~ \n, \n~ \n+ \n+ \n~t \n~ \n/ \n+ \n\"~+ \n+ \n× \nI \n~ \n~ \n+ \n+ \n+ \n+ \n-~ \n+ \nx \nA \n-V\" \n+ \n+ \n~ \n+ \n+ \n'*. \n+ j  \n+ \n+ \n+ \n+ , \n+ \n+'.~ \n+ \n_\n~\n \n+ \na \n~ \n~, \n~ \n~,",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                141.12002563476562,
+                685.7420043945312,
+                412.3758544921875,
+                701.385986328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0ee0fa6d124a2530a2793b5d4c1d47bd",
+        "text": "0 : \nREGION1 \nX=REGION2 \n~=REGION3 \n+=REGION4",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                171.83999633789062,
+                711.4304809570312,
+                391.91473388671875,
+                723.064453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "23899875325b9aafd9029821a10a3ef8",
+        "text": "415",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                469.20001220703125,
+                62.43689727783203,
+                481.6114501953125,
+                70.36841583251953
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5f4ff527f7c2e0d6a3a3affc3c6c919c",
+        "text": "m",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                418.32000732421875,
+                165.5329132080078,
+                423.5011291503906,
+                172.2562713623047
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4f2a829fcbea55abb9e99a2f9eeee0c4",
+        "text": "--+~. \nm \n3 \n~ \n'",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                322.55999755859375,
+                217.1328887939453,
+                454.46112060546875,
+                241.14442443847656
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3e971aacab93c35f4fc6126efce1ebb7",
+        "text": "@",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                315.6000061035156,
+                274.05828857421875,
+                320.89300537109375,
+                281.0386657714844
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "504485b016cc9ba2df7d399faa7e6d1e",
+        "text": ".... \n! . . . . . . . . .  \n~ .\n.\n.\n.\n.\n.\n.\n.\n.\n \nJ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                287.2799987792969,
+                291.0200500488281,
+                453.3236389160156,
+                300.912841796875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "137126f195d4da7957080db4bc0777f3",
+        "text": "m \n~m",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                295.2000427246094,
+                305.8221130371094,
+                319.6669616699219,
+                312.7470703125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "32575868038bc9117c72d692aca58734",
+        "text": "m \nm \n~m",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                289.2000427246094,
+                323.8221130371094,
+                312.4478454589844,
+                336.507080078125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1699ca2f0076456da8a773d2a93921ae",
+        "text": "2",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                281.0400390625,
+                348.1304931640625,
+                289.6008605957031,
+                363.6630554199219
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e4534c2b7410ef9d0231fa2fdd4cd71f",
+        "text": "t~",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                450.9600524902344,
+                385.74212646484375,
+                456.35845947265625,
+                392.6670837402344
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2e23a5278c004ef93af82ac59e5c59e2",
+        "text": "INPUT SECTION (signals)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                116.15997314453125,
+                59.82803726196289,
+                200.51539611816406,
+                71.03987884521484
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e15501308096940d43fd42af655d8427",
+        "text": ",,",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                180.23995971679688,
+                91.44924926757812,
+                183.93994140625,
+                96.25164794921875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2993f4303332a8c5c08eca0dbb5da747",
+        "text": "-TEXTURE ANALYSt8 \n-RUN LENGTH \n-ETG",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                127.43995666503906,
+                108.06802368164062,
+                195.12570190429688,
+                130.7998809814453
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "133282b8aeeaa8282d91bf90101d0f10",
+        "text": "[ RESOLVER ~ \nHEURISTIC STRUCTRAL | \n*.0 GEOLOGI=*, R\"L=S=",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                73.19996643066406,
+                154.25125122070312,
+                265.05596923828125,
+                172.39404296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fbc950cb70592680fb6539eb97af2eb6",
+        "text": "OUTPUT SECTION (symbols)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                117.59999084472656,
+                205.26803588867188,
+                213.24668884277344,
+                216.47987365722656
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ae3fe65786a819498bbd7c4b84b8e8d9",
+        "text": "Fig. 7. Processing scheme for segmentation of a seismic image.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                65.99999237060547,
+                227.95669555664062,
+                272.2592468261719,
+                240.12277221679688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "23ae76b4f2aa05431aa810146b56a360",
+        "text": "short run lengths ( < 5 or so horizontal locations) and a \nlarge vertical spacing between runs ( > 10 samples). The \nalgorithm tends to do most poorly on region 3 where \nit mixes in some obviously poor choices for classifi- \ncations. The overall result is however much closer to the \nmanual interpretation than the template-matching \nalgorithm.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                66.48004150390625,
+                255.31668090820312,
+                272.4889831542969,
+                334.2027587890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "66ba5d003c88b1f1bfe9838d8633a1d6",
+        "text": "V, THE RESOLVER",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                136.56004333496094,
+                345.771240234375,
+                203.520263671875,
+                358.57763671875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e1e53f7c9eb6a4082e480980611f562f",
+        "text": "The main disadvantage of the two methods dis- \ncussed earlier is that they do not take advantage of the \nstructural and geologic properties of the seismic \nsection. Both methods treat the section as an image not \ninfluenced by the order of geologic events which \ngenerally characterize the entire region from which the \nsection is only a piece. Therefore, as an extension to \neither of the two methods discussed earlier, an intelli- \ngent 'decision-process' called the RESOLVER is added \n(Fig. 7). The RESOLVER attempts to add some \nartificial intelligence to the classification process by \nmodelling heuristic constraints that a human interpre- \nter would use while segmenting a seismic section. An \ninterpreter, for instance, is aware that regions to be \nsegmented are contiguous areas that are com- \nposed ofseverai classification blocks. His classification \nof a particular block is strongly influenced by the \npotential classification of neighboring blocks. An \ninterpreter might also have geologic information re- \nlated to the depositional sequence of the various \nregions in the section. All this information is indepen- \ndent of whatever image texture he sees and may even \nprejudice what he thinks he sees. It is clearly indepen- \ndent of our statistical assessment of texture. \nHeuristic information, like the above, can be im- \nplemented as rules which alter the degree-of- \nmembership, a measure of to what extent a particular \nblock of pixels belongs to a certain region. As an \nexample, the following four rules can be used in a \nRESOLVER which can be applied to the data shown \nin Fig. 2. \nRule I. The depth prejudice rule. It is unlikely that a",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                64.55999755859375,
+                366.9166564941406,
+                272.2923278808594,
+                721.082763671875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2e7fbd0d8271805e627c62c8dd084270",
+        "text": "block below 2 s should be classified as region 1. It is \nunlikely that a block above 1 s should be classified as \nregion 3. This rule is related to the effect of sediment \ncompaction on seismic signal character. \nRule 2. The sequence rule. In a vertical column of \nblocks, if the block directly above a block in question is \nclassified as region 2, then it is unlikely that the block \nin question belongs to region 1. The same applies for \nregion 2 with respect to region 3. \nRule 3. Region 4 shape rule. Region 4 is a solid figure \ninstead of a layer. That is, it is composed of salt domes \nand shale ridges. It is improbable that a block is in \nregion 4 if the blocks above and below that block are \nclassified other than 4. This rule is related to the \nexpected topology of the image. That is, a diapir is \nexpected to have nearly vertical sides. \nRule 4. The neighbors rule. If among the nearest eight \nneighbors around a block in question the majority \n(/> 4) are assigned to a particular region, then it is very \nlikely that the block in question belongs to the same \nregion. \nWe will now illustrate how these rules can be \nimplemented in a RESOLVER which takes as input a \nseismic section which has been processed by the run- \nlength algorithm. \nAs a first step, the run-length algorithm discussed \nabove is modified to yield for each block of data pixels \na vector D containing the degrees-of-membership (on \na scale from 0 to 1) of that block to all regions in the \nsection. The ith entry di in the vector, corresponds to \nthe degree-of-membership of the block in region i. The \ndegr~-of-membership in a region is calculated from \nthe position of the (R MS-run-length, average-spacing) \npoint for a block of pixeis on the plot shown in Fig. 5. \nIn each of the four regions, a small rectangular area in \nthe RMS-run-length, average-spacing plane (Fig. 5) is \nassumed to contain points which are correctly classi- \nfied (membership = l) as belonging to that region. \nPoints outside a larger rectangular area are assumed \nto have zero membership in that region. A linear \ninterpolation (see Fig. 8) between the boundaries of \nthese areas based on the position of the point is used to \ncalculate the degree-of-membership of the point in the \nregion. The vector D = (dl, d:, da, d4) corresponding to \nthe degrees-of-membership of each block of pixels in",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                280.79986572265625,
+                60.19668960571289,
+                487.82708740234375,
+                561.7227172851562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "94054a1f66bf1be17983592d717e14dd",
+        "text": "dl=O",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                371.27984619140625,
+                567.795166015625,
+                403.0665283203125,
+                596.2164306640625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7ae6c3d625d6419d27905232cf59b2ec",
+        "text": "di = 0 ~ \ndl: 0",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                312.7198486328125,
+                615.315185546875,
+                466.45220947265625,
+                643.7364501953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5b48cdacc2bce87729333b1abe8ae6f3",
+        "text": "dl=O",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                370.7998352050781,
+                668.5951538085938,
+                401.3625183105469,
+                697.0164184570312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c9a7feafb5dc1d872c8e0debb39b4bef",
+        "text": "Fig. 8. Degree of membership in region i. Scale decreasing \noutwards from I to 0.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                278.87982177734375,
+                698.8366088867188,
+                484.30841064453125,
+                719.8826904296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "18238486ae3738a7ebf76560b567228f",
+        "text": ",\n~\n \nO0={dl 'd2'd3'd4",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                96.48004150390625,
+                67.78398132324219,
+                202.33047485351562,
+                78.33629608154297
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ba9728e957c4dc6c7f083a525137160a",
+        "text": "r~ \n, ~  \nrot={ \ndi(I ) a (I)d3(I) d4tl )",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                93.60003662109375,
+                105.94395446777344,
+                261.556640625,
+                116.49626922607422
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d9789d4813eefbe9a0b8490e5f08c307",
+        "text": "o,= \n}",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                157.68003845214844,
+                189.85995483398438,
+                268.6949157714844,
+                206.3479461669922
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3d54683cc905d9e045f804ec106986b3",
+        "text": "Fig. 9. The outcome of a particular search done by the \nRESOLVER.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                64.32003784179688,
+                219.809326171875,
+                271.37860107421875,
+                241.01524353027344
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "142392eb1f22f03f3e5b6f72c8996641",
+        "text": "each of the four regions is then passed to the \nRESOLVER decision algorithm. \nThe RESOLVER algorithm is a LISP program \nwhich does a depth-first search guided by a hill- \nclimbing method. The outcome of a particular search \nis depicted in Fig. 9. The initial state is a vector D o of \ndegrees-of-membership for this block and each of the \nclasses. The initial node is expanded by application of \neach of the four heuristic rules. The subsequent states \nare compared with a goal state which requires one \nblock to have a degree-of-membership above a mini- \nmum threshold and all other degrees-of-membership \nbelow a different lower threshold. If none of the states \nmeets this goal the search continues by expanding the \nnode which is closest to it. Note that only the rules that \nhave not been applied to that point in the search are \nused to expand to the next depth. \nAt each level in the search the rule which changes the \nstate so as to bring it 'closest' to the goal state is the one \nused in the expansion. This almost always ensures that \nrules that are most appropriate for a given block,",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                65.280029296875,
+                254.60931396484375,
+                274.1773986816406,
+                488.6952209472656
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "270ccf32667858354927923518599a73",
+        "text": "B \nB \nB \nB \n+ \n+ \nB \nD \nx \nX \nB \nB \n& \nX \nB \nX \nX \nB \nD \n~ \nB \n~ \nx \nx \nD \nB \nB \nB \nD \nB \nD \nB \nx \nx \nX \nB \nB \nx \nA \n& \nB \nD \nB \nD \n~ \n~ \nx \nx \nB \nD \nB \n~ \nD \nX \nB \nX \nX \nD \nD \nX",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                122.64004516601562,
+                506.5400390625,
+                441.6838684082031,
+                530.5928344726562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6bed66892319ea4817391f11376bc0ae",
+        "text": "X \nX \nX ~ \n+ \n+\\B \nx \nX \nB \nx \nX \nx \nx \nX \nx \nX \nx \nX \nX \n~ \nX \n\" X \nX \n~+ \n+ \n+ \\+ \nX \nX \nX \nX \nX \nX \nX \nX \nX \nX \nX \nX \nX \nX \nX \nX \nD \nXj....~/+ \n+ \n+ \n~ \n+ \n& \nx \nx \nx \nx \nx \nx \nx \nx \nA \n~ \n~ \nx \n& \n~ \n..~,-\"~ \nO1+ \n+ \n+ \n+\\ D \nx \nx \nx \nX \nx \nx \nx \nx \nx \nX \n& \nx \nx \nx \n[] \n+/ + \n+ \n+ \n+\\B \nx \nx \nx \nx \nx \nx \nx \nx \nx \nx \n~ \n~..ZL_,~r,~ \n~ \n+ \n+ \n+ \n+\\+ \nx \nD \nx \nx \nx \nx \nD\n/\n \n& \n~ \n~ \n+ \n+ \n+ \n+ \n'i~,...~ \nx \nx \nx \nx \nx \nB\n~\n \n+ \n~ \n~ \n~",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                114.48003387451172,
+                534.3800048828125,
+                443.78564453125,
+                586.0328369140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c255eb2c792d75d56b6646ea85d94df9",
+        "text": "B \n~/+ \n+ \n+ \n+ \n+ \n~ \nB \n& \nA \n& \n& T X  \n& \n+ \n& \nx \nx \n& \n+/ + \n+ \n+ \n+ \n+ \n+~ \n& \n& \n& \n& \n& \n,,----'~ & \n& \n& \n& \nx \ne \n~ \n+ \n+ \nH \n+ \n+1 & \nB \n& \n& \n& \n& \n& \nB /+ \n+\\ \n+ \nA \n& \n& \n~ \n+ \n+ \n+ \n+ \n+ \n+l \nx \n& \n& \n& \n& \n+/+ \n+ ~ \n& \nx \nx \n& \n~ \n~ \n+ \n+ \n+ \n+ \n+ \n+1+ \nA \n~ \n~ \na \na \n+ \n+/+ \n+ \n~ \nf \n+ \n+ \n+ \n+ \n+ \n+|~ \n~ \n~ \n~ \n+ \n~ \n/+ \n+ \n+}+ \nI \n+ \n+ \n+ \n+ \n+ \nal& \n~ \n~ \n• \n~ \n& \n~ \n/ \n+ \n+ \n~ \n+ \n& \n~ \n+ \n+ \n+ \n+ \n+ \n~+ \n~ \n~ \n~ \n~ \n~ \n~ff \n+ \n+ \n~ \na \n~ \n~ \n+",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                122.40005493164062,
+                590.5400390625,
+                441.9311828613281,
+                647.7128295898438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2150000a9dc0443cb4c4aa0698f79ef7",
+        "text": "~ \n+ \n+ \n~ \n~ \n~ \n~ \n~a \na \na/~ \n+ \n+ \n~+ \n+ \nI \n+ \n+ \n+ \n+ \n+ \n+ \n~+ \n& \n& \n~ \n& ~ \n~ \n~ \n&~ \n+ \n+",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                136.320068359375,
+                651.5000610351562,
+                441.5640563964844,
+                671.4728393554688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2ef198c6d42a03f7ed2b572e1c535d38",
+        "text": "~ - REGION I \nX-REGION 2 \n~- REGION 3 \n~-REGION 4",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                126.72006225585938,
+                684.1041259765625,
+                344.6331481933594,
+                694.6564331054688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fba6065bbbf93d1ac6f206b22c02d7cc",
+        "text": "Fig. !0. The classified section using the RESOLVER algorithm. The symbols have the same meaning as in \nprevious figures.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                98.16006469726562,
+                707.7294311523438,
+                461.3697204589844,
+                728.6953735351562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2ae8d4a1aacb73493e885e2a63607154",
+        "text": "because of its time position for example, are applied \nfirst• The measure ofdistance used to judge closeness is \nbased on the following norm in the four dimensional \nspace of degrees-of-membership.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                282.7200622558594,
+                65.00934600830078,
+                488.8786926269531,
+                110.21524810791016
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "256bf9080b638eecb6054e0b2f946589",
+        "text": "d = (d/cma,,) 2 4- ~. (dimi.) 2 \ni \nwhere \ndm~-d~ \nifd~ <d,~a, \nd/cma ~ = \n0 \nif d~ >I dm~",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                282.9600830078125,
+                115.16931915283203,
+                450.1624755859375,
+                164.99351501464844
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2d24e94e745e471e69453ff326598bd4",
+        "text": "d r - \ndmin \nif di > drain \ndimin \n0 \nif d i <<. dmi .",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                325.6800231933594,
+                169.6492919921875,
+                441.1692199707031,
+                195.4152069091797
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2d0a662f65f205f00e261240f37f3614",
+        "text": "In the above formula, d~ = max {dj, d 2, d 3, d~.} and \nthe di's are the remaining three values, dmi~ is the upper \nthreshold which requires that d~ must be made larger \nthan it and dml, is the lower threshold which requires \nthat the remaining di's must be made smaller than it. \nClearly, in the above formula, if it should happen that \nfor a given state, dx is bigger than dN, or that some or \nall of the d/s are less than dmi,, then those differences \nare not included in the calculation of the distance d. \nIn this algorithm there are two sets of arbitrary \nconstants. The first are the changes in degrees-of- \nmemberships that a particular rule produces. The \nsecond are the thresholds, d,,,x and d,,~,, which deter- \nmine whether a goal state has been achieved. Modify- \ning the degree-of-membership changes allows for \nrelative weighting between the rules. If the thresholds \nare made more stringent relative to these changes, the \nRESOLVER is forced to apply more rules before \nreaching the goal state. \nApplying the above to the Gulf of Mexico example \ndiscussed earlier, we used equal changes of 0.2 in the \ndegrees-of-membership due to the application of a \nrule, a maximum threshold of d,,., = 0.5 for a given \nregion, and a minimum threshold for all others ofd H \n= 0.3. Our aim was to maximize the number of rules \napplied but limit the number of blocks left unclassified.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                282.0,
+                199.6492919921875,
+                489.5711364746094,
+                488.2153015136719
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2dc2e3bc3c9129057df54255e8f21e75",
+        "text": "With the above value, it was found that on the average \nmore than 2 rules are applied for each block before a \ndecision by the RESOLVER is reached. Only a few \nblocks are left unclassified. Figure 10 shows the results \nof the classification using the Resolver described \nabove. When compared to Fig. 6, the results are not \ndramatically different. Significant improvement, how- \never, can be seen in region 3 where the RESOLVER \nhas eliminated many of the erroneous classifications \nthat were obtained by the run-length algorithm only.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                65.51992797851562,
+                63.56940460205078,
+                272.7916259765625,
+                175.4952850341797
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "690261dd3b40a63d349e20dc95c0dc3b",
+        "text": "VI. CONCLUSIONS",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                135.11990356445312,
+                188.12933349609375,
+                203.81817626953125,
+                199.9752655029297
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f70a6ddc1eebead42500dafc1ab44929",
+        "text": "Several results emerge from this investigation of \nautomatic segmentation of stacked seismic data. \nIt is clear that while neighborhoods of pixels in a \nparticular region may share many textural features \nthere can also be considerable variability, This is \nevident in region 1 of the example. Note further that \ndip variations in region 2 easily dominated other \neffects like reflector spacing, and may lead to good \ncorrelations with templates from region 3. It seems \nnecessary then to carefully choose texture measures \nwhich are strongly influenced only by common charac- \nteristics in a region. It is as important to choose what \nfeatures of a region to ignore (e.g. dip) as it is which \nones to include. This ability to ignore certain features is \none of the strengths of the human interpreter which is \nnot often easy to duplicate in a numerical algorithm. \nThe algorithm based on run-length seems more \npowerful than the template-matching scheme for this \ndata. This is probably because of the inherent sensitiv- \nity of data templates to any variability in the data. \nBoth methods discussed have a spatial resolution \nproblem. In each case, blocks of data about a pixel \ncomprise the basic analysis unit. The size of these \nblocks is affected by several factors. Textural infor- \nmation is enhanced by making the blocks longer in the \nvertical direction. Increased size horizontally tends to \nrepeat the same reflectors thus adding only statistical \nweight to the textural measure. Larger vertical length \ntends to smear across region boundaries creating \nblocks with intermediary statistics. This last effect is",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                64.55990600585938,
+                208.289306640625,
+                271.8253479003906,
+                542.4552612304688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "80601a1c84d3ffe56785d51b721f9bcb",
+        "text": "About ihe Author--PATRICK L. LOvE received his B.S. in Physics from St. John Fisher College, Rochester, \nNY, in 1970. He received his M.S. in Physics and Ph.D. in Astrophysics from Washington University, St. \nLouis, MO, in 1972 and 1977, respectively. From 1977 through 1984 he has been employed by Gulf Research \n& Development Company, where he has been involved in research in the processing and interpretation of \nreflection seismic data. Presently he is with ALCOA Technical Center, where he is involved in research on \napplications of artificial intelligence. He is a member of SEG, AAAI and IEEE.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                95.2796630859375,
+                562.2891235351562,
+                457.32110595703125,
+                619.7350463867188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "594f58cd5e82bb3e709b1c9fbd26a565",
+        "text": "About the Author--MARW^N SIMA^N received a B.S. degree (with distinction) from the American University \nof Beirut, Lebanon, an M.Sc. degree from the University of Pittsburgh, Pittsburgh, PA, and a Ph.D. degree \nfrom the University of Illinois, Urbana-Champaign, Illinois, all in Electrical Engineering, in 1968, 1970 and \n1972, respectively. \nDuring the summers of 1967 and 1972 he held summer positions with English Electric Leo Marconi \nComputers Ltd., U.K., and with Bell Laboratories, Columbus, OH, respectively. From 1972 to 1974 he was a \npostdoctoral Research Associate and then a Visiting Assistant Professor with the Coordinated Science \nLaboratory and the Department of Electrical Engineering at the University of Illinois. From 1974 to 1975 he \nwas a Research Engineer with Shell Development Company in Houston, TX. Since 1976 he has been on the \nfaculty of the University of Pittsburgh, where he is presently Professor of Electrical Engineering. Since 1979 \nhe has also been a Consultant for Gulf Research & Development Company in Pittsburgh, PA. His research",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                94.55966186523438,
+                625.1691284179688,
+                457.1822204589844,
+                726.5350952148438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c823f215b123e18a5a1236df0afdec53",
+        "text": "responsible for some of the lack of clustering in the \nrun-length scatter plot shown in Fig. 5. \nThe incorporation of heuristic segmentation rules \nvia a search procedure, as implemented by the \nRESOLVER program is promising. Further improve- \nments may occur if the rules involved larger spatial \nelements of the section. It might be possible to have \nrules that effect boundary drawing between large \nnumbers of blocks in the section. Another limitation is \nthe late stage in the processing sequence at which the\" \nrules are applied. Such rules might be more powerful if \nused earlier to select different statistical measures or to \nchoose the position of analysis blocks. \nIn summary, a run-length algorithm augmented \nwith heuristic segmentation rules yields acceptable \nperformance for the segmentation of Gulf of Mexico \nstacked seismic data into four large zones of common \nsignal character. Several areas of improvement have \nalso been suggested by this investigation.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                279.8399658203125,
+                64.28931427001953,
+                487.3656921386719,
+                275.81512451171875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "207f6949a1bb73f646139c1df46b57fd",
+        "text": "Acknowledgements--The authors wish to acknowledge help- \nful discussions with D. B. JOVANOV)¢i~ and R. T. SHUEY of \nGulf Research and Development Co. and C. C. LI of the \nDepartment of Electrical Engineering at the University of \nPittsburgh. K. A. ANDERSON of Bolt, Beranek and Newman \nprovided a very helpful reviewer of the paper.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                279.59991455078125,
+                298.2892150878906,
+                485.5501403808594,
+                355.255126953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c892bb16f604ff4224c90242b1faacb8",
+        "text": "VII. REFERENCES \nI. J. B. Sangree and J. M. Widmier, Interpretation of \ndepositional facies from seismic data, Geophysics 44, \n131-160 (1979). \n2. E. L. Hall, Computer Imaye Processiny and Recognition. \nAcademic Press (I 979). \n3. R. M. Haralick, Statistical and structural approach to \ntexture, Proc. IEEE 67, 786-804 0979). \n4. P. C. Chen and T. Pavlidis, Segmentation by texture \nusing correlation, IEEE Trans. Pattern Anal. Mach. \nlntell. PAMI-5, 64-69 (1983). \n5. D. G. Luenbcrger, Optimization by Vector Space \nMethods. John Wiley (1968), \n6. M. M. Galloway, Texture analysis using gray level run \nlengths, Comput. Graphics Ima.qe Process. 4, 172-179 \n0975). \n7. Y. N. Sun, A short run length segmentation method for \nsegregation streaks of steel, M.S. Thesis, Department of \nElectrical Engineering, University of Pittsburgh (1983).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                283.9197998046875,
+                363.0892028808594,
+                487.3724365234375,
+                542.6986083984375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7290b588b5274677808c46e2bd9563af",
+        "text": "interests are mainly in the :lrcas of optimizali,m and control, and the application of digital signal processing \nand artificial intelligence to seismic data. He has contributed more than 80 articles Io books, journals and \nconference proceedings. \nDr Simaan is the series editor of ,4dvant'e.,; it! Gvoph.~'.sical Duttt Pro,.es.sin.q for JAI Press. He is a senior \nmember oflEEE, an active member ofSEG, a member of the New York Academy of Sciences. a member of \nSigma Xi, and an honorary member of Phi Eta Sigma. He is a member of the 1985 I EEE Publications Board. \nHe is also a Registered Professional Engineer in Pennsylvania.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900111-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                95.27993774414062,
+                63.380210876464844,
+                458.1087341308594,
+                128.18548583984375
+            ],
+            "is_full_width": false
+        }
+    }
+]

@@ -1,0 +1,3194 @@
+[
+    {
+        "element_id": "cbad7613d22f461a805211111a4a72f9",
+        "text": "Submarine landslides and the importance of the initial\nsediment composition for run-out length and final deposit",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                107.59159088134766,
+                483.3289489746094,
+                144.91201782226562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f6e3f1834d206fbff56839348a7cd162",
+        "text": "Anders Elverhoi & Hedda Breien & Fabio V. De Blasio &\nCarl B. Harbitz & Matteo Pagliardi",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                162.72860717773438,
+                281.126953125,
+                185.16368103027344
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6e9ffd0d4682046b16d6651e00be6f7c",
+        "text": "Received: 28 April 2010 /Accepted: 2 July 2010 /Published online: 25 July 2010\n# The Author(s) 2010. This article is published with open access at Springerlink.com",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                243.09698486328125,
+                348.755126953125,
+                261.54327392578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d774ffb96fdf1cb5df8d76abb67ab054",
+        "text": "Abstract Much remains to understand the dynamic processes\nduring the flow of submarine landslides. A first relevant\nproblem is to explain the extraordinary mobility of submarine\nlandslides, which has no comparison in subaerial mass\nmovement. Another challenging question is the apparent\ndisparity between submarine landslides that remain compact\nfor hundreds of kilometres and those that disintegrate during\nthe flow, finally evolving into turbidity currents. This problem\nis linked to a central ongoing debate on the relative importance\nof turbidity currents versus submarine landslides in reshaping\nthe continental margin. Based on three epitomic case studies\nand on laboratory experiments with artificial debris flows of\nvarious composition, we suggest a possible explanation for the\ndisparity between compact and disintegrating landslides,\nidentifying the clay-to-sand ratio as the key control parameter.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                282.7749328613281,
+                289.2311706542969,
+                467.1208190917969
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "20d2a36e0adff580d4831fbc9ece204e",
+        "text": "Responsible editor: John Grue",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                502.0134582519531,
+                155.01564025878906,
+                510.4816589355469
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "39639f9ca84cba47003f9e3005074168",
+        "text": "A. Elverhoi (*): F. V. De Blasio\nDepartment of Geosciences, University of Oslo,\nP.O. Box 1047, Blindern,\n0316 Oslo, Norway\ne-mail: anders.elverhoi@geo.uio.no",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02359390258789,
+                512.8104248046875,
+                215.83590698242188,
+                566.4379272460938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "09c6502db5d33702ad9ae7d949bf36e4",
+        "text": "H. Breien: C. B. Harbitz\nNorwegian Geotechnical Institute,\nP.O. Box 3930, Ullevaal Stadion,\n0806 Oslo, Norway",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02359390258789,
+                572.5647583007812,
+                167.5794677734375,
+                616.2709350585938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "11e06ee0c3e6e3b9a138a6136607ad5a",
+        "text": "A. Elverhoi: H. Breien: C. B. Harbitz\nInternational Centre for Geohazards,\nNorwegian Geotechnical Institute,\nP.O. Box 3930, Ullevaal Stadion,\n0806 Oslo, Norway",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02363586425781,
+                622.3978271484375,
+                183.1876678466797,
+                676.0253295898438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "45bf5a77d658815ed3a2bf34295582ab",
+        "text": "M. Pagliardi\nFLOW-ING s.r.lPza. J.F. Kennedy, 27,\n19124 La Spezia (SP), Italy",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02363586425781,
+                687.5133056640625,
+                183.66868591308594,
+                715.8809204101562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1e4710e95c597fab5635368ea5bc6721",
+        "text": "Keywords Submarine debris flows . Submarine\nlandslides . Modelling . Rheology. Hydroplaning",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.140869140625,
+                280.7873229980469,
+                498.4439697265625,
+                305.2066345214844
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0aa69da0f10cfe74dff9f881fc442fee",
+        "text": "1 Introduction",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.14093017578125,
+                332.6907653808594,
+                368.026611328125,
+                342.65338134765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a0cea012fa53e628805933de4bf2d8fa",
+        "text": "The present understanding of submarine landsliding is some-\nhow unsatisfactory. On one hand, the analysis of the deposits\nreveals that submarine landslides may acquire extraordinary\nmobility. On the other hand, although the products of mass\nmovement are easily recognised, the dynamic processes of\nsubmarine landsliding have never been observed in full scale.\nMoreover, in contrast to many subaerial landslides, submarine\nlandslides are not accessible without costly oceanographic\nsurveys. As a consequence, we know surprisingly little about\nthe physical processes capable of transporting thousands of\ncubic kilometres of sediments for hundreds of kilometres along\nslopes that are only a fraction of a degree (e.g. Elverhoi et al.\n2002; De Blasio et al. 2005; Breien et al. in press). A better\nunderstanding of submarine landsliding is also highly relevant\nfor prediction of tsunamis (e.g. Harbitz et al. 1993).\nA prime question related to submarine landsliding regards\nthe extraordinary mobility. Run-out ratios (i.e. fall height-to-\ntravel distance) may reach values as low as 0.05–0.01 (De\nBlasio et al. 2006). This occurs on gentle slopes with\ninclination less than 1° in spite of an increased viscous drag\nand a reduced gravity due to buoyancy compared to subaerial\nconditions. A second key question is why some landslides\nremain compact during their flow while others disintegrate\nsubstantially, also developing into a bipartite flow with a high-\nand a low-density layer, commonly referred to as a high and a\nlow-density turbidity current (e.g. Mulder and Cochonat\n1996). Because of the inaccessibility of submarine mass\nwasting, the knowledge gained by oceanographic surveys\nmust be supplemented by experiments and numerical",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.1398620605469,
+                357.4933776855469,
+                544.3505249023438,
+                716.1658325195312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6cf57abccab5bfa1111e92dec2f09fcf",
+        "text": "modelling (e.g. Mohrig et al. 1998; Marr et al. 2001; Ilstad et\nal. 2004a, b, c; De Blasio et al. 2005; Gauer et al. 2006).\nExperiments are usually conducted with an artificial mudflow\ntravelling along a flume or a pool, in order to mimic the\nsubmarine environment (e.g. Hampton 1972). However, a\nmajor problem is that the flow volumes used in the experi-\nments are some 1012 times smaller than the ones involved in\nthe largest submarine landslides. Numerical models may in\nprinciple be calibrated to simulate the small-scale events\nobserved in the laboratory and so extended to large-scale\nevents (Gauer et al. 2006). In spite of their limitations, the\nlaboratory experiments and numerical modelling have shown\nsome intriguing possibilities for explaining mass wasting and\nindicating directions for further progress.\nThe purpose of this paper is to use our most recent\nexperimental flume results as background information in\norder to explain the apparent differences in the behaviour\nof three full-scale submarine landslides. Emphasis will be\ngiven on elucidating how the composition of the initially\nreleased masses may have influenced the flow behaviour\nand final deposition. Two of the landslides are well known\nand volumetrically huge, i.e. the Holocene Storegga\nlandslide off western Norway (Solheim et al. 2005; Bryn\net al. 2005) and the 1929 Grand Banks landslide off Nova\nScotia/Newfoundland (e.g. Piper et al. 1999; Fig. 1a, b). In",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02356719970703,
+                58.72454071044922,
+                289.2214050292969,
+                367.51007080078125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1a9c76c87ac9d49bbc19df277cf21eb9",
+        "text": "Fig. 1 a Overview map showing Storegga landslide and the Bear Island Fan complex. b Overview map showing the Grand Banks landslide\n(modified from Piper and Aksu (1987))",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                697.3771362304688,
+                544.2012939453125,
+                715.7667236328125
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "f2f014ea11cc58534a8b0b403da8ddb3",
+        "text": "addition we focus on the Bear Island Fan complex, known\nfor its late Pleistocene well-defined and long run-out\ndebris flows (Laberg and Vorren 2000; Marr et al. 2002;\nFig. 1a).\nIt should be noted that in this paper, a debris flow has\nvisco-plastic properties, while we apply the term ‘bipartite\nflow’ when the flow becomes completely fluidised and\nseparates into a high- and a low-density layer, both with the\nproperties of a Newtonian fluid (i.e. with zero yield\nstrength). We thus restrict the term ‘fluidisation’ to a\nsituation where the pore fluids obliterate the effect of\nparticle friction. We also remark that in addition to\ncohesion, a debris flow may also include a frictional\ncomponent in the rheology if not fully fluidised. The low-\ndensity layer corresponds to what is commonly referred to\nas the turbidity current, where ‘turbidity’ should refer to a\ncertain low concentration of fine-grained particles in\nsuspension as also proposed by Mulder and Alexander\n(2001), rather than the common interpretation of a turbulent\nregime. The high-density layer refers to what is often\nclassified as the ‘high-density turbidity current’. However,\nas discussed below and previously shown by Breien et al.\n(in press), this high-density layer does not have the\ncommonly described erosive capability as often suggested\n(e.g. Mulder and Cochonat 1996; Baas et al. 2009).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.1398620605469,
+                58.72026824951172,
+                544.2779541015625,
+                367.5040283203125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c75352ec310794ffff5bd4cfb4bda1a7",
+        "text": "2 Case studies",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                58.81052017211914,
+                111.96183013916016,
+                68.77311706542969
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e60f276ad29d034961ecdfb6a4d9ce2b",
+        "text": "2.1 The Bear Island Fan complex",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                83.61309051513672,
+                186.96820068359375,
+                93.57569122314453
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5a5eb95af0698aecb9a4f6f290bc75ec",
+        "text": "Extensive landslide activity characterises the huge depo-\ncentres beyond the outlet of large ice streams terminating at\nthe Bear Island Fan (Fig. 1a). A significant part of the\nsediments consists of well-defined debris lobes. The lobes in\nthe uppermost part of these sediments were most likely\ndeposited during the last glacial maximum. They are\ntypically about 30 m thick and 10 km wide, and comprised\nof clay-rich material (Laberg and Vorren 2000; Marr et al.\n2002). The astonishing aspect of these debris flows is the\nenormous travel distance of more than 150 km despite an\naverage seafloor inclination of only 0.7°, corresponding to a\nrun-out ratio of only 0.012 (e.g. De Blasio et al. 2006).\nSeafloor mapping and sediment coring reveal rather homo-\ngeneous composition along the whole flow path. Moreover,\nthese debris flows do not seem to be associated with distal\nfine-grained deposits. Thus, they have most likely been\nformed and travelled down the slope as massive non-\nfluidized debris flows with a limited (if any) generation of\nan overriding low-density layer (i.e. a low-density turbidity\ncurrent, e.g. Hampton 1972). It should also be noticed that a\nlimited amount of erosion or erosional features have been\nrelated to the debris flows at the Bear Island Fan complex\n(e.g. Laberg and Vorren 2000). It is believed that rapid\nsedimentation in front of an active ice margin, implying\nsediment instability due to excess pore pressure, may have\ncaused cyclic release of sediments (e.g. Dimakis et al. 2000).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02056884765625,
+                108.50164031982422,
+                289.22723388671875,
+                429.8143310546875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7e79ddcde7091248f3a3b34164877faa",
+        "text": "2.2 The Storegga landslide",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02055358886719,
+                444.7403259277344,
+                159.5052490234375,
+                454.7029113769531
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c4753617014acc966d873ca1b4ebc2d0",
+        "text": "The Norwegian continental margin has demonstrated a\nbroad variety of submarine mass movements, with the 8150\nBP Storegga landslide as the most well known and\nspectacular single landslide identified so far (Vorren et al.\n1998; Haflidason et al. 2005; Bryn et al. 2005; Solheim et\nal. 2005; Sejrup et al. 2005).\nThe Storegga landslide (Bondevik et al. 2005) is rather\ncomplex, comprising numerous individual landslides at\ndifferent scales with a total volume of about 3,100 km3",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02055358886719,
+                469.62890625,
+                289.20941162109375,
+                579.2553100585938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5e05e5648e23bab26a7b81f8099a02f2",
+        "text": "(Haflidason et al. 2005). However, the Storegga landslide\nrepresents one major event (as opposed to the multi-flow\nsystem at the Bear Island Fan) with a first phase travelling\nmore than 400 km and a termination phase dominated by a\nseries of smaller landslides with significantly shorter travel\ndistances of 10–15 km (Fig. 2). The long travel distance as\nwell as a distal fine-grained deposit of the first phase most\nlikely reflects the material properties of the uppermost\nsediment layers, while the final short-travelling landslides\nreflect the well-compacted material at the bottom of the\nlandslide scar (300–400 m head wall; Fig. 2). It is believed",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                581.716552734375,
+                289.2303466796875,
+                716.2305297851562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5ef305dc81afdb022cce85dbae2bb52c",
+        "text": "Fig. 2 Main Storegga landslide events (see Fig. 1a) (phases) labelled\n1–5. Different colours represent constitutive phases. Phase 1 is shown\nin red. Phase 1 was followed by retrogressive smaller events (phases\n2–5). Light green areas show a compression zone created by the\nimpact (modified from De Blasio et al. (2005))",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.14166259765625,
+                348.7158508300781,
+                544.2410888671875,
+                397.0396728515625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2146a2f3e4c7de52517bff0e0d084c5c",
+        "text": "that the Storegga landslide was triggered by the combination\nof seismic activity and weak layers (Bryn et al. 2005).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.1418762207031,
+                432.21575927734375,
+                544.2410278320312,
+                454.6505126953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "855b1d73d2cb318166c07da19a12f362",
+        "text": "2.3 The 1929 Grand Banks landslide",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.141845703125,
+                469.57550048828125,
+                455.6147155761719,
+                479.5380859375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8ac2b1f3338522e941d13fbde6bbc8fb",
+        "text": "The Grand Banks landslide (Fig. 1b), associated with an\nearthquake and the breakage of numerous telecables, has\nprovided important information on the flow velocity. The\nhighest recorded velocity of about 28 m/s (~100 km/h) was\nreached in the upper part of the continental rise at a water\ndepth of about 4,000 m (Heezen et al. 1954). Based on\nextensive seafloor mapping and coring, Piper et al. (1984,\n1999) suggest that muddy sediment was released close to the\nshelf edge as debris flows cascading down the Laurentian\nChannel. A rough topography leading to a varying flow\nvelocity may have been important for the disintegration and\ntransformation of the debris flows into a turbidity current\n(according to the terminology of Piper et al. (1999) and Piper\nand Normark (2009)). Mass balance calculations indicate\ntwo sediment sources: fine-grained muddy sediments from\nthe upper continental slope and coarser-grained sand and\ngravel most likely originating from the valleys of the\nLaurentian Channel (Piper and Aksu 1987). Limited, or an",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.14178466796875,
+                494.5198669433594,
+                544.3485107421875,
+                716.1687622070312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fb95adee14ce56d31b332be4845a3661",
+        "text": "absence of, vigorous erosion related to the mass flow has\nbeen reported in some parts of the Grand Bank landslide area\n(Piper et al. 1999). As with the Bear Island Fan complex and\nthe Storegga landslides, the 1929 Grand Banks landslide\nlargely consists of sediments originally laid down during\nglaciations. A tentative minimum volume of the Grand\nBanks landslide is about 185 km3 (Piper and Aksu 1987).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.023597717285156,
+                58.72454071044922,
+                289.2292175292969,
+                143.40838623046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b11bb92d2ec3d13e502b0a7fd7ae72ce",
+        "text": "3 Comparison of the three landslide complexes",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.023895263671875,
+                170.89248657226562,
+                252.2554168701172,
+                180.85508728027344
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "631d17807dd5cf51093e264c631530c2",
+        "text": "From the above examples, which are all related to glacially\ninfluenced continental margins, we notice that mass failure\nmay either lead to a situation with massive debris flows or\nbipartite flows. The actual situation has a strong influence\non the final deposits. In the first situation, muddy massive\ndebris flows are deposited (the Bear Island Fan complex\nand the Storegga landslides). In contrast, the deposits of the\nGrand Banks landslide reveal well-defined sand lobes and\nmore distal units of mud and silt. This might indicate\ndisintegration of the debris flow and, as argued below, a\npossible transformation into a bipartite flow.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.023895263671875,
+                195.69407653808594,
+                289.1190490722656,
+                330.20806884765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b8522f5fd505719001d87dc0b78a0175",
+        "text": "4 Laboratory experiments and sediment composition",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.023895263671875,
+                357.69219970703125,
+                277.7557067871094,
+                367.6548156738281
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "843167c2f04668a133a9689528eeec07",
+        "text": "4.1 Laboratory flume facility",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.023895263671875,
+                382.49481201171875,
+                167.9668426513672,
+                392.4573974609375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f890ce9123b70fc9af414d6286099f7b",
+        "text": "Flow experiments were performed at the St. Anthony Falls\nLaboratory, University of Minnesota, in a flume inside a\n10-m long, 3-m high and 0.6-m wide tank (Fig. 3). The\ntank can be filled completely with water and has\ntransparent Plexiglass walls. Inside the tank, the slope of\na 0.2-m wide Plexiglass flume is adjusted to the desired\ninclination by means of wires. The flume bed has a layer\nof black roof shingle that provides an even degree of\nroughness of around 1 mm. At the top end of the flume,",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.023895263671875,
+                407.3833923339844,
+                289.20074462890625,
+                516.9530639648438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f0ff123c10f9f8eba20813cba09980ea",
+        "text": "Fig. 3 Set-up of the experimental\nflume at St. Anthony Falls\nLaboratory. I–IV represent\nhigh-speed camera positions.\nPressure sensors and video\ncameras were placed between I\nand II and between III and IV.\nNot to scale, and slope inclination\nexaggerated",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                535.1787719726562,
+                161.57846069335938,
+                623.3580932617188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b42ef2fa4cb0be928191f88bab6453ff",
+        "text": "the debris flow slurry is filled into the head tank, which is\nopened by a gate mechanism. The gate is operated\nmanually and automatically triggers the data acquisition\nsystem. The sediment runs down the inner flume and exits\ninto the large tank at the end. The data acquisition system\n(Breien 2009) was synchronised, ensuring that all mea-\nsurement sequences were triggered at the same instant\nwhen the gate was opened. The flow was monitored with\nregular and high-speed video cameras and with pressure\ntransducers.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.14117431640625,
+                58.72124481201172,
+                544.3021240234375,
+                180.7630615234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0e73cf752d8842e97f0be2627d112815",
+        "text": "4.2 Cameras",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.14117431640625,
+                195.6880340576172,
+                356.3128662109375,
+                205.650634765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e8ceba317999b26d37f8a805c2d155b8",
+        "text": "We used high-speed cameras of the type Silicon Video\n9M001C mounted outside the tank, placed respectively 3.6,\n4.1, 7.3 and 7.8 m from the gate (I–IV in Fig. 3). The\nexperiments were recorded at a frame rate of 240 fps. Vertical\nresolution was set to 600 pixels (1 pixel=1/9,000 m), giving\na horizontal resolution of 200 pixels. Each camera recorded\n4,000 frames per experiment, corresponding to 16.5 s. At a\nvelocity of around 1 m/s, a frame rate of 240 fps would give\na displacement of 25 pixels between two consecutive frames.\nIn addition to the high-speed cameras, two standard digital-\nvideo cameras (PIXCI board cameras) were used to capture\nthe overview (Fig. 3).\nA particle image velocimetry (PIV) algorithm (Sveen\nand Cowen 2004; Pagliardi 2007) applied to the high-speed\ncamera images permitted us to calculate the velocity of the\ndebris flow slurry particles close to the wall. We calculated\nthe velocity field (u and v components) for each image, i.e.\nevery 0.004 s and with a spatial resolution of about 1 mm,\nusing cross-correlation methods between two sub-windows.\nSimilar use of PIV can be found for example in Spinewine\net al. (2003), Pouliquen (2004) and Barbolini et al. (2005).\nFor subaqueous debris flows, high-speed cameras have also\nbeen applied before, but particle tracking was then done\nmanually (Ilstad et al. 2004b).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.14111328125,
+                220.5756072998047,
+                544.352294921875,
+                516.9439697265625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8d518b5fdc44f99783d887a11f5dda65",
+        "text": "4.3 Pressure transducers",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                58.72454071044922,
+                148.24661254882812,
+                68.68714141845703
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "134b64da26b6236245bb395465b729b8",
+        "text": "Two pairs of porewater pressure and total normal stress\nsensors were mounted in the bed of the chute, at 3.8 and\n7.6 m from the gate of the head tank. The pressure\ntransducers were mounted flush with the bed. Druck\nsensors were used to measure the porewater pressure, and\nHoneywell pressure sensors were used for the total pressure.\nThe pressure measurements were done with reference to the\nambient air and therefore affected by barometric changes.\nFor this reason, calibration was performed prior to each set\nof runs. The pore pressure transducers were flushed out\nprior to each experiment to expel any air in the tubes and to\nmake sure the filter pores were not clogged.\nPressure and stress distributions provide important\ninformation regarding flow behaviour and flow regimes at\nwork. Measurements were attempted at upstream and\ndownstream locations (Fig. 3), but the interpretation was\nnot straightforward. We want to stress these complications\nto assist others in similar situations. In some cases,\nmeasured pore pressures were higher than the total pressure\nduring the experiments. This situation is not physically\nconsistent but was nevertheless observed also in earlier\nexperimental studies (Ilstad et al. 2004a; Major and Iverson\n1999). Most likely, the phenomenon is an artefact of the\nmounting of the measuring system and of clogging of the\nfilters. It may also be due to sediment arching and stress\nrelief over the total stress sensor. Due to these complica-\ntions, we do not rely on the pressure measurements alone\nbut use the data to support our observations of velocity and\npossible hydroplaning. Examples of the pressure measure-\nments are shown in Fig. 4. The measurements are complex\nand most likely affected by the flume set-up and thus\nrequire special attention.\nThe initial wiggles (up to t=1–2 s) in the total stress\nmeasurements are flume vibrations triggered by the opening\nof the gate. A pressure rise of about 200 Pa (at t~3 s) is due\nto the release of the 100 l of debris flow slurry from the\nhead tank into the main tank and the resulting increase in\nwater level, before the frontal dynamic pressure arrives.\nThe stress peak (at t=6–7 s) corresponds to the arrival of\nthe debris flow front. As the flow comes to rest, the pore",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.023590087890625,
+                83.61309051513672,
+                289.19439697265625,
+                579.2523803710938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "165e34bf8393d411d12a2179c4a51f3a",
+        "text": "Fig. 4 a Pore and total pressures\nin a subaqueous debris flow of\n25% clay. Only the first 15 s are\ndisplayed. b Pore and total\npressure measured in a\nsubaqueous debris flow of 5%\nclay. Only the first 15 s are\ndisplayed",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                598.1079711914062,
+                161.54798889160156,
+                676.3092041015625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "911e4743a2c3b6b1c862707e732bd729",
+        "text": "pressure dissipates with time, and the difference between\npore and total pressures increases.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.141845703125,
+                58.71550750732422,
+                544.17724609375,
+                81.09351348876953
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "32472c6a099815e79cab6ce5886040ce",
+        "text": "4.4 Sediment composition",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.141845703125,
+                96.07524871826172,
+                411.4864196777344,
+                106.03784942626953
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "264084bf4a90bfa327cd22dd40dd6be0",
+        "text": "The material used was red flint medium sand (grain-size\ndistribution is given in Fig. 5), white industrial kaolin\n(Snowbrite) and coal slag (Black Diamond). Kaolin is a\nlow reaction clay of density 2.75 g/cm3. The sand and coal\nslag have a density of 2.65 and 2.6 g/cm3, respectively. Note\nthat in these sets of experiments, no silt-sized materials were\nincluded. The reason is that we primarily have focused on\nhow the clay concentration will influence the overall flow\nbehaviour, visco-plastic versus a granular–frictional flow or\nNewtonian fluid. We also refer to the section on scaling in\n‘Section 6’, ‘Section 6.1’ and Appendix). Every run\ncontained 5% coal slag by weight for easier particle tracking.\nThe coal slag is black and easily distinguishable from the\nreddish sand. The density of the mixed slurries was around\n1.8 g/cm3 at release.\nSand–clay–water mixtures of varying concentrations\nwere used. A range of clay concentrations from ‘low’ (5%\nand 10% by weight) via ‘medium’ (15% by weight) to\n‘high’ (20% and 25% by weight) was tested, the sand\ncontent varying correspondingly whilst the water content\nwas kept constant at 28% by weight. Clay concentrations\nless than 5% did not fulfil the requirement of a homoge-\nneous material as the sand grains settled out immediately\nand resulted in a bipartite flow from the start. In the\nfollowing, the slurries are differentiated and referred to by\ntheir clay concentration in weight percent (5–25%). In this\npaper, we concentrate on the results obtained with the\nlowest (5%), middle (15%) and highest (25%) clay\ncontents.\nClay and water were mixed in a concrete blender before\nsand and coal slag were added incrementally, with half a\nminute of mixing in between each addition. After all the\nsediments had been added, the blender was left to run for\n30 min to produce a homogeneous, remoulded sediment\nmixture. Immediately before each flume experiment, 100 l of\nsediment mixture were loaded into the head tank (Fig. 3).\nSince the rheology of the mixture is found to be time- and",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.141845703125,
+                120.96282196044922,
+                544.3546142578125,
+                579.2570190429688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "25b8afa3ad1570ade42299054b3c1bc4",
+        "text": "Fig. 5 Grain-size distribution (μm) of the red flint sand (medium).\nNote that there is no silt present",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02275085449219,
+                186.94515991210938,
+                289.1061096191406,
+                205.70074462890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d540218f0cacd1ab1168c229d4a767ff",
+        "text": "shear rate-dependent, we were careful to spend the same time\nmixing the debris flow slurry prior to each experiment.\nHowever, as seen from the rheometer tests below (Fig. 6),\nthe sediments revealed a certain strength, even at low clay\ncontent sufficient to avoid segregation during experiments.\nTo support our study of debris flow behaviour in the\nflume and the effect of a variable sand–clay content in the\nsuspension, we used the ball measuring system (BMS) in\nthe Paar Physica modular compact rheometer. This\nrheometer was also used among others by Sosio et al.\n(2006) for rheological measurements of natural debris flow\nmaterial. To assess the applicability of the BMS system,\nSchatzmann et al. (2003) as well as Si (2007) compared the\nresults of the BMS system with conventional systems,\nfinding the agreement between the flow curves obtained\nby both systems good. The slurries were found to exhibit\na Herschel–Bulkley behaviour (Fig. 6). The slurries are\nyield strength slurries as they exhibit a finite value at 0\nshear rate. If we separately consider the intervals of shear\nrate 0 < \u0001g < 20 and \u0001g > 20, we find a reasonable fit with\na Herschel–Bulkley model of the form t ¼ tg þ mga, a\ncommonly used rheology for fine-grained (muddy) debris\nflows (Coussot and Piau 1994; Remaitre et al. 2005). The\nexponent α changes from α<1 (shear-thinning) at lower\nshear rates (up to at least 20 s−1) to α>1 (shear-\nthickening) at higher shear rates (>20–100 s−1).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                223.0773162841797,
+                289.2303771972656,
+                544.397216796875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ec8a552ea846c9a68bbdf6277dffa92a",
+        "text": "Decreasing the clay content of the debris flow slurry to 15%\nby weight (Fig. 8) implies lower coherency and lower yield\nstrength. Hence, break-up of the flow and formation of a\nlarger low-density layer is easily visible. Break-up and\nsegregation of the flow into a bipartite one with an additional\nlayer of deposition starts at frame 400 (i.e. 1.5 s behind the\nfront). The front is turbulent, as seen from the upward-\npointing velocity vectors and the oscillating velocity (Fig. 8a,\nb), whilst the body flows in a laminar regime. These visual\nobservations hint at a more transitional flow regime\nthroughout the event. The velocity profiles (Fig. 8c) show\nFig. 6 Flow curves of the different slurries showing shear stress\nversus shear rate",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                581.7070922851562,
+                544.3338623046875,
+                716.2211303710938
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "14e380b8371831c659721196960f15d2",
+        "text": "5 Experimental results",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.1410827636719,
+                58.81247329711914,
+                403.0812683105469,
+                68.77507019042969
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3ebae4dd1a7688abbd172a6402f9e498",
+        "text": "Our experiments build on findings from previous flume\nexperiments, such as those by Mohrig et al. (1998); Marr et\nal. (2001) and Ilstad et al. (2004a, b, c), as well as the\npioneering work of Kuenen and Migliorini (1950) and\nHampton (1972). We also refer to previous papers by Breien\net al. (2007, in press) and Pagliardi (2007) based on the same\nset of experiments.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.14007568359375,
+                83.61504364013672,
+                544.31884765625,
+                168.297119140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9d54bbdb6bd423bd43f790c7f3d8c5cd",
+        "text": "5.1 High clay content (25%)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.1401062011719,
+                183.2220916748047,
+                421.756103515625,
+                193.1846923828125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3f395ed9471911d1eb4c398b0574f278",
+        "text": "The flows with high clay content (25% by weight) are\ncoherent and keep their composition for the duration of the\nflume flow (Fig. 7). The 25% debris flow slurry flows\neasily with a velocity of about 1 m/s and shows no sign of\ndeceleration. It leaves almost no sediment behind (Fig. 7).\nThe velocity profiles show a clear plug flow on top of a thin\nshear zone (Fig. 7c). The frontal snapshot and velocity\nprofile demonstrate marked hydroplaning. The flow moves\nmore or less as a rigid block, and there is a clear\ndemarcation between the body and the head of the flow\n(in some cases, the two parts are almost separated). The\ncoherency suppresses turbulence and results in only a very\nsmall low-density layer; however, Fig. 7c clearly shows that\nthere are two more or less separate layers. As seen from\nvelocity profiles and the colour plot of velocity, throughout\nthe duration of the experiment, the lower high-density layer\ntravels faster than the upper low-density layer.\nThe velocity vectors and velocity profiles reveal that the\ndense layer is laminar (also supported by the Reynolds number\nanalysis below). The fulfilment of the conditions for hydro-\nplaning to occur (including the ability to keep the material\ntogether) causes a lift of the frontal part of the flow (first 20 cm)\nso that it rides on a cushion of water (hydroplaning, e.g. Mohrig\net al. 1998; De Blasio et al. 2004), substantially reducing the\nbasal drag. Equal pore pressure and total stress values\nthroughout the whole flow support that hydroplaning takes\nplace (Fig. 4), as was also observed by Ilstad et al. (2004a).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.13909912109375,
+                208.1664276123047,
+                544.3318481445312,
+                541.89453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "25a07d17195e04670fe87ce1c6d8110e",
+        "text": "5.2 Medium clay content (15%)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.14007568359375,
+                556.8195190429688,
+                435.4755859375,
+                566.7821044921875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3d6e3dc559c4c6b6dfeabaad0dea8a2a",
+        "text": "Fig. 7 Data representation of a subaqueous debris flow with 25%\nclay. a Vectors showing velocity distribution through time at the\nupstream station 4.1 m from the gate. The shear zone is thin, and a\nclear and large plug flow with a constant velocity (especially in the\nhead) is found on top. Hydroplaning is illustrated by the height of the\nzero velocity layer at the bottom of the profiles. Negligible deposition\non the bed. b Velocity distribution with time, close to the wall\n(averaged in x-direction). The light blue line represents the deposition\nboundary. Deposition on the bed is negligible. We recognise a\npronounced high velocity head and block-like behaviour. c Velocity\nprofiles (blue, solid line) and corresponding photos for head, body and",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.023590087890625,
+                519.6448364257812,
+                289.1510314941406,
+                627.7236328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7a4e0ef4c5c87ca4bbeee927cc1af2b8",
+        "text": "plug flow towards the tail of the flow, but this is not as clear\nin the beginning of the flow. Shear and friction along the bed\nand between grains are far more visible than in more\ncoherent flows, and the shear layer is thicker. This is\nattributed to the less pronounced hydroplaning (first 10 cm\nof the flow) compared to the clay-rich flows. However,",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                644.0220947265625,
+                289.2073669433594,
+                716.2319946289062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bc8154d00efddbeabe9a95b0fd637ee3",
+        "text": "tail of the flow as they pass the upstream station. As is clearly seen\nfrom the left photo, the head exhibits pronounced hydroplaning, with a\nrelatively thick water cushion between the debris and the bed. The\nclay forms a thick and coherent muddy matrix that seems to totally\nsupport the well-dispersed sand grains. The velocity profile exhibits a\ndistinct plug flow riding on top of a deformable layer in which the\nshearing occurs. d Photos: front and body. We see a clear distinction\nbetween the laminar flow regime in the lower, dense part of the flow\nand the upper turbulent turbidity current. Eddies are visible inside the\nturbidity current",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.14080810546875,
+                519.6465454101562,
+                544.2681274414062,
+                617.7471923828125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7aa3f9db522c414a4e93d8d6b11b83c0",
+        "text": "hydroplaning can still be recognised in the pressure measure-\nments. We see that due to the gradual disintegration of the\ndebris flow slurry and its depletion in fines, flow regimes\nand support mechanisms can radically change during flow\nand range from matrix support to grain–grain support in\noriginally medium coherent slurries.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.140869140625,
+                644.0211181640625,
+                544.3286743164062,
+                716.2310180664062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "14a62be864b66575190d306c294af209",
+        "text": "Fig. 8 Data representation of a subaqueous debris flow with 15% clay\ncontent. a Vectors showing velocity distribution through time at the\nupstream station 4.1 m from the gate. A clear upward gradient is\nevident in the head/first 100 frames. b Velocity distribution with time,\nclose to the wall (averaged in x-direction). A bipartite flow develops.\nAt the same time, a little deposition starts to occur. c Velocity profiles",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                529.9630737304688,
+                289.124755859375,
+                588.3379516601562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bb0efb6a7a551d78e6e6fa275af2959c",
+        "text": "5.3 Low clay content (5%)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                606.6614379882812,
+                159.95765686035156,
+                616.6240234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "596a887081b9d1f7362385d88e1ce5f0",
+        "text": "The low coherency of the 5% clay flows results in break-up,\nturbulence (Fig. 9) and extensive low-density layer production\nthroughout the flow. The transition between lower dense and\ndilute flow is diffuse and gradual due to the large degree of\nwater incorporation.\nA large upward velocity gradient is seen in the frontal\nparts, and the velocity profile is strongly fluctuating, i.e.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.023597717285156,
+                631.5499877929688,
+                289.1346435546875,
+                716.2320556640625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "66c89189df408f33fed26442bc89cb36",
+        "text": "(blue, solid line) and corresponding photos for head, body and tail of\nflow as the flow passes the upstream station. Hydroplaning is still\nevident. The whole event evolves more slowly than the 25% clay flow\n(Fig. 6). d Photos: front, body and tail. We see a clear separation into a\nlower, sandy layer and an upper, turbidity current",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.1416931152344,
+                529.9638671875,
+                544.2680053710938,
+                578.2876586914062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f7d99de63c6c5f1413887c9a7096b05d",
+        "text": "clear indications of turbulence. Incorporation of water,\nturbulence and segregation lead to effective separation of\nthe grain sizes. The low-density layer consists mostly of\nclay particles and does not carry much sand.\nAs a result of the water incorporation and break-up, the\nflow sprinkles sand on the flume bed as it moves along,\ncontinuously losing mass on its way and leaving behind a\ncarpet of sand (Fig. 10). In Fig. 9c, the colour of the deposit\nnear the bed is darker (sandier) than the sand-depleted layer",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.140869140625,
+                606.660400390625,
+                544.3516845703125,
+                716.2301025390625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2b5dee448e9015f2ed0f96c98330499d",
+        "text": "Fig. 9 Data representation of a subaqueous debris flow with 5% clay\ncontent. a Vectors showing velocity distribution through time at the\nupstream station 4.1 m from the gate. There is a pronounced upward\ngradient in the head. Separation between dense flow and turbidity\ncurrent is very diffuse. After around 6–700 frames, the high-density\nlayer has settled, and it is only the upper low-density layer that moves. b\nVectors close to the wall, showing velocity distribution at a distance\nfrom the gate through time. A lower general velocity is exhibited, and\nthere is less differentiation in velocity in the horizontal direction than in\nthe more clay-rich slurries. High, constant sedimentation rate. c Velocity",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.023590087890625,
+                549.5787353515625,
+                289.2213134765625,
+                647.7525024414062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cfa3bfd6f9caba6cdaa9a70ada526b36",
+        "text": "close to the interface with the low-density layer. The velocity\nprofiles are more linear (due to friction) and show a lower\nhigh-density layer of more constant velocity which develops\ninto a more dilute low-density layer of similar velocity. A",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                668.9102172851562,
+                289.21929931640625,
+                716.2325439453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1aa6dd9c7e063cf846e52ba3c0378fcb",
+        "text": "profiles (blue, solid line) and corresponding photos for head, body and\ntail of flow as it passes the upstream station. Pulsing/wave motion in the\nlower dense layer might entrain earlier deposited material, as seen by\nthe thinner deposit in the tail frame than the body frame. d Photos: front\nand body. The flow seems homogeneous in the first photos, until\nsettling of sand becomes evident. The moving high-density sandy layer\nis seen in the right photo, with a thick upper low-density layer. Wave\nmotion in the sandy layer and eddies on top of the low-density layer are\nrecognised",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.14080810546875,
+                549.5795288085938,
+                544.3655395507812,
+                637.7589111328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "99784886960dbd9384c2b53362371d74",
+        "text": "larger part of the flow is turbulent, and low-density layer\ngeneration is more effective than in the 25% flow.\nIn the upper part of the high-density layer, the grains are\ngenerally well separated. We suggest that the support",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.140869140625,
+                668.9092407226562,
+                544.2530517578125,
+                716.2315673828125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "030a8ae2a301034f6ff186a048b9752e",
+        "text": "Fig. 10 Principal sketch of (a) subaqueous clay-rich debris flow and (b)\nsubaqueous sandy debris as observed during the laboratory experiments",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                349.05596923828125,
+                289.13922119140625,
+                367.50225830078125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "617b9ef52e3d718e0e04cf187dc17ebe",
+        "text": "mechanism in this layer might be fluidisation in which the\ngrains are carried by suspension but occasionally collide. The\nprocess of segregation is here slowed down by fluidisation.\nHence, this support mechanism may have special implications\nfor the run-out and transport of sand, as discussed by Breien et\nal. (in press). From Fig. 4a, we see that the total pressure is\nabout twice the pore pressure, indicating that parts of the\nsand are being deposited and that hydroplaning does not take\nplace after the passage of the front.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                394.97021484375,
+                289.23431396484375,
+                504.53985595703125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "99cba3d70617c2c35a671539332cd747",
+        "text": "6 Analysis",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360534667969,
+                532.0239868164062,
+                95.05232238769531,
+                541.986572265625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f61b400c04e284b8b43219c7db89e971",
+        "text": "6.1 Flow regime and dynamics",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360534667969,
+                556.8255615234375,
+                176.64796447753906,
+                566.7881469726562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bc8ba6ee46f56ea3cc31466c56e9cb96",
+        "text": "The visual observations as well as the velocity and pressure\nmeasurements in the laboratory provided information on flow\nregimes including the onset of hydroplaning. It became clear\nthat subaqueous flows were highly transitional, with flow\nregime and support mechanisms changing as the debris flow\nslurry disintegrated and the composition changed. Although\nexperimental studies provide valuable insight into the land-\nslide dynamics, upscaling these results from laboratory to field\nscale represents a major challenge because of complex and\nconflicting similarity requirements. However, most clayey\nflows and many sandy flows that are still within the range of",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360534667969,
+                581.7699584960938,
+                289.2301940917969,
+                716.2271728515625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4d869aaae2099a8e1b4432114bc6af10",
+        "text": "cohesive or transitional sediment mixtures can be scaled in\nterms of viscosity and yield strength for better predictions of\nhuge landslides moving at high speed (see Appendix). Further\ninformation about the flow regimes can also be gained by\nestimating the Reynolds and Froude numbers even though\nsignificant uncertainties remain due to the break-up of the\nmaterial and change of material properties during flow.\nAs an example, we consider the Reynolds number of the\nlow-density layer of a subaqueous 5% clay flow. As\npreviously discussed, we make the assumption that the debris\nflow can be transformed into a bipartite flow with a lower\nfluidised sandy layer and an upper sand-free low-density\nlayer. Based on the thickness of the low-density layer\nobserved close to the downstream cameras, we estimate a\nsolid fraction (ratio of solid volume to total volume) decrease\nfrom the value C=0.508 in the original debris flow slurry to\nC=0.018 due to break-up. Using the Krieger–Dougherty\nformula for the viscosity, we find a viscosity (μ) of the order",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.140869140625,
+                58.72051239013672,
+                544.350830078125,
+                280.369384765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c87990e2f38833f54536c585b5e460be",
+        "text": "\u0001\n\u0003\u00042:5C»\n\u0003 1:05m0\nð1Þ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                334.7716064453125,
+                286.3228454589844,
+                544.2329711914062,
+                312.44000244140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c913ae8d7bfaa6fe7e7f33bb1ef40213",
+        "text": "m \u0003 m0 1 \u0004 0:018\nC»",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.14190673828125,
+                293.63623046875,
+                382.16021728515625,
+                317.5686340332031
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "241056be476a0cab950795fffb447737",
+        "text": "where C*≈0.6 is the solid fraction corresponding to sand\nparticle interlock, and μ0 is the viscosity of the pore fluid.\nWe find that the viscosity of the debris flow slurry increases\nby a factor of 1.05 by adding sand. The Reynolds number",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.1418151855469,
+                330.203125,
+                544.3515625,
+                377.88958740234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8acf269f3cccc4cf56c9cd2a854166a1",
+        "text": "Re ¼ UHr\nm\nð2Þ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.1418151855469,
+                385.76214599609375,
+                544.2318725585938,
+                409.3306884765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "10750044cc38845b703875edfb89936d",
+        "text": "is consequently found to be of the order Re≈105, which\nindicates turbulent conditions in the low-density layer as also\nseen from the videos (Breien et al. in press).\nIt is complicated to estimate the Reynolds number for\nthe lower fluidised high-density sandy layer because sand\ngrains partly interlock and the granular friction is certainly\nsignificant in the force balance. Due to segregation, break-\nup and water incorporation, the rheology changes as the\nmass flows through water. Densities were not measured\nduring flow, and these calculations will therefore be based\non estimates. The clay-rich subaqueous debris flows can be\nrecognised as laminar from the video measurements (Breien\net al. in press). As these flows are coherent non-Newtonian\nflows, where particle segregation and water incorporation\nare of minor importance, the Reynolds number can be\ncalculated as",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.1413269042969,
+                416.1337890625,
+                544.3450927734375,
+                615.0889282226562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "13e87463249f4d6713fba9c9eed83832",
+        "text": "Re \u0003 U2\u0004aHar\nK\nð3Þ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.1413269042969,
+                624.6759643554688,
+                544.2317504882812,
+                649.8457641601562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a8a12faed5513b799fbbe3faac64e563",
+        "text": "where α is the exponent in the Herschel–Bulkley model,\nand K is the consistency parameter. The very low Reynolds\nnumbers (<100) we find by rheological measurements in\nthe clay-rich flows (K=20.8 Pa sα, α=0.2) confirm a\nlaminar regime.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.1415710449219,
+                656.016357421875,
+                544.246826171875,
+                716.176513671875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f92e9694fcbe7f90ea5eedc9572b6e7b",
+        "text": "The square root of the ratio between the hydrodynamic\nstagnation pressure in front of the flow and the submerged\nweight per unit area of the flow defines the densimetric\nFroude number",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.023765563964844,
+                58.72454071044922,
+                289.1806335449219,
+                106.04688262939453
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7049ea2135d79865979fdc158bac8673",
+        "text": "Fr ¼\nﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ\nr\nΔrgH cos b",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.023765563964844,
+                108.19258117675781,
+                132.23886108398438,
+                139.042724609375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c0a04145294e549355653e26a09af55e",
+        "text": "r\nU\nð4Þ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                73.18934631347656,
+                108.19331359863281,
+                289.1137390136719,
+                132.1824951171875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9363287a3acfd9ad77c037c3bb04b40f",
+        "text": "where ρ is the water density, Δρ is the difference between\nthe flow and the water densities, g is the acceleration of\ngravity, H is the flow depth and β is the slope. When the\nstagnation pressure exceeds the submerged weight (i.e.\nFr ~1), hydroplaning is present. Due to the hydrodynamic\nlift above the head, hydroplaning may occur already when\nFr<1. According to Mohrig et al. (1998), hydroplaning\ncan start at Froude numbers as low as 0.4.\nThe densimetric Froude numbers for the more clayey\nexperimental slurries vary from 1.5 to 1.65. These values have\nbeen calculated assuming a density for the debris flow equal to\nthe initial density of the debris flow slurry. For clay contents\nsufficiently high for the debris flows to remain coherent, such\nhigh Froude number values cause the debris flow to\nhydroplane. As mentioned above, partial hydroplaning of the\ndebris flow slurry was observed with low clay contents as well.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.0235595703125,
+                148.16127014160156,
+                289.2173156738281,
+                345.28643798828125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d671f62759056f5f8416ccdc21eceacd",
+        "text": "6.2 Longitudinal deformation and velocity field\ndevelopment",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.0245361328125,
+                360.2124328613281,
+                243.445068359375,
+                382.6471862792969
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "994a74be36f6fb79be731aa35dc9fedc",
+        "text": "As seen from the high-speed camera measurements and\nPIV analyses (Figs. 7, 8 and 9), the internal velocities are\nvery dependent on the composition of the flow and also\nvary within the body. The differential velocities result in\ninternal deformation of the flowing materials. The velocity\nis in general higher in the head than in the body. This\ndifference is especially large in the high clay flows\n(Fig. 11). The higher velocity of the debris flow head\ncompared to the body (which experiences higher bed\nfriction) results in stretching and elongation of the flow.\nThrough comparison of the velocities in two adjacent\ncameras (50 cm apart), we get a measure of the amount of\nstretching throughout the body of the flow. At each camera\nposition, the velocity field (u(x, y, t), v(x, y, t)) is resolved as",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.0245361328125,
+                397.5721740722656,
+                289.1296081542969,
+                569.4459228515625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4c9df72574f6f9a815167cc6b55597f2",
+        "text": "Fig. 11 Velocity development with time at upstream and downstream\nstations; 25% clay flow",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.023597717285156,
+                697.3771362304688,
+                289.0662841796875,
+                715.7667236328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d554ecc90171a83cdb4a58952d993379",
+        "text": "the debris flow slurry passes. A quantitative measure of the\nstretching rate of the mass is obtained by comparing the\nvelocities at two adjacent camera stations (see Fig. 3):",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.14483642578125,
+                58.71721649169922,
+                544.2012329101562,
+                93.56739044189453
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9cd29fd9228586a93e8c19c8bfecc09f",
+        "text": "\"xx ¼ @v\n@x ﬃu1 \u0004 u2\nΔx\nð5Þ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.14581298828125,
+                101.95753479003906,
+                544.2315063476562,
+                125.89020538330078
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "dc1539cbcb713421d525d57b9e9089cf",
+        "text": "where u1 and u2 are the velocities of the flow at two\ndifferent camera positions, and Δx is the distance between\nthe cameras (50 cm). This gives the change in velocity over\na given reference length. The stretching rate values are\npresented in Fig. 12. We found that stretching is highest in\nthe clayey flows (up to 1.3 s−1), and the increase with\nincreasing clay content seems exponential (Fig. 12), both at\nthe upstream and downstream stations. We also find that the\nstretching of the body is largest in the frontal parts of the\nflow and decreases towards the tail. This is most pro-\nnounced in the clay-rich flows, showing the importance of\nthe hydroplaning with reduced basal friction as an\nimportant mechanism for facilitating long run-out distances\nfor clay-rich debris flows.\nFrom the flume experiments, we found that one of the\nmost important aspects in debris flow dynamics is the\nability of the flow to preserve its original composition, and\nthis ability is determined by the amount of fines in the\ndebris flow slurry. Hydroplaning, stretching and a low\ndegree of deposition are factors that enhance the run-out of\nclay-rich and coherent flows, and all are linked to the\npresence of clay. In some cases, the stretching can result in\nautoacephalation (Parker 2000), producing outrunner\nblocks and the development of multiple heads (Elverhoi et\nal. 2005; Ilstad et al. 2004c; Nissen et al. 1999; Prior et al.\n1984; Hampton 1972). The elongation of the flowing body\ndue to stretching decreases the thickness of the flow, and\nthe fast-moving head ‘pulls’ the rest of the body. The\nphenomenon is most pronounced in clay-rich flows, which\ninitially produce a small low-density layer, mainly from\ntheir heads, but after some distance, one could expect this\nstretching to result in an increase in potential mixing length\ndue to development of cracks and incorporation of water.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.141357421875,
+                132.6517791748047,
+                544.2730712890625,
+                541.1578979492188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1fe7bd761c82a6bc42617fd2590720fe",
+        "text": "Fig. 12 Stretching rate of the debris flow mass, calculated from the\nvelocities in two neighbouring cameras",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.1416931152344,
+                697.3771362304688,
+                544.2120361328125,
+                715.7667236328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d7ac1c32f455df45d670e382aefff6dc",
+        "text": "The mixing results in lower coherency and a depletion of\nfines and will hence ultimately lead to development of a\nsandier debris flow if the mass is allowed to travel far. In\nthis way, extensive sandy deposits can form in deep marine\nenvironments, far from their source areas (Breien et al. in\npress). The low-density layer will continue, carrying mostly\nfines. This segregation of grain sizes is particularly visible\nin the subaqueous flows of lowest coherency (5% clay).\nThis is due to low yield strength and continuous disinte-\ngration in such flows, and results in flow regimes, which a\ntransitional both in the vertical and horizontal directions.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02375793457031,
+                58.72454071044922,
+                289.1278991699219,
+                193.1817626953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "aeb13244a90b8b9315eb4a0e520ba5cb",
+        "text": "6.3 Fragmentation and erosion",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02375793457031,
+                208.1634979248047,
+                174.42745971679688,
+                218.1260986328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ed1c93cce0cca376e2be65f27489e927",
+        "text": "Quantitative studies of the yield strength of slurries composed\nof clay, sand and water are scarce. However, in the laboratory,\nthe rheological properties of the slurries were measured in a\nball rheometer (Breien et al. in press; De Blasio et al. in\npress). The yield strength increases dramatically with the\nclay content, from about 5–10 Pa at 5% clay to 70–100 at\n25% clay (Fig. 4, the intercept with the y-axis).\nTalling et al. (2002) summarised results for the critical\nshear stress for surface erosion from various studies. For\nconsolidated beds, this critical shear stress increases\nsignificantly with depth below the sediment surface and\ntypically lies between 0.1 and 2 Pa. Further, such critical\nshear stresses are one or two orders of magnitude lower\nthan the yield strength measured by vane shear, falling cone\nor other rheometrical tests (Amos et al. 1997; Mitchener\nand Torfs 1996; Houwing 1999; Zreik et al. 1998). For\nsand–kaolinite suspensions with a clay fraction from 5% to\n25%, the critical shear stress for surface erosion measured\nby Mitchener and Torfs (1996) ranges between 0.5 and\n5 Pa. When the frictional stress on the flow/water interface\nexceeds the critical shear stress, surface erosion of the\ndebris flow occurs.\nThe frictional stress is expressed by",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02275085449219,
+                233.0510711669922,
+                289.2244567871094,
+                516.947265625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5f80116817e96b45b0167401251d1c1f",
+        "text": "t \u0003 1\n2 cDrU 2\nð6Þ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02671813964844,
+                527.6315307617188,
+                289.114990234375,
+                551.2000122070312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c7b74d64a0577493601e2c3afae64062",
+        "text": "where U is the velocity of the debris flow, ρ is the water\ndensity and cD is the frictional drag coefficient on the flow/\nwater interface. Following Norem et al. (1990), the frictional\ndrag coefficient cD averaged over the flow length L is\ndefined through the equation proposed by Schlichting (1980)\nfor turbulent flow along a flat rough plate moving with\nslowly varying velocity:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02381896972656,
+                561.2837524414062,
+                289.2075500488281,
+                646.3302612304688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e04342d7288b5fa31ef50f48f2c87697",
+        "text": "cD ¼ 1:89 þ 1:62 logðL=kÞ\n½\n\u0006\u00045=2\nð7Þ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02384948730469,
+                656.5374145507812,
+                289.114990234375,
+                670.4017944335938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ce56428e61d0779dc96e5949a55ece6c",
+        "text": "where k is a roughness length in the range 0.01–0.1 m.\nHence, based on this approach, cD will be around 0.016.\nYoung (1989) reported frictional drag coefficients up to",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02381896972656,
+                680.961669921875,
+                289.2373046875,
+                716.1763916015625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "da0af390c446d8ea83fb7d5502208c8b",
+        "text": "about 0.02 for turbulent flows above rough flat plates. The\nfrictional stress may be higher around the blunt head than\nabove the flatter and longer main body of the flow. However,\nfor a low-density layer constituting a significant part of the\ntotal flowing mass (as observed for the Grand Banks and the\nStoregga first phase landslides) to be formed, it is assumed\nthat particles must be brought into suspension not only from\nthe flow head. Hence, the analysis of critical shear stresses\nrefers to the main body of the flow.\nApplying the coefficient values discussed above, the\nfrictional stress associated with a velocity of U≈1 m/s\n(observed in the laboratory experiments and slightly depen-\ndent on the composition; Breien 2009) is between 5 to 10 Pa.\nFigure 13 shows with asterisks the frictional stress as a\nfunction of the clay content. The frictional stress increases\nslightly as a function of the clay content because of the\nincrease in the velocity of the slurry. In the same plane, the\ncritical shear stresses for surface erosion, assumed equal to\n10% of the yield strength, are shown with circles. Their\ndependence on the clay content is much more dramatic\nbecause, as we have discussed, the clay determines a\nsignificant increase of the cohesion. The two lines cross at\na critical clay density, which from the experimental evidence\nfalls between 20% and 25% clay content. A main conclusion\nfrom the laboratory experiments is thus that a bipartite flow\nis expected to occur when the critical shear stress is smaller\nthan the frictional stress (clay-to-sand ratio <20–25%), while\na coherent debris flow occurs when the critical shear stress is\nlarger than the frictional stress (clay-to-sand ratio >20–25%).\nThis is confirmed by the flume experiments. Significant\nuncertainties, highlighted by the shaded areas in Fig. 13,",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.140869140625,
+                58.72649383544922,
+                544.3497314453125,
+                442.229736328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "98b9bf0db93b26d456d1016709b216fe",
+        "text": "Fig. 13 Comparison between the frictional stress on the flow/water\ninterface and the critical shear stress for erosion as a function of clay\ncontent. The figure illustrates that the range of flows containing 0–\n20% clay evolves into bipartite flows whilst flows containing more\nthan 20% clay stay cohesive",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.1416931152344,
+                667.4432373046875,
+                544.2561645507812,
+                715.7670288085938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c8bc4d721fc999afda5a5d58e28ceada",
+        "text": "prevent a quantitative first-principle determination of the line\nof crossing, which is found in retrospect based on the results\nof the experiments.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                58.72454071044922,
+                289.22332763671875,
+                93.57471466064453
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "df37237a7e51751cc78fd83668413929",
+        "text": "7 Modelling the landslide velocities",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                121.05880737304688,
+                201.17088317871094,
+                131.0214080810547
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "56db42e2c354b2f6ac720082dd3a6643",
+        "text": "7.1 Sediment sources",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                145.8613739013672,
+                137.00682067871094,
+                155.823974609375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "34e398151209a97de182a6bd3b1204ca",
+        "text": "The Storegga landslide, the Bear Island Fan complex and the\nGrand Banks landslide are all associated with glacially\ninfluenced margins. All three landslides originated from\nsediments provided from major ice sheets: (1) the Storegga\nlandslide from the Fennoscandian ice sheet, (2) the Bear Island\nFan landslides from the Barents Sea ice sheet and (3) the Grand\nBanks landslide from the Laurentian ice sheet. In principle, the\nsediment sources are similar, namely, glacially eroded prod-\nucts, a situation likely to provide rather equal conditions and\nproducts. However, as documented from the three locations,\nthe final deposits in the three sites differ strongly. In particular,\nextensive sand deposits on the abyssal plain similar to those\nassociated with the Grand Banks landslide have not been found\nin connection with the other two landslides. As seen from the\nexperiments, the primary composition plays an important role\nin the subsequent behaviour. Initial high clay content—or\ncohesive sediments—provides landslides that may remain as\nmassive debris flows without disintegration. When comparing\nthe source area of the three landslides, they differ in significant\naspects. The source material of the Bear Island Fan complex\nlargely originates from the Barents Sea, an area entirely\ndominated by sedimentary rocks including large amounts of\nshale and fine-grained rocks. Sedimentological and mineralog-\nical analyses of the source sediments demonstrate high contents\nof clay minerals such as illite, chlorite, kaolinite, smectite and\nrandom mixed-layer smectite–illite (Elverhoi et al. 1989; Knies\net al. 2006). A similar assemblage although with a somewhat\ngreater smectite content has been identified in the surface as\nwell as in deeper sections along the margin (Knies et al. 2006;\nForsberg et al. 1999). With respect to the source material, the\nStoregga landslide materials have a mixed source from the\nFennoscandian shield underlain by crystalline and metamor-\nphic rocks with additional supply from the Norwegian shelf,\nunderlain by sedimentary rocks characterised by a high clay\ncontent. It should also be noticed that mineralogical analyses\nof Storegga landslide materials reveal significant amounts of\nsmectite (Forsberg and Locat 2005). Thus, similar to the Bear\nIsland Fan sediments, the Storegga landslide sediments have a\ncohesive nature. The Grand Banks landslide sediments consist\nof a mixture of mud as well as sand and gravel (Piper and\nSlatt 1977; Stow 1981; Piper et al. 1984). Clay mineral\nassemblages show a dominance of illite and chlorite with\nadditional kaolinite as well as some amounts of smectite.\nAlthough the clay mineral assemblages may have some",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                170.8057098388672,
+                289.199462890625,
+                716.2201538085938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c6c92e2b237a96369e0fbb6eb7c3f444",
+        "text": "common characteristics in all three areas, it seems likely that\nthe Storegga and the Bear Island Fan landslides may have a\nsomewhat higher content of active clay minerals such as\nsmectite. A more significant difference is most likely the sand\nand gravel contents in the Grand Banks landslide. Such\nsediments have not been found in association with the two\nother landslides. Thus, a significant difference in gross\nsediment properties may exist between the various regions,\ncohesive sediments along the Norwegian margin while the\nGrand Banks landslide may originate from a more mixed\nsediment source characterised by less active clay minerals as\nwell as a higher content of granular components, resulting in a\npotentially less cohesive landslide.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.141845703125,
+                58.71349334716797,
+                544.3346557617188,
+                218.11505126953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7fae3acf0e9625bc896577e5150baffd",
+        "text": "7.2 Landslide velocity calculations",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.141845703125,
+                233.04002380371094,
+                446.34661865234375,
+                243.00262451171875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "054b92d50366333c2f0bb593debe235e",
+        "text": "In this paper, we deal with two models for back calculating\nthe landslides. The first model BING (Imran et al. 2001) is\na depth-integrated two-dimensional model of a debris flow\ndescribed by a Bingham or a Herschel–Bulkley rheology.\nThe model is detailed in Imran et al. (2001). The basic tenet\nof the model is that a debris flow continues travelling until\nthe shear stress is lower than the yield strength of the\nmaterial. The debris flow geometry is divided into a series\nof elements shaped as parallelepipeds. Neglecting here for\nthe sake of reasoning the interaction of each element with\nits neighbours and the fact that the elements change shape,\nthe acceleration of one element is approximately given as",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.141845703125,
+                257.9276123046875,
+                544.2479858398438,
+                404.85699462890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "84a6bdd40c763cb2755f800e5e3f1e99",
+        "text": "\u0001\n\u0003 dU\ndt \u0003 g sin b \u0004 ty\nrD \u0004 mU\nrD2 \u0004 1\n2",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.14166259765625,
+                409.63006591796875,
+                485.4535827636719,
+                440.8760070800781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e9652722d69fbcb11562447834e8b1a2",
+        "text": "1 þ A rW\nr",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                313.3995666503906,
+                416.9432373046875,
+                349.5748596191406,
+                440.51214599609375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3c44bbdc7b35dbbf3aa426ef060ef3a1",
+        "text": "rW\nr",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                489.8266906738281,
+                416.9432373046875,
+                500.66143798828125,
+                440.51214599609375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f1cf6aa735932359752e1512ab66ef20",
+        "text": "h\ni\nU 2\nð8Þ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                397.13372802734375,
+                441.378173828125,
+                544.2329711914062,
+                462.7601318359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3e5aade0f4f99fe3b76db2bba58d98b6",
+        "text": "\u0007 cP\nL þ cD\nD",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                387.7799072265625,
+                445.99371337890625,
+                434.0024108886719,
+                469.5626220703125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4a2c16d69988a3a9d1b8eb8eff6d46cd",
+        "text": "where cP and cD are the pressure and frictional drag\ncoefficients, τy is the yield strength, μ is the Bingham\nviscosity, L is the length of one debris flow parallelepiped,\nβ is the slope angle, ρw is the water density, A is a\nparameter accounting for the added mass and D is the flow\ndepth of the debris flow parallelepiped. The terms on the\nright hand side are derived from the gravity component\nalong the slope, the basal yield stress, the basal viscous\nstress and the pressure and upper surface frictional stress on\nthe flow. The velocity and run-out distance depend in a\ncritical manner on the rheological properties of the model.\nA second model used in this work is W-BING (water\nBING; De Blasio et al. 2004). Simulations with W-BING are\naffected by more uncertainties compared to BING, not only\nbecause the process of hydroplaning is not fully understood\nbut also because the presence of a water layer is a more\ndifficult condition to achieve computationally. The model\nstarts as the normal BING model, and hydroplaning is\nincorporated when the densimetric Froude number Fr is >0.4",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.1408996582031,
+                482.05010986328125,
+                544.3497314453125,
+                716.1156005859375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d6a44daa5df9a7f25f6e53d8f6f8f9b4",
+        "text": "as described above (De Blasio et al. 2004). The change in\nwater layer thickness is calculated from the Navier–Stokes\nequations. The shear resistance between the debris flow and\nthe base is significantly reduced where the water layer is\npresent because most of the deformation is carried by the\nlow-viscous water layer. An approximate equation of motion\nfor the hydroplaning debris flow becomes",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.022613525390625,
+                58.72454071044922,
+                289.229248046875,
+                143.4066162109375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c2bfa2b4e5f7f023db6717658aa90e6c",
+        "text": "\u0001\n\u0003 dU\ndt \u0003 g sin b \u0004 mWU\nDWDr \u0004 1\n2",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.023921966552734,
+                145.0445098876953,
+                214.7449951171875,
+                177.057373046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0707be3f3e51bfcfbb4147ed74e380eb",
+        "text": "1 þ a rW\nr",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                58.27937316894531,
+                152.3008575439453,
+                94.23005676269531,
+                175.86978149414062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3140e9f14612404ff5428d926f0673b8",
+        "text": "rF\nr",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                219.0614013671875,
+                152.3008575439453,
+                228.37586975097656,
+                175.86978149414062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "153cf2ff6246ba2c32b7a8e566bb5aa1",
+        "text": "h\ni\nU 2\nð10Þ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                141.67544555664062,
+                176.73573303222656,
+                289.1150817871094,
+                198.11767578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e700fa4469ff6f4dbf0629e3c64d07c7",
+        "text": "\u0007 cP\nL þ cD\nD",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                132.32171630859375,
+                181.4080047607422,
+                178.60089111328125,
+                204.9769287109375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "852debd1b95b8cdff0f71db4511340bd",
+        "text": "where μw and Dw are the viscosity and the thickness of the\nwater layer, respectively. The new term \u0004 mW U\nDW Dr replaces the\nbasal yield and viscous stresses and is usually much lower in\nmagnitude. This is in essence the lubricating effect of\nhydroplaning. Hence, a longer simulated run-out distance is\nnormally achieved in the presence of hydroplaning.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.024017333984375,
+                211.2047882080078,
+                289.2048034667969,
+                283.77880859375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d02fa697ea1cd1c47bd4299c3aeb6147",
+        "text": "7.3 Results of model simulations",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.0240478515625,
+                298.70379638671875,
+                184.2418670654297,
+                308.6663818359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1ce9cc69d9d2bbb11389466e6a453ac6",
+        "text": "Figures 14 and 15 show the results for the Bear Island Fan\ncomplex and the Grand Banks landslide, respectively. For\nthe Bear Island Fan simulation, we changed the rheological\nproperties of the debris flow until values compatible with\nthe observed run-out were achieved. Because our tenet is\nthat the Bear Island Fan debris flows were hydroplaning\nand that high yield strength was preserved, we seek a",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02306365966797,
+                323.59136962890625,
+                289.1172180175781,
+                408.2734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6a376a186ef06ec59a1b4e4904d3604e",
+        "text": "Fig. 14 Simulation, debris flow: Bear Island Fan complex. Upper\nfigure: simulation with W-BING and 30 kPa. The calculation with\nBING and the same yield stress results in only an extremely short run-\nout. Lower figure: in order to gain a longer run-out with BING, a yield\nstress as low as 3 kPa is necessary. (Notice: the slope along the Grand\nBanks is much longer than that of the Bear Island Fan complex. This\ncauses a shorter run-out of the Bear Island simulation with the BING\nmodel.)",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                637.566162109375,
+                289.1332702636719,
+                715.7674560546875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b39923286b5ecc04ed282e5d846b29f7",
+        "text": "Fig. 15 Simulation debris flow part of Grand Banks landslide with a\nyield stress of 2 kPa. Upper figure: with W-BING. Lower figure: with\nBING. Notice that the slope along the Grand Banks is much longer\nthan that of the Bear Island fan. This causes a shorter run-out of the\nBear Island simulation with the BING model",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.1416931152344,
+                263.10955810546875,
+                544.2672729492188,
+                311.4333801269531
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e5ce4fb50e12ab235418464c0bbac726",
+        "text": "solution of our modelling using W-BING. The figure shows\nthat the model reasonably reproduces the observed run-out\nwith a yield strength of 30 kPa. The maximum calculated\nvelocity is above 22 m/s. A similar calculation with a non-\nhydroplaning 30-kPa debris flow (BING model) merely\nresults in a small readjustment of the material. To gain a\nrun-out compatible with the observations in the absence of\nhydroplaning, much lower yield strengths should be\nadopted: between 1.5 and 3 kPa (Fig. 14 shows the result\nwith 3 kPa). This range of low values entails a thorough\ntransformation of the rheology, which is not compatible\nwith the sharp edges and the thickness of the Bear Island\nFan lobes. We conclude that the Bear Island Fan debris\nflow did not disintegrate (as also indicated by the clay-rich\ncohesive nature of the Bear Island Fan clay), and that its\ndynamics are well reproduced by our experiments with high\nclay content (Fig. 16a). It should also be noticed that the\nobserved lack of basal erosion between the various debris\nflows at the Bear Island Fan complex (Laberg and Vorren\n2000) may be related to that hydroplaning significantly\nreduces erosion of the antecedent sediments (e.g. Mohrig et\nal. 1999; Harbitz et al. 2003; Elverhoi et al. 2005).\nFigure 15 shows the results for the Grand Banks landslide.\nFollowing our principle, the mechanics of this debris flow\nwere different from the Bear Island Fan debris flows. Based\non the analogy with experiments with intermediate and low\nclay content, we suggest that the Grand Banks landslide did\ndisintegrate, transforming from a less cohesive debris flow\ninto a bipartite flow, and finally continuing as a pure\nturbidity current (Fig. 16b). It is difficult at the present stage\nto fix the distance from start at which the cohesive Grand",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.14031982421875,
+                332.6603088378906,
+                544.3440551757812,
+                716.2203369140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e590f70aae593784da7d1d27b811d9ea",
+        "text": "Fig. 16 a Principal diagram\nillustrating the flow behaviour\nof one tentative debris flow at\nthe Bear Island Fan complex\nand the Storegga landslide phase\n1. Bear Island Fan complex is\ncharacterised by cohesive/\ncoherent debris flows leading to\nhydroplaning and longitudinal\nextension (‘stretching’).\nb Principal diagram illustrating\nthe flow behaviour of the 1929\nGrand Banks landslide\n(background data and\ntopographic profile adopted\nfrom Heezen et al. 1954). Initial\nphase with debris flows,\nhigh-speed acceleration due to\nhydroplaning followed by\ntransformation into a bipartite\nflow; i.e. high-density sand-rich\nunit (fluidised laminar flow) and\na low-density turbidity current.\nContinuous deposition of sand\nfrom fluidised unit, accordingly\nno erosion at the base of the\nfluidised unit",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 15,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                52.72216796875,
+                161.55477905273438,
+                320.2233581542969
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2fb09fe24a6cfaa7d443376c14598ed3",
+        "text": "Banks landslide transformed into a bipartite flow. Another\nthorny task is to establish both the origin of the specific part\nof the entire landslide that broke the cables and the\nprovenance of the sandy material that was deposited both\nin the middle and in the far basin. The cable break was\nrecorded after slightly less than 1 h from the main shock,\nwhich sensibly limits the distance between the head of the\ninitial debris flow at its site of initiation and the first cable to\nbe no more than 100 km. We assume that the head of the\ninitial 1929 Grand Banks landslide may have been located in\nthe area of the quake epicentre, at a distance of 100 km from\nthe first cable break (see Fig. 16b). In response to the\nretrogressive failure, debris flows were subsequently mobi-\nlised at gradually shallower water depths, successively\nforming new pulses of bipartite flows that continued out\nonto the abyssal plain and gradually established the observed\nsand layer with a thickness of up to 1 m. Such failures could\nnot be recorded by the cables that had already been broken\nby the primary slide.\nWe suggest that the transformation cohesive-to-bipartite\nflow occurred after the front of the debris flow had passed a\ndistance of 50 to 100 km beyond the first cable. The modelling\nresults in Fig. 15 illustrate some crucial aspects of the flow",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 15,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                432.3308410644531,
+                289.23529052734375,
+                716.22705078125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "083a10b6c0d4dc07356b40f595944f74",
+        "text": "dynamics in the initial phase of the landslide development.\nUnder the assumption of a mass failure followed by an initial\ndebris flow regime—as indicated by the field data—\nacceleration of the masses was crucial. As seen from the\nsimulation (W-BING), a situation with hydroplaning provides\nhigh velocities, potentially corresponding to the observations\nof cable break as well as velocities of almost 30 m/s as\nrequired to generate the 1929 Grand Banks tsunami (Fine et\nal. 2005). High velocities are required also to generate the\nlow-density layer causing distal turbidites (Fig. 16a, b).\nHigh velocities of the 1929 Grand Banks landslide may\nalso be obtained through a more classical visco-plastic flow as\nillustrated by the BING simulation. A lower shear strength of\nthe initial material is, however, required in order to reach long\nrun-out distances and high velocities. Although the results for\nBING and W-BING for the first 200 km of simulations are not\nfundamentally different, the simulations show that if the\nlandslide consists of materials with a low shear strength, high\nvelocities and long run-out distances may be obtained even\nwithout hydroplaning. However, in cases with sufficient\ncohesiveness and velocity of the sliding materials, a subaque-\nous landslide may evolve into a hydroplaning regime (e.g.\nMohrig et al. 1998). Thus, based on the observations of",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 15,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.140869140625,
+                432.32586669921875,
+                544.3488159179688,
+                716.2221069335938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3dd2b53c25a4f497a80415a0d32e5c3d",
+        "text": "debris flows in the Grand Bank landslide area originating\nfrom at least partly muddy sediments (e.g. Piper et al. 1999),\na certain degree of cohesiveness seems likely. Accordingly, a\nhydroplaning scenario may also be likely for the 1929 Grand\nBanks landslide. It is also interesting to notice the observa-\ntion of areas with little or no sign of erosion in the Grand\nBanks landslide area (e.g. Piper et al. 1999). As discussed for\nthe Bear Island Fan complex, this may be related to\nhydroplaning masses.\nIn analogy with the medium and low clay content experi-\nments, it is suggested that after the Grand Banks landslide\nstarted to break up, it continuously lost mass in the form of a\nsand carpet depositing along the abyssal plain as described by\nBreien et al. (in press). Whereas the sand in the distal part\nwas the product of the first phase of high-density fluidised\nlayer of the Grand Banks landslide, the 1-m thick deposits\nappearing only at distances less than 400 km from the\nheadwall might be at least partially the result of the\nsuccessive events in response to the development of a\nretrogressive landslide.\nSimulations of the Storegga first phase landslides reveal\na difficulty in delivering a huge mass of sediment to the\ndeep basin 400–500 km from the headwall applying a pure\nBingham fluid concept (De Blasio et al. 2005). In order to\nobtain the observed long travel distance and velocities of\n25–30 m/s required to generate the Storegga landslide\ntsunami with a retrogressive landslide motion (Harbitz et al.\n1993; Bondevik et al. 2005), the first phase landslide is\nsimulated with hydroplaning and/or a material progressively\nremoulding from 20 kPa to 500 Pa during flow. The high\nvelocities are also required in order to form the low-density\nlayer causing the distal turbidites (Fig. 2). The shorter travel\ndistance of the highly consolidated material in the smaller\nlandslides of the Storegga termination phase (Fig. 2) is\nsuccessfully simulated as a (one-layer) shear softening debris\nflow (Gauer et al. 2005).\nFinally, note that a key requisite for hydroplaning is that\nthe initial velocity of the non-hydroplaning flows has to be\nrelatively high to ignite the process. An initial high velocity\nis a consequence of the initially thick geometry of the\ndebris flow. In a Bingham rheological model (with a more\ngeneral model of Herschel–Bulkley fluid, the argument is\nonly slightly different), the initial acceleration increases\nwith the debris flow thickness D. This is clearly noticeable\nfrom Eq. 8, where the second and third terms on the right\nhand side decrease in magnitude as a function of D. As a\nconsequence, high acceleration may be attained in the\nbeginning of the failure only if the sediment is sufficiently\nthick. However, as the debris flow stretches and becomes\nthinner, the internal resistance becomes comparatively more\nimportant than gravity. Thus, unless hydroplaning starts, the\ndebris flow will stop at an early stage, unless the yield\nstress and the viscosity are very small.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 16,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02357482910156,
+                58.72454071044922,
+                289.234130859375,
+                716.2182006835938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d70a13745f71157200905ae8a59a0a71",
+        "text": "7.4 Relationship with the experimental cohesive–bipartite\ntransition",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 16,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.14178466796875,
+                58.3476676940918,
+                538.4506225585938,
+                81.08954620361328
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bb5d6072817ef6463175c78d4e50f5d7",
+        "text": "It has been shown (Fig. 13) that cohesive versus disintegrating\nbipartite dynamics in experimental debris flows can be\nexplained based on a comparison between the frictional\nstress on the flow/water interface that remains nearly constant\nand the critical shear stress for erosion that strongly depends\non the composition. We suggest that a similar principle could\noccur for natural submarine debris flows. Because the Grand\nBanks landslide potentially had a more granular and less\ncohesive composition, we expect a lower critical shear stress\nfor erosion compared to the Bear Island Fan complex\n(Fig. 13). In our interpretation, the Bear Island Fan complex\ncorresponds to the clay-rich experiments, while the Grand\nBanks landslide is featured by more sand-rich experiments. It\nshould be noted that according to our simulations, the\nsimulated velocities in the Bear Island Fan and the Grand\nBanks differed relatively more than the velocities of the clay-\nrich and sand-rich debris flows seen in the experiments.\nHowever, the higher simulated velocities at the Grand Banks\ncan be ascribed to a greater slope angle. Considering the\nuncertainties involved, the results seem to be compatible with\nour conjecture. Based on velocity estimates, the frictional\nstress in the field may be 500–1,500 times greater than in the\nexperiments, which correspond to maximum values of\nthe order 5–15 kPa. Therefore, the 30 kPa adopted in the\nsimulation of the Bear Island Fan would explain the absence\nof erosion and the maintenance of a cohesive state. In\ncontrast, the critical stress for erosion is lower for the Grand\nBanks landslide.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 16,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.1416931152344,
+                96.07128143310547,
+                544.3525390625,
+                442.236083984375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "aaf0caaaad39d6745dce294797b8099c",
+        "text": "8 Conclusions",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 16,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.1416931152344,
+                469.72021484375,
+                365.53375244140625,
+                479.6828308105469
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5d4bc5df94ea4f76545eb356880f47f2",
+        "text": "The apparent differences in flow dynamics for the Bear Island\nFan complex, the Storegga landslide and the 1929 Grand\nBanks landslide are elucidated by laboratory experiments with\nsubaqueous debris flows of varying sand-to-clay ratio. The\nexperiments reveal how the primary composition of the\nmobilised sediment (clayey versus sandy) determines the flow\nbehaviour of submarine landslides.\nWe conclude that clay-rich cohesive material, as found e.g.\nat the Bear Island Fan complex and in the Storegga landslide,\nmay remain compact and attain extremely long run-out\ndistances and high velocities on very gentle slopes in the\nocean as a result of hydroplaning and acceleration of the head\nof the flow causing longitudinal extension of the entire body.\nIf the sand content is increased, as e.g. in the Grand\nBanks landslide, the flow becomes less cohesive. This leads\nto internal particle segregation and a bipartite flow with the\nfiner clay and silt forming an upper low-density layer, while\nthe coarser material forms a lower sandy granular high-",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 16,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.1416931152344,
+                494.57861328125,
+                544.352783203125,
+                716.2275390625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "863c132a3fe8a101e1e57e6ad80dff3f",
+        "text": "density layer. The process of particle segregation is a\nresponse to water intrusion and fluidisation and implies that\nthe flow sprinkles sand on the seabed as it moves along,\ncontinuously loosing mass on its way and leaving behind a\ncarpet of sand. This process also significantly reduces the\nerosive capability of the flow. Hydroplaning is still\nconsidered important to accelerate the frontal part of the\ndebris flow to the velocities required for entrainment of\nparticles from the head and frontal part of the debris flow,\nthus bringing particles into suspension and forming the\nupper low-density layer.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 17,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                58.72454071044922,
+                289.12664794921875,
+                193.1817626953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fdae8b7fb6a04f812dd74b2bce908805",
+        "text": "Acknowledgments\nThe authors wish to thank Prof. Bjørn Gjevik\nfor all his lectures and supervision in fluid mechanics, which have—\ntogether with his open mind and broad field of interests—constituted\nan essential part of the basis for our studies of submarine landslide\ndynamics. The authors are further indebted to Dieter Issler, Peter\nGauer, Johan Petter Nystuen and Kaare Høeg, as well as Jeff Marr,\nGary Parker and their colleagues at St. Anthony Falls Laboratory,\nUniversity of Minnesota, for their contributions to our studies of\nsubmarine landslides.\nThe work on the present paper has been supported by the\nInternational Centre for Geohazards (ICG) and the VISTA programme\n(a co-operation between the Norwegian Academy of Sciences and\nStatoil, project 6249). Additional support has also been provided by the\nNorwegian Geotechnical Institute, Department of Geosciences at the\nUniversity of Oslo and the Research Council of Norway (NFR). This is\ncontribution no. 304 of the International Centre for Geohazards.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 17,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.023590087890625,
+                206.8134765625,
+                289.2136535644531,
+                364.72601318359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9a27173b7b09975507da4361bede2dfc",
+        "text": "Open Access\nThis article is distributed under the terms of the\nCreative Commons Attribution Noncommercial License which per-\nmits any noncommercial use, distribution, and reproduction in any\nmedium, provided the original author(s) and source are credited.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 17,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.023590087890625,
+                376.1572265625,
+                289.2000732421875,
+                414.5029602050781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a3d958db6757d8896a244b48171c3aad",
+        "text": "Appendix",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 17,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                444.3222961425781,
+                92.28770446777344,
+                454.284912109375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6eb50536798a386c1dc64679f1089029",
+        "text": "Distorted scaling of subaqueous debris flows",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 17,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                469.1806945800781,
+                232.70648193359375,
+                479.1432800292969
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5e24d4ceeeaa78a89ca9a57ae7b1bfea",
+        "text": "Idealised laboratory-scale experiments may not relate\ndirectly to the full-scale natural phenomenon. Hence,\nscaling aspects must be considered when performing such\nexperiments. In many cases of interest, the flow dimensions\ncan be scaled down in the model, while the dimensions of\nthe microstructure (e.g. grain size) cannot. For instance, a\nsandy debris flow cannot be scaled down using clay instead\nof sand because the properties of cohesive material differ\ngreatly from that of non-cohesive sand. In such cases, the\nlink between field and laboratory is made through distorted\ngeometric modelling in which the vertical and horizontal\ndimensions are scaled down by different amounts, as done\nby Graf (1971), Marr et al. (2001) and Mohrig and Marr\n(2003). Focussing on the rheological properties of the\nsediment (i.e. viscosity and yield strength), rather than grain\nsize and interactions, circumvents the problem of scaling\nthe microstructure. The following procedure will apply to a\nHerschel–Bulkley fluid with exponent α under laminar",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 17,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                494.06927490234375,
+                289.1387023925781,
+                715.7182006835938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d0922ba5539fef434f8e17becc620316",
+        "text": "flow conditions so that the vertical velocities are low except\nin the ambient fluid around the head.\nTo see the scaling relationships that are generated by\ndistorted geometric modelling (following Marr et al. 2001),\nlet λv and λh represent the vertical and horizontal scaling\nreductions, respectively. Thus where H, B, A and S denote\ndebris flow thickness, width, cross-sectional area and slope,\nthe dimensions of the laboratory model relative to the\nprototype are",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 17,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.1405029296875,
+                58.72264862060547,
+                544.2417602539062,
+                168.29541015625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "66963d8f712ae87cb86f8245739af744",
+        "text": "ðHÞl ¼ lvðHÞp\nð11Þ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 17,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.1405029296875,
+                177.07423400878906,
+                544.2323608398438,
+                189.87283325195312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bcb67fe7eca66653142785de02ff20ec",
+        "text": "ðBÞl ¼ lhðBÞp\nð12Þ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 17,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.1422119140625,
+                206.2720489501953,
+                544.2323608398438,
+                219.06973266601562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a76a58557c4427088af57d647b883cec",
+        "text": "ðAÞl ¼ lhlvðAÞp\nð13Þ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 17,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.1422119140625,
+                234.50550842285156,
+                544.2323608398438,
+                247.30276489257812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "91c43ad76b10f2d04b075918ef78c218",
+        "text": "ðSÞl ¼ lv\nlh\nðSÞp\nð14Þ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 17,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.1422119140625,
+                255.8787384033203,
+                544.2323608398438,
+                280.63531494140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5a3ec29f9638d314d9f8934d81ffb4de",
+        "text": "Dynamic similarity is obtained by ensuring equality of the\nappropriate dimensionless numbers. Let U, ρw, ρd, g, τdy and\nνd represent flow velocity, water density, debris flow density,\nacceleration of gravity, debris flow yield strength and\nkinematic Herschel–Bulkley viscosity, respectively. For\nsubaqueous debris flows, we seek equality in the densimetric\nFroude number Fr, the Reynolds number Re and a\ndimensionless yield strength parameter Ys, defined by",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 17,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.1421203613281,
+                288.7840881347656,
+                544.2464599609375,
+                385.8824157714844
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5f6566edae404f760246ce8a3efdb07f",
+        "text": "Fr ¼\nU\nﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 17,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.1421203613281,
+                394.11981201171875,
+                388.5268859863281,
+                410.883544921875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6b5be7850881abfa07555a4769d9e213",
+        "text": "rd\nrw \u0004 1\n\u0005\n\u0006\ngH\nr\nð15Þ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 17,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                328.706298828125,
+                400.2755126953125,
+                544.2332153320312,
+                429.7972412109375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9c95da9b95479a2de713a4e2a7dc943f",
+        "text": "Re ¼ U2\u0004aHa",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 17,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.14306640625,
+                446.206787109375,
+                364.54278564453125,
+                464.517578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "039837b422a00c183c95c6b0c5cdb862",
+        "text": "nd\nð16Þ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 17,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                343.3888854980469,
+                454.1905212402344,
+                544.2323608398438,
+                472.1438903808594
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1584956ea5bc70283150cbf0bb8d840d",
+        "text": "Ys ¼\ntdy\nrdU2\nð17Þ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 17,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.1422119140625,
+                481.5164489746094,
+                544.2323608398438,
+                507.23681640625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "40894d4b818e3fa176d20364c1ee0639",
+        "text": "In performing similarity analysis, we assume that g, ρw\nand ρd are the same in the model and the prototype. Since\nflow thickness H is a vertical scale, the application of\nFroude similarity yields the result:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 17,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.1416931152344,
+                515.0213623046875,
+                544.2390747070312,
+                562.7085571289062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e0ce0aaa6831544b398d1627d64af8fd",
+        "text": "1\n2\nv ðUÞp\nð18Þ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 17,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                342.87884521484375,
+                569.8157348632812,
+                544.2323608398438,
+                586.0989379882812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bcf5c679f8a9e20115ce10e782f6d9d8",
+        "text": "ðUÞl ¼ l",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 17,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.1418151855469,
+                572.2813720703125,
+                342.87139892578125,
+                585.0790405273438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e0a93868a0ed2993a1e7890260ac036f",
+        "text": "The additional application of Reynolds similarity\nrequires that",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 17,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.1431884765625,
+                592.2042846679688,
+                544.3277587890625,
+                614.582275390625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b92b64196109d2ecfe3b0ec39170d255",
+        "text": "ðudÞl ¼ l 1þa=2\nv\nðudÞp\nð19Þ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 17,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.1431884765625,
+                625.8665771484375,
+                544.2323608398438,
+                640.3546142578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d1d056dc96414a424705655b6900cde0",
+        "text": "Similarity in Ys gives",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 17,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.1422119140625,
+                652.6395263671875,
+                394.8452453613281,
+                662.6021118164062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "aff5d251700488fda0dd66035e332c2d",
+        "text": "ðtdyÞl ¼ lvðtdyÞp\nð20Þ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 17,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.1422119140625,
+                671.4376220703125,
+                544.2323608398438,
+                684.2349243164062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "878044b03a97f7f01d607c76043b3440",
+        "text": "Table 1 provides an example of how the proposed\nexperiments might be extrapolated to field scale assuming",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 17,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.1422119140625,
+                693.4014282226562,
+                544.232421875,
+                715.836181640625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8bd130c47e8f4dcb3d537f0a230c3945",
+        "text": "Table 1 Example values for extrapolation from laboratory experiments\nto field scale for a Bingham fluid",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 18,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                57.3709716796875,
+                289.1069641113281,
+                75.760498046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "81b91c17bbc3b70567f21fce4428d1fb",
+        "text": "Parameter\nSymbol\nLaboratory\nmodel\nPrototype",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 18,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360534667969,
+                86.17132568359375,
+                289.0892028808594,
+                104.61761474609375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e09274ddb7fe78cde24d025d033ced44",
+        "text": "Slope angle\nθ=tan−1S (degrees)\n5\n1\nThickness\nH (m)\n0.05\n5\nRunout\nLr (m)\n20\n10,000\nWidth\nB (m)\n0.2\n100\nDischarge\nQd (m3/s)\n0.01\n5,000\nVelocity\nU (m/s)\n1\n10\nViscosity\nνd (m2/s)\n0.001\n1\nYield strength\nτdy (Pa)\n20\n2,000",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 18,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.023590087890625,
+                115.1640625,
+                284.4711608886719,
+                215.8486328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c6a2bff8571b1f044e9406add80254f4",
+        "text": "λv=1/100, λh=1/500 and a Bingham fluid (n=1). In the\ntable, Lr is runout length (a horizontal quantity), and Qd is\nthe volume discharge (cubic metres per second) of the\ndebris flow. The values for the model are taken from typical\nresults by Mohrig et al. (1998).\nThe values computed above are realistic for both model and\nfield scale (even though the runout length of the laboratory\nexperiments is unknown, most flows were still moving when\nthey reached the end of the flume). This example shows that\nby scaling down the rheological parameters of the sediment\nand scaling up the slope angle, it is possible to model field-\nscale debris flows in the laboratory—at least with regard to the\nbulk properties of the flow.\nIn practical terms, viscosity and yield strength may be\nreduced in the synthetic sediment by adding water to the\nslurry and reducing the clay content or using a different\ntype of clay. As Eqs. 19 and 20 show, the slurry viscosity\nneeds to be reduced. Both water and clay content will\ntherefore usually need to be changed in going from field to\nlaboratory scale. Care has to be taken that this does not\nsignificantly change the exponent α. We may conclude that,\nin general, flow regime transitions will not occur at the\nsame clay content values at all scales. Moreover, different\ntypes of clay may induce different flow behaviour even\nwith the same clay content, and this clay-type dependency\nmay also be scale-dependent.\nFinally, some types of sediment are not well described\nby visco-plastic models (i.e. through viscosity and yield\nstrength) and therefore need to be scaled following different\nconsiderations (Iverson 1997). These include coarse slurries\nor sandy debris flows in which frictional and inertial effects\ndominate. The grain size, d, is significant for shear stresses\nin these kinds of granular flows and for settling velocities in\nsuspension flows.\nFor example, in the turbidity current forming above the\ndebris flow, the settling velocity should scale in the same\nway as the horizontal velocity and the square root of the",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 18,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                257.57952880859375,
+                289.228271484375,
+                716.2232055664062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ea2b8fabc7829107af256837030f5f56",
+        "text": "turbulent energy density, i.e. with λv\n1/2 to reproduce the\nsettling behaviour. This leads to the requirement",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 18,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.1419372558594,
+                54.30278778076172,
+                544.2001953125,
+                81.10254669189453
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "25bb2939a67a614a2caa76c397b22d3c",
+        "text": "cD Rep\n\u0007\n\b",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 18,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                347.130615234375,
+                82.73866271972656,
+                381.0079650878906,
+                102.70294952392578
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ea72981f34cf151ccd44c69692d6d53c",
+        "text": "ðdÞp ¼ lv",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 18,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.1419372558594,
+                98.15827941894531,
+                344.50885009765625,
+                110.95632934570312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1d86211a223a855e3c6947ffc449b343",
+        "text": "cD Rel\nð\nÞ ðdÞl\nð21Þ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 18,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                348.4910583496094,
+                98.15870666503906,
+                544.2323608398438,
+                116.81940460205078
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cc03948dc2d78615197f88e9c2a2fb30",
+        "text": "In the ambient fluid, the viscosity will normally be the same\nin nature and in the laboratory, thus the Reynolds numbers in\nthe ambient fluid around the debris flow body will differ by\nseveral orders of magnitude. This can be tolerated as long as\nthe Reynolds number at the laboratory scale is well above the\ntransition to fully turbulent flow. In Eq. 21, however, the\nparticle Reynolds numbers determined by the settling velocity\nand the particle diameter have to be applied, and a suitable\nparticle diameter must be determined by solving the non-\nlinear Eq. 21 for (d)l. In our case, the clay particles in the\nlaboratory roughly correspond to sand particles in a full-size\ndebris flow. This indicates that the turbidity current generated\nby the field-scale debris flow would be competent enough to\nsuspend sand and transport it over considerable distances.\nDespite all these complications, however, most clayey\nflows and many ‘sandy’ flows that are still within the range\nof cohesive (more fines) or transitional (less fines, more\nsand) sediment mixtures, can be scaled in terms of viscosity\nand yield strength.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 18,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.141845703125,
+                125.16899871826172,
+                544.2771606445312,
+                359.2923583984375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6dd147a26697ac71b08ba1ba0c340075",
+        "text": "References",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 18,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.141845703125,
+                392.4452209472656,
+                351.95989990234375,
+                402.4078369140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cc421661f6ddd9f5f317e2a3cbd35da4",
+        "text": "Amos CL, Feeney T, Sutherland TF, Luternauer JL (1997) The\nstability of sublittoral fine grained sediments in a subarctic\nestuary. Sedimentology 43:1–19\nBaas JH, Best JL, Peakall J, Wang M (2009) A phase diagram for\nturbulent, transitional, and laminar clay suspension flows. J Sed\nRes 79:162–183\nBarbolini M, Biancardi A, Natale L, Pagliardi M (2005) A low cost\nsystem for the estimation of concentration and velocity profiles in\nrapid dry granular flows. Cold Reg Sci Technol 43:49–61\nBondevik S, Løholt F, Harbitz CB, Mangerud J, Dawson A, Svendsen\nJI (2005) The Storegga Slide tsunami—comparing field obser-\nvations with numerical simulations. Mar Petrol Geol 22:195–208\nBreien H (2009) On the dynamics of subaqueous and subaerial gravity\nmass flows—a comparison. Ph.D. Thesis, Faculty of Mathemat-\nics and Natural Sciences, University of Oslo, Oslo\nBreien H, Pagliardi M, Elverhoi A, De Blasio FV, Issler D (2007)\nExperimental studies of subaqueous vs. subaerial debris flows—\nvelocity characteristics as a function of the ambient fluid. In:\nLykousis V, Sakellariou D, Locat J (eds) Submarine mass move-\nments and their consequences. Dordrecht, Springer, pp 101–110\nBreien H, De Blasio FV, Elverhoi A, Nystuen JP, Harbitz CB (in press)\nTransport mechanisms of sand in deep-marine environments—\ninsights based on laboratory experiments. J Sediment Res\nBryn P, Berg K, Forsberg CF, Solheim A, Kvalstad TJ (2005)\nExplaining the Storegga Slide. Mar Petrol Geol 22:11–19\nCoussot P, Piau JM (1994) On the behaviour of fine mud suspensions.\nRheologica Acta 33:175–184\nDe Blasio FV, Engvik L, Harbitz CB, Elverhoi A (2004) Hydro-\nplaning and submarine debris flows. J Geophys Res 109:C01002.\ndoi:10.1029/2002JC001714",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 18,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.13922119140625,
+                418.44805908203125,
+                544.35009765625,
+                715.8267211914062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "35581a994be0ad94e8ffaf89430e14c7",
+        "text": "De Blasio FV, Elverhoi A, Issler D, Harbitz CB, Bryn P, Lien R\n(2005) On the dynamics of subaqueous clay rich gravity mass\nflows—the giant Storegga slide, Norway. Mar Petrol Geol\n22:179–186\nDe Blasio FV, Elverhoi A, Engvik L, Issler D, Gauer P, Harbitz C\n(2006) Understanding the high mobility of subaqueous debris\nflows. Norw J Geol 86:275–284\nDe Blasio FV, Breien H, Elverhoi A (in press) Modelling a cohesive-\nfrictional debris flow: an experimental, theoretical and field-\nbased study. Earth Surf Process Land\nDimakis P, Elverhoi A, Høeg K, Solheim A, Harbitz C, Laberg JS,\nVorren TO, Marr J (2000) Submarine slope stability on the high-\nlatitude glaciated Svalbard-Barents Sea margin. Mar Geol\n162:303–316\nElverhoi A, Pfirman S, Solheim A, Larsen BB (1989) Glaciomarine\nsedimentation and processes on high Arctic epicontinental seas—\nexemplified by the northern Barents Sea. Mar Geol 85:225–250\nElverhoi A, De Blasio FV, Butt FA, Issler D, Harbitz C, Engvik L,\nSolheim A, Marr J (2002) Submarine mass-wasting on glacially-\ninfluenced continental slopes: processes and dynamics. In:\nDowdeswell JA, Cofaigh CO (eds) Glacier-influenced sedimen-\ntation on high-latitude continental margins, vol 203. Geological\nSociety of London, London, pp 73–87\nElverhoi A, Issler D, De Blasio FV, Ilstad T, Harbitz CB, Gauer P\n(2005) Emerging insights into the dynamics of submarine debris\nflows. Nat Haz Earth Sys Sci 5:633–648\nFine IV, Rabinovich AB, Bornhold BD, Thomsen RE, Kulikov EA\n(2005) The Grand Banks landslide-generated tsunami of Novem-\nber 18, 1929: preliminary analysis and numerical modeling. Mar\nGeol 215:45–57\nForsberg CF, Locat J (2005) Mineralogical and microstructural\ndevelopment of the sediments on the Mid-Norwegian margin.\nMar Petrol Geol 22:109–122\nForsberg CF, Solheim A, Elverhoi A, Jansen E, Channell JET,\nAndersen ES (1999) The depositional environment of the western\nSvalbard margin during the late Pliocene and the Pleistocene:\nsedimentary facies changes at site 986. In: Raymo ME, Jansen E,\nBlum P, Herbert TD (eds) Proceedings of the Ocean Drilling\nProgram, scientific results, vol 162. Ocean Drilling Program,\nCollege Station, Texas, pp 233–246\nGauer P, Kvalstad TJ, Forsberg CF, Bryn P, Berg K (2005) The last\nphase of the Storegga Slide: simulation of retrogressive slide\ndynamics and comparison with slide-scar morphology. Mar Pet\nGeol 22:171–178\nGauer P, Elverhoi A, Issler D, De Blasio FV (2006) On numerical\nsimulations of subaqueous slides: back-calculations of laboratory\nexperiments of clay-rich slides. Norw J Geol 86:295–300\nGraf WH (1971) Hydraulics of sediment transport. McGraw Hill, New\nYork, 513 pp\nHaflidason H, Lien R, Sejrup HP, Forsberg CF, Bryn P (2005) The\ndating and morphometry of the Storegga Slide. Mar Petrol Geol\n22:123–136\nHampton MA (1972) The role of subaqueous debris flows in\ngenerating turbidity currents. J Sed Petrol 42:775–793\nHarbitz CB, Pedersen G, Gjevik B (1993) Numerical simulation of large\nwater waves due to landslides. J Hydraul Eng 19:1325–1342\nHarbitz CB, Parker G, Elverhoi A, Marr JG, Mohrig D, Harff PA\n(2003) Hydroplaning of subaqueous debris flows and glide\nblocks: analytical solutions and discussion. J Geophys Res\n108:2349. doi:10.1029/2001JB001454\nHeezen BC, Ericson DB, Ewing M (1954) Further evidence for a\nturbidity current following the 1929 Grand-Banks earthquake.\nDeep-Sea Res 1:193–202\nHouwing E (1999) Determination of the critical eroson threshold of\ncohesive sedimentson intertidal mudflats along the Dutch\nWadden Sea coast. Estuar Coast Shelf Sci 49:545–555",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 19,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.01844787597656,
+                57.3709716796875,
+                289.2423400878906,
+                713.393310546875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "44e4087262ce8c5b05edf0d891294f28",
+        "text": "Ilstad T, Marr JG, Elverhoi A, Harbitz CB (2004a) Laboratory studies\nof subaqueous debris flows by measurements of pore-fluid\npresure and total stress. Mar Geol 213:402–414\nIlstad T, Elverhoi A, Issler D, Marr JG (2004b) Subaqueous debris\nflow behaviour and its dependence on the sand/clay ratio: a\nlaboratory study using particle tracking. Mar Geol 213:415–438\nIlstad T, De Blasio FV, Elverhoi A, Harbitz CB, Engvik L, Longva O,\nMarr JG (2004c) On the frontal dynamics and morphology of\nsubmarine debris flows. Mar Geol 213:481–497\nImran J, Harff P, Parker G (2001) A numerical model of submarine\ndebris flow with graphical user interface. Comput Geosci\n27:717–729\nIverson RM (1997) The physics of debris flows. Rev Geophys\n35:245–296\nKnies J, Jensen HKB, Finne TE, Lepland A, Sather OM (2006)\nSediment composition and heavy metal distribution in Barents\nSea surface samples: results from Institute of Marine Research\n2003 and 2004 cruises. Geological Survey of Norway. ISSN:\n0800-3416, 44 pp\nKuenen PH, Migliorini CI (1950) Turbidity currents as a cause of\ngraded bedding. J Geol 58:91–127\nLaberg JS, Vorren TO (2000) Flow behaviour of the submarine\nglacigenic debris flows on the Bear Island Trough Mouth Fan,\nwestern Barents Sea. Sedimentology 47:1105–1117\nMajor JJ, Iverson RM (1999) Debris flow deposition: Effects of pore\nfluid pressure and friction concentrated at flow margins. Geol\nSoc Am Bull 111:1424–1434\nMarr JG, Harff PA, Shanmugam G, Parker G (2001) Experiments on\nsubaqueous sandy gravity flows: the role of clay and water\ncontent in flow dynamics and depositional structures. Geol Soc\nAm Bull 113:1377–1386\nMarr JG, Elverhoi A, Harbitz C, Imran J, Harff P (2002) Numerical\nsimulation of mud-rich subaqueous debris flows on the glacially\nactive margins of the Svalbard-Barents Sea. Mar Geol 188:351–\n364\nMitchener H, Torfs H (1996) Erosion of mud/sand mixtures. Coastal\nEng 29:1–25\nMohrig D, Marr JG (2003) Constraining the efficiency of turbidity\ncurrent generation from submarine debris flows and slides using\nlaboratory experiments. Mar Petrol Geol 20:883–899\nMohrig D, Whipple KX, Hondzo M, Ellis C, Parker G (1998)\nHydroplaning of subaqueous debris flows. Geol Soc Am Bull\n110:387–394\nMohrig D, Elverhoi A, Parker G (1999) Experiments on the relative\nmobility of muddy subaqueous and subaerial debris flows, and\ntheir capacity to remobilize antecedent deposits. Mar Geol\n154:117–129\nMulder T, Alexander J (2001) The physical character of subaqueous\ndensity flows and their deposits. Sedimentology 48:269–299\nMulder T, Cochonat P (1996) Classification of offshore mass movements.\nJ Sed Res 66:43–57\nNissen SE, Haskell NL, Steiner CT, Coterill KL (1999) Debris flow\noutrunner blocks, glide tracks, and pressure ridges indentified on\nthe Nigerian Continental slope using 3-D seismic coherency. The\nLeading Edge, Soc Expl Geophys 18:550–561\nNorem H, Locat J, Schieldrop B (1990) An approach to the physics\nand the modelling of submarine flowslides. Mar Geotechnol\n9:93–111\nPagliardi M (2007) Application of PIV technique to the study of\nsubaqueous debris flows. PhD thesis, Università di Pavia, Italia\nParker G (2000) Hydroplaning outrunner blocks from auto-\nacephalated subaqueous debris flows and landslides. Eos Trans\nAGU 81:OS51D-08\nPiper DJW, Aksu AE (1987) The source and origin of the 1929 Grand\nBanks turbidity-current inferred from sediment budgets. Geo-Mar\nLett 7:177–182",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 19,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.1342468261719,
+                57.38055419921875,
+                544.3502807617188,
+                713.3930053710938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c81a7265bb1a91a8d4d0a91a00477780",
+        "text": "Piper DJW, Normark WR (2009) Processes that initiate turbidity\ncurrents and their influence on turbidites: a marine geology\nperspective. J Sed Res 79:347–362\nPiper DJW, Slatt RM (1977) Late Quaternary clay-mineral distribution on\neastern continental margin of Canada. Geol Soc Am Bull 88:267–272\nPiper DJW, Stow DAV, Normark WR (1984) The Laurentian Fan:\nSohm Abyssal Plain. Geo-Mar Lett 3:141–146\nPiper DJW, Cochonat P, Morrison ML (1999) The sequence of events\naround the epicentre of the 1929 Grand Banks earthquake:\ninitiation of debris flows and turbidity current inferred from\nsidescan sonar. Sedimentology 46:79–97\nPouliquen O (2004) Velocity correlations in dense granular flows.\nPhys Rev Lett 93:248001\nPrior DB, Bornhold BD, Johns MW (1984) Depositional character-\nistics of a submarine debris flow. J Geol 92:707–727\nRemaitre A, Malet JP, Maquaire O, Locat J (2005) Flow behaviour\nand runout modelling of complex debris flow in a clay-shale\nbasin. Earth Surf Process Land 30:479–488\nSchatzmann M, Bezzola GR, Minor HE, Fischer P (2003) The ball\nmeasuring system—a new method to determine debris-flow\nrheology. In: Rickenmann D, Chen CL (eds) Debris-flow hazards\nmitigation: mechanics, prediction and assessment. Millpress,\nRotterdam, p 387\nSchlichting H (1980) Boundary layer theory. McGraw-Hill, New York\nSejrup HP, Hjelstuen BO, Dahlgren TKI, Haflidason H, Kuijpers A,\nNygård A, Praeg D, Stoker MS, Vorren TO (2005) Pleistocene\nglacial history of the NW European continental margin. Mar\nPetrol Geol 22:1111–1129\nSi G (2007) Experimentally study the rheology of fine-grained slurries\nand some numerical simulations of downslopes slurry movements.\nMaster thesis, University of Oslo, Norway, 128 pp",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 20,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.021026611328125,
+                57.3709716796875,
+                289.2339782714844,
+                364.727783203125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "871a63060cc89792c64d02be98cce7cb",
+        "text": "Solheim A, Berg K, Forsberg CF, Bryn P (2005) The Storegga Slide\ncomplex: repetitive large scale sliding with similar cause and\ndevelopment. Mar Petrol Geol 22:97–107\nSosio R, Crosta GB, Frattini P (2006) Field observations, rheological\ntesting and numerical modelling of a debris flow event. Earth\nSurf Process Land 32:290–306\nSpinewine B, Capart H, Larcher M, Zech Y (2003) Three-dimensional\nVoronoi methods for the measurement of near-wall particulate\nflows. Exp Fluids 34:227–241\nStow DAV (1981) Laurentian Fan: morphology, sediments, processes,\nand growth pattern. AAPG Bull 65:375–393\nSveen JK, Cowen EA (2004) Quantitative imaging techniques and their\napplication to wavy flows. In: Grue J, Liu PL-F, Pedersen G (eds)\nPIVand water waves. World Scientific Pub. Co., Singapore, pp 1–50\nTalling PJ, Peakall J, Sparks RSJ, Cofaigh CO, Dowdeswell JA, Felix\nM, Wynn RB, Baas JH, Hogg AJ, Masson DG, Taylor J, Weaver\nPE (2002) Experimental constrains on shear mixing rates and\nprocesses: implications for the dilution of submarine debris\nflows. In: Dowdeswell JA, Cofaigh CO (eds) Glacier-influenced\nsedimentation on high-latitude continental margins, vol 203,\nSpecial Publications. Geological Society of London, London, pp\n89–103\nVorren TO, Laberg JS, Blaume F, Dowdeswell JA, Kenyon NH,\nMienert J, Rumohr J, Werner F (1998) The Norwegian Greenland\nSea continental margins: morphology and late Quaternary\nsedimentary processes and environment. Quatern Sci Rev\n17:273–302\nYoung AD (1989) Boundary layers. BSP Professional Books, Oxford\nZreik DA, Khrishnappan BG, Germaine JT, Madsen OS, Ladd CC\n(1998) Erosional and mechanical strengths of deposited cohesive\nsediments. J Hydraul Eng ASCE 124:1076–1085",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "s10236-010-0317-z.pdf",
+            "page_number": 20,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.1341857910156,
+                57.3753662109375,
+                544.3407592773438,
+                364.732177734375
+            ],
+            "is_full_width": false
+        }
+    }
+]

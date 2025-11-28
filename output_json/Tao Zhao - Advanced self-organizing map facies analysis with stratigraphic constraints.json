@@ -1,0 +1,686 @@
+[
+    {
+        "element_id": "2d689c224731f6abb2de2a56e7becdf8",
+        "text": "AASPI",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Tao Zhao - Advanced self-organizing map facies analysis with stratigraphic constraints.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                106.0999984741211,
+                123.61009216308594,
+                195.98001098632812,
+                156.82008361816406
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "77c2d967433d59813e723eba61df81d2",
+        "text": "Advanced self-organizing map facies analysis with stratigraphic constraint",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Tao Zhao - Advanced self-organizing map facies analysis with stratigraphic constraints.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                378.1400146484375,
+                148.48193359375,
+                2810.7275390625,
+                228.42593383789062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d99bdc165c5200d948aa842159d8a75d",
+        "text": "Tao Zhao*, Fangyu Li, and Kurt J. Marfurt, University of Oklahoma",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Tao Zhao - Advanced self-organizing map facies analysis with stratigraphic constraints.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                923.02001953125,
+                280.087646484375,
+                2269.484375,
+                331.37469482421875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "284a76629f33da5c61294de8a7064c15",
+        "text": "Summary",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Tao Zhao - Advanced self-organizing map facies analysis with stratigraphic constraints.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                129.30999755859375,
+                417.0007019042969,
+                329.69464111328125,
+                465.9982604980469
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "de00094b557a9cd3430d4ccf0637de8c",
+        "text": "Methodology",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Tao Zhao - Advanced self-organizing map facies analysis with stratigraphic constraints.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                1373.8599853515625,
+                423.2123718261719,
+                1646.822509765625,
+                472.18316650390625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "73cee97aaf329cd9faddc83910ef58cf",
+        "text": "In this study, we briefly introduce a stratigraphic constraint derived from seismic\ndecomposition method into self-organizing map (SOM) facies analysis. After describing\nthe\nmethodology,\nwe\nshow\nan\nimproved\nSOM\nworkflow\nusing\ninformation\nof\nsedimentary cycle, which is derived from variational mode decomposition (VMD) on\nseismic amplitude data. On an unconventional shale application, we observe that the\nconstrained SOM facies map shows layers that are easily overlooked on traditional\nunconstrained SOM facies map.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Tao Zhao - Advanced self-organizing map facies analysis with stratigraphic constraints.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                129.30999755859375,
+                468.9999084472656,
+                1289.0,
+                718.4800415039062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3b9b44950f5385454bc99b71d44cbaed",
+        "text": "Introduction",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Tao Zhao - Advanced self-organizing map facies analysis with stratigraphic constraints.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                129.72000122070312,
+                786.7924194335938,
+                386.0810241699219,
+                835.7632446289062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6d2622eb1c8a49ee735a041aaef2642b",
+        "text": "Workflow of SOM facies analysis",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Tao Zhao - Advanced self-organizing map facies analysis with stratigraphic constraints.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                461.95001220703125,
+                809.9199829101562,
+                894.5298461914062,
+                841.8399658203125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cd6d28f3dfff149dad08e8e4f3180801",
+        "text": "Figure 1. (a) Seismic amplitude from a trace along\nwell A (location shown later). (b) VMD components\n(IMFs) of the trace above. Four components are used\nto represent sedimentary cycles. (c) The gradient of\nIMF 3. Dashed lines show the correspondence among\nseismic amplitude, IMF 3, and IMF 3 gradient.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Tao Zhao - Advanced self-organizing map facies analysis with stratigraphic constraints.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                1381.030029296875,
+                905.0000610351562,
+                1813.7440185546875,
+                1033.090087890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "422b13163a18305af22e02dcd34237da",
+        "text": "Data Description\nWell B",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Tao Zhao - Advanced self-organizing map facies analysis with stratigraphic constraints.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                1366.3699951171875,
+                1089.1624755859375,
+                1904.3377685546875,
+                1138.1331787109375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "59346d07b36b3647d078757f9251fc30",
+        "text": "Spatial/temporal information is lost when data are \nre-sorted from physical space into attribute space",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Tao Zhao - Advanced self-organizing map facies analysis with stratigraphic constraints.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                137.3000030517578,
+                1409.3123779296875,
+                881.181640625,
+                1483.30322265625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5ab1fe036ea6cc83fe7a9afdead0f82f",
+        "text": "Figure 5. Main formations in the\nBarnett\nShale\nstudy\narea\n(After\nLoucks and Ruppel, 2007).\nFigure 6. Input prestack inversion seismic attributes for SOM facies analysis.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Tao Zhao - Advanced self-organizing map facies analysis with stratigraphic constraints.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                1397.0899658203125,
+                1478.7899169921875,
+                2486.6240234375,
+                1542.06005859375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2ba888f4cba08685dc91929558e3b991",
+        "text": "Adding a background model of sedimentary cycle may help define \nlayers that are otherwise not well defined on seismic attributes",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Tao Zhao - Advanced self-organizing map facies analysis with stratigraphic constraints.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                230.7100067138672,
+                1512.75244140625,
+                1193.036865234375,
+                1586.7432861328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ae1da420a3ce3e09e206f89ed93c0cb5",
+        "text": "a)\nb)\nc)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Tao Zhao - Advanced self-organizing map facies analysis with stratigraphic constraints.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                1411.3399658203125,
+                1604.52001953125,
+                2352.938232421875,
+                1630.25
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5e1d367ff4a1120131110196b878d36d",
+        "text": "Mode decomposition methods are able to approximately recover \nsedimentary cycle information from seismic amplitude data",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Tao Zhao - Advanced self-organizing map facies analysis with stratigraphic constraints.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                336.70001220703125,
+                1624.8123779296875,
+                1289.8294677734375,
+                1698.80322265625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3729e39661aadd8174a5539cddf86ca6",
+        "text": "SOM is an excellent seismic facies analysis/classification tool that captures the\ninformation residing in (multiple) input seismic attributes by reorganizing data samples\nbased on their topological relation. Examples of the very first applications of SOM on\nseismic facies analysis include Strecker and Uden (2002), in which the authors used\nmultiattribute input and performed SOM classification volumetrically using a 2D SOM\nlatent space, and Coleou et al. (2003) used both seismic amplitudes (waveform\nclassification) and seismic attributes as inputs for SOM. To overcome the issue that the\ndistance information in the input attribute space is lost once projected into the 2D SOM\nlatent space, Zhao et al. (2016) adopted a distance-preserving step in SOM,\nconstraining the SOM facies to better reflect the degree of diversity in input attribute\nspace. However, till now all the SOM applications are spatially (and temporally, for time\ndomain seismic data) unaware, because seismic data are sorted into “attribute space”\n(each dimension is one seismic attribute) before feeding into a classification technique\nlike SOM.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Tao Zhao - Advanced self-organizing map facies analysis with stratigraphic constraints.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                133.02999877929688,
+                1750.1700439453125,
+                1289.090087890625,
+                2251.670166015625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "dae3a4296f19c4836f4db1bcfc1b7df2",
+        "text": "Figure 8. Vertical section along line AA’ through a) unconstrained SOM facies map; b) VMD constrained SOM facies map; and c) Vp/Vs ratio.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Tao Zhao - Advanced self-organizing map facies analysis with stratigraphic constraints.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                1369.3900146484375,
+                1836.1298828125,
+                2486.3837890625,
+                1860.52001953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2689b84641d3d3710cff7e47f8e43a14",
+        "text": "a)\nb)\nc)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Tao Zhao - Advanced self-organizing map facies analysis with stratigraphic constraints.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                1522.4599609375,
+                1883.590087890625,
+                2585.738037109375,
+                1913.81005859375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "473199fcbc6e2cca73e8f7c21834dee4",
+        "text": "Figure 9. Vertical section along line BB’ through a) unconstrained SOM facies map; b) VMD constrained SOM facies map; and c) Zoom-ins\naround traces X1 and X1’ extracted from the unconstrained and constrained SOM facies volumes.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Tao Zhao - Advanced self-organizing map facies analysis with stratigraphic constraints.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                1481.81005859375,
+                2109.580078125,
+                2634.494140625,
+                2155.570068359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d141d04a66fed6dc8b69061904a5c1a4",
+        "text": "Conclusion\nIn this study, we explored the feasibility of constraining the SOM facies analysis using\nsedimentary cycle information. Being an initial attempt to approximate stratigraphy\ninformation, the constrained SOM facies map shows layers that are more likely being\noverlooked on unconstrained SOM facies map. The geological meaning of the VMD\nderived sedimentary cycle model needs to be carefully calibrated with well logs. A well\nlog constrained chronostratigraphic model may further improve the performance.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Tao Zhao - Advanced self-organizing map facies analysis with stratigraphic constraints.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                1372.6300048828125,
+                2209.3125,
+                2439.728515625,
+                2460.186767578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ca08fde5b62c2123897e4bc02ede9475",
+        "text": "In this study we follow the workflow described in Li et al. (2016), adopting the VMD\nmethod to decompose the seismic amplitude signal into a user-defined number of\nmodes, and select one of the modes as an indicator of the sedimentary cycle by\ncalibrating with well logs. By adding such sedimentary cycle constraint in SOM facies\nanalysis, we identify some layers are better represented comparing to the traditional\nunconstrained SOM facies analysis.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Tao Zhao - Advanced self-organizing map facies analysis with stratigraphic constraints.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                133.02999877929688,
+                2254.22021484375,
+                1289.1500244140625,
+                2467.68994140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1f7d867722c1e0557645f904b07b60a3",
+        "text": "Figure 2. Vertical section along the IMF 3 gradient\nplotted with Gamma ray log (blue curve) at well A\nand\nwell\nB\n(location\nshown\nlater).\nThe\nwell\ntrajectory is marked by the red dash line. Formation\ntops are marked as colored curves. Note the good\nmatch in pattern between Gamma ray log and IMF\n3 gradient.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Tao Zhao - Advanced self-organizing map facies analysis with stratigraphic constraints.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                1833.1700439453125,
+                786.4600219726562,
+                2247.676025390625,
+                936.1300048828125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "22bb15530fddba5cde7c197ce03e299e",
+        "text": "Figure 3. Traces of IMF 3 gradient plotted with\nGamma ray logs (blue curve) at well A (left) and\nwell B (right) (location shown later). Well A is a\nvertical well, and the corresponding IMF 3 gradient\ntrace is the most adjacent trace of well A. Well B is\na deviated well, and the corresponding IMF 3\ngradient trace is a composite trace along the well\ntrajectory.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Tao Zhao - Advanced self-organizing map facies analysis with stratigraphic constraints.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                2274.530029296875,
+                826.6900024414062,
+                2688.0283203125,
+                997.97998046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "eb27e2eb1b93fe5edc085254a9f26810",
+        "text": "Figure 4. Workflow of the stratigraphically constrained SOM facies\nanalysis.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Tao Zhao - Advanced self-organizing map facies analysis with stratigraphic constraints.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                2706.0,
+                924.5599975585938,
+                3292.16015625,
+                966.22998046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1f299cbc62b9e6caee6e2679c26b862e",
+        "text": "Result",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Tao Zhao - Advanced self-organizing map facies analysis with stratigraphic constraints.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                2674.820068359375,
+                1093.6524658203125,
+                2809.127197265625,
+                1142.6231689453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d2d7c4a019c211f910f1faa0092f11ec",
+        "text": "Well B",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Tao Zhao - Advanced self-organizing map facies analysis with stratigraphic constraints.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                2317.030029296875,
+                1126.570068359375,
+                2337.86767578125,
+                1134.489990234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "191a8221ffffa85aa0518133c0b30223",
+        "text": "a)\nb)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Tao Zhao - Advanced self-organizing map facies analysis with stratigraphic constraints.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                2670.860107421875,
+                1159.6600341796875,
+                3014.137939453125,
+                1184.949951171875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "20e1d65791fed98722a37674fefe8077",
+        "text": "Well B",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Tao Zhao - Advanced self-organizing map facies analysis with stratigraphic constraints.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                2317.030029296875,
+                1337.530029296875,
+                2337.86767578125,
+                1345.449951171875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e5ddd8c2ad6a1f44ef042a859f6f0a01",
+        "text": "Well B",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Tao Zhao - Advanced self-organizing map facies analysis with stratigraphic constraints.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                1883.5,
+                1340.4100341796875,
+                1904.3377685546875,
+                1348.3299560546875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "60dc6598c35239446535b7b7e4f62692",
+        "text": "Figure 7. a) SOM on Zp, Zs, Mu/Lambda, and Poisson’s Ratio, without VMD\nconstraint. b) SOM on Zp, Zs, Mu/Lambda, and Poisson’s Ratio, with VMD\nconstraint.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Tao Zhao - Advanced self-organizing map facies analysis with stratigraphic constraints.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                2669.929931640625,
+                1449.0799560546875,
+                3306.946044921875,
+                1512.35498046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c783586ef9e6efd94f3b7c49bd600fce",
+        "text": "a)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Tao Zhao - Advanced self-organizing map facies analysis with stratigraphic constraints.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                2832.31005859375,
+                1528.1800537109375,
+                2851.55810546875,
+                1552.1800537109375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a1ebbdfd132fdeb18f787c25ae499c64",
+        "text": "b)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Tao Zhao - Advanced self-organizing map facies analysis with stratigraphic constraints.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                2831.0400390625,
+                1687.1300048828125,
+                2851.488037109375,
+                1711.1300048828125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ce757f94c7565bfff583dcc46772058a",
+        "text": "c)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Tao Zhao - Advanced self-organizing map facies analysis with stratigraphic constraints.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                2832.429931640625,
+                1832.590087890625,
+                2849.998046875,
+                1856.590087890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "66ee853ccefcc4c84609c1003b4906c0",
+        "text": "Figure 10. Vertical section along line CC’ through a) proportional slice model\nrepresenting relative time in the Upper Barnett formation; b) proportional\nslice model constrained SOM facies map in the Upper Barnett formation;\nand c) VMD constrained SOM facies map in the Upper Barnett formation.\nThe proportional slice model is based on chronostratigraphy and provides\nmonotonic change in the vertical direction. The VMD sedimentary cycle\nmodel introduces more contract among stacked layers.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Tao Zhao - Advanced self-organizing map facies analysis with stratigraphic constraints.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                2696.3798828125,
+                1981.929931640625,
+                3307.183837890625,
+                2131.60009765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4f319ced2260571474f6c8dc19b6c4e8",
+        "text": "Acknowledgement\nWe thank Devon Energy for providing the data used in this study, and\nall industry sponsors of the Attribute-Assisted Seismic Processing\nand Interpretation (AASPI) consortium at the University of Oklahoma.\nWe also thank CGG GeoSoftware and Schlumberger for providing\nlicenses of Hampson-Russell and Petrel.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Tao Zhao - Advanced self-organizing map facies analysis with stratigraphic constraints.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                2513.419921875,
+                2207.608154296875,
+                3311.745849609375,
+                2403.8330078125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ed6a9b1ce5c0d39666b25c7c863c7122",
+        "text": "References\nColéou, T., M. Poupon, and K. Azbel, 2003, Unsupervised seismic facies classification: A review and comparison of techniques and implementation: The Leading Edge, 22, 942–953.\nLi, F., T. Zhao, X. Qi, K. Marfurt, and B. Zhang, 2016, Lateral consistency preserved variational mode decomposition (VMD): SEG Technical Program Expanded Abstracts 2016, 1717-1721.\nStrecker, U., and R. Uden, 2002, Data mining of 3D post- stack attribute volumes using Kohonen self-organizing maps: The Leading Edge, 21, 1032–1037.\nZhao, T., J. Zhang, F. Li, and K. J. Marfurt, 2016, Characterizing a turbidite system in Canterbury Basin, New Zealand, using seismic attributes and distance-preserving self-organizing maps: Interpretation, 4, SB79-\nSB89.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Tao Zhao - Advanced self-organizing map facies analysis with stratigraphic constraints.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                2494.340087890625,
+                2441.219970703125,
+                3342.94677734375,
+                2508.475341796875
+            ],
+            "is_full_width": false
+        }
+    }
+]

@@ -1,0 +1,2662 @@
+[
+    {
+        "element_id": "728f2356717740efef1db4902781f19b",
+        "text": "Contents lists available at SciVerse ScienceDirect",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                213.05189514160156,
+                63.63995361328125,
+                393.8255615234375,
+                71.61015319824219
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4de579cef3d5582146937b9fe92429be",
+        "text": "Geomorphology",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                252.11329650878906,
+                87.64134216308594,
+                354.725830078125,
+                101.58894348144531
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cfca84b25c2d48b38396ee6ba329e191",
+        "text": "journal homepage: www.elsevier.com/locate/geomorph",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                178.75270080566406,
+                119.255615234375,
+                428.1626892089844,
+                127.22581481933594
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5775d780fe968a2def6f07c08f2576bc",
+        "text": "The MultiRISK platform: The technical concept and application of a regional-scale\nmultihazard exposure analysis tool",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                167.63121032714844,
+                546.421630859375,
+                198.3148956298828
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "1eb39d5edbf3cd2baf54af7ed9c1cf5f",
+        "text": "M.S. Kappes a,⁎, K. Gruber a,b, S. Frigerio a,c, R. Bell a, M. Keiler a,d, T. Glade a",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                207.61146545410156,
+                406.72906494140625,
+                220.0994873046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3a018eedb27a4d6ea8b388f2994f026e",
+        "text": "a University of Vienna, Geomorphic Systems and Risk Research Unit, Universitätsstraße 7, 1010 Vienna, Austria\nb Johannes Kepler University Linz, Altenberger Straße 69, 4040 Linz, Austria\nc C.N.R., I.R.P.I., C.so Stati Uniti, 4, 35127 Padova, Italy\nd University of Bern, Institute of Geography, Hallerstrasse 12, 3012 Berne, Switzerland",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                224.85940551757812,
+                353.6739807128906,
+                259.751953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a8b96a8c9b7d7f6de624d08231030f54",
+        "text": "a b s t r a c t\na r t i c l e\ni n f o",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.519439697265625,
+                284.3989562988281,
+                271.36358642578125,
+                293.3652648925781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f4f8a56843978db386e9aa9c26998716",
+        "text": "Article history:\nReceived 24 July 2011\nReceived in revised form 28 January 2012\nAccepted 29 January 2012\nAvailable online 3 February 2012",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                304.7964172363281,
+                164.9414520263672,
+                345.4708557128906
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "185f540fc42c9a79e2f7a1ef5cdcd87d",
+        "text": "Many regions worldwide are threatened by multiple natural hazards with the potential to cause high dam-\nages and losses. However, the modeling of multiple hazards in a joint analysis scheme is still in the early\nstages of development as a range of serious challenges emerges in the multihazard context such as differing\nmodeling approaches in use for contrasting hazards; the time- and data-demanding conduct of each single\npreparative, intermediate and analysis step; and the clear visualization of the modeling outcome. Under con-\nsideration of these difﬁculties, a regional multihazard exposure analysis concept is developed for ﬁve natural\nhazards: debris ﬂows, rock falls, shallow landslides, avalanches, and river ﬂoods, complemented by a visual-\nization scheme to present the modeling outcome. An automation of the two schemes resulted in a beta ver-\nsion of the MultiRISK modeling and the MultiRISK visualization software tool forming together the MultiRISK\nplatform. To test the analysis scheme and the software implementation of MultiRISK a case study is per-\nformed in the Barcelonnette basin in France with a worst-case parameterization of the models on the basis\nof extensive literature reviews. Experiences from this case study offered many insights into the multihazard\ntopic and even more questions, e.g. with respect to coherent multihazard model parameterization, validation\nor the comparability and interpretation of single-hazard modeling results, respectively. Although analysis\nschemes can be proposed and software tools can be provided to facilitate many steps, a well-conceived\nand reﬂective approach to multihazard settings is essential. The worst-case analysis based on literature\nvalues apparently leads to an overestimation of the susceptible areas and the number of exposed elements.\nNevertheless, depending on the data situation of an area, especially in areas without any information on\npast events, this approach may offer the determination of general hazard distributions, overlaps, and areas\nof potential risk without data-demanding calibration.\n© 2012 Elsevier B.V. All rights reserved.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                206.92909240722656,
+                305.1880187988281,
+                561.7757568359375,
+                503.6434020996094
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1b3af95a96d4805210a627b1e2d31507",
+        "text": "Keywords:\nMultihazard risk\nModeling software\nWeb-mapping\nBarcelonnette",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                357.0106201171875,
+                97.48465728759766,
+                397.68505859375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "81bceda9f189f9db3dc4525382e5c8ee",
+        "text": "1. Introduction",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                544.1431884765625,
+                100.31163787841797,
+                552.1134033203125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "09356a8327e3308250e8e466c3ca7e17",
+        "text": "Many areas of this world – as for example coastal zones, moun-\ntainous regions, or volcano vicinities – are threatened by multiple\nnatural hazards. However, natural hazards are usually still examined\nand managed separately. Only in a few studies are multiple threats\nanalyzed jointly and the overall hazard and/or risk are assessed, e.g.\nby van Westen et al. (2002), Bausch (2003), Bell and Glade (2004),\nGlade and van Elverfeldt (2005), Reese et al. (2007), Bründl et al.\n(2009), or Marzocchi et al. (2009). Considering a joint analysis of\nmultiple\nhazards,\nnumerous\nchallenges\nand\ndifﬁculties\narise\n(Kappes et al., in review): (i) hazards are not directly comparable as",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.518890380859375,
+                564.9749145507812,
+                293.6327819824219,
+                667.1983032226562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c79b09996f2b8edba1a50baebaea7191",
+        "text": "⁎ Corresponding author at: The World Bank, 1818 H St. NW, Washington, DC 20433,\nUSA.\nE-mail address: kappes.melanie@googlemail.com (M.S. Kappes).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51987838745117,
+                695.7371826171875,
+                294.03973388671875,
+                719.3041381835938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e0ad0828d430e8c337dbe34d97d2ad03",
+        "text": "0169-555X/$ – see front matter © 2012 Elsevier B.V. All rights reserved.\ndoi:10.1016/j.geomorph.2012.01.024",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                729.9229736328125,
+                253.49081420898438,
+                744.9295654296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "779b20287fdbe3ce8bcc9edd33d08a1e",
+        "text": "their characteristics and their describing metrics differ, for instance\ninundation depth of ﬂoods versus impact pressure of rock falls. More-\nover, various hazard types act at very differing spatial and temporal\nscales. While rock falls are very local phenomena with an often high\nfrequency of smaller events, earthquakes are regional scale processes\nwith mostly low frequency but high magnitude. Furthermore, (ii) the\nanalysis methods and models used for distinct hazards also diverge\nwidely with respect to inherent assumptions and model principles.\nThese differences complicate the comparability of analysis results\n(Kappes et al., 2010). Apart from the challenges concerning the com-\nparability of modeling results, another major issue is (iii) the perfor-\nmance of such an analysis since knowledge and experience in\nmany different disciplines is required. Moreover, (iv) the data acqui-\nsition and the preparation as well as the modeling and assessment of\nhazards, exposure (elements at risk/vulnerability) and risk for single-\nhazard procedures consist of a large number of different analysis\nsteps that are complicated and thus time-consuming and prone to",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.50567626953125,
+                544.1408081054688,
+                561.5948486328125,
+                719.4661254882812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8404d12a284e1408b808c7fa83a6e5ed",
+        "text": "mistakes. However, re-running the analysis repeatedly would be de-\nsirable in order to evaluate, e.g., the effect of management options\nor to consider changes in land use, in the climate, in the general envi-\nronmental setting, or in alterations of the elements at risk (Dai et al.,\n2002; Fuchs and Keiler, 2006; Slaymaker and Embleton-Hamann,\n2009).\nA possible approach considering these challenges is the selection\nof methods according to previously deﬁned criteria, and their subse-\nquent merging in one software tool in which preparative and inter-\nmediate steps are automated. Such a procedure leads to comparable\nsingle-hazard results since the single hazards are analyzed according\nto a coherent analysis scheme, and result in a higher time and effort\nefﬁciency for the user by automatically performing purely elementary\nsteps. Although still expert input from different disciplines is needed\nto calibrate the models, profound knowledge on existing methods\nand models for the choice of the approaches is not necessarily re-\nquired as they are included in the software tool. Current pioneer ap-\nproaches include HAZUS in the USA (Schneider and Schauer, 2006;\nFEMA, 2008), that offers hurricane, earthquake and ﬂood hazard\nand risk modeling. RiskScape in New Zealand (Reese et al., 2007) fa-\ncilitates currently volcanic ashfalls, ﬂoods, tsunamis, landslides,\nstorms, and earthquakes. CAPRA (Central America Probabilistic Risk\nAssessment) provides the analysis of hurricanes, heavy rainfalls, land-\nslides,\nﬂoods,\nearthquakes,\ntsunamis,\nand\nvolcanic\nhazards\n(CEPREDENAC et al., 2010). Such tools enable user-friendly and\nstraightforward performance of multihazard analyses and compara-\nbility between single hazards, furthermore their widespread and re-\npeated\nuse\nalso\nguarantees\ncomparability\nbetween\nresults\nof\nanalysis from different municipalities or departments and between\nanalysis results over time.\nA ﬁnal issue in the multihazard context is the huge data require-\nment. Extensive and qualitatively high standard inventories of past\nevents – including detailed spatiotemporal patterns, particularly\nwith an equivalent standard for multiple hazards – are rare. In most\nregions huge differences in quality and dimension exist between the\nsingle-hazard inventories — if records of past events are available at\nall. Furthermore, the more detailed the models, the more detailed\ndata on topography, geology, soils, land use, precipitation distribu-\ntion, etc. is required. A possibility to partly overcome these con-\nstraints is a top-down approach. Thereby, a simple and fast analysis\napproach at a small scale provides an approximation. In a next step,\nmore\ndetailed\nand\nsophisticated\n(and\nthus\nalso\nmore\ndata-\nrequiring) methods at a larger scale are applied. By using the small-\nscale modeling results to deﬁne those areas for which detailed studies\nhave to be carried out, resources can be utilized very efﬁciently.\nUnder consideration of the previously mentioned challenges, the\nMultiRISK platform has been designed. This software is projected to\noffer the analysis of multihazard risk according to a top-down ap-\nproach, in relation with a visualization tool to display the results. In\nthe current version of MultiRISK, the GIS-based regional-scale suscep-\ntibility and exposure analysis (elements at risk) is completed\n(1:10,000–1:50,000) for the typical mountain hazards avalanches,\ndebris ﬂows, rock falls, shallow landslides, and river ﬂoods. In the\nnext step detailed vulnerability considerations and risk analyses at a\nscale b1:10,000 will be implemented (cf. Kappes et al., 2011b for a\nﬁrst attempt regarding vulnerability in the context of multihazard\nrisk). Therefore, the name MultiRISK platform is chosen although\nuntil now only susceptibility/hazard and exposure analysis can be\ncarried out by applying the current version of the tool while the\nvulnerability of elements is not taken into consideration so far. The\napplied scale levels correspond to the approaches used in several\nalpine countries such as Germany, France and Switzerland with\nhazard\nindication\nmaps\n(Gefahrenhinweiskarten)\nat\nthe\nscale\n1:10,000–1:25,000 and the hazard zone plans b1:10,000 (Stötter et\nal., 1999). Thereby, the hazard indication maps comprise an overlay\nof susceptibility maps and elements at risk and provide a ﬁrst",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.72749328613281,
+                57.37801742553711,
+                284.84454345703125,
+                745.2655639648438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "84efb780a3d51c0d3550c14d268ac879",
+        "text": "approximation, while hazard zone plans offer a level of detail that\nallows decision making to reduce risks.\nIn this article, the development of the regional scale analysis of\nMultiRISK and the resulting methods and software will be presented\ntogether with the performance of a multihazard exposure analysis\ncase study in the Barcelonnette basin, France. First, the analysis\nscheme for hazard modeling with well-available data used as input,\nhazard model validation, and exposure analyses is presented in\nSection 2. Thereafter, a visualization scheme to display and communi-\ncate the results in a well-structured way is outlined in Section 2.4.\nThe analysis scheme is automated in a user-friendly software\n(Section 3.1). The visualization outline is implemented into a visuali-\nzation tool to present the results automatically in a web browser in-\nterface (Section 3.2). In order to test the developed MultiRISK\nmodeling and visualization tools, they are applied in the Barcelonn-\nette basin (Section 4). Finally, the challenges and speciﬁcs in a\nmultihazard setting are discussed in Section 5 based on the insights\nwhich emerged during the development and implementation of the\nanalysis scheme and of the MultiRISK platform.\nThe deﬁnition of key terms differs between scientists as well as\nbetween disciplines and processes. This has become evident when\nworking in the ﬁeld of multihazards and risks. In this contribution\nthe deﬁnition of hazard (in the general and technical context) and ex-\nposure are used according to UN-ISDR (2009b), and susceptibility\nconsidering Guzzetti et al. (2005, p. 277). The term risk is based on\nthe deﬁnition of WMO (1999, p. 2) and the social dimension of risk\n(e.g., Wisner et al., 2004) is not addressed in this contribution.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.721435546875,
+                57.37514877319336,
+                552.8115234375,
+                337.29718017578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cee9f1ba7ce0911dce347d5bd031985d",
+        "text": "2. Development of a regional-scale analysis and visualization\nscheme of multihazard exposure",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.721435546875,
+                350.2463684082031,
+                534.8602905273438,
+                368.70452880859375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "050c4682c6d5d48470bcedac036b9aa8",
+        "text": "The multihazard risk analysis scheme proposed in the present\nstudy follows a top-down approach in which a regional exposure\nanalysis provides the identiﬁcation of hazard distributions, hazard\noverlaps, and zones of potential damages and losses. Subsequently,\ndetailed, local hazard and risk analyses on the basis of more sophisti-\ncated models are to be carried out for the previously deﬁned points.\nIn the present study, however, only the regional-scale exposure anal-\nysis scheme is outlined and its implementation into a software tool is\npresented, while the local-level analysis will be elaborated in future\nworks and only its function is deﬁned here.\nThe regional exposure analysis is composed of three components:\nthe hazard modeling, the validation of the modeling results, and the\nexposure analysis. These will be explored in the following sections.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.721435546875,
+                381.6537170410156,
+                552.8192138671875,
+                515.14013671875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "643134995e3bbf8c135192bcdfa7a610",
+        "text": "2.1. Hazard modeling",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.721435546875,
+                528.0892944335938,
+                376.1710510253906,
+                536.0595092773438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f908fa05a7a4dd549b7172a54924a50f",
+        "text": "The ﬁrst step in a multihazard top-down approach offers a region-\nal approximation by means of fast and simple methods. As explained\nbefore, the data need for multihazard analyses is, in general, a limiting\nfactor. Consequently, the availability of input data is a major criterion\nfor the model choice and determines signiﬁcantly the tool's applica-\nbility. For GIS-based models, input refers to two types of information:\n(i) areawide information, i.e. information layers (e.g., elevation, land\nuse or geology) and (ii) information to calibrate or parameterize the\nmodel, e.g. inventory data, soil properties, and precipitation or dis-\ncharge time series.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7196044921875,
+                548.9210205078125,
+                552.8161010742188,
+                651.1557006835938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "605818d603d9307f29c66871299ca20f",
+        "text": "(i) Topographic characteristics, derived from digital elevation\nmodels (DEM), are usually the most important spatial input\ndata for GIS-based modeling of natural hazards. This in-\nformation is already available in many regions of the world\nor can be produced with acceptable effort from topographic\nmaps, satellite imagery, and laser scanning. From the DEM, a\nvariety of derivatives such as slope angle, curvature, aspect,\nor distance to ridge/drainage line can be deduced. Mountain",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                312.2641906738281,
+                664.0482788085938,
+                552.8238525390625,
+                745.2645874023438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bba81ac038f03a14d82e69caa6bfeff6",
+        "text": "hazards are particularly coupled with topographic characte-\nristics and therefore these data are highly valuable for any\nmodel. Consequently, the regional analysis is primarily\nbased on the DEM including its derivatives, and the required\nmodels to be chosen have to be operable with this topographic\ninput.\nTo optionally extend the topographic information, additional\ndata such as land use/cover were implemented. These data are\nrather easy to create, for example, from remote sensing images\nor, in coarse resolution, as free image sharing from GoogleEarth.\nFurthermore, lithological information is included into the model-\ning approach as geological maps exist in many countries and re-\ngions and the lithology and tectonic lineaments inﬂuence many\nnatural hazards signiﬁcantly.\n(ii) The second criterion for the model choice is the straightfor-\nwardness of the model calibration/parameterization (in this\narticle calibration is understood as the process of adjustment\nof a model to measured data, while parameterization refers\nto expert appraisal or adoption of parameters used in other\nstudies). Models with indispensible need of data from ﬁeld or\nlaboratory analyses, time series, or extensive inventories do\nnot ﬁt the objective of a simple and fast ﬁrst approximation\nof an area. The models have to be straightforward and com-\nprehensive to enable a ﬂexible calibration on the basis of\ndetailed information, if available. For cases of low data avail-\nability, the objective is to choose models that allow completion\nwith expert knowledge or even parameterization exclusively\nwith expert experience or studies carried out in comparable\nsettings.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                50.79698944091797,
+                57.37801742553711,
+                293.6672668457031,
+                358.21942138671875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "95280e2663d04c1f35a5e1545fafbd25",
+        "text": "Furthermore,\nonly\nmodels\ndeveloped\nfor\na\nregional\nscale\n(1:10,000–1:50,000) were selected to ensure, as far as possible in a\nmultihazard environment, the comparability of the results. Apart\nfrom these criteria, the model choice is open and the models selected\nhere can be exchanged by other suitable ones (concerning scale, data\ninput needs etc.). In the current version of MultiRISK, the processes of\nsnow avalanches, shallow landslides, debris ﬂows, rock falls, and\nriver ﬂoods are considered. The different selected models and the\nmethodology of their implementation are presented in the following\nsections.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.5167350769043,
+                371.1686096191406,
+                293.6074523925781,
+                473.30426025390625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "aa839c3862334bb3512290b5370afad3",
+        "text": "2.1.1. Debris ﬂows\nThe source identiﬁcation is carried out with the Flow-R model\n(Horton et al., 2008, 2011). This model is based on the three topo-\ngraphic parameters slope angle, upslope area, and planar curva-\nture. These parameters represent directly (slope) or indirectly\n(upslope area and planar curvature) three major factors for debris\nﬂow disposition (Takahashi, 1981; Rickenmann and Zimmermann,\n1993): slope gradient, sediment availability, and water input.\nUpslope area and planar curvature serve as indicators for the\nconvergence of sufﬁcient water and material in gully structures.\nUpslope area is considered in combination with slope angle\nbecause in smaller catchments, less material is accumulated and\nmore water from steeper slopes is needed to enable the debris\nﬂow initiation. In contrast, larger catchments are supposed to\naccumulate higher volumes of sediment and water that start moving\nat lower angles (Fig. 1).\nAdditionally, certain land use/cover types and lithological\nunits can optionally be excluded. For example, dense forest inﬂu-\nences surface runoff and buildup areas or outcropping rocks\ndetermine material availability. For more details on Flow-R, refer to\nHorton et al. (2008, 2011), Blahut et al. (2010) and Kappes et al.\n(2011a).\nFor the runout modeling, again the methodology proposed in\nFlow-R has been applied. The spreading of the ﬂow is computed\nwith the multiple ﬂow direction algorithm according to Holmgren",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51670837402344,
+                486.2231750488281,
+                293.6178283691406,
+                745.3224487304688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5d19211fae377b9b14f26026164f7a51",
+        "text": "Fig. 1. Coupled consideration of slope angle and upslope area for debris ﬂow modeling\n(Horton et al., 2008). Below an upslope area of 2.5 km2, the slope angle to start the\nmovement is rising with decreasing area, while above 2.5 km2 it is assumed to be con-\nstant at 15°. Reasons for this approach are the difference in water and sediment\navailability.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5060729980469,
+                215.03811645507812,
+                562.0225830078125,
+                255.7841796875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5ac8d975a8e3298c05eb69ad3c96e45b",
+        "text": "(1994), an expansion of the basic multiple ﬂow direction algorithm\ndeveloped by Quinn et al. (1991):",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5062255859375,
+                276.9736022949219,
+                561.5723266601562,
+                295.4628601074219
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "43e19d27e31fdb8e1c02043948a2403c",
+        "text": "f i ¼\ntanβi\nð\nÞx",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5062255859375,
+                306.4458312988281,
+                367.3200988769531,
+                323.83685302734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "262044f0e0fae75bcaf9535cdf1a808f",
+        "text": "∑8\nj¼1\ntanβj\n\u0001\n\u0003x\nfor all tanβ > 0\nð1Þ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                326.66448974609375,
+                313.2588195800781,
+                561.5511474609375,
+                332.0938720703125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bded4ee96851a8d0439fda0a75063170",
+        "text": "where i,j=ﬂow direction (1–8), fi=ﬂow proportion (0–1) [%] in di-\nrection I, tan βi=slope gradient between the central cell and cell in\ndirection I, and x is an exponent introduced by Holmgren (1994).\nFor x=1, the algorithm converts into the basic multiple ﬂow direc-\ntion after Quinn et al. (1991), and for x→∞, into a single ﬂow. The\nspreading is complemented by a persistence function. This function\naccounts for the inertia of the ﬂow by a weighting of the change of\nangle from the last ﬂow direction. For 0°, a weight of 1 is assigned,\nfor 45° 0.8, for 90° 0.4, for 135° and for 180° 0. The distance of the\nrunout is computed with a constant friction loss angle, thus not con-\nsidering the surface roughness. This angle corresponds to the Fahr-\nböschung of Heim (1932), translated as angle of reach by Corominas\n(1996), which refers to the angle between a line from the highest\npoint of the source area to the maximum runout and the horizontal.\nIn Flow-R the angle is applied as a constant loss variable in an ener-\ngetic computation while the ﬂow propagates from pixel to pixel\n(Horton et al., 2008):",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.50531005859375,
+                346.7076416015625,
+                561.6112670898438,
+                522.1205444335938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c1e7dc617128228488f75562b5e2357a",
+        "text": "Ei\nkin ¼ Ei−1\nkin þ Ei\npot−Ei\nloss\nð2Þ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.506103515625,
+                534.2898559570312,
+                561.5505981445312,
+                546.6969604492188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "19944cfca9b52b084c6d708e40daed49",
+        "text": "with the time step i, the kinetic energy Ekin, the change in potential\nenergy ΔEpot, and the constant loss Eloss. The ﬂow stops as soon as\nthe kinetic energy drops below zero. At the overlap of the ﬂows\nfrom different sources, the maximum value of the spatial probability\nthat this pixel might be hit and the maximum kinetic energy of all\noverlapping ﬂows are calculated.\nTwo runout calculation modes are offered: quick and complete. In\nthe complete mode, each single source pixel is propagated. In the\nquick models, ﬁrst the superior sources are propagated. If lower\nones follow the same path with a similar or lower kinetic energy,\nthey are neglected. This reduction of single calculations enables sig-\nniﬁcant time saving.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5054931640625,
+                559.507080078125,
+                561.6132202148438,
+                682.5623168945312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5b31659ee7a90ec083fabeacef07e45a",
+        "text": "2.1.2. Rock falls\nA commonly used method for automatic rock fall source identiﬁ-\ncation is the classiﬁcation of the slope gradient map. Hereby, a thresh-\nold angle is deﬁned above which the area is identiﬁed as potentially\nrock fall producing rock face (Ayala-Carcedo et al., 2003; Guzzetti et",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.504638671875,
+                695.511474609375,
+                561.6105346679688,
+                745.3204956054688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "dca50d38d50652dfbc6f4b38caea62e5",
+        "text": "al., 2003; Jaboyedoff and Labiouse, 2003; Wichmann and Becht, 2006;\nFrattini et al., 2008). As already described for the debris ﬂow source\nmodeling, speciﬁc land use/cover and lithological units, e.g., outcrop-\nping marls, can also be excluded as potential rock fall source areas. As\nfor debris ﬂows, the runout is modeled by means of the Flow-R model\naccording to Horton et al. (2008).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.730682373046875,
+                57.37801742553711,
+                284.8277893066406,
+                117.61835479736328
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4612ba04b99192f97202676e78d5278e",
+        "text": "2.1.3. Shallow landslides\nIn contrast to the processes treated until now, areas susceptible\nto shallow landslides are usually analyzed with statistical and physi-\ncally based methods rather than with empirical models. However,\nstatistical models are commonly not easy to transfer, and physically\nbased models require a high quantity of geotechnical input data and\nthus are also not suitable for a regional approach. Nevertheless, a va-\nriety of physical models were adjusted to the input of information de-\nrived from DEMs. Because topographic characteristics control water\nconﬂuence, downslope forces, etc. this effort proved to be successful\nas multiple models indicate, e.g. SLIDISP of Liener and Kienholz\n(2000), SHALSTAB of Montgomery and Dietrich (1994) and Dietrich\nand Montgomery (1998), or SMORPH of Shaw and Johnson (1995).\nAmong these methods, SHALSTAB (SHAllow Landsliding STABility;\nMontgomery and Greenberg, 2009) was selected because it offers\nthe option to compute a ﬁrst approximation of an area without the\nneed of detailed calibration. The slope stability package after\nMontgomery and Greenberg (2009), which refers to SHALSTAB, was\nchosen because it can be directly included as a toolbox in ArcGIS\n9.x, while the original version of Dietrich and Montgomery (1998)\nis an ArcView 3.x application. SHALSTAB couples a “hydrological\nmodel to a limit-equilibrium slope stability model to calculate the\ncritical steady-state rainfall (Qc) necessary to trigger slope instability\nat any point in a landscape” (Montgomery et al., 1998, p. 944). Under\nnegligence\nof\nsoil\ncohesion,\nthe\nfollowing\nequation\nemerges\n(Montgomery and Dietrich, 1994; Montgomery et al., 1998):",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.730690002441406,
+                130.62490844726562,
+                284.84466552734375,
+                400.0626525878906
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "919d0a12e6d8b8a3a066492e5455c5b0",
+        "text": "\u0004\n\u0005\n\u0006\n\u0007\nð3Þ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                75.34418487548828,
+                406.29132080078125,
+                284.77471923828125,
+                425.517822265625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "99bf1c90db8cb7ad10c4ddbc43ac8122",
+        "text": "Q c ¼ T sinθ\na=b",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.73210144042969,
+                412.07452392578125,
+                74.02690887451172,
+                431.01727294921875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "66f6eb0f8d09efd97cdb76c31d12584f",
+        "text": "ρs\nρw\n1−tanθ\ntanϕ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                79.4833984375,
+                412.07452392578125,
+                128.10452270507812,
+                432.49713134765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bfe4f7e1d9c38898579b9c13e2f716cf",
+        "text": "with the soil transmissivity T [m2/d], the hillslope angle θ [°], the\ndrainage area a [m2], the outﬂow boundary length b [m], the soil\nbulk density ρs [kg/m3], the water bulk density ρw [kg/m3], and the\nangle of internal friction ϕ [°]. By using a “single set of parameter\nvalues” (ρs, ϕ and ρw are constants) plus the areawide DEM deriva-\ntives (a, b and θ) the “regional inﬂuence of topographic controls on\nshallow landsliding” can be assessed without any speciﬁc calibration\n(Montgomery et al., 1998, p. 943). Dietrich and Montgomery (1998)\nexplained that SHALSTAB was not performing well in areas dominat-\ned by rocky outcrops or cliffs. Hence, an option is included to option-\nally exclude, e.g., limestone outcrops and other lithological units as\npotential sources.\nAlthough much less used, the angle of reach principle can also\nbe applied for the runout calculation of shallow landslides (e.g.,\nCorominas et al., 2003), and thus the Flow-R model was applied in\nthis case as well.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.73017883300781,
+                443.0022888183594,
+                284.8438720703125,
+                609.3150024414062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "accf658548b01b9dd67a842f5fb6c8cf",
+        "text": "2.1.4. Avalanches",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.73237609863281,
+                622.26416015625,
+                93.63082885742188,
+                630.234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c9afa238d6d162c99aad7cbad2e6cdde",
+        "text": "Maggioni and Gruber (2003) developed a methodology for the de-\ntermination of potential release areas primarily based on topographic\nparameters that was simpliﬁed by Barbolini et al. (2011). This meth-\nodology applies the following criteria: For avalanche initiation, a\ncertain minimum slope angle is necessary to enable the movement;\nhowever, very steep slopes will not accumulate enough snow for\navalanche formation. Thus, avalanches can be expected at slopes\nbetween a lower and an upper threshold angle. Speciﬁc land use\ntypes, especially dense forest that will stabilize the snow pack in the\nrelease area, can be excluded as potential sources as well as ridges\nwhere too little snow accumulation can be assumed.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.7315673828125,
+                632.7521362304688,
+                284.82794189453125,
+                745.3192749023438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e67ad65e0bf167395b0af154d3fada2b",
+        "text": "For the computation of the avalanche runout, apart from the angle\nα, which corresponds to the angle of reach, further angles are in use:\nβ is the angle of the avalanche track between the source and the point\nof the slope with 10° (β point), and δ is the average angle of the\nrunout zone between the β point and the stopping point of the ava-\nlanche (Bakkehøi et al., 1983; Keylock, 2005). To keep the metho-\ndology simple, the angle of reach (equivalent to the angle α) was\nchosen, and runout calculation is performed by means of Flow-R as\nwell.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7183532714844,
+                57.37221908569336,
+                552.8139038085938,
+                149.01991271972656
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8440e04256f8e4c08848513ab90bb72f",
+        "text": "2.1.5. Floods\nThe simplest method to estimate ﬂoodplain inundations is the lin-\near interpolation of a gauge water level in intersection with a DEM\n(Apel et al., 2009). Models representing hydrodynamic characteristics\nsuch as HEC-RAS (US Army Corps of Engineers, 2011), Sobek\n(Deltares, 2011), and others need more detailed information on chan-\nnel geometry and roughness, hydrograph information, etc. The ArcGIS\nextension FloodArea of Geomer (2008) offers both methods: model-\ning on the basis of a certain inundation depth or by means of a hydro-\ngraph and several more options. In the modeling scheme of the\nMultiRISK software both options were included to offer a choice\ndepending on the quantity and type of data available for the model\ncalibration/parameterization.\nThe combination of the previously described single-hazard models\nto one overall analysis scheme is challenging. However, it is evident\nthat different natural hazard models require similar data, and therefore\nthe combination of these models in a multihazard analysis provides a\nmajor advantage in order to gain synergies and consequently time-\nsavings in a joint study. The ﬂow chart of the resulting model setup is\npresented in Fig. 2.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7182922363281,
+                161.96908569335938,
+                552.868896484375,
+                368.7118835449219
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "257cb84d4b6081e9e75b7ded1cc8eecf",
+        "text": "2.2. Validation",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7195739746094,
+                381.66107177734375,
+                352.1796875,
+                389.6312561035156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fbfa3d52fa35d5110b240a885de36fb3",
+        "text": "Because comprehensive event inventories at a comparable quality\nand extent for a multitude of hazards are scarce, not only the calibra-\ntion/parameterization of the models but also the validation has to be\nﬂexible concerning the input of information on past events. Because\nof their simplicity, confusion matrices as described by Beguería\n(2006) and Carranza and Castro (2006) meet exactly this need.\nThey are based on an overlay of the binary (yes/no) layer containing\nthe modeling result with the layer of the recorded events. The models\ndescribed in the previous section produce directly binary source maps\nwhile the runout computations yield spatial probability and kinetic\nenergy, respectively, and the ﬂood modeling outputs the inundation\ndepth. Reclassifying the continuous results, binary maps were pro-\nduced. Two options of validation of the modeled source and of valida-\ntion of the complete area as a composite of the modeled sources and\nrunout are given. Since, especially in the case of shallow landslides, a\nclear differentiation between source area and runout is often not pos-\nsible this division in sources and complete area seems to be much\nmore practical than to differentiate between sources and runout.\nFurthermore, river ﬂooding cannot be subdivided into source and\nrunout zone; however, the area susceptible to ﬂoods can be perfectly\nassigned to the complete category.\nFrom the overlay of the modeling results and the recorded\nevents, four classes emerge. In these classes, the totality of pixels\nis classiﬁed and the numbers are depicted in a confusion matrix\n(Table 1).\nThe true positives (TP) refer to the recorded events that were cor-\nrectly modeled as threatened, while the false negatives (FN) draw at-\ntention to those zones that were missed by the model. The false\npositives (FP) are de facto not errors but “cases highly propense to de-\nvelop the dangerous characteristic in the future” (Beguería, 2006, p.\n322). The identiﬁcation of these areas in which still no events took\nplace, but a high potential for future incidences exists, is the objective\nof hazard modeling. However, a too conservative modeling approach",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7171325683594,
+                402.5804443359375,
+                552.8214721679688,
+                745.3173217773438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8c5e39d4eed7a3b84d656fd360985472",
+        "text": "Fig. 2. Flow chart of the analysis scheme for rock fall, shallow landslides, debris ﬂows, avalanches, and ﬂoods. On the basis of the DEM and optionally land use and lithology (in dark\ngray boxes on the left side), a multitude of derivatives (such as slope, planar curvature or ﬂow accumulation; medium gray boxes) are computed. They form the input for the models\n(light gray boxes with rounded edges) by means of which ﬁrst the source areas are identiﬁed and second the runout is modeled (dashed lines).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.519683837890625,
+                359.2080993652344,
+                561.5956420898438,
+                382.77508544921875
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "f122bc34868ba62ca3ca784e707102d7",
+        "text": "could lead to a strong overestimation of the actual threat, thus the\nproportion of false negatives should be compared to the proportion\nof true positives to better appraise the quality of the prediction. The\ntrue negatives (TN) are even more difﬁcult to evaluate because, in\ngeneral, inventories indicate only the recorded zones but not unsus-\nceptible ones. Thus, the remaining area adjacent to zones of recorded\nevents is not surely safe but events might simply not have been\nrecorded or happened yet. However, this does not indicate a sure ex-\nclusion of the possibility that it could happen and consequently no\ntrue negatives exist in the strict sense of the term.\nOn the basis of the four classes of the confusion matrix (Table 1),\nBeguería (2006) proposes several quality indicators. Two of them\nwere chosen for the multihazard context:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51966857910156,
+                397.36541748046875,
+                293.6048278808594,
+                530.8518676757812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6f8bbc58d6744b08ef3007ed37fe250a",
+        "text": "Sensitivity: TP= TP þ FN\nð\nÞ\nð4Þ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51966857910156,
+                542.743408203125,
+                293.56341552734375,
+                552.3953247070312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "19d98a2604f2e474be9e238703a5e79a",
+        "text": "Positive Prediction Power: TP= TP þ FP\nð\nÞ:\nð5Þ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.5196533203125,
+                565.817138671875,
+                293.56341552734375,
+                575.4690551757812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "61e8cdaf9731d135aff375a9852153aa",
+        "text": "While the sensitivity indicates which proportion of the recorded\nevents has been modeled correctly and which proportion not, the\npositive prediction power (PPP) serves as a measure of the effective-\nness of the modeling. For instance, a very high sensitivity might sug-\ngest a very good modeling result; however, a coincident low PPP\nindicates an overestimation of the threatened area.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51883316040039,
+                591.593505859375,
+                293.6000061035156,
+                651.8905029296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "82f2812010c1a648586ffb81b9320ff0",
+        "text": "Table 1\nConfusion matrix according to Beguería (2006). Either the area [m2] or the area propor-\ntion [%] can be depicted in the cells.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51860046386719,
+                667.6876220703125,
+                294.0543518066406,
+                691.1847534179688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8b588f8f7786ce69c2d0d1a010199c76",
+        "text": "Observed",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                145.870361328125,
+                699.435302734375,
+                173.26805114746094,
+                705.811279296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5ed8735cfade244f0e3341144f04cae8",
+        "text": "Yes\nNo",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                145.870361328125,
+                712.5316162109375,
+                240.61581420898438,
+                718.9075927734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e5767952a9d996fb01fd8f3a133df34b",
+        "text": "Predicted\nYes\nTrue positive (TP)\nFalse positive (FP)\nNo\nFalse negative (FN)\nTrue negative (TN)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.471221923828125,
+                725.5711669921875,
+                288.0876770019531,
+                740.507568359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8b0b836e78f89d405b75d7657b4d76ec",
+        "text": "2.3. Exposure analysis",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5072326660156,
+                397.3621826171875,
+                387.0091857910156,
+                405.3323669433594
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2e84a5f6d7c39d599b2d14bd19669ea8",
+        "text": "The exposure is analyzed by overlaying the process footprints\nwith the elements at risk, and endangered elements are marked. As\nfor the validation, two options are offered: the area susceptible to\nsource instabilities and the complete susceptible area. Especially\nfor the comparison with the elements exposed to river ﬂooding,\nthe complete options is very important; however, for shallow\nlandsliding, a signiﬁcant difference exists between those houses sit-\nuated on the slide and those possibly being hit by a slide. By offering\nboth options (sources and complete), the speciﬁcs of landslides and\nﬂoods are accounted for, as well as for the comparability between\nthem.\nIn accordance to overlay options and the feature classes available\nin ArcGIS, three different exposure analyses are possible:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5072021484375,
+                418.28155517578125,
+                561.5661010742188,
+                551.7680053710938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9949ca0f9e118549e7064065665a5f57",
+        "text": "(i) Punctual, lineal, or areal elements (points, lines, or polygons) are\nuploaded and are treated as entire units: the element is identi-\nﬁed as exposed if it intersects at least partly with the susceptible\narea and the number of affected elements is counted. This option\nis suitable for elements such as buildings or pylons.\n(ii) Linear elements (lines): the length of the line intersecting with\nthe susceptible area is identiﬁed, marked, and measured. This\noption is offered for the examination of the exposure of lineal\nelements such as roads or water supply lines.\n(iii) Areal elements (polygons): the area intersecting with the\nsusceptible area is identiﬁed, marked measured. This option\nespecially suits the analysis of built-up areas and land use\nunits.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                316.4601745605469,
+                559.50146484375,
+                561.595703125,
+                692.9879760742188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "55a78c5a0dc0bc3b4862629cc3a64801",
+        "text": "2.4. Visualization scheme for the display of multihazard risk analysis results",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5072021484375,
+                705.9371948242188,
+                561.6130981445312,
+                713.9074096679688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b3093b60431427deaa238e6cb6a49b3d",
+        "text": "As identiﬁed in the review of Kappes et al. (in review), the visual-\nization of the multidimensional result of a multihazard risk analysis",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5079345703125,
+                726.7689208984375,
+                561.5962524414062,
+                745.3147583007812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e4908bf87c7ed390154e174a87e97df2",
+        "text": "poses a major challenge. Several options to depict the different\nfacets of the output have been identiﬁed in this contribution (refer\nto Kappes et al., in review, for details):",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.73228454589844,
+                57.37801742553711,
+                284.7927551269531,
+                86.26758575439453
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "891443d54c5ce1601b669a19c880e810",
+        "text": "▪Visualization of susceptibility, hazard, exposure or risk of each sin-\ngle hazard type separately and in detail (e.g. Odeh Engineers, Inc.,\n2001; Bell, 2002; Dilley et al., 2005). This option allows discover-\ning and recognizing single-hazard patterns without confusing\nthe map reader with too much information.\n▪Visualization of the overlay of several hazard types (e.g., Bell,\n2002; UN-ISDR, 2009a). The number of hazards that can be includ-\ned is limited because overloading with too much information may\nlead to confusion.\n▪Visualization of a joint variable such as the number of overlapping\nhazards (e.g., Odeh Engineers, Inc., 2001).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                39.11853790283203,
+                93.91339111328125,
+                284.83978271484375,
+                206.56813049316406
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "441eea7b578605a337ff58175c4a8b00",
+        "text": "The identiﬁed options were adopted and used as the core of a vi-\nsualization scheme that communicates step by step the different as-\npects and results of the multihazard exposure analysis. Details are\ndescribed in chapter 3.2.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.73229217529297,
+                214.21392822265625,
+                284.7728576660156,
+                253.6791534423828
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c1f5fd3ce36cf5e74af996014c3e3e37",
+        "text": "3. The MultiRISK platform",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.73229217529297,
+                266.6283264160156,
+                133.60768127441406,
+                274.5985107421875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "72e296e8f112b6d77e1450b413d56dc7",
+        "text": "3.1. MultiRisk modeling tool",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.73229217529297,
+                287.5476989746094,
+                131.5513458251953,
+                295.51788330078125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2a4871038236d2a31024d6d8fff5cc3c",
+        "text": "Because of the large number of single steps (Fig. 2) and the time-\nconsuming and error-prone performance of a multihazard analysis,\nthe whole procedure was automated in the software called MultiRISK\nModeling Tool. MultiRISK is programmed in Python accessing ArcGIS\n9.x toolboxes and offers a graphical user interface for the straightfor-\nward operation. The single models are implemented either by activa-\ntion of external software (e.g., the Matlab-programmed stand-alone\nsoftware Flow-R), direct inclusion (e.g., the ArcGIS toolbox Flood-\nArea) or programming in Python on the basis of ArcGIS tools of the\nArcToolbox (e.g., the source identiﬁcation method after Maggioni,\n2004). The user is guided through the single steps of the three main\ncomponents of the modeling tool (Fig. 3): the process modeling, the\nprocess model validation, and the exposure analysis. If for one or sev-\neral processes an analysis has already been carried out, the tool offers\nthe upload of this project and the subsequent performance of any of\nthe three further steps (see bended arrows in Fig. 3). After having ﬁn-\nished the multihazard exposure analysis, the preparation of the Mul-\ntiRISK visualization can be directly launched to view the results\nthereafter.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.73150634765625,
+                308.4670715332031,
+                284.83502197265625,
+                504.71160888671875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "037d3440e28df474cfa7dd5cca06ecbd",
+        "text": "The preparation primarily implies the copying of all result ﬁles in a\npreviously deﬁned project folder from which the visualization tool\nobtains the information for display. Running all modeling, validation\nand exposure analysis steps up to 29 result ﬁles are produced. Thus,\nto not burden the user with the naming of the many output ﬁles,\nthe names are generated automatically according to a modular termi-\nnology. Appended to the user-deﬁned project name (max. seven let-\nters), extensions referring to the process (_av for avalanches or _rf\nfor rock fall), to the area (_s for sources, _r for runout, and _c for com-\nplete), and to the analyses carried out (_val for validation) are added.\nConsequently, the VALidation result of the Complete area susceptible\nto AValanches for a project called Barcelo would be named Barce-\nlo_av_val_c (for more detail refer to Kappes, 2011).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.717529296875,
+                57.2821044921875,
+                552.8106079101562,
+                190.85621643066406
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "919ec8d0e6b443693cc456cd875fec7f",
+        "text": "3.2. MultiRISK visualization tool",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.717529296875,
+                203.86276245117188,
+                413.1424865722656,
+                211.8329620361328
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3aa9711bd43c846382039b6b7ff3e326",
+        "text": "The visualization has been automated to prevent the user from\nhaving to open each of the max. 29 result ﬁles in ArcGIS, and deﬁne\ncolors, patterns, and symbols. Additionally, the contemplation of the\noutcome in such an application does not require GIS and cartography\nexperience and in this way enables the presentation of the results to a\nbroader audience. The visualization tool is designed with the compre-\nhensive and free Web-GIS framework CartoWeb and is embedded in a\nMapServer engine. The visualization is accessible by the user with a\nstandard internet browser. Currently the visualization tool is applied\nin a local host environment but can be modiﬁed in the future to be\npublished in the internet, potentially also considering different user\ngroups and respective access to the various data sets. It is structured\nin different switches, i.e., interactive maps (Fig. 4):",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7167053222656,
+                224.78213500976562,
+                552.81298828125,
+                358.2795104980469
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d964f4180d11c535422fb24189eea9c6",
+        "text": "(i) General settings: display of basic information on the area as the\ninput data of the hazard models (e.g., slope, curvature, litholo-\ngy, land use/cover, etc.) and others. The user gets the possibil-\nity to become acquainted with the area and its characteristics.\nAll basic information of interest to the users can be included.\n(ii) Single hazards: only one hazard type can be visualized at a\ntime, but in detail, i.e., the spatial probability of the runout\n(e.g. of debris ﬂows) or the inundation depth (ﬂoods) is pre-\nsented. The color scheme for the hazard types is adopted\nfrom\nthe\nSwiss\nSymbolbaukasten\nafter\nKienholz\nand\nKrummenacher (1995).\n(iii) Overlapping hazards: a maximum of three hazards can be\nshown simultaneously. The overlapping areas are displayed",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                307.6725158691406,
+                371.2295227050781,
+                552.8134155273438,
+                504.7159423828125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "726c94834805a2a0df04b8bc4236ddee",
+        "text": "Fig. 4. Screenshot of the visualization tool. The following descriptions refer to the red numbers in the graphic: (1) Layers tree, managed by the user. According to predeﬁned options\nlayers can be switched on, off, overlain, etc. (2) Tabs for query, printing, and online guide. (3) Map area and key map visualization. (4) Tools for cartographic interaction as zoom in/\nout, spatial query, etc. (5) Scale and map size customization. (6) Tabs to access the different interactive maps.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                419.1325988769531,
+                561.5808715820312,
+                442.6995849609375
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "5c07028b66c53b7a7ea03bfa582a4e2d",
+        "text": "as combinations of the colors and patterns of the respective\nhazards. No details are given on the single hazards; only the\nfootprints are shown to not confuse the map reader.\n(iv) Number of hazards: to give the full overlay information but not\nconfuse the reader, the number of overlapping hazards is\nshown without depicting the type of hazards summing up to\nthis number. By means of a spatial query the user obtains the\ninformation which hazards combine to the respective number.\n(v) Past events: the records on past events that were uploaded for\nthe validation are presented. The user gets the opportunity to\nobserve the distribution, coverage, and patterns of recorded\npast events.\n(vi) Validation: visualization of the overlay of records and model-\ning result for each single hazard separately showing the true\npositives, the false negatives, and the false positive. The distri-\nbution of true positives and false negatives may indicate situa-\ntions the model can account for very well and others it cannot.\nFurthermore, the pattern of those zones that have not been af-\nfected until now (or at least no events have been recorded) but\nmight in the future be hit, the false positive manifests. By click-\ning on a hyperlink, an additional tab opens showing the confu-\nsion matrix as a table indicating the areas in each class in [m2].\n(vii) Exposure: for one hazard at a time the process areas (either\nsource or complete area) are depicted together with the\nhighlighted exposed elements. By clicking on a hyperlink, an\nadditional tab opens with, e.g., the number of buildings (entire",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                46.48699951171875,
+                475.658203125,
+                293.6146545410156,
+                745.1520385742188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f47d3b6e52a60b92bdca4869ae4f4608",
+        "text": "elements), length of infrastructure and/or built-up area (pro-\nportion of polygons) exposed.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                334.4311828613281,
+                475.6564636230469,
+                561.5570678710938,
+                494.05804443359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1f86d39de89e30bcd1dae39e3387edef",
+        "text": "Basic information is offered for display in each tab and includes\nthe hillshaded DEM, buildings, infrastructure, buildup areas, and\nwater courses.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5062561035156,
+                507.0072326660156,
+                561.5810546875,
+                535.8967895507812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fc122c9283e6b046c99ef3710425814a",
+        "text": "4. Case study: an exposure analysis in Barcelonnette, France,\nconsidering multihazard",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5062561035156,
+                548.9598999023438,
+                541.249267578125,
+                567.3615112304688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "68d40554de7cd147453494cdecfe2a48",
+        "text": "A case study is performed to accomplish two objectives: (i) to test\nthe practicality and user-friendliness of the MultiRISK platform; and\n(ii) to appraise the ability of the multihazard exposure analysis\nscheme to account for challenges arising in this context. By contrast,\nthe objective is not to perform scenario analyses based on detailed\ncalibration offering as reasonable results as possible, since the time-\nconsuming data gathering and model adjustments go beyond the\nscope and possibilities of this case study.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5062561035156,
+                580.3681030273438,
+                561.571533203125,
+                661.5278930664062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e91dfced044ddd81d1fd29a9dfc3a588",
+        "text": "4.1. The Barcelonnette basin",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5062561035156,
+                674.5910034179688,
+                408.6791687011719,
+                682.5612182617188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ecb1e502ae3473c3ece1dac52d0be43b",
+        "text": "The Barcelonnette basin is located in the southern French Alps in\nthe Département Alpes des Haute Provence. It covers the major part\nof the Community of Communes ‘Vallé de l'Ubaye’, an alliance of\neight communities with a population of ~6500 inhabitants. The valley\nvaries between an altitude of 1100 and 3100 m asl and is drained by",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5062561035156,
+                695.5104370117188,
+                561.5772094726562,
+                745.3193969726562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fa18495e2b33f96d67dcf6fd25f3a5f6",
+        "text": "the Ubaye River which consists of a large number of torrents (see\nFig. 5). The study area exhibits (i) a mountain climate with pro-\nnounced interannual rainfall variability (735±400 mm) and 130\nfreezing days per year, (ii) continental inﬂuence with large intraday\nthermal amplitudes (>20°) and multitudinous freeze–thaw cycles,\nand (iii) Mediterranean inﬂuence with summer rainstorms providing\noccasionally more than 50 mm/h (Flageollet et al., 1999; Maquaire et\nal., 2003; Kappes et al., 2011a). Apart from summer rainstorms, heavy\nprecipitation onto melting snow accumulations in spring result in\nhigh discharge (Flageollet et al., 1999). Mesoclimatic differences\nemerge because of the east–west orientation of the valley, especially\nbetween the north- and south-facing slopes. Geologically, the valley\npresents a structural window with autochtonous Callovo-Oxfordian\nblack marls (the ‘Terres Noires’) below allochtonous Autapie and Par-\npaillon ﬂysch (Évin, 1997; Maquaire et al., 2003).\nThe geological setting is reﬂected in the speciﬁc morphology. The\nupper slopes between 1900 and 3000 m asl are composed by thrust\nsheets of cataclastic calcareous sandstones and exhibit slope angles\nsteeper than 45°. These slopes are partly covered by layers of noncon-\nsolidated debris with thickness ranging between 0.5 and 5 m. The\nlower slopes from 1100 to 1900 m asl consist of Callovo-Oxfordian\nblack marls, fragile plates, and ﬂakes in a clayey matrix that are\nmuch gentler with slope angles between 10 and 30°. These slopes\nare mostly covered by Quaternary deposits as poorly sorted debris\nat taluses, moraine deposits, or landslide material (Kappes et al.,\n2011a).\nThe situation and the speciﬁc characteristics of the basin give rise\nto the occurrence of several natural hazards. A large number of river\nﬂoods produced by the Ubaye are recorded with major events in\n1856 and 1957 (Le Carpentier, 1963; Sivan, 2000). Likewise, the tor-\nrents are very active, Remaître (2006) collected information from\n~100 debris ﬂows and 461 ﬂash ﬂoods in the period between 1850\nand 2004. Three large earthﬂows (Super Sauze, La Vallette, and\nPoche) pose a threat of possible unexpected mobilization and release\nof debris ﬂows (Malet et al., 2004). In the year 2000, about 250 active\nrotational and translational landslides were mapped by Thiery et al.\n(2004). Although rock falls occur predominantly in the higher parts\nof the valley, several low-lying regions, for example in the municipal-\nity of Jausiers, also are threatened (RTM, 2000). The avalanche inven-\ntories of the ‘Enquête Permanente sur les Avalanches’ (EPA) and ‘Les\nDonnees de la Carte de Localisation des Phéonoènes d'Avalanche’\n(CLPA, MEDD, 2009) indicate a rather high avalanche activity. As in\nthe case of rock falls, however, their concentration is in the upper",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.72906494140625,
+                57.37801742553711,
+                284.8509216308594,
+                504.71795654296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "82167fcb9127df019cd37d615e6ad99f",
+        "text": "zone of, e.g., the Riou Bourdoux and the Sanières catchment or in\nuninhabited catchments such as the Abries.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.72088623046875,
+                57.37612533569336,
+                552.7398071289062,
+                75.77771759033203
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2274c56d0b30d59ee7b6a6c6d3bcc222",
+        "text": "4.2. Input data",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.72088623046875,
+                89.29439544677734,
+                352.8632507324219,
+                97.26459503173828
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "929ea8585bd78e2cf85c936bb801e629",
+        "text": "A digital elevation model (DEM) with a resolution of 10 m was in-\nterpolated from the digitized contour lines and breaklines of channels\nof the 1:10,000 topographic maps from IGN (Institut Géographique\nNational) by Thiery et al. (2007). Furthermore, a digital surface\nmodel (DSM) and a digital terrain model (DTM) with a resolution of\n5 m are available, derived from airborne interferometric synthetic ap-\nerture radar (IFSAR). The DEM was used due to the higher quality for\nthe processes primarily occurring on the slopes (debris ﬂows, rock\nfalls, shallow landslides, and avalanches); while for the ﬂood model-\ning, the DTM was employed because no forest cover interferes with\nthe radar image and consequently quality-reducing ﬁltering of forest\nwas not necessary.\nOn basis of the aerial photographs of the year 2000, land use was\ndigitized and classiﬁed into 13 classes (e.g., dense coniferous forest,\nnatural grassland, arable land/permanent crops and urban areas) by\nBordonné (2008). The information on the lithology was digitized\nfrom the geological map (1:50,000) constituting 10 classes (e.g.,\nmarls, torrential alluvium, limestone, lacustrine deposits, moraines;\nBordonné, 2008).\nWith respect to elements at risk, databases with the footprints of\nall buildings, outline of the settled areas, and infrastructure (roads\nand paths) were provided from the LIVE institute (Laboratoire\nImage, Ville, Environment) of CNRS, University of Strasbourg.\nConsidering past events the following information was available:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.72003173828125,
+                110.2137680053711,
+                552.8284301757812,
+                358.7850341796875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "160f497a7c139c3788cefd9c0b181442",
+        "text": "▪Debris ﬂows: envelopes (polygons) of the deposition of the debris\nﬂow events observed in 1996, 2002, and 2003 based on post-event\nﬁeld observations (Remaître, 2006). For the 2003 event in the Fau-\ncon catchment, the full process area is available (source, transport,\nand deposition).\n▪Shallow landslides: translational (debris) slides were extracted of\nthe landslide inventory compiled by Thiery (2007) and Thiery et\nal. (2007) compiled at a scale of 1:10,000 on the basis of literature\nanalysis, aerial photo interpretation and ﬁeld surveys. A limitation\nof this inventory is its restriction to the eastern part of the study\narea, from Faucon and Galamonds to the east.\n▪Rock fall: rock fall records were also taken out from the landslide\ninventory of Thiery (2007). This information was merged with",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                307.1054992675781,
+                371.64654541015625,
+                552.813232421875,
+                505.22064208984375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "356e8272191095b6cd5d2c0f206421fa",
+        "text": "the rock fall zones indicated by the risk prevention plan of Jausiers\n(RTM, 2000).\n▪Avalanches: the CLPA inventory (Les Donnees de la Carte de Loca-\nlisation des Phéonomènes d'Avalanche, MEDD, 2009) provides in-\nformation on terrain observations and photo interpretation results\nfor the southeastern part of the study area comprising primarily\nthe north-facing slopes.\n▪Flood: no spatial information on the extent of past events is avail-\nable. Thus, the ﬂood risk zones indicated in the different risk pre-\nvention plans (RTM, 2000, 2002, 2008) were collected and used\nfor the ﬂood model validation. Based on the hydrological reports\nof IDEALP and Hydroetudes (2008, 2010) information about the\n100-year discharge values was derived for the Ubaye River at\nﬁve points between Jausiers and Barcelonnette.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                47.90489196777344,
+                57.37801742553711,
+                293.63409423828125,
+                201.35243225097656
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4178eb97c7f1db99823e8bc87c81c13f",
+        "text": "4.3. Hazard modeling — parameter choice",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51706314086914,
+                214.61083984375,
+                188.68173217773438,
+                222.66871643066406
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c43cbefc1cac83464677827465d68f09",
+        "text": "The calibration and/or parameterization of a model is a very difﬁ-\ncult task, especially in a multihazard setting. To enable the compari-\nson of the exposure to single hazards, the reference of the analyses\nhas to be synchronized primarily. The reference relates to qualitative\nor quantitative scenarios as medium-frequency events, events with a\n100-year return period, high-magnitude events, worst-case, or the like.\nThe selection of parameters or the model calibration for such scenar-\nios can either be based on statistical inventory analyses, expert\nknowledge, or on literature review of comparable studies and transfer\nof the parameter values. A challenge all options share in the multiha-\nzard environment is the unequal availability of information for the\ndifferent hazards:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51707458496094,
+                235.53021240234375,
+                293.6197509765625,
+                358.67291259765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "19bbf6e0878aa889f3fbabe7d4359148",
+        "text": "▪Inventories hold much more information on frequently occurring\nhazard types having affected settled areas and might completely\nunderestimate\nvery\nrare\nprocesses\nor\nevents\noutside\nof\nsettlements.\n▪Experts have in very few cases a profound background concerning\na wide range of different hazards.\n▪Literature of studies with very similar conditions is not for any\nconstellation and for any hazard equally available.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                47.90253829956055,
+                366.7722473144531,
+                293.60223388671875,
+                448.0196228027344
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4e82f0b9efd0a38f4134edfb4633b821",
+        "text": "Although the Barcelonnette basin has been investigated for nu-\nmerous years by many scientists, not enough inventory data are avail-\nable to calibrate all ﬁve processes without further detailed literature\nexamination, ﬁeld surveys, and photo interpretation. Thus, in this\nstudy, in accordance with the objective to facilitate the computation\nof a fast and simple approximation without high data requirements,\nthe computation of worst-case scenarios1 has been chosen. Based on\nthe literature of comparable settings, parameter values are chosen\nthat are related to the largest recorded events or methodologies se-\nlected to estimate empirically these parameter values. Consequently,\nno inventory data are needed for the calibration but can, if available,\nbe used for the validation. Scientiﬁc journals and reports were\nsearched for the necessary input parameters and always the rounded\nvalue leading to the largest area identiﬁed as threatened was chosen.\nIn the following, the examined literature is presented shortly.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.516273498535156,
+                456.2066345214844,
+                293.6293640136719,
+                610.6193237304688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "980fdebaeefacc0e8aa7e464f7e4bc6a",
+        "text": "4.3.1. Debris ﬂows\nSources: for the identiﬁcation of gullies for debris ﬂow initiation, a\nplanar curvature of b−2/100 m was adopted as proposed by Horton\net al. (2008). Between rare and extreme ﬁtting, the second one was\nchosen because, in the case of small upslope areas, the existence of\na source is assumed, though without very steep slope angles. Areas\nof outcropping limestone can be excluded as potential sources.\nRunout: Rickenmann and Zimmermann (1993) mapped about\n800 debris ﬂow events triggered in the Swiss Alps during intense",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51713562011719,
+                623.4808959960938,
+                293.6158752441406,
+                715.2162475585938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2434f48fd6d967c271e2084184cdc47b",
+        "text": "1 In this study, worst-case is deﬁned as an event of very high magnitude and rather\nlow frequency.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51966857910156,
+                727.2152709960938,
+                293.5625915527344,
+                744.9862670898438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2dfdcd3a0cda3bbc26764a96fadb4a55",
+        "text": "rainstorms in the summer of 1987 and identiﬁed a minimum slope\nangle of nearly 11°. Bathurst et al. (1997) mentioned an angle of\nabout 0.2 (~11°) for Japan according to personal communication\nwith Takahashi in 1995. Huggel et al. (2002) established a worst-\ncase angle of reach for debris ﬂows resulting from glacier lake out-\nbursts. Reviewing a quantity of cases in the Alps and Canada, they\nﬁtted a curve to the angle of reach as a function of the maximum dis-\ncharge and assessed a threshold angle of 11°. Zimmermann et al.\n(1997) studied a set of debris ﬂows especially in the Swiss Alps and\nfound a minimum average slope angle of 0.2 (~11°) for coarse and\nmiddle-granular debris ﬂows and 0.12 (~7°) for ﬁne-grained debris\nﬂows. Prochaska et al. (2008) identiﬁed, reviewing a large quantity\nof investigations, a minimum angle of reach of 6.5°. Consequently,\nthe lowest value detected, 7° rounded, was adopted for the worst-\ncase modeling.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.50390625,
+                57.2850341796875,
+                561.5892333984375,
+                211.7785186767578
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e9379bccba905e00765801c25e835539",
+        "text": "4.3.2. Rock falls\nSources: Guzzetti et al. (2003) identiﬁed a slope angle threshold of\n60° for Cretaceous granitic rocks, including granite, granodiorite, and\ndiorite for a 10-m DEM resolution. Ayala-Carcedo et al. (2003)\nworked with 45° in a granitic paleozoic zone for 5-m distance eleva-\ntion lines; and Jaboyedoff and Labiouse (2003) determined an angle\nof 40° for local and 45° for regional analyses for a valley in Vaud, Swit-\nzerland, consisting of carbonates. Wichmann and Becht (2003) used\nan angle of 40° for two catchments in the northern Limestone Alps,\nGermany, with a DEM resolution of 5 m, and Frattini et al. (2008) ap-\nplied an angle of 37° for an area composed of sandstones and carbon-\nate rocks, mixed intermittently with intrusive and effusive rocks and\na DEM resolution of 10 m. Because material and DEM resolution ﬁt,\nthe lowest identiﬁed angle of 37° was adopted for the rock fall source\nmodeling under exclusion of outcropping black marls and clays.\nRunout: Rickli et al. (1994) distinguished the angle of reach\naccording to the resistance and the size of the blocks: 33° for small\nrocks if the resistance is low and the underground smooth or the\nblocks are larger, resistance is high and the underground is not\nsmooth, 35° for middle to small blocks, and 37° for small blocks\nwith high resistance and no smooth underground. For the Solà d'An-\ndorra la Vella (granodiorite and hornfels), a statistical analysis of a set\nof past events resulted in the 90, 99, and 99.9 percentiles at 41.3°,\n39.5°, and 36.9°, respectively (Copons and Vilaplana, 2008; Copons\net al., 2009). Jaboyedoff and Labiouse (2003) applied in their study\nan angle of reach of 33° (carbonates) and Domaas (1985, cited by\nToppe, 1987) detected that 95% of the rockfalls stop within an angle\nof 32°. Onofri and Candian (1979, cited in Jaboyedoff, 2003) assumed\n100% of rock fall events within the 28.5° runout. The lowest slope\nangle was 28.5°, and thus the rounded value of 29° was applied in\nthis study.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.50384521484375,
+                224.72769165039062,
+                561.6112670898438,
+                546.5548706054688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a72a7c2e5480cab04d69643f7f290f2b",
+        "text": "4.3.3. Shallow landslides\nSources: concerning the parameterization of SHALSTAB, Real de\nAsua et al. (2000) suggested that for comparison purposes standard\nvalues of 1700 kg/m3 for the bulk density and 45° for the friction\nangle. With this high friction angle, Real de Asua et al. (2000)\nattempted to compensate the negligence of factors as the root\nstrength of forest and understory as well as for the elimination of co-\nhesion (Montgomery and Dietrich, 1994; Dietrich et al., 1998; Real de\nAsua et al., 2000). However, for a worst-case scenario, the assumption\nof areawide stabilization from these effects is not meeting the objec-\ntive of identifying all susceptible areas. Montgomery et al. (1998) ap-\nplied a friction angle of 33° while Meisina and Scarabelli (2006) used\nan angle of 28°, which was adopted for this study. For the determina-\ntion of the critical steady-state rainfall, a study on rainfall thresholds\nfor shallow landslides and debris ﬂows in the Barcelonnette basin car-\nried out by Remaître et al. (2010) has been consulted. Because the\nlandslide threshold values are much more inﬂuenced by antecedent\nrainfall than the debris ﬂow values, Alexandre Remaître (personal",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5054931640625,
+                559.5048217773438,
+                561.6178588867188,
+                745.3207397460938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "483f2dfea308fa33ecf976969f2ead7b",
+        "text": "Table 2\nSummary of the parameters to be deﬁned in the software for the modeling of the different hazards and the selection made for the case study.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.7322998046875,
+                57.728797912597656,
+                450.041259765625,
+                72.66522216796875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0911e7239a1572191d044bba85a62869",
+        "text": "Source\nRunout",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                106.75279235839844,
+                80.9725112915039,
+                377.0945739746094,
+                87.3485107421875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "81cbb3e335be2153ad8cd87a5104f35e",
+        "text": "Parameters\nValues chosen\nParameters\nValues chosen",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                106.7528076171875,
+                94.0120620727539,
+                546.7713012695312,
+                100.3880615234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f989ad2a876fd2a2603fcc93bc8fc0e1",
+        "text": "Debris ﬂow\nPlanar curvature threshold\nb−2/100 m−1\nHolmgren exponent\n1\nSlope angle–upslope area threshold\nExtreme ﬁtting\nLand use/cover & lithological units to be excluded\nOutcropping limestone\nAngle of reach (= constant friction loss angle)\n7°\nRock falls\nSlope threshold\n37°\nHolmgren exponent\n1\nLand use/cover & lithological units to be excluded\nOutcropping marls & clays\nAngle of reach\n29°\nShallow landslides\nSoil bulk density\n1700 kgm3\nHolmgren exponent\n1\nSlope threshold (friction angle)\n28°\nCritical rainfall threshold\n30 mm\nAngle of reach\n20°\nLithological units to be excluded\nOutcropping limestone\nAvalanches\nSlope threshold\n30–60°\nHolmgren exponent\n1\nLand use/cover units to be excluded\nDense forest\nAngle of reach\n14°\nRiver ﬂood\nHydrograph, 100-year ﬂood x 1.6 48 h duration",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                39.683753967285156,
+                105.8475570678711,
+                515.1249389648438,
+                207.64996337890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "963fdcbb8910edcc2b753cd26c358955",
+        "text": "communication, 14th February 2011) recommended to the use of de-\nbris ﬂow thresholds and advised daily rainfall values of 30–50 mm on\nthe basis of a database of past records (Remaître et al., 2010). The\nlower value of 30 mm per day was adopted for this study. For areas\nwithout comparable information, the web page of the ‘Istituto di Ricerca\nper la Protezione Idrogeologica’ (IRPI, 2011) gives an overview on\ngeneral rainfall thresholds and can perfectly serve as ﬁrst orientation\nin cases for which no statistical analyses have been carried out.\nRunout: the angle of reach is rarely used for the shallow landslide\nrunout computation and only a few studies were found. Corominas\n(1996) mentioned a tangent of the angle of reach of b0.8 (about\n39°) for all recorded shallow landslides in his inventory. Corominas\net al. (2003) assumed in their study 26° (30°) for small b800 m3,\n22° (25°) for medium 800–2000 m3 and 20° (23°) for large slides\n>2000 m3 for unobstructed (obstructed) paths. On the basis of the\nscarce literature, a constant friction loss angle of 20° was assumed.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.73150634765625,
+                235.22372436523438,
+                284.8533630371094,
+                400.06298828125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f6297c8c464d09cf6b24b1414236dd4f",
+        "text": "4.3.4. Avalanches\nSources: in accordance with Maggioni (2004), hillsides with a slope\nbetween 30° and 60° were chosen while densely forested regions were\nexcluded. Ridges, identiﬁed by a curvature >1/100 m and a change of\naspect >40° (refer to Maggioni, 2004, for further detail), are automati-\ncally excluded in MultiRISK.\nRunout: according to Mc Clung and Schaerer (1993), the runout angle\nof avalanches ranges between 15° and 50°, while Liévois (2003)\nmentioned a range between 55° and 28–30°, in exceptional cases even\nas low as 20° for slush ﬂows. Lied and Bakkehøi (1980) investigated\n423 avalanches and observed values between 18° and 50° with a mean\nvalue of 33°. Hereby, 95% showed a gradient >23° and about 75%\n>27°. Mc Clung et al. (1989) investigated four mountain ranges and\nfound for the set of 100-year avalanches a minimum angle of 14° (the\nSierra Nevada) and a maximum of 42° (western Norway). Mc Clung\nand Lied (1987) investigated 212 avalanches and found a range of\n18–49° with a mean of 30.3°. Barbolini et al. (2011) calculated an average\nslope angle of 27.3° with a standard deviation of 5.1° for an inventory of\n2004 extreme avalanches in the Italian mountain range (Alps and\nApennines). The lowest detected angle of 14° was adopted for this study.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.731201171875,
+                413.069580078125,
+                284.8539123535156,
+                619.7455444335938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f8794e72d03fcad6c0eed87ffe7fdc78",
+        "text": "4.3.5. Flood\nA parameter value choice, as for the previous processes, is not pos-\nsible in the case of ﬂoods because the maximum possible discharge\nvalues or inundation depths depend more strongly on the speciﬁc set-\nting then in the case of the previous processes. An equivalent of a\nworst-case run-out is presumably the probable maximum ﬂood\n(PMF), which is deﬁned by Francés and Botero (2003 p. 223) as the\n“biggest ﬂood physically possible in a speciﬁc catchment”. The PMF\ncan be computed on the basis of the probable maximum precipitation\nand a precipitation-runoff model as proposed in Ely and Peters\n(1984) or alternatively, empirically by means of statistical analyses",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.731201171875,
+                632.7521362304688,
+                284.8387145996094,
+                745.3192749023438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6098ed8e4c5ba7a3cd5c9a62bcc7de29",
+        "text": "of discharge time series (Francés and Botero, 2003). An alternative\nconcept to the PMF is the extreme ﬂood, deﬁned by the CEC (2006)\nand in the Flood Assessment and Management Directive (EP and EC,\n2007) as an event of low probability and, as the term indicates, of\nvery high magnitude. Alternatives to compute extreme ﬂoods differ\nwidely but are, in general, more pragmatic and exhibit lower data re-\nquirements than the methods used for the PMF:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7188415527344,
+                235.21847534179688,
+                552.8025512695312,
+                305.94677734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "85bd01667fe12db6c76e538a26beb679",
+        "text": "• Assumption of a certain return period of the extreme ﬂood: Ruiz\nRodriguez et al. (2001) used the 1250–10,000-year return period\nfor the ﬂood modeling of the Rhine delta. Bründl (2008) applied a\n1000-year event as an extreme ﬂood in a case study of the river\nLonza in the communities of Gampel and Steg in the Canton Wallis.\n• Increase of a certain ﬂood scenario by a deﬁned inundation depth as\nextreme value addition (Extremwertzuschlag; UVM, 2005): UVM\n(2005) proposed the 100-year or 200-year ﬂood+x m: for one par-\ntition of the Oder, the 200-year ﬂood+1 m is used (OderRegio,\n2006); and for the extreme ﬂood computation for several parts of\nthe Rhine, Ruiz Rodriguez et al. (2001) applied the 200-year ﬂood\n+0.5 m.\n• Multiplication of a certain discharge scenario by a deﬁned factor:\nthe practitioners having participated in the workshop on risk man-\nagement of alpine torrents and rivers (Klumpp and Hörmann, 2010)\ndeﬁned the threshold for acceptable residual risk, which corre-\nsponds to the extreme event of the EU ﬂood directive to 100-year\nﬂood×1.6. This method is also frequently used for the designing\nof spillways as shown in the study of the TU Wien (2009) and in riv-\nershed analyses (André Assmann, Geomer GmbH, personal commu-\nnication November 2010). Hydrotec (2009) used the 100-year\nﬂood×1.3 for identiﬁcation of areas beyond the ﬂood protection\ngoal for the Solmsbach.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.71673583984375,
+                313.59259033203125,
+                552.8162841796875,
+                551.77001953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3b553b8a8207c27b55b69cf42f6f1676",
+        "text": "The methods to assess the PMF are rather sophisticated and data-\ndemanding. For the statistical computation of a very low frequency\nscenario as, e.g. a 10,000-year event, an extensive inventory is neces-\nsary — if such estimations are possible at all, on the basis of rather\nshort-period inventories. The increase of a certain ﬂood scenario by\na deﬁned inundation depth depends strongly on the speciﬁc mor-\nphology and is not really transferable to other regions. Furthermore,\nthis method is also very problematic if channeled and braided river\nsections alternate, as is the case in the Barcelonnette basin. Therefore,\nthe multiplication of a comparably frequent and thus better assessable\nevent (100-year event) with a certain factor was chosen to determine\nthe discharge of the extreme ﬂood, which is assumed to be a suitable\nequivalent to the worst-case modeling of the other hazards. The\nmodeling was run for 48 h at the constant discharge of the 100-year\nﬂood×1.6 to achieve a steady-state ﬂooding.\nIn Table 2, an overview of the parameters to be deﬁned in the Mul-\ntiRISK modeling tool and the values assumed for the worst-case anal-\nysis in the Barcelonnette basin are compiled.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7126770019531,
+                559.5034790039062,
+                552.8241577148438,
+                745.3223266601562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0ba51b796f710ca2b0626d42d8598348",
+        "text": "4.4. Validation and exposure analysis",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                57.37801742553711,
+                172.3112335205078,
+                65.34821319580078
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7632ae4355316713a2a7ef190b36f2f3",
+        "text": "The validation has been carried out for the complete susceptible\nareas by means of the inventory information described in the input\ndata section. No use has been made of the option to validate the\nsource susceptibilities separately because respective inventory infor-\nmation is lacking.\nThe exposure analysis has been performed for the available build-\ning database, while the buildings are treated as entire units. Likewise,\nthe exposure of infrastructure and settled areas was examined; in\nthese cases the exposed fractions were quantiﬁed.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                78.29817962646484,
+                293.6096496582031,
+                169.9458770751953
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e609160f59288d18a1f0640dfd022d49",
+        "text": "4.5. Results and discussion",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.519683837890625,
+                183.34933471679688,
+                134.93655395507812,
+                191.3195343017578
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c4c49d586cc48412b1ad2f472fca0335",
+        "text": "The setup of the model took about 5 min including deﬁnition of\nthe project folder and name, upload of the input ﬁles and entering\nof the parameters. With the choice of the quick mode for the runout\ncalculations, the modeling ran in total about 50 h2 whereof the pro-\ncesses runout computation took most of the time. Moreover, the du-\nration of the computation is dependent on the number of sources\nidentiﬁed. The complete modeling takes much longer as the values\nin brackets behind the duration of the quick analysis indicate\n(Table 3). Thus, with the present computer characteristics, the com-\nplete approach does not offer fast and therefore ﬂexible modeling;\nwhile the quick run serves, as comparisons with the complete method\nindicated, very well. Hence, the modeling has been carried out in the\nquick mode. The data preparation, derivative production, and source\nidentiﬁcation of all processes lasted for about 20 min in total. The val-\nidation for all ﬁve processes took about 5 min, and the exposure anal-\nysis around 5 min. The preparation of the data for the visualization\naccounted for another max. 10 min.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51887512207031,
+                204.1810302734375,
+                293.63201904296875,
+                379.59490966796875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c7179ba80c57f2c8532e43e43b15969d",
+        "text": "4.5.1. Process analysis\nThe results indicate the largest susceptible area for snow ava-\nlanches with over 200 km2, directly followed by shallow landslides\nwith almost 200 km2 (Table 3). Rock falls (~87 km2) and debris\nﬂows (~63 km2) affect a much smaller region. River ﬂoods exhibit\nthe smallest susceptibility zone with only about 11 km2, however,\naffecting the most densely populated region. Apart from the parame-\nterization, this area distribution is a result of the repartition between\nslopes and ﬂoodplains in the study site. Moreover, processes charac-\nteristics are also of a major relevance, e.g. rock falls or debris ﬂows\nare spatially not as extensive as snow avalanches.\nIn Fig. 6, examples for the presentation of the results of the hazard\nmodeling step in the MultiRISK visualization tool are given. The pro-\nduced information is shown in three different shifts: ﬁrst, the single\nhazards are displayed; secondly, the overlay of three hazards; and ﬁ-\nnally, the number of hazards with the option to spatially query the\nunderlying processes. The map depicting the number of overlapping\nhazards (Fig. 6 at the bottom) indicates a high potential of the coinci-\ndence of two, three, or even four hazards, especially on the slopes.\nThe upper slopes are prone to three or four processes, while the tor-\nrent channels at lower altitudes mostly unite only two hazards.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51816177368164,
+                392.9984130859375,
+                293.6416320800781,
+                610.1647338867188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "29b2314c822036c91d121a87a52cf1b2",
+        "text": "4.5.2. Process validation\nThe sensitivity of all ﬁve hazards is rather high with at least 83%\nfor debris ﬂows and up to 95% for avalanches (Table 4). This means\nthat between 83% and 95% of the recorded events are covered by\nthe corresponding hazard modeling results. However, a very high\nsensitivity is to be expected in a worst-case analysis that aims at indi-\ncating all susceptible areas. In return, a rather low positive prediction\npower (PPP) can be suspected for worst-case scenarios, and indeed\nthe good sensitivity results are relativized by PPP values below 1%",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51661682128906,
+                623.5682373046875,
+                293.60498046875,
+                715.2160034179688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "46c3c65441d9459ed947b6bb209e9dd8",
+        "text": "2 Computer speciﬁcations: Intel® Core(TM)2 CPU 6400 @ 2.13 GHz, 2.13 GHz,\n3.25 GB RAM, Windows XP.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.5196647644043,
+                727.2152709960938,
+                293.5192565917969,
+                744.9862670898438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b743612afff4a35c68087efeeb6fc477",
+        "text": "Table 3\nOverview over the analysis results for the processes debris ﬂows (DF), rock fall (RF),\nshallow landslides (SL), avalanches (AV) and ﬂoods (FL) (TP — true positives, FP —\nfalse negatives, FN — false negatives, and TN — true negatives).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.50634765625,
+                57.728797912597656,
+                562.025390625,
+                89.78607177734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9766d49d11e5660a48cc3807f8dca8c9",
+        "text": "Quick\nComplete area\nsusceptible\nValidation of the\ncomplete susc. area\nExposure\nto sources\nExposure\ncomplete",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                331.1441650390625,
+                98.0933609008789,
+                554.591552734375,
+                113.02978515625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0cb7ffc7387044ed6707b2a377fcc6b6",
+        "text": "(complete)\n(% of the\nwhole area)\nTP, FP, FN, (TN)\nNo. of buildings [−]\nRoad length [m]\nSettled area [m2]\n[h]\n[m2]\n[m2]\n[%]",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                331.1421203613281,
+                119.62319946289062,
+                550.196044921875,
+                147.67010498046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f50a06c7d48759041af1119048b0c5f7",
+        "text": "DF\n~1 (36)\n62,995,900\n210,936\n0.06\n1\n1143\n→runout\n(17%)\n62,784,964\n16.90\n463\n110,911\n42,259\n0.01\n225\n1,249,831\n(308,442,833)\n83.03\nRF\n~4 (11)\n86,629,178\n555,834\n0.15\n10\n49\n→runout\n(23%)\n86,073,344\n23.17\n6,638\n40,081\n53,328\n0.01\n4,389\n34,765\n284,798,486\n76.67\nSL\n10 (~336)\n195,782,092\n503,463\n0.14\n297\n872\n→runout\n(53%)\n195,278,465\n52.57\n104,327\n228,825\n40,394\n0.01\n157,803\n651,148\n(175,658,670)\n47.29\nAV\n~10 (>340)\n212,672,507\n49,144,230\n13.23\n36\n1633\n→runout\n(57%)\n163,528,277\n44.02\n18,111\n254,718\n2,377,168\n0.64\n11,628\n1,684,640\n(156,431,317)\n42.11\nFL\n~24\n10,447,502\n3,366,192\n0.91\n1319\n(3%)\n7,081,310\n1.91\n64,419\n296,430\n0.08\n1,902,747\n(360,737,060)\n97.11",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                316.4569091796875,
+                154.39041137695312,
+                555.9796142578125,
+                323.52862548828125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "145731bed889c379b3e6f4963f336eb2",
+        "text": "for debris ﬂows and rock falls followed by shallow landslides with\nabout 7%. In addition to the very conservative modeling approach\nthat underlies worst-case studies, the amount of records within the\ninventories regarding these three processes are particularly small\nand consequently result in low proportions of true positives and\nlow PPP.\nThe positive prediction power of avalanches (~23%) is exceeded\nonly by the ﬂood result (~32%). The same two processes exhibit\nalso the highest sensitivity values. However, the validation results\ncannot be interpreted without considering the hazard type and its\nspeciﬁc characteristics (cf. Fig. 7). One example for a necessary careful\ninterpretation of the validation results is ﬂooding. The positive pre-\ndiction power is high because river ﬂoods take place in the limited\narea of the ﬂoodplain which leads to a high potential that the mod-\neled areas were already covered by a few records of past events. By\ncontrast, the area susceptible to the occurrence of shallow landslides\nis much less restricted to a certain region such as a ﬂoodplain and, ad-\nditionally, landslides will not recur as this is the case for river ﬂoods.\nAccordingly, the false positive proportion of shallow landslides is\nprobably always higher than for ﬂoods because of the described pro-\ncess characteristics. Consequently, PPP values achievable for ﬂood\nmodeling may not be realistic for shallow landslide models. Further-\nmore, ﬂoods, avalanches, rock falls and debris ﬂows are (to a greater\nor lesser extent) recurring events; while shallow landslides may reac-\ntivate but the characteristics differ from the initial failure. These dif-\nferent aspects complicate a clear ranking of the modeling result.\nFor the present study, a clear quality difference is notable, at least\nbetween the avalanche and ﬂood modeling results with comparative-\nly high sensitivity and the outcome of the rock falls, debris ﬂows, and\nshallow landslides computation. A more detailed ranking is difﬁcult\nand depends on the weighting of sensitivity versus the PPP or the\nFN versus TP and objective of the analysis procedure. The suscep-\ntibility of 53% and 57% of the study area to shallow landslides and\navalanches may suggest an overestimation of modeling result, yet\nthe objective was the worst-case scenario. However, the validation\nbased on mostly rather low number of records within the inventories\ndoes not enable a clear judgment.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5009765625,
+                360.6496887207031,
+                561.6273193359375,
+                745.3215942382812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0226d4b5fa738c5b5c95e15bdc0c3138",
+        "text": "Fig. 6. Examples for the presentation of the hazard modeling results in the MultiRISK visualization tool (note: the brown colors in the lower graphic refer to the number of hazards\nin each pixel).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.732269287109375,
+                609.4073486328125,
+                552.7673950195312,
+                624.34375
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "8d5b3f028c25383b939c1f4e73995ca8",
+        "text": "In summary, confusion matrices proved well-utilizable in a multiha-\nzard context. Nevertheless each single validation result has to be inter-\npreted carefully considering of the process speciﬁcities, the inventory\nsize, etc. The same is true for the comparison between process valida-\ntions. Nevertheless, these difﬁculties are rather issues related to the\nmultihazard context than to the choice of the validation method.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.731231689453125,
+                643.1856689453125,
+                284.7694091796875,
+                703.426025390625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "83d5f0959c5b82017265f697b3d2ca73",
+        "text": "4.5.3. Exposure\nThe lowest exposure results from rock fall with only ~40 km of\nroads and paths, 49 buildings, and 34,765 m2 of settled area",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.731239318847656,
+                716.4326171875,
+                284.8000793457031,
+                745.3228149414062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fae79635d1e70ff2991b6a0f851c16f3",
+        "text": "(Table 3). In contrast, the highest numbers exhibit debris ﬂows,\nﬂoods, and avalanches with far more than 1000 buildings exposed.\nBecause of the close vicinity of many cities and villages to the\nriver course, a very high exposure arises from river ﬂooding,\nalthough, only about 3% of the study area are susceptible to this\nthreat. On the contrary, shallow landslides cover more than 50% of\nthe area, but the exposure concerning buildings and built-up area\namounts to less than half of area of the avalanches. In Fig. 8, an\nexample for the visualization of the exposures in MultiRISK is\nprovided.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.71923828125,
+                643.0978393554688,
+                552.77490234375,
+                745.2645874023438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "48dcd934077d0825af1871d92d6824d4",
+        "text": "Table 4\nPresentation of the proportions of TP, FN, and FP as well as the quality indicators sen-\nsitivity (SY) and positive prediction power (PPP) of the modeling results.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                57.728797912597656,
+                294.0287170410156,
+                81.22564697265625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d5648770dfaa29497e6d113f584057f7",
+        "text": "DF\nRF\nSL\nAV\nFL",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                85.0393295288086,
+                89.5329360961914,
+                274.408447265625,
+                95.908935546875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c3280c74d13384967ca5747485a99445",
+        "text": "TP\n0.06%\n0.15%\n0.14%\n13.23%\n0.91%\nFN\n0.01%\n0.01%\n0.01%\n0.64%\n0.08%\nFP\n16.90%\n23.17%\n52.57%\n44.02%\n1.91%\nSY\n83.31%\n91.25%\n92.57%\n95.39%\n91.91%\nPPP\n0.33%\n0.64%\n7.43%\n23.11%\n32.22%",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.47233200073242,
+                102.5724868774414,
+                288.0684509277344,
+                143.190185546875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "dea0196f9525168f7f90a5e5fbd2baec",
+        "text": "Summarizing, the analysis of the Barcelonnette case study using\nthe software tool MultiRISK proved much more comfortable, user-\nfriendly, and much less error-prone than the separate modeling of\nall single steps; previous attempts to step-by-step perform the analy-\nsis enabled the authors to come to this conclusion. By means of a lit-\nerature review complemented by advice from experts and statistical\nanalyses, a worst-case parameterization followed by hazard model\nvalidation and exposure assessment could be carried out. Thus, it\ncan be concluded that the MultiRISK tool leads to a higher efﬁciency\nin susceptibility and exposure modeling for multihazards so far. How-\never, due to the partly very low PPP values, which stands for a high\noverestimation of the modeling result, the effectiveness in the case\nstudy shows quite some potential for optimization. Nevertheless, a\nconsiderable advantage is that long time- and resource-consuming\ndata acquisition has been avoided. However, the applicability and\nusefulness of such an approach for a very ﬁrst approximation of an\nunknown area has to be examined in future studies together with\nstakeholders.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51863098144531,
+                161.97640991210938,
+                293.6237487792969,
+                347.73297119140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "92a303cdec7626dc2b34fb72c63a33f2",
+        "text": "5. Overall discussion and conclusions",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.50701904296875,
+                57.37459945678711,
+                452.7344970703125,
+                65.34479522705078
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "075e9539548c01bb1597cfe99ece26d1",
+        "text": "In this study, the development of a modeling and a visualization\nscheme was presented, their automation in software tools was out-\nlined, and a case study was performed. Thereby, many challenges\narising in a multihazard context were faced. Although many issues\nand difﬁculties could be coped with, this study raised even more\nnew perspectives and questions which will be discussed in the\nfollowing.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5062255859375,
+                78.29476165771484,
+                561.5914916992188,
+                149.02308654785156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0ead2ffcaaa2b51d29c1b5c45eb39702",
+        "text": "(i) The comparability of modeling results is one of the main objec-\ntives of the analysis scheme proposed here. To achieve this\ngoal, similar or at least somehow equivalent models should\nbe selected. However, two major problems emerged: (a) the\nexistence and detection of similar models and (b) the question\nif similar models assure comparability. (a) In the presented set\nof hazards, difﬁculties arose with the selection of similar\nmodels; for instance with respect to methods for source iden-\ntiﬁcation: while simple empirical methods are commonly in\nuse for rock falls, debris ﬂows, and avalanches, slopes suscepti-\nble to shallow landsliding are usually analyzed by statistically\nand physically based models. Moreover, while two-step ap-\nproaches of source identiﬁcation and runout modeling are\ncommonly applied for rock falls, debris ﬂows, and avalanches,\nthe analysis of ﬂoods follows completely different procedures,\nassumptions and decisions. Other processes (such as earth-\nquakes, storms or forest ﬁres) differ even more strongly from\nthe processes presented here, not only with respect to the",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                321.0508117675781,
+                161.91567993164062,
+                561.5865478515625,
+                347.72882080078125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "76ea5553d3f014395dc80fa1b65f5d54",
+        "text": "Fig. 8. Screenshot of the visualization of exposed elements in the MultiRISK visualization tool — exposure to debris ﬂows.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                115.08660125732422,
+                416.9781799316406,
+                471.4118957519531,
+                423.42431640625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "96214c62c8948bf457d254cd23c0bf82",
+        "text": "modeling approaches and the spatial extent but also regarding\nthe temporal scale at which they act. This leads to difﬁculties in\ndeﬁning common scenarios as, e.g. the modeling of the 20-year\nevents may be possible for ﬂoods, rock falls, or debris ﬂows but\nsuch events are of very low relevance in the earthquake con-\ntext. Likewise, the rock fall or debris ﬂow with a 1000-year re-\nturn period is a very rough assumption, while much more in\nuse for earthquakes. This also applies for the worst-case pa-\nrameterization used for the case study. The inclusion of a pro-\ncess of such low frequencies but extremely high magnitudes\nwith high spatial extent would lead to a distortion of the result\nbecause of the dominance of the earthquake threat. (b) Fur-\nthermore, the question arises if the utilization of similar or\neven equal methods for the modeling of distinct hazards – as\nin the case of runout modeling by means of the angle of\nreach concept – automatically assures comparability of the re-\nsults. While for debris ﬂows or rock falls a large quantity of\nstudies was detected, in the case of shallow landslides only\ntwo articles were found — an indication of the less frequent\nuse of this technique for shallow landslides and possibly a\nlower suitability of this method. The validation results espe-\ncially indicate very well that differences between hazards\nfrom contrasting characteristics cannot simply be overcome\nand comparability is not automatically assured by the applica-\ntion of the same methodology. Differing suitability and applica-\nbility of an approach when used for contrasting processes may\nresult in very distinct model qualities. However, if the previ-\nously proposed attempts to achieve comparability do not in\nany case meet the objective to produce comparable results,",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                57.654258728027344,
+                444.4205017089844,
+                284.83367919921875,
+                745.2620239257812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1acdace76488ab9b4d49ef975b82d030",
+        "text": "then how can comparability be assured? By aiming at similar\nquality and uncertainties of the models? How can this be mea-\nsured, and is it possible to meet this goal? Or is it sufﬁcient to\nproduce results of the same metrics at a predeﬁned scale and\nall the differences have only to be considered in the interpreta-\ntion of the outcome? Especially when the model choice is con-\nstrained by data availability, this is may be the most realistic\nstrategy.\n(ii) A challenge becoming apparent in the case study is the param-\neterization or calibration of the models. Despite the fact that\nthe chosen study area has already been investigated for many\nyears by several universities, insufﬁcient inventory informa-\ntion is available to carry out a complete multihazard model cal-\nibration. A rather simple approach has been chosen with the\nmodeling of worst-case scenarios on the basis of literature in-\nformation, multiple assumptions, and generalizations. Al-\nthough this approach apparently led to an overestimation of\nthe susceptible areas and the number of exposed elements, it\noffers the determination of general hazard distributions, over-\nlaps, and areas of potential risk without data-demanding cali-\nbration. By now a parameter set is available by means of\nwhich a very fast approximation of a completely unknown\narea can be performed and much time can be saved. The actual\nusefulness of this worst-case scenario parameter set and the\nresulting grade of overestimation have to be examined in addi-\ntional regions. Nevertheless, the meaningfulness of such a\nblind analysis depends primarily on the objective and restric-\ntions of the respective study. In areas without any inventory\ninformation and previous hazard analyses, such a worst-case",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                309.938232421875,
+                444.4156799316406,
+                552.8164672851562,
+                745.2572021484375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d71e115a55d5ddff0610186323c68c6d",
+        "text": "analysis may offer helpful indications of which areas have to be\nregarded in more detail.\nFor better adjusted parameterization or calibration of the\nmodels, difﬁculties have to be solved in each single situation\nindividually. This means that solutions have to be found\naccording to the available data and the legislative framework\nrequiring the computation of certain scenarios or the like.\nThereby, expert appraisal seems to be an indispensible compo-\nnent in multihazard analyses. Multihazard information, espe-\ncially regarding inventory data, is probably always fragmentary\nand has to be complemented and pieced together. Nevertheless,\na problem is that only a few experts have real multihazard\nexperience.\n(iii) Although the presented analysis concept is designed as a top-\ndown approach, in this study only the ﬁrst step is outlined:\nthe regional exposure analysis scheme. Nevertheless, in the\nelaboration of a local analysis scheme many additional prob-\nlems will emerge, such as the development of a vulnerability\nanalysis scheme. Depending on the type of hazard, different\nmethods are used such as curves, matrices, or indicator-based\napproaches (Kappes et al., 2011b). For instance, vulnerability\ncurves are frequently applied for ﬂood and earthquake model-\ning but are still not available for rock falls. Thus, the question is\nhow to combine different methods or identify one method\n(e.g., vulnerability matrices) that can be applied for all process-\nes. Moreover the vulnerability is altered by simultaneous or se-\nquential hazard impacts (Kappes et al., 2011b). Furthermore,\nlocal multihazard risk analyses require much detailed informa-\ntion; and although with the regional analysis zones of special\ninterest are identiﬁed, the acquisition of the necessary infor-\nmation for these areas is a challenge.\nAn extension of MultiRISK toward hazard and risk modeling at\na local scale is planned to facilitate detailed examination of\nthose areas determined at a regional scale. Moreover, the in-\nclusion of further processes as, for instance, earthquakes and\nﬂash ﬂoods is under consideration.\n(iv) Important phenomena arising in a multihazard context are re-\nlations and interactions between hazards. This issue has not\nbeen dealt with in this article due to two reasons: ﬁrst, because\nhazard relations are, until now, not automated in the MultiRISK\nmodeling tool, they were not presented in the present study.\nNevertheless, ideas and recommendations for regarding this\nissue at a regional scale are already presented in Kappes et al.\n(2010) and Kappes and Glade (in press). Primarily, the imple-\nmentation of feedback loops and the identiﬁcation of areas sus-\nceptible to hazard chains with the overlay of modeling results\nare proposed.\n(v) Multihazard analyses have to be followed by the interpretation\nof the results, which especially includes the determination of\nacceptable and tolerable levels of risk for certain types of use\nor the planning of mitigation measures. In Switzerland and\nFrance, broad guidelines for the performance of multihazard\nanalyses already exist, directly linked to the implementation\nof the modeling results into spatial planning. This implies,\nthat any modeling approach has to be adjusted to the legal\nframework and the requirements of the stakeholders taking\ndecisions on the basis of this information.\n(vi) So far, the MultiRISK Platform has been developed without in-\ntensive stakeholder interaction. The major reasons were, ﬁrst,\nthe objective to approach the challenge to develop a multiha-\nzard analysis scheme and implement it into a software from a\nscientiﬁc point of view, to identify general challenges and to\nnot only provide practical solutions to one speciﬁc problem.\nSecond, to develop a beta version that offers a basis for discus-\nsions with stakeholders and prevents from abstract design pro-\ncesses. The experience of the usefulness of a ﬁrst software",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 15,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.47208786010742,
+                57.37801742553711,
+                293.6441955566406,
+                745.2562255859375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2ce28bd7b59cc73caedd5e871996a03a",
+        "text": "proposal as starting point for a detailed adjustment to user\nneeds has also been made with RiskScape in New Zealand (Ste-\nfan Reese, NIWA, personal communication, December 2010).\nThereby, adjustment refers to requirements in terms of spatial\nresolution, quality and level of uncertainty of the results, pro-\ncesses to be considered, data availability and user-friendliness\nof the software but also to the administrative and legal setting\nof the country and the hazard and risk modeling capacities. So\nfar, the performance of hazard and risk analyses is often out-\nsourced to consultants since technical know how and person-\nnel\nsituation\ndo\nnot\npermit\nthe\nrealization\nwithin\nthe\nadministrative units. However, this involves the danger of\nlow transparency of and little information on the modeling\nprocedure and does not offer the option to ﬂexibly compute\nscenarios, update the analyses etc. The performance of multi-\nhazard risk analyses by means of a speciﬁc software tool –\nwhich has to be adapted to the speciﬁc requirements, legisla-\ntion, and other user-speciﬁc needs – would accelerate and sim-\nplify the procedure and make the results more transparent.\nNevertheless, at least the ﬁrst parameterization and adaptation\nto the speciﬁc area and user needs will in most cases require\nexpert support from outside, the tool itself could stay in the\nhand of, e.g., the municipalities and offer ﬂexible and fast re-\nrunning. How realistic the introduction of such a tool in admin-\nistrative bodies and institutions is depends on the legislation,\nthe duties of the administrative units, and many more aspects.\nAn interesting example offers HAZUS, elaborated by and freely\navailable from FEMA (U.S. Federal Emergency Management\nAgency). With a variety of videos and manuals as well as\nHAZUS training courses, FEMA provides support with the\ntool. Moreover, HAZUS is delivered together with a nationwide\ndatabase offering sufﬁcient information to carry out a ﬁrst\noverview analysis of any region in the U.S.\nTransferring this approach to the Alpine context, a tool adjust-\ned to the necessity to ﬁrst, perform a susceptibility analysis at a\nscale 1:10,000–1:50,000, and second, to elaborate a hazard\nzoning map could be adjusted to the local conditions and cali-\nbrated in ﬁrst place by external (consultants) or national gov-\nernmental experts. The model itself, not only the results,\nremains with the respective administrative units, offering this\nway an update by consultants, governmental experts, or,\naccording to the respective experience and expertise, by the\ntechnicians of this unit. Due to differences in the administra-\ntive structure and legal framework of each country, the author-\nities in charge of arranging/performing these analyses vary. In\nFrance, the municipality, with the support of the RTM service,\nhas to take care of the elaboration of hazard and risk informa-\ntion while in Germany governmental agencies as the hydrolog-\nical or the geological survey are in charge.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 15,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                334.4281921386719,
+                57.36581039428711,
+                561.6171264648438,
+                567.4706420898438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6b6d38cab86bb1018d376b01018d494e",
+        "text": "Concluding, multihazard settings pose a wide range of challenges.\nAlthough several difﬁculties can be solved by a coherent analysis\nscheme and the automation of the analysis procedure, many prob-\nlems persist and require experience in handling and analyzing of mul-\ntiple hazards as well as careful interpretation of analysis results.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 15,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5024719238281,
+                580.4197998046875,
+                561.5957641601562,
+                630.228759765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c671462cad7d9d9b236ae74835e78d0b",
+        "text": "Acknowledgments",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 15,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5024719238281,
+                643.1779174804688,
+                381.3169250488281,
+                651.1481323242188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "24b8103f9b8ea4b4e5ac8882a8d777b8",
+        "text": "The authors thank the European Commission for funding the pro-\nject Mountain Risks (http://mountain-risks.eu; contract number\nMCRTN03598) in the framework of which this study has been carried\nout. Furthermore, the authors want to express their gratitude to Jean-\nPhilippe Malet and Alexandre Remaître for the provision of informa-\ntion, support and always very constructive feedbacks. Many thanks\nalso to Cees van Westen, Stefan Greiving, Stefan Jäger and André Ass-\nmann for very helpful discussions and valuable advice. Also the whole",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 15,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.50164794921875,
+                664.09814453125,
+                561.5884399414062,
+                745.314453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "81bdf4465ff38d2128e7c5baa9bac04f",
+        "text": "Mountain Risk team and the Working group Geomorphic Systems\nand Risk Research of the University of Vienna always contributed\nand supported the authors for this research. The authors would also\nlike to thank the Editor Richard Marston and two anonymous\nreviewers for their constructive and very helpful comments on the\nearlier draft of the paper.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 16,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.7322998046875,
+                57.37801742553711,
+                284.8294677734375,
+                117.61835479736328
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "812fa768010d55530e1e6e52165cb9f1",
+        "text": "References",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 16,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.7322998046875,
+                134.64987182617188,
+                74.93745422363281,
+                142.6200714111328
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "252f8d5fb931b8209f3738ffdf6f8b9b",
+        "text": "Apel, H., Aronica, G., Kreibich, H., Thieken, A., 2009. Flood risk analyses — how detailed\ndo we need to be? Natural Hazards 49, 79–98.\nAyala-Carcedo, F., Cubillo-Nielsen, S., Alvarez, A., Domínguez, M., Laín, L., Laín, R., Ortiz, G.,\n2003. Large scale rockfall reach susceptibility maps in La Cabrera Sierra (Madrid)\nperformed with GIS and dynamic analysis at 1:5000. Natural Hazards 30, 325–340.\nBakkehøi, S., Domaas, U., Lied, K., 1983. Calculation of snow avalanche runout distance.\nAnnals of Glaciology 4, 24–29.\nBarbolini, M., Pagliardi, M., Ferro, F., Corradeghini, P., 2011. Avalanche hazard mapping\nover large undocumented areas. Natural Hazards 56, 451–464.\nBathurst, J., Burton, A., Ward, T., 1997. Debris ﬂow run-out and landslide sediment de-\nlivery model tests. Journal of Hydraulic Engineering 123, 410–419.\nBausch, D., 2003. HAZUS: FEMA's GIS-based risk assessment tool. Proceedings of the\nGITA conference (Geospatial Information & Technology Association). http://\nwww.gisdevelopment.net/proceedings/gita/2003/disman/dism09pf.htm.\nBeguería, S., 2006. Validation and evaluation of predictive models in hazard assessment\nand risk management. Natural Hazards 37, 315–329.\nBell, R., 2002. Landslide and snow avalanche risk analysis — methodology and its appli-\ncation in Bíldur, NW-Iceland. Master's thesis, Rheinische Friedrich-Wilhelms-\nUniversität Bonn, Germany.\nBell, R., Glade, T., 2004. Multihazard analysis in natural risk assessments. In: Brebbia,\nC.A. (Ed.), International Conference on Computer Simulation in Risk Analysis and\nHazard Mitigation. WIT Press, Rhodes, Greece, pp. 197–206.\nBlahut, J., Horton, P., Sterlacchini, S., Jaboyedoff, M., 2010. Debris ﬂow hazard modelling\non medium scale: Valtellina di Tirano, Italy. Natural Hazards and Earth System Sci-\nence 10, 2379–2390.\nBordonné, M., 2008. Cartographie de laves torrentielles dans le bassin de Barcelonn-\nette. Master's thesis, Université Louis Pasteur, Strasbourg, France.\nBründl, M., 2008. Risikokonzept für Naturgefahren — Leitfaden. Tech. rep., Nationale\nPlattform für Naturgefahren PLANAT, Bern. access 24 January 2009 www.\nriskplan.admin.ch.\nBründl, M., Romang, H., Bischof, N., Rheinberger, C., 2009. The risk concept and its ap-\nplication in natural hazard risk management in Switzerland. Natural Hazards and\nEarth System Science 9, 801–813.\nCarranza, E., Castro, O., 2006. Predicting lahar-inundation zones: case study in West\nMount Pinatubo, Philippines. Natural Hazards 37, 331–372.\nCEC, 2006. Proposal for a Directive on the Assessment and Management of Floods. Com\n(2006) 15 CEC (Commission of the European Communities), Brussels, Belgium.\nCEPREDENAC, ISDR, IDB, Worldbank, 2010. CAPRA Portal (Central American Probabilis-\ntic Risk Assessment)Accessed 10 February 2010 http://www.ecapra.org/en/.\nCopons, R., Vilaplana, J., 2008. Rockfall susceptibility zoning at a larger scale: from geo-\nmorphological inventory to preliminary land use planning. Engineering Geology\n102, 142–151.\nCopons, R., Vilaplana, J., Linares, R., 2009. Rockfall travel distance analysis by using em-\npirical models (Solà d'Andorra la Vella, central Pyrenees). Natural Hazards and\nEarth System Science 9, 2107–2118.\nCorominas, J., 1996. The angle of reach as a mobility index for small and large land-\nslides. Canadian Geotechnical Journal 33, 260–271.\nCorominas, J., Copons, R., Vilaplana, J., Altimir, J., Amigó, J., 2003. Integrated landslide\nsusceptibility analysis and hazard assessment in the Principality of Andorra. Natu-\nral Hazards 30, 421–435.\nDai, F.C., Lee, C.F., Ngai, Y.Y., 2002. Landslide risk assessment and management: an\noverview. Engineering Geology 64 (1), 65–87.\nDeltares, 2011. SOBEK Suiteaccessed 29 December 2011 http://delftsoftware.wldelft.\nnl/index.php?option=com_content&task=view&id=110.\nDietrich, W., Montgomery, D., 1998. Shalstab: a Digital Terrain Model for Mapping\nShallow Landslide Potential. Tech. Rep., NCASI. accessed 15 November 2009\nhttp://calm.geo.berkeley.edu/geomorph/shalstab/index.htm.\nDietrich, W.E., de Asua, R.R., Cyle, J., Orr, B., Trso, M., 1998. A validation study of the shal-\nlow slope stability model, SHALSTAB, in forested lands of northern California. Tech.\nRep., Stillwater Ecosystem, Watershed & Riverine Sciences. accessed 24 February\n2010 http://www.krisweb.com/biblio/gen_ucb_dietrichetal_1998_shalstab.pdf.\nDilley, M., Chen, R.S., Deichmann, U., Lerner-Lam, A., Arnold, M., 2005. Natural disaster\nhotspots: a global risk analysis. In: The World Bank (Eds.), Disaster Risk Manage-\nment Series No. 5. The World Bank, Washington D.C., USA.\nEly, P., Peters, J., 1984. Probable maximum ﬂood estimation — eastern United States.\nTech. Rep., US Army Corps of Engineers — Hydrologic Engineering Center. accessed\n9 March, 2010 http://www.hec.usace.army.mil/publications/TechnicalPapers/TP-\n100.pdf.\nEP, EC, 2007. Directive 2007/60/ec of the European Parliament and of the Council on\nthe assessment and management of ﬂood risks. Ofﬁcial Journal of the European\nUnion\n288,\n27–34.\nhttp://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:\nL:2007:288:0027:0034:EN:PDF.\nÉvin, M., 1997. Géology de l'Ubaye. Sabenca, Association de la Valeia, Barcelonnette,\nFrance.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 16,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.731201171875,
+                151.76876831054688,
+                284.8798522949219,
+                740.0519409179688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1c7e5306881eed7fe4149ff377b7e2a1",
+        "text": "FEMA, 2008. HAZUS-MH MR3 Patch 2: release notes. Tech. Rep. FEMA, Washington\nD.C., USA.\nFlageollet, J.-C., Maquaire, O., Martin, B., Weber, D., 1999. Landslides and climatic con-\nditions in the Barcelonnette and Vars basins (southern French Alps, France).\nGeomorphology 30, 65–78.\nFrancés, F., Botero, B., 2003. Probable maximum ﬂood estimation using systematic and\nnon-systematic information. Proceedings of 2002 PHEFRA Workshop—Palaeo-\nﬂoods, Historical Floods and Climatic Variability: Applications in Flood Risk Assess-\nment,\npp.\n223–229.\nCh.\nhttp://www.ccma.csic.es/dpts/suelos/hidro/images/\nchapter_34_phefra.pdf.\nFrattini, P., Crosta, G., Carrara, A., Agliardi, F., 2008. Assessment of rockfall susceptibility\nby integrating statistical and physically-based approaches. Geomorphology 94\n(3–4), 419–437.\nFuchs, S., Keiler, M., 2006. Natural hazard risk depending on the variability of damage\npotential. simulation and hazard mitigation. In: Popov, V., Brebbia, C. (Eds.), Risk\nAnalysis V: Simulation and Hazard Mitigation. : WIT Transactions on Ecology and\nthe Environment. WIT Press, Southampton, UK, pp. 13–22.\nGeomer, 2008. FloodArea — ArcGIS extension for calculating ﬂooded areas: user man-\nual. Geomer GmbH and Ingenieurgemeinschaft Ruiz Rodriguez + Zeisler +\nBlankhttp://www.geomer.de/ﬁleadmin/templates/main/res/downloads/\nﬂoodarea_manual_en_9.pdf.\nGlade, T., van Elverfeldt, K., 2005. Multirisk: an innovative concept to model natural\nrisks. In: Oldrich, H., Fell, R., Coulture, R., Eberhardt, E. (Eds.), International Confer-\nence on Landslide Risk Management. Balkema, Vancouver, Canada.\nGuzzetti, F., Reichenbach, P., Wieczorek, G.F., 2003. Rockfall hazard and risk assessment\nin the Yosemite Valley, California, USA. Natural Hazards and Earth System Science\n3 (6), 491–503.\nGuzzetti, F., Reichenbach, P., Cardinali, M., Galli, M., Ardizzone, F., 2005. Probabilistic\nlandslide hazard assessment at the basin scale. Geomorphology 72 (1–4), 272–299.\nHeim, A., 1932. Bergsturz und Menschenleben. Beiblatt zur Vierteljahresschrift der\nNaturforschenden Gesellschaft in Zürich.\nHolmgren, P., 1994. Multiple ﬂow direction algorithms for runoff modelling in grid\nbased elevation models: an empirical evaluation. Hydrological Processes 8,\n327–334.\nHorton, P., Jaboyedoff, M., Bardou, E., 2008. Debris ﬂow susceptibility mapping at a re-\ngional scale. 4th Canadian Conference on Geohazards, Université Laval, Québec,\nCanada.\nHorton, P., Jaboyedoff, M., Zimmermann, M., Mozotti, B., Longchamp, C., 2011. Flow-R, a\nmodel for debris ﬂow susceptibility mapping at a regional scale - some case studies.\nItalian Journal of Engineering Geology 2, 875–884.\nHuggel, C., Kääb, A., Haeberli, W., Teysseire, P., Paul, F., 2002. Remote sensing based as-\nsessment of hazards from glacier lake outbursts: a case study in the Swiss Alps. Ca-\nnadian Geotechnical Journal 39, 316–330.\nHydrotec, 2009. Hochwasserschutzplan Solmsbach. Tech. rep., Regierungspräsidium\nGießenhttp://www.hessen.de/irj/RPGIE_Internet?cid=\nf95a2a5d2807b19fc5b9fe2f31e52e62.\nIDEALP, Hydroetudes, 2008. Etude hydraulique globale de la vallée de l'Ubaye —\nDiagnostic. Tech. rep., Syndicat mixte contre les crues du bassin Ubaye-Ubayette.\nIDEALP, Hydroetudes, 2010. Etude hydraulique globale de la vallée de l'Ubaye — Plan\nde gestion. Tech. rep., Syndicat mixte contre les crues du bassin Ubaye-Ubayette.\nIRPI, 2011. Rainfall threshold for the initiation of landslidesaccessed 23 February 2011 http://\nwwwdb.gndci.cnr.it/php2/rainfall_thresholds/thresholds_all.php?lingua=it.\nJaboyedoff, M., 2003. Conefall — user's guide. Open Report Soft 01. Quanterra, Lau-\nsanne, Switzerland.\nJaboyedoff, M., Labiouse, V., 2003. Preliminary assessment of rockfall hazard based on\nGIS data. ISRM — Technology Roadmap for Rock Mechanics. South African Institute\nof Mining and Metallurgy, Johannesburg, South Africa.\nKappes, M., 2011. Multirisk: a platform for multihazard risk analyses and visualization —\nusers' manual. Tech. Rep., University of Vienna; Vienna, Austria.\nKappes, M., Glade, T., in press. Landslides considered in a multi-hazard context.\nProceedings of the Second World Landslide Forum, Rome, Italy.\nKappes, M., Keiler, M., Glade, T., 2010. From single- to multi-hazard risk analyses: a\nconcept addressing emerging challenges. In: Malet, J.-P., Glade, T., Casagli, N.\n(Eds.), Mountain Risks: Bringing Science to Society. CERG Editions, Strasbourg,\nFrance, pp. 351–356.\nKappes, M., Malet, J.-P., Remaître, A., Horton, P., Jaboyedoff, M., Bell, R., 2011a. Assess-\nment of debris ﬂow susceptibility at medium-scale in the Barcelonnette Basin,\nFrance. Natural Hazards and Earth System Science 11, 627–641.\nKappes, M., Papathoma-Köhle, M., Keiler, M., 2011b. Assessing physical vulnerability\nfor multihazards using an indicator-based methodology. Applied Geography 32,\n577–590.\nKappes, M., von Elverfeldt, K., Glade, T., Keiler, M., in review. Challenges of dealing with\nmultihazard risk: a review. Natural Hazards.\nKeylock, C., 2005. An alternative form for the statistical distribution of extreme runout\ndistances. Cold Regions Science and Technology 42, 185–193.\nKienholz, H., Krummenacher, B., 1995. Symbolbaukasten zur Kartierung der Phäno-\nmene. Tech. rep., Bundesamt für Umwelt, Wald und Landschaft (BUWAL), Bunde-\nsamt für Wasser und Geologie (BWG).\nKlumpp, E., Hörmann, F. (Eds.), 2010. Arbeitspaket 6: Risikoprävention & Management:\nPraktiker Workshop — Risikomanagement an alpinen Wildbächen und Flüssen.\nAlpine\nSpace.\nhttp://www.adaptalp.org/index.php?option=com_docman&task=\ndoc_details&gid=201&Itemid=79.\nLe Carpentier, C., 1963. La crue de juin 1957 en Ubaye et ses conséquences morphody-\nnamiques. Ph.D. thesis, Université de Strasbourg, France.\nLied, K., Bakkehøi, S., 1980. Empirical calculations of snow-avalanche runout distance\nbased on topographic parameters. Journal of Glaciology 26, 165–177.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 16,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.717529296875,
+                56.135414123535156,
+                552.8558349609375,
+                739.9906616210938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "07e99d88055d0b2d5ad1b438fd96e18b",
+        "text": "Liener, S., Kienholz, H., 2000. Modellierung von ﬂachgründigen Rutschungen mit dem\nModell SLIDISP. Internationales Symposium — INTERPRAEVENT. Internationale\nForschungsgesellschaft INTERPRAEVENT, Villach, Austria, pp. 259–269.\nLiévois, J., 2003. Guide méthodologique plans de prévention des risques d'avalanches.\nTech. rep., Ministère de l'Écologie et du Développement et de l'Aménagement.\nMaggioni, M., 2004. Avalanche release areas and their inﬂuence on uncertainty in ava-\nlanche hazard mapping. Ph.D. thesis, Universität Zürich, Switzerland.\nMaggioni, M., Gruber, U., 2003. The inﬂuence of topographic parameters on avalanche\nrelease dimension and frequency. Cold Regions Science and Technology 37,\n407–419.\nMalet, J.-P., Maquaire, O., Locat, J., Remaître, A., 2004. Assessing debris ﬂow hazard as-\nsociated with slow moving landslides: methodology and numerical analyses. Land-\nslides 1, 83–90.\nMaquaire, O., Malet, J.-P., Ramaître, A., Locat, J., Klotz, S., Guillon, J., 2003. Instability\nconditions of marly hillslopes: towards landsliding or gullying? The case of the\nBarcelonnette basin, south east France. Engineering Geology 70, 109–130. http://\neost.u-strasbg.fr/omiv/Publications/Maquaire_et_al_2003_EG.pdf.\nMarzocchi, W., Mastellone, M., Di Ruocco, A., 2009. Principles of Multi-risk Assessment:\nInteractions Amongst Natural and Man-induced Risks. European Commission.\nhttp://www.scribd.com/doc/16902233/Principles-of-MultiRisk-Assessment.\nMc Clung, D., Lied, K., 1987. Statistical and geometrical deﬁnition of snow avalanche\nrunout. Cold Regions Science and Technology 13, 107–119.\nMc Clung, D., Schaerer, P., 1993. The Avalanche Handbook. The Mountaineers, Seattle,\nUSA.\nMc Clung, D., Maers, A., Schaerer, P., 1989. Extreme avalanche run-out: data from four\nmountain ranges. Annals of Glaciology 13, 180–184. http://www.nrc-cnrc.gc.ca/\nobj/irc/doc/pubs/nrcc31059/nrcc31059.pdf.\nMEDD, 2009. Programmes d'études des avalanchesAccessed 20 October 2009 http://\nwww.avalanches.fr/.\nMeisina, C., Scarabelli, S., 2006. A comparative analysis of terrain stability models for\npredicting shallow landslides in colluvial soils. Geomorphology 87, 207–223.\nMontgomery, D., Dietrich, W., 1994. A physically based model for the topographic con-\ntrol on shallow landsliding. Water Resources Research 30, 1153–1171.\nMontgomery, D., Greenberg, H., 2009. Dave and Harvey's Slope Stability PackageAc-\ncessed 11 November 2010 http://gis.ess.washington.edu/stability/index.html.\nMontgomery, D.R., Sullivan, K., Greenberg, H.M., 1998. Regional test of a model for\nshallow landsliding. Hydrological Processes 12, 943–955.\nOdeh Engineers, Inc., 2001. Statewide hazard risk and vulnerability assessment for the\nState of Rhode Island. Tech. Rep., NOAA Coastal Services Center. http://www.csc.\nnoaa.gov/rihazard/pdfs/rhdisl_hazard_report.pdf.\nOderRegio, 2006. Vorsorgender raumordnerischer Hochwasserschutz im Einzugsgebiet\nder Oder — Transnationales Handlungsprogramm. Tech. rep., INTERREG III B-\nProjekt OderRegio. http://www.oderregio.org/download/OR_HP_DE_Web.pdf.\nProchaska, A., Santi, P., Higgins, J., Cannon, S., 2008. Debris-ﬂow runout predictions\nbased on the average channel slope (ACS). Engineering Geology 98, 29–40.\nQuinn, P., Beven, K., Chevallier, P., Planchon, O., 1991. The prediction of hillslope ﬂow\npaths for distributed hydrological modelling using digital terrain models. Hydro-\nlogical Processes 5, 59–79.\nReal de Asua, R., Bellugi, D., Dietrich, E., 2000. Shalstab — Tools Tutorial. BlueG Soft-\nware, Stillwater Sciences and the U.C.B. Geomorphology Group, Oakland, USA.\nReese, S., Bell, R., King, A., 2007. RiskScape: a new tool for comparing risk from natural\nhazards. Water & Atmosphere 15, 24–25.\nRemaître, A., 2006. Morphologie et dynamique des laves torrentielles: applications aux\ntorrents des Terres Noires du bassin de Barcelonnette (Alpes du Sud). Ph.D. thesis,\nUniversité de Caen/Basse-Normandie, France.\nRemaître, A., Malet, J.-P., Cepeda, J., 2010. Landslides and debris ﬂows triggered by rain-\nfall: the Barcelonnette basin case study, south French Alps. In: Malet, J.-P., Glade, T.,\nCasagli, N. (Eds.), Mountain Risks: Bringing Science to Society. CERG Editions,\nStrasbourg, France, pp. 141–145.\nRickenmann, D., Zimmermann, M., 1993. The 1987 debris ﬂow in Switzerland: docu-\nmentation and analysis. Geomorphology 8, 175–189.\nRickli, C., Böll, A., Gerber, W., 1994. Ganzheitliche Gefahrenbeurteilung — Kursunterla-\ngen. Tech. rep., Eidgenössische Forschungsanstalt für Wald, Schnee und Landschaft\nand Forstliche Arbeitsgruppe Naturgefahren.\nRTM, 2000. Plan de prevention des risques naturals previsibles — Department des\nAlpes de Haute-Provence, Commune de Jausiers. Tech. rep.\nRTM, 2002. Plan de prevention des risques naturels previsibles — Departement des\nAlpes de Haute-Provence, Commune de Faucon de Barcelonnette. Tech. rep.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 17,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                56.071319580078125,
+                293.58758544921875,
+                596.50537109375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "db5f6a326a93a9271a0edf20044dd269",
+        "text": "RTM, 2008. Commune de barcelonnette: Plan de prevention des risques naturels previ-\nsibles — reglement. Tech. rep., Restauration des Terrains de Montagne, provisoire.\nRuiz Rodriguez, Zeisler, geomer GmbH, PlanEVAL, HASKONING, 2001. Übersichtskarten\nder Überschwemmungsgefährdung der möglichen Vermögensschäden am Rhein —\nAbschlussbericht: Vorgehensweise zur Ermittlung der hochwassergefährdeten Flä-\nchen, Vorgehensweise zur Ermittlung der möglichen Vermögensschäden. Tech. rep.\nInternationale Kommission zum Schutz des Rheines (IKSR).\nSchneider, P., Schauer, B., 2006. HAZUS — its development and its future. Natural Haz-\nards Review 7, 40–44.\nShaw, S., Johnson, D., 1995. Slope morphology model derived from digital elevation\ndata. Proceedings, Northwest Arc/Info Users Conference, p. 12. http://www.\nkrisweb.com/biblio/gen_xxxx_shawetal_1995_slopemorph.pdf.\nSivan, O., 2000. Torrents de l'Ubaye. Sabenca, Association de la Valeia, Barcelonnette,\nFrance.\nSlaymaker, O., Embleton-Hamann, C., 2009. Mountains. In: Slaymaker, O., Spencer, T.,\nEmbleton-Hamann, C. (Eds.), Geomorphology and Global Environmental Change.\nCambridge University Press, Oxford, UK, pp. 37–70.\nStötter, J., Belitz, K., Frisch, U., Geist, T., Maier, M., Maukisch, M., 1999. Konzeptvors-\nchlag zum Umgang mit Naturgefahren in der Gefahrenzonenplanung — Herausfor-\nderung an Praxis und Wissenschaft zur interdisziplinären Zusammenarbeit.\nInnsbrucker Geographische Gesellschaft — Jahresbericht, pp. 30–59.\nTakahashi, T., 1981. Estimation of potential debris ﬂows and their hazardous zones;\nsoft countermeasures for a disaster. Journal of Natural Disaster Science 3, 57–89.\nThiery, Y., 2007. Susceptibilité du bassin de Barcelonnette (Alpes du sud, France) aux\n‘mouvements de versant’: cartographie morphodynamique, analyse spatiale et\nmodélisation probabiliste. Ph.D. thesis, Université de Caen/Basse-Normandie.\nThiery, Y., Sterlacchini, S., Malet, J.-P., Puissant, A., Remaître, A., Maquaire, O., 2004.\nStrategy to reduce subjectivity in landslide susceptibility zonation by GIS in com-\nplex mountainous environments. 7th AGILE Conference on Geographic Informa-\ntion Science, AGILE, Heraklion, Greece.\nThiery, Y., Malet, J.-P., Sterlacchini, S., Puissant, A., Maquaire, O., 2007. Landslide sus-\nceptibility assessment by bivariate methods at large scales: application to a com-\nplex mountainous environment. Geomorphology 92, 38–59.\nToppe, R., 1987. Terrain models — a tool for natural hazard mapping. Avalanche Forma-\ntion, Movement and Effects, IAHS publication no. 162, Davos, Switzerland, pp.\n629–638. http://iahs.info/redbooks/a162/iahs_162_0629.pdf.\nTU Wien, 2009. Leitfaden zum Nachweis der Hochwassersicherheit von Talsperren.\nTech. rep., Bundesministerium für Land- und Forstwirtschaft.\nUN-ISDR, 2009a. Global Assessment Report on Disaster Risk ReductionTech. Rep.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 17,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.50701904296875,
+                56.136146545410156,
+                561.632080078125,
+                365.3704528808594
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "729c3f4efd7cb2588924d36caa49b36a",
+        "text": "http://www.preventionweb.net/english/hyogo/gar/report/index.php?id=9413.\nUN-ISDR, 2009b. UNISDR terminology on disaster risk reduction. Tech. Rep., United Na-\ntions International Strategy of Disaster Reduction. accessed 18 November 2009\nhttp://www.undp.org.ge/new/ﬁles/24_619_762164_UNISDR-terminology-2009-\neng.pdf.\nUS Army Corps of Engineers, 2011. HEC-RASaccessed 28 December 2011 http://www.\nhec.usace.army.mil/software/hec-ras/index.html2011.\nUVM, 2005. Hochwassergefahrenkarten in Baden-Württemberg. Tech. rep., Ministerium\nfür Umwelt, Naturschutz und Verkehr. http://www.uvm.baden-wuerttemberg.de/\nservlet/is/1253/HWGK_Leitfaden_DEU.pdf.\nvan Westen, C., Montoya, A., Boerboom, L., Badilla Coto, E., 2002. Multihazard risk as-\nsessment using GIS in urban areas: a case study for the city of Turrialba, Costa\nRica. Proceedings of the Regional Workshop on Best Practices in Disaster Mitiga-\ntion: Lessons Learned from the Asian Urban Disaster Mitigation Program and\nOther Initiatives, Bali, Indonesia, pp. 120–136.\nWichmann, V., Becht, M., 2003. Modelling of geomorphic processes in an alpine catch-\nment. In: Martin, D. (Ed.), 7th International Conference on GeoComputation.\nUniversity of Southampton, Southampton, UK. http://www.ku-eichstaett.de/\nFakultaeten/MGF/Geographie/physisch/Forschung/sedag.en.\nWichmann, V., Becht, M., 2006. Rockfall modelling: methods and model application in\nan Alpine basin (Reintal, Germany). Göttinger Geographische Abhandlungen 115,\n105–116.\nWisner, B., Blaikie, P., Cannon, T., Davis, I., 2004. At Risk: Natural Hazards, People's Vul-\nnerability and Disasters. Routledge, London, UK.\nWMO, 1999. Comprehensive risk assessment for natural hazards. Technical Document\n955, World Meteorological Organisation.\nZimmermann, M., Mani, P., Gamma, P., 1997. Murganggefahr und Klimaänderung — ein\nGIS-basierter Ansatz. vdf Hochschulverlag AG, ETH Zürich, Switzerland.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0169555X1200061X-main.pdf",
+            "page_number": 17,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.50634765625,
+                366.988037109375,
+                561.6275024414062,
+                588.56689453125
+            ],
+            "is_full_width": false
+        }
+    }
+]

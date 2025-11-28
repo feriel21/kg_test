@@ -1,0 +1,2567 @@
+[
+    {
+        "element_id": "a71c4dd0ae216c2b657694ca7bcb2f54",
+        "text": "Contents lists available at ScienceDirect",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                232.61099243164062,
+                63.63995361328125,
+                374.38970947265625,
+                71.61015319824219
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d04efbc12214a94ea2dc0d679bacd12f",
+        "text": "Marine Geology",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                253.5305938720703,
+                87.86814880371094,
+                353.373046875,
+                101.81575012207031
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3911a30a3376b0329ff42fc1baba384c",
+        "text": "journal homepage: www.elsevier.com/locate/margeo",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                184.70550537109375,
+                119.255615234375,
+                422.20538330078125,
+                127.22581481933594
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a04e81eb953a79bfe9fa5f36e95eff6b",
+        "text": "Objective automated classiﬁcation technique for marine landscape\nmapping in submarine canyons",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                167.48326110839844,
+                444.76214599609375,
+                198.3148956298828
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "df9660d7e7013935e6689d99c131e0bd",
+        "text": "Khaira Ismail a,⁎, Veerle A.I. Huvenne b, Douglas G. Masson b",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                207.61146545410156,
+                324.90203857421875,
+                220.0994873046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f836acde88298340243a6c109f52750b",
+        "text": "a University of Southampton, Waterfront Campus, European Way, Southampton SO14 3ZH, United Kingdom\nb National Oceanography Centre, University of Southampton Waterfront Campus, European Way, Southampton SO14 3ZH, United Kingdom",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                224.85940551757812,
+                419.8758239746094,
+                242.6307373046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a6843bff3741c326b28cc5c0ce70d844",
+        "text": "a b s t r a c t\na r t i c l e\ni n f o",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.519439697265625,
+                265.7469482421875,
+                271.36358642578125,
+                274.7132568359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1be949fa9a7884e20aca6d502b313b53",
+        "text": "Article history:\nReceived 5 June 2014\nReceived in revised form 10 January 2015\nAccepted 14 January 2015\nAvailable online 27 January 2015",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                286.20111083984375,
+                160.51841735839844,
+                326.8188171386719
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0bd67bdda716119e02a4a041b4d52370",
+        "text": "This study proposes a fully automated and objective technique to map marine landscapes in submarine canyons.\nThe method is suitable for broad and regional scale mapping derived from sonar data using multivariate statisti-\ncal analysis. The method is divided into two main parts: the terrain analysis and the multivariate statistical\nanalysis. The ﬁrst part aims to optimise the sonar data and comprises three steps 1) data resampling, 2) determi-\nnation of length scale, and 3) multiple scale analysis. The second part covers the actual marine landscape\nclassiﬁcation and consists of 1) principal component analysis (PCA), 2) K-means clustering, and 3) cluster deter-\nmination. In addition, a conﬁdence map is presented based on cluster membership derived from cluster distance\nin attribute space.\nThe technique was applied in the Lisbon–Setúbal and Cascais Canyons offshore Portugal. The area was classiﬁed\ninto 6 marine landscapes that represent the geomorphological features present in submarine canyons. The main\nﬁndings from the study are 1) the transferability of a tool from geomorphometric analysis – Estimation of Scale\nParameter (ESP) – to detect the length scale of potential patterns in bathymetric grids; 2) multiple scale terrain\nanalysis allows an appropriate discrimination of local and broad scale geomorphic features in marine landscape\nmapping; 3) the method not only delineates geomorphic seaﬂoor features but also points out properties that\nmight inﬂuence biodiversity in a complex terrain.\n© 2015 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license\n(http://creativecommons.org/licenses/by/4.0/).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                206.92909240722656,
+                286.5360107421875,
+                561.904296875,
+                446.7236022949219
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1cc3602ec8247431d02a737c068ea51c",
+        "text": "Keywords:\nabiotic variables\nautomated seaﬂoor classiﬁcation\nmarine landscape\nmultiple scale analysis\nsubmarine canyons",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.519691467285156,
+                338.3586120605469,
+                135.09539794921875,
+                387.5934753417969
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "809b38c0958b0e41ace45e5d9d5e0e2c",
+        "text": "1. Introduction",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                481.5543212890625,
+                98.73910522460938,
+                489.5245056152344
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cf812afab7a4e5f82cfa10d36d6cecd9",
+        "text": "Over the past decade, the ongoing effort to develop an efﬁcient and\nreliable method to map and study benthic habitats in various environ-\nments has promoted the advancement of classiﬁcation techniques in\nthe habitat mapping community (Brown et al., 2011). Benthic habitats\nare physically distinct areas of seaﬂoor that are associated with particu-\nlar communities of plants and/or animals. Of those two components\nthat structure a benthic habitat – the physical environment and the\nspecies community – it is often the detailed species information that is\nlacking during seaﬂoor characterisation. General geophysical mapping\nis therefore commonly used as the basis for benthic habitat mapping.\nAdvances in sonar technology now permit seaﬂoor imaging with high\nresolution and wide coverage using a wide variety of instruments and\nsystems of different frequencies and resolutions (Hayes and Gough,\n2009; Hansen et al., 2011; Nakanishi and Hashimoto, 2011; Paull et al.,\n2013; Harris et al., 2014; Wynn et al., 2014). These data can be used to\ndepict various seaﬂoor geomorphic features and interpreted to provide\npotential habitats represented on a marine landscape map.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.520477294921875,
+                502.3860168457031,
+                293.63037109375,
+                677.7989501953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8125a864daa0f739874f5b0753ebe001",
+        "text": "⁎ Corresponding author.\nE-mail address: K.Ismail@noc.soton.ac.uk (K. Ismail).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                47.50859832763672,
+                693.8096923828125,
+                201.19061279296875,
+                708.8729858398438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2e0465e3094345f911fbec78aec392a4",
+        "text": "http://dx.doi.org/10.1016/j.margeo.2015.01.006\n0025-3227/© 2015 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                730.3333740234375,
+                493.7351989746094,
+                745.2697143554688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "13da808aab8b739cd4e754aec64007f4",
+        "text": "“Marine landscape” is a concept introduced originally by Roff and\nTaylor (2000), who developed a classiﬁcation based on enduring geo-\nphysical features that reﬂect changes in biological community composi-\ntions. They emphasized the importance of identifying and conserving\nrepresentative spaces or landscapes rather than preserving individual\nspecies. They produced a classiﬁcation using geophysical features to\nidentify representative and distinctive benthic habitats supporting dif-\nferent communities, which works as an ecological framework for ma-\nrine conservation.\nBased on this fundamental concept, the marine landscape in this\nstudy is deﬁned as an environment distinguished by its abiotic charac-\nteristics with a potential to provide colonization ground for speciﬁc\nbiological assemblages. This approach has been applied successfully\nin the marine realm, speciﬁcally in shallow water environments\n(Al-Hamdani et al., 2007; de Grosbois et al., 2008; Verfaillie et al.,\n2009; Kotilainen and Kaskela, 2011). On a global scale a similar ap-\nproach was used to segment the ocean ﬂoor based on a multivariate\nanalysis of biophysical data by Harris and Whiteway (2009).\nAlthough the aim of the studies mentioned above is similar, i.e., to\nclassify the seabed in relation to its biological association, either for\nmanagerial purposes or to predict biological occurrences, each study of-\nfers a different methodology. The methods vary from the conventional",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5072021484375,
+                481.46343994140625,
+                561.6290283203125,
+                709.203125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1ed2ee45e01e2ad2468da4563de1f744",
+        "text": "Fig. 1. Bathymetry map of Lisbon–Setúbal and Cascais Canyons offshore Portugal, overlain by TOBI sidescan sonar imagery coverage. Contour interval is 500 m. The inset map shows the\nlocation of the study area relative to the location of Portugal.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.73229217529297,
+                447.252197265625,
+                552.846923828125,
+                462.2587585449219
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "0bf91836f14d740d62527b8c64e09424",
+        "text": "Fig. 2. A simpliﬁed ﬂow chart of the automated and objective techniques used to produce marine landscape maps for submarine canyons. The method consists of two parts; terrain analysis\nand multivariate statistical analysis.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.7322998046875,
+                729.9796752929688,
+                552.8648681640625,
+                744.9862670898438
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "6e531a19b3faf228d7a5b85e1f2429d8",
+        "text": "Table 1\nList of abiotic variables included in the principal component analysis.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                57.728797912597656,
+                237.36268615722656,
+                72.66522216796875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "90e90e5c5cf17d4d3900052e4ff48c6e",
+        "text": "Abiotic variable\nDescriptions\nLength scale",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.47233200073242,
+                80.85904693603516,
+                544.4446411132812,
+                87.23504638671875
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "1d539f6cdd04545984fdf8fb13565db8",
+        "text": "Digital terrain model (DTM)\nof bathymetry\nObtained from multibeam bathymetry survey. Represent depths of the ocean ﬂoor.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.472320556640625,
+                106.86801147460938,
+                398.08880615234375,
+                121.87518310546875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f28be6946778280ddc1058c101d6a844",
+        "text": "Slope\nFirst derivatives of DTM. Represents the maximum rate of change in value from a cell to its neighbour",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.4724006652832,
+                124.0594253540039,
+                452.74786376953125,
+                130.4354248046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8d45d704527e5c4ce8d53c53773b5ae8",
+        "text": "Aspect\nFirst derivatives of DTM.\nEastness = sin(aspect)\nDescribes the orientation of slope. Indices for eastness and northness provide continuous measure (−1 to +1)",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.4724006652832,
+                135.39804077148438,
+                479.877685546875,
+                150.33447265625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b1b647cc910224c6a849ddca733fbe82",
+        "text": "Northness = cos(aspect)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.4724006652832,
+                155.24050903320312,
+                121.41769409179688,
+                161.61651611328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "09bf47b5b8bd5cb9ecee4bf168bbca69",
+        "text": "Bathymetric position index (BPI)\nMeasures the elevation of each cells compared to the mean elevation of neighbouring cells (Weiss, 2001)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.4724006652832,
+                166.57913208007812,
+                463.07818603515625,
+                172.95513916015625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a9db000b8122347246a96dbaab774bd1",
+        "text": "Fractal dimension\nA derivative from DTM. Indicates the spatial variation in roughness",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.4724006652832,
+                177.86099243164062,
+                352.07208251953125,
+                184.23699951171875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c50407b9a3d2324015376a1a97438806",
+        "text": "Feature extract\nA third derivative of DTM. Classiﬁed the surface into 6 categories (pit, channel, pass, ridges, peaks and planar)\nbased on slope tolerance and curvature tolerance value\nPlan curvature\nA second derivative of DTM. Provides the rate of change of aspect",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.4724006652832,
+                189.12936401367188,
+                476.33404541015625,
+                212.69683837890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6e09912da8e4ac7efc00a2e4ddf1fdcd",
+        "text": "Proﬁle curvature\nA second derivative of DTM. Provides the rate of change of gradient",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.4724006652832,
+                217.53256225585938,
+                353.2388610839844,
+                223.97869873046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "da9d094ccba15b46323edc37bd8a0cec",
+        "text": "Rugosity\nA measure of small scale variations of the surface area across the neighbourhood of the central pixel (Jenness, 2004)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.4724006652832,
+                228.94131469726562,
+                494.9964294433594,
+                235.31732177734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "38e2d6e6fad07078a62b608200df3b10",
+        "text": "Sidescan sonar imagery\nObtained from Towed Ocean Bottom Instrument (TOBI). Sonar images are acquired by emitting continuous sonar\npulses whilst moving, this returns with the image of the seaﬂoor.\nRatio of sidescan sonar to\nsynthetic imagery\nSynthetic sidescan sonar imagery was produced by simulating the TOBI vehicle movement over the canyon\nbathymetry, and represents the sidescan backscatter components produced by the sloping terrain (Ismail, 2011).\nRatio represents the lithological attribute of the imagery.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.4724006652832,
+                240.22323608398438,
+                486.2843322753906,
+                280.89801025390625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "83733333b42031ef45e178869387bc8d",
+        "text": "Ticked boxes indicate the available scale for the variables.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                287.56170654296875,
+                205.10328674316406,
+                293.9377136230469
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bad1aa57f7d99cd014bec7bf4b33e7ef",
+        "text": "approach of manual digitising over algorithm-assisted digitising to fully\nautomated techniques, or use combinations thereof. Unfortunately,\nmost methods developed so far have subjective aspects in several stages\nof their application (e.g., the parameters to use, the number of classes,\nthe scale). The ideal methodology should offer robust statistical ways\nto make these choices objectively. Moreover, with the current state of\nthe art in acoustic technology, large volumes of data are commonly\navailable, therefore a time- and labour-saving approach is preferable.\nA robust approach that is objective, repeatable and can speed up the de-\nlineation of marine landscape from acoustic or other remotely-sensed\nfull coverage data is much needed.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                307.2236022949219,
+                293.65911865234375,
+                419.7906494140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d0f9dc4494b6c4315542d7ce89f1ad64",
+        "text": "1.1. Scope and aims",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                434.8949890136719,
+                109.25099182128906,
+                442.86517333984375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "253d8e86e0488b06f0bd128b793d0712",
+        "text": "Taking the above arguments into account, the aim of this study is to\ndevelop a fully automated marine landscape mapping technique that is\nrobust, objective and repeatable, based on remotely sensed acoustic sur-\nvey data, using multivariate statistical analysis. The method is devel-\noped in submarine canyons because of their complex characteristics\ndeﬁned by their spatial structure that contains true three-dimensional\nmorphology and terrain variability often supporting increased",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                455.8143615722656,
+                293.576171875,
+                526.5426635742188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "59d36895d173a67f1627d7e7730664dc",
+        "text": "Fig. 3. ROC-LV graph obtained using the ESP tool to determine the most appropriate analysis window size for multiple scale terrain analysis. Blue arrow indicates the threshold at which the\nanalysis window size best represents real-world objects. Dragut et al. (2010) deﬁned the threshold as the ﬁrst break in ROC-LV curve after continuous and abrupt decay.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.519683837890625,
+                729.42626953125,
+                561.6272583007812,
+                744.3626708984375
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "62121d433c90abc974e9379b685603a4",
+        "text": "25 m\n225 m",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                508.65118408203125,
+                93.89859771728516,
+                555.5946044921875,
+                100.27459716796875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7edcecf8571ee4bda721b4a24ebbdb7f",
+        "text": "biodiversity. However, submarine canyons are difﬁcult to quantify as\nthey often overwhelm conventional mapping techniques. This aim\nwill be addressed through the following objectives:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.50811767578125,
+                307.13262939453125,
+                561.55029296875,
+                336.10986328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "909c6f9a5b0ac10052325aee1eb1b4a7",
+        "text": "1. Evaluate and compare the effect of a single scale vs. multiple scale\napproach\n2. Test the transferability of a method used in Object Based Image Anal-\nysis (OBIA) to detect the scale that best represents real-world objects\nin multibeam bathymetry data.\n3. Evaluate the advantages of the proposed method in comparison to\nmanual delineation for marine landscape mapping.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.50811767578125,
+                347.5287780761719,
+                561.5916137695312,
+                418.257080078125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "60bfb8a65584b3ec385c0b8dbcd7425f",
+        "text": "2. Materials and methods",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.50811767578125,
+                434.8916931152344,
+                404.89288330078125,
+                442.86187744140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "18458e82b44ffa651643860025df36c7",
+        "text": "2.1. Study area",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.50811767578125,
+                455.8110656738281,
+                360.9443359375,
+                463.78125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b6dea2af91de4acbae7ca646a9c5b010",
+        "text": "Submarine canyons are important geological features incised\nin most continental margins of the world's oceans (Harris and\nWhiteway, 2011). They serve as conduits for the transport of large\namounts of sediment and organic matter from continental shelves to\nthe deep abyssal plains (Hickey et al., 1986; Puig and Palanques, 1998;",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5080871582031,
+                476.7312316894531,
+                561.5645751953125,
+                526.5401611328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1c66783c9682f62c42c212db964df033",
+        "text": "Fig. 4. 3D views of the Portuguese Canyons from south. The ﬁgure shows variations of bathymetric position index analysis (top) and slope analysis (bottom) resulting from using two\ndifferent length scales. The local length scale is 25 m (initial pixel size) and broad length scale at 225 m. Note the different features delineated at the different analysis scales. Results\nfrom local length scale contained detail features but noisier whereas broader length scale shows the gross canyon morphology.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.7322998046875,
+                346.2821960449219,
+                552.776123046875,
+                369.84918212890625
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "52c04230866cd9a07e4c26725e644281",
+        "text": "Monaco et al., 1999). The deep and complex topography, strong cur-\nrents and occurrence of high turbidity promote a high variability of sub-\nstrates and terrain, affecting the habitat heterogeneity and making\nsubmarine canyons a potential hotspot for biodiversity (Vetter and\nDayton, 1998; Mortensen and Buhl-Mortensen, 2005; Tyler et al.,\n2009). Considerable interest in benthic habitats associated with subma-\nrine canyons (Tyler et al., 2009; Huvenne et al., 2012; Currie and\nSorokin, 2014; De Leo et al., 2014), especially in vertical and overhang-\ning terrains that occur at the heads of shelf-incising canyons, has been",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.7322998046875,
+                392.0928955078125,
+                284.86285400390625,
+                483.7971496582031
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4ed54eeb7b68b7d344477ad1ea73918b",
+        "text": "Table 2\nComponent matrix showing correlation between rotated PCs and the original variables.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.7322998046875,
+                514.5040893554688,
+                280.621826171875,
+                529.4404907226562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4abc568fdea5be450b3d28420f6e9795",
+        "text": "Abiotic variables",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                39.77280044555664,
+                536.3563232421875,
+                88.70719146728516,
+                542.8458862304688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bf1321b9cf2c5fc080a6fb59e93d5ae5",
+        "text": "PC1",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                182.71615600585938,
+                536.360107421875,
+                193.8841552734375,
+                542.8497314453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bced537f704a98b1991f37ff151b18a2",
+        "text": "PC2",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                232.31488037109375,
+                536.362060546875,
+                243.48287963867188,
+                542.8516845703125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a25e019ff17bf1fcfc3fbc0fbc1bf1d9",
+        "text": "PC3",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                281.9136047363281,
+                536.3634033203125,
+                293.08160400390625,
+                542.85302734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "27ca7f8a6e38c53d5421d5b6d02cb9db",
+        "text": "Bathymetry (B)\nBathymetric position Index 225 m (BPI)\nBathymetric position Index 25 m (BPIf)\nEastness 225 m (E)\nEastness 25 m (Es)\nFeature extraction 225 m (FE)\nFeature extraction 25 m (FEf)\nFractal dimension 225 m (FD)\nFractal dimension 25 m (FDf)\nNorthness 225 m (N)\nNorthness 25 m (Ns)\nPlan curvature 225 m (PL)\nPlan curvature 25 m (PLs)\nProfile curvature 225 m (PR)\nProfile curvature 25 m (PRs)\nRugosity (RG)\nSlope 225 m (S)\nSlope 25 m (Ss)\nTOBI ratio (R)\nTOBI sidescan sonar (T)\nEigenvalues",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                39.77280044555664,
+                549.5491943359375,
+                155.8944091796875,
+                727.7989501953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c2e5853a003e4bf478899db87bf11337",
+        "text": "0.2218\n0.4467\n0.4079\n0.0868\n0.0525\n0.1841\n0.0942\n0.0508\n0.1115\n–0.0224\n–0.0230\n–0.3543\n–0.2619\n0.4112\n0.3504\n0.0137\n0.0570\n0.0153\n–0.0872\n–0.1361\n3.5780",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                176.43775939941406,
+                549.5531005859375,
+                200.16253662109375,
+                728.0382690429688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3d2f22df37499c1607962baacbaa079a",
+        "text": "–0.1743\n0.0513\n0.0469\n–0.2879\n–0.2767\n0.1727\n0.3065\n–0.1845\n–0.0496\n0.1360\n0.1012\n0.0062\n–0.0339\n0.0578\n0.0324\n–0.4141\n–0.4338\n–0.4987\n0.0230\n0.0443\n2.9221",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                225.9014434814453,
+                549.5550537109375,
+                249.89566040039062,
+                728.0396118164062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "39b096d54618de55dd151c900c8bed0b",
+        "text": "0.3156\n0.0196\n–0.1128\n0.1453\n0.1719\n–0.0748\n0.0411\n0.2898\n0.2470\n–0.4576\n–0.4407\n0.1552\n0.0973\n0.0369\n–0.0901\n–0.1565\n–0.3251\n–0.2488\n0.1165\n–0.1790\n2.3250",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                275.5013732910156,
+                549.556396484375,
+                299.4962158203125,
+                728.0415649414062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8982105ee1efb7b0feb7cd05787cf21a",
+        "text": "generated (Yoklavich et al., 2000; Brodeur, 2001; Huvenne et al.,\n2011; Johnson et al., 2013). Such terrains hold biologically diverse com-\nmunities, but are especially difﬁcult to map.\nThe Cascais and Lisbon–Setúbal Canyons that are the subject of this\nstudy, cut the western Portuguese continental margin between 38°\nand 38° 30′N (Fig. 1). Cascais Canyon begins at a water depth of\n175 m at the shelf edge of the Portuguese margin. It is not connected di-\nrectly to a river system but its head is situated 27 km southwest of the\nTagus river mouth. It is the shortest canyon on the Central Portuguese",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.720703125,
+                392.09124755859375,
+                552.8599853515625,
+                483.7955017089844
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b3f8d345ce44be3ded05e38a270abd25",
+        "text": "PC6",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                430.70745849609375,
+                536.357177734375,
+                441.8754577636719,
+                542.8468017578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fdc754936de2a123c27e6731faae4038",
+        "text": "PC7",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                480.3055725097656,
+                536.3585205078125,
+                491.47357177734375,
+                542.84814453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4ffc0dd36a1f010ff3de8f6a8ef272da",
+        "text": "PC8",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                529.9049072265625,
+                536.359130859375,
+                541.0729370117188,
+                542.8487548828125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c16947e3e3928e9d7d3f49674f152aea",
+        "text": "PC4",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                331.5147705078125,
+                536.3653564453125,
+                342.6827697753906,
+                542.85498046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3e7634d5ca3175ccd21b3bf62fd718f4",
+        "text": "PC5",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                381.1109619140625,
+                536.36669921875,
+                392.2789611816406,
+                542.8563232421875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9350427ab443124e6a348d2869981155",
+        "text": "0.2176\n0.2715\n–0.1630\n–0.1676\n–0.2143\n–0.2428\n–0.4097\n–0.2048\n–0.2876\n0.0328\n0.0032\n0.0648\n0.4346\n0.3326\n0.0045\n–0.1513\n0.0876\n–0.0392\n–0.0634\n–0.2933\n1.3373",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                424.294677734375,
+                549.5501708984375,
+                448.28826904296875,
+                728.03466796875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "07c0959176175be8edf938ea922aec7b",
+        "text": "–0.0012\n–0.1152\n0.2895\n0.0802\n0.1629\n–0.5214\n–0.0296\n0.0960\n0.0207\n0.1057\n0.1222\n0.4444\n0.0018\n0.1372\n0.4046\n–0.0597\n–0.1340\n–0.0767\n–0.2677\n0.2870\n1.1772",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                473.8934020996094,
+                549.551513671875,
+                497.88763427734375,
+                728.0353393554688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fcfdfdc04cbe5a17d3853d3a1115d765",
+        "text": "0.0869\n–0.1453\n0.1995\n–0.0489\n–0.0231\n–0.2453\n0.0742\n–0.0141\n–0.1147\n0.1225\n0.1399\n0.1356\n–0.2248\n–0.1252\n0.1624\n0.0213\n–0.0128\n0.0457\n0.6667\n–0.5069\n1.1644",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                523.6271362304688,
+                549.5521240234375,
+                547.3533325195312,
+                728.0366821289062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "debd0da22e96f1e781ceddfdc7dbe05c",
+        "text": "0.2163\n0.0374\n–0.0831\n–0.3705\n–0.3297\n0.0168\n–0.0495\n0.5001\n0.4893\n0.2526\n0.2664\n0.0708\n0.0677\n0.0226\n–0.0651\n0.2073\n–0.0802\n0.0688\n–0.0435\n–0.0388\n1.8047",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                325.2344665527344,
+                549.558349609375,
+                348.9599304199219,
+                728.0428466796875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "02a2a236a9756e6ff7e8fe235cff199f",
+        "text": "–0.1114\n–0.0937\n0.1966\n–0.4482\n–0.4627\n–0.1006\n–0.0143\n–0.0266\n–0.1057\n–0.4097\n–0.4383\n0.0298\n–0.1446\n–0.0319\n0.1784\n0.1734\n0.0945\n0.1465\n0.0081\n0.1667\n1.4658",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                374.6958923339844,
+                549.5596923828125,
+                398.6917419433594,
+                728.0333862304688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b5b957920719d4943f9ec43425486091",
+        "text": "Fig. 5. 3D representation of the ﬁrst three principal components and coefﬁcients of each\nvariable. The plot illustrates which variables are driving the PCs. The longest arrow in\nthe plot represents the most prominent abiotic variable in the principal components.\nThe distances between arrows describe their correlation, the closer the arrows, the more\ncorrelated they are.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51908874511719,
+                312.153076171875,
+                293.62384033203125,
+                352.89764404296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a7a8da81a0b5e69d48bde9c5658c6bfc",
+        "text": "continental margin. Although the average gradient of the whole axis is\nonly about 3°, its slope gradients typically exceed 10°, making it the\nsteepest canyon (Lastras et al., 2009) in the region. The upper Cascais\nCanyon ﬁrst trends south-southwest then changes direction further\ndown, to a westward and later north-westward trend.\nThe Lisbon Canyon head is situated 13 km southwest from the Tagus\nriver mouth and 5 km west of the nearest coastline at an approximately\n120 m water depth. It incises 28 km into the shelf with a total length of\n37.5 km (Lastras et al., 2009). The canyon trends north–south towards\nthe middle course of Setúbal Canyon and is almost perpendicular to\nthe Setúbal branch at a 2010 m water depth, where these canyons join.\nThe Setúbal Canyon is east–west oriented and the canyon head is lo-\ncated at an approximately 90 m water depth, situated at about 20 km\nsouth-southwest of the Sado river mouth and 6 km west of the nearest\ncoastline in Setúbal Bay. The branch cuts 41 km into the continental\nshelf (Arzola et al., 2008). Setúbal Canyon is amongst the submarine",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.518089294433594,
+                371.1732177734375,
+                293.668701171875,
+                536.0669555664062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "11e995683e39db0114c26bd520989e62",
+        "text": "canyons that extend across the continental shelf and approach the\ncoast. This type of canyon is known to intercept organic-matter-rich\nsediments; these cause organic rich material to be supplied downslope.\nFor example, Gage et al. (1995) reported ﬁnding sea grass at a water\ndepth of 3400 m in the middle canyon.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5064697265625,
+                57.37362289428711,
+                561.5501098632812,
+                107.18256378173828
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b873a19513b775adc5d4e40e8dae4e2f",
+        "text": "2.2. Data",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5064697265625,
+                120.1317367553711,
+                340.9430847167969,
+                128.10194396972656
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c623bcd91d79eef8a1bee1b6a74f487f",
+        "text": "The data and samples used in this study were collected during 5 dif-\nferent cruises in the area. Multibeam bathymetry data were compiled\nfrom RRS Charles Darwin cruises 157 (May/June 2004) and 179\n(April/May 2006) and from ancillary data kindly provided by IFREMER\n(French Research Institute for Exploration of the Sea). The data were in-\ntegrated during the HERMES project (Hotspot Ecosystem Research on\nthe Margins of European Seas) (http://www.eu-hermes.net). The\nmultibeam bathymetry was processed using SwathEd and results in\nan image with a pixel size of 100 m.\n30 kHz TOBI (Towed Ocean Bottom Instrument) sidescan sonar im-\nagery was collected during three cruises in 2003, 2005 and 2006: RV\nPelagia 219, RSS Discovery 297 and RSS Charles Darwin 179. The\nsidescan sonar imagery, also published in Lastras et al. (2009), was\npre-processed using the PRISM (v4.0) and Erdas Imagine (v8.5) soft-\nware suites to produce imagery with improved geographical registra-\ntion (Ismail, 2011). TOBI was towed at an altitude of approximately\n400 m above the seaﬂoor at about 2 kn, producing 6 km wide swath im-\nages with a horizontal resolution of 6 m (Le Bas et al., 1995).\nThe grids of multibeam bathymetry and sidescan sonar imagery\nused here had a different resolution of 100 m and 6 m, respectively.\nTherefore, the data was resampled to a common cell size of 25 m reso-\nlution. This is thought as a good compromise to keep the sidescan sonar\ndetail, without over-interpolating the multibeam-derived datasets.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.50640869140625,
+                141.05111694335938,
+                561.6482543945312,
+                379.19097900390625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3cbcb89d0c221d23bab9206cd4a97a7a",
+        "text": "2.3. Research strategy",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.50640869140625,
+                392.1401672363281,
+                384.1949157714844,
+                400.1103515625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e7ded0718e9e2df20506ab21bdda1241",
+        "text": "The technique to map the marine landscape in submarine canyons\ndeveloped here, is divided into two parts: terrain analysis and multivar-\niate statistical analysis. The ﬁrst part focuses on optimising the usage of\nthe acoustic dataset whilst the second part addresses the classiﬁcation\nof the data into distinct physical areas and is partly based on the work\nof Verfaillie et al. (2009) in shallow waters. Both parts comprise 3\nsteps each, a simpliﬁed illustration of the research strategy is presented\nin Fig. 2.\nThe software used for each step in the ﬁrst and second parts is listed\nas follows; the ﬁrst part: 1) data were resampled in ArcMap 10.0 using\nbilinear algorithms, 2) determination of length scale for multiple scale\nanalysis using the Estimation Scale Parameter tool in Ecognition and",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.50640869140625,
+                413.0595397949219,
+                561.6521606445312,
+                536.1145629882812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a1c6412f8f044b7eade590b0670f9396",
+        "text": "Fig. 8. Interpretation map showing Portuguese Canyon with 6 clusters solution using the fully automated technique summarised in Fig. 2. Characteristics and interpretation for each cluster\nare described in Table 3. Important geomorphological features of the canyon are clearly visible from the classiﬁcation; Cluster 1 being the most shallowest and ﬂat is the continental shelf,\nCluster 2 as wall or cliff with highest ruggedness, Cluster 3, 5 and 6 are the ﬂanks with different orientation and Cluster 4 with depression features is the channel ﬂoor.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51910400390625,
+                376.4562072753906,
+                561.61328125,
+                399.95306396484375
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "4536d697ff531b872ed7390bb96e3dd2",
+        "text": "3) production of terrain indices using multiple scale analysis in Landserf\nv2.3 (Wood, 2005). RStudio v0.98.484 was used in the second part of\nthe method to carry out: 1) principal component analysis (PCA); 2) K-\nmeans clustering; and 3) cluster determination using within group\nsum of squares.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.519691467285156,
+                414.77001953125,
+                293.6510925292969,
+                464.5789489746094
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fa4e2ac52af33b1ce01e2f838d0f66df",
+        "text": "2.3.1. Single scale vs multiple scale terrain analysis\nMultiple scale analysis refers to the incorporation of terrain indices\nproduced at different scales to optimise the detection of details and fea-\ntures in bathymetric surfaces for marine landscape characterisation.\nTwo length scales are used to represent local features and broad fea-\ntures, both of which are valued for habitat characterisation. The length\nscales represent n × n analysis window sizes to calculate terrain indices,\nwhere n is any odd integer value (Wilson et al., 2007). As suggested by\nDolan and Lucieer (2014), using terrain indices obtained from multiple\nscale analysis in comparison to other approaches allows retaining the\nfull detail of the bathymetric surface, whilst at the same time keeping\nthe computation time reasonable. However, in their studies the length\nscales for the analysis were predetermined. An automated and objective\nprocedure to select length scales for multiple scale analysis is proposed\nhere and is adapted from a technique used for image segmentation in\ngeomorphometry (Dragut et al., 2010). The Estimation Scale Parameter\n(ESP) tool is used for fast estimation of scale parameters for a\nmultiresolution segmentation in Object Based Image Analysis (OBIA).\nThe tool is based on the fundamental concept of the relationship be-\ntween spatial structures of images and the size of objects in the real",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51811218261719,
+                483.76483154296875,
+                293.6551513671875,
+                690.4974365234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d467bbec5ab0c92e4ace68f240fabf85",
+        "text": "Fig. 7. Upper maps: membership value of K-means partitioning for each cluster ranging from 0.0–1.0, where 1.0 indicates the highest membership value. The bottom map is a confusion\nindex map. It shows a quantiﬁcation of clustering uncertainty ranging from 0.0 to 1.0, with 1.0 being the most uncertain. A zoomed area in red box shows the uncertain area as black and\napproaching white is much certain area. Inset plot is a density plot of confusion index value for the attributes. Narrow highly confused zones (black) in the confusion index map and a\npositive skewed density plot indicates a low conﬂicting clustering with good separation amongst the clusters.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.5196533203125,
+                712.6883544921875,
+                561.546875,
+                744.87255859375
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "7a46000b90ed61948366c8807356691a",
+        "text": "world. Hence both methods – multiple scale terrain analysis and seg-\nmentation – try to emulate real-world units by aggregating cells. The\ntool calculates the local variability or Local Variance (LV) in the segment\nor window, for increasing segment/window sizes. However, for\nmultiple scale analysis, the LV graph does not show an obvious\nthreshold for suitable scale, therefore the rate of change of local variance\n(ROC-LV) graph is used instead, as suggested by Dragut et al. (2010).\nROC-LV measures the amount of change in LV from one scale level to an-\nother. Steps in the ROC-LV graph indicate the scale at which groups of\nreal-world objects are more appropriately imaged.\nOnce the appropriate length scales are determined through the ROC-\nLV graph, terrain variables are calculated at those scales using Landserf.\nThe resulting layers are then exported to R and are subjected to multi-\nvariate statistical analysis. A comparison between marine landscape\nmaps created using single scale and multiple scale terrain indices is car-\nried out to evaluate the signiﬁcance of this step. A total of 20 abiotic ter-\nrain variables are used in the ﬁnal multivariate statistical analysis. They\ninclude the multibeam bathymetry data and the TOBI sidescan sonar\nimagery, and their derivatives. The variables are listed in Table 1 with\na brief explanation for each.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.50653076171875,
+                414.6783447265625,
+                561.6561889648438,
+                621.4420166015625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fefdc201591e4a452cf26a579a192512",
+        "text": "2.3.2. Principal component analysis\nOne of the most difﬁcult tasks when automating a seabed classiﬁca-\ntion technique is to ensure objectivity when selecting the variables that\nwill form its basis. A commonly used method to condense a highly col-\nlinear dataset prior to clustering is Principal Component Analysis (PCA)",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5081481933594,
+                640.6844482421875,
+                561.6353759765625,
+                690.493408203125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bfdc5a5c76aff79daf60c967bcb927b2",
+        "text": "Table 3\nThe characteristic of the 6 clusters and their interpretation based on the boxplot in Fig. 9.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.7322998046875,
+                57.728797912597656,
+                285.4924621582031,
+                72.66522216796875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4b1139841010bfd35f489f02103150c1",
+        "text": "Clusters\nCharacteristics\nInterpretation",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                39.68489074707031,
+                80.85904693603516,
+                231.30474853515625,
+                87.23504638671875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d3887a9f50f47654625e7825ed62e528",
+        "text": "1\nShallowest, most homogeneous,\nﬂat, planar and linear surface\nContinental shelf/slope",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                39.68489074707031,
+                93.89859771728516,
+                257.48333740234375,
+                108.83502197265625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f94c7966a6c4dac1a0924645438bd2c0",
+        "text": "2\nMost rugged and heterogeneous\nsurface with steepest slope\nCanyon wall or cliff\n(including cliff edge)\n3\nMid depth SSW oriented canyon\nslope with linear surface\nCanyon slope/rise\n(facing SSW)\n4\nPlanar to depression, slight sidewardly\nand upwardly concave and diverge\nsurface, valleys, channel-like features",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                39.684844970703125,
+                111.02005767822266,
+                251.415283203125,
+                168.81536865234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8d6680b32d4c3c4166681413c2652507",
+        "text": "Canyon ﬂoor",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                190.4319610595703,
+                145.24777221679688,
+                227.56961059570312,
+                151.69390869140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5357edcbe2033764838c30bb7b085d52",
+        "text": "5\nSSE oriented canyon slope\nCanyon slope/rise (facing SSE)\n6\nNNW oriented canyon slope\nCanyon slope/rise\n(facing NNW)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                39.6842041015625,
+                170.99978637695312,
+                278.7817077636719,
+                194.49664306640625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8e4af8efbd747377b48ab4acf6508405",
+        "text": "(Kabacoff, 2013). The abiotic variables in this study are highly collinear\nbecause they are derived from only two primary sources (i.e.,\nmultibeam bathymetry and sidescan sonar imagery). PCA is used to\ncompute a set of new and linearly independent variables that are\nknown as Principal Components (PC). Prior to PCA, all variables are\nstandardised to have zero-mean and unit-variance in order to give\nthem an equal weight in the PCA. The ﬁrst PCs account for most of the\nvariance in the original data, and can be chosen to form a smaller set\nof variables. The remaining variance, represented by the last PCs, is\nthe error portion of the dataset.\nA decision criterion based on the eigenvalues of the underlying cor-\nrelation matrix is often used to determine how many PCs are to be\nretained in the analysis (Kabacoff, 2013). Following the Kaiser–Harris\ncriterion, the analysis is limited to those PCs that have eigenvalues larg-\ner than 1, because they explain more variance than is contained in an\noriginal variable.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.7322998046875,
+                214.30398559570312,
+                284.8677062988281,
+                379.14117431640625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bcb975b1a62354a34d5553ebd737a3ec",
+        "text": "2.3.3. Clustering\nThe PCs resulting from the PCA are then used as attributes for clus-\ntering. The K-means algorithm is often used for data partitioning, also\nin the marine environment (Legendre et al., 2002; Verfaillie et al.,\n2009; Amiri-Simkooei et al., 2011; Ahmed and Demsar, 2013). K-\nmeans is an iterative procedure that starts with a random allocation of\nclass centres. All data points are given the class of the closest class cen-\ntre, calculated using the Euclidian distance in the N-dimensional space\nof the retained PCs (Hartigan and Wong, 1979). Once the clusters are\nformed, the class centres are updated to the location of the average for\neach cluster. Re-allocation of the centres proceeds by iteration until a\nstable solution is reached where the location of the centres no longer\nmoves.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.733070373535156,
+                392.0903625488281,
+                284.87799072265625,
+                525.6333618164062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "683d7977020cba601039a061116b777e",
+        "text": "2.3.4. Cluster determination & conﬁdence\nAn important step in achieving objectivity in automated classiﬁca-\ntion is to determine the optimal number of clusters. There are many\ncriteria that have been used to decide on the correct number of clusters\nfor K-means partitioning (Dunn, 1973; Caliński and Harabasz, 1974;\nDavies and Bouldin, 1979). The method used here consists of a plot of\nwithin group sum of squares against number of clusters from the K-\nmeans clustering solution (ranging from 2 to 15). The change in gradi-\nent in the plot is used to determine the optimal number of clusters\nfrom the K-means solutions (Kabacoff, 2013).\nOnce the ﬁnal clustering through K-means solution is achieved, a\nseparate map of cluster membership is produced to show cluster dom-\ninance at each location. The membership value can be expressed as fol-\nlows",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.732276916503906,
+                538.494873046875,
+                284.870849609375,
+                682.50048828125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "43d5b5a1d2ab482f7d683262d6c12057",
+        "text": "μik ¼\n1\nd2\nik\n\u0001\n\u0003 \u0002\n1\nXn\nk¼1",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.732276916503906,
+                693.6990966796875,
+                102.63764953613281,
+                720.8370971679688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8ce272f14f41ca0a78cc0f421c252be8",
+        "text": "1\nd2\nik\n\u0001\n\u0003",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                103.80470275878906,
+                704.0738525390625,
+                120.51980590820312,
+                725.8258666992188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "29acbf0f47997280900055887083289d",
+        "text": "the distance between data point i and cluster centre k in attribute space\nand n is number of clusters. The above expression is modiﬁed from an\nexpression used for fuzzy K-means classiﬁcation for soil survey data\n(Burrough et al., 1997). The original expression was also used and\nreviewed in a study by Lucieer and Lucieer (2009) for seaﬂoor sediment\nclassiﬁcation. Membership values are assigned to each cluster so that all\nvalues for each pixel sum to 1. Using this characteristic, clustering un-\ncertainty can be quantiﬁed using the confusion index, CI",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7169494628906,
+                57.37575912475586,
+                552.8723754882812,
+                138.59205627441406
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9f1a0db43c659681fe45378838004cde",
+        "text": "μ max−1\nð\nÞi\nμ maxi",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                319.4078063964844,
+                151.8541259765625,
+                349.6110534667969,
+                174.83172607421875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cf9265bdcbd4a1ab750269bf95f7b9cf",
+        "text": "CI ¼",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7178039550781,
+                158.65386962890625,
+                317.15289306640625,
+                166.7117462158203
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e0ea444a65817deb8847d07cc9741abb",
+        "text": "whereμ maxi is the membership value of the cluster with maximum μik at",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7196044921875,
+                190.121826171875,
+                552.86181640625,
+                201.6378936767578
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d83e968095df2f83e97f7b71ac0fb321",
+        "text": "location i and μ max−1\nð\nÞi is the second largest membership value at the",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.71844482421875,
+                202.08428955078125,
+                552.8182983398438,
+                213.82691955566406
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4efdf77aed7677eacc54d4811b507d59",
+        "text": "same i location. If the value of CI nears 0, then only one cluster k domi-\nnates the location and it has a low confusion (high maximum member-\nship value of cluster k), however if the value of CI is near 1 there is high\nconfusion between two or more clusters at location i.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7195739746094,
+                214.30398559570312,
+                552.760986328125,
+                253.68153381347656
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "85789b6f08268d94a3333358d897dbbc",
+        "text": "2.4. Qualitative assessment",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7196044921875,
+                266.6307067871094,
+                393.0078125,
+                274.60089111328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9384885cc1ccbada6d0c0c2e0b6f2eb1",
+        "text": "Expert visual interpretation based on sidescan sonar imagery from\nprevious work in 2005 was used to evaluate the performance of the au-\ntomated technique. The interpretation is independent from any input\nfrom the automated marine landscape map. Visual comparison was\nmade between expert interpretations for Setúbal Canyon and the auto-\nmated marine landscape map produced by overlaying both in ArcMap\n10.0.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7196044921875,
+                287.5500793457031,
+                552.8109130859375,
+                358.27838134765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d748bf5a36bb72ccc1e65f1c612942b5",
+        "text": "3. Results",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7196044921875,
+                371.2283630371094,
+                337.0021057128906,
+                379.19854736328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b14398f16c1d510dd8fdf3ee8e5bed9b",
+        "text": "3.1. Terrain analysis: ROC-LV graph",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7196044921875,
+                392.1485290527344,
+                421.84881591796875,
+                400.11871337890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8c592ea5d3252f96ee5973c21b0d0b8b",
+        "text": "The ESP yields the ROC-LV graph as shown in Fig. 3. According to\nDragut et al. (2010), the ROC-LV plot enhances the discrimination of\nthe threshold at which the appropriate scale for real-world object repre-\nsentation is reached compared to an LV graph. The threshold is deﬁned\nas the ﬁrst break in the ROC-LV graph after the initial continuous and\nabrupt decay, and may appear as a step or small peak. In this case, it ap-\npears as a step in the ROC-LV curve. The next level after 25 m (initial\npixel) that is recognised as the appropriate scale that represents real-\nworld objects is 225 m. Meaningful objects refer to real world objects\nsuch as gullies, the channel ﬂoor and other geomorphological features\nthat can be found in submarine canyons. The variation in slope and\nbathymetric position index using different length scales is shown in\nFig. 4. The local scale (25 m) picks out ﬁne-scale variability in the canyon\nsuch as gullies or small branches, whereas the broader scale (225 m)\nshows the overall pattern of the whole canyon system, highlighting\nmajor features and smoothing out details present in the local scale\nanalysis.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7203369140625,
+                413.0679016113281,
+                552.8414306640625,
+                588.3931274414062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7144653da1c1cb9c46667e328f913e21",
+        "text": "3.2. Multivariate statistical analysis",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.72113037109375,
+                601.34228515625,
+                421.5426025390625,
+                609.3125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "647de8ea5a17c38e2be63fd7d96e9472",
+        "text": "3.2.1. PCA\nThe principal component analysis is conducted using the 20 abiotic\nvariables listed in Table 1. Retaining only those PCs with eigenvalues\nlarger than one, PCA results in eight PCs, explaining 79% of the total var-\niance. The rotated component matrix (Table 2) shows the factor loads\nthat explain the correlations between the rotated PCs and the original\nvariables. The main variables that drive the PCA are bathymetric posi-\ntion index (BPI), proﬁle curvature, slope, rugosity and northness (Fig. 5).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.72113037109375,
+                622.2616577148438,
+                554.5518798828125,
+                703.47802734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "390fd0a5f85067717e939cc7a4ad301d",
+        "text": "3.2.2. Clustering\nA total of 2,316,746 pixels with eight PC variables were subjected to\nK-means clustering, in a cascade from two to ﬁfteen clusters. The plot of",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.72198486328125,
+                716.4271850585938,
+                552.7728881835938,
+                745.3167724609375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "26b5ce26bca2e33e486ac5483fcc1150",
+        "text": "Fig. 9. a & b: Boxplot of clusters against original abiotic variables. Description of each abiotic variable is given in Table 1. In the boxplot, the middle line is the mean, the lower and the upper\nbox boundaries are the ﬁrst and third quartiles. The whiskers are the maximum and minimum observed values that are not statistical outliers.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                730.2766723632812,
+                561.5303955078125,
+                745.2130126953125
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "7f223bbcdfedfa19509c63d6ed74349f",
+        "text": "within group sum of squares against number of clusters is shown in\nFig. 6, and indicates a distinct increase at six clusters. This change in\nslope suggests that a six cluster solution may be a good ﬁt for the data.\nHence, ﬁnal clustering is carried out using the K-means algorithm\nwith six clusters.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                57.37801742553711,
+                293.6630859375,
+                107.18695831298828
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f622d45b73f60cdfb581541d5e1b18ce",
+        "text": "3.2.3. Membership value and confusion index\nThe concept of membership values originates from the technique of\nfuzzy classiﬁcation, where it is used to show continuous spatial varia-\ntion by creating overlapping classes (Lucieer and Lucieer, 2009).\nThrough this, using the Euclidean distances of data points towards clus-\nter centres from the K-means partitioning, the same calculations were\nused to show classiﬁcation uncertainty (Fig. 7). High membership\nvalue means only one cluster is dominant for the data point; meaning\nat that location there is a high certainty of classiﬁcation.\nBased on the membership value for each cluster, a confusion index is\nproduced (Fig. 7). The confusion index map has very narrow transition\nzones between clusters, with high confusion values only at the cluster\nboundaries. If spatial correlation in membership values is weak, broad\nzones of high confusion index values are observed, but they are not\nseen in the confusion index map. The density plot of confusion index\nvalues indicates a positively skewed distribution, with a high percent-\nage of data points with confusion value approaching zero. A low value\nin confusion index (approaching zero) indicates a less conﬂicting\nclassiﬁcation.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.518890380859375,
+                120.1361312866211,
+                293.6694030761719,
+                316.38067626953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7a339c07ecf771b27a61f85d135d7a1d",
+        "text": "3.3. Marine landscape map",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.518096923828125,
+                329.38726806640625,
+                134.053466796875,
+                337.3574523925781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7d46c326a85838e6c5ebb1a31d18951c",
+        "text": "The result of the six cluster solution is presented in Fig. 8 and Table 3.\nThe six cluster solution represents the ﬁnal marine landscape map\nproduced for this area. The interpretation of each cluster is based on\nthe boxplots of the original abiotic variables against the clusters\n(Fig. 9a & b). Through these boxplots, the characteristics of each cluster\ncan be obtained based on the correlation with the original variables.\nSeventeen out of twenty abiotic variables show an obvious contribution\nto the classiﬁcation.\nFor instance, rugosity, which represents the ruggedness of the ter-\nrain, shows a clear difference between the clusters. Cluster 2 is\ninterpreted as a canyon wall, owing to its high values in slope and ru-\ngosity, and a wide range of distribution of rugosity and BPI. As canyon\nwalls often consist of near vertical to vertical outcropping bedrock\nwith the tendency to be covered by biological communities, such high\nvalue of slope and rugosity is expected. Its wide range of rugosity distri-\nbution is also explainable, because canyon walls have the most varied\nsurface ruggedness. They can consist of just bare rocks, or be covered\nwith sediments or fauna. Similarly, based on the boxplot (Fig. 9a), the\nBPI for Cluster 2 has the biggest range although the mean value is\nzero. Such a characteristic is observed because the Cluster 2 morphology\nis narrow and steep; therefore the value can change signiﬁcantly from\none neighbouring cell to another.\nThe rest of the clusters are also interpreted based on the criteria seen\nin the boxplots and the ﬁnal interpretation is shown in Table 3. Each\ncluster has its own prominent variable that best shows its characteris-\ntics. Cluster 1 is mainly driven by the bathymetry and fractal dimension-\nal variable, Cluster 2 is inﬂuenced by rugosity and slope, Cluster 4 has\nthe lowest BPI and is channel-like based on the feature extract variable,\nwhilst Clusters 3, 5 and 6 are dominated by the aspect variables.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51887512207031,
+                350.306640625,
+                293.670166015625,
+                651.1481323242188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e943f306ede099b67716bdbdcb5bacb9",
+        "text": "3.4. Single scale vs multiple scale terrain analysis",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51887512207031,
+                664.0980834960938,
+                208.09420776367188,
+                672.0682983398438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c928d3c0df3d326170daedc81d65e1b4",
+        "text": "An alternative marine landscape map was produced using only local\nscale terrain indices to evaluate the effect of using multiple scale analy-\nsis on the classiﬁcation result (Fig. 10). The map produced was classiﬁed\ninto 10 clusters. The main difference observed is that the clusters are\nmore patchy and incoherent in the marine landscape map produced\nusing single scale analysis. The map corresponds less well to features",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51887512207031,
+                685.0175170898438,
+                293.6423645019531,
+                745.3223266601562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "da44b8cca1a7d4e2716ede48249461f4",
+        "text": "that can be seen in sidescan sonar imagery. Zoomed ﬁgures were\nmade at three locations (Areas A, B, C) to highlight the differences be-\ntween using single scale and multiple scales into the multivariate statis-\ntical analysis (Fig. 10). For example in Area A, the channel ﬂoor that\nappears in the sidescan sonar imagery was not delineated in the single\nscale marine landscape map. However, in the marine landscape map\nproduced using multiple scale analysis, the channel ﬂoor is classiﬁed\nas a separate cluster (Cluster 4), distinguishing it from a canyon slope\n(Cluster 3). In Area B, the clusters from the single scale map can be\nseen as patchy and incoherent as mentioned above. Of the 10 clusters,\none cluster (Cluster 5) is identiﬁed as a product of over-classiﬁcation\nfrom Cluster 7 because they consistently appear next to each other\nand Class 5 almost forms an outline to Cluster 7. Meanwhile, Cluster 6\nis identiﬁed as noise that has been picked out from TOBI sidescan\nsonar imagery. Area C shows an example of clusters that result from\nover-classiﬁcation and noise. Another general difference between the\ntwo maps is that the single scale map has less-pronounced aspect inﬂu-\nenced clusters. Cluster 1 is slope angled to the north whilst Cluster 8 to\nthe south. However the patchiness of the clustering largely obscures the\neffect of the aspect variable.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5065612792969,
+                57.28759765625,
+                561.6530151367188,
+                264.1077880859375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "97da8011a3a3b8ebeab6cf9f5c792256",
+        "text": "3.5. Qualitative assessment",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5065612792969,
+                277.0569763183594,
+                401.79400634765625,
+                285.02716064453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6509aa74237b50cee8d4c9ef3a6e0a4b",
+        "text": "A visual interpretation (Fig. 11) was carried out for Setúbal Canyon\nbased on the sidescan sonar imagery collected in 2005 (hence only cov-\nering Setúbal Canyon). A general comparison of the marine landscape\nmap produced by the automated technique and the manual delineations\nshows that most clusters from the automated technique coincide with\nthe features delineated manually by the expert. Misclassiﬁcations of fea-\ntures occur occasionally and most are within the navigational error. The\nsidescan sonar map used for this study was navigationally corrected by\ncorrelation with the bathymetry (Ismail, 2011), which was not the case\nfor the data used for expert interpretation. Four sub-areas within the\nSetúbal Canyon were zoomed (Fig. 11) and clearly show that both\nmaps correlate well. There are many features that can be identiﬁed visu-\nally by the human eye. These features can be very small and overwhelm\nthe algorithm in the automated technique. However, often the algorithm\nwill naturally group these features together into the same cluster. The au-\ntomated approach is observed to be more consistent in picking out fea-\ntures and identifying homogeneity within features. The most obvious\nfeatures that can be seen to coincide successfully between the two\nmaps are the channel ﬂoor and canyon wall. However in manual delinea-\ntion the channel ﬂoor seems narrower than that in the automated marine\nlandscape map. This is because the expert tends to follow the axis of the\nchannel ﬂoor (thalweg) closely and has difﬁculty deciding class bound-\naries. In particular, the area of transition between two features/clusters\nis often left unidentiﬁed in manual delineation, whereas the map from\nthe automated technique gives a complete coverage.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5057373046875,
+                297.9763488769531,
+                561.5987548828125,
+                556.97900390625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "30aa2c3ff4ebdb55a94753947c5006ba",
+        "text": "4. Discussion",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5057373046875,
+                569.985595703125,
+                358.4974670410156,
+                577.955810546875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c67ef13c8c53c12a72058be4254c7b5c",
+        "text": "4.1. Multiple scale terrain analysis",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5057373046875,
+                590.9049682617188,
+                426.1046447753906,
+                598.8751831054688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e7b19a9df2e15e99eb58be5367f7ff3f",
+        "text": "The ESP tool technique was adopted from segmentation in Object\nBased Image Analysis (Dragut et al., 2010). It was used for fast estimation\nof the optimum length scales in an automated way. This tool gives an ad-\nvantage over manual estimation, as it reduces the time spent on trial and\nerror selection of the appropriate scale that best represents real-world\nobjects in multibeam bathymetry data. It also provides an objective an-\nswer to the scale question. The ROC-LV graph indicates that at 225 m it\nrecognises patterns that are suitable to represent a real-world object. In-\ndeed, the terraces in the middle course of the Lisbon–Setúbal Canyon are\nreported to be approximately 200 m wide (Lastras et al., 2009).\nThe incorporation of terrain indices produced from local (25 m) and\nbroad (225 m) scales allows an appropriate discrimination between fea-\ntures of potentially different ecological relevance. For instance, in a",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5057373046875,
+                611.8243408203125,
+                561.6399536132812,
+                745.3215942382812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ce95519040194b375dcfe79cba8273a8",
+        "text": "single scale approach using only the local length scale, terrain indices\nmay have similar slope values on the side of small geomorphic features\nsuch as gullies compared to slopes on the canyon wall. However, if\nbroad scale terrain indices were to be used on their own, slopes over\nsmall features would effectively disappear since the analysis scale will\nbe too large to capture the ﬁner features available from the multibeam\nbathymetry data. Therefore, by including local and broad length scale\nterrain indices together, both ﬁne scale and broad scale features are\nretained and stand out as distinct properties of the seabed which con-\ntribute as indicators of potential benthic habitats.\nIn addition to this, with the incorporation of broad length scale ter-\nrain indices, it is observed that the noise, compared to the local, single\nscale map was reduced, subsequently increasing the feature to noise\nratio. Through this step, the automated technique is performed on\nmeaningful objects that represent both ﬁne and broad scale features\nthat can be found in real-world canyons.\nApart from this, using multiple scale terrain analysis appears to re-\nduce excessive clustering that result in meaningless clusters being de-\nlineated in the map. Since multivariate statistical analysis is affected\nby pixel size, having only single local scale terrain indices causes over-\nanalysis, which contributes to clustering of artefacts into the classiﬁca-\ntion. It became oversensitive towards slight changes in characteristics\nbetween pixels causing similar features to be clustered into separate\nclusters. However, by using multiple scale terrain indices, the multivar-\niate statistical analysis operates on meaningful objects related to real\nfeatures rather than just the pixel representation of the acoustic data.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51812744140625,
+                57.37801742553711,
+                293.6375427246094,
+                326.86865234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "82159b27bc50a81f3fe083e8eabb412c",
+        "text": "4.2. Abiotic variables",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51812744140625,
+                350.2500305175781,
+                112.65031433105469,
+                358.22021484375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4bab922dd464e51e195e5ef424ae0fa6",
+        "text": "One of the difﬁculties in maintaining objectivity in automated map-\nping is to justify the abiotic variables that are incorporated into the anal-\nysis without compromising the objectivity of the whole method. It is\nimportant to ensure that the method is as objective as possible with\nminimum input from the user. Every abiotic variable included will affect\nthe automated classiﬁcation, therefore all abiotic variables should con-\ntain relevant information about the canyon. Parameters yielded by the\nGIS software must be considered with care, and not simply included\nby default. For example, hillshade is often used to aid in the identiﬁca-\ntion of seaﬂoor features (Walker and Gilliam, 2013). Although it is a de-\nrivative of multibeam bathymetry, hillshade is not considered as an\nabiotic variable, even if it can be a good indicator for the correlation be-\ntween the seabed and a (residual, unidirectional) current. However if\nthere is no evidence of such interaction taking place, it would give\nfalse information because the azimuth used for hillshading would be ar-\nbitrary, rather than representing an actual characteristic of the terrain.\nInstead, directionality of the terrain and any potential interaction with\noceanographic effects is simulated by the inclusion of aspect properties\nthat are divided into northness and eastness to provide continuous var-\niables (Hirzel et al., 2002; Wilson et al., 2007). Hence each abiotic vari-\nable included is relevant and has a useful input regarding the canyon\nand will contribute to the automated classiﬁcation. In additional, by\nusing PCA, there is no problem if more than one abiotic variable gives\na similar input or representation of the canyon (i.e., if there is collinear-\nity). The more abiotic variables with useful information are incorporat-\ned as input, the more potential habitats can be classiﬁed (Verfaillie et al.,\n2009). Once all the abiotic variables have been gathered, there are no\nsubjective selections to be made. Instead they are subjected to PCA,\nwhich overcomes the problem that most conventional classiﬁcation\nmethods encounter, the selection of abiotic variables (Al-Hamdani and\nReker, 2007). Also the selection of the relevant PCs (with eigenvalue",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51734924316406,
+                371.08172607421875,
+                293.66546630859375,
+                692.9868774414062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1f85fb472208cf4026769e928e5e84c5",
+        "text": "Fig. 10. Marine landscape map produced using automated marine landscape classiﬁcation with single scale in contrast to map in Fig. 8. The three selected areas A, B and C are compared to\nsidescan sonar imagery and marine landscape maps produced using multiple scale terrain analysis. The close-ups are shown in the nine smaller maps. First row: marine landscape map\nusing multiple scale, second row: sidescan sonar imagery and third row: marine landscape map using single scale. The marine landscape map produced using single scale exhibit patchy\nand incoherent classes. There are products of over-classiﬁcation since having ﬁne details introduces noise and causes over-analysis.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.519683837890625,
+                712.8583374023438,
+                561.5597534179688,
+                744.9857788085938
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "0dc65d8fb67c1de9fcb9b12fc941c95d",
+        "text": "N1) and the optimal number of clusters (based on the within group\nsum of squares) are fully objective.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.506591796875,
+                57.27978515625,
+                561.5589599609375,
+                75.76905059814453
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7957b10a874eefac0e1baaf2bd29fb67",
+        "text": "4.3. Marine landscape map",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.506591796875,
+                88.8888168334961,
+                402.1343688964844,
+                96.85901641845703
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5809560dd05059ebf8eb82fc9922183e",
+        "text": "The resulting map for the Cascais and Lisbon–Setúbal Canyons has a\ntotal of 6 clusters that represent the marine landscapes of the area\n(Fig. 7). Each of these clusters is interpreted based on the correlation\nof the clusters with the original abiotic variables. The marine landscape\nmap is largely based on the geomorphological features present in the\nmultibeam bathymetry data, and hence corresponds to the ﬁrst levels\nof typical hierarchical habitat classiﬁcation systems (Davies et al.,\n2004), that are based on broad-scale geomorphological divisions of\nthe marine realm. TOBI sidescan sonar data, and especially its ratio to\nsynthetic imagery, was used to potentially represent sediment distribu-\ntion and seaﬂoor roughness, regardless of the orientation towards the\nsonar (Ismail, 2011), but that did not yield much contribution into the\nclassiﬁcation. The rotated component matrix (Table 2) shows that\nTOBI sidescan sonar imagery is not a high factor load in any of the PCs.\nIn addition, based on the boxplot distributions (Fig. 9b), when correlat-\ned with TOBI data the 6 clusters are more or less congregated around\nsimilar values. Although it has the highest load in PC 8, the PC only ex-\nplains 0.03% of the total variance. However, when visually compared\nto the TOBI sidescan sonar, the marine landscapes classiﬁed here can\neasily be related to the TOBI sidescan sonar features. It is already\nknown that sedimentological distributions in canyons are strongly con-\ntrolled by the geomorphological properties of the terrain (Arzola et al.,\n2008). This explains the correlation between the marine landscape\nmap and TOBI sidescan imagery when compared visually.\nGeomorphology is also recognised as a major control on biological\ncommunities and diversity in submarine canyons (Kenchington et al.,\n2014). Therefore, the marine landscape map can be useful to identify\nareas with ecological relevance. Although, the ultimate goal of habitat\nmapping is to identify ecologically relevant habitats that support differ-\nent biological communities, this is not the case for marine landscape.\nThe purpose of a marine landscape map is to identify areas that can\ngive an indication about the biological community, but not to predict\nthe biology. Therefore, the map produced in this study only acts as a\nproxy to aid biological predictions and focus future surveys. This is espe-\ncially beneﬁcial as an alternative when biological data are limited since\nit uses only abiotic variables to produce the marine landscape map.\nBased on the marine landscape map produced from this study, three\nout of the six clusters are inﬂuenced by the aspect variable. Aspect is\nrepresented in continuous values by northness and eastness. Northness\ntakes values close to 1 if the aspect is northward, −1 if southward and\nclose to zero if aspect is either east or west. Eastness behaves similarly,\nexcept that values close to 1 show east-facing slope and −1 west-facing\nslope. However, is aspect an important feature to deﬁne marine land-\nscape in submarine canyons? Naturally, aspect is a valuable variable\nfor shallow water, where it provides information regarding the expo-\nsure to dominant swell or where sunlight is able to reach the seabed\n(Lucieer et al., 2013). However this is not the case for the deep sea envi-\nronment, where it is known that light only penetrates approximately to\nno more than 1000 m (with signiﬁcant light only penetrating to about\n200 m) (Schrope, 2007). Nevertheless, slope orientation in the deep\nsea may still be meaningful if interaction between the current regime\nand differently orientated slope surfaces creates variable habitats.\nOrganisms inhabiting the deep sea environment are known to be\nsubjected to regulating disturbances related to upper water-column\nprocesses (Gage and Tyler, 1992), which makes it possible to predict\nfaunal response in homogeneous deep sea habitats, and identify the",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5052490234375,
+                109.7213134765625,
+                561.654296875,
+                693.1010131835938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "771c4b52d6fa03c5d57d179fbc096281",
+        "text": "controlling factors that affect the presence of organisms. However, in a\nmore complex and complicated environment this is not as straightfor-\nward. This is particularly true in submarine canyons, where the different\nregulating processes, heterogeneous environmental conditions and eco-\nlogical functions are far from understood. Ongoing research in subma-\nrine canyons has shown that due to the terrain heterogeneity, the\nbiological communities in submarine canyons vary compared to the ad-\njacent continental slope (Soetaert et al., 1991; Grémare et al., 2002);\neven twin branches within the same canyon may exhibit a large differ-\nence in their community composition (Bianchelli et al., 2008) and ﬂanks\nof the same branch can exhibit different biological coverage due to dif-\nferences in substrate cover as a result of the orientation of the canyon\nwith regard to the overall oceanographic regime in the area (Van\nRooij et al., 2010; De Mol et al., 2011). This shows that submarine can-\nyons are dynamic and varied from one another, which leads to a conclu-\nsion that no variables should be overlooked or neglected without solid\nreason. Amongst the potential factors that can be related to aspect, the\ncurrent regime is the most prominent. It will affect the sediment, organ-\nic matter and food source pathways into submarine canyons. Although\nthe community structures are inﬂuenced by food supply and food avail-\nability, which are strongly related to upper water column processes, in\ncanyon communities, variability caused by habitat heterogeneity and\nwater depth differences can easily override the effect of upper water\ncolumn processes (Ramalho et al., 2014).\nUnfortunately, the lack of detailed current information in most sub-\nmarine canyons hinders the process of evaluating the inﬂuence of aspect\ntowards the community structure. The marine landscape map produced\nhere indicates the potential inﬂuence of the aspect variable. The next\nstep now is to evaluate this against the community composition.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 15,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.5189208984375,
+                57.37801742553711,
+                293.6718444824219,
+                358.21942138671875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2a0d5823dde2ee468e311a8519bc1d01",
+        "text": "4.4. Qualitative assessment",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 15,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51970672607422,
+                375.1943664550781,
+                133.94586181640625,
+                383.16455078125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c784fcb508217b07ea67c99a23b31161",
+        "text": "A qualitative assessment was made based on visual comparison with\nsidescan sonar imagery expert interpretation. The comparison between\nthe marine landscape map and visual interpretation of the sidescan\nsonar imagery supports that the automated method yields a useful\nand meaningful marine landscape map. Manual delineation in this\nstudy lacked in contiguity whereas the automated map provides a bet-\nter coverage for a continuous classiﬁcation. Other manual interpreta-\ntions may have the same coverage as automated classiﬁcation but\nthey will be more time consuming to produce. The advantage of expert\ninterpretation is the ability to pick out individual features in sidescan\nsonar that often overwhelm the automated method. Since the automat-\ned method is restricted to its pixel size for the ability to detect geomor-\nphic features, it produces a more generalized map in comparison. On the\nother hand, with manual delineation there are still a percentage of fea-\ntures that are overlooked due to human error. Classiﬁcation and bound-\naries between classes are more consistent throughout the whole\nautomated process and this will be a useful contribution for further hab-\nitat quantiﬁcation at later stages.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 15,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                396.1137390136719,
+                293.66546630859375,
+                581.9269409179688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "53c27f0161712f73152b75f165afb514",
+        "text": "5. Conclusion",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 15,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.52048110961914,
+                598.8452758789062,
+                92.44263458251953,
+                606.8154907226562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "eea0e3c72170d5d746894ca5567ed05e",
+        "text": "This study offers another step forward towards a better marine land-\nscape mapping technique that stands out for being a fully automated\napproach. The philosophy behind this study is to ensure that the meth-\nodology is objective and suitable for broad and regional scale mapping\nbased on seaﬂoor geomorphic features that can be identiﬁed from dif-\nferent types of sonar data. Such information is often included as one of\nthe attributes for actual habitat classiﬁcation in one of the nested levels",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 15,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.52048110961914,
+                619.7654418945312,
+                293.6645812988281,
+                690.4938354492188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7ad26ddc28895a5d915c8f0cb6c5d821",
+        "text": "Fig. 11. An expert visual interpretation of Setúbal Canyon from sidescan sonar imagery collected in 2005 used for visual comparison with automated marine landscape map. A, B, C, and D\nare zoomed ﬁgures of the visual interpretation map from sidescan sonar imagery (left) in the selected area (outline in black) compared to automated marine landscape map (right). Refer\nto Fig. 8 for symbol legends in the automated marine landscape map. The expert interpretation in this area lacked contiguity and coverage, although manual delineation allows individual\nfeatures to be picked out there is always a possibility of it being missed due to human error. In comparison, the automated technique produced a more consistent map but often too gen-\neralized (i.e.: small features are often grouped together).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 15,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.518341064453125,
+                704.311279296875,
+                561.6373901367188,
+                744.9856567382812
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "ba928b5df69af0464cf6e6916ceff51d",
+        "text": "of hierarchal habitat mapping schemes. Additionally, the method uti-\nlizes bathymetric grid data that are the most common type of data ob-\ntained for most seaﬂoor related studies. Therefore many habitat\nmappers will ﬁnd this method useful, time and labour efﬁcient. This\nmethod could also be advantageous to monitor seaﬂoor changes\nthrough time. Dynamics of the marine environment changes seaﬂoor\nconditions, however, the objective approach allows monitoring an\narea over a period of time with more conﬁdence without bias from ex-\npert interpretations. Mapping marine landscape provides a surrogate\nfor biodiversity and prospectively this method could contribute to de-\nsign marine environmental management measures.\nThe following conclusions are drawn: 1) The ESP method that was\ndesigned to detect characteristic scales in geomorphometric analysis\nfor OBIA is transferable, and can be used to detect potential patterns in\nbathymetric grids. The comparison of single scale and multiple scale\nmaps reveals the delineation of seaﬂoor features associated with pat-\nterns of real-world submarine canyon geomorphic features. 2) It is\nshown that using multiple scale terrain analysis, appropriate discrimi-\nnation between features of different ecological relevance is achieved re-\ngardless of ﬁne or broad scale features. Incorporation of both local and\nbroad length scale terrain indices enables a production of a marine land-\nscape map that contains ﬁne and detailed canyon features without\ncompromising the prominent and large scale geomorphic features.\n3) Potentially this methodology is thought to be a useful guideline for\ncomplex deep sea habitat mapping because it does not only delineate\nseaﬂoor geomorphic features for potential habitat but also points to\nproperties that might inﬂuence biodiversity in a complex terrain as\npointed out in the Discussion section on the importance of aspect as a\ndriving parameter in submarine canyon marine landscape delineation.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 15,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.50531005859375,
+                57.36904525756836,
+                561.6636962890625,
+                358.22064208984375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8cd0eb1c9552fd14f41923177917541e",
+        "text": "Acknowledgements",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 15,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.50531005859375,
+                371.4535827636719,
+                384.1133117675781,
+                379.42376708984375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bf2c46d318ce7b8e15a3b90ecb211a16",
+        "text": "This paper is part of a PhD research of the ﬁrst author, ﬁnanced by\nthe CIMB Foundation (contract number 795634-H) and by the ERC\nStarting Grant project CODEMAP (Starting Grant no 258482). Data col-\nlection in the Portuguese Canyons was carried out as part of the EU\nFP6 and FP7 projects HERMES (contract number GOCE-CT-2005-\n511234) and HERMIONE (grant agreement number 226354) and used\nfor analysis within the CODEMAP project. Thanks are extended to the\nCODEMAP team, especially Tim Le Bas and Katleen Robert for their sug-\ngestions and discussions on analysis. We would like to thank Paul Tyler\nwho took the time to read this manuscript and gave valuable advice and\nsuggestions, and the reviewer Margaret Dolan and Peter Harris, who\nprovided very helpful and constructive comments that greatly helped\nto ﬁnalise the manuscript.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 15,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.50531005859375,
+                392.2852783203125,
+                561.6327514648438,
+                525.859375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "87975a3d76473693ce53d4f5bf7ad44d",
+        "text": "References",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 15,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5045166015625,
+                539.09228515625,
+                350.8027038574219,
+                547.0625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ea62e96f86a2f9e495c4f8838dfc7829",
+        "text": "Ahmed, K.I., Demsar, U., 2013. Improving seabed classiﬁcation from Multi-beam Echo\nSounder (MBES) backscatter data with visual data mining. J. Coast. Conserv. 17,\n559–577.\nAl-Hamdani, Z., Reker, J., 2007. Towards marine landscapes in the Baltic Sea. BALANCE\nInterim Report #10 (Available online at http://balance-eu.org/).\nAl-Hamdani, Z.K., Reker, J., Leth, J.O., Reijonen, A., Kotilainen, A.T., Dinesen, G.E., 2007.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 15,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5069580078125,
+                556.2159423828125,
+                561.5555419921875,
+                602.5166015625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1db7365aee6e2f00381d86498c1cc07f",
+        "text": "Development of marine landscape maps for the Baltic Sea and the Kattegat using\ngeophysical and hydrographical parameters. Geol. Surv. Den. Greenl. 61–64.\nAmiri-Simkooei, A.R., Snellen, M., Simons, D.G., 2011. Principal component analysis of\nsingle-beam echo-sounder signal features for seaﬂoor classiﬁcation. IEEE J. Ocean.\nEng. 36, 259–272.\nArzola, R.G., Wynn, R.B., Lastras, G., Masson, D.G., Weaver, P.P.E., 2008. Sedimentary\nfeatures and processes in the Nazare and Setúbal submarine canyons, west Iberian\nmargin. Mar. Geol. 250, 64–88.\nBianchelli, S., Gambi, C., Pusceddu, A., Danovaro, R., 2008. Trophic conditions and\nmeiofaunal assemblages in the Bari Canyon and the adjacent open slope (Adriatic\nSea). Chem. Ecol. 24, 101–109.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 15,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5069274902344,
+                604.1342163085938,
+                561.6078491210938,
+                690.162353515625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "08fafca284c6c410f020e72468558d8a",
+        "text": "Brodeur, R.D., 2001. Habitat-speciﬁc distribution of Paciﬁc ocean perch (Sebastes alutus)\nin Pribilof Canyon, Bering Sea. Cont. Shelf Res. 21, 207–224.\nBrown, C.J., Smith, S.J., Lawton, P., Anderson, J.T., 2011. Benthic habitat mapping: a review\nof progress towards improved understanding of the spatial ecology of the seaﬂoor\nusing acoustic techniques. Estuar. Coast. Shelf Sci. 92, 502–520.\nBurrough, P., Van Gaans, P., Hootsmans, R., 1997. Continuous classiﬁcation in soil survey:\nspatial correlation, confusion and boundaries. Geoderma 77, 115–135.\nCaliński, T., Harabasz, J., 1974. A dendrite method for cluster analysis. Communications in\nStatistics—Theory and Methods 3 pp. 1–27.\nCurrie, D.R., Sorokin, S.J., 2014. Megabenthic biodiversity in two contrasting submarine\ncanyons on Australia's southern continental margin. Mar. Biol. Res. 10, 97–110.\nDavies, D.L., Bouldin, D.W., 1979. A cluster separation measure. IEEE Trans. Pattern Anal.\nMach. Intell. 1, 224–227.\nDavies, C.E., Moss, D., Hill, M.O., 2004. EUNIS Habitat Classiﬁcation Revised 2004.\nde Grosbois, A.M., Murphy, E.C., LaMoreaux, P.E., Matschullat, J., Yahya, A., 2008. Marine\nlandscape maps of Baltic sea completed. Environ. Geol. 54, 431–432.\nDe Leo, F.C., Vetter, E.W., Smith, C.R., Rowden, A.A., McGranaghan, M., 2014. Spatial scale-\ndependent habitat heterogeneity inﬂuences submarine canyon macrofaunal abun-\ndance and diversity off the Main and Northwest Hawaiian Islands. Deep-Sea Res. II\nTop. Stud. Oceanogr. 104, 267–290.\nDe Mol, L., Van Rooij, D., Pirlet, H., Greinert, J., Frank, N., Quemmerais, F., Henriet, J.P., 2011.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 16,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.7322998046875,
+                56.071319580078125,
+                284.8658447265625,
+                221.9351806640625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "72a6d267179b6b0e94e2eeb66e85172d",
+        "text": "Cold-water coral habitats in the Penmarc'h and Guilvinec Canyons (Bay of Biscay):\ndeep-water versus shallow-water settings. Mar. Geol. 282, 40–52.\nDolan, M.F., Lucieer, V.L., 2014. Variation and Uncertainty in Bathymetric Slope Calcula-\ntions Using Geographic Information Systems. Marine Geodesy 37, 187–219.\nDragut, L., Tiede, D., Levick, S.R., 2010. ESP: a tool to estimate scale parameter for\nmultiresolution image segmentation of remotely sensed data. Int. J. Geogr. Inf. Sci.\n24, 859–871.\nDunn, J.C., 1973. A fuzzy relative of the ISODATA process and its use in detecting compact\nwell-separated clusters. J. Cybern. 3, 32–57.\nGage, J.D., Tyler, P.A., 1992. Deep-sea Biology: A Natural History of Organisms at the Deep-\nsea Floor. Cambridge University Press.\nGage, J.D., Lamont, P.A., Tyler, P.A., 1995. Deep-sea macrobenthic communities at con-\ntrasting sites off Portugal, preliminary results: I Introduction and diversity compari-\nsons. Intern. Revue Hydrobiol. Hydrogr. 80, 235–250.\nGrémare, A., Medernach, L., DeBovee, F., Amouroux, J., Vétion, G., Albert, P., 2002. Rela-\ntionships between sedimentary organics and benthic meiofauna on the continental\nshelf and the upper slope of the Gulf of Lions (NW Mediterranean). Mar. Ecol. Prog.\nSer. 234, 85–94.\nHansen, R.E., Callow, H.J., Sabo, T.O., Synnes, S.A.V., 2011. Challenges in seaﬂoor imaging\nand mapping with synthetic aperture sonar. IEEE Trans. Geosci. Remote Sens. 49,\n3677–3687.\nHarris, P.T., Whiteway, T., 2009. High seas marine protected areas: benthic environmental\nconservation priorities from a GIS analysis of global ocean biophysical data. Ocean\nCoast. Manage. 52, 22–38.\nHarris, P.T., Whiteway, T., 2011. Global distribution of large submarine canyons: geomor-\nphic differences between active and passive continental margins. Mar. Geol. 285,\n69–86.\nHarris, P., Macmillan-Lawler, M., Rupp, J., Baker, E., 2014. Geomorphology of the oceans.\nMar. Geol. 352, 4–24.\nHartigan, J.A., Wong, M.A., 1979. A K-means clustering algorithm. Appl. Stat. 28, 100–108.\nHayes, M.P., Gough, P.T., 2009. Synthetic aperture sonar: a review of current status. IEEE\nJ. Oceanic Eng. 34, 207–224.\nHickey, B., Baker, E., Kachel, N., 1986. Suspended particle movement in and around qui-\nnault submarine-canyon. Mar. Geol. 71, 35–83.\nHirzel, A.H., Hausser, J., Chessel, D., Perrin, N., 2002. Ecological-niche factor analysis: how\nto compute habitat-suitability maps without absence data? Ecology 83, 2027–2036.\nHuvenne, V.A.I., Tyler, P.A., Masson, D.G., Fisher, E.H., Hauton, C., Huehnerbach, V., Le Bas,\nT.P., Wolff, G.A., 2011. A picture on the wall: innovative mapping reveals cold-water\ncoral refuge in submarine canyon. PLoS ONE 6.\nHuvenne, V.A.I., Pattenden, A.D.C., Masson, D.G., Tyler, P.A., 2012. Habitat heterogeneity in\nthe Nazare deep-sea canyon offshore Portugal. In: Harris, P.T., Baker, E.K. (Eds.), Sea-\nﬂoor Geomorphology as Benthic Habitat: Geohab Atlas of Seaﬂoor Geomorphic Fea-\ntures and Benthic Habitats. Elsevier Science Bv, Amsterdam, pp. 691–701.\nIsmail, K., 2011. Habitat Mapping of Upper Cascais and Setúbal–Lisbon Canyons, West Ibe-\nrian Margin [dissertation], National Oceanography Centre. University of Southamp-\nton, Southampton.\nJenness, J.S., 2004. Calculating landscape surface area from digital elevation models. Wildl.\nSoc. Bull. 32, 829–839.\nJohnson, M.P., White, M., Wilson, A., Würzberg, L., Schwabe, E., Folch, H., Allcock, A.L.,\n2013. A vertical wall dominated by Acesta excavata and Neopycnodonte zibrowii,\npart of an undersampled group of deep-sea habitats. PLoS ONE 8, e79917.\nKabacoff, R.I., 2013. R in Action. Second edition. Manning Publication, Shelter Island,\npp. 378–380.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 16,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.73113250732422,
+                223.49600219726562,
+                284.86529541015625,
+                644.352294921875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "300d7d1e391146479de99ec89b1241ad",
+        "text": "Kenchington, E., Cogswell, A., MacIsaac, K., Beazley, L., Law, B., Kenchington, T., 2014. Lim-\nited depth zonation among bathyal epibenthic megafauna of the Gully submarine\ncanyon, northwest Atlantic. Deep Sea Research Part II: Topical Studies in Oceanogra-\nphy 104, 67–82.\nKotilainen, A.T., Kaskela, A.M., 2011. Geological modelling of the Baltic Sea and marine\nlandscapes. Bull. Geol. Surv. Finland 293–303.\nLastras, G., Arzola, R.G., Masson, D.G., Wynn, R.B., Huvenne, V.A.I., Huhnerbach, V., Canals,\nM., 2009. Geomorphology and sedimentary features in the Central Portuguese sub-\nmarine canyons, Western Iberian margin. Geomorphology 103, 310–329.\nLe Bas, T.P., Mason, D.C., Millard, N.C., 1995. TOBI image processing — the state of the art.\nIEEE J. Ocean. Eng. 20, 85–93.\nLegendre, P., Ellingsen, K., Bjornbom, E., Casgrain, P., 2002. Acoustic seabed classiﬁcation:\nimproved statistical method. Can. J. Fish. Aquat. Sci. 59, 1085–1089.\nLucieer, V., Lucieer, A., 2009. Fuzzy clustering for seaﬂoor classiﬁcation. Mar. Geol. 264,\n230–241.\nLucieer, V., Hill, N.A., Barrett, N.S., Nichol, S., 2013. Do marine substrates ‘look’and ‘sound’\nthe same? Supervised classiﬁcation of multibeam acoustic data using autonomous\nunderwater vehicle images. Estuar. Coast. Shelf Sci. 117, 94–106.\nMonaco, A., de Madron, X.D., Radakovitch, O., Heussner, S., Carbonne, J., 1999. Origin and\nvariability of downward biogeochemical ﬂuxes on the Rhone continental margin\n(NW Mediterranean). Deep Sea Res. Part I 46, 1483–1511.\nMortensen, P.B., Buhl-Mortensen, L., 2005. Deep-water corals and their habitats in The\nGully, a submarine canyon off Atlantic Canada. In: Freiwald, A., Roberts, J.M. (Eds.),\nCold-water Corals and Ecosystems. Springer-Verlag Berlin, Berlin, pp. 247–277.\nNakanishi, M., Hashimoto, J., 2011. A precise bathymetric map of the world's deepest sea-\nﬂoor, Challenger Deep in the Mariana Trench. Mar. Geophys. Res. 32, 455–463.\nPaull, C., Caress, D., Lundsten, E., Gwiazda, R., Anderson, K., McGann, M., Conrad, J.,\nEdwards, B., Sumner, E., 2013. Anatomy of the La Jolla submarine canyon system; off-\nshore Southern California. Mar. Geol. 335, 16–34.\nPuig, P., Palanques, A., 1998. Temporal variability and composition of settling particle\nﬂuxes on the Barcelona continental margin (Northwestern Mediterranean). J. Mar.\nRes. 56, 639–654.\nRamalho, S.P., Adão, H., Kiriakoulakis, K., Wolff, G.A., Vanreusel, A., Ingels, J., 2014. Tempo-\nral and spatial variation in the Nazaré Canyon (Western Iberian margin): inter-\nannual and canyon heterogeneity effects on meiofauna biomass and diversity.\nDeep-Sea Res. I Oceanogr. Res. Pap. 83, 102–114.\nRoff, J.C., Taylor, M.E., 2000. National frameworks for marine conservation — a hierarchical\ngeophysical approach. Aquat. Conserv. Mar. Freshwat. Ecosyst. 10.\nSchrope, M., 2007. Marine biology: lights in the deep. Nature 450, 472–474.\nSoetaert, K., Heip, C., Vincx, M., 1991. The meiobenthos along a Mediterranean deep-sea\ntransect off calvi (corsica) and in an adjacent canyon. Mar. Ecol. Pubbl. Stn. Zool. Na-\npoli 12, 227–242.\nTyler, P., Amaro, T., Arzola, R., Cunha, M.R., de Stigter, H., Gooday, A., Huvenne, V., Ingels, J.,\nKiriakoulakis, K., Lastras, G., Masson, D., Oliveira, A., Pattenden, A., Vanreusel, A., Van\nWeering, T., Vitorino, J., Witte, U., Wolff, G., 2009. Europe's grand canyon Nazare sub-\nmarine canyon. Oceanography 22, 46–57.\nVan Rooij, D., De Mol, L., Le Guilloux, E., Wisshak, M., Huvenne, V.A.I., Moeremans, R.,\nHenriet, J.P., 2010. Environmental setting of deep-water oysters in the Bay of Biscay.\nDeep-Sea Res. I Oceanogr. Res. Pap. 57, 1561–1572.\nVerfaillie, E., Degraer, S., Schelfaut, K., Willems, W., Van Lancker, V., 2009. A protocol for\nclassifying ecologically relevant marine zones, a statistical approach. Estuar. Coast.\nShelf Sci. 83, 175–185.\nVetter, E.W., Dayton, P.K., 1998. Macrofaunal communities within and adjacent to a\ndetritus-rich submarine canyon. Deep-Sea Res. II 45, 25–54.\nWalker, B.K., Gilliam, D.S., 2013. Determining the extent and characterizing coral reef hab-\nitats of the northern latitudes of the Florida Reef Tract (Martin County). PLoS ONE 8,\ne80439.\nWeiss, A.D., 2001. Topographic Position and Landform Analysis, 21st Annual ESRI User\nConference. San DIego, California.\nWilson, M.F.J., O'Connell, B., Brown, C., Guinan, J.C., Grehan, A.J., 2007. Multiscale terrain\nanalysis of multibeam bathymetry data for habitat mapping on the continental\nslope. Mar. Geod. 30, 3–35.\nWood, J., 2005. Landserf Version 2.2. www.landserf.org.\nWynn, R.B., Huvenne, V.A., Le Bas, T.P., Murton, B.J., Connelly, D.P., Bett, B.J., Ruhl, H.A.,\nMorris, K.J., Peakall, J., Parsons, D.R., 2014. Autonomous Underwater Vehicles\n(AUVs): their past, present and future contributions to the advancement of marine\ngeoscience. Mar. Geol. 352, 451–468.\nYoklavich, M.M., Greene, H.G., Cailliet, G.M., Sullivan, D.E., Lea, R.N., Love, M.S., 2000. Hab-\nitat associations of deep-water rockﬁshes in a submarine canyon: an example of a\nnatural refuge. Fish. Bull. 98, 625–641.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Objective_Automated_Classification_Technique_for_M.pdf",
+            "page_number": 16,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7187194824219,
+                56.133827209472656,
+                552.8638916015625,
+                612.435791015625
+            ],
+            "is_full_width": false
+        }
+    }
+]

@@ -1,0 +1,2263 @@
+[
+    {
+        "element_id": "088875b7246cf17a3b86c6b4e2407729",
+        "text": "International \nJournal of Computer Vision, 321-331 (1988) \no 1987 KIuwer Academic Publishers, Boston, Manufactured \nin The Netherlands",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                206.9984130859375,
+                53.24700164794922,
+                496.2537536621094,
+                72.75
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1271fb5dba8b0f1594d5a0a76d9b21d2",
+        "text": "Snakes: Active Contour Models",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.75,
+                103.24500274658203,
+                230.95919799804688,
+                120.75
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "623dbb4a1821f4749a488a76f322068e",
+        "text": "MICHAEL \nKASS, ANDREW \nWITKIN, \nand DEMETRI \nTERZOPOULOS \nSchlumberger Palo Alto Research, 3340 Hillview Ave., Palo Alto, CA 94304",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.74951171875,
+                144.1215057373047,
+                360.1719055175781,
+                168.375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bdec4c4a2a4faaf8f17b3dd026008f65",
+        "text": "Abstract",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.748809814453125,
+                192.8715057373047,
+                76.68028259277344,
+                205.125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "edace1955e8307c1a8391d03bef6a1d0",
+        "text": "A snake is an energy-minimizing \nspline guided by external constraint \nforces and influenced \nby image \nforces that pull it toward features such as lines and edges. Snakes are active contour models: they lock \nonto nearby edges, localizing \nthem accurately. Scale-space continuation \ncan be used to enlarge the cap- \nture region surrounding \na feature. Snakes provide a unified \naccount of a number of visual problems, \nin- \ncluding \ndetection \nof edges, lines, and subjective \ncontours; \nmotion \ntracking; \nand stereo matching. \nWe \nhave used snakes successfully for interactive \ninterpretation, \nin which user-imposed \nconstraint \nforces \nguide the snake near features of interest.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.748809814453125,
+                216.8715057373047,
+                495.9150085449219,
+                302.625
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "5d182f9b13bcb12c6e5c019560a5eb44",
+        "text": "1 Introduction",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                44.24591064453125,
+                327.1214904785156,
+                97.67710876464844,
+                339.375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7baf2bed8d440e3d5e9b124543748899",
+        "text": "In recent computational \nvision \nresearch, low- \nlevel tasks such as edge or line detection, \nstereo \nmatching, \nand motion \ntracking have been widely \nregarded \nas autonomous \nbottom-up \nprocesses. \nMarr and Nishihara \n[ 111, in a strong statement of \nthis view, say that up to the 2.5D sketch, no \n“higher-level” \ninformation \nis yet brought to bear: \nthe computations \nproceed by utilizing \nonly what \nis available \nin the image itself. This rigidly \nse- \nquential \napproach \npropagates \nmistakes made at \na low level without opportunity \nfor correction. \nIt \ntherefore imposes stringent demands \non the reli- \nability of low-level mechanisms. \nAs a weaker but \nmore attainable \ngoal for low-level processing, we \nargue that it ought to provide \nsets of alternative \norganizations \namong \nwhich \nhigher-level \npro- \ncesses may choose, rather than shackling \nthem \nprematurely \nwith a unique \nanswer. \nIn this paper we investigate \nthe use of energy \nminimization \nas a framework \nwithin \nwhich to \nrealize this goal. We seek to design energy func- \ntions whose local minima \ncomprise \nthe set of \nalternative \nsolutions \navailable \nto higher-level \nprocesses. The choice among \nthese alternatives \ncould require \nsome type of search or high-level \nreasoning. \nIn the absence of a well-developed \nhigh-level \nmechanism, \nhowever, we use an in- \nteractive \napproach \nto explore \nthe alternative",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                43.49012756347656,
+                351.1214904785156,
+                260.4196472167969,
+                691.875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7ffe7197672e0befb2cd23d7dd609128",
+        "text": "organizations. \nBy adding suitable energy terms to \nthe minimization, \nit is possible for a user to push \nthe model \nout of a local minimum \ntoward the \ndesired solution. \nThe result is an active model \nthat falls into the desired solution \nwhen placed \nnear it. \nEnergy minimizing \nmodels have a rich history \nin vision going back at least to Sperling’s \nstereo \nmodel \n[16]. Such models \nhave typically \nbeen \nregarded as autonomous, \nbut we have developed \ninteractive \ntechniques \nfor guiding them. Interact- \ning with such models allows us to explore the en- \nergy landscape \nvery easily and develop effective \nenergy functions \nthat have few local minima \nand \nlittle \ndependence \non starting \npoints. \nWe hope \nthereby to make the job of high-level \ninterpreta- \ntion \nmanageable \nyet \nnot \nconstrained \nun- \nnecessarily by irreversible \nlow-level \ndecisions. \nThe problem \ndomain \nwe address is that of \nfinding \nsalient image contours-edges, \nlines, and \nsubjective \ncontours-as \nwell as tracking \nthose \ncontours \nduring \nmotion \nand matching \nthem in \nstereopsis. Our variational \napproach \nto finding \nimage contours \ndiffers from the traditional \nap- \nproach of detecting edges and then linking \nthem. \nIn our model, \nissues such as the connectivity \nof \nthe contours \nand the presence of corners affect \nthe energy functional \nand hence the detailed \nstructure of the locally \noptimal \ncontour. \nThese \nissues can, in principle, \nbe resolved by very high-",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                281.97650146484375,
+                327.1214904785156,
+                497.40380859375,
+                693.375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "960ef7e43432694917f68a62e2c8f85f",
+        "text": "322 \nKass, Witkin, and Terzopoulos",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                47.25,
+                60.371498107910156,
+                207.92730712890625,
+                72.625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "84bbd10df7cb0a0f05446b2afa80a2d6",
+        "text": "(4",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                86.24876403808594,
+                374.6214904785156,
+                96.18093872070312,
+                386.875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9fb644d9f3d075df08c83b168e73e0d3",
+        "text": "Fig. 1. Lower-left: Original \nwood photograph \nfrom Brodatz. \nOthers: Three different local minima \nfor the active contour \nmodel.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.0,
+                408.99700927734375,
+                260.00396728515625,
+                439.75
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "40b77d143811032a401c8f634aa4e0d9",
+        "text": "level computations. \nPerhaps \nmore importantly, \nhigh-level \nmechanisms \ncan interact with the con- \ntour model by pushing \nit toward an appropriate \nlocal \nminimum. \nOptimization \nand relaxation \nhave been used previously \nin edge and line detec- \ntion, \n[3,5,13,24,25], \nbut without \nthe interactive \nguiding \nused here. \nIn many image interpretation \ntasks, the correct \ninterpretation \nof low-level \nevents can require \nhigh-level \nknowledge. \nConsider, for example, the \nthree perceptual \norganizations \nof two dark lines \nin figure 1. The three different organizations \ncor- \nrespond to three different \nlocal minima \nin our \nline-contour \nmodel. It is important \nto notice that \nthe shapes of the lines are materially \ndifferent \nin the three examples, \nnot just because of a dif- \nferent linking \nof line \nsegments. The segments \nthemselves \nare \nchanged \nby \nthe \nperceptual \norganization.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.74761962890625,
+                466.8714904785156,
+                263.42364501953125,
+                696.625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "880c5aea0fa82baa1e64243ec177e86d",
+        "text": "(4",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                287.9891357421875,
+                374.6214904785156,
+                297.9212951660156,
+                386.875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "06cd3151ca13b910614a177302ebab9d",
+        "text": "Without \ndetailed \nknowledge \nabout the object \nin view, it is difficult \nto justify a choice among the \nthree interpretations. \nKnowing \nthat wood is a \nlayered structure, or perhaps inferring \nits layered \nstructure \nfrom \nelsewhere in the picture \ncould \nhelp to rule out interpretation \n(b). Beyond that, \nthe ‘correct’ interpretation \ncould be very task de- \npendent. \nIn many domains, \nsuch as analyzing \nseismic data, the choice of interpretation \ncan de- \npend on expert knowledge. \nDifferent \nseismic in- \nterpreters can derive significantly \ndifferent \nper- \nceptual \norganizations \nfrom \nthe same seismic \nsections \ndepending \non their \nknowledge \nand \ntraining. \nBecause a single ‘correct’ interpretation \ncannot always be defined, we suggest low-level \nmechanisms \nwhich seek appropriate \nlocal min- \nima instead of searching \nfor global minima. \nUnlike \nmost \nother \ntechniques \nfor finding \nsalient contours, our model is active. It is always",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                285.73797607421875,
+                466.1214904785156,
+                501.9147644042969,
+                695.875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "92c872d3842b6ab484c64aef1513eae1",
+        "text": "minimizing \nits energy functional \nand therefore \nexhibits \ndynamic \nbehavior. \nBecause of the way \nthe contours \nslither while minimizing \ntheir en- \nergy, we call them snakes. Changes in high-level \ninterpretation \ncan exert forces on a snake as it \ncontinues \nits minimization. \nEven in the absence \nof such forces, snakes exhibit hysteresis when ex- \nposed to moving \nstimuli. \nSnakes do not try to solve the entire problem \nof \nfinding \nsalient \nimage \ncontours. \nThey rely on \nother \nmechanisms \nto place \nthem \nsomewhere \nnear the desired contour. However, even in cases \nwhere no satisfactory \nautomatic \nstarting \nmech- \nanism exists, snakes can still be used for semi- \nautomatic \nimage interpretation. \nIf an expert user \npushes a snake close to an intended \ncontour, its \nenergy minimization \nwill carry it the rest of the \nway. The minimization \nprovides a ‘power assist’ \nfor a person pointing \nto a contour feature. \nSnakes are an example of a more general tech- \nnique \nof matching \na deformable \nmodel \nto an \nimage by means of energy minimization. \nIn spirit \nand motivation, \nthis idea shares much with the \nrubber templates of Widrow \n[23]. From any start- \ning point, the snake deforms itself into conform- \nity with the nearest salient contour. We have ap- \nplied the same basic techniques \nto the problem \nof \n3D object \nreconstruction \nfrom \nsilhouettes \nby \nusing energy minimizing \nsurfaces with preferred \nsymmetries \n[ 171. We expect this general approach \nwill find a wide range of applicability \nin vision. \nIn section 2 we present a basic mathematical \ndescription \nof snakes along \nwith \ntheir \nEuler \nequations. Then in section 3 we give details of the \nenergy terms that can make a snake attracted to \ndifferent \ntypes of important \nstatic, monocular \nfeatures such as lines, edges, and subjective con- \ntours. Section \n4 addresses the applicability \nof \nsnake models to stereo correspondence \nand mo- \ntion tracking. \nFinally, \nsection 5 discusses further \nrefinements \nand directions \nof our current work.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                45.00419616699219,
+                92.12149810791016,
+                261.93560791015625,
+                591.875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "467c07f3feecceb5b856b8d28ed239cc",
+        "text": "2 Basic Snake Behavior",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                45.00395202636719,
+                616.3715209960938,
+                145.68325805664062,
+                628.625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "66b6ee3f8c112b25c7f4e80ea47163d9",
+        "text": "Our basic snake model \nis a controlled continuity \n[18] spline under the influence \nof image forces \nand \nexternal \nconstraint \nforces. The \ninternal \nspline forces serve to impose a piecewise smooth- \nness constraint. \nThe image forces push the snake",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                45.002685546875,
+                640.3715209960938,
+                259.6789855957031,
+                700.625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "efb29303500e5a71fa898530cd5565ac",
+        "text": "Snakes \n323",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                434.25,
+                59.121498107910156,
+                499.6803894042969,
+                72.125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4fae2fbbb89ec16551e7ac23a0fc46a7",
+        "text": "toward salient \nimage \nfeatures like lines, edges, \nand subjective contours. The external constraint \nforces are responsible \nfor putting \nthe snake near \nthe desired local minimum. \nThese forces can, for \nexample, \ncome from a user interface, \nautomatic \nattentional \nmechanisms, \nor high-level \ninterpre- \ntations. \nRepresenting \nthe position \nof a snake paramet- \nrically by v(s) = (x(s), y(s)), we can write its energy \nfunctional \nas",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                284.2447814941406,
+                92.12149810791016,
+                498.9213562011719,
+                213.875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1deacd6e38bc47ec95407a71fcc68712",
+        "text": "= o1 Ei,t(v(s)) \n+ Eim&V(S)) \nI \n+ Eccintv(s)) \nds \n(1)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                321.0,
+                252.3695068359375,
+                507.37890625,
+                297.125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b8b3f59188af182ae4b1970c2f728fac",
+        "text": "where Eint represent the internal \nenergy of the \nspline \ndue to bending, \nEimage gives rise to the \nimage forces, and E,,, gives rise to the external \nconstraint \nforces. In this section, we develop Eini \nand give examples \nof E,,, for interactive \ninter- \npretation. \nEimage is developed \nin section 3.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                284.9994201660156,
+                299.1214904785156,
+                499.6754150390625,
+                372.875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f89e793fc017c45c0d1a855dd81ec41b",
+        "text": "2.1 Internal \nEnergy",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                284.99932861328125,
+                397.3714904785156,
+                366.9290466308594,
+                409.625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bda8373f13fa37efbd5c2f5ab05a9e0f",
+        "text": "The internal \nspline energy can be written",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                285.74981689453125,
+                421.3714904785156,
+                467.4271240234375,
+                433.625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "47f1267e650ace7aa2982dc88072996f",
+        "text": "Eint = (~(shts)12 + P(~>1W>12V2 \n(2)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                294.75,
+                438.8705139160156,
+                498.00543212890625,
+                454.625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "24e9bf851b14ae76c25de2f32abf21ec",
+        "text": "The spline energy is composed \nof a first-order \nterm controlled \nby a(s) and a second-order \nterm \ncontrolled \nby p(s). The first-order term makes the \nsnake act like a membrane \nand the second-order \nterm makes it act like a thin plate. Adjusting \nthe \nweights a(s) and p(s) controls the relative impor- \ntance of the membrane \nand thin-plate \nterms. Set- \nting p(s) to zero at a point \nallows the snake to \nbecome second-order \ndiscontinuous \nand develop \na corner. The controlled \ncontinuity \nspline is a \ngeneralization \nof a Tikonov \nstabilizer \n[19] and \ncan formally \nbe regarded \nas regularizing \n[14,15] \nthe problem. \nDetails \nof our minimization \nprocedure \nare \ngiven in the appendix. \nThe procedure is an O(n) \niterative technique \nusing sparse matrix \nmethods. \nEach iteration \neffectively \ntakes implicit \nEuler \nsteps with respect to the internal \nenergy and ex- \nplicit \nEuler steps with respect to the image and \nexternal \nconstraint \nenergy. The numeric \ncon-",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                285.752685546875,
+                458.1214904785156,
+                501.9281311035156,
+                701.375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e9b4ef651e5b82470ba7c32fafc11f14",
+        "text": "324 \nKass, Witkin, and Terzopoulos",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                45.479400634765625,
+                59.70777893066406,
+                212.42869567871094,
+                73.96378326416016
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fa1b7247dd00b97739d92868a8625f81",
+        "text": "siderations are relatively important. In a fully ex- \nplicit Euler method, it takes 0(n2) iterations each \nof O(n) time for an impulse to travel down the \nlength of a snake. The resulting snakes are flac- \ncid. In order to erect more rigid snakes, it is vital \nto use a more stable method that can accom- \nmodate the large internal forces. Our semi- \nimplicit method allows forces to travel the entire \nlength of a snake in a single O(n) iteration.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                44.037811279296875,
+                89.14193725585938,
+                261.85198974609375,
+                201.88308715820312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "aa8d16f69c0dc075dce64b187c348422",
+        "text": "2.2 Snake Pit",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                43.799598693847656,
+                223.74618530273438,
+                104.07026672363281,
+                238.16419982910156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2c09db86b8cf9c5a57e01d820a39abff",
+        "text": "In order to experiment with different energy \nfunctions for low-level visual tasks, we have \ndeveloped a user-interface for snakes on a Sym- \nbolic~ Lisp Machine. The interface allows a user \nto select starting points and exert forces on \nsnakes interactively as they minimize their en- \nergy. In addition to its value as a research tool, \nthe user-interface has proven very useful for \nsemiautomatic image interpretation. In order to \nspecify a particular image feature, the user has",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                43.80027770996094,
+                247.32476806640625,
+                262.0523986816406,
+                372.3241271972656
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "907d0435dd276340cec9e2632377a013",
+        "text": "Fig. 2. The Snake Pit user-interface. Snakes are shown in black, springs and the volcano are in white.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                44.039100646972656,
+                685.7023315429688,
+                421.67047119140625,
+                698.8963012695312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3d1ae8f95d9b050e377d720aa0e76530",
+        "text": "only to push a snake near the feature. Once close \nenough, the energy minimization will pull the \nsnake in the rest of the way. Accurate tracking of \ncontour features can be specified in this way with \nlittle more effort than pointing. The snake energy \nminimization provides a 'power assist' for \nimage interpretation. \nOur interface allows the user to connect a \nspring to any point on a snake. The other end of \nthe spring can be anchored at a fixed position, \nconnected to another point on a snake, or \ndragged around using the mouse. Creating a \nspring between x, and x, \nsimply adds \n-k(x, - xJ2 to the external constraint energy",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                280.43988037109375,
+                89.6434097290039,
+                500.1468811035156,
+                263.3395080566406
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "30ccbafe3c7658bc33fd036ccf462151",
+        "text": "- K O , .",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                281.6393127441406,
+                269.1842956542969,
+                298.39495849609375,
+                275.1783142089844
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0e2cced8f766ddc676a065d2ff8d3dc4",
+        "text": "In addition to springs, the user interface pro- \nvides a I/? repulsion force controllable by the \nmouse. The l/r energy functional is clipped near \nr = 0 to prevent numerical instability, so the \nresulting potential is depicted by a volcano icon. \nThe volcano is very useful for pushing a snake \nout of one local minimum and into another. \nFigure 2 shows the snake-pit interface being",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                282.1199035644531,
+                272.28466796875,
+                499.7430419921875,
+                372.5660400390625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ab8529b52b8e245a8a5565bac2987ea3",
+        "text": "used. The two dark lines \nare different \nsnakes \nwhich the user has connected \nwith two springs \nshown in white. The other springs attach points \non the snakes to fixed positions \non the screen. In \nthe upper right, the volcano can be seen bending \na nearby snake. Each of the snakes has a sharp \ncorner which has been specified by the user.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                44.24995422363281,
+                91.87149810791016,
+                258.1758117675781,
+                176.875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8e7ea7d066d7aec38979886159ad5188",
+        "text": "3 Image Forces",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                44.99958801269531,
+                201.3715057373047,
+                113.42938995361328,
+                213.625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "dc992a0d53a9cb935b08536909e4005d",
+        "text": "In order to make snakes useful for early vision we \nneed energy \nfunctionals \nthat \nattract \nthem \nto \nsalient features in images. In this section, we pre- \nsent three different energy functionals \nwhich at- \ntract a snake to lines, edges, and terminations, \nThe total \nimage \nenergy can be expressed \nas \na weighted \ncombination \nof the three energy \nfunctionals",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                44.24830627441406,
+                226.1215057373047,
+                261.17510986328125,
+                323.125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7c718755b2c3ac349e66fc8e072b9c0b",
+        "text": "Fig. 3. Two edge snakes on a pear and potato. Upper-left: The \nuser has pulled one of the snakes away from the edge of the \npear. Others: After the user lets go, the snake snaps back to the \nedge of the pear.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                44.24983215332031,
+                659.4970092773438,
+                259.254150390625,
+                700.0
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "08a2b8d620bd615915d765985fa9b244",
+        "text": "Snakes \n325",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                433.4864501953125,
+                61.121498107910156,
+                498.9168395996094,
+                74.125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "53112239af8a8d0c2c7b52a84f17172b",
+        "text": "By adjusting \nthe weights, a wide range of snake \nbehavior \ncan be created.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                282.74090576171875,
+                128.6215057373047,
+                495.9167785644531,
+                152.875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c989e434348f09307289b313bcba86b0",
+        "text": "3.1 Line Functional",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                282.7409362792969,
+                177.3715057373047,
+                361.6709289550781,
+                189.625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "80c1329c83e321982e0acc0861e8f698",
+        "text": "The \nsimplest \nuseful \nimage \nfunctional \nis the \nimage intensity \nitself. If we set",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                282.7406921386719,
+                201.3715057373047,
+                497.4166259765625,
+                226.375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "12f39b4183a194b0fed5f84f5e5016a1",
+        "text": "Eline = 1(X, Y) \n(4)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                292.4901428222656,
+                232.8715057373047,
+                497.41632080078125,
+                245.875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "38a341abd24e7e65364366fc1fdd6e2a",
+        "text": "then depending \non the sign Of Wline, the snake will \nbe attracted \neither to light \nlines or dark lines. \nSubject to its other constraints, \nthe snake will try \nto align itself with the lightest or darkest nearby \ncontour. \nThis energy functional \nwas used with \nthe snakes shown in figure 1. By pushing with the",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                282.74017333984375,
+                250.1215057373047,
+                498.1659240722656,
+                323.875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b7dac3e332c76f7358f63b5b25814184",
+        "text": "326 \nKass, Witkin, \nand Terzopoulos",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.75,
+                59.871498107910156,
+                207.75369262695312,
+                72.125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1e9cd68b2ea31bcff96866a2fa96af00",
+        "text": "volcano, \na user can rapidly \nmove a snake from \none of these positions \nto another. The coarse con- \ntrol necessary to do so suggests that symbolic \nat- \ntentional \nmechanisms \nmight \nbe able to guide a \nsnake effectively.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                47.248779296875,
+                89.87149810791016,
+                263.4242248535156,
+                151.625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a50acc90c3f795002a8a86fe4a8844de",
+        "text": "3.2 Edge Functional",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                47.248291015625,
+                176.8092498779297,
+                127.50402069091797,
+                188.1875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e9409c1a2d9745af68e3fe28994181e5",
+        "text": "Finding \nedges in an image can also be done with \na very simple energy functional. \nIf we set Eedge = \n-]Vl(x,y)]‘, \nthen the snake is attracted \nto con- \ntours with large image gradients. An example of \nthe use of this functional \nis shown in figure 3. In \nthe upper left, a user has placed two snakes on \nthe edges of the pear and potato. He has then \npulled part of the snake off the pear with a spring. \nThe \nremaining \npictures \nshow what happens \nwhen he lets go. The snake snaps back rapidly to \nthe boundary \nof the pear.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                46.49626159667969,
+                200.1215057373047,
+                261.9232482910156,
+                335.375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1aafba7adaec6aaf3b88ae5592405516",
+        "text": "3.3 Scale Space",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                45.74629211425781,
+                359.8714904785156,
+                113.25296783447266,
+                372.125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d82add16332a2bb5ae0cf042449b554b",
+        "text": "In figure 3, the snake was attracted \nto the pear \nboundary \nfrom a fairly large distance away be- \ncause of the spline energy term. This type of con- \nvergence is rather common \nfor snakes. If part of a \nsnake \nfinds \na low-energy \nimage \nfeature, \nthe \nspline \nterm will pull \nneighboring \nparts of the \nsnake toward a possible continuation \nof the fea- \nture. This effectively places a large energy well \naround \na good local minimum. \nA similar \neffect \ncan be achieved by spatially \nsmoothing \nthe edge- \nor line-energy \nfunctional. \nOne can allow \nthe \nsnake to come to equilibrium \non a very blurry en- \nergy functional \nand then slowly reduce the blur- \nring. The result is minimization \nby scale-con- \ntinuation \n[20,21]. \nIn order to show the relationship \nof scale-space \ncontinuation \nto the Marr-Hildreth \ntheory \nof \nedge-detection \n[lo], we have experimented \nwith a \nslightly \ndifferent \nedge functional. \nThe \nedge- \nenergy functional \nis",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                44.9930419921875,
+                383.8714904785156,
+                261.9214172363281,
+                627.125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "92d0597dfd66e315f182f452a811c7c3",
+        "text": "Eline = -(Go \n* V21)* \n(5)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.74274444580078,
+                633.6215209960938,
+                260.4189453125,
+                647.375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9c8ca25dc896c573c47d69da7b6f684f",
+        "text": "where G, is a Gaussian \nof standard deviation \no. \nMinima \nof this functional \nlie on zero-crossings \nof G, * V21 which \ndefine \nedges in the Marr-",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                45.742340087890625,
+                651.6215209960938,
+                261.16851806640625,
+                687.875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6aad6ff54247cf15689292de7dce4123",
+        "text": "Hildreth \ntheory. Adding \nthis energy term to a \nsnake means that the snake is attracted to zero- \ncrossings, \nbut \nstill \nconstrained \nby \nits own \nsmoothness. \nFigure \n4 shows scale-space con- \ntinuation \napplied \nto this energy functional. \nThe \nupper left shows the snake in equilibrium \nat a \nvery coarse scale. Since the edge-energy function \nis very blurred, \nthe snake does a poor job of \nlocalizing \nthe edge, but is attracted to this local \nminimum \nfrom very far away. Slowly reducing \nthe blurring \nleads the snake to the position \nshown in the upper right and finally \nto the posi- \ntion shown in the lower left For reference, the \nzero-crossings \nof G, * V*I corresponding \nto the \nenergy function \nof the snake in the lower left are \nshown superimposed \non the same snake in the \nlower right. Note that the snake jumps \nfrom one \npiece of a zero-crossing \ncontour \nto another. At \nthis scale, the shapes of the zero-crossings \nare \ndominated \nby the small-scale \ntexture rather than \nthe region boundary, \nbut the snake nevertheless \nis able to use the zero-crossings \nfor localization \nbecause of its smoothness \nconstraint.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                284.9827880859375,
+                90.62149810791016,
+                501.15948486328125,
+                370.625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4c2108c8247c9ed1582595b6ff0e087f",
+        "text": "3.4 Termination \nFunctional",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                284.9826354980469,
+                389.05926513671875,
+                396.7374267578125,
+                400.4375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9976a44600a68cf9b280322b2d1d467a",
+        "text": "In order to find terminations \nof line segments \nand corners, we use the curvature of level lines in",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                285.7325744628906,
+                412.3714904785156,
+                498.9082946777344,
+                437.375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "427944d9711acfef1fbf204d03463f87",
+        "text": "Fig. 4. Upper-left: Edge snake in equilibrium \nat coarse scale. \nUpper-right: \nSnake in equilibrium \nat intermediate \nscale. \nLower-left: \nFinal snake equilibrium \nafter scale-space con- \ntinuation. \nLower-right: \nZero-crossings \noverlayed on final \nsnake position.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                282.75,
+                635.7470092773438,
+                500.00396728515625,
+                686.75
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "760fa1c378227569ddf9f70daad79339",
+        "text": "a slightly smoothed image. Let C(x, JJ) = G,(x, JJ) * \n1(x, y) be a slightly \nsmoothed \nversion \nof the \nimage. Let 8 = tan-’ (C,/CJ be the gradient angle \nand let n = (cos 8, sin 0) and n, = (-sin \n8, cos 0) \nbe unit vectors along and perpendicular \nto the \ngradient direction. \nThen the curvature of the level \ncontours in C(x, y) can be written",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                44.24946594238281,
+                92.12149810791016,
+                261.1751708984375,
+                177.125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f22846e1e3cbc9a4a44ca98e7a78330a",
+        "text": "= d2Cldn:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                78.75,
+                213.74600219726562,
+                128.10800170898438,
+                227.75
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f5b3d7237d8b2639ab6c6ba5dc420c4b",
+        "text": "dC/dn",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                95.25,
+                228.5592498779297,
+                118.5078353881836,
+                239.9375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "475e907049ae8f2d69e6be51a0535074",
+        "text": "= c,,c~ \n- 2cxycxcy + c&",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                78.75049591064453,
+                245.8715057373047,
+                195.17933654785156,
+                264.125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6927e1bfab3e970829b8b24f5f8772a1",
+        "text": "(C,’ + cy \n(8)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                122.9996337890625,
+                257.05926513671875,
+                258.0042419433594,
+                273.125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a20501507c3a5bcccd54d92568b333d6",
+        "text": "By combining \nEedge and Etem, we can create a \nsnake that is attracted to edges or terminations. \nFigure 5 shows an example \nof such a snake ex- \nposed to a standard \nsubjective \ncontour \nillusion \n[7]. The shape of the snake contour between the \nedges and lines in the illusion \nis entirely \ndeter- \nmined by the spline smoothness term. The varia- \ntional problem \nsolved by the snake is very closely \nrelated to a variational \nformulation \nproposed by \nBrady et al. [2] for the interpolation \nof subjective \ncontours. Ullman’s \n[22] proposal of interpolating",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                44.99971008300781,
+                279.6214904785156,
+                261.17779541015625,
+                413.375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "148205daf3825860d0c53057cb4f41a5",
+        "text": "Fig. \n5. Right: \nStandard \nsubjective \ncontour \nillusion. \nLeft:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                45.0,
+                660.3724975585938,
+                256.56298828125,
+                669.125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "87b71c9ca5db2439058250cec4684196",
+        "text": "Edge/termination \nsnake \nin equilibrium \non \nthe \nsubjective",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                45.75,
+                670.8724975585938,
+                251.31304931640625,
+                679.625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a8b8b8060f89834e98f7fe8c89915a9f",
+        "text": "contour.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                45.75,
+                680.6224975585938,
+                66.81368255615234,
+                689.375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d0f421ac3637cca351d07b605133c399",
+        "text": "Snakes \n327",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                431.988037109375,
+                59.871498107910156,
+                497.4184265136719,
+                73.625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "31c927a5422b24f1e5200b43d0c14c53",
+        "text": "using \npiecewise circular \narcs would \nprobably \nalso produce a very similar \ninterpolation. \nAn ap- \npealing \naspect of the snake model \nis that the \nsame snake that finds subjective \ncontours \ncan \nvery effectively \nfind more traditional \nedges in \nnatural imagery. It may, moreover, provide some \ninsight into why the ability \nto see subjective con- \ntours is important. \nA further unusual \naspect of the snake model \nthat bears on the psychophysics \nof subjective \ncontours is hystheresis. Since snakes are constan- \ntly minimizing \ntheir energy, they can exhibit hys- \nteresis when shown moving \nstimuli. \nFigure \n6 \nshows a snake tracking \na moving \nsubjective con- \ntour. As the horizontal \nline segment on the right \nmoves over, the snake bends more \nand more \nuntil \nthe internal \nspline \nforces overpower \nthe \nimage forces. Then the snake falls off the line and \nreverts to a smoother \nshape. Bringing \nthe line \nsegment \nclose enough \nto the snake makes the \nsnake reattach. While \nit is difficult \nto show the \nhysteresis in a still picture, the reader can easily \nverify the corresponding \nhysteresis in human \nvi- \nsion by recreating the moving \nstimulus, This type \nof hysteresis is uncharacteristic \nof purely bottom- \nup processes and global optimizations.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                282.7388610839844,
+                92.12149810791016,
+                499.6667175292969,
+                409.625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ec53c799d5c42dbcf07de5a605132955",
+        "text": "328 \nKass, Witkin, and Terzopoulos",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                45.75,
+                59.871498107910156,
+                207.17727661132812,
+                72.125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1407755ddf4a83bb78b7a5bb0224d253",
+        "text": "Fig. 6. Above left: Dynamic subjective contour illusion. Se- \nquence is left to right, top to bottom. Above Right: Snake at- \ntracted to edges and terminations. \nAs the moving horizontal",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                45.0,
+                412.99700927734375,
+                261.50390625,
+                443.75
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "53b7d073942214c424f168d2cacb8e95",
+        "text": "4 Stereo and Motion",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                45.0,
+                477.55926513671875,
+                135.4606475830078,
+                488.9375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ca7074955e95ceb70ed277ac8a92dde1",
+        "text": "4.1 Stereo",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                45.0,
+                514.3715209960938,
+                88.680908203125,
+                526.625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4f987990b151dbe1391b27ea95a36316",
+        "text": "Snakes can also be applied \nto the problem \nof \nstereo matching. \nIn stereo, if two contours corre- \nspond, then \nthe disparity \nshould \nvary slowly \nalong \nthe contour \nunless the contour \nrapidly \nrecedes in depth. Psychophysical \nevidence [4] of \na disparity gradient limit \nin human \nstereopsis in- \ndicates that the human \nvisual system at least to \nsome degree assumes that \ndisparities \ndo not \nchange too rapidly \nwith space. This constraint \ncan be expressed in an additional \nenergy func- \ntional \nfor a stereo snake:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                44.99726867675781,
+                538.3715209960938,
+                261.1756286621094,
+                671.375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7d28c71886a87915b8ad36293c11ece7",
+        "text": "E stereo = (ad \n- v3a2 \n(9)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.747047424316406,
+                677.1215209960938,
+                259.673095703125,
+                690.875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "aa9bb54d1ee8cf4a030cc41d085ae7c3",
+        "text": "line slides to the right, the snake bends until it falls off the \nline. Bringing the line close enough makes the snake reattach.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                279.75128173828125,
+                412.99700927734375,
+                494.7555847167969,
+                434.0
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "07584a063a4ac73340f1b70f7adf7034",
+        "text": "where v$) \nand @(,s) are left and right \nsnake \ncontours. \nSince the disparity \nsmoothness \nconstraint \nis \napplied \nalong contours, it shares a strong simi- \nlarity with Hildreth’s \n[8] smoothness \nconstraint \nfor computing \noptic flow. This constraint \nmeans \nthat during the process of localizing \na contour in \none eye, information \nabout the corresponding \ncontour in the other eye is used. In stereo snakes, \nthe stereo match \nactually \naffects the detection \nand localization \nof the features on which the \nmatch is based. This differs importantly, \nfor ex- \nample, \nfrom the Marr-Poggio \nstereo theory [12] \nin which the basic stereo matching \nprimitive \nzero-crossings \nalways remain \nunchanged \nby the \nmatching \nprocess. \nFigure \n7 shows an example \nof a 3D surface \nreconstructed \nfrom disparities \nmeasured along a",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                281.98828125,
+                473.1214904785156,
+                498.165771484375,
+                690.125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3647702d211bad13e314b909c7519706",
+        "text": "Fig. 7. Bottom: Stereogram of a bent piece of paper. Below: \nSurface reconstruction from the outline of the paper matched \nusing stereo snakes. The surface model is rendered from a \nvery different viewpoint than the original to emphasize that it \nis a full 3D model, rather than a 2SD model.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                45.0,
+                280.24700927734375,
+                261.50372314453125,
+                331.25
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "aae4166d9d852e2349f7df07a7acb8d1",
+        "text": "Fig. 8. Selected frames from a 2-second video sequence show- \ning snakes used for motion tracking. After being initialized \nto \nthe speaker’s lips in the first frame, the snakes automatically \ntrack the lip movements with high accuracy.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                44.25,
+                674.7470092773438,
+                493.2568664550781,
+                695.75
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "addbaa57727d0a7ffaa5802ae74f8534",
+        "text": "Snakes \n329",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                431.25,
+                60.621498107910156,
+                496.6803894042969,
+                72.875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4de0d4a9b16db2e2202b4fd5ffce9af4",
+        "text": "single stereo snake on the outline \nof a piece of \npaper. The surface is rendered \nfrom a very dif- \nferent viewpoint \nthan the original \nto emphasize \nthat a 3D model \nof the piece of paper has been \ncomputed \nrather than merely a 2.5D model.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                282.74908447265625,
+                92.12149810791016,
+                498.17529296875,
+                153.875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b6f4e426d119fadf6ad70a1d4d633efe",
+        "text": "4.2 Motion",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                282.74884033203125,
+                178.3715057373047,
+                325.6800231933594,
+                190.625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b3c1b377db5e5c0a71301608209a8602",
+        "text": "Once a snake finds a salient visual \nfeature, it \n‘locks on.’ If the feature then begins to move \nslowly, the snake will simply track the same local \nminimum. \nMovement \nthat is too rapid can cause \na snake to flip into a different \nlocal minimum, \nbut for ordinary \nspeeds and video-rate \nsampling, \nsnakes do a good job of tracking motion. \nFigure 8 \nshows eight selected frames out of a two-second \nvideo sequence. Edge-attracted \nsnakes were in- \nitialized \nby hand on the speaker’s lips in the first \nframe. After \nthat, the snakes tracked \nthe lip \nmovements \nautomatically. \nThe motion \ntracking \nwas done in this case \nwithout \nany interframe \nconstraints. \nIntroducing \nsuch constraints will doubtless make the tracking",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                283.49676513671875,
+                201.6215057373047,
+                499.6736145019531,
+                385.625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d3b36f40a67ce430d96c570533432b13",
+        "text": "330 \nKass, witkin, \nand Terzopoulos",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.0,
+                61.621498107910156,
+                203.42727661132812,
+                73.875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d1c8908a3c5d1bff17a0d2e585ab6634",
+        "text": "more robust. A simple way to do so is to give the \nsnake mass. Then the snake will predict its next \nposition \nbased on its previous velocity.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                43.499786376953125,
+                91.62149810791016,
+                258.1758728027344,
+                127.875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6139682dd67e157b06b3c0f112a93589",
+        "text": "5 Conclusion",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                43.49986267089844,
+                152.3715057373047,
+                96.93030548095703,
+                164.625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "66a3accbf90a4796d418b11e617819a5",
+        "text": "Snakes have proven useful for interactive \nspeciti- \ncation of image contours. We have begun to use \nthem \nas a basis for interactively \nmatching \n3D \nmodels \nto images. As we develop better energy \nfunctionals \nthe ‘power assist’ of snakes becomes \nincreasingly \neffective. Scale-space continuation \ncan greatly enlarge \nthe capture region \naround \nfeatures of interest. \nThe snake model provides a unified \ntreatment \nto a collection \nof visual problems \nthat have been \ntreated differently \nin the past. Edges, lines, and \nsubjective \ncontours \ncan all be found by essen- \ntially the same mechanisms. \nTracking \nthese fea- \ntures through \nmotion \nand matching \nthem \nin \nstereo is easily handled \nin the same framework. \nSnakes, perhaps, \nembody \nMar-r’s notion \nof \n‘least commitment’ \n[9] more than his bottom-up \n2.5D sketch. The snake provides \na number \nof \nwidely separated local minima \nto further levels of \nprocessing. Instead of committing \nirrevocably \nto \na single interpretation, \nsnakes can change their \ninterpretation \nbased on additional \nevidence from \nhigher levels of processing. They can, for exam- \nple, adjust \nmonocular \nedge-finding \nbased on \nbinocular \nmatches. \nWe believe that the ability to have all levels of \nvisual \nprocessing \ninfluence \nthe lowest-level \nvi- \nsual interpretations \nwill turn out to be very im- \nportant. \nLocal \nenergy-minimizing \nsystems like \nsnakes offer an attractive \nmethod \nfor doing this. \nThe energy minimization \nleaves a much simpler \nproblem \nfor higher level processing.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.74462890625,
+                176.3715057373047,
+                258.9256591796875,
+                567.375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2e35751ee160873c723b14086b76ab01",
+        "text": "Acknowledgments",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.744300842285156,
+                591.8715209960938,
+                112.67400360107422,
+                604.125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9b0c9c3d9d9e5d704bf6703a655996f5",
+        "text": "Kurt Fleischer \nhelped greatly with the snake pit \nuser-interface \nand created the all-important \nvol- \ncano icon. John Platt \nhelped us develop \nsnake \ntheory and guided us around the infinite \nabyss of \nnumerical \nmethods. \nSnake-lips \nAtkinson \npro- \nvided the visual motion \nstimulus.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.74397277832031,
+                616.6215209960938,
+                258.9198913574219,
+                688.125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "24830d9e59c894c3fd93aa3ee856ad97",
+        "text": "Appendix: \nNumerical \nMethods",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                281.23651123046875,
+                91.62149810791016,
+                409.665283203125,
+                103.875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cfb146f22cb550e7070956d02bdf2061",
+        "text": "Let E,, = Eimage + E,,,. When a(s) = ~1, and p(s) = \nl3 are constants, \nminimizing \nthe energy func- \ntional \nof equation \n(1) gives rise to the following \ntwo independent \nEuler equations:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                281.2362976074219,
+                115.62149810791016,
+                495.16241455078125,
+                164.625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "19d8385e32059265ad1e51d383bda928",
+        "text": "dE ext \nass \n+ Px,,,, + __ \n- \nax \n- 0",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                292.5,
+                171.7469940185547,
+                401.75262451171875,
+                195.75
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7ae2ccfc949e0e768d7e229f6d50b273",
+        "text": "(10)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                477.0,
+                176.55825805664062,
+                499.6015625,
+                191.4375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3f78bf77f4fe29d0179415c9b3742abe",
+        "text": "UYSS + PYSSSS + ___ \n- \naE \n0 \next _",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                293.2496643066406,
+                205.4969940185547,
+                401.7519226074219,
+                222.0
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6d5d7252579c3030f95b5a42f54199d0",
+        "text": "(11)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                477.0,
+                208.05825805664062,
+                499.6015625,
+                222.9375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4c9db45b82231498c51895fddd52e8f4",
+        "text": "ay",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                365.2499084472656,
+                218.9969940185547,
+                375.5015563964844,
+                229.5
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "27e6c25db0b153e8a4b8f776303487b6",
+        "text": "When a(s) and /3(s) are not constant, it is sim- \npler to go directly to a discrete formulation \nof the \nenergy functional \nin equation \n(2). Then we can \nwrite",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                281.24969482421875,
+                233.3715057373047,
+                495.9256591796875,
+                282.375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "31cb87cf81d17f141cc1475ce0346143",
+        "text": "Es*nake \n= $I Edi) + %X0 \n(12)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                291.0,
+                291.5572509765625,
+                496.21038818359375,
+                309.9375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "df1de320bbbf0197d9d38d00617b88c5",
+        "text": "Approximating \nthe derivatives \nwith finite dif- \nferences and converting \nto vector notation \nwith vi \n= (xi, yj) = (x(ih), y(ih)), we expand E&i)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                282.00030517578125,
+                318.8714904785156,
+                498.176025390625,
+                355.875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7927d39473906175b4d5b441266966f4",
+        "text": "Ei,t(i) \n= UilVi \n- \nVi-112/2h2",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                290.99932861328125,
+                361.6214904785156,
+                384.5010070800781,
+                373.875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8d0c115d31dc1cc5df382fae562f3186",
+        "text": "+ pilvi-l \n- 2vi + v;+,(2/2h4 \n(13)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                331.5,
+                380.3714904785156,
+                491.0028381347656,
+                393.75
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "10153d1a54bacd27d002519ec765a938",
+        "text": "where we define v(0) = v(n). Let fX(i) = aEexJdxi \nandfy(i) = aE,,@yj where the derivatives \nare ap- \nproximated \nby a finite difference \nif they cannot \nbe computed \nanalytically. \nNow the correspond- \ning Euler equations \nare",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                281.2492980957031,
+                398.3714904785156,
+                495.92523193359375,
+                459.375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "273808399a132db4b16618cc3014ce87",
+        "text": "ai(vi \n- \nvi-l> \n- \nai+l(v;+l \n- \nvi)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                291.75,
+                471.49798583984375,
+                413.75054931640625,
+                478.5
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d952825f3fee8c52bf55e4aba933d3fd",
+        "text": "+ \npj-,[Vj-2 \n- \n2Vj-l \n+ Vj]",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                358.499755859375,
+                485.24700927734375,
+                464.0018005371094,
+                495.75
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ac954b11331d26778f55c18276322a78",
+        "text": "- 2pj[Vj-l \n- 2V; + Vi+,]",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                358.4988708496094,
+                503.99700927734375,
+                458.00152587890625,
+                514.5
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "39c19d3fbde3cd02748294df979d4f15",
+        "text": "+ \nPi+l[vi \n- \n2vi+l \n+ vi+21",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                358.5,
+                522.8092651367188,
+                469.21051025390625,
+                534.1875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0700dee6ea885b0adaba9cf8f97cc7a6",
+        "text": "+ urwfYG)) \n= 0 \n(14)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                358.5,
+                540.8715209960938,
+                494.4319152832031,
+                553.125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "75eb0411880cbaf49d5e4ee07ed2ac57",
+        "text": "The above Euler equations \ncan be written in ma- \ntrix form as",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                281.2558288574219,
+                560.3715209960938,
+                494.43182373046875,
+                585.375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bfb5c95abf83862be35dbc25d615027b",
+        "text": "Ax + fX(x, y) = 0 \n(15)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                291.7555236816406,
+                591.1215209960938,
+                494.43170166015625,
+                605.625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "05d71fb6ca027204e65f3dc74a795ad8",
+        "text": "AY + f&x, Y> = 0 \n(16)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                292.5052490234375,
+                610.6215209960938,
+                496.21038818359375,
+                623.4375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "75481fd5d4c799725f5bb5f0500084f0",
+        "text": "where A is a pentadiagonal \nbanded \nmatrix. \nTo solve equations \n(15) and (16), we set the \nright-hand \nsides of the equations \nequal to the \nproduct \nof a step size and the negative \ntime \nderivatives of the left-hand \nsides. Taking \ninto ac-",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                281.2490234375,
+                627.1215209960938,
+                495.9249267578125,
+                687.375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9a347d98fc261f99bd66eb48e91589a6",
+        "text": "count derivatives of the external forces we use re- \nquires changing \nA at each iteration, \nso we achieve \nfaster iteration \nby simply assuming \nthat f, and f, \nare constant during a time step. This yields an ex- \nplicit \nEuler method \nwith respect to the external \nforces. The internal \nforces, however, are com- \npletely specified by the banded matrix, so we can \nevaluate the time derivative \nat time t rather than \ntime \nt - 1 and therefore \narrive \nat an implicit \nEuler step for the internal \nforces. The resulting \nequations \nare",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                45.011566162109375,
+                91.37149810791016,
+                261.18743896484375,
+                225.125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "10f9e85ba2ae9c1085906f560e581ab3",
+        "text": "Ax, + fx(xz-1, y,-d = -r(xt \n- x,-J \n(17)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                55.5,
+                231.05825805664062,
+                258.9282531738281,
+                246.125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4d8a62e5cc027fc2f6fca8394e153f0f",
+        "text": "AY, + f&1, \nY,-I) = -Y(Y, - Y,-I>",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                57.00175476074219,
+                251.8715057373047,
+                210.9293670654297,
+                264.125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "92fcf914cc5ae04a4b8515b23e70351e",
+        "text": "where y is a step size. At equilibrium, \nthe time \nderivative \nvanishes and we end up with a solu- \ntion of equations \n(15) and (16). \nEquations \n(17) and (1X) can be solved by ma- \ntrix inversion:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                45.75048828125,
+                268.3714904785156,
+                258.9269714355469,
+                329.375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a94f031a661a02d10ce587b36b9b4ebf",
+        "text": "x, = (A + YU-‘(L, \n- f&-,,yt-J) \n(19)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                55.5,
+                335.2460021972656,
+                258.9319763183594,
+                349.625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "aed53e6ae25eef7a9151a1b662446aff",
+        "text": "Y< = (A + YI)-‘(Y,-, \n- fyCu~,-1)) \n(20)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                55.5,
+                354.6214904785156,
+                260.7104187011719,
+                368.1875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b281f2f8e70a09a263f8318931afdd37",
+        "text": "The matrix \nA + yI is a pentadiagonal \nbanded \nmatrix, \nso its inverse can be calculated \nby LU \ndecompositions \nin O(n) time [6,1]. Hence equa- \ntions (19) and (20) provide \na rapid solution \nto \nequations \n(15) and (16). The method \nis implicit \nwith respect to the internal \nforces, so it can solve \nvery rigid snakes with large step sizes. If the exter- \nnal forces become \nlarge, however, the explicit \nEuler \nsteps of the external \nforces will require \nmuch smaller \nstep sizes.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                44.998260498046875,
+                371.8714904785156,
+                260.42596435546875,
+                494.375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9b8f745bb9adecc8d8ba4c5ba6f0142c",
+        "text": "References",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                44.99834442138672,
+                518.1215209960938,
+                90.17945861816406,
+                530.375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c32f2ceb5a85fb53837b74d088aaaa7c",
+        "text": "1. A. Benson, and D.J. Evans, ACM \nTRANS. \nMATHE- \nMATICAL \nSOFTWARE, \nvol. 3, pp. 96-103, 1977. \n2. M. Brady, W.E.L. Grimson, and D. Langridge, “Shape en- \ncoding and subjective contours,” PROC. AM. ASSOC. \nARTIF. INTEL., Stanford University, 1980. \n3. D.J. Burr, “Elastic \nmatching \nof line drawings,” \nIEEE \nTRANS. PAMI-8, p. 708, 1986. \n4. P. Burt, and B. Julesz, “A disparity gradient limit for \nbinocular \nfusion,” SCIENCE, vol. 208, pp. 615-617,198O. \n5. MA \nFischler, and R.A Elschlager, “The representation \nand matching of pictorial structure,” IEEE TRANS. ON \nCOMPUTERS, \nvol. C-22, pp. 67-92, 1973. \n6. I. Gladwell, \nand R. Wait (eds.), A SURVEY OF NU- \nMERICAL \nMETHODS \nFOR PARTIAL \nDIFFEREN-",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                47.9986572265625,
+                541.9970092773438,
+                260.0033874511719,
+                683.75
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "acd8c4256cbb3c17afbdea130fcb090e",
+        "text": "Snakes \n331",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                433.5,
+                59.871498107910156,
+                499.6803283691406,
+                72.875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c71e0fb9b5de1dc1d081de3aab32827e",
+        "text": "TIAL EQUATIONS. \nClarendon: \nOxford, 1979. \n7. Kanisza, “Subjective contours,” SCIENTIFIC \nAMERI- \nCAN, vol. 234, pp. 48-52, 1976. \n8. E. Hildreth, \n“The computation \nof the velocity field,” \nPROC. ROY. SOC. (LONDON), \nvol. B221, pp. 189-220. \n9. D. Marr, VISION. Freeman: San Francisco, 1982. \n10. D. Marr and E. Hildreth, “A theory of edge detection,” \nPROC. ROY. SOC. (LONDON), \nvol. B207, pp. 187-217, \n1980. \n11. D. Marr and H.K Nishihara, \n“Visual information \npro- \ncessing: Artificial \nIntelligence \nand the sensorium \nof \nsight,” TECHNOLOGY \nREVIEW, \nvol. Xl(l), \nOctober \n1978. \n12. D. Marr \nand T. Poggio, “A computational \ntheory of \nhuman stereo vision,” PROC. ROY. SOC. (LONDON), \nvol. B204, pp. 301-328, 1979. \n13. A. Martelli, “An application \nof heuristic search methods \nto edge and contour detection,” CACM, vol. 19, p. 73, \n1976. \n14. T. Poggio and V. Toree, “Ill-posed problems and regulari- \nzation analysis in early vision,” PROC. AARPA \nImage \nUnderstanding \nWorkshop, New Orleans, LA., Baumann \n(ed.), pp. 257-263, 1984. \n1.5. T. Poggio, V. Toree, and C. Koch, “Computational \nvision \nand regularization \ntheory,” NATURE, \nvol. 3 17(6035), pp. \n314-319, 1985. \n16. G. Sperling, “Binocular \nvision: a physical and a neural \ntheory,” AM. J. PSYCHOLOGY, \nvol. 83, pp. 461-534, \n1970. \n17. D. Terzopoulos, \nA. Witkin, \nand M. Kass, “Symmetty- \nseeking models for 3D object reconstruction,” \nINT. J. \nCOMPUTER \nVISION, vol. 3, 1987. \n18. D. Terzopoulos, \n“Regularization \nof inverse visual prob- \nlems involving discontinuities,” \nIEEE TRANS. PAMI-8, \np. 413, 1986. \n19. AN. \nTikhonov, \n“Regularization \nof incorrectly \nposed \nproblems,” SOV. MATH. \nDOKL., vol. 4, pp. 1624-1627, \n1963. \n20. A Witkin, “Scale space filtering,” PROC. EIGHTH \nINT. \nJOINT \nCONF. ARTIF. \nINTEL.. \nKarlsruhe, \npp. 1019- \n1021, 1983. \n21. A Witkin, D. Terzopoulos, \nand M. Kass, “Signal match- \ning through scale space,” PROC. AM. ASSOC. ARTIF. \nINTEL., Philadelphia, \npp. 714-719, 1986. \n22. S. Ullman, “Filling \nthe gaps: The shape of subjective con- \ntours and a model for their generation,” \nBIOLOGICAL \nCYBERNETICS, \nvol. 25, 1976. \n23. B. Widrow, “The rubber mask technique, parts I and II,” \nPATTERN \nRECOGNITION, \nvol. 5, pp. 175-211, 1973. \n24. S. Zucker, R. Hummel, and A. Rosenfeld, “An application \nof relaxation \nlabeling \nto line and curve enhancement,” \nIEEE TRANS. \nON COMPUTERS, \nvol. C-26, p. 394, \n1977. \n25. S. Zucker, \n“Computational \nand psychophysical \nex- \nperiments in grouping: \nEarly orientation \nselection.” In \nHUMAN \nAND MACHINE \nVISION, Jacob Beck, et al. \n(eds.), Academic Press: New York, pp. 545-567, 1983.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "BF00133570.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                281.9971008300781,
+                91.24700164794922,
+                498.5027160644531,
+                671.75
+            ],
+            "is_full_width": false
+        }
+    }
+]

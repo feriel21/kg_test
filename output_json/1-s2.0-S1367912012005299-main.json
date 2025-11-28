@@ -1,0 +1,2947 @@
+[
+    {
+        "element_id": "a9449187e42a5c04c7a7c268fe1eac62",
+        "text": "Contents lists available at SciVerse ScienceDirect",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                201.0330047607422,
+                73.6325912475586,
+                387.3706970214844,
+                81.60279083251953
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5637416a445aafc26b6991fdd25e24ca",
+        "text": "Journal of Asian Earth Sciences",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                189.92120361328125,
+                97.0500259399414,
+                398.4334716796875,
+                111.27379608154297
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "192717603a52d4fc8789c66ddf8b25a9",
+        "text": "journal homepage: www.elsevier.com/locate/jseaes",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                173.93380737304688,
+                129.3346710205078,
+                417.15264892578125,
+                137.4116973876953
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "689a8896ed44bc27a7a33de8b985b0d3",
+        "text": "First order seismic attributes for clastic seismic facies interpretation: Examples\nfrom the East China Sea",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71179962158203,
+                178.22207641601562,
+                529.6519775390625,
+                208.90577697753906
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "1c0dabbd63414e79add260ef10360876",
+        "text": "John D. Pigott a, Moo-Hee Kang a,b,⇑, Hyun-Chul Han b",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71179962158203,
+                217.2008056640625,
+                293.2977294921875,
+                230.86268615722656
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4b47c0d8ff00caecf35fc7ad689bec58",
+        "text": "a University of Oklahoma, Conoco-Phillips School of Geology & Geophysics, Norman, OK 73019, USA\nb Korea Institute of Geoscience & Mineral Resources (KIGAM), Daejeon 305-350, Republic of Korea",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71179962158203,
+                235.7853240966797,
+                321.656982421875,
+                253.64207458496094
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "dd758a587b0215943504e1c615f38aaf",
+        "text": "a r t i c l e\ni n f o",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71179962158203,
+                274.1391296386719,
+                127.05701446533203,
+                283.1054382324219
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9ef0a8a6ce71eee4e928f5572b39440a",
+        "text": "a b s t r a c t",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                197.23460388183594,
+                274.42254638671875,
+                262.45635986328125,
+                283.38885498046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e90359297789b5bbf59d06bd5bbb1dac",
+        "text": "Article history:\nReceived 14 September 2011\nReceived in revised form 12 November 2012\nAccepted 29 November 2012\nAvailable online 8 December 2012",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71179962158203,
+                296.8435974121094,
+                165.9465789794922,
+                337.60345458984375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c32760421736f073f43bb4d827703185",
+        "text": "Seismic attributes for the interpreting explorationist are numerous. Some are useful, some duplicative,\nand some less useful. However, with respect to optimizing a systematic basin analysis approach which\nrelies upon heavily upon integrating seismic facies, there are eight particularly useful attributes which\nhave clear geophysical meaning, strong underlying geological rock-ﬂuid implications, and which for clas-\ntic depositional environments greatly assist in determining seismic facies, associated paleoenvironments,\nand lessening the number of interpretive possibilities. They are: Amplitude Envelope, Chaos, Cosine of\nPhase, Dip Deviation, Instantaneous Frequency, Q, Relative Acoustic Impedance, and Variance. A system-\natic application of these ﬁrst order attributes for the East China Sea in particular, and for other clastic\nenvironments in general, allows a ﬁrst pass assessment of a basin’s exploration potential through seismic\nreconnaissance, an interpretive reconnaissance whose accuracy is limited only by the seismic ﬁdelity of\nthe lines and logic of the assumed geology employed.\n\u0002 2012 Elsevier Ltd. All rights reserved.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                197.23460388183594,
+                297.22601318359375,
+                552.7860717773438,
+                409.8658447265625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8c440dfc4a60ed8b00a7dcb959afe686",
+        "text": "Keywords:\nSeismic attributes\nSeismic facies\nEast China Sea",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71179962158203,
+                351.21112060546875,
+                87.22586822509766,
+                383.35382080078125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9076e611d70b6b85d074d29e285cd2b5",
+        "text": "1. Introduction: Problem deﬁnition",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71179962158203,
+                440.9282531738281,
+                173.6299285888672,
+                449.0052795410156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d6ed0752f60a9b36fae4298a8e4e77ae",
+        "text": "To augment conventional reﬂection seismic amplitude sections,\nfor the interpreter there are almost an overwhelming variety of\nseismic attributes available (Barnes, 2006). Some are useful, some\nless so, many are duplicates, and some have questionable practical\nsigniﬁcance. There are a variety of useful publications which can\nassist in the understanding of the calculation and use of seismic\nattributes, for example the seminal classic by Taner et al. (1979),\nits update (Taner, 2000), and the Petrel work by Schlumberger\n(2007). Perhaps the most recent compendium is that of Chopra\nand Marfut (2007) which describes case-history and theoretical\napplications to the prestack, to the stack, to the signal, and even\nto distinguishing the noise (acquisition footprints, etc.). Table 1\nlists as an example 50 of the most widely used seismic attributes\nused at present.\nIt is in light of the practical geological aspects of seismic facies\nanalysis used most often in the practice of seismic stratigraphy\n(e.g. Vail et al., 1977; Roksandic´, 1978; Uttarathiyang and Pigott,\n2008) that this paper makes its focus, paying particular attention\nto those facies within the signal that contribute to a basin’s petro-\nleum system analysis (Metwalli and Pigott, 2005) and thus its opti-\nmized\nhydrocarbon\nexploration.\nTherefore,\nin\norder\nto",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71177673339844,
+                461.84844970703125,
+                283.84747314453125,
+                679.1193237304688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1c18a06f38b6017ec3d9d6605053278b",
+        "text": "⇑Corresponding author. Address: 30 Gajeong-dong, Yuseong-gu, Daejeon 305-\n350, Republic of Korea. Tel.: +82 42 868 3327; fax: +82 42 868 3417.\nE-mail addresses: jpigott@ou.edu (J.D. Pigott), karl@kigam.re.kr (M.-H. Kang),\nhan@kigam.re.kr (H.-C. Han).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71199417114258,
+                693.5,
+                283.7877502441406,
+                728.5579833984375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8bdf31d31af36df21db5e3e4490dec6b",
+        "text": "systematically characterize the seismic facies (geophysical aspects\nof the geology) of the operational seismic sequences (that is, the\npragmatic interpretation of parasequence sets) and subdivided\nparasequences (see Pigott and Radivojevic, 2010), we shall describe\nthose seismic attributes best suited to augment classic amplitude\nsections. The examples are drawn exclusively from marine 2D\nreﬂection seismic proﬁles from the East China Sea from some\n11,000 km of 2D seismic (Fig. 1).\nThe East China Sea is a particularly underexplored basin with a\ncomplicated tectonic and depositional history. In brief, physio-\ngraphically the East China Sea is composed of two major sedimen-\ntary basins: The East China Sea Shelf Basin and the Okinawa\nTrough Basin. These two basins are separated by the Taiwan-Sinzi\nFold Belt which trends NE–SW. Geologically, in the East China Sea\nShelf Basin, most of the sediments were deposited during the Late\nCretaceous to the middle Miocene (Oshima et al., 1988; Zhou et al.,\n1989). In the Okinawa Trough, however, the middle to late Mio-\ncene and Pliocene sediments were deposited upon Paleozoic base-\nment (Kimura, 1985; Sibuet et al., 1987). The East China Sea shelf\nbasin can also be subdivided into a series of sub-basins, which\nare mainly composed of alluvial and ﬂuvio-lacustrine deposits\n(Lao and Zhou, 1995; Ren et al., 2002) separated by basement highs\nor rises such as the Hupijiao, Haijiao, and Yushan rises (Yang, 1992;\nZhou et al., 1989). Initial rifting and extension in the proto-East\nChina Sea began in the late Cretaceous and continued until the\nPaleocene/Eocene, terminating at the onset of regional uplift and\nfolding (Zhou et al., 1989; Yang et al., 2004). Rifting resumed in",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.71832275390625,
+                440.9250793457031,
+                552.8025512695312,
+                720.9540405273438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1dc95384c16ae6eb8ba2c8f33d02ffe9",
+        "text": "Table 1\nFifty commonly used seismic attributes.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                67.58826446533203,
+                161.56410217285156,
+                82.52529907226562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "966f1fcaaf6eb48a7d959678fcf7aefa",
+        "text": "Apparent Polarityc\nIsofrequency (Spectral Decomposition)c\nQuadrature Amplitudec",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                89.13287353515625,
+                504.41949462890625,
+                96.88615417480469
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4913b5fccd668e7303ab0cef8e72be05",
+        "text": "Instantaneous (Phase) Dipa\nRate of Change of Envelopea",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                185.7825927734375,
+                97.6934814453125,
+                519.4122924804688,
+                105.44682312011719
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b8fdef259d44e0fe4964defb659dfeb4",
+        "text": "Average Amplitude (Energy, Magnitude,\netc.)c",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                98.98538970947266,
+                172.60226440429688,
+                114.00724792480469
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bdfc20aa363af3b213f10713cd69e4f8",
+        "text": "Chaosb\nInstantaneous Accelerationa\nRelative Acoustic Impedancea",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                114.81475830078125,
+                523.3240966796875,
+                122.56803894042969
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "979a90f63366c7d5a1932ab5876b0fe9",
+        "text": "Coherencyc\nInstantaneous Band Widtha\nRMS Amplitude\nCosine of Instantaneous Phasec\nInstantaneous Dominant Frequencya\nSecond Derivative of Envelopea",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                123.3753662109375,
+                528.4266357421875,
+                139.6893768310547
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "5a5c595836022df00c24e4a348f27f4f",
+        "text": "Dip of Maximum Lateral Semblancea\nInstantaneous Frequencya\nSignal Shape (Loop area, duration, etc.)c",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                140.49664306640625,
+                554.0824584960938,
+                148.2499237060547
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "afda84cde3defc57305417cb3cc8ec8d",
+        "text": "Dip Deviationc\nInstantaneous Lateral Continuitya\nSmoothed Maximum Lateral\nSemblancea",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                149.11395263671875,
+                520.2158203125,
+                165.4276580810547
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "91b71673e60c3142aa479434331d0ff2",
+        "text": "Dip Histogramb\nInstantaneous Phasea\nStructural Smoothingc",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                166.23516845703125,
+                500.847900390625,
+                173.9885711669922
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ca92a5c2579ddfac47f7c85e9efe80c7",
+        "text": "Instantaneous Quality Factora\nSweetnessd",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                185.7825927734375,
+                174.79583740234375,
+                467.944091796875,
+                182.54917907714844
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "92287b66dfc10ad8f59a30223b2d888b",
+        "text": "Dip Variance (Local Dip versus average\nDip)a",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                176.08775329589844,
+                169.80166625976562,
+                191.11021423339844
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a875e29c0a00109460c8e65f04c865d9",
+        "text": "Divergenceb\nIntensity Varying Phase Displaya\n3D Curvatured",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                191.91705322265625,
+                477.1283874511719,
+                199.6703338623047
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5151cdce8379c2c8f5eb1a12fc1a0798",
+        "text": "Dominant Frequencyc\nLateral Continuitya\nTrace Gradientc",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                200.477783203125,
+                480.7218933105469,
+                208.23106384277344
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "91bd0c910162ef17d7d957eafa92a511",
+        "text": "Envelopea (Reﬂection Strength)\nLocal Structure (Azimuth, Dip, Flatness, etc.)c\nt \u0002 Attenuationc",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                207.55235290527344,
+                480.6651916503906,
+                217.04391479492188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6ff863c163724c70c2e4abd9d315066b",
+        "text": "Event Continuitya\nMaximum Lateral Semblance and corresponding Dips as Lateral Continuitya",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                217.6556396484375,
+                416.6848449707031,
+                225.40892028808594
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "57d7575d479aafc14fa9b3b8107a5c9c",
+        "text": "Attributes\nVariancea",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                185.7825927734375,
+                217.6556396484375,
+                462.43603515625,
+                233.9696502685547
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9ec22cfb9445b0a592245799253c1856",
+        "text": "Flatnessb\nNormalized Amplitude Tracea\nVolume Reﬂection Spectral\nDecompositionb",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                234.7769775390625,
+                515.7409057617188,
+                251.09117126464844
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7c1cd09f3bc574b8257e614485036a24",
+        "text": "Gabor Filterb\nNumber zero crossings (negative, positive, etc.) c\nWavelet Attributesa",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                251.898193359375,
+                493.673828125,
+                259.6515197753906
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e46d2ec03e50b2374982d30bcbaa8c62",
+        "text": "Gaussian Dip Guided Filterb\nOrientation Tuned Chaosb\nWeighted Mean Frequencya",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                260.458740234375,
+                517.9949951171875,
+                268.2120056152344
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ca61f3111a678a2fece75edaee194d49",
+        "text": "Gradient Magnitudec\nProjected Principal Gradientb",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                269.01934814453125,
+                274.1766662597656,
+                276.7727355957031
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "dbab2988d7de9ecce7a1061d8c2d6a7f",
+        "text": "a Taner (2000).\nb Randen and Sonneland (2005).\nc Schlumberger (2007).\nd Schlumberger (2009).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                47.96220016479492,
+                281.98992919921875,
+                147.83242797851562,
+                317.0814208984375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b8500cd58a0b8ef11ca076da96a153b5",
+        "text": "the early Oligocene, until a second phase of uplift in the early Mio-\ncene terminated the rifting process (Lee et al., 2006). The post-rift\nphase is characterized by regional subsidence, resulting in the for-\nmation of a broad continental shelf through the tectonic inversion\nduring the middle Miocene (Zhou et al., 1989; Yang et al., 2004; Lee\net al., 2006). Although the timing of uplifts is unclear, uplifting\nassociated with the development of the rise likely was active prior\nto late Miocene because erosional surfaces of early Miocene strata\ndeveloped on top of the eroded basement (Lee et al., 2006; Han\net al., 2008). These tectonic elements and the complicated basin\nevolutionary history have provided a variety of structural and\ndepositional styles which in turn provide a wide spectrum of seis-\nmic facies particularly amendable to seismic attribute analysis.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.519683837890625,
+                337.06683349609375,
+                293.6390075683594,
+                470.7166748046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4c094cff61382850f70d5414499e46e8",
+        "text": "2. Approach",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51968765258789,
+                485.8273620605469,
+                90.13031005859375,
+                493.9043884277344
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9fe2b8110881ab6ab4f1866c995212e5",
+        "text": "The deﬁnition of seismic attributes is somewhat general, refer-\nring to any feature which describes ‘‘either by direct measure-\nments or by logical or experience-based reasoning’’ (see Sheriff,\n1992) a seismically observed character. Attributes are generated\nin a variety of ways. Some are based solely upon the real part of\nthe complex seismic trace, others upon complex trace analysis\n(quadrature traces generated by the Hilbert transform: Taner\net al., 1979), and still others using a variety of mathematical formu-\nlas or algorithms that describe their pre-stack or post-stack varia-\ntions and even geometries (Taner, 2000; Schlumberger, 2007). The\nmathematics which underlie these attributes have been exten-\nsively described and cited elsewhere and are not repeated here,\nbut let us compress this deﬁnition and yet modify it to include a\npragmatic emphasis and state that ‘‘Practical seismic attributes are\nquantitative or qualitative aspects which describe a seismic response\nwith an assumed underlying geological reality’’.\nThere are two approaches to attribute analysis with respect to\nhydrocarbon exploration. One is a stochastic approach and the\nother is a deterministic approach. The stochastic approach repre-\nsents one which in a sense throws as many attributes as one has\navailable at the volume and see which ones stick and clump statis-\ntically with respect to various geologically hypotheses which are\ngenerated. The second approach is to employ attributes systemat-\nically in a petroleum system analysis either during or following the",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51968002319336,
+                506.7467041015625,
+                293.64227294921875,
+                755.4249877929688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a3fd35320f59ba7eaf688fe03402e3c8",
+        "text": "sequence stratigraphic framework construction. While the ﬁrst ap-\nproach is quick, demands less understanding, and can satisfy short\ndeadlines, the end result can suffer from falsely interpreting the\nnon-unique and multiple geological possibilities which may result.\nThe second approach, on the other hand, requires a greater under-\nstanding both geologically and geophysically, and is a purposefully\nsystematic application of very speciﬁc seismic attributes that have\na clear geological grounding. The second approach can then be, if\nthe interpreter desires, be followed by seeing what additional attri-\nbutes might check early hypotheses. It is the deterministic ap-\nproach which we now describe and illustrate.\nThough there are many ways that one could classify attributes:\nprestack, stack, based upon mathematical derivations, etc. (see\nChopra and Marfut, 2007), for this paper we suggest a simple\nthreefold classiﬁcation. We term the standard amplitude display\nZeroth order as it is the most fundamental. First order are those ba-\nsic geophysical attributes which deal with illuminating one or\nmore of the basic geological properties. Second order are all those\nadditional attributes (most of the attributes in Table 1) which\nduplicate, supplement, or corroborate these fundamental attri-\nbutes with varying degrees of illumination or detection.\nWhile ﬁrst order attributes can provide a ﬁrm foundation for\nsubsequent input into a petroleum system analysis, there is a very\nimportant caveat. It must be pointed out that while some attri-\nbutes directly indicate facies aspects while others indirectly illumi-\nnate facies aspects, the attribute chosen for interpretation is only\nas good as the geophysical ﬁdelity of the seismic, and the resulting\ninterpretation is only as good as the geological logic constrained by\nthe borehole.\nImportantly, a seismic image does not have a unique interpreta-\ntion of its paleoenvironment. A prograding geometry could be rep-\nrentative of an alluvial fan, reef talus, delta, submarine fan, etc.\nHowever, if one links several facies together, the number of possi-\nble interpretations decrease. For example, if one could link a pro-\ngrading facies to those of an upstream meandering river, an\nattached swamp, an adjacent shallow nearshore bay, and deeper\ndowndip marine shale, the porgrading geometry would be highly\nsuggestive of a delta front of alternating sands and silts. It is for this\nreason, that seismic attributes if they have geologic meaning can\ngreatly assist the seismic interpreter in making seismic facies anal-",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.5270080566406,
+                337.0595703125,
+                562.6165161132812,
+                753.0927734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f7babe8d68616bb268746aea67e5345c",
+        "text": "Fig. 1. Location of seismic lines selected for the attribute displays. Inset shows major tectonic elements and location of larger plate (modiﬁed from Zhou et al. (1989)). Wells\nare indicated by the small ﬁlled circles. Solid lines represent selected seismic proﬁles. Dotted lines represent strike–slip faults. DMB: Domi Basin; HJR: Haijiao Rise; HPR:\nHupijiao Rise; JJB: Jeju Basin; SCB: Socotra Basin; TPB: Taipei Basin; YSR: Yushan Rise; XHB: Xihu Basin.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.711151123046875,
+                509.8388366699219,
+                552.7730102539062,
+                533.4778442382812
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "e8b06cbe41a4276b3385a5054d8d302c",
+        "text": "ysis\nwhich\naccurately\nallow\nthe\nportrayal\nof\nan\naccurate\npaleoenvironment.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71179962158203,
+                559.076171875,
+                283.7705078125,
+                577.6411743164062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "18f487c97adaff8d39be5794247dcf7f",
+        "text": "3. Procedure and analysis",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71179962158203,
+                600.9157104492188,
+                134.78250122070312,
+                608.9927368164062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "14323f9ca6da20262079c5f6bdd121a8",
+        "text": "The data for this study is 2D reﬂection seismic and was acquired\nby KIGAM (Korean Institute of Geoscience and Mineral Resources)\nduring the years 2007–2010. The data were recorded in a seven\nsecond record length using a 12 airguns with a total 2000 cubic\ninch volume, at 25 m shot point intervals, a 2 km streamer with\n12.5 hydrophone group interval, and 160 channels. All lines were\nsubsequently stacked and migrated. The Figures will be displayed\nin two way time and for general depth determinations one may\nuse the approximate time depth relationship from well logs in\nthe study area (Fig. 2). Therefore, for most of these displayed sec-\ntions, 3 s of two way travel time is 4 km in depth.\nWith respect to seismic facies analysis, in contrast to vertical\nchanges in seismic which represent changes through stratigraphic",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71179962158203,
+                621.8350830078125,
+                283.826171875,
+                755.4284057617188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f0a857a8b53d034eebd57fd20eef3ee1",
+        "text": "intervals, changes which are viewed horizontally within a particu-\nlar time window are termed seismic facies changes. A seismic fa-\ncies change therefore is any change in seismic character (e.g.\namplitude, frequency, phase, geometry, etc.) which does not repre-\nsent noise, and, in this case, are imaged through seismic attributes.\nConsequently, if one is to employ seismic attributes in the most\nmeaningful\nway,\none\nmust\nbe\nstratigraphically\nconstrained\nthrough having a ﬁrm sequence foundation either initially or dur-\ning the application of attribute analysis.\nFor this review of practical seismic attributes, we shall use Ta-\nble 2 as the index. Table 2 indicates those ﬁrst order attributes se-\nlected in this paper which best describe the variety of clastic\nseismic facies which were viewed in the East China Sea. The num-\nbers within the cells refer to the Section numbers with correspond-\ning illustrations.\nFirst order geological seismic facies for the clastic systems im-\naged are these eight (in alphabetical order): 1. concave and convex\nchannels and clinoforms, 2. bed continuity, 3. gas (hydrocarbon\nindicators), 4. faults and fractures, 5. lithologic change, 6. porosity,",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7192077636719,
+                559.07373046875,
+                552.8055419921875,
+                755.4252319335938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a1a7a95aa41c27a5ba0f782c2e5d7655",
+        "text": "Fig. 2. A time depth relationship determined from borehole data acquired in the\nstudy area (Han et al., 2011). Depth is expressed in meters and two way time in\nseconds.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                302.9096984863281,
+                293.5955505371094,
+                326.4919738769531
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d0b878ee0d2b2fe3d04869137715b14a",
+        "text": "7. sequence boundaries and unconformities, and 8. terminations.\nThe eight geophysical attributes for this matrix most fundamental\nare 1. Amplitude Envelope, 2. Chaos, 3. Cosine of Phase, 4. Dip Devi-\nation, 5. Instantaneous Frequency, 6. Instantaneous Q, 7. Relative\nAcoustic Impedance, and 8. Variance.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                347.3282470703125,
+                293.60467529296875,
+                397.2440185546875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1dfc200bbb18823c8ff6b8f845b4be14",
+        "text": "3.1. Channels/clinoforms",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                419.4975891113281,
+                130.5223388671875,
+                427.5746154785156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "daf38f58804af1a70d32665269f589b9",
+        "text": "Channels and clinoforms while depth independent, when com-\nbined with associated facies are particularly valuable for clastic\ndepositional system analysis allowing the interpreter to formulate\na paleoenvironment which can provide a variety of important\npetroleum system elements. The analysis of changing vertical posi-\ntions of the apex of convex clinoforms and the antapex (bottom) of\nthe concave channel reﬂectors additionally provide useful informa-\ntion on changes in vertical and lateral accommodation space (rela-\ntive changes in sea level versus transgressions and regressions).\nFor this and the following attributes assessment of a variety of\nseismic facies, we begin each with the standard amplitude section,\nthe most fundamental of all seismic interpretive tools. From the\nboundary between Jeju Basin and the Taiwan-Sinzi uplift zone, at\nleast two episodes (yellow and blue arrows, respectively) of left\nto right progradation of deltas are apparent by the ofﬂapping clino-\nform geometry culminating with more recent channel downcut-",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                440.4169616699219,
+                293.626708984375,
+                605.4176025390625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7c641d21c4a40bd0d5db4d6b4c882a96",
+        "text": "Table 2\nFirst order seismic attribute matrix for seismic facies delineation. numbers represent corresponding section numbers.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                626.0700073242188,
+                393.06195068359375,
+                641.0064086914062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "039c19eb9222b776a88af5bbd46902df",
+        "text": "Seismic facies\nAttribute",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.02360153198242,
+                648.849853515625,
+                211.8975067138672,
+                655.311279296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fba3532cee9e467c54b99d539187c87a",
+        "text": "Amplitude Envelope\n(ref. strength)\nChaos\nCosine of\nphase\nDip\nDeviation\nInstan.\nFreq.\nInstan.\nQ.\nRel. Acous.\nImped.\nVariance",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                184.42141723632812,
+                661.5489501953125,
+                554.0553588867188,
+                676.5707397460938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9cb80b64c27141d8e8a4d6d8d9231fe8",
+        "text": "3.1. Channels/clinoforms\n3.1.1\n3.1.2\n3.1.3\n3.2. Continuity\n3.2.1\n3.2.2\n3.3. Gas\n3.3.1\n3.3.2\n3.3.3\n3.4. Faults/fractures\n3.4.1\n3.4.2\n3.4.3\n3.4.4\n3.5. Lith. change\n3.5.1\n3.5.2\n3.5.3\n3.6. Porosity\n3.6.1\n3.6.2\n3.6.3\n3.6.4\n3.7. Sequence boundaries/unconform.\n3.7.1\n3.7.2\n3.7.3\n3.7.4\n3.8. Terminations\n3.8.1",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.023590087890625,
+                682.7523193359375,
+                542.3384399414062,
+                749.1934204101562
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "15c7daa88f445c9b2fae368db7dae524",
+        "text": "ting episodes in the shallow clinoforms (green arrows) as a\npossible meandering river moves to the right (Fig. 3). Note the\ntransparent isotropic (sand rich?) delta to the left (white arrow)\nand the isotropic igneous intrusion deep within the section (pink\narrow).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.527099609375,
+                67.42986297607422,
+                562.5857543945312,
+                117.34564208984375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5f738832f427cba2f3be271553a8aa22",
+        "text": "3.1.1. Cosine of Instantaneous Phase\nCosine of Instantaneous Phase, which is also referred to as Nor-\nmalized Amplitude, lacks amplitude information and as such\nemphasizes reﬂector continuity. The major difference between this\nand the Instantaneous Phase attribute is that the Cosine of Instan-\ntaneous Phase exhibits strong and weak events with equal strength\n(Partyka, 1998). In the Cosine of Instantaneous Phase attribute dis-\nplay (Fig. 4), without the amplitude information to obscure the\nreﬂectors when acoustic contrasts decrease, the prograding clino-\nforms and downcutting channels are dramatically emphasized in\ncomparison to the standard amplitude display.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.527099609375,
+                131.8888397216797,
+                562.6150512695312,
+                244.562744140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5d95e00c2e35c3cde224b4a40b98d1ed",
+        "text": "3.1.2. Dip Deviation\nThe Dip Deviation attribute (Schlumberger, 2007) is an edge\ndetection method which designates rapid changes in local dip,\ne.g. such as is indicative of reﬂectors proximal to faults, channel\nmargins, etc.\nThe Dip Deviation attribute does indicate disruptions in reﬂec-\ntors but in this instance only roughly indicates the position of the\nchannels owing to the depositional variability indicated by the\nshallow reﬂectors (Fig. 5). However, the dip nonuniformity of the\ndelta package and the igneous body are dramatically highlighted\nin comparison to the surrounding relatively less variable dipping\nstrata.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.527099609375,
+                259.163330078125,
+                562.5858154296875,
+                382.26861572265625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "65a432e704e27ad4b327dd249a374acf",
+        "text": "3.1.3. Variance\nVariance which is an edge method which measures differences\nfrom a mean value and, while yielding similar results to coherence,\nin contrast to coherence the Variance attribute provides a more\ncomputationally efﬁcient product which is generally sharper (Sch-\nlumberger, 2007). With the Variance attribute display (Fig. 6),\nchannel downcutting is especially highlighted by hot variance col-\nors, but the continuity of the deltaic clinoforms is not as well dis-\ntinguished. The igneous body is disruptive to its surrounding\nreﬂectors and also provides a bright variance.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.5271301269531,
+                396.86920166015625,
+                562.6199340820312,
+                499.05511474609375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "43a1db5fc26fab3a72e153b0bf418270",
+        "text": "3.2. Continuity",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.52716064453125,
+                513.6557006835938,
+                364.5932312011719,
+                521.7327270507812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cff4c11be292fb85349c3c03d5137170",
+        "text": "The continuity attribute of reﬂectors indicates, dependent upon\nnoise, the continuity of the compositely-tuned geological strata\nwhich produce them. Continuity, discontinuity, and the geometry\nof the continuity are some of the most important tools of facies\nanalysis for comparing observations with geological analogs.\nFrom this migrated line taken from the Socotra Basin, the dis-\nruption in reﬂector continuity reﬂectors along the regional uncon-",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.52716064453125,
+                534.5750732421875,
+                562.5936889648438,
+                605.4102783203125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cfba032b5368d4ed91425366a830d091",
+        "text": "Fig. 3. The standard amplitude section from the boundary between Jeju Basin and Taiwan-Sinzi uplift belt shows channels and clinoform seismic facies. See the line location\nat Fig. 1. Blue, yellow and white arrows represent deltas showing clinoform geometry. Green and pink arrows represent channels and igneous intrusion, respectively. (For\ninterpretation of the references to color in this ﬁgure legend, the reader is referred to the web version of this article.)",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.711151123046875,
+                316.856201171875,
+                552.7559204101562,
+                340.4384765625
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "d91e57bac79079a6248630a70c586e71",
+        "text": "Fig. 4. The Cosine of Instantaneous Phase attribute display for Fig. 3. One particularly useful aspect of this attribute is its ability to delineate parasequence boundaries. For\nexample, three successive parasequence sets are observed in the deltaic facies indicated by the three arrows. Blue arrow indicates an HST (Highstand Systems Tract) with a\ntruncated apex; yellow arrow indicates an LST (Lowstand Systems Tract) with preserved toplap, and red arrow indicates the onlapping TST. Red dotted lines indicate\nchannels. (For interpretation of the references to color in this ﬁgure legend, the reader is referred to the web version of this article.)",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71112060546875,
+                628.4403076171875,
+                552.7572631835938,
+                660.5830078125
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "3b5f60a4bc814c8041be6080c0567d10",
+        "text": "formity is pronounced (Fig. 7). Other disruptions in reﬂector conti-\nnuity indicate faulting or depositional facies changes.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71179962158203,
+                672.91552734375,
+                283.7909240722656,
+                691.4239501953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fd07163bfa49daedd0e62186ae60ac14",
+        "text": "3.2.1. Chaos\nThe Chaos attribute illustrates differences in dip and azimuth,\ntermed chaoticness, which can highlight directly positions of\nreﬂector disruption. Zones of maximum chaoticness indicate zones\nof reﬂector discontinuities such as fault zones, angular unconfo-",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71179962158203,
+                705.513671875,
+                283.837646484375,
+                755.429443359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3029b1b19739b9d9a2dd624e285b6da8",
+        "text": "rmities, and possible zones of fractures (Fig. 8). The uncolored val-\nues indicate minimum chaoticness and correspond to inferred bed\ncontinuity.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7192077636719,
+                672.9139404296875,
+                552.7754516601562,
+                701.9103393554688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f2b5e7ff0d95549ceb8f9052f760efc4",
+        "text": "3.2.2. Cosine of Instantaneous Phase (previously described)\nWith the loss of amplitude information, the Cosine of Instanta-\nneous Phase attribute appears to illuminate reﬂector continuity\nirrespective of brightness or even of subtle amplitude differences",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7192077636719,
+                716.0,
+                552.808837890625,
+                755.4278564453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9b6e9ecf72bc20ce589866084aa8bacb",
+        "text": "Fig. 5. The Dip Deviation attribute section for Fig. 3. The arrows illustrate some of these reﬂector discontinuities.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                129.54330444335938,
+                324.73651123046875,
+                475.4892272949219,
+                331.19793701171875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "453a5fa96c272da644d9190dcaec031d",
+        "text": "Fig. 6. The Variance attribute display for Fig. 3. Similar to the dip deviation attribute, this attribute also highlight reﬂector discontinuities (black arrows), with the absence\nindicating continuity. For example, yellow arrow points to the LST delta which exhibits clinoform continuity and thus does not reveal internal variance. (For interpretation of\nthe references to color in this ﬁgure legend, the reader is referred to the web version of this article.)",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51904296875,
+                616.5348510742188,
+                562.5828857421875,
+                640.1170654296875
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "4f4515dc1a9c0aa4fe93a1433af435c4",
+        "text": "(Fig. 9). Thus, disruptions in continuity from faults, unconformities,\nand even mounds and channels can be easily interpreted irrespec-\ntive of even small differences in acoustic impedance contrasts.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                663.6746215820312,
+                293.5989074707031,
+                692.6710205078125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "eb3861b1ac6f4292a28264d3039a348f",
+        "text": "3.3. Gas",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                716.002197265625,
+                70.97836303710938,
+                724.0792236328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b5225fd9208e92a486cef588a3a4a007",
+        "text": "butes provides important information into what the porosity of\nthat facies bears.\nThis migrated line from the Jeju Basin has a particularly inter-\nesting feature (Fig. 10). This amplitude section shows several\nbright amplitude occurrences, but only a few are anomalous\n(where anomalous means to the interpreter something which is\nnot just distinguished from the ordinary, but suggestive of possible\nhydrocarbons if the geological conditions are permissive). For\nexample, the white arrow indicates one particular interesting seis-",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.52630615234375,
+                663.673828125,
+                562.6021118164062,
+                755.4283447265625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1b1d7141182b7b90f79bd946e1b0a313",
+        "text": "Fig. 7. The standard amplitude seismic section acquired from Socotra Basin. See the line location at Fig. 1.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                130.33700561523438,
+                325.2467041015625,
+                455.1066589355469,
+                331.7081298828125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c6deb0db2f605c17304a5470f5fc2485",
+        "text": "Fig. 8. The Chaos attribute display for Fig. 7. Fault zones and associated fractures are especially highlighted by this attribute. The arrows point to some of these fault zones\nwhich are well-revealed.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.7117919921875,
+                624.9254150390625,
+                552.7664184570312,
+                639.947265625
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "a7349f1429b555225ad487b59fdd3d38",
+        "text": "mic anomaly. It is acoustically bright, ﬂat, located in a structure\nwith two-way closure, and in what is considered to be geologically\na potential sand reservoir sandwiched by mature shale sources.\nThat there is sand and that there is shale in this clastic sequence\nirrespective of the knowledge of polarity are two elements that\nare strongly suggested simply by alternating changes in acoustic\nimpedance. What is not conﬁrmed is the occurrence of hydrocar-\nbons within the sand/s.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71179962158203,
+                674.162841796875,
+                283.7974853515625,
+                755.4293823242188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "079d06ee318dc2a7ee8451a8b358e82f",
+        "text": "3.3.1. Amplitude Envelope\nAmplitude Envelope or Reﬂection Strength displays acoustically\nloud (bright) events irrespective of polarity. In the Jeju Basin one\nhas to be particularly careful in falsely interpreting basalt ﬂows\nas gas ﬂat spots. In such instances where volcanics are prevalent,\nvelocity information together with the proper interpretation of\nthe geological environment are especially important for their dis-\ncrimination from gaseous hydrocarbons. Irrespective of polarity,",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7192077636719,
+                674.1612548828125,
+                552.8048706054688,
+                755.4277954101562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4a1dac84d4acb711efc2f49445a7921a",
+        "text": "Fig. 9. The Cosine of Instantaneous Phase attribute display for Fig. 7. As this attribute highlights continuity, one can readily observed the angular unconformity indicated by\nblue arrows and some faults which disrupt continuity at yellow arrow. (For interpretation of the references to color in this ﬁgure legend, the reader is referred to the web\nversion of this article.)",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                325.2467041015625,
+                562.572998046875,
+                348.8289794921875
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "624218b74690afe1a62837a706226be4",
+        "text": "Fig. 10. The standard seismic amplitude section from Jeju Basin shows a ﬂat spot feature and a prominent vertical amplitude trend (gas chimney?). See the line location at\nFig. 1. White arrow indicates a suggestive ﬂat spot.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.519683837890625,
+                632.29541015625,
+                562.5828247070312,
+                647.3172607421875
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "2a63e212a13346e8f06ee3bf03698a4e",
+        "text": "there are several bright amplitudes which stand out in color in\ncomparison to the standard amplitude section (Fig. 11). Nonethe-\nless, the same caveats mentioned previously still apply with re-\nspect to their proper interpretation.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                674.162841796875,
+                293.6209411621094,
+                713.5906372070312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b807b8d2e532d7c304ea4398e931f5ff",
+        "text": "3.3.2. Instantaneous Frequency\nInstantaneous Frequency is a complex attribute which mea-\nsures the center frequency which can respond to physical rock-",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51971435546875,
+                726.4329833984375,
+                293.61773681640625,
+                755.429443359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c3028e3f509c38a686df865b20bae1ac",
+        "text": "gas properties. Inspection of the general relationship V = fk sug-\ngests the range of interpretations which must be geologically con-\nstrained. As two examples, if velocities are constant, frequency\nincreases with bed number (decreasing lambda); or if thicknesses\nare constant, general low frequencies can indicate slower rock ma-\ntrix velocities and/or elevated gas content in pores. An additional\nparameter which must not be ignored, is that of absorption. In\nthe Instantaneous Frequency section (Fig. 12), that the ﬂat spot",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.5270690917969,
+                674.1612548828125,
+                562.61767578125,
+                755.4277954101562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "89b65f99276b254ae2a207d2b3b0ec4a",
+        "text": "Fig. 11. The Amplitude Envelope attribute display for Fig. 10. Observe that both the ﬂat spot (white arrow) and the vertical amplitude trend (red arrow) exhibit high\namplitudes. (For interpretation of the references to color in this ﬁgure legend, the reader is referred to the web version of this article.)",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71179962158203,
+                325.2467041015625,
+                552.754150390625,
+                340.2685546875
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "bd7d8fe2f3056a11c41b47c27afff720",
+        "text": "Fig. 12. The Instantaneous Frequency attribute display for Fig. 10. White arrow indicates low frequencies at the ﬂat spot and red arrow indicates low frequencies at the\nvertical trend. (For interpretation of the references to color in this ﬁgure legend, the reader is referred to the web version of this article.)",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71179962158203,
+                635.697021484375,
+                552.7672729492188,
+                650.7188720703125
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "dbcb7485bbb9086d0db28714ee7acbb8",
+        "text": "viewed on the standard amplitude display now exhibits low fre-\nquencies (cool colors) is suggestive of a gas frequency shadow\n(see Ebrom, 2004).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71179962158203,
+                684.59423828125,
+                283.7901916503906,
+                713.5906372070312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "729ad1a0a3a5ffae09e88cb59632fc8b",
+        "text": "3.3.3. Instantaneous Quality\nInstantaneous Quality represents the decay rate of the Ampli-\ntude Envelope which can relate to changes in absorption. High",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71179962158203,
+                726.4329833984375,
+                283.80657958984375,
+                755.429443359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e3341dc33b39399f1474c883460bdaa6",
+        "text": "Quality represents lowest absorption and low quality implies high\nabsorption. With the Instantaneous Quality display (Fig. 13), this\nﬂat spot seismic anomaly with bright amplitudes and a frequency\nshadow now shows low Q which suggests high absorption, consis-\ntent with a gas zone hypothesis. Additional corroborative analyses\nwith AVO, velocity, and other analyses and comparison with near-\nby geological analogs would considerably lower the risk of the",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.71917724609375,
+                684.5934448242188,
+                552.793212890625,
+                755.4285888671875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7189374f8b1372d284329def33452fa0",
+        "text": "Fig. 13. The Instantaneous Quality attribute display for Fig. 10. White arrow indicates low Q at the ﬂat spot and red arrow indicates low Q at the possible vertical gas chimney.\n(For interpretation of the references to color in this ﬁgure legend, the reader is referred to the web version of this article.)",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                325.7003173828125,
+                562.5797729492188,
+                340.72216796875
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "78d43ba8c15454e2d2850b155fd9effe",
+        "text": "Fig. 14. The standard seismic amplitude section from the Okinawa Trough. See the line location at Fig. 1. Blue and green arrows represent faults with differing ages (old\nindicated by a blue arrow, and younger by a green arrow). Red arrow shows reactivated faults. (For interpretation of the references to color in this ﬁgure legend, the reader is\nreferred to the web version of this article.)",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.519683837890625,
+                623.224609375,
+                562.59130859375,
+                646.806884765625
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "b2d97c94b16c88d1875ea72327e586a5",
+        "text": "hypothesized\ngas\naccumulation\nin\nthis\nseismic\nexploration\nanomaly.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                674.162841796875,
+                293.60125732421875,
+                692.6712646484375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "de3018edbc1e544e56a95605d7ef4bd0",
+        "text": "3.4. Faults/fractures",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                705.514404296875,
+                113.65489196777344,
+                713.5914306640625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0b31904ed17b86269e7b4d01bc165c2d",
+        "text": "Faults and fractures which when placed in a fault-mechanical\nstratigraphic approach (Pigott and Radivojevic, 2010) is a petro-\nleum system critical (Metwalli and Pigott, 2005) which can poten-",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                726.4337768554688,
+                293.6487731933594,
+                755.4302368164062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fe19b7fda6ca046606a16e92a53030d4",
+        "text": "tially form migration pathways, permeability barriers, and even\nwith reservoir is associated with fractures. Classically, fault zones\nare interpreted by viewing reﬂector dislocations with or without\naccompanying bending into the fault and/or zones of diagonal\namplitude changes (transparent indicating fractures and bright\namplitudes corresponding to fault planes). In this standard ampli-\ntude migrated section from the Okinawa trough (Fig. 14), a tectonic\nelement with complex faulting, these criteria indicate several ma-",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.52630615234375,
+                674.1620483398438,
+                562.6011962890625,
+                755.4285888671875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e034f5b7424a762cb4e9ccfd0f75f669",
+        "text": "Fig. 15. The Chaos attribute display for Fig. 14. Arrows point to the vertical fault zones.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                158.7967987060547,
+                325.7003173828125,
+                426.6558532714844,
+                332.1617431640625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e65071ee3e514bb7ba5146e8321eb579",
+        "text": "Fig. 16. The Cosine of Instantaneus Phase attribute display for Fig. 14. Arrows point to the vertical fault zones.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                123.59049987792969,
+                613.9837646484375,
+                461.8608093261719,
+                620.4451904296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "50f99088c8c30ff392529b7550e77ed8",
+        "text": "jor extensional fault zones with differing fault ages (old indicated\nby a blue arrow, younger by a green arrow, and the red arrow\nshowing reactivated faults above the tilted graben).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71179962158203,
+                641.2242431640625,
+                283.7999572753906,
+                670.2206420898438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c4a79b6c0d262453dfb3b6151f30bc5d",
+        "text": "3.4.1. Chaos (previously described)\nWith the Chaos display (Fig. 15), one may observe that the\nchaos illuminates those zones where there exists dip changes prox-\nimal to the faults (the hot colors). Those zones lacking chaoticness\nare less disturbed. The deeper sections can only be cautiously\ninterpreted as faults or even fracture zones as the noise to signal\nratio increases with depth.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.7117919921875,
+                684.5941162109375,
+                283.8179931640625,
+                755.4292602539062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bc91660a3b02bdd24064d21a36a188f3",
+        "text": "3.4.2. Cosine of Instantaneous Phase (previously described)\nIn Fig. 16, the larger fault zones are better distinguished even\nwhen penetrating the shallow sections where acoustic contrasts\ndiminish\n(compare\nwith\nthe\nstandard\namplitude\ndisplay\nat\n\u0003500 ms) when the amplitude information is suppressed in this\nCosine of Instantaneous Phase display.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7192077636719,
+                641.22265625,
+                552.7785034179688,
+                701.62646484375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "157c53bfe169f8b82273a7ea5946c156",
+        "text": "3.4.3. Dip Deviation (previously described)\nIn contrast to simple enhanced illumination for the interpreta-\ntion of fault zones, the Dip Deviation attribute directly indicates\nfaults when the reﬂector ends deviate from the regional dip trends",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.71923828125,
+                715.9998779296875,
+                552.8047485351562,
+                755.4276733398438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "deb878a146de0f6ea8be8a4a67e16b1f",
+        "text": "Fig. 17. The Dip Deviation attribute display for Fig. 14. Arrows point to the vertical fault zones.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                156.69920349121094,
+                325.4735107421875,
+                448.4250793457031,
+                331.9349365234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5c2e2b77da9ce57e799debcb5b27592a",
+        "text": "Fig. 18. The Variance attribute display for Fig. 14. Arrows point to the vertical fault zones.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                164.40939331054688,
+                612.4530029296875,
+                440.6590881347656,
+                618.9144287109375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c286b4d211ea1877d5d33a12db709560",
+        "text": "(Fig. 17). However, caution must be used in the deeper noisier sec-\ntions in making similar fault-associated interpretations.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969528198242,
+                642.7549438476562,
+                293.5694274902344,
+                661.3199462890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3950db6135d98b42d2b53f4fa595f000",
+        "text": "3.4.4. Variance (previously described)\nThis variance display directly indicates the major fault zones\n(Fig. 18). However, the subtle displacement features which may\nbe viewed on the standard amplitude section are obscured owing\nto the parameters chosen for this construction. The point is that\nvariance resolution depends upon the search window.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969528198242,
+                695.08251953125,
+                293.6234130859375,
+                755.4296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "38e995a67b68d7d395bc1220236e4f18",
+        "text": "3.5. Lithology change",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.527099609375,
+                642.754150390625,
+                387.9875793457031,
+                650.8311767578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "da44ef6a393183d1f84b216bcbcd715f",
+        "text": "Lithology change is one of the weaknesses of a direct seismic\ninterpretation until geovalidation can be provided by borehole\ncontrol. However, there are attributes which can assist in perform-\ning an initial suggestion of possibilities, or at the very least, dem-\nonstrate a change in lithologies.\nFrom the Hupijiao Rise, these two large igneous bodies attenu-\nate the seismic signal and thus shadow zones of diminished atten-\nuated amplitude are readily apparent showing marked differences\nbetween these bodies and the onlapping sediments (Fig. 19).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.527099609375,
+                663.6735229492188,
+                562.6183471679688,
+                755.4281005859375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9e08220e9932deb14a24a69a6854bebd",
+        "text": "Fig. 19. The standard seismic amplitude section from the Hupijiao Rise. See the line location at Fig. 1.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                136.91329956054688,
+                325.0198974609375,
+                448.5299987792969,
+                331.4813232421875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7227570ac3fb21bbeddc91ee27ae5ec8",
+        "text": "Fig. 20. The Instantaneous Frequency attribute display for Fig. 19.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                191.7353973388672,
+                618.689208984375,
+                393.7091064453125,
+                625.150634765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1b9fea9bdc190ababb72a1468c65ba6d",
+        "text": "3.5.1. Instantaneous Frequency (previously described)\nWith the Instantaneous Frequency display (Fig. 20), the highest\nfrequencies appear to be located in sands above the igneous bodies\nwhereas the bodies appear to be dominated by low frequencies\n(cool colors) possibly owing to absorption at their top by weath-\nered basalt (?).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.7117919921875,
+                648.7643432617188,
+                283.8041076660156,
+                709.1680908203125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "62833b5af6d07c9d9cbd4a25861d481e",
+        "text": "3.5.2. Instantaneous Quality (previously described)\nThis Instantaneous Quality display exhibits high Q lines (dark\nzones) and thus low absorption at the top of the igneous bodies",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.7117919921875,
+                726.4331665039062,
+                283.8048400878906,
+                755.4295654296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "64301132c2f1c750798345e15ef41567",
+        "text": "whereas internally the noise overwhelms the Q information\n(Fig. 21). However, though internally these bodies may appear\nhomogeneous (caution with the preceding noise comment), adja-\ncent and above are alternating lines of Q suggesting heterogeneous\nlayers of quite different lithologies.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7192077636719,
+                648.7635498046875,
+                552.755615234375,
+                698.6793212890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "580591c25bb3920c909320990833904d",
+        "text": "3.5.3. Relative Acoustic Impedance\nRelative Acoustic Impedance is an attribute which focuses upon\nthe real part of the trace and indicates the relative contrast in\nacoustic impedance. The bright (acoustically loud) contrast at the",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7192077636719,
+                716.0009155273438,
+                552.769287109375,
+                755.4287109375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "54027b4cc1bbaf734b02737863c09fb9",
+        "text": "Fig. 21. The Instantaneous Quality display for Fig. 19. Blue arrow points to horizontal low Q white zones which may indicate shale whereas the horizontal high Q zones\n(yellow arrow) may indicate sands. (For interpretation of the references to color in this ﬁgure legend, the reader is referred to the web version of this article.)",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                325.7003173828125,
+                562.5724487304688,
+                340.72216796875
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "bfd90f729a57b4e31be6e529cc148fd1",
+        "text": "Fig. 22. The Relative Acoustic Impedance attribute display for Fig. 19. This attribute is particularly well-suited for delineating the top of acoustic basement (see white arrows).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                628.8372192382812,
+                562.5498657226562,
+                635.2986450195312
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "f09404b0021acfa02e005356c4ec1258",
+        "text": "top of the igneous bodies appear dramatically in this Relative\nAcoustic Impedance attribute display (Fig. 22). The ﬂanking bright\nhorizons are useful top of acoustic basement markers.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.519683837890625,
+                650.408447265625,
+                293.601318359375,
+                679.4048461914062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "48c12bc3040580b52961e169a8a601d0",
+        "text": "3.6. Porosity",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.519683837890625,
+                705.5136108398438,
+                87.0706558227539,
+                713.5906372070312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "70a88d4e70246a6f895cf229062592a9",
+        "text": "The porosity is that property which provides the foundation of\nreservoir characterization and critically determines with geometric\ninformation the hydrocarbon volume of a sealed reservoir.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.519683837890625,
+                726.4329833984375,
+                293.5587158203125,
+                755.4293823242188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1debdce618dc43d146114bd8d2b42bf8",
+        "text": "From the Jeju Basin, the bright amplitude contrasts within the\ndeltas and at the top of the igneous body represent anisotropic\ncontrasts in acoustic impedance which may be related to differ-\nences in porosity (Fig. 23). Deltas are particularly common as the\nbasin shallows following the Miocene with transportation punctu-\nated by sea level changes.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.5262756347656,
+                650.4068603515625,
+                562.6182861328125,
+                710.8106079101562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4469ab8827e3dc72ddcc2b9c34131b9d",
+        "text": "3.6.1. Amplitude Envelope (previously described)\nIn the Amplitude Envelope attribute display (Fig. 24), the higher\nvalues show in the generally upper portions of the deltaic sands",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.5262756347656,
+                726.431396484375,
+                562.6078491210938,
+                755.4277954101562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9516ed3da85d221e648d12e28ea0913d",
+        "text": "Fig. 23. The standard seismic amplitude section from the Jeju Basin. See the line location at Fig. 1. Blue arrow indicates the prograding deltas. Black arrow indicates high\namplitudes within an interpreted LST delta. Green arrow points to a deeper dramatic regional unconformity. (For interpretation of the references to color in this ﬁgure legend,\nthe reader is referred to the web version of this article.)",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 15,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71179962158203,
+                325.4735107421875,
+                552.765869140625,
+                349.0557861328125
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "218cd8f664f79d904bdbca5c3ea8065a",
+        "text": "Fig. 24. The Amplitude Envelope attribute display for Fig. 23.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 15,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                198.93539428710938,
+                638.6451416015625,
+                386.5093994140625,
+                645.1065673828125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5a3efa4be7fce64a4e5374d1ec42ece1",
+        "text": "and the uppermost part of the igneous body. Without amplitude\ninformation, one could attribute both of these to porosity changes\ncausing acoustically bright zones associated with extremely low or\nextremely high porosity.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 15,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71179962158203,
+                671.554931640625,
+                283.8188171386719,
+                711.039306640625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "47259fb97a5d639670a00bf255908083",
+        "text": "3.6.2. Instantaneous Frequency (previously described)\nNow the evidence as to what is or is not porosity based upon the\nAmplitude Envelope display begins to become less equivocal when",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 15,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71179962158203,
+                726.4329223632812,
+                283.7828063964844,
+                755.4293212890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e9db1331c74342dbe0766ae7cdea70d4",
+        "text": "compared to Instantaneous Frequency as the geological possibili-\nties of the attributes become less variable. If the high amplitudes\ncorrespond to low frequencies, then conﬁdence in high porous\nzones is heightened, though still not conﬁrmed (Fig. 25).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 15,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7192077636719,
+                671.5533447265625,
+                552.766357421875,
+                711.0377197265625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "dcd47532926c296792415ef31a8fa0ed",
+        "text": "3.6.3. Instantaneous Quality (previously described)\nIf the bright Amplitude Envelope, low instantaneous frequency,\nnegative acoustic impedance (assuming a SEG reverse polarity)",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 15,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.71923828125,
+                726.4313354492188,
+                552.8073120117188,
+                755.427734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8a46e5504f40402f20b18bbabe56e004",
+        "text": "Fig. 25. The Instantaneous Frequency display for Fig. 23. Black arrow indicates low frequency in the LST delta which may indicate low velocities with high porosities in these\nsands relative to adjacent layers, i.e. gas-ﬁlled sands.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 16,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                325.4735107421875,
+                562.5595092773438,
+                340.495361328125
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "f1d3abd8d8756b79e4902ebbc47a6294",
+        "text": "Fig. 26. The Instantaneous Quality attribute display for Fig. 23. Yellow arrow indicates low Q in the LST delta which may indicate high absorption such as results from gas\nﬁlled porous zones. (For interpretation of the references to color in this ﬁgure legend, the reader is referred to the web version of this article.)",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 16,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                621.807373046875,
+                562.5776977539062,
+                636.8292236328125
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "cc43a027192badc3859fea4596ac9e62",
+        "text": "attributes correspond to a low Q (high absorption) attribute, then\nthe suggestion of gas hydrocarbons is increased (Fig. 26). In this\nexample, the high Q attribute in the delta (low absorption) unfor-\ntunately introduces risk into a gas-ﬁlled porosity prognosis. Simi-\nlarly, the top of the igneous body is similarly suspect.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 16,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.519683837890625,
+                651.995849609375,
+                293.5955810546875,
+                701.91162109375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5b072a02d8f96160c10b307a9ef23d89",
+        "text": "3.6.4. Relative Acoustic Impedance (previously described)\nWith the addition of acoustic impedance information, the polar-\nity becomes important (see Fig. 27). If, for example, these zero\nphase data are SEG reverse polarity, then the sands in the deltas",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 16,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.519683837890625,
+                716.0013427734375,
+                293.611083984375,
+                755.4291381835938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "077f80c1675cd43b0d774a43852fdc3d",
+        "text": "(blue colors) are suggestive of gas-ﬁlled porosity. If instead, these\nshallow deltaic sands are imaged under SEG positive polarity, the\nblue colors indicate low porosity hard layers.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 16,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.527099609375,
+                651.9942626953125,
+                562.5783081054688,
+                680.9906616210938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3cb33adb034601497088ea0331bb248f",
+        "text": "3.7. Sequence boundaries",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 16,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.527099609375,
+                705.5125122070312,
+                402.5558166503906,
+                713.5895385742188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ae3dc8a9a9c554ae0821347e0c788600",
+        "text": "Sequence boundaries (until complete analysis are performed,\nare more correctly termed parasequence boundaries) are the fun-\ndamental punctuation marks of stratigraphic packages viewed on",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 16,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.527099609375,
+                726.431884765625,
+                562.5971069335938,
+                755.4283447265625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "43058177c2d5746b00a663248ddedc47",
+        "text": "Fig. 27. The Relative Acoustic Impedance display for Fig. 23. Yellow arrow points to the high contrasting interpreted sands and shales in the LST delta front. (For\ninterpretation of the references to color in this ﬁgure legend, the reader is referred to the web version of this article.)",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 17,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71179962158203,
+                325.4735107421875,
+                552.7599487304688,
+                340.495361328125
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "a9ec755d7462d9ae3e4401d3c8c939b2",
+        "text": "Fig. 28. The standard seismic amplitude section from Jeju Basin. See the line location at Fig. 1. White arrow points to dramatic regional angular unconformity.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 17,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                50.11650085449219,
+                629.4608154296875,
+                535.3194580078125,
+                635.9222412109375
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "c35d4b7a46621640891fb5acce6e20c0",
+        "text": "seismic which allow chronostratigraphic and vertical changes in\naccommodation space charts to be constructed.\nHere a complicated geohistory from the Jeju Basin is revealed by\nmultiple phases of brittle deformation (faults), ductile deformation\n(folds), unconformities, and sedimentary responses to local and re-\ngional changes in sea level (Fig. 28). The reservoir quality, source\ncharacteristics, and seal potential are affected by the magnitude,\nstyle, and timing of these events.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 17,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71098327636719,
+                674.162841796875,
+                283.826171875,
+                755.4293823242188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "698b1189594aa83ea59780320781682b",
+        "text": "3.7.1. Amplitude Envelope (previously described)\nThose subhorizontal continuous\nsimilar polarity reﬂectors\nindicate dramatically the unconformities which truncate the\nfolded deeper sections (Fig. 29). The Amplitude Envelope is an\nespecially useful tool for imaging continuous sequence bound-\naries in which homogeneous strata overlie heterogeneous strata\nsuch as commonly occur as angular unconformities transgressed\nby shale. The relative amplitude display instead exhibits many",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 17,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7183837890625,
+                674.1612548828125,
+                552.8038940429688,
+                755.4277954101562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "48e8429fd0935ffa5a1a9e7d6c4e189c",
+        "text": "Fig. 29. The Amplitude Envelope attribute display for Fig. 28. The high contrasting Amplitude Envelope does not discriminate between positive peaks and negative troughs,\nbut instead emphasizes acoustically loud zones if either peak or trough is of high amplitude. Such lack of polarity discrimination is particularly useful if one is following\noperational sequence boundaries of heterogeneous lithologic contacts, such as occur across unconformities (see white arrows).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 18,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.519683837890625,
+                325.0198974609375,
+                562.5799560546875,
+                348.6021728515625
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "dfba03ac3e71e48a2af1b136a7318cbd",
+        "text": "Fig. 30. The Cosine of Instantaneous Phase attribute display for Fig. 28. White arrows indicate the peg-leg multiples.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 18,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                124.04409790039062,
+                633.2593383789062,
+                481.0163269042969,
+                639.7207641601562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "50b87d05c7c3b75ba1a18539aff8ae00",
+        "text": "breaks in continuity owing to juxtaposed differences in acoustic\nimpedance.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 18,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                660.4998168945312,
+                293.6045837402344,
+                679.0648193359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e6d8acbf5437b6daf29c44288990f899",
+        "text": "3.7.2. Cosine of Instantaneous Phase (previously described)\nWith the removal of all amplitude information, sequence\nboundaries and unconformities are indicated as continuous reﬂec-\ntors irrespective of lithologic heterogeneities and resulting acous-\ntic anisotropies (Fig. 30). Note the peg-leg multiples (white\narrows) which become visible below the 1000 ms unconformity",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 18,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                695.08251953125,
+                293.66436767578125,
+                755.4296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0315d661d9408795a41cbdffc70de617",
+        "text": "demonstrating yet another use for the Cosine of Instantaneous\nPhase attribute.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 18,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.527099609375,
+                660.4990234375,
+                562.5511474609375,
+                679.0640258789062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bed3a4fc88932ca39b6a2a27d8f161cc",
+        "text": "3.7.3. Instantaneous Quality (previously described)\nIn this Instantaneous Quality attribute display (Fig. 31), the dark\nareas indicate highest Quality or lowest absorption (possibly\nsands) whereas the lighter areas indicate lowest Q and highest\nabsorption (possibly shales).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 18,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.527099609375,
+                705.5131225585938,
+                562.6193237304688,
+                755.4288940429688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e206ab0e09c41d90c1813d382bf8e8ea",
+        "text": "Fig. 31. The Instantaneous Quality attribute display for Fig. 28.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 19,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                196.3842010498047,
+                325.4735107421875,
+                389.1167297363281,
+                331.9349365234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "866e8715cd7fd3a861f0bd08e4c18a0f",
+        "text": "Fig. 32. The Variance attribute display for Fig. 28. Red arrow highlights the location of a vertical faulted disruption of reﬂectors. (For interpretation of the references to color in\nthis ﬁgure legend, the reader is referred to the web version of this article.)",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 19,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71179962158203,
+                602.1348266601562,
+                552.740966796875,
+                617.1566772460938
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "7e3031320672d132bb1971a090cb1c71",
+        "text": "3.7.4. Variance (previously described)\nUnconformities and only the major sequence boundaries are\nindicated in this variance display as dark to hot colors (Fig. 32).\nThe darkest regions which make vertical strips might suggest frac-\nture zones. As the variance display is a function of search parame-\nters, in this case the standard amplitude display provides greater\nresolution than the attribute.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 19,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71179962158203,
+                626.597412109375,
+                283.791015625,
+                697.4326171875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "05288c08e2ecfb5ff3591f262d36e6aa",
+        "text": "3.8. Terminations",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 19,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71180725097656,
+                716.0015869140625,
+                95.49143981933594,
+                724.07861328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "43ba8cfc48c4cf23fae924a1fbfb16f9",
+        "text": "lows the construction of paleoenvironments and associated reser-\nvoir-source-migration characteristics.\nMany packages of onlap and truncation are viewed in this stan-\ndard migrated amplitude section from the Socotra Basin (Fig. 33).\nThe yellow arrow indicates the location of many truncation termi-\nnations and the red arrow indicates some obvious onlap reﬂectors.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 19,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.71923828125,
+                626.5958251953125,
+                552.7973022460938,
+                686.9996337890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bcc39b77beed1ba8a91905247742d378",
+        "text": "3.8.1. Cosine of Instantaneous Phase (previously described)\nBy suppressing amplitude information, the continuity and ter-\nmination of all reﬂectors irrespective of acoustic impedance are en-\nhanced in the Cosine of Instantaneous Phase display (Fig. 34).\nComparison with the standard amplitude display shows that this",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 19,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.71917724609375,
+                705.5120239257812,
+                552.7736206054688,
+                755.4277954101562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "59feb517bd2b27afcfa286f5e4dfd11d",
+        "text": "Fig. 33. The standard seismic amplitude section from the boundary between the Hupijiao Rise and the Socotra Basin. See the line location at Fig. 1. Red and yellow arrows\nindicate onlap and truncation terminations, respectively. (For interpretation of the references to color in this ﬁgure legend, the reader is referred to the web version of this\narticle.)",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 20,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.519073486328125,
+                325.4735107421875,
+                562.5947265625,
+                349.0557861328125
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "afd82ecf3a452aec2523ab6f2aed98e4",
+        "text": "Fig. 34. The Cosine of Instantaneous Phase attribute display for Fig. 33. As on the previous standard seismic amplitude display, yellow arrows point to the large regional\nunconformities. (For interpretation of the references to color in this ﬁgure legend, the reader is referred to the web version of this article.)",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 20,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                619.5396728515625,
+                562.56396484375,
+                634.5615234375
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "40d0742923f67b048ad030bcc8e9c14e",
+        "text": "Cosine of Phase attribute allows even the most subtle reﬂector ter-\nmination to be seen. Altogether rather than individually, these\nattributes allow in this case as in the others an interpretation\nwhich when constrained with geology is lessened in its degree of\npossible interpretations.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 20,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                651.995849609375,
+                293.621826171875,
+                701.91162109375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4deb3cced5d13828b88a29c6ca703135",
+        "text": "4. Conclusions",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 20,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                716.0013427734375,
+                99.75624084472656,
+                724.078369140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0edeb4dd802696c709b44382e1cb5bac",
+        "text": "port and in which tectonics modify syn- and post-depositional\narchitectures, one particular seismic facies which corresponds to\nmore than one particular geological facies provides interpretations\nwhich are equivocal. In an exploration which has limited geological\ninformation for constraint, the problem of making an accurate\ninterpretation is magniﬁed. However, if one systematically com-\nbines seismic facies determined through attributes, one can begin\nto limit the number of possibilities of rock-ﬂuid-gas interpretation.\nAlthough the number of attributes available to the seismic\ninterpreter are numerous, the attributes described here are those",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 20,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.527099609375,
+                651.9942626953125,
+                562.65673828125,
+                754.2367553710938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4bd40814e4a64adda2df9e10d89046d1",
+        "text": "the authors have found to be particularly useful for the East China\nSea in its complicated tectonic evolution of clastic depositional\nenvironments which range from basin ﬂoor fans to shallow lacus-\ntrine-ﬂuvial environments. A major caveat however is that any\nattribute is only as good as the ﬁdelity of the seismic, and the inter-\npretation is only as good as the geological logic.\nThe eight basic, pragmatic seismic attributes which help extract\nclear geologic and tectonic information in the East China Sea are:\nAmplitude Envelope, Chaos, Cosine of Phase, Dip Deviation, Instan-\ntaneous Frequency, Q, Relative Acoustic Impedance, and Variance.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 21,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71179962158203,
+                67.43535614013672,
+                283.8237609863281,
+                169.62127685546875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "34aafab46a60962301a8339659282706",
+        "text": "Acknowledgements",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 21,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71179962158203,
+                190.45774841308594,
+                110.75208282470703,
+                198.5347900390625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "506764570dd7f0204e02a1165bbe7cb7",
+        "text": "We gratefully acknowledge the assistance of Schlumberger in\nits making available Petrel\u0003 to the University of Oklahoma, Platte\nRiver for its BasinMod\u0003 software, and the Korea Institute of Geosci-\nence and Mineral Resources (KIGAM) for its ﬁnancial support and\nseismic data for interpretation. This research was a part of the pro-\nject titled ‘‘Technological development on multi-azimuthal 3D\nexploration and reservoir evaluation of the Jeju Basin’’ funded by\nKIGAM.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 21,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71179962158203,
+                211.3771209716797,
+                283.8189392089844,
+                292.70208740234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "02f7e3668842009d9320cc91341b6541",
+        "text": "References",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 21,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71189880371094,
+                313.4819641113281,
+                75.81568145751953,
+                321.5589904785156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1466e8c88a62064a9f94feb55c0bbf26",
+        "text": "Barnes, A., 2006. Too Many Seismic Attributes? CSEG (Canadian Society of\nExploration Geophysicists) Recorder, pp. 40–45.\nChopra, S., Marfut, K., 2007. Seismic Attributes for Prospect Identiﬁcation and\nReservoir Characterization. Society of Exploration Geophysicists, Tulsa, p. 464.\nEbrom, D., 2004. The Low-Frequency Gas Shadow on Seismic Sections. The Leading\nEdge, p. 772.\nHan, H.-C., Kang, M.-H., Kong, G.-S., Kim, K.-O., Kim, Y.-G., Kim, J.-L., Kim, J.-H., Seo,\nK.-S., Sunwoo, D., Yoo, D.-G., Lee, Y.-S., Jang, S.-H., Choi, J.-K., Hwang, J.S., 2008.\nTectonics on the Northern East China Sea Shelf Basin. Korea Institute of\nGeoscience and Mineral Resources Research Report 07-9110, pp. 61–83.\nHan, H.-C., Kang, M.-H., Kong, G.-S., Kim, K.-O., Kim, Y.-G., Kim, J.-L., Kim, J.-H., Seo,\nK.-S., Sunwoo, D., Oh, J.-H., Yoon, Y.-H., Lee, Y.-S., Jang, S.-H., Cheong, T.-J., Jo, D.-\nW., Choi, J.-K., Morita, S., Sato, T., 2011. Tectonics on the Northern East China\nSea. Korea Institute of Geoscience and Mineral Resources Research Report 10-\n9110, p. 73.\nKimura, M., 1985. Back-arc rifting in the Okinawa Trough. Marine and Petroleum\nGeology 2, 222–240.\nLao, Q., Zhou, Z., 1995. Geological history of the East China Sea. In: Proceedings of\nthe Third International Conference on Asian Marine Geology, Cheju, October,\npp. 17–21.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 21,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.71179962158203,
+                332.8435974121094,
+                283.7798156738281,
+                490.7294006347656
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6e005a7f1ab50b73952b1d46a4c26983",
+        "text": "Lee, G.H., Kim, B., Shin, K.S., Sunwoo, D., 2006. Geologic evolution and aspects of the\npetroleum geology of the northern East China Sea shelf basin. AAPG Bulletin 90,\n237–260.\nMetwalli, F.I., Pigott, J.D., 2005. Petroleum system criticals of the Matruh-Shushan\nBasin, Western Desert, Egypt. Journal of Petroleum Geology 11, 157–178.\nOshima, S., Takanishi, M., Kato, S., Uchida, M., Okazaki, I., Kasuga, S., Kwajiri, T.,\nKaneko, Y., Ogawa, M., Kawai, K., Seta, H., Kato, K., 1988. Geology and\ngeophysical research survey report in the Okinawa Trough and offshore area\nof Nansei-Shoto islands. Report of Hydrographic Researches 24, 19–43.\nPartyka, G., 1998. Seismic Attribute Sensitivity to Energy, Bandwidth, Phase and\nThickness.\n<http://www.freeusp.org/RaceCarWebsite/TechTransfer/\nOnlineTraining/OnlineTraining.html> (accessed July 2011).\nPigott, J.D., Radivojevic, D., 2010. Seismic stratigraphic based chronostratigraphy\n(SSBC) of the Serbian Banat Region of the Basin (Pannonian Basin). Central\nEuropean Journal of Geosciences 2 (4), 481–500.\nRanden, T., Sonneland, L., 2005. Atlas of 3D seismic attributes. In: Iske, A., Randen, T.\n(Eds.), Mathematical Methods and Modelling in Hydrocarbon Exploration and\nProduction. Springer, Berlin, pp. 23–46.\nRen, J., Tamaki, K., Li, S., Zhang, J., 2002. Late Mesozoic and Cenozoic rifting and its\ndynamic setting in eastern China and adjacent seas. Tectonophysics 344, 175–\n205.\nRoksandic´, M.M., 1978. Seismic facies analysis concepts. Geophysical Prospecting\n26, 383–398.\nSchlumberger, 2007. Petrel Seismic-to-Simulation Software Interpreter’s Guide to\nSeismic Attributes. Schlumberger, Houston, p. 115.\nSchlumberger,\n2009.\nPetrel\n2009\nSeismic-to-Simulation\nSoftware\nSeismic\nVisualization and Interpretation Course. Schlumberger, Houston, p. 478.\nSheriff, R.E., 1992. Reservoir Geophysics. Society of Exploration Geophysists, p. 400.\nSibuet, J.C., Letouzey, J., Barbier, F., Charvet, J., Fourcher, J.P., Hilde, T.W.C., Kimura,\nM., Chiao, L.Y., Marsset, B., Muller, C., Stephan, J.F., 1987. Back arc extension in\nthe Okinawa Trough. Journal of Geophysical Research 92, 14041–14063.\nTaner,\nM.T.,\n2000.\nAttributes\nRevisited,\nRock\nSolid\nImages.\n<http://\nwww.rocksolidimages.com/pdf/attrib_revisited.htm> (accessed July 2011).\nTaner, M.T., Koehler, F., Sheriff, R.E., 1979. Complex seismic trace analysis.\nGeophysics 44, 1041–1063.\nUttarathiyang, T., Pigott, J.D., 2008. The unexplored post rift oligocene deltas\nfrontier: North Malay Basin, Thailand. In: Proceedings of the International\nSymposia on Geoscience Resources and Environments of Asian Terranes (GREAT\n2008), 4th IGCP 516, and 5th APSEG, Thailand, p. 4.\nVail, P.R., Mitchum, R.M., Thompson, S., 1977. Seismic stratigraphy and global\nchanges of sea level. Part 3: Relative changes of sea level from coastal onlap. In:\nPayton,\nC.E.\n(Ed),\nSeismic\nStratigraphy\n–\nApplications\nto\nHydrocarbon\nExploration. American Association of Petroleum Geologists Memoir 26, pp.\n63-81.\nYang, Q.L., 1992. Geotectonic framework of the East China Sea. In: Watkins, J.S.,\nZhiqiang, F., McMillen, K.J. (Eds.), Geology and Geophysics of Continental\nMargins. AAPG Memoir 53, pp. 17–25.\nYang, S., Hu, S., Cai, D., Feng, X., Chen, L., Gao, L., 2004. Present-day heat ﬂow,\nthermal history and tectonic subsidence of the East China Sea Basin. Marine and\nPetroleum Geology 21, 1085–1105.\nZhou, Z., Zhao, J., Yin, P., 1989. Characteristics and tectonic evolution of the East\nChina Sea. In: Zhu, X. (Ed.), Chinese Sedimentary Basins: Sedimentary Basins of\nthe World 1, pp. 165–179.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S1367912012005299-main.pdf",
+            "page_number": 21,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.718017578125,
+                67.51602935791016,
+                552.779541015625,
+                488.4524841308594
+            ],
+            "is_full_width": false
+        }
+    }
+]

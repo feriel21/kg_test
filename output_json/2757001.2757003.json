@@ -1,0 +1,1009 @@
+[
+    {
+        "element_id": "5c55e066ab0edc82ceb5173dfd778635",
+        "text": "The Protégé Project:  A Look Back and a Look Forward",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                77.0,
+                71.22000122070312,
+                442.3956604003906,
+                85.22000122070312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "465516426b58701c5348b8830f1047c3",
+        "text": "O",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                58.555198669433594,
+                77.22000122070312,
+                69.44719696044922,
+                91.22000122070312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "055d4ea55b92b3099f8704d9de768ccd",
+        "text": "Mark A. Musen and the Protégé Team (Stanford University; musen@stanford.edu)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                77.0,
+                92.52999877929688,
+                486.14300537109375,
+                103.52999877929688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a9593285f5600298f9d0aa44909d9053",
+        "text": "DOI: 10.1145/2757001.2757003",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                76.19999694824219,
+                109.30000305175781,
+                218.38392639160156,
+                119.30000305175781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "143b95b203994b25c6a04a506465013f",
+        "text": "Introduction\nFew funded research projects in \ncomputer science go on for dec-\nades. \n It’s even questionable \nwhether any project should be \nsustained that long.  Neverthe-\nless, the Protégé project at Stan-\nford University  began in the \n1980s and is still going strong, \nhelping developers to construct \nreusable ontologies and to build \nknowledge-based systems.  The \nrecognition of our work at the In-\nternational Semantic Web Con-\nference in October 2014 with the \n“Ten Years” Award was a great \nhonor.  The award has provided \nan opportunity for reﬂec-\ntion—both on the Protégé project \nitself and on the need for compu-\ntational infrastructure in the AI \ncommunity.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.0,
+                130.75999450683594,
+                222.0942840576172,
+                418.5702819824219
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b69ee73f9a0dcdb9769151c90c7bd130",
+        "text": "Figure 1. The Protégé 5 Desktop System.  The ﬁgure shows the most re-\ncent version of the Protégé system used to edit the National Cancer Insti-\ntute Thesaurus.  In the Figure, the user has selected the class Antigen \nGene.  The visualization displays the relationships among the selected \nclass and other classes in its neighborhood.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                229.0,
+                420.29998779296875,
+                561.7468872070312,
+                478.29998779296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "04e5645e0b05640b999a85a3128c570a",
+        "text": "Protégé has become the most \nwidely used software for building \nand maintaining ontologies.  It is \nby no means the only solution, \nand there are known problems \nwith Protégé, but we appreciate that the system \nis extremely popular.  Although his study  is now \na bit dated, Cardoso (2007) surveyed the Se-\nmantic Web community and found that two-thirds \nof his respondents used Protégé.  To date, more \nthan 250,000 people have registered to use the \nsoftware.  Many  Fortune 500 companies use \nProtégé to build their ontologies.  Important gov-\nernment projects, such as the development of \nthe National Cancer Institute Thesaurus (Noy et \nal., 2008; Figure 1) and the World Health Or-\nganization’s International Classiﬁcation of Dis-\neases (ICD-11; Tudorache et al., 2010) depend \non the software.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.0,
+                426.5672912597656,
+                296.4366760253906,
+                671.6033935546875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1ffeafc77837082dfa31498dc2bc7846",
+        "text": "Protégé currently exists in a variety  of frame-\nworks.  A desktop system (Protégé 5) supports \nmany advanced features to enable the construc-",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.0,
+                679.6004028320312,
+                296.442138671875,
+                716.6044311523438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9a57b565cdecad6016f9775dfd3cbe21",
+        "text": "tion and management of OWL ontologies (see \nFigure 1).  A Web-based system (WebProtégé) \noffers distributed access over the Internet using \nany Web browser and, by  design, is much sim-\npler to use for many  ontology-engineering tasks \n(Figure 2).  The Web-based version has become \nextremely popular, and it recently  exceeded the \ndesktop-client in its degree of usage.  It is ex-\ntremely  handy to be able to point a Web browser \nto an appropriate server and to begin editing. \nLike a Google doc, a WebProtégé ontology  can \nbe easily shared with a distributed group of users \nwho can engage in collaborative authoring activi-\nties from wherever they happen to be logged in. \nThe development environment used by  the \nWorld Health Organization to manage ICD-11 is \nbased on WebProtégé (Tudorache et al., 2010).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                318.6050109863281,
+                491.599365234375,
+                561.0418701171875,
+                710.6314086914062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9f8e6332e29699f059d99699b1d8db96",
+        "text": "Figure 2. WebProtégé.  The Web-based version of Protégé offers users \nand their collaborators the opportunity to share and edit ontologies online, \nmuch like a Google doc.  Here we see the Ontology for Parasite Lifecycle \n(OPL), an ontology developed by a community of scientists who investi-\ngate malaria, toxoplasmosis, and other diseases caused by eukaryotic \npathogens (Parikh et al., 2012).  In the left-hand pane, the user has se-\nlected the class blood.  The middle pane shows the properties of the se-\nlected class.  The right-most pane reveals an audit trail and a threaded \ndiscussion regarding the modeling of this entity.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.0,
+                316.29998779296875,
+                386.7499084472656,
+                422.29998779296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bd48069cc4eecde4e31ec85d1b82785e",
+        "text": "Older versions of the Protégé desktop system \nhave included support for editing ontologies rep-\nresented in a frame language (namely, in the \nOKBC framework developed by  the DARPA \nKnowledge Sharing Initiative in the 1990s; \nNeches et al., 1991).  Comparable functionality \nhas not yet been migrated to current versions of \nProtégé, however.  All versions of Protégé may \nbe downloaded from the project’s Web site \n(http://protege.stanford.edu).  They  are available \nunder an open-source license.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.0,
+                435.5299987792969,
+                296.43963623046875,
+                576.5320434570312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ed9f09bddc718d981cc7d3f34c2ccbfd",
+        "text": "The paper for which the Protégé team won the \n“Ten Years” Award (Knublauch et al., 2004) de-\nscribes the ﬁrst Protégé system to support the \nWorld Wide Web Consortium’s recommended \nWeb Ontology Language (OWL).  We had been \ntracking the emerging OWL speciﬁcation, and \nHolger Knublauch, then a post-doctoral fellow in \nour laboratory, worked with the rest of the team \nto extend Protégé to create what was, at the \ntime, the only ontology-development platform",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.00520324707031,
+                584.529052734375,
+                296.44854736328125,
+                712.5469970703125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "00bf51bb93eb41eeef70e3e249e4a436",
+        "text": "that could accommodate nearly \nthe complete OWL speciﬁcation. \nProtégé’s support for OWL has \nbeen enhanced over the years, \nparticularly  through a very  suc-\ncessful collaboration with Alan \nRector’s CO-ODE project at the \nUniversity  of Manchester, and \nrecent versions of Protégé fully \nsupport the latest OWL 2.0 \nspeciﬁcation.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                397.46923828125,
+                73.54598999023438,
+                561.0523071289062,
+                214.56613159179688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9f11b15bb7478da9f2471cf95c5e7f41",
+        "text": "When people think of Protégé, \nthey think of an editor for ontolo-\ngies, and they think of OWL. \nProtégé did not start out this \nway, however.  Gennari et al. \n(2003) traced the history of the \nﬁrst 15 years of the Protégé pro-\nject, documenting the many \nshifts in perspective as Protégé \nprogressed from a student pro-\nject for a Ph.D. dissertation that \nfocused on problems of building \nknowledge-based systems \n(Musen, 1989) to a major open-\nsource platform supported by a \nhuge community of diverse users \n(Musen, 2005).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                394.00421142578125,
+                222.56314086914062,
+                561.0611572265625,
+                441.5953674316406
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "316426fd0c0ce6d13d56c48800675e5b",
+        "text": "Adventures in Meta-Land: The Early \nYears\nThe Protégé project began at a time before there \nwas an appreciation for the importance of on-\ntologies in providing structure for electronic \nknowledge bases and long before the rise of on-\ntologies in e-commerce and in information sys-\ntems generally.  The Protégé project was born \nout of basic research in the intelligent systems \ncommunity  to develop better methods for con-\nstructing new knowledge bases.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                318.6000061035156,
+                449.760009765625,
+                561.3937377929688,
+                595.5460815429688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "19a16d408c32afcb78985c1179765559",
+        "text": "In the 1980s, researchers at Stanford had had \nconsiderable success using a domain-speciﬁc \nknowledge-acquisition tool, known as OPAL \n(Musen et al., 1987), to build the complex knowl-\nedge bases required by a cancer-chemotherapy \nadvisor known as ONCOCIN (Tu et al., 1989). \nONCOCIN would take as its input (1) data at a \nparticular point in time about a patient who had \ncancer and (2) knowledge of the relevant chemo-",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                318.6000061035156,
+                603.5430908203125,
+                561.03564453125,
+                718.55908203125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0b3bc90bfa481bb4f59b4a0bd44b491f",
+        "text": "Figure 3. The OPAL system for entry of cancer-\nchemotherapy knowledge.  In the ﬁgure, the user is \naccessing a domain-speciﬁc form to indicate what \ndomain action to take if, when administering a che-\nmotherapy combination known as “VAM,” the patient’s \nserum bilirubin is measured to be greater than 2.0 \nmg/dl.  OPAL had dozens of such forms, as well as a \nﬂowcharting facility used to specify the sequences of \nchemotherapies and drugs to administer when treat-\ning a particular kind of cancer.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.99998474121094,
+                290.29998779296875,
+                296.7579345703125,
+                408.29998779296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c6d46b5f3607005518e06f13c7f3dcae",
+        "text": "therapy protocol according to which the patient \nwas being treated.  The program would generate \nas output recommendations for laboratory  tests \nto order, drugs to administer, and plans for \nfollow-up care.  Encoding such knowledge for \nONCOCIN had been an arduous task.  With \nOPAL, it was clear that oncology  specialists \ncould use their computers to ﬁll in the blanks of \noncology-related forms and to draw chemother-\napy ﬂow charts using domain-speciﬁc icons \nmuch more easily than they could edit the corre-\nsponding knowledge bases directly (Figure 3). \nOPAL thus became an enormously successful \ntool for building and maintaining cancer-\nchemotherapy knowledge bases.  The problem \nwas that OPAL was something of a hack, as it \nwas impossible to alter the cancer-chemotherapy \ndomain model that supported the user interface \nwithout reprogramming the system.  If there was \na need to build knowledge bases in domains \nother than cancer chemotherapy, then OPAL was \nnot going to be helpful.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.0,
+                420.5299987792969,
+                296.46087646484375,
+                704.5721435546875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9b0fdaf3bf6ab2c7c6ff49a32545b2e6",
+        "text": "The original Protégé \nsystem (now bearing the \nretronym “Protégé-1”) \nran on Xerox Lisp ma-\nchines.  The system was \ndesigned to allow devel-\nopers to create and edit \nthe domain models in \nknowledge-acquisition \nsystems like OPAL \n(Musen, 1989).  A de-\nveloper could craft a \nnew domain model us-\ning Protégé-1, and the \nsystem would then gen-\nerate a domain-speciﬁc \nknowledge-acquisition \ntool based on that par-\nticular model.  Protégé-1 \naddressed the major \nassumption built into \nOPAL: the singular do-\nmain model of cancer \nchemotherapy.  Protégé-\n1 still assumed that the \nrun-time system that \nwould interpret the resul-\ntant knowledge bases \nwould use a particular \nproblem-solving method \n(skeletal-plan reﬁne-\nment; Friedland and \nIwasaki, 1985), which \nwas good for planning \ncancer therapy, but not a \nhelpful problem solver \nfor tasks such as diag-\nnosis.  If there was a \nneed to build intelligent \nsystems that could rea-\nson using alternative \nproblem-solving ap-\nproaches, then Protégé-\n1 was not going to be \nhelpful.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                318.6050109863281,
+                73.56814575195312,
+                443.0864562988281,
+                656.6566162109375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f1352f7eb307a9b6b44d7202dc43a820",
+        "text": "Figure 4. A Protégé-1 \nform for entry of classes \nof task-level actions. \nHere, the user is enter-\ning into a domain-\nindependent form the \nkinds of actions that a \nplanner should take in \nthe setting of different \nsituations involving the \ninput data provided to \nthe runtime system.  The \nactions correspond to \nthe entries in the menu \ndisplayed by the OPAL \nprogram in Figure 3. \nProtégé-1 had dozens of \nsuch forms with which a \nuser could specify the \ndomain model for a cus-\ntomizable knowledge-\nacquisition tool that had \nmuch of the functionality \nof OPAL.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                450.0,
+                427.29998779296875,
+                562.8001098632812,
+                713.2999877929688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "04df4e67d66a8a0b1846e0ed991f2ca2",
+        "text": "Protégé-II, which ap-\npeared in the early \n1990s, allowed develop-\ners to select alternative",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                318.6050109863281,
+                664.6536254882812,
+                443.0690612792969,
+                714.65966796875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "96832534a53d3d47be3284b0e20de640",
+        "text": "problem solvers (and even to \ncompose new problem solvers \nfrom primitive building blocks) to \naddress particular reasoning re-\nquirements (Eriksson et al., \n1995).  In Protégé-1, developers \nhad been forced to fashion new \ndomain models so that the se-\nmantics of the entities in those \nmodels were determined by the \nrole that the entities would play \nin the process of skeletal-plan \nreﬁnement (Figure 4).  Speciﬁ-\ncally, Protégé-1 had built into it a \nset of terms and relationships \nthat captured the types of knowl-\nedge that our implementation of \nskeletal-plan reﬁnement required \n(viz., a hierarchy of skeletal \nplans that might be instantiated \nduring the planning process, in-\nput data that might predicate al-\nternative planning actions, and \nactions that the planner might \ntake).  Developers were expected \nto describe domain knowledge (e.g., the notion \nof chemotherapy) by  relating it to one of these \nterms (e.g., a skeletal plan).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.0,
+                73.52999877929688,
+                296.4300842285156,
+                435.5843811035156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "630285bb8be065cf07301efcbe42f1ba",
+        "text": "Figure 5. The Protégé-II ontology editor.  Built under the NeXTSTEP oper-\nating system, Protégé-II was the ﬁrst version of Protégé to include a sepa-\nrate ontology editor.  Here, the user is specifying that physicians have \npager-numbers of data type string.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                228.0,
+                337.29998779296875,
+                560.7750244140625,
+                383.29998779296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "603a03bd869a83ce28e6fd7f71de16ef",
+        "text": "In Protégé-II, the dependency between the entry \nof domain knowledge and the built-in model of \nskeletal-plan reﬁnement was eliminated.  Devel-\nopers suddenly were free to deﬁne domain enti-\nties independently of any  given problem solver. \nThe use of ontologies seemed to be the obvious \nway to create such domain models.  The free-\ndom to address the construction of problem-\nsolving systems and the elucidation of domain \nmodels as two separate engineering activities \nmeant that the developers using Protégé-II were \nnow operating at a higher plane of abstraction \nthan had been the case with Protégé-1, where \nmodeling was more constrained.  Protégé-1, of \ncourse, was at a higher plane of abstraction than \nhad been the case with the domain-bound OPAL \nsystem.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.0,
+                443.5813903808594,
+                296.4377746582031,
+                662.613525390625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ee208b6734025414193ead08cef1607e",
+        "text": "Protégé-II was seen as an integrated develop-\nment environment (IDE) for the construction of \nintelligent systems.  It provided an editor, which",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.0,
+                670.6104736328125,
+                296.4377746582031,
+                707.614501953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7938330f4a0e89730713817b6ba74d00",
+        "text": "developers would use to create domain ontolo-\ngies that Protégé-II would employ to construct an \nontology-speciﬁc knowledge-acquisition tool that \nwas suitable for the speciﬁc class of domain \nproblems described by  the ontology (much in the \nspirit of OPAL), which could elicit the domain \nknowledge needed to construct an operational \nknowledge base for particular problems within \nthat class (much in the spirit of an ONCOCIN \nknowledge base for a particular kind of cancer; \nFigure 5).  Thus, Protégé-II would take any  des-\nignated domain ontology, and generate semi-\nautomatically  an OPAL-like knowledge acquisi-\ntion tool for entry of the necessary  content \nknowledge needed to instantiate the classes in \nthe ontology  for purposes of building an intelli-\ngent system (Eriksson et al., 1994).  Separately, \nthe developer would fashion a problem solver \nfrom a library of components, or else would build \na new problem solver from scratch.  The devel-\noper then would map an explicit representation \nof the input–output requirements of the com-\npleted problem solver to their corresponding \nclasses in the domain ontology—indicating, for \nexample, that administration of chemotherapy",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                318.6050109863281,
+                396.6114501953125,
+                561.0462036132812,
+                719.6596069335938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "84e8f4e3d053aa99657a6c6082aa3ef2",
+        "text": "was a plan, that administration of a drug within a \nchemotherapy was a plan, that the result of a \nparticular laboratory test should be treated as \ninput data, and so on (Crubézy and Musen, \n2004).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.0,
+                73.52999877929688,
+                296.4278869628906,
+                136.53805541992188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "00854b0f2f50fa1702ef5c7b131d1dc6",
+        "text": "We used Protégé-II in several projects in our \nlaboratory to build a large number of knowledge \nbases for intelligent systems (e.g., Musen et al., \n1996; Stein et al., 1996).  By  the end of the \n1990s, however, the ontology-editing component \nof the overall Protégé-II system had begun to \ntake on a life of its own.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.0,
+                144.53506469726562,
+                296.43560791015625,
+                233.54714965820312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "94181505c7baf44570f6b57ec5b8cd70",
+        "text": "The Protégé Ontology Editor—and the \nNew Protégé Community\nTwenty years ago, most people in AI felt a bit \npretentious using the word ontology in everyday \nconversation.  The world has changed consid-\nerably since that time, however.  We now recog-\nnize ontologies as essential elements of much of \nAI technology, and we take for granted all the \nconferences and books and journals that have \nemerged on the subject (Guarino and Musen, \n2015).  Whereas at Stanford, the Protégé team \ncontinued to build ontologies mainly to structure \nthe frame-based knowledge bases that we were \ndeveloping in our group, other developers were \ncreating ontologies for a wide range of applica-\ntions.  The idea of the Semantic Web was taking \nroot, and ontologies were being seen as essen-\ntial for e-commerce and e-science.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.0,
+                241.75999450683594,
+                296.7563781738281,
+                478.5602111816406
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "45d9633172097d62a1d8e070ed6b7fb9",
+        "text": "Protégé-II, which had been developed under the \nNeXTSTEP platform, was replaced—just in time \n—by a version of the system that ran under Win-\ndows (Protégé/Win).  Within a couple of years, \nJava became entrenched in the software engi-\nneering community, and a new Java-based ver-\nsion of the system, Protégé-2000 (Noy  et al., \n2001), freed us from reliance on a particular \nhardware platform while enabling us to create a \nvery ﬂexible plug-in architecture.  With the Java-\nbased version of Protégé, we were able to pro-\nvide support for the development of ontologies in \nRDF(S) and, soon thereafter, OWL (Knublauch \net al., 2004).  With subsequent major design \nchanges, Protégé-2000 became simply  Protégé \n3, followed by Protégé 4, and now Protégé 5 \n(see Figure 1).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.0,
+                486.5572204589844,
+                296.43890380859375,
+                705.5892944335938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3d97f70091da5cd5ab92cadc26459f88",
+        "text": "Meanwhile, with interest in ontologies burgeon-\ning throughout AI circles and beyond, the Pro-\ntégé community grew exponentially.  The soft-\nware—which we were viewing mainly as infra-\nstructure to enable Stanford-based research in \nintelligent systems—was reaching the stage of \nbecoming a “product.”  In 1996, three colleagues \nand I had some beers while attending a confer-\nence in Europe, and we jokingly referred to our \ngathering as “The First Protégé Users Group \nMeeting.”  Soon, however, the rapidly growing \ncommunity  of Protégé users around the word \ndemanded a real Protégé event.  We held a Pro-\ntégé workshop at Stanford in 1998 for about 50 \npeople.  In 2000, some 100 people participated \nin a Protégé workshop at the University  of Man-\nchester. More than 200 people showed up at a \nsimilar gathering at the United States National \nInstitutes of Health in 2002.  These Protégé con-\nferences were exciting meetings for the entire \nteam:  We received extremely valuable feedback \non our software, we got to meet the people who \nregularly  corresponded with us on the Protégé-\nrelated mailing lists that we had created, and we \nlearned about remarkable applications that \nmembers of the community  were creating with \nour technology.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                318.6050109863281,
+                73.58425903320312,
+                561.0626220703125,
+                422.6366271972656
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b73d44296981c3e26000cc64669fc3cf",
+        "text": "The perception of Protégé was changing radi-\ncally.  The software was no longer viewed mainly \nas a tool for building knowledge-based systems, \nbut rather as one for building ontologies.  The \nconcomitant growth of the Protégé community \nand the abrupt appearance of scores of Protégé \nplug-ins that were being contributed by  users \noutside of Stanford proceeded to change the na-\nture of our research activity in a major way.  Any \nalteration of our code base suddenly could affect \nthe work of thousands of other people—and \nthousands of other people now had their own \nideas of where they thought our work should be \nheading.   Overall, the project beneﬁtted tremen-\ndously from the expanding user base, and the \ninﬂux of new ideas and new plug-ins was down-\nright exciting.  It’s unusual in academia to feel \nsuch a strong connection with the kind of broad \ncommunity  that our work had attracted, and our \nresearch group developed a very close, symbi-\notic relationship with our users.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                318.6050109863281,
+                430.6336364746094,
+                561.0419311523438,
+                701.6737670898438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "dd093ca0494334d1445b1a8195e73850",
+        "text": "Although commercial ontology editors with sup-\nport for OWL began to appear in the marketplace \nat the end of the last decade, there has been no \ndecline in enthusiasm for Protégé and its plug-\nins.  As an academic group, we do not see our-\nselves in competition with the commercial sector, \nand “market share” is an irrelevant concept to us \nand our funders.  What is clear, however, is that \nour users very much value (1) access to Protégé \nunder an open-source license, (2) our team’s \ncommitment to the full implementation of World \nWide Web Consortium recommendations, (3) the \nvast library of Protégé plug-ins that users have \ndeveloped, and (4) the supportive nature of the \nextensive Protégé community, whose members, \nthrough online media, help one another to trou-\nbleshoot speciﬁc problems either in using the \nsoftware or in modeling particular entities.  We \ndid not speciﬁcally create the Protégé commu-\nnity.  Social engineering was never a “deliver-\nable” of any of our federal grants.  Nevertheless, \nthe user community that has gravitated toward \nProtégé is as much a part of the experience of \nusing our tools as is any  piece of software.  The \nProtégé project depends critically on the thou-\nsands of users who have gathered online to \nlearn from one another and to help us to make \nProtégé a better system.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.0,
+                73.52999877929688,
+                296.4355773925781,
+                435.5843811035156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3bb6646e5aefc9eca4d8405498df8443",
+        "text": "What is our Core Mission Anyway?\nFor the past 30 years, the Protégé project has \nbeen funded by several federal agencies to ex-\nplore and evaluate new ways to build intelligent \nsystems and ontologies.  Our most consistent \nfunding has come from the United States Na-\ntional Institutes of Health (particularly the Na-\ntional Library of Medicine and the National Insti-\ntute for General Medical Sciences).  Much of our \nearly Protégé-related funding supported re-\nsearch to develop the infrastructure needed for \nour “real” goals: the engineering and evaluation \nof clinical decision-support systems.  Protégé at \nthe beginning was viewed merely as a means to \nan end.  More recent grants, however, have sup-\nported our original research to study  collabora-\ntive ontology  development (Tudorache et al., \n2011; Strohmaier et al., 2013), methods for on-\ntology alignment (Noy and Musen, 2003; \nGhazvinian et al., 2009), ontology evaluation \nthrough crowdsourcing (Mortensen et al., 2014),",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.0,
+                443.760009765625,
+                296.4366760253906,
+                718.568115234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ee003aaae5c9f74d1448d6d8eeceda15",
+        "text": "ontology visualization (Storey et al., 2001), and \nmethods for the very early stages of ontology \nconceptualization (Zhang et al., 2015).  These \nacademic pursuits are what make our laboratory \nan exciting place for students and post-docs, and \nthey are what keep the research funding ﬂowing. \nThe new knowledge and techniques that we un-\ncover in our scholarly  work contribute new ideas \nto AI and offer new ways to enhance the tech-\nnology that comes out of our laboratory.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                318.6050109863281,
+                73.57199096679688,
+                561.0374755859375,
+                201.59011840820312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2a3cb16803c1602defe955aeb718a08c",
+        "text": "But there is something of a mismatch.  Although \nour laboratory  has received considerable aca-\ndemic recognition for our scholarly accomplish-\nments, this is presumably not why we won the \n2014 “Ten Years” Award from the Semantic Web \nScience Association.  The “Ten Years” Award ac-\nknowledged the very pragmatic beneﬁts of our \nwork—of creating the ﬁrst widely used ontology \neditor for OWL and of building an infrastructure \nthat has been used by more than one quarter of \na million people.  One of the greatest successes \nof Protégé is measured in terms of the vast \ncommunity  of users who have beneﬁtted from \nthe technology in a hands-on fashion.  And it is \nthis relationship with our user community that \nmakes Protégé more than just another academic \nproject.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                318.6050109863281,
+                209.58712768554688,
+                561.0462036132812,
+                428.6193542480469
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "578853bbd4506af23f1387c8b8d487a1",
+        "text": "It is easy  to argue that academic groups really \nhave no business creating software systems of \nthis magnitude.  Academic groups lack middle \nmanagers who can perform code reviews and \nwho can coordinate software-engineering activi-\nties.  Such groups lack dedicated user-support \npersonnel and documentation specialists.  They \nalso have to survive on external funding, living \nfrom one grant or contract to the next.  Although \nthe Protégé project generally has been success-\nful in obtaining sponsored research support for \nits work, there have been some very tense mo-\nments during the past 30 years.  At one point re-\ncently, the project was caught between grants for \nseveral months; our future funding had become \nuncertain due to a reorganization within the Na-\ntional Institutes of Health.  Protégé thus became \na “poster child” for the general problem of at-\ntempting to support long-term research infra-\nstructure using short-term, highly uncertain fund-\ning mechanisms (Baker, 2012).  Although the",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                318.6050109863281,
+                436.6163635253906,
+                561.0408325195312,
+                707.656494140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c5410d209063d9df2aa7bba40221e95d",
+        "text": "National Institutes of Health has been extremely \ngenerous to our project, there still are no reliable \nmechanisms in place to ensure the continuity  of \nresearch projects such as ours that are deliver-\ning infrastructure to a wide community of users in \naddition to pursuing their own research and de-\nvelopment agendas.  Our experience makes it \nobvious that federal funding agencies need bet-\nter mechanisms for sustaining such projects in a \nmore durable, more coherent manner.  Indeed, if \nthe Protégé project does deserve an award, per-\nhaps it is for ensuring its own survival on nothing \nbut “soft money” for the past three decades.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.0,
+                73.52999877929688,
+                296.433349609375,
+                240.55416870117188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0d30b67cd2c37e895e0c546db54f804d",
+        "text": "As an academic project, we have been able to \nlearn a great deal from our colleagues around \nthe world.  Early work on the KADS project in \nEurope (Schreiber et al., 2000) had tremendous \ninﬂuence on the Protégé approach to building \nintelligent systems during the early  years.  On-\ntology editors developed by other groups, such \nas OilEd (Bechhofer et al., 2001), were inspira-\ntional to us.  Our collaboration with Alan Rector’s \ngroup at the University of Manchester helped to \nensure that Protégé supported OWL in its com-\nplete scope and that the community  had excel-\nlent documentation for handling OWL within the \nProtégé framework (Horridge, 2011).  At the \nsame time, we began to see many  of our ideas \npicked up in the commercial sector, as compa-\nnies such as TopQuadrant released their own \ntools for managing OWL ontologies.  As an aca-\ndemic group, we view these commercial tools \nnot so much as “competition” but as conﬁrmation \nof our work and of many of our design decisions.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.0,
+                248.55117797851562,
+                296.43231201171875,
+                519.5914916992188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "151d90e11b95d547a540867680d430cd",
+        "text": "The Protégé project has settled down into a de-\nlightful ambiguity, where our research grants \nsupport our investigation of new methods of on-\ntology engineering and ontology management, \nwhile at the same time allowing us to support the \nthousands of users who rely  on our software on \na regular basis.  Our core mission is therefore a \nbit blurred, but we believe that we have struck a \nuseful balance, and the feedback that we receive \nfrom our users helps us to target our research in \nbeneﬁcial ways, which leads to the kinds of new \nfeatures in Protégé that simply are not available \nthrough current commercial products.  Our pro-\nject is in fact quite fortunate to have both a",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.0,
+                527.5885009765625,
+                296.4443664550781,
+                707.614501953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0d24401b4c9a1a6abea4147b638448a9",
+        "text": "scholarly component and a built-in technology-\ntransfer activity.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                318.6050109863281,
+                73.61837768554688,
+                557.9596557617188,
+                97.62039184570312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7e62f0e4648ed169b81287290128bfbf",
+        "text": "Conclusions\nDespite the importance of tools such as Protégé \nto the AI community, it is unusual for academic \ngroups to derive professional recognition for the \ndevelopment of computational infrastructure. \nInfrastructure generally is taken for granted, and \nit almost never leads to the kind of high-impact \npublications that in scholarly circles are nearly \nalways the coin of the realm.  Nevertheless, \ngroups in academia often are in the best position \nto undertake the development of tools such as \nProtégé, particularly when the requirements are \ncomplex, and when the academics themselves \nare going to be the ﬁrst natural users of such \nsoftware.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                318.6000061035156,
+                105.76000213623047,
+                561.0367431640625,
+                302.5561828613281
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a036db8759c3ebb82dc04519ff4654a2",
+        "text": "We believe that the Protégé project has been \nsuccessful despite the vagaries of research fund-\ning in the United States.  Overall, all govern-\nments need to put more emphasis on the sup-\nport of computational infrastructure for AI and to \nensure the durability of their investments in this \nkind of work.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                318.6000061035156,
+                310.5531921386719,
+                561.0368041992188,
+                399.5652770996094
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2814883fe00149014a49422bb251bddf",
+        "text": "The Protégé project would never have been as \nsuccessful as it has been without the support of \nour tremendous user community.  Working with \nthis vocal and enthusiastic group of users has \nbeen a wonderful experience for the entire Pro-\ntégé team.  It has served as a constant reminder \nto us that ontologies are no longer arcane lab-\noratory  artifacts and that they form the founda-\ntion for some of the most interesting work in \ncomputer science that is now taking place.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                318.6000061035156,
+                407.5622863769531,
+                561.0401611328125,
+                535.5804443359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f4889801ab5c664918d4c24784f537d7",
+        "text": "Acknowledgments\nThe Protégé project is currently  supported by \nNIH grants GM103316 and GM086587 from the \nNational Institute for General Medical Sciences. \nPrevious funding has been provided by the Na-\ntional Library  of Medicine, the National Cancer \nInstitute, the Defense Advanced Research Pro-\njects Agency, the National Science Foundation, \nthe Engineering and Physical Sciences Re-\nsearch Council of the United Kingdom through a \ngrant to the University of Manchester, the Com-\nmission of the European Community through a",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                318.6000061035156,
+                543.760009765625,
+                561.0379028320312,
+                701.550048828125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5088967ee4429338eba311a03a2e2136",
+        "text": "contract to the University of Amsterdam, and by \ngifts from industry.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.0,
+                73.52999877929688,
+                296.4421691894531,
+                97.53201293945312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ac03fb7f4d4c81085d2c2619c16c273d",
+        "text": "The project would not have been possible with-\nout the contributions of the many research staff, \npost-docs, and students who contributed their \ntalent and effort over the years.  These team \nmembers have included Yasser Bashir, Andrew \nBennett, Sebastian Brandt, Heining Cheng, \nDavid Combs, Monica Crubézy, Olivier \nDameron, Dejing Dou, Nick Drummond, Henrick \nEriksson, John Egar, Neil Ernst, Ray  Fergerson, \nDoug Fridsma, John Gennari, Rafael Gonçalves, \nBill Grosso, Saeed Hassanpour, Matthew Hor-\nridge, Johnson Hou, Luigi Iannone, Simon Jupp, \nHolger Knublauch, Daniel Lamprecht, Qi Li, Rob \nLintern, Dilvan Moreira, Natasha Noy, Csongor \nNyulas, Martin O’Connor, John Park, Jan \nPöschko, Angel Puerta, Alan Rector, Timothy \nRedmond, Thomas Rothenﬂuh, Daniel Rubin, \nAbraham Sebastian, Yuval Shahar, Ravi \nShankar, Philip Shilane, Adam Stein, Margaret-\nAnne Storey, Marcus Strohmaier, Dmitry  Tsarkov, \nSamson Tu, Tania Tudorache, Jennifer Vendetti, \nSimon Walk, Eckart Walther, Hao Wang, and \nYuhao Zhang.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.0,
+                105.52902221679688,
+                296.4763488769531,
+                402.5733337402344
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "84f51b3264c6907c70986167341d35ab",
+        "text": "References",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.0,
+                410.760009765625,
+                118.69198608398438,
+                422.760009765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a75c82cdfb8ae7da674633750c84ed0b",
+        "text": "Baker, M. (2012).  Databases ﬁght funding cuts: on-\nline tools are becoming ever more important to biol-\nogy, but ﬁnancial support is unstable.  Nature, \n489(7414):19.\nBechhofer, S., Horrocks, I., Goble, C., and Stevens, \nR. (2001).  OilEd: a reason-able ontology editor for \nthe Semantic Web. In: Proceedings of the Joint \nGerman/Austrian Conference on Artiﬁcial Intelli-\ngence, Vienna. Springer-Verlag LNAI Vol. 2174, pp \n396–408. \nCardoso, J. (2007). The Semantic Web  vision.  Where \nare we?  IEEE Intelligent Systems, 22(5):84–88.\nCrubézy, M. and Musen, M.A.  (2004).  Ontologies in \nsupport of problem solving.  In: Staab, S. and \nStuder, R. eds. Handbook on Ontologies. Berlin: \nSpringer-Verlag, pp. 321–341.\nEriksson, H., Puerta, A.R., and Musen, M.A.  (1994). \nGeneration of knowledge-acquisition tools from \ndomain ontologies.  International Journal of Hu-\nman–Computer Studies, 41:425–453.\nEriksson, H., Shahar, Y., Tu, S.W., Puerta, A.R., and \nMusen, M.A.  (1995).  Task modeling with reusable \nproblem-solving methods.  Artiﬁcial Intelligence, \n79:293–326.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                53.999969482421875,
+                428.29998779296875,
+                296.19696044921875,
+                714.2999877929688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "436d0d5fa69b73219331bf58f777514c",
+        "text": "Friedland, P.E., and Iwasaki, Y. (1985).  The concept \nand implementation of skeletal plans.  Journal of \nAutomated Reasoning, 1(2):161–208.\nGhazvinian, A., Noy, N.F., and Musen, M.A.  (2009). \nCreating mappings for ontologies in biomedicine: \nsimple methods work.  In: Proceedings of the AMIA \nAnnual Symposium. American Medical Informatics \nAssociation, San Francisco, CA, pp. 198–202.\nGennari, J.H., Musen, M.A., Fergerson, R.W., \nGrosso, W.E., Crubézy, M., Eriksson, H., Noy, N.F., \nand Tu, S.W. (2003).  The evolution of Protégé: An \nenvironment for knowledge-based systems devel-\nopment. International Journal of Human-Computer \nStudies, 58(1):89–123.\nGuarino, N., and Musen, M.A. (2015).  Applied Ontol-\nogy: The next decade begins.  Applied Ontology, \n10(1):1–4.\nHorridge, M. (2011).  A Practical Guide To Building \nOWL Ontologies Using Protégé 4 and CO-ODE \nTools.  Edition 1.3.   \nhttp://mowl-power.cs.man.ac.uk/protegeowltutorial/r\nesources/ProtegeOWLTutorialP4_v1_3.pdf.  \nKnublauch, H., Fergerson, R.W., Noy, N.F., Musen, \nM.A. (2004).  The Protégé OWL plugin: an open \ndevelopment environment for Semantic Web appli-\ncations. In: Third International Conference on the \nSemantic Web, Hiroshima, Japan, pp. 229–243.\nMortensen, J.M., Minty, E.P., Januszyk, M., Sweeney, \nT.E., Rector, A.L., Noy, N.F., and Musen, M.A. \n(2014).  Using the wisdom of the crowds to ﬁnd \ncritical errors in biomedical ontologies: A study of \nSNOMED CT.  Journal of the American Medical In-\nformatics Association.  \ndoi:10.1136/amiajnl-2014-002901.\nMusen, M.A.  (1989).  Automated Generation of \nModel-Based Knowledge-Acquisition Tools.  Lon-\ndon: Pitman, Artiﬁcial Intelligence Research Notes \nSeries.\nMusen, M.A. (2005).  Protégé: Community is every-\nthing.  International Journal of Human–Computer \nStudies, 62(5):545–552.\nMusen, M.A., Fagan, L.M., Combs, D.M., and \nShortliffe, E.H.  (1987).  Use of a domain model to \ndrive an interactive knowledge-editing tool.  Interna-\ntional Journal of Man–Machine Studies, 26:105–\n121.\nMusen, M.A., Tu, S.W., Das, A.K., and Shahar, Y. \n(1996). EON:  A component-based approach to \nautomation of protocol-directed therapy.  Journal of \nthe American Medical Informatics Association, \n3:367–388.  \nNeches, R., Fikes, R.E., Finin, T., Gruber, T.R., Patil, \nR., Senator, T., and Swartout, W. (1991).  Enabling",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                318.5955810546875,
+                74.30000305175781,
+                560.7999267578125,
+                708.2999877929688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "222ebd3bb25134bb8d6003e622c5e0a5",
+        "text": "technology for knowledge sharing.  AI Magazine, \n12(3):36–56.\nNoy, N.F. and Musen, M.A.  (2003).  The PROMPT \nsuite: Interactive tools for ontology merging and \nmapping.  International Journal of Human–Com-\nputer Studies, 59(6):983–1024.\nNoy, N.F., Sintek, M., Decker, S., Crubézy, M., Ferg-\nerson, R.W., and Musen, M.A.  (2001).  Creating \nSemantic Web  contents with Protégé-2000.  IEEE \nIntelligent Systems, 16(2):60–71.\nNoy, N.F., de Coronado, S., Solbrig, H., Fragoso, G., \nHartel, F.W. and Musen, M.A. (2008).  Representing \nthe NCI Thesaurus in OWL DL: Modeling tools help \nmodeling languages. Applied Ontology, 3(3):173–\n190, 2008.\nParikh, P.P., Zheng, J., Logan-Klumpler, F., Stoeckert, \nC.J. Jr., Louis, C., Topalis, P., Protasio, A.V., Sheth, \nA.P., Carrington, M., Berriman, M., and Sahoo, S.S. \n(2012).  The Ontology for Parasite Lifecycle (OPL): \ntowards a consistent vocabulary for lifecycle stages \nin parasitic organisms.  Journal of Biomedical Se-\nmantics, 3:5.   \nSchreiber, G., Akkermans, H., Anjewierden, A., de \nHoog, R., Shadbolt, N., Van de Velde, W., and Wiel-\ninga, B. (2000). Knowledge Engineering and Man-\nagement: The CommonKADS Methodology. Cam-\nbridge, MA:MIT Press.\nStein, A., Musen, M.A., and Shahar, Y.  (1996). \nKnowledge acquisition for temporal abstraction.  In: \nProceedings of the AMIA Fall Symposium.  Wash-\nington, DC, pp. 204–208.\nStorey, M.-A., Musen, M.A., Silva, J., Best, C., Ernst, \nN., Fergerson, R., Noy, N.  (2001).  Jambalaya: In-\nteractive visualization to enhance ontology author-\ning and knowledge acquisition in Protégé.  In: \nWorkshop on Interactive Tools for Knowledge Cap-\nture, First International Conference on Knowledge \nCapture. Victoria, British Columbia, Canada, pp. \n35–43.\nStrohmaier, M., Walk, S., Pöschko, J., Lamprecht, D., \nTudorache, T., Nyulas, C., Musen, M.A., Noy, N.F.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                53.99998474121094,
+                74.30000305175781,
+                296.1800231933594,
+                564.2999877929688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "57dab1d0f6fca98e2d2b2a621b80fc38",
+        "text": "(2013).  How ontologies are made: Studying the \nhidden social dynamics behind collaborative \nontology-engineering projects.  Journal of Web Se-\nmantics, 20:18–34.\nTu, S.W., Kahn, M.G., Musen, M.A., Ferguson, J.C., \nShortliffe, E.H., and Fagan, L.M.  (1989).  Episodic \nskeletal-plan reﬁnement based on temporal data. \nCommunications of the Association for Computing \nMachinery, 32:1439–1455.\nTudorache, T., Falconer, S.M., Nyulas, C.I., Noy, N.F., \nMusen, M.A.  (2010). Will Semantic Web technolo-\ngies work for the development of ICD-11? In: Ninth \nInternational Semantic Web Conference, Shanghai, \nChina. \nTudorache, T. and Musen, M.A. (2011).  Collaborative \ndevelopment of large-scale biomedical ontologies. \nIn: Ekins, S., Hupcey, M.A.Z., and Williams, A.J., \neds. Collaborative Computational Technologies for \nBiomedical Research. Hoboken, NJ:John Wiley & \nSons.\nZhang, Y., Tudorache, T., Horridge, M., and Musen, \nM.A.  (2015).  Helping users bootstrap  ontologies: \nan empirical investigation.  Computer–Human In-\nteraction, Seoul, Korea.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                318.5999755859375,
+                74.30000305175781,
+                560.7899780273438,
+                360.29998779296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e218d99f7e6286f2b8958a0df5e6fa3b",
+        "text": "Dr. Musen is Professor of \nBiomedical Informatics at \nStanford.  He studies intelli-\ngent systems, scientiﬁc me-\ntadata, and decision sup-\nport.  He is the recipient of \nmany honors, including the \nDonald A. B. Lindberg \nAward for Innovation in In-\nformatics from the American \nMedical Informatics Asso-\nciation. Dr. Musen is co-editor-in-chief of the \njournal Applied Ontology.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "2757001.2757003.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                318.6102600097656,
+                392.5299987792969,
+                561.0809326171875,
+                559.55419921875
+            ],
+            "is_full_width": false
+        }
+    }
+]

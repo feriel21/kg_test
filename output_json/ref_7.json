@@ -1,0 +1,2054 @@
+[
+    {
+        "element_id": "cc9324ca18a751779e91f5010e63de7b",
+        "text": "SeiSIM: Structural Similarity Evaluation for Seismic\nData Retrieval",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                50.96500015258789,
+                54.16569519042969,
+                569.1010131835938,
+                105.97101593017578
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "3121dda3007600f520fb7f1fed6dfba6",
+        "text": "Zhiling Long, Zhen Wang, and Ghassan AlRegib\nCenter for Energy and Geo Processing (CeGP) at Georgia Tech and King Fahd University of Petroleum and Minerals (KFUPM)\nSchool of Electrical and Computer Engineering\nGeorgia Institute of Technology\nAtlanta, Georgia 30332, USA\nEmail: {zhiling.long, zwang313, alregib}@gatech.edu",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.95899963378906,
+                154.64793395996094,
+                577.1658935546875,
+                227.15805053710938
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "061f2655bd6af4e0ec02799b6566dac4",
+        "text": "Abstract—Structural similarity evaluation is a critical step for\nretrieving existing databases to ﬁnd matching records for a given\nseismic data set. The objective is to enable the re-use of historical\nﬁndings to assist exploration with new survey data. Currently\nthere are very few structural similarity metrics speciﬁcally\ndesigned for seismic data, especially seismic survey maps. In this\npaper, we propose a metric that combines texture similarity and\ngeological similarity, which is derived from discontinuity maps.\nWe test the seismic similarity metric in a retrieval application.\nThe successful results indicate that our approach is promising.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.95897674560547,
+                239.10206604003906,
+                301.06732177734375,
+                337.73150634765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4a665582ba144208ca74e7c7f33954d8",
+        "text": "I.\nINTRODUCTION",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                133.64697265625,
+                353.0804748535156,
+                216.38076782226562,
+                363.0430908203125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b140c41562acaa70d136d1e305df4842",
+        "text": "With the existence of a large amount of seismic databases\nestablished over the years, it will be proﬁtable if the associated\nhistorical ﬁndings may be re-used to assist exploration with\nnew survey data. To accomplish this, it is necessary to retrieve\nthe historical data sets and identify the ones with seismic\nstructures similar to those of the new data set of interest. Thus,\nsuitable metrics are in need to evaluate structural similarity\nbetween seismic data sets. Figure 1 illustrates this retrieval\nproblem.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.958980560302734,
+                370.3204650878906,
+                301.0626220703125,
+                467.9540100097656
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f9882517f5bda25dfbfc385a0e24d28d",
+        "text": "To investigate this problem, we start with a simple form\nof seismic survey data, i.e., 2-D survey maps (which is simply\ndenoted as seismic images in this paper when there is no con-\nfusion). A few similarity metrics were proposed in recent years\nfor various seismic applications. For example, in [1] a method\nwas proposed based on the singular value decomposition of\nacoustic echo envelopes for seabed sediments classiﬁcation.\nIn [2] similarity of curves was examined for clustering of\nseismic waveforms. Since both techniques involve data of\nforms totally different than survey maps, they may not be\napplicable to our study. In [3] it was suggested to use attributes\nsuch as cross correlation and semblance as similarity metrics\nfor identiﬁcation of relevant data volumes during stacking. The\nemphasis was on identifying data sets that belong to the same\nlocation, rather than locations of similar geological structures.\nThus, it may not be suitable for us due to more constraints\nplaced upon the solution.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.958980560302734,
+                475.23138427734375,
+                301.0626220703125,
+                660.5369262695312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ad0684cfa5f274572cdfacc3483bde34",
+        "text": "Structural similarity evaluation for visual images, or images\nof natural scenes, has been advancing rapidly in the past\ndecade. Among various techniques, SSIM (Structural SIMilar-\nity) [4] and its several extensions have been widely accepted\nas useful metrics that capture structural visual characteristics.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.958980560302734,
+                667.8143310546875,
+                301.0625915527344,
+                721.6118774414062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2197d8c54b9a0b1d51c5cf269cae749e",
+        "text": "978-1-4799-6532-8/15/$31.00 c⃝2015 IEEE",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                238.0340118408203,
+                727.1197509765625,
+                382.02593994140625,
+                735.3775634765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f92e88de73446677b76dc7b5f30c4e7c",
+        "text": "Fig. 1.\nIllustration of the seismic retrieval problem.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                318.99700927734375,
+                404.08056640625,
+                492.6894836425781,
+                412.0506591796875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e25f4e8e7fdb5fc38a0db63e7b08273d",
+        "text": "However, these techniques may not necessarily be applicable\nto seismic images. Instead of recording natural scenes, seis-\nmic images are synthetically generated, with unique visual\nappearance representing various geological structures such as\nhorizons, faults, salt domes, etc.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                318.99700927734375,
+                438.76544189453125,
+                571.1007080078125,
+                492.5630187988281
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5328190c8e5f2119c200d2023aac5c16",
+        "text": "Typically, seismic images are textural in nature. As such, it\nmay be expected that similarity metrics developed for texture\nimages would ﬁt better for the intended seismic applications.\nAlthough this idea seems reasonable, currently available tex-\nture similarity metrics [5] are still aimed towards visual im-\nages. We believe that, for seismic images, geological attributes\nassociated with the typical structures ought to be reﬂected\nin such objective metrics. Therefore, suitable similarity as-\nsessment methods speciﬁcally for seismic images need to be\ndeveloped.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                318.99700927734375,
+                503.9743957519531,
+                571.1007080078125,
+                612.5669555664062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "50e9690f0e12826a4aa00794634b3981",
+        "text": "In this paper, we propose a metric for seismic similarity\nevaluation. Based on the aforementioned observation that seis-\nmic images resemble texture images in appearance, we estab-\nlish our development on available texture similarity metrics. To\nincorporate geological information, we utilize a discontinuity\nmap generated from seismic images, and combine the derived\ngeological similarity with texture similarity into the seismic\nsimilarity. We test our design on a small-scale seismic retrieval\napplication.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                318.99700927734375,
+                623.9783935546875,
+                571.100830078125,
+                721.6119995117188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0ea3c00c0a67e855f7b72e1807fd7033",
+        "text": "II.\nMETHODS",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                143.1020050048828,
+                57.40345764160156,
+                206.9278564453125,
+                67.36605834960938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "28e2100a26c63e61db0d62e45a06ac71",
+        "text": "A. Structural Visual Similarity",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.95899963378906,
+                74.45599365234375,
+                174.16896057128906,
+                84.41859436035156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6a668e414c4ab6595a22d7b3d405e340",
+        "text": "The SSIM index [4] has been widely accepted as an\neffective measure for structural comparison of visual images.\nAssuming two signals x and y, the SSIM between the signals\nis calculated as",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.95899200439453,
+                91.86146545410156,
+                301.06884765625,
+                134.70101928710938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "016befab8df361d27ee88e7120906127",
+        "text": "SSIM (x, y) = [l (x, y)]α[c (x, y)]β[s (x, y)]γ\n(1)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                83.6719970703125,
+                140.9987335205078,
+                301.0643005371094,
+                152.96902465820312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a230f256b8d568c0240b19e85a98c826",
+        "text": "where α, β, and γ are parameters for adjusting the relative\nimportance of the three associated components, i.e., differences\nin luminance, contrast, and structure, as calculated below.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.95893859863281,
+                161.0448455810547,
+                301.0625305175781,
+                193.15499877929688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "32d0fb8d48a28d370317853e29bd6105",
+        "text": "l(x, y) = 2µxµy + Cl",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                126.34893798828125,
+                198.48387145996094,
+                218.3405303955078,
+                215.32606506347656
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f25c9710dcc5700e300a709f5be0e257",
+        "text": "µ2x + µ2y + Cl\n(2)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                166.13600158691406,
+                205.45448303222656,
+                301.0643615722656,
+                224.4835205078125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a44186804b57345e8e0847b68d67b3f3",
+        "text": "c(x, y) = 2σxσy + Cc",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                125.56900024414062,
+                230.5789031982422,
+                219.1476287841797,
+                247.4210968017578
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "574285a8d94d8e08b7fbb3a112d029a5",
+        "text": "σ2x + σ2y + Cc\n(3)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                166.49899291992188,
+                237.5495147705078,
+                301.0643615722656,
+                256.57855224609375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3e1528f10c330b5bded225742ccb220f",
+        "text": "s(x, y) = σxy + Cs",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                131.39700317382812,
+                262.67401123046875,
+                213.8358612060547,
+                279.51617431640625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ae21c2b73a3a341aaae7ec8d4882d213",
+        "text": "σxσy + Cs\n(4)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                172.68499755859375,
+                269.64447021484375,
+                301.0643615722656,
+                287.7044982910156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e40978e1d320ee0e98a83203c2cc6428",
+        "text": "Here, µx and µy are the mean intensities; σx and σy are the\nstandard deviations; σxy is the covariance between the two\nsignals; and Cl, Cc and Cs are constants associated with the\ndynamic range of the signals. When α, β, and γ are all set to\n1, the simpliﬁed expression for SSIM becomes",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.958953857421875,
+                293.2019348144531,
+                301.0672912597656,
+                347.2310485839844
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ea59297b6e937a35c3f1c4cbc54fcaca",
+        "text": "SSIM (x, y) =\n(2µxµy + C1) (2σxy + C2)\n\u0000\nµ2x + µ2y + C1\n\u0001 \u0000\nσ2x + σ2y + C2\n\u0001\n(5)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                73.20995330810547,
+                353.9759216308594,
+                301.0643615722656,
+                380.5135192871094
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d9ca0b3d565e67eb5ec96e2ff86491d5",
+        "text": "where C1 and C2 are constants similar to Cl, Cc and Cs above.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.95899963378906,
+                386.02490234375,
+                301.0634460449219,
+                397.7120361328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "959f9e620e3cb4dc273e5b7b3b87a94b",
+        "text": "Since the introduction of SSIM, several improved versions\nhave been proposed in the literature. For example, MS-SSIM\n[6] applies a multiscale decomposition to the images involved\nin the evaluation, and calculates the index within each scale\nbefore integrating them together. MS-SSIM provides more\nﬂexibility regarding the variations of image resolution and\nviewing conditions and it adopts to the human visual system.\nCW-SSIM [7] performs the SSIM-like assessment in the\ncomplex wavelet domain to reduce the impact of translation,\nrotation, or scaling of the images. Most recently, IW-SSIM [8]\nwas developed to incorporate a weighting scheme that is based\non the information content of the images.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.95998764038086,
+                403.48443603515625,
+                301.0636291503906,
+                533.994873046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c2d6f9af5d865f4f82fb288a88817c00",
+        "text": "B. Structural Texture Similarity",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.95998764038086,
+                548.7958374023438,
+                178.3940887451172,
+                558.7584228515625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9d6192f2b20c6e1e76eb7d5ec03b2a95",
+        "text": "Although SSIM and its variants are useful metrics for\nvisual image structural similarity, their structural comparison\nis still based on point-to-point cross correlation between two\nimages. As [9] pointed out, this makes it inappropriate for\ntexture images, where two texture images may be perceived\nas from the same pattern yet with signiﬁcant point-to-point\nvariance. To tackle this problem, a group of structural texture\nsimilarity (STSIM) metrics were proposed by [9]. Such metrics\nemploy completely area based statistics to avoid point-to-point\ncorrespondence.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.95998764038086,
+                566.2012939453125,
+                301.0636291503906,
+                674.7948608398438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4417930adfec74821c15e256a1c77dea",
+        "text": "STSIM metrics are established on the basis of a multires-\nolution image decomposition framework, i.e., the steerable\npyramid representation developed by [10]. As illustrated in\nFigure 2, the technique ﬁrst decomposes a given image into a\nhighpass subband (sub-image) and a lowpass subband. Then",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.95998764038086,
+                682.060302734375,
+                301.0636291503906,
+                735.85888671875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ce238fdcac58324aadb4de87d51f49b5",
+        "text": "Fig. 2.\nIllustration of the steerable pyramid decomposition. In this example,\nit consists of K scales and N orientations at each scale.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                318.99700927734375,
+                287.6415710449219,
+                571.0994262695312,
+                304.5776672363281
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fbb8e705fa8db40695e5f0574148d6c8",
+        "text": "it processes the lowpass subband, obtaining a series of band-\npass subbands and another lowpass subband. The bandpass\nsubbands reveal image details along various orientations. The\nnewly obtained lowpass subband is subsampled and then\nfurther processed in a similar manner to yield orientational\ndetails at a coarser spatial scale. Such recursive decomposition\neventually yields a series of subbands, representing the original\nimage along different orientations at different scales.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                318.9969787597656,
+                329.3834533691406,
+                571.1007080078125,
+                416.0589904785156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "024bd7f076b0c6d19225aad2f09c0fbe",
+        "text": "STSIM metrics examine the subband images generated\nfrom a steerable pyramid decomposition. They calculate area\nbased statistics within each subband and/or between subbands\nthat are closely related in scale or orientation. As an initial\neffort, in this paper, we only explore with one of such metrics,\nthat is, STSIM-1 [9]. As we will see in the experiments, this\nmetric ﬁts well for the seismic applications even though it is\nnot the most sophisticated in the STSIM family.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                318.9969787597656,
+                427.2203674316406,
+                571.1007080078125,
+                513.8948974609375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2b9f1eb0477d35bd2c81faed49f879e3",
+        "text": "STSIM-1 calculates for each decomposed subband three\nterms, namely, a luminance term, a contrast term, and a\nstructure term. Obviously, this follows the concept inherent\nin SSIM. The difference lies in the structure term. Instead of\nexamining the cross correlation between two images, STSIM-1\ncompares subband images with regard to two autocorrelation\nvalues. One is the horizontal autocorrelation, computed along\neach row. The other is the vertical autocorrelation, calculated\nalong each column. The three terms are combined to yield\na similarity score between subbands from two images, which\nare of the same scale and orientation. The overall similarity\nscore is an average over all subbands from the pyramidal\ndecomposition.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                318.9969787597656,
+                525.0562744140625,
+                571.1007690429688,
+                666.52587890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e67bc73505da82838155f97ec4595ce1",
+        "text": "For a given N × M subband x(i, j), i = 1, ..., N, j =\n1, ..., M, the horizontal autocorrelation ρhx is calculated as",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                318.99688720703125,
+                677.32763671875,
+                571.1038208007812,
+                701.2349243164062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "90c4f8f55fa4420d5fa275a60c02cbae",
+        "text": "ρhx = E{[x(i, j) −µx][x(i, j + 1) −µx]∗}",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                358.73089599609375,
+                712.2442016601562,
+                530.1721801757812,
+                732.9189453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "589eecdf82f9fe1e96818d6a0dbc8ccc",
+        "text": "σ2x\n(6)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                451.6510009765625,
+                720.58447265625,
+                571.1014404296875,
+                738.9605712890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "be7ab3bddc5e17bd9708ca7d126cf369",
+        "text": "and the vertical autocorrelation ρvx is calculated as",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.95899963378906,
+                55.89374923706055,
+                255.93215942382812,
+                69.99209594726562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6ba90ac133e62f06a8246b14ea5e62d4",
+        "text": "ρvx = E{[x(i, j) −µx][x(i + 1, j) −µx]∗}",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                88.69300842285156,
+                74.10738372802734,
+                260.1343078613281,
+                94.78211212158203
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "040ff7508c6320e4f5c55744624ccaf3",
+        "text": "σ2x\n(7)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                181.61399841308594,
+                82.44746398925781,
+                301.0643615722656,
+                100.82353973388672
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1e08ab0cd7be3260df28d8a368fa36ab",
+        "text": "Here, E(·) refers to calculating the mean, and ∗denotes\nthe complex conjugate to accommodate complex steerable\npyramid decomposition. The corresponding structure similarity\nterms comparing subbands x and y are computed as",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.958984375,
+                107.06380462646484,
+                301.063720703125,
+                150.26303100585938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "300ae548d173f443a241aa1ef7bfb24a",
+        "text": "ah(x, y) = 1 −0.5|ρhx −ρhy|p\n(8)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                115.35397338867188,
+                157.61170959472656,
+                301.0643310546875,
+                171.95509338378906
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "130114c037a6fe402481bfffea6b53b1",
+        "text": "and\nav(x, y) = 1 −0.5|ρvx −ρvy|p\n(9)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.95896911621094,
+                179.11146545410156,
+                301.0643005371094,
+                203.88710021972656
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0adc1c839c74df7ef74b6814de28ad6e",
+        "text": "where p is usually set to 1. Hence, the similarity score between\nthe two subbands are computed as follows.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.959930419921875,
+                210.8129119873047,
+                301.0654296875,
+                231.96505737304688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "624182291d2f0ae544b906d79555b130",
+        "text": "QST SIM−1(x, y) = [l(x, y)]\n1\n4 [c(x, y)]\n1\n4 [ah(x, y)]\n1\n4 [av(x, y)]\n1\n4\n(10)\nwhere l(x, y) and c(x, y) are the luminance and contrast terms,\nrespectively, as deﬁned by the SSIM metric.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.95899963378906,
+                239.23892211914062,
+                301.0683288574219,
+                285.2060852050781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "35b4d0677022ee47fbe8547976f8bd91",
+        "text": "C. Geological Similarity",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.95899963378906,
+                301.97003173828125,
+                149.8701934814453,
+                311.9326171875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "35955df89d009285d79da9eb1135fee7",
+        "text": "Discontinuity in horizons is one of the most prominent ge-\nological attributes, which is typically associated with faults. To\nmeasure the seismic discontinuity, we calculate the semblance\nattribute proposed by [11], which is accurate and robust by\ninvolving structural dips and neighboring average. According\nto the deﬁnition of semblance attribute, every point in a seismic\nsection corresponds to a square analysis window with the size\nof 2r + 1, oriented parallel to local horizons. Therefore, the\ndiscontinuity value derived from the semblance attribute is\ncalculated in the analysis window as:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.9589958190918,
+                319.8244934082031,
+                301.0638427734375,
+                428.4170227050781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "df077bf44d9360dcf31c6508acc60444",
+        "text": "i=−r\nS(x + i, z + j)\n\u00132",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                167.31800842285156,
+                435.4176330566406,
+                261.445068359375,
+                463.13946533203125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bbe705d599332ae5b378eae15936a4ee",
+        "text": "rP",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                143.08799743652344,
+                437.93560791015625,
+                153.60850524902344,
+                454.71881103515625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c7cce56083a24927a09b99519bd64eb3",
+        "text": "\u0012\nrP",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                159.98500061035156,
+                437.9356384277344,
+                182.11851501464844,
+                454.7188415527344
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "46bf0a1e3c6e3e95c16fae832bfd683a",
+        "text": "",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                119.70499420166016,
+                438.2392272949219,
+                126.35005187988281,
+                448.2018127441406
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2290767666453499ad32d04419cc6188",
+        "text": "",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                273.9620056152344,
+                438.2403259277344,
+                280.6070556640625,
+                448.2029113769531
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "93edcf1eba73cb7f532f89c4a0a9ab53",
+        "text": "",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                119.70499420166016,
+                455.77423095703125,
+                126.35005187988281,
+                484.06781005859375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ad152939f3328fd6d127edb63757b543",
+        "text": "",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                273.9620056152344,
+                455.7743225097656,
+                280.6070556640625,
+                484.0679016113281
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f657c2e6557eb4477ae4d03a23fb1e72",
+        "text": "j=−r",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                138.3679962158203,
+                456.07525634765625,
+                158.10711669921875,
+                463.1394348144531
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "10031d4362c9f4072059daeb3b7f6617",
+        "text": "ln",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                109.74199676513672,
+                460.06781005859375,
+                118.0508041381836,
+                470.0303955078125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "180dc95011dbccc35aed87b23cc49d5a",
+        "text": ",",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                285.5849914550781,
+                460.0678405761719,
+                288.3545837402344,
+                470.0304260253906
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "57415e73d846816bc7eaa5f9e27b171f",
+        "text": "D(x, z) =",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                61.670997619628906,
+                460.06787109375,
+                103.65995025634766,
+                470.03045654296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7466a2a8413437a94dd2065a9979bf4e",
+        "text": "(2r + 1)\nrP",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                127.54199981689453,
+                465.3067321777344,
+                178.6614990234375,
+                482.39849853515625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "45913f2f96924d98bdddd01b3ca70329",
+        "text": "rP",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                189.31698608398438,
+                465.3067321777344,
+                199.83749389648438,
+                482.0899353027344
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "28f2a4bbac1d9fe92d1ed947ad8105ff",
+        "text": "j=−r\nS(x + i, z + j)2",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                184.59698486328125,
+                471.8927307128906,
+                272.2720642089844,
+                490.51055908203125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9096ba9c6be28bd006f30a76a4d0252e",
+        "text": "i=−r",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                163.8619842529297,
+                483.4463806152344,
+                182.71910095214844,
+                490.51055908203125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "057a37a0d6864597c21300276780fec3",
+        "text": "(11)\nwhere x and z respectively correspond to crossline and depth\ndirection. S(x, z) represents the intensity of the seismic signal\nat (x, z) and the ln(·) increases the discontinuity contrast\nbetween faults and horizons. A greater discontinuity value\nsuggests a higher possibility of the point being located in\nfaults, in contrast to D(x, z) closing to 0 which indicates the\npoint belongs to a horizon.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.958984375,
+                491.5013732910156,
+                301.06365966796875,
+                578.1769409179688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4e01771730534e644ad2505033d43dbb",
+        "text": "By calculating discontinuity for every point in an image, a\ndiscontinuity map (DM) can be obtained (see Figure 3 for ex-\namples). To determine the similarity between two discontinuity\nmaps, we compute the horizontal autocorrelation ρh\nDM and\nvertical autocorrelation ρv\nDM for each map. Then we compare\nthem by using ah\nDM and av\nDM respectively, as shown below.\nEssentially, the calculation is very similar to what is done with\nSTSIM-1. The difference here is that, now the calculation is\nconducted directly with the map values without going through\nthe steerable pyramid decomposition.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.958953857421875,
+                585.891357421875,
+                301.0671691894531,
+                694.7279052734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4475dc4c46e1e6d054490bad86ce49fa",
+        "text": "ρh\nDM = E{[DM(i, j) −µDM][DM(i, j + 1) −µDM]∗}",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                58.795982360839844,
+                701.000244140625,
+                290.03125,
+                721.535400390625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f40cbf6e45acdd88d1f3154f8e3cc0e5",
+        "text": "σ2\nDM\n(12)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                181.3820037841797,
+                714.8477172851562,
+                301.06365966796875,
+                735.8590698242188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3ad8b6026dde5e22680301c3d56a77cc",
+        "text": "Fig. 3.\nExample discontinuity maps generated for each image group in the\nexperimental data set in this study: (a) horizons; (b) salts; (c) faults; and (d)\nnoisy horizons.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                318.99700927734375,
+                206.4825439453125,
+                571.0994873046875,
+                232.3856201171875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7051c1eacc3b6f169674ee11832d3504",
+        "text": "ρv\nDM = E{[DM(i, j) −µDM][DM(i + 1, j) −µDM]∗}",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                328.8340148925781,
+                250.18838500976562,
+                560.068359375,
+                270.7235107421875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1632adc22f98d7afda984bcfbd3a99a7",
+        "text": "σ2\nDM\n(13)\nah\nDM(DM1, DM2) = 1 −0.5|ρh\nDM1 −ρh\nDM2|\n(14)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                343.2790222167969,
+                264.0357666015625,
+                571.101806640625,
+                301.0263977050781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e45035b5df130644b33256bf6766de9d",
+        "text": "av\nDM(DM1, DM2) = 1 −0.5|ρv\nDM1 −ρv\nDM2|\n(15)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                343.2790222167969,
+                307.4806213378906,
+                571.101806640625,
+                322.5513000488281
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2e4cde445cadc01293f8e0b3e4e08eb2",
+        "text": "The similarity score between two discontinuity maps DM1\nand DM2 is then deﬁned as",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                318.99700927734375,
+                328.86279296875,
+                570.6070556640625,
+                351.5099182128906
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1d9efb2f139e4325e70226cb3d672c01",
+        "text": "QDM = [ah\nDM(DM1, DM2)]\n1\n2 [av\nDM(DM1, DM2)]\n1\n2\n(16)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                328.23699951171875,
+                357.0647888183594,
+                571.1017456054688,
+                371.7355651855469
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0f269eb8dc75c14a34f2b4dc6c9a735f",
+        "text": "D. Seismic Similarity (SeiSIM)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                318.9969482421875,
+                396.5250244140625,
+                445.0635986328125,
+                406.48760986328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "df04b3667ffd6bf6b16f050fc7f4b757",
+        "text": "We combine texture similarity (STSIM-1) and geological\nsimilarity (DM) to generate our seismic similarity metric,\nwhich we denote as SeiSIM. As discussed earlier, texture sim-\nilarity is expected to help differentiate between seismic images\ndue to the textural appearance of seismic images. We expect\nthat the incorporation of discontinuity map-based geological\nsimilarity will assist the further differentiation between seismic\nstructures of similar textural appearance (e.g., horizons and\nfaults). Consequently, the seismic similarity metric is expressed\nas\nSeiSIM = [QST SIM−1]\n1\n2 [QDM]\n1\n2 .\n(17)",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                318.9969482421875,
+                414.5984802246094,
+                571.101806640625,
+                536.6815185546875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "235248c8d12645719f430151fefa75de",
+        "text": "III.\nEXPERIMENTS",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                402.33001708984375,
+                552.6504516601562,
+                487.7726745605469,
+                562.613037109375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "674ca773b2d40f9c923752097d31fc26",
+        "text": "We test our seismic similarity metric in a simple image\nretrieval application. This section discusses the data sets we\nuse, the retrieval performance evaluation methods, and the\nretrieval performance of different metrics.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                318.99700927734375,
+                570.5474853515625,
+                571.1007690429688,
+                613.3870239257812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "33a994642031385379c9489abcebb9f2",
+        "text": "A. Data",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                318.99700927734375,
+                631.1110229492188,
+                352.8698425292969,
+                641.0736083984375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "74dbd1d879ba9880a19a6265e50068ca",
+        "text": "We created a small data set for preliminary experimenta-\ntion. The data set consists of 4 types of seismic structures,\neach including 3 different images. The types are horizons,\nsalts, faults, and noisy horizons. Figure 4 shows all 12 images\nin the data set. The images are of gray scale, 100 × 200\npixels each. They were all extracted from the Netherlands\noffshore F3 block acquired in the North Sea (available at\nhttps://opendtect.org/osr/).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                318.99700927734375,
+                649.1844482421875,
+                571.1010131835938,
+                735.8590698242188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3eaa9eee6c3df1c5c8a85390e2deda70",
+        "text": "Fig. 4.\nImage groups used in the experiments (each group consists of three\nimages of the same geological structure): (a) horizons; (b) salts; (c) faults;\nand (d) noisy horizons.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.95899963378906,
+                433.5735778808594,
+                301.06121826171875,
+                459.4766845703125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e2f5438b43fdf28306074bd4bf327899",
+        "text": "B. Performance Evaluation",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.95899963378906,
+                480.90203857421875,
+                161.3371124267578,
+                490.8646240234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ad17e4bd7df4fa79b9a1766bae33bbf7",
+        "text": "The retrieval performance is typically evaluated by the\nfollowing three measures [9]. They are all in the range of\n0 −1, with the higher value indicating better performance.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.95899963378906,
+                497.9624938964844,
+                301.0626525878906,
+                529.8430786132812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "258483487455efa0ce1cd904f16d5570",
+        "text": "•\nPrecision at one (P@1)\nThis index presents the frequency when the ﬁrst image\nbeing retrieved has the same label as the query image,\nor matches the query.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                63.35499954223633,
+                538.3447875976562,
+                301.06341552734375,
+                581.5430908203125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "577a80a93d7f9f7201fc5e9a4a7d3c57",
+        "text": "•\nMean reciprocal rank (MRR)\nThis is the average inverse rank for the ﬁrst matching\nimage found in the database. The inverse rank is used\nso that a higher MRR value is for a better performance.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                63.355003356933594,
+                588.1047973632812,
+                301.0633850097656,
+                631.3040771484375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "25be04e43f529c172d74ec3f36574ef0",
+        "text": "•\nMean average precision (MAP)\nThis index accounts for the case when multiple match-\ning images are in existence in the database. For each\nquery image, the database is retrieved till the last\nmatching image is identiﬁed. For a certain matching\nimage of which the rank is n, the fraction of total\nmatching images among the ﬁrst n retrieved images is\nused as the associated precision. The average retrieval\nprecision for a query is calculated using the precision",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                63.355003356933594,
+                637.8657836914062,
+                301.0650939941406,
+                735.8590698242188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "385463dd818d65e4acdfbc529fccd1ee",
+        "text": "Fig. 5.\nIllustration of the procedure for the experiments.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                318.99700927734375,
+                255.654541015625,
+                508.5818176269531,
+                263.6246337890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4f23c61b1330621e1252b57a0a325f81",
+        "text": "TABLE I.\nRETRIEVAL PERFORMANCE USING DIFFERENT SIMILARITY\nMETRICS.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                321.7409973144531,
+                273.71856689453125,
+                568.1637573242188,
+                290.6546630859375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f66c964466e6d4cb3dadc803c2209958",
+        "text": "Metric\nP@1\nMRR\nMAP",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                393.6659851074219,
+                299.939453125,
+                523.7613525390625,
+                306.91326904296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "13f1fa2f1bbc352452094d84ab85082a",
+        "text": "SSIM\n0.33\n0.73\n0.46",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                395.5950012207031,
+                311.35516357421875,
+                521.9241333007812,
+                318.3289489746094
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "087233a48238007010ee4b46e71dd2d6",
+        "text": "CW-SSIM\n0.67\n0.94\n0.72",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                389.0429992675781,
+                322.7081604003906,
+                521.9241333007812,
+                329.68194580078125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b282cd9f9818f86b4ad977653e22833e",
+        "text": "STSIM-1\n0.92\n0.99\n0.91",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                390.55999755859375,
+                334.0601501464844,
+                521.9241333007812,
+                341.033935546875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a6c9e84c81a3a8efdcecf3b42add9b26",
+        "text": "DM\n0.50\n0.88\n0.65",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                398.1159973144531,
+                345.41314697265625,
+                521.9241333007812,
+                352.3869323730469
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "49ae8f63e9052287515d450060b33d13",
+        "text": "CW-SSIM + DM\n0.92\n0.97\n0.82",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                379.01800537109375,
+                356.76513671875,
+                521.9241333007812,
+                363.7389221191406
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "34372667208e384922d26bfd07bc4581",
+        "text": "STSIM-1 + DM (SeiSIM)\n1.00\n1.00\n0.97",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                366.33599853515625,
+                368.0544738769531,
+                521.9241333007812,
+                375.0919494628906
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c18132cc5c176236c587b79bafa3a362",
+        "text": "associated with each of its matching images. Then,\nthe MAP is obtained by averaging across all query\nimages.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                352.7699890136719,
+                399.0024719238281,
+                571.1004028320312,
+                430.8821105957031
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b6906f2df65bccc3cd5d33a4241c785f",
+        "text": "C. Results",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                318.9969787597656,
+                444.623046875,
+                361.7265930175781,
+                454.58563232421875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "80570569a96ada8eb122e2f01c89625f",
+        "text": "We conducted retrieval experiments on the database using\nvarious similarity metrics discussed above. For each metric,\nevery seismic image in the database was selected once as the\nquery image. It was then compared with the rest 11 images,\nranking them according to the similarity score in a descending\norder. Such ranking was obtained for all 12 images. Then the\nthree performance values were assessed using the 12 rankings.\nThe procedure is illustrated in Figure 5.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                318.9969787597656,
+                461.7864990234375,
+                571.1006469726562,
+                548.4609985351562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "15ea988f3a83ac52e1b0e5fd40c6bb37",
+        "text": "The metrics being examined were SSIM, CW-SSIM,\nSTSIM-1, DM, CW-SSIM+DM, and STSIM-1+DM (i.e.,\nSeiSIM). As discussed earlier, both CW-SSIM and STSIM-1\nutilize the steerable pyramid decomposition to obtain a series\nof subbands describing the original seismic image at multiple\nscales and orientations. In all the experiments, we set the\nnumber of scales to be 4, and the number of orientations\nat each scale to be 8. Both SSIM and CW-SSIM indices\nare calculated based on local windows. The sliding window\nsize was set to 7 × 7 according to the common practice in\nthe literature. The retrieval performance with each respective\nsimilarity metric is summarized in Table I.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                318.9969482421875,
+                555.4854125976562,
+                571.1011962890625,
+                685.9960327148438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9003f1e1a47235c25da9ebc232fd9a45",
+        "text": "From Table I, it can be observed that SSIM performance\nis the lowest among all six metrics being studied. This is\nnot surprising, since SSIM relies on local windowing, point-\nto-point cross correlation, and only examines in the spatial",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                318.9969482421875,
+                693.0194091796875,
+                571.1007690429688,
+                735.8590087890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1b1bfb8f69acce762ab5b72acff1ecf1",
+        "text": "domain. As an extension to SSIM, CW-SSIM has access\nto more abundant spectral-spatial information due to the\nsteerable pyramid decomposition. As a result, the CW-SSIM\nperformance improves signiﬁcantly over SSIM. However, the\nperformance is still not satisfactory with the low precisions\n(P@1=0.67 and MAP=0.72). The performance with STSIM-\n1 is much more encouraging, with the two precision values\nabove 0.9 and the MRR value being 0.99. This veriﬁes that\nseismic images can be appropriately characterized as texture\nimages.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.95899963378906,
+                57.40345764160156,
+                301.0626220703125,
+                165.99594116210938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "01ddbaf668ed7e40da4ec675a6ff0e2f",
+        "text": "As to the DM metric we developed in this work, although\nit is not adequate yet to serve as an independent seismic\nsimilarity metric in its current preliminary form, it obviously\nhelps when combined with others. As demonstrated in Table I,\nDM combined with CW-SSIM yields much improved preci-\nsions (P@1 increases from 0.67 to 0.92, while MAP from\n0.72 to 0.82). Moreover, DM combined with STSIM-1 further\nenhances the retrieval performance over STSIM-1. Being the\nbest metric over all, STSIM-1+DM (or SeiSIM) yields perfect\nvalues for P@1 and MRR, and is near perfect when MAP\nis concerned. We believe that such signiﬁcant improvement\nis due to the introduction of geological attributes through\nDM. Figure 6 compares the similarity scores generated in two\ntypical retrieval experiments. In both experiments, STSIM-\n1 and STSIM-1+DM generate much higher scores for the\nmatching images. Moreover, STSIM-1+DM scores are more\nconsistent within each image group, which is desirable for the\napplication of interest.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.95899963378906,
+                173.1253204345703,
+                301.0626220703125,
+                369.3887023925781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5a5afe3ad8f67f636c22dfa18c48d449",
+        "text": "IV.\nCONCLUSION",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                134.8679962158203,
+                383.7680969238281,
+                215.16444396972656,
+                393.730712890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "06d8e73f99fd5262c774d98abd539563",
+        "text": "In this paper, we explored structural similarity evaluation\nfor retrieval of seismic data, speciﬁcally in the form of 2-D\nsurvey maps. We ﬁrst developed a geological similarity metric,\nDM, which is based on structural information extracted from\ndiscontinuity maps. By further combining DM with a texture\nsimilarity metric (STSIM-1), we obtained a structural seismic\nsimilarity metric (SeiSIM). Our preliminary experiments with\na small database yielded excellent results, indicating that the\nstrategy of integrating texture and geological characteristics is\nvery promising for the intended seismic similarity evaluation.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.958988189697266,
+                400.860107421875,
+                301.0626525878906,
+                509.4526062011719
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "43e9e9bdfdda5feb3208b73f7d858556",
+        "text": "ACKNOWLEDGMENT",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                131.5649871826172,
+                523.8309936523438,
+                218.46343994140625,
+                533.7935791015625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "800543d80d1a365b2eed9090e043b33e",
+        "text": "This work is supported by the Center for Energy and Geo\nProcessing (CeGP) at Georgia Tech and by King Fahd Uni-\nversity of Petroleum and Minerals (KFUPM). Mr. Hasan Al-\nMarzouqi at CeGP prepared the database for the experiments.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.958980560302734,
+                540.9229736328125,
+                301.0626220703125,
+                583.7625732421875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c9582520ceb7449f76fae8a250269339",
+        "text": "REFERENCES",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                147.11697387695312,
+                598.1409912109375,
+                202.9174346923828,
+                608.1035766601562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "819877bd6fb63ae6d4f6323bfd53d948",
+        "text": "[1]\nG. H. Lee, H. J. Kim, D. C. Kim, B. Y. Yi, S. M. Nam, B. K. Khim,\nand M. S. Lim, “The acoustic diversity of the seabed based on the\nsimilarity index computed from chirp seismic data.” ICES Journal of\nMarine Science / Journal du Conseil, vol. 66, no. 2, pp. 227 – 236,\n2009.\n[2]\nM. Chiodi, G. Adelﬁo, A. DAlessandro, and D. Luzio, “Clustering and\nregistration of multidimensional functional data,” in Statistical Models\nfor Data Analysis, ser. Studies in Classiﬁcation, Data Analysis, and\nKnowledge Organization, P. Giudici, S. Ingrassia, and M. Vichi, Eds.\nSpringer International Publishing, 2013, pp. 89–97.\n[3]\nM. Vyas and A. Sharma, “Systems and methods for optimal stacking\nof seismic data,” Oct. 31 2013, uS Patent App. 13/855,783. [Online].\nAvailable: http://www.google.com/patents/US20130286782",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                52.94397735595703,
+                614.7510986328125,
+                301.0656433105469,
+                735.377197265625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cf5b50f7c82e4b733861793c6fc8b859",
+        "text": "Fig. 6.\nComparison of similarity scores generated in two typical retrieval\nexperiments. Here, images 1-3 belong to the group of horizons; images 4-6\nbelong to the group of salts; images 7-9 belong to the group of faults; and\nimages 10-12 belong to the group of noisy horizons.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                318.99700927734375,
+                443.0735778808594,
+                571.099365234375,
+                477.94268798828125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "da1a4249e29372356b68d767b7a880e4",
+        "text": "[4]\nZ. Wang, A. C. Bovik, H. R. Sheikh, and E. P. Simoncelli, “Image\nquality assessment: From error visibility to structural similarity,” Image\nProcessing, IEEE Transactions on, vol. 13, no. 4, pp. 600–612, 2004.\n[5]\nT. Pappas, D. Neuhoff, H. de Ridder, and J. Zujovic, “Image analysis:\nFocus on texture similarity,” Proceedings of the IEEE, vol. 101, no. 9,\npp. 2044–2057, Sept 2013.\n[6]\nZ. Wang, E. P. Simoncelli, and A. C. Bovik, “Multi-scale structural\nsimilarity for image quality assessment,” in IEEE Asilomar Conference\non Signals, Systems and Computers, 2003.\n[7]\nZ. Wang and E. P. Simoncelli, “Translation insensitive image similarity\nin complex wavelet domain,” in IEEE International Conference on\nAcoustics, Speech and Signal Processing, 2005.\n[8]\nZ. Wang and Q. Li, “Information content weighting for perceptual image\nquality assessment,” Image Processing, IEEE Transactions on, vol. 20,\nno. 5, pp. 1185–1198, 2011.\n[9]\nJ. Zujovic, T. Pappas, and D. Neuhoff, “Structural texture similarity\nmetrics for image analysis and retrieval,” Image Processing, IEEE\nTransactions on, vol. 22, no. 7, pp. 2545–2558, July 2013.\n[10]\nE. Simoncelli, W. Freeman, E. Adelson, and D. Heeger, “Shiftable\nmultiscale transforms,” Information Theory, IEEE Transactions on,\nvol. 38, no. 2, pp. 587–607, March 1992.\n[11]\nK. J. Marfurt, V. Sudhaker, A. Gersztenkorn, K. D. Crawford, and\nS. E. Nissen, “Coherency calculations in the presence of structural dip,”\nGeophysics, vol. 64, no. 1, pp. 104–111, 1999.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "ref_7.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                318.99700927734375,
+                502.2366027832031,
+                571.1040649414062,
+                735.3777465820312
+            ],
+            "is_full_width": false
+        }
+    }
+]

@@ -1,0 +1,2016 @@
+[
+    {
+        "element_id": "2596abe4113ef98b829d0d8166b7ab0a",
+        "text": "Contents lists available at SciVerse ScienceDirect",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                204.26449584960938,
+                63.63995361328125,
+                385.0445556640625,
+                71.61015319824219
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "88f5d2e7debce02db86f5dfb6ea5bc24",
+        "text": "Marine Geology",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                243.89280700683594,
+                87.64134216308594,
+                345.3616027832031,
+                101.58894348144531
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a1c8c6bdaa60607ff9ca43ce20e30cde",
+        "text": "journal homepage: www.elsevier.com/locate/margeo",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                175.6345977783203,
+                119.255615234375,
+                413.6048278808594,
+                127.22581481933594
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9d07ed4c7a1a6fc738f01bc6b3e6693b",
+        "text": "Ramps and ﬂats of mass-transport deposits (MTDs) as markers of seaﬂoor\nstrain on the ﬂanks of rising diapirs (Espírito Santo Basin, SE Brazil)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.825199127197266,
+                167.48326110839844,
+                469.092041015625,
+                198.3095245361328
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "eb0492b701e34008c9f3c460e8b24c2f",
+        "text": "Kamal'deen O. Omosanya a,b,⁎, Tiago M. Alves a",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.7322998046875,
+                207.61146545410156,
+                262.10546875,
+                220.0994873046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "576af9b94aff8ac951212e6200ef8d89",
+        "text": "a 3D Seismic Lab, School of Earth and Ocean Sciences, Cardiff University, Main Building, Park Place, CF10 3AT Cardiff, United Kingdom\nb Department of Earth Sciences, Olabisi Onabanjo University, Ago-Iwoye, Nigeria",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.7322998046875,
+                224.85940551757812,
+                409.1676330566406,
+                242.6307373046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4e5ce387ef7228a674fe413a38a269c6",
+        "text": "a b s t r a c t\na r t i c l e\ni n f o",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.73561096191406,
+                267.220947265625,
+                262.5762023925781,
+                276.187255859375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7964ef9cf16c893fe16d23e495008e71",
+        "text": "Article history:\nReceived 25 September 2012\nReceived in revised form 30 March 2013\nAccepted 16 April 2013\nAvailable online 2 May 2013",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.7322998046875,
+                287.67510986328125,
+                152.63197326660156,
+                328.3029479980469
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e2816927dca959d5909bda4d83438fdf",
+        "text": "Ramps and ﬂats reﬂect variations in the morphology of basal shear surfaces in mass-transport deposits\n(MTDs), which are often mapped without considering their potential as strain markers. In this work ramps\nand ﬂats are mapped on the margins of salt diapirs, using a high-quality 3D seismic volume from SE Brazil\n(Espírito Santo) to investigate how the morphology of mass-transport deposits (MTDs) relates to diapir growth\nand near-seaﬂoor strain. In parallel, aspect ratios of MTDs are used to estimate their source areas and possible\ncausal mechanisms. Our results show diapir-related MTDs to have length/width ratios ≤3, in a region where sed-\niment failure was triggered by faulting and seaﬂoor tilting due to halokinesis. Sections of MTDs that were trig-\ngered and later uplifted on the ﬂanks of growing diapirs are termed ‘drag zones’. Ramps within this drag zones\nare shown as local changes in gradient at the basal shear surfaces, and are linked to promontories and older\nfault scarps. The results in this paper are important because they show that drag zones are elongated in a\nNW–SE direction, parallel to the dominant trend of basal ramps and promontories. Basal ramps and promonto-\nries in these drag zones constitute markers for seaﬂoor strain around growing salt diapirs, with variations in the\ninternal character of MTDs occurring across these same ramps and promontories. As a result, a spectrum of seis-\nmic and depositional facies can occur in speciﬁc quadrants of drag zones. In the study area are identiﬁed debrites\n(DBs), slightly deformed blocks (SDBs), coherent or unrotated blocks (CUBs), and rafted blocks (RBs).\n© 2013 Elsevier B.V. All rights reserved.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                198.12734985351562,
+                287.98779296875,
+                553.0529174804688,
+                438.70172119140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "89680a8b5633f7091ae0f9c7ee01e131",
+        "text": "Communicated by D.J.W. Piper",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.7322998046875,
+                339.1038818359375,
+                123.4107437133789,
+                345.4798889160156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8b008bea52b44cdff3e7b601a0ac90a6",
+        "text": "Keywords:\nMTDs\naspect ratio\nramps and ﬂats\nstrain marker\nseismic facies",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.7322998046875,
+                357.0106201171875,
+                78.99552917480469,
+                406.25244140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8349771f9b04b10a10feaee2a97212ed",
+        "text": "1. Introduction",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.7322998046875,
+                471.06610107421875,
+                91.52423858642578,
+                479.0362854003906
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ca7e65f9128bb941f871f6f15f72c384",
+        "text": "Mass-wasting is ubiquitous on continental slopes, where the com-\nbined action of local tectonics, sediment input and gravitational instability\ncan generate complex structures (Norem et al., 1990; Masson et al., 1998;\nGoldﬁnger et al., 2000; Laberg et al., 2000; McAdoo et al., 2000;\nHunerbach and Masson, 2004; Hjelstuen et al., 2007). Following seaﬂoor\nfailure, which occurs when downslope-directed shear stress exceed the\nshear strength of seaﬂoor sediment (Varnes, 1978; Richardson et al.,\n2011), mass-wasting processes involve the transport of sediment over a\nbasal shear surface (Lucente and Pini, 2003) or gliding plane (Gee et al.,\n2005). Once failure is initiated, sediment will move at different velocities\nand volumes over the basal shear surface until the inertia of failed mate-\nrial is balanced once again by glide plane shear strength (Richardson et al.,\n2011).\nKinematic indicators such as scours (Nissen et al., 1999; Posamentier\nand Kolla, 2003; Weimer and Shipp, 2004), grooves and striations (Gee\net al., 2005, 2006), cat claws (Moscardelli et al., 2006), monkey ﬁngers\n(Mc Gilvery and Cook, 2003), ramps and ﬂats (Gawthorpe and",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.72434997558594,
+                491.9878845214844,
+                284.88128662109375,
+                667.3880615234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b3ebcd455d83767da00a4cbdf9f2595b",
+        "text": "⁎ Corresponding author at: 3D Seismic Lab, School of Earth and Ocean Sciences, Cardiff\nUniversity, Main Building, Park Place, CF10 3AT Cardiff, United Kingdom. Tel.: +44 777\n8694072.\nE-mail address: OmosanyaKO@Cardiff.ac.uk (K.O. Omosanya).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.73219299316406,
+                687.1765747070312,
+                285.06146240234375,
+                719.3116455078125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3b1f0ddd57822b7d1c1b29120b25b102",
+        "text": "0025-3227/$ – see front matter © 2013 Elsevier B.V. All rights reserved.\nhttp://dx.doi.org/10.1016/j.margeo.2013.04.013",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.7322998046875,
+                729.9229736328125,
+                244.13400268554688,
+                744.9320678710938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "47ab3fc90a9d81b04375866e8d1fee02",
+        "text": "Clemmey, 1985; Trincardi and Argnani, 1990; Lucente and Pini, 2003)\nare examples of features on basal shear surfaces that reﬂect the nature\nand physics of mass-wasted strata. Basal ramps form segments of a\nshear surface that are discordant with underlying bedding planes,\nwhile ﬂats comprise the bedding-parallel portion of the surface. Ramps\nand ﬂats generally run perpendicular to the ﬂow or movement direction\n(Trincardi and Argnani, 1990) and are seldom parallel to the ﬂow direc-\ntion (O'Leary, 1986, 2002; Bull et al., 2009). As the failed strata move\nacross ramps, signiﬁcant deformation in the sediment is observed at\nthe shear surface (Ramsay and Huber, 1987), usually in the form of\nslump folds and complex compressional features (Rupke, 1967;\nFrey-Martinez et al., 2005; Alves and Lourenço, 2010).\nIn addition to basal shear surface deformation, circular and ellipti-\ncal features interpreted on seismic volumes provide evidence of local\n(paleo) stresses associated with compression, extension, or both.\nThey are usually associated with near-seaﬂoor folding (Edwards et\nal., 2005), salt diapirs (Stewart, 2006), mud volcanoes (Medialdea et\nal., 2000; Milkov, 2000; Dimitrov, 2002), igneous/volcanic plumes\n(Garfunkel and Ben-Avraham, 1996), extension/polygonal faulting\nor sandstone intrusions (Shoulders et al., 2007). Salt diapirs, mud volca-\nnoes and folds are generally associated with compressional stresses with\nminimum stress oriented in a vertical direction (Stewart, 2006). Such a\nstress distribution is recorded in the form of complex deformation\naround growing diapirs, which translates at the seaﬂoor as slope",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.6746520996094,
+                471.0820617675781,
+                552.8427124023438,
+                719.6451416015625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4eddb43bc1a0b32c7067856b0d52e793",
+        "text": "instability features, or mass-transport deposits (MTDs). Signiﬁcantly,\nsome MTDs present ramps and ﬂats in basal shear surfaces that relate\nto local stress ﬁelds and directions of transport during mass-wasting\nevents (Brami et al., 2000; Lamarche et al., 2008).\nThis work presents a quantitative analysis of ramps and ﬂats at the\nbase of multiple MTDs from SE Brazil (Fig. 1). The aim of our work is\nto relate the morphology of ramps and ﬂats, and the relative recur-\nrence of MTDs above them, to the growth of adjacent salt diapirs\n(Fig. 1b). In addition to signiﬁcant seismic facies variations across\nbasal ramps, we show the recurrence of MTDs to vary across speciﬁc\nareas of elliptical ‘drag zones’ around growing diapirs. In addition,\nsource areas of MTDs can also be recognised by analysing their\nlength/width aspect ratios.\nIn detail, this study aims to:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51885986328125,
+                57.29034423828125,
+                293.592041015625,
+                201.35243225097656
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9298654e6325ac6f8236bf58ba8b75e7",
+        "text": "(a) Document the extent to which stress perturbations imposed by\ngrowing diapirs are reﬂected on the seaﬂoor;\n(b) Analyse how basal ramps and ﬂats affect the internal character\nof MTDs;\n(c) Propose new methods to assess the effect of ramps and ﬂats on the\ntype of sediments deposited on and around growing salt diapirs.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.13703918457031,
+                214.30160522460938,
+                293.63427734375,
+                274.54193115234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "836f52286918a0d6f0f0353c1f100982",
+        "text": "This paper starts with a summary of the regional geology of the\nEspírito Santo Basin, SE Brazil. Data sets and methods are described\nbefore attribute and isochron maps are used to deﬁne ramps and\nﬂats around the salt diapirs. In addition, we quantify thickness variations\nwithin individual ramps and ﬂats and relate them with modes of trans-\nport of MTDs. This latter section is followed by a discussion on a) how\nto recognise source areas of MTDs around growing salt structures, b)\nhow ‘drag zones’ can be used to establish the relative timing of\nhalokinesis and c) the signiﬁcance of the ramp and ﬂats of MTDs as sea-\nﬂoor strain markers.\nIn this paper, we use the term ‘drag zone’ to denote sections of MTDs\nthat are uplifted during salt diapir rise (see also Stewart, 2006). Drag\nzones are elliptical to circular in map view and reﬂect the regions of\nthe seaﬂoor that suffered the most strain during the diapir growth\n(Davison et al., 2000b; Stewart, 2006). Drag zones in the study area\nwere mapped using a combination of TWTT thickness and seismic attri-\nbute maps.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51722717285156,
+                287.4911193847656,
+                293.65509033203125,
+                462.8162841796875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9c34fb70debf74148af9126f77e9fda2",
+        "text": "Fig. 1. a) Map of the southeast Brazilian margin showing the location of the Santos, Campos and Espírito Santo basins in relation to main fault zones. b) Distribution of the different MTDs\nadjacently to the ﬁve salt diapirs, D1 to D5, interpreted in this study.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                730.0498657226562,
+                561.6483764648438,
+                744.9862670898438
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "8204ac1ad2876f0349840855cf9d828f",
+        "text": "2. Geological setting",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.50726318359375,
+                57.37063217163086,
+                387.5799255371094,
+                65.34082794189453
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "68cf882f9941730d5c066bc83a0a213e",
+        "text": "The Espírito Santo Basin is located on a passive margin that evolved\nduring the Late Mesozoic breakup of Gondwana (Fig. 1a). The study\narea is separated from the Mucuri and Cumuruxatiba basins by the\nAbrolhos plateau, a volcanic plateau originating in the Eocene. To the\nsouth, the basin gradually extends into the Campos Basin (Ojeda,\n1982; Chang et al., 1992; Fiduk et al., 2004). As most sedimentary basins\nin the South Atlantic, the tectonic evolution of the Espírito Santo Basin is\ndivided into four stages (Fig. 2). A pre-rift stage of Late Jurassic to\nBerriasian age is followed by the syn-rift stage (Berriasian–Late Aptian).\nThe transitional stage spans the late Aptian to Early Albian, and the drift\nstage starting in the Early Albian up to the Holocene (Ojeda, 1982; Gibbs\net al., 2003) (Fig. 2). Additional tectonic elements that modify the basin\narchitecture include salt fairways, intrusive and extrusive magmatism,\nand sediment canyons (Fiduk et al., 2004).\nEvaporites were deposited in the Espírito Santo Basin from the late\nAptian to the early Albian, within the ‘transitional stage’ (Demercian\net al., 1993). These evaporites were later deformed by a combination\nof differential sediment loading, gravity spreading and downslope\ngravity gliding (Demercian et al., 1993; Fiduk et al., 2004). As a result\nof such a complex halokinesis, six salt fairways were developed off-\nshore Espírito Santo (Fiduk et al., 2004). Included in these fairways\nare composite structures such as salt rollers, vertical salt diapirs,\nallochthonous salt canopies, shallow canopies coalescing from the com-\nbination of two different tongues, deep salt canopies, and thrusted salt\nnappes (Fiduk et al., 2004). The area of interest to this study lies in the\nregion of the vertical salt diapirs (Fig. 2). Some of these diapirs ceased\ntheir movement in Cretaceous times, while others are still growing\nand exposing their crests on the seaﬂoor (Fiduk et al., 2004).\nCenozoic successions in the Espírito Santo Basin are composed of\naggrading strata deposited during transgressive and highstand episodes\n(Mohriak, 1995). Prograding strata marking regressive episodes and\nperiods of submarine canyon incision are observed in seven speciﬁc\ntime intervals (Fiduk et al., 2004; Moreira and Carminatti, 2004). As a\nresult, thick carbonate and clastic sequences were accumulated on the\ncontinental shelf during the late Cenozoic, with important volumes of\nstrata prograding to the region where the study area is located (Fig. 2).\nIn such a setting, mass-wasting events in the interpreted seismic volume",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.50616455078125,
+                78.2907943725586,
+                561.6502685546875,
+                462.81689453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "837c41c82dded3e98bec48a650d771b0",
+        "text": "Fig. 2. Relative location of the study area on the continental slope of Espírito Santo. Modiﬁed after Fiduk et al. (2004) and Gamboa et al. (2010, 2011).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                72.90709686279297,
+                296.1089782714844,
+                513.625732421875,
+                302.55511474609375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "41adc46c7c89230ed92be97584aa4b15",
+        "text": "result from regional tectonic movements (Mohriak et al., 1995; Duarte\nand Viana, 2000), and slope instability events related to prolonged\nhalokinesis and diapir growth (Fiduk et al., 2004).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.7322998046875,
+                339.8219909667969,
+                284.7800598144531,
+                368.7115478515625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8dc8ee0ee4758bae42ccc3f4ed7c725c",
+        "text": "3. Data and methods",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.7322998046875,
+                381.6607360839844,
+                112.7616195678711,
+                389.63092041015625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "977a601fdf5abce4025b355781877585",
+        "text": "The data set in this study consist of a seismic volume covering\n~1310 km2 in water depths ranging from 100 m to 1800 m. The data\nset was acquired using a dual air gun array and six, 5700 m long\nstreamers. Bin spacing for this zero-phased migrated volume was\n12.5 × 12.5 m at a vertical sampling rate of 2 ms. Data processing inte-\ngrated resampling, spherical divergence corrections, and zero-phase con-\nversions, which were undertaken before stacking 3-D prestack time\nmigration using the Stolt algorithm, and one-pass 3-D migration. Depth\nconversions and regional lithostratigraphic correlations were established\nusing a velocity of 2100 m/s (Barker et al., 1983), and key regional\nsections (Bruhn and Walker, 1997; Mohriak, 2003; Fiduk et al., 2004;\nMohriak, 2005).\nFor this work four MTDs were mapped adjacently to the ﬁve salt di-\napirs shown in Fig. 1b. Two-way travel time (TWTT) thickness maps\nwere generated to identify any thickness variations in the interpreted\nMTDs (Fig. 3). These maps were also helpful to recognise any changes\nin the geometry of MTDs, areas with blocky strata, regions affected by\nextension, and basal ramps and ﬂats. Length/width aspect ratios of the\nMTDs were used to deduce their possible causal mechanisms and con-\nnection with the continental slope and shelf.\nRoot-mean square (RMS) amplitude maps were generated to high-\nlight the presence of high-amplitude strata and associated structural\nfabrics. RMS amplitude maps calculate average amplitude values by\nsquaring individual data samples over a deﬁned time window, boosting\nany high amplitude in the mapped interval (cf. Brown, 2004). These\nattribute maps can emphasise structural fabric because seismic wave-\nlets are diminished across basal ramps as a result of the destructive\ninterference of seismic energy (Fairbairn and Ward, 1984) and the in-\ncomplete reﬂection of energy from the Fresnel Zones on both sides of\nthe ramps (Townsend et al., 1998). RMS amplitude maps helped the\nidentiﬁcation of basal ramps and ﬂats, as well as any drag zones around\ngrowing diapirs. On RMS amplitude maps, near-seaﬂoor uplift is shown\nas elliptical features around the salt diapirs, marked by differences in",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.7322998046875,
+                402.5801086425781,
+                284.8830261230469,
+                745.3181762695312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e7530a1928c138aff3f94cd5dfae3e60",
+        "text": "amplitude and character from those within it and the outer region. In\naddition, these same regions are characterised by ramps of variable\ndimensions (Figs. 3, 5 and 8).\nTime-structure maps were used to describe the morphological di-\nvision of individual MTDs into their headwall, translational and toe do-\nmains. Changes in dip associated with basal shear surfaces were\nunderlined using time-dip maps (Fig. 5). The latter maps highlight\nchanges in dip of an interpreted seismic reﬂection. Since ramps offset\nnear-seaﬂoor strata, a continuous interpretation across the ramps will re-\nsult in a change in dip of the interpreted horizon, provided the vertical\nresolution is high enough to resolve the offset (Yilmaz, 1987). How abrupt\nthe change in dip across a ramp is, depends on the bin size of the seismic\nvolume as well as its lateral resolution (Yilmaz, 1987).\nIn order to understand the mode of formation of basal ramps and\nhow they relate to observed promontories, the thickness of the MTDs\nwas estimated within individual depressions, or coves as named in\nthis work, created by ramps and promontories (Figs. 4b and 5b). In ad-\ndition, the lengths of distinct ramps, the widths of coves and of adjacent\npromontories were measured as a way to estimate the erosion power of\nthe investigated MTDs. Correlation coefﬁcients between the width of\ncoves and the maximum thickness of MTDs were calculated for the\nstudy area. The transporting distance of MTDs along slope, and the diam-\neters of the associated salt diapir were also correlated. Axial ratios of in-\nferred drag zones near the crest of the salt diapirs were computed based\non time-dip and RMS amplitude data. Finally, the trends of their long\naxes were measured and plotted on rose diagrams (Fig. 8d).\nCoherence maps at the base of the MTDs were also used to validate\nthe position of ramps observed on time-dip maps (Fig. 5). Coherence is\na measure of the waveform similarity, i.e. how a trace is similar to its\nneighbouring trace. Similar traces are mapped as high coherence coefﬁ-\ncients while discontinuities have low coefﬁcients (Brown, 2004).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7196044921875,
+                339.81591796875,
+                552.8729248046875,
+                661.6426391601562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bde8911564ddfcdf6d34e9d511f4f948",
+        "text": "4. Ramps and ﬂats in interpreted MTD intervals",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7197265625,
+                684.9363403320312,
+                483.3151550292969,
+                692.9942016601562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8d4d1ba6592b3dc6a68f895b2edf6ed2",
+        "text": "The top and basal surfaces of four MTDs were mapped as nine surfaces\nnamed H0 to H8 in Fig. 3. The mapped surfaces ranged in age from the\nEocene to the Miocene. On seismic proﬁles, basal shear surfaces separate\nchaotic and disrupted strata within MTDs from the much more",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.71893310546875,
+                705.943359375,
+                552.8002319335938,
+                745.3209838867188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c43f0b671d988e96993d3edeb1975da5",
+        "text": "Fig. 3. Interpreted MTDs in the study area. Ramps are highlighted in separate insets. The positions of the imaged MTDs relative to the continental slope are shown in Fig. 1b. MTDs in\nthe study area range in age from Early Eocene to Miocene and were predominantly transported in a NW–SE direction.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.519683837890625,
+                698.8688354492188,
+                561.5834350585938,
+                713.8052368164062
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "5ba606b406ad7b3b61daa63d22c25360",
+        "text": "Fig. 4. Thickness maps of MTDs and marginal strata to diapirs D1 to D4. a) MTD 1 has maximum thickness of ~200 ms TWTT. b) The maximum thickness of MTD 2 is recorded in\ncoves bounded by ramps and promontories. c) Thickness map of Zone 21 at the base of MTD 2. d) MTD 3 shows a decrease in thickness towards the North. A maximum thickness of\n~200 ms is recorded in regions of megablocks SSW of MTD 3. e) The area around D3 shows a thin MTD 4. The thickest part of MTD 4 onlaps onto the diapir. f) The headwall region of\nMTD 4 shows a very low thickness. N.B: Areas highlighted with dash lines are ‘drag’ zones inferred on the RMS amplitude maps, thickness maps are in TWTT (ms).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.73143005371094,
+                575.7317504882812,
+                552.79541015625,
+                607.789306640625
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "0d7228d47210ee75b68b2788bf6b2bc9",
+        "text": "continuous\nfacies\nof non-MTD deposits\n(Hampton et al., 1996;\nFrey-Martínez et al., 2006; Bull et al., 2009; Frey-Martínez, 2010).\nThe internal character and geometry of the MTDs interpreted in this\nstudy is summarised in Tables 1 and 2. The description of the trend and\nnature of ramps was based on time-dip, coherence and RMS amplitude\nmaps of the basal shear surfaces shown in Figs. 5 and 9. In this work,\nramps were considered to include structures on the basal shear surface\nover which signiﬁcant amount of sediment had been transported across\ndifferent stratigraphic levels (Gawthorpe and Clemmey, 1985; Trincardi\nand\nArgnani,\n1990;\nStrachan,\n2002;\nLucente\nand\nPini,\n2003;\nFrey-Martinez et al., 2005; Bull et al., 2009). Scarps related to\nsub-surface faulting at the base of the MTD were categorised as",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.7322998046875,
+                622.2660522460938,
+                284.8860168457031,
+                745.2645874023438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bc50c9403caa897a5e87b3cb70ead4b3",
+        "text": "fault-controlled ramps (cf. Richardson et al., 2011). Faults forming\nscarps are radial and crestal faults emerging from the salt diapirs\n(Figs. 6, 7b and c). Other structures that contributed to changes in gra-\ndient on the basal shear surface included erosional scours, and minor\ntopographic highs related to doming or salt diapirism (Fig. 5b).\nIn total, twenty-eight basal ramps were identiﬁed in the study\narea (Fig. 8). Approximately, 43% of the ramps occur at the base of\nMTD 1, while 29%, 21% and 7% were identiﬁed on MTDs 2, 3 and 4\n(Fig. 5). Promontory-related ramps were conﬁned to MTD 2 while\nfault-controlled ramps were characteristic of the other MTDs. Along\nthe slope, ramps ranges in length from ~3 km to ~39 km, for an average\nlength of ~10 km.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7190856933594,
+                622.263671875,
+                552.8679809570312,
+                745.26220703125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a73a320c3340397285e605580d2342a2",
+        "text": "Fig. 5. Dip and coherence maps elucidating the characteristic features of the basal shear surface of the MTDs in the study area compared with Fig. 4. a) Ramps below MTD 1 are\nshorter along their strike than most of the other ramps. b) Ramps on the basal shear surface of MTD 2 are presenting stair case geometry where antithetic ramps created depression\nbetween promontories. c) The larger ramps on the basal shear surface of MTD 3 are not related to the salt diapirs, as they occur away from the drag zones. d) Shorter ramps on the\nsouthern margin of D3 form scarps on the palaeo seaﬂoor. R — Ramp, Pr — Promontory, ES — Erosional scours, F — fault.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                448.7397155761719,
+                561.575927734375,
+                480.7969970703125
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "b9b57c6d452045e1236ff7c927b0c973",
+        "text": "4.1. MTD 1 (Early Eocene)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                517.6676635742188,
+                134.47830200195312,
+                525.6378784179688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4c848d55c5d7d72f1e83622f2201a379",
+        "text": "Ramps at the base of MTD 1 have a low angle of dip (b5°) on time-dip\nmaps. They separate areas of chaotic and ﬁne-textured topography from\nundeformed, very high amplitude, continuous reﬂections (Fig. 5a).\nRamps largely show a NW–SE orientation (N72°W to N28°W), parallel\nto the slope gradient. Geometrically, the length of ramps in MTD 1 ranges\nfrom ~5 km (R7) to ~28 km (R1). To the NW of MTD 1, two ramps\nformed a relay zone by the intersection of a NW-trending (N72°W)\nramp, R1 and south trending ramp, R5 (Fig. 5a). Flat areas with no basal\nramps were characterised by chaotic topography, which suggested that\nthe basal surface was erosive at this part and that materials transported\nabove it mainly comprise debrites (Posamentier, 2003; Posamentier and\nKolla, 2003; Gee et al., 2006, 2008).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.519248962402344,
+                538.4993896484375,
+                293.59796142578125,
+                661.6435546875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "650dd3c6f2b13d054b39e58bb1a1a725",
+        "text": "4.2. MTD 2 (Late Eocene)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51924133300781,
+                674.5927124023438,
+                131.1327362060547,
+                682.5629272460938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cf8286e7766d75abfcb9c13bcf2cc363",
+        "text": "Topographic features resembling promontories sensu Bull et al.\n(2009) are associated with depressions, or coves, created by antithetic\nramps on the basal shear surface of MTD 2 (Figs. 5b, and 6a). Promonto-\nries are peninsula-like protrusions on time-structure maps. At the base of\nMTD 2, they are restricted to the edges of diapir D3 and to the southern",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.52003479003906,
+                695.5121459960938,
+                293.6243896484375,
+                745.3211059570312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "048cc43ccacbf77df245be5e75af567a",
+        "text": "ﬂank of D2 (Fig. 5b). These promontories comprise undeformed strata,\nand have an average height of ~46 ms TWTT, for area coverages of\n~24 km2 for PR1, ~17 km2 for PR2, ~13 km2 for PR3, and ~7 km2 for\nPR4 (Fig. 5b).\nPromontories at the base of MTD 2 are characterised by chaotic and\nrugged topography on the time-dip and coherence maps, implying that\nthe basal shear surface was erosive and possibly associated with the\ndeposition of debrites above (Fig. 5b).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.50579833984375,
+                517.4076538085938,
+                561.6456909179688,
+                598.7144775390625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4c2a4d129864fe49a5d678b02f7df730",
+        "text": "4.3. MTD 3 (Oligocene–Miocene)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5064697265625,
+                611.7465209960938,
+                425.61370849609375,
+                619.8043823242188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "61c9d8a1cb8964aa5c1824fa59f6249f",
+        "text": "Ramps on the basal shear surface of MTD 3 separate areas of nearly\nﬂat topography from regions with rugged basal shear surfaces (Fig. 5c).\nTime-dip and coherence maps at the base of MTD 3 show rugged topog-\nraphy towards the western ﬂank of D5, where large rafted blocks pre-\ndominate (Fig. 7a). Most of the observed ramps are NW–SE trending\n(N72°W to N44°W) and anastomosed in the SE part of Fig. 6c. The\npoint of intersection of the ramps corresponds to the position of scours\ninto the underlying lithological unit. A striking sub-elliptical feature on\nthe most distal margin of D4 forms a promontory ﬂanked by a cove\n(Fig. 5c). Despite its shape, it differs from those described in MTD 2, as\nit is enclosed by debrites.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5049743652344,
+                632.75439453125,
+                561.6586303710938,
+                745.3214721679688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "78112fffb605d10286a05d6d382a6a38",
+        "text": "Fig. 6. a) and b) Type I ramps are ﬂanked by promontories, and they are restricted to the base of MTD 2. c) and d) Seismic proﬁle through Type II ramps at the base of MTD 4. R — represents\nthe position of basal ramps.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.7322998046875,
+                398.26959228515625,
+                552.7960205078125,
+                413.2761535644531
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "c2219364992bf8ae93087e10d73c5a8b",
+        "text": "4.4. MTD 4 (Miocene)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.7322998046875,
+                439.2047119140625,
+                110.50446319580078,
+                447.1748962402344
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "049ffb764169ae451f73cd18203a252a",
+        "text": "Basal ramps in MTD 4 shows very low angles of dip (b5°) and are\nlocated on the NW and SE ﬂanks of D3 (Figs. 5d and 7b). On the SE\nﬂank of D3, rafted blocks with heights up to 82 ms TWTT (~254.2 m)\nare found at the point of intersection of the basal ramps. The headwall\nscarp of MTD 4 is shown as subtle topographic highs on the palaeoslope\n(Fig. 4f). Furthermore, striations and erosional scours on the SE part of\nthe MTD trend NW–SE (N46°W) direction. This supports the assumption\nthat the transport direction of MTD 4 was NW–SE (N54°W).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.7322998046875,
+                460.0364074707031,
+                284.84942626953125,
+                541.3403930664062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "78d686ae9b2ff41862b23b02401bf6f9",
+        "text": "5. Drag zones around salt diapirs",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.73307800292969,
+                554.28955078125,
+                159.63916015625,
+                562.259765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e71e770ac5524987f593f8e7104e037c",
+        "text": "For the six (6) drag zones interpreted in the study area, axial ratios of\nlong/short axes (AR) and the orientations of the long axes (Φ) were de-\ntermined from the computed time-dip and RMS amplitude maps (Fig. 9).\nThe aim was to map variations in the internal character of MTDs in four\npre-deﬁned quadrants in each drag zone. In the study area, seismic\nvariations are prominent across basal ramps within the identiﬁed drag\nzones (Fig. 9). The following nomenclature was used to convey the dif-\nferent MTD facies located in each quadrant of the drag zones.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.73231506347656,
+                575.2089233398438,
+                284.7808532714844,
+                656.42529296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2458684a82e75e3c5ff140e86ee0d4fe",
+        "text": "(a) Debrites (DBs), also debris ﬂow deposits sensu Posamentier and\nKolla (2003). Debrites are characterised by very chaotic, disrupted\nand contorted reﬂection on seismic proﬁles. They are shown as\nvery low amplitude strata on RMS maps (Fig. 10a).\n(b) Coherent/unrotated blocks (CUBs) sensu Dott (1963) and",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51945495605469,
+                664.0145263671875,
+                284.80157470703125,
+                713.9111938476562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b46dd5574883c6a39831493e516414b3",
+        "text": "Moscardelli et al. (2006). Coherent blocks usually have pre-\nserved internal geometries with parallel reﬂections. They are\ncharacterised by high amplitude features on RMS maps and",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                57.6556396484375,
+                716.428955078125,
+                284.78875732421875,
+                745.3185424804688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2391a481c373d1ccd1ef5225f7fc3cc2",
+        "text": "are expressed distinctly from their surrounding low ampli-\ntude sediments (Fig. 10b).\n(c) Slightly deformed blocks/slides (SDBs), also moderately de-\nformed blocks sensu Gamboa et al. (2010, 2011). Moderately\ndeformed blocks have planar reﬂections in the centre and\nrotated edges. They are often faulted. They are indistinct on\nthe RMS map except when associated with low amplitude\ndebrites (Fig. 10a).\n(d) Rafted blocks (RBs) (cf. Gamboa et al., 2011). Rafted blocks com-\nprise blocks of strata that display internal architecture resembling\nmaterials that have been transported and dilated. They have\nrotated edges and are characterised by high amplitude reﬂections\nat their top and base (Fig. 10c).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                309.600830078125,
+                439.0293273925781,
+                552.890380859375,
+                572.5158081054688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fa2d5ab3b23414ab4c4fd81c4a4f64b1",
+        "text": "5.1. MTD 1 — fault-controlled debrites",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7206726074219,
+                601.081787109375,
+                435.1553039550781,
+                609.1396484375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7b80b9dc8eec00381b23ebd2547fe66b",
+        "text": "The drag zone mapped at the depth of MTD 1 was located around\nD5 (Fig. 9a). Its boundary is marked by differences in RMS amplitude\nvalues on the northern ﬂank of D5, and by basal ramps on the other\nﬂanks (Fig. 5a). Distinct shadow zones and scars represent changes\nin the composition of the MTD (Fig. 9a). Their axial ratio was comput-\ned as ~2.08, with short and long axes of ~12 km and ~6 km respec-\ntively. This zone had the highest estimated AR value in the study\narea, with a long-axis direction of ~N27°W (Table 3). MTD facies in\nthe drag zone included debrites (DBs), and coherent/unrotated blocks\n(CUBs) in the ﬁrst quadrant, DBs in the second, and slightly deformed\nblocks/slides (SDBs) in the third and fourth quadrants respectively\n(Fig. 9a).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7190856933594,
+                622.0888061523438,
+                552.831298828125,
+                745.0947875976562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3880c8fdd5e3d8ed09a9e400dbd54cc0",
+        "text": "Fig. 7. a) Seismic proﬁle showing examples of ‘drag zones’ and rafted blocks in MTD 3. Drag zones represent the uplifted section of the MTD during diapir growth. In addition are shown\nfaults that controlled slope gradient at the base of MTD 1. b) Fault controlled ramp (Type II) at the base of MTD 4. Also shown are high amplitude reﬂections associated promontories at the\nbasal shear surface of MTD 2. c) Type II ramps at the base of MTDs 1 and 3.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51904296875,
+                564.4363403320312,
+                561.6030883789062,
+                588.0033569335938
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "3ccdb044b3110ee4f5269df3c711efe5",
+        "text": "5.2. MTD 2 — promontory-bounded debrites",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                622.1784057617188,
+                196.81637573242188,
+                630.2362670898438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ad1cbdb50e9c8c30ea1196874161a2db",
+        "text": "The ﬁrst zone on MTD 2 is mainly located around diapir D1\n(Fig. 9b). Basal ramps are ubiquitous features in the western part of\nzone 21 (Fig. 5b). The axial ratio of the zone approaches 1.98, with\nlong and short axes of ~12 km and ~6 km.\nThe ﬁrst quadrant contains CUBs and DBs while the remaining\nquadrants are entirely covered by DBs. The second drag zone affect-\ning MTD 2 is observed on the margin of diapir D3, The basal shear\nsurface is here marked by ramps on both its western and eastern\nﬂanks (Figs. 5b and 9b). A shadow zone on its western end highlights\na transition from high to low amplitude strata N54°W (Fig. 9). The",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.518898010253906,
+                643.0978393554688,
+                293.5795593261719,
+                745.3218383789062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4ec6674ca012f51f651cc5b2a78e58f5",
+        "text": "estimated axial ratio of Zone 22 is ~1.22. DBs were deposited in the\nﬁrst and fourth quadrant while SDBs were found in the third and second\nquadrants.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.50665283203125,
+                622.2643432617188,
+                561.665771484375,
+                651.1557006835938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5fd514dec493d212431a6251222368b7",
+        "text": "5.3. MTD 3 — blocky mass-transport deposit",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.50665283203125,
+                664.0180053710938,
+                465.0487060546875,
+                672.0758666992188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "86cb3fac46bb2850ae7ab67c9a5bee8a",
+        "text": "The two drag zones identiﬁed in MTD 3 were located in areas of low to\nhigh amplitude reﬂections across NW–SE (N57°W and N51°W) trending\nramps (Fig. 9c). Zone 31 was located on the north western margin of the\nMTD. The estimated axial ratio of this zone was ~1.60. Its western and\neastern margins are marked by very prominent ramps (Fig. 5c). To the\nnorth and south of 31 the ramps interconnect and are subtly revealed",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5058288574219,
+                684.9373779296875,
+                561.5718994140625,
+                746.6267700195312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "63cb34838b0dee7ad7048f4a0fa7d5f8",
+        "text": "Fig. 8. Dimensions of ramps measured on dip maps. Statistical analyses of the ramps. a) Length of the twenty-eight ramps used for the study. The scatter plots include: b) variations of the\nwidth of the depocentre and promontories on MTD 2. c) Variations of width of promontory with diameter of diapir and increasing distance toward toe regions. d) Rose diagram for the\norientation of the two types of ramps discussed in the text. Type I are promontory related ramps while Type II are fault controlled ramps.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.7322998046875,
+                563.4861450195312,
+                552.787109375,
+                586.9829711914062
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "84b25c9167e8f59b6f02df67de44f2d8",
+        "text": "on the RMS amplitude window (Figs. 5c and 9c). MTD facies included DBs\nin the second and third quadrants, CUBs and DBs in the ﬁrst and moder-\nately high-amplitude SDBs in the last quadrant (Fig. 9c).\nZone 32 was located south of the ﬁrst zone; it had an estimated axial\nratio of ~1.76, with long and short axes of ~8 km and ~4 km. Rotated/\nrafted blocks (RBs) were the main MTD types in the fourth quadrant\nwhile other quadrants comprise of a mixture of CUBs SDBs and DBs\n(Fig. 9c).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.731719970703125,
+                611.72119140625,
+                284.8830261230469,
+                692.9380493164062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b4d61186ccca5378a37840705f1c5177",
+        "text": "5.4. MTD 4 — low-angle scarped MTD",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.731719970703125,
+                705.8569946289062,
+                165.8067169189453,
+                713.9148559570312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c45e46015bd16ef8620470318871fd55",
+        "text": "Zone 41 is inferred around diapir D3. This diapir displayed features\npreviously identiﬁed in older MTDs. Zone 41 is delimited by a ramp to",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.73237228393555,
+                726.864013671875,
+                284.83270263671875,
+                746.6267700195312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b0c8c5852d7b9d1bccd95a70c95e1dfc",
+        "text": "the west, a shadow zone and several subtle ramps to the east. The\nlong and short axes were ~9 km and ~6 km respectively, with an\naxial ratio of ~1.50. The ﬁrst and fourth quadrants of the zone were dom-\ninated by CUBs and RBs while the third and second quadrants show DBs\nand SDBs (Fig. 9d).\nIn summary, ramps within the drag zones frequently relate to the\ndeposition of blocky MTDs, while those beyond the drag zones mostly\nfavoured the deposition of debrites (Fig. 12b). Geometrically, three\nkinds of axial ratio are common in the drag zones; these are b1.50,\n1.50–2.00, and >2.00. The principal long and short axis ranges from\n~12 km to ~5 km, and ~3 km to ~8 km; estimated standard deviation\nfor these parameters are ~0.28, ~2.57, and ~1.39 respectively. The\ncalculated harmonic and vector mean for the axial ratio and phi (ϕ)",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.71942138671875,
+                611.720703125,
+                552.8328247070312,
+                745.2637939453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d1874def8a3d0d6e61b4c2f5ece8e737",
+        "text": "Table 1\nSeismic character and features of the mass transport deposits in the study area.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                57.728797912597656,
+                275.4573974609375,
+                72.66522216796875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9e61cf23fb5b6bf965be29b314f44673",
+        "text": "Internal character and geometry\nAssociated\nsalt diapirs\nHeadwall region\nBasal shear features",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                174.72796630859375,
+                80.9712905883789,
+                522.6554565429688,
+                95.90771484375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0859eddfc85ac5e3ef319745844fd6b1",
+        "text": "MTD\nSeismic\nunit\nAge\n(Mohriak,\n2003; Fiduk\net al., 2004;\nMohriak, 2005)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.47233200073242,
+                80.9725112915039,
+                154.95025634765625,
+                121.5902099609375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "91e09379535377f29a1409c5595984fb",
+        "text": "1\nH0 and H1\nEocene\nContinuous, high amplitude upper and basal\nsurfaces. Rafted blocks, slightly deformed\nblocks and debrites.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.47235107421875,
+                128.25314331054688,
+                304.7825927734375,
+                151.8067626953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f2bdad79403c4d794c75971ad77ab73a",
+        "text": "Frontally conﬁned by ramps,\npromontories east of the MTD.\nCondensed section in between\npromontories and basal ramps.\n3\nH4 and H5\nOligocene–Miocene\nLarge rafted blocks west of D5. Hummocky upper\nsurface and ramped basal surface.\nD1, D4 and D5\nNW of diapir D5.\nRamps west of diapir D5.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.4730224609375,
+                153.92044067382812,
+                555.5747680664062,
+                203.168701171875
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "f2bdad79403c4d794c75971ad77ab73a",
+        "text": "2\nH2 and H3\nLate Eocene\nVery discontinuous upper and lower boundaries;\nhomogeneous chaotic reﬂections (debrites).\nD1, D2 and D3\nHeadwall region not\nobserved, interpreted\nas buried east of diapir D3.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.47235107421875,
+                153.99118041992188,
+                456.8188781738281,
+                177.488037109375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fcf1e5494a11510fde915379735c73e0",
+        "text": "4\nH6 and H7\nMiocene\nContinuous, high amplitude basal surface, with\na moderate amplitude, hummocky upper surface.\nMTD comprises rafted blocks and debrites\n(chaotic reﬂections)",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.4736328125,
+                205.35372924804688,
+                319.3058166503906,
+                237.4677734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "17625aeccbbfcf14de83c857cc193f70",
+        "text": "are 1.63 and ~47°. Overall, the long axes of the predicted zones are\noriented in a NW–SE (~N27°W to N57°W) direction while the short\naxes are NE–SW-trending (~N63°E to N33°E), respectively coinciding\nwith the direction of the maximum extension and contraction of the\nzones.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                266.6882019042969,
+                293.7021484375,
+                316.49713134765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5b24e6c121c81ef0d111829e6b873bf6",
+        "text": "6. Reassessing diagnostic features of slope- and shelf-detached MTDs",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                339.8219299316406,
+                293.5444030761719,
+                347.7921142578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f9d045d02ca096af9ec1bd0a173471f4",
+        "text": "The dimension of MTDs can be used to estimate their source area\nand sediment run-out distances (Hünerbach et al., 2004). It also pro-\nvides important hints on the volume of sediment remobilised during\nslope instability events. Based on this assumption, aspect ratios were\npreviously used to classify MTDs as ‘slope-detached’ and ‘attached’ off-\nshore Trinidad and Tobago (Moscardelli and Wood, 2007), and in the\nanalysis of Quaternary submarine landslides on the US Atlantic margin\n(Twichell et al., 2009). Slope- and shelf-attached MTDs are of regional\nscale, covering thousands of kilometres in area and are generally\nsourced from extra-basinal systems such as shelf-edge deltas and\nupper-slope regions (Moscardelli and Wood, 2007). In contrast,\ndetached MTDs are relatively small and conﬁned to the margins of\nminibasins or bathymetric highs. Irrespective of the volume of\nremobilised strata, slope detached MTDs have speciﬁc aspect ratios of\nb4 (Moscardelli and Wood, 2007; Twichell et al., 2009). Slope-attached\nMTDs usually have longer run out distances and invariably high length/\nwidth ratios relative to those detached from the slope or shelf.\nThe methods in Moscardelli and Wood (2007) and Twichell et al.\n(2009) are valid when classifying MTDs on continental margins\nwhere the headwall scarp is imperceptible and, as in the case of the\nstudy area, salt structures are prominent and well-developed\n(Figs. 4 and 12). However, this work highlights the existence of quad-\nrants on the margins of rising diapirs in which the MTDs' lithology\nand internal characters signiﬁcantly vary. In addition, these same\nquadrants are shown to comprise the regions on the slope recording\nthe higher recurrence of MTDs (Fig. 12b). This is a signiﬁcant piece\nof new information that will be discussed in detail in the following\nsections.\nIn this study, all the MTDs have length/width ratios of b3 with the\nheadwall scarp and toe regions prominently-imaged. The lack of\nheadwall scarps in MTD 2 may imply quick burial, evacuation and\nlater inﬁlling of the headwall region by subsequent and younger\nMTDs, or a distal source for the failed material. This latter interpreta-\ntion is favoured by the homogeneous nature of MTD 2. This MTD\nstarted out as heterogeneous combination of different facies (slides,\nslumps and debris ﬂow deposits) and, consequent to its long travel\ndistance, ended up as an homogeneous debrite (Fig. 12).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.515655517578125,
+                360.7413024902344,
+                293.707763671875,
+                745.31689453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bc6a1927b73fd56b3d8784a91ac099ef",
+        "text": "D4 and D5\nNW of diapir D5.\nStriations, grooves, ramps.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                327.62957763671875,
+                128.25253295898438,
+                541.6865844726562,
+                134.6285400390625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "715733e5e9a1107bf645bef4da02f8d2",
+        "text": "D2 and D3\nNE of diapir D2.\nMinor topographic barriers,\nscarps, grooves and striations\nstriking NW–SE.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                327.630859375,
+                205.35311889648438,
+                550.9910278320312,
+                228.90673828125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5ba0595d770178a1a2d5beeeb81891e3",
+        "text": "The reactivation of previously-formed radial faults and the growth of\nnewer faults within salt withdrawal basins triggered the deposition of\nMTD 3 during the Miocene–Oligocene. Rafted blocks up to 400 m in\nheight are prominent near the inferred headwall region (Fig. 10a).\nSome of these blocks can be markedly faulted, with their size decreasing\ntowards the toe region. The lack of an obviously-extended headwall\nregion implies that materials could have failed homogeneously on the\nﬂanks of diapirs (Dykstra, 2005).\nIn contrast, the youngest MTD 4 was formed in the Miocene by con-\ntinued halokinesis and faulting. The headwall region of MTD 4 lies be-\ntween D2 and D3 (Figs. 4f and 5d). The post Miocene reactivation of\nD2 led to an elevated slope gradient and the subsequent collapse of\nsediments on the south-eastern margin of the diapir.\nThe four interpreted MTDs are thus characteristic slope-detached\nMTDs presumably resulting from instability generated by increasing\nslope angles on the ﬂanks of growing salt diapirs. Sliding on the plane\nof failure was promoted by near-seaﬂoor faulting and salt diapirism.\nThey are also found within, or restricted to, salt withdrawal basins\nformed on the ﬂanks of rising diapirs. They were generated close to\nthe present-day salt diapirs and as such can be described as\nlocally-sourced MTDs.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5032958984375,
+                266.6809387207031,
+                561.671875,
+                483.85321044921875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5fccfa4d79ea13b751c12c513e46041e",
+        "text": "7. Discussion",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5062561035156,
+                507.2912292480469,
+                359.8633117675781,
+                515.2614135742188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "92fac193d843227b7f594db57fe4955c",
+        "text": "7.1. Signiﬁcance of basal ramps of MTDs on the ﬂanks of rising diapirs",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5062561035156,
+                528.1228637695312,
+                555.558837890625,
+                536.1807250976562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "501def8004b6197312b43c972cb648c0",
+        "text": "In the study area, basal ramps include a) low angle, b5° features\naround promontories (Type I) and b) fault-controlled scarps created by\nthe reactivation of radial faults and faulting of salt withdrawal basins\n(Type II) (Fig. 6a and b). Type I ramps are only found at the basal shear\nsurface of MTD 2 while Type II ramps predominate at the base of the\nother MTDs. In situations where adjacent ramps were antithetic, they\nformed promontories and adjacent coves were subsequently ﬁlled by de-\nbris ﬂow deposits (Fig. 7b). Both kinds of ramps inﬂuenced the distribu-\ntion of the MTDs in distinct drag zones (Fig. 9).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5054931640625,
+                549.0422973632812,
+                561.5914306640625,
+                640.7777099609375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "07da67fcf9b18b6a0dc53c88f3a7f62e",
+        "text": "Table 2\nAspect ratio and geometry of the mass transport deposits in the study area.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5069885253906,
+                663.6057739257812,
+                531.7077026367188,
+                678.5421142578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fd355f087a25f9fe9400cec5a6b2c57b",
+        "text": "MTD\nMax\nlength\nMax\nbreadth\nAspect\nratio\nMax. thickness\n(ms) (TWTT)\nArea\n(sq.km)\nVolume\n(km3)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                316.4596252441406,
+                686.792724609375,
+                556.0390625,
+                701.7298583984375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "748b0aa5200dd71fd82125496338b864",
+        "text": "MTD 1\n38\n38\n1.00\n110\n778.8\n90.0\nMTD 2\n52\n25\n2.08\n140\n602.4\n88.5\nMTD 3\n48\n28\n1.71\n175\n851.1\n156.4\nMTD 4\n30\n14\n2.14\n75\n325.8\n25.7",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                316.45880126953125,
+                708.3934326171875,
+                549.5302734375,
+                740.5073852539062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b6410e29721c7b0839dc82a774a5b23a",
+        "text": "Fig. 9. Drag zones inferred from RMS amplitude maps computed between the tops and bases of the MTDs. Areas of high amplitude separate the MTDs into bands of alternating high\nand low amplitude. Quadrants are labelled clockwise. Coherent unrotated blocks and debrites were recognised as near cubic and triangular features on RMS amplitude maps, while\nthe other facies types were indistinctly separated on the maps except in places where they were shown as low-amplitude features.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.7322998046875,
+                699.7191162109375,
+                552.783203125,
+                723.2159423828125
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "b87e8c2a65158ded2829b87d4a0ff185",
+        "text": "Fig. 10. Four end member depositional and seismic facies used in the study. a) Slightly deformed blocks (SDBs) are moderately deformed blocks with planar reﬂections in the centre\nand rotated edges. b) Coherent to undeformed blocks (CUBs) have preserved internal geometries with parallel reﬂections. c) Rafted blocks (RBs) comprise blocks of strata that display\ninternal architecture resembling materials that have been transported and dilated while debrites (DBs) are characterised by very chaotic, disrupted and contorted reﬂection on seismic\nproﬁles.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                503.09478759765625,
+                561.6160278320312,
+                535.22216796875
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "5e0de7822fb168aba03b44307365c54b",
+        "text": "The origin of the two kinds of ramps described in this study can be\nlinked to erosion of the mechanical incompetent layers at the basal\nshear surface (Fig. 11b and c). Regions of enhanced erosion are marked\non seismic proﬁles as small-scale coves ﬂanked by undeformed promon-\ntories, which comprise the uneroded remnants and mechanical compe-\ntent parts of seaﬂoor around MTDs. A key observation in this work is that\nramps and promontories have their long axes oriented parallel to the\ndirection of transport of the interpreted MTDs (Fig. 5). Complete erosion",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.519405364990234,
+                559.2802124023438,
+                293.666748046875,
+                640.4965209960938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b4aeeca41977ee3efd65c38f3c960900",
+        "text": "Table 3\nStatistical parameters measured on inferred drag zones at the crest of the salt diapirs.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                655.045166015625,
+                293.8330078125,
+                669.9815673828125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4985a307939b80790ad29c3bdb9c144b",
+        "text": "S/N\nEllipse\nMTD\nLong (x)\nShort (z)\nx/z\nPhi (ϕ)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.47233200073242,
+                678.1619262695312,
+                288.06646728515625,
+                684.6080932617188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fd886e058d06d32d17d4348fba8f36ce",
+        "text": "1\nZ41\n4\n8.72\n5.82\n1.50\n54.1\n2\nZ31\n3\n12.36\n7.71\n1.60\n57.1\n3\nZ32\n3\n7.60\n4.33\n1.76\n51.2\n4\nZ21\n2\n12.35\n6.22\n1.98\n46.9\n5\nZ22\n2\n7.88\n6.44\n1.22\n54.1\n6\nZ11\n1\n11.54\n5.54\n2.08\n26.7",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.472206115722656,
+                691.2716674804688,
+                279.31341552734375,
+                741.1362915039062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cd558772175b63ae8eea6a558f0df2d8",
+        "text": "of the paleoseaﬂoor may cause the section of the ramp that is normal to\nthe mass ﬂow direction to be indiscernible on seismic proﬁles.\nIn the study area, there is a strong inverse correlation between the\nwidths of the promontories/ﬂats and adjacent coves, with correlation\ncoefﬁcients ranging from 0.65 to 0.953 (Fig. 8b). These relationships sug-\ngest that erosion affected the seaﬂoor in an uneven way and account for\nthe evolution of the ramps and ﬂats in the study area (Figs. 4b and 5b).\nThus, the promontory-related ramps in this study are not similar to\nextensional or compressional structures in Gawthorpe and Clemmey\n(1985). Instead, Type I ramps ﬁt into the description of ramps by\nTrincardi and Argnani (1990); Lucente and Pini (2003); Frey-Martinez\net al. (2005); and Bull et al. (2009). Seismic coherence maps show that\nType I ramps are not discontinuities in the seismic volume in contrast\nto their Type II counterparts (Fig. 5a,c and d). Type I ramps are thought\nto be sidewalls of basal excavation areas on the basal shear surface\nthrough which sediments were transferred during the movement of\nMTDs. Plots of variations in the diameter of D3 versus the width of adja-\ncent coves demonstrate that coves increase in width in the regions",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.50701904296875,
+                559.1909790039062,
+                561.670166015625,
+                745.0918579101562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "69560eeadff8e3c8cc2a66aacbb6bb73",
+        "text": "Fig. 11. Diagram depicting a) the possible interplay of MTDs with growing salt diapirs and their modes of formation of b) Type I ramps. c) Type II ramps. N.B: (+) represent the mechanical\ncompetent section of the paleo sea ﬂoor while (−) denote the less competent part.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.7322998046875,
+                433.772705078125,
+                552.7808227539062,
+                448.7091369628906
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "f28508948f0400597570cfa2d336c2ea",
+        "text": "where the diameter of the diapir D3 is larger (Fig. 8c). In such a setting,\nsalt diapirs preferentially grew adjacently to the observed promontories.\nA possible explanation for the presence of Type II ramps is that they\nwere created by the action of multiple beds cut by pre-existing fault\nscarps (Fig. 11c). Type II ramps are, however, preferentially oriented in\nthe direction of transport of the interpreted MTDs. Consequently, we in-\nterpret these ramps to pre-date or occur synchronously with the depo-\nsition of MTDs 1 to 4 (Fig. 11a). In addition, the orientation of the fault\ncontrolled ramps was directly controlled by halokinesis. Salt mounds,\ndiapirs and associated crestal and radial faults propagated to the south\neast in areas of lower head gradient (cf. Hudec and Jackson, 2007),\nthus the predominance of Type II ramps striking NW–SE (~N40°W) be-\nneath MTDs 1, 3 and 4.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.732295989990234,
+                475.82830810546875,
+                284.87646484375,
+                609.3147583007812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c38c453b403ab1de7aee1aec139a6269",
+        "text": "7.2. Drag zones as indicators of seaﬂoor strain",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.73309326171875,
+                622.1763305664062,
+                194.93357849121094,
+                630.2341918945312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4b1549ad4f5082ec237f85eafbf15381",
+        "text": "The seaﬂoor and adjacent stratigraphic units draping growing\nsalt diapirs are usually compressed or extended during diapir rise\n(Vendeville and Jackson, 1992a,b; Davison et al., 2000a; Davison,\n2004). The sub-circular shape of most diapirs indicates that the\nhighest strain is located in their central, dome-shaped crest, and pro-\ngressively distributed along the adjacent ﬂanks of growing salt struc-\ntures (Bouhallier et al., 1995).\nThis work shows that halokinesis and diapir growth created drag\nzones around the studied diapirs. These zones are elliptical on thick-\nness maps and RMS amplitude windows. On the TWTT thickness",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.73229217529297,
+                643.095703125,
+                284.8334045410156,
+                745.3190307617188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cef83144ec72c490a67152d26473fa64",
+        "text": "maps, they were often shown as areas of signiﬁcant thickness varia-\ntions when compared to their surroundings (Fig. 4). Drag zones are\ntherefore considered to mark the area of maximum strain endured\nby the paleo seaﬂoor during the diapir growth. On the RMS amplitude\nmap, they are materialised as coherently distributed zones of uplift/\ndrag characterised by changes amplitude (Fig. 9). In addition, subtle\nlow amplitude linear features, or scars, observed around some of\nthe diapirs on RMS amplitude maps correspond to the position of\nbasal ramps (Fig. 9).\nQuantifying these drag zones provided insight into the distribution\nof strain within the MTD during halokinesis. Where present, ramps\nalso inﬂuenced the geometry and type of the ﬁnal drag zone. In this\npaper is shown a spectrum of MTD facies in drag zones with developed\nramps. As drag zones represent the maximum strained section of MTD\ndeposited during salt diapir rise, their analysis can be used to under-\nstand if MTDs were deposited before or during salt diapir movement.\nThe relative lack of ﬂow structures such as deﬂected, reﬂected or imbri-\ncated MTD layers around the diapirs suggest mass ﬂows that are not but-\ntressed against a structural or topographic barrier (see Fig. 11a). In\naddition, the diapirs are found in the translational domain of MTDs\nwhich may indicate no signiﬁcant alteration of the stress regime during\nthe diapir growth. Also, piercements of the MTD connote deformation\nof the overburden, especially during the active stage of diapirism.\nIn contrast to the latter settings, basal ramps sub-parallel to drag\nzones' long axes indicate the accommodation of local strain on the\nﬂanks of diapirs when of the deposition of MTDs. This is an important",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.720703125,
+                475.7358093261719,
+                552.8757934570312,
+                745.3142700195312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "26f432a6b004ff7d3f08e7b234e8cc0f",
+        "text": "Fig. 12. a) Relationship and geometry of MTDs on the Espírito Santo continental slope. b) Block diagram showing some of the terminologies and concepts described in the text.\nShown in the ﬁgure are examples of Type I and Type II ramps, Heterogeneous and Homogeneous MTDs, and drag zones (not to Scale).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.519683837890625,
+                322.31451416015625,
+                561.5570678710938,
+                337.2509460449219
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "8cb52f0d96c3a6e175f1148279056184",
+        "text": "ﬁnding, as it shows that this type of ramps and promontories can be\nused as a proxy to understand the timing of salt diapirism, and the\namounts of strain experienced in the drag zones at the time of seaﬂoor\nfailure.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.519683837890625,
+                360.6540222167969,
+                293.635986328125,
+                400.0626525878906
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "98a4134c714a9d9dce7f8aacd509e1e3",
+        "text": "8. Conclusions",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.519683837890625,
+                413.0692443847656,
+                97.25106811523438,
+                421.0394287109375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "92c9dd93f15bec61cdf13ad5e6c34d44",
+        "text": "This study shows that ramps at the base of MTDs could be oriented\nparallel to the ﬂow direction. These ramps include those attached to\npromontories, and fault-controlled ramps that either predated or oc-\ncurred synchronously with the deposition of MTDs. Ramps with prom-\nontories formed by the erosion of the least competent part of the basal\nshear surface. When there is complete erosion of the incompetent layer,\nthey are manifested as structures normal to the direction of mass ﬂow\nand parallel during partial erosion. Furthermore, the action of multiple\nbeds and incomplete erosion of underlying fault scarps was linked\nwith the formation of fault-controlled ramps.\nThe salt diapir rise and subsequent strain histories of the mass trans-\nport deposits are preserved in drag zones within the MTD on the crest of\nthe diapirs. Distinct MTD facies were preferentially deposited in different\nquadrants of drag zones. The estimated axial ratios of drag zones were es-\ntimated to be b1.5, 1.5–2.0, and 2.00; with the long axes mainly oriented\nin NW–SE direction. Additionally, the location of drag zones and MTD fa-\ncies was inﬂuenced by the position of basal ramps. The orientation (ϕ) of\nthe long axes and axial ratios of the drag zone were important parameters\nfor investigating the strain history of the paleo seaﬂoor and the MTDs.\nThese zones are strain markers, which could only be analysed by estima-\ntion of their aspect ratios. Drag zones, though elliptical in map view, can-\nnot be considered as strain ellipses, as the pre-requisite for hypothetical\nrepresentation of the zone as initially circular objects cannot be adequate-\nly justiﬁed from seismic. If it were possible to identify the elliptical drag\nzone in attribute data from near-horizontal section through the seismic\nvolume, there would be no way to characterise the intermediate axis suf-\nﬁciently to carry out a strain analysis.\nIn this work we identiﬁed three statistical parameters (angle of dip,\nlength along strike, orientation) deﬁning the geometry of basal ramps,\nand two types of ramps. Type I is promontory-related and Type II is",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.518890380859375,
+                433.9886169433594,
+                293.6575012207031,
+                745.318115234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "720c2398619eaaf2bd9981a775a215fa",
+        "text": "fault-controlled. Promontories are linked with very high-amplitude\nreﬂections, characteristic of bright spots. This implies that promontories\nin MTD 1 and MTD 2 can comprise potential exploration targets, similar\nto features described as ‘Erosional Shadow Remnants’ by Moscardelli et\nal. (2006).\nIn addition, the drag zones mapped in this work are sites of recur-\nring mass wasting events, and such areas should be avoided when\nplanning well trajectories, especially when these zones are in front\nof salt diapirs. If located on the proximal part of the diapirs, they\ncan act as a structural barrier to remobilised MTDs.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5065612792969,
+                360.7352294921875,
+                561.6394653320312,
+                462.8143005371094
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ce1a6945e1dd65fc4b222323dd8f762b",
+        "text": "Acknowledgements",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5065612792969,
+                481.262939453125,
+                385.5531921386719,
+                489.2331237792969
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f86066fca5d38adae71760c7a1fef802",
+        "text": "Kamal' is grateful to ETF/OOU, Nigeria for the research grant,\nCGG-Veritas for the permission to publish this research paper, and\nSchlumberger for provision of Geoframe@ and Petrel@ for seismic\ninterpretation. We acknowledge D.W Piper for his additional com-\nments during the review process and also opinion of the anonymous\nreviewers. The understanding and support of Maryam, Aisha and\nHawa during the preparation of the revised manuscript cannot be\noveremphasised.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5059509277344,
+                502.18231201171875,
+                561.6014404296875,
+                583.4071655273438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d93305f210f1ce747cf7068be17ed32f",
+        "text": "References",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5059509277344,
+                601.8557739257812,
+                351.71112060546875,
+                609.8259887695312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f03bf2dd1046b8c140488a2c37c065d3",
+        "text": "Alves, T.M., Lourenço, S.D.N., 2010. Geomorphologic features related to gravitational\ncollapse: submarine landsliding to lateral spreading on a Late Miocene–Quaternary\nslope (SE Crete, eastern Mediterranean). Geomorphology 123 (1–2), 13–33. http://\ndx.doi.org/10.1016/j.geomorph.2010.04.030.\nBarker, P.F., Bufﬂer, R.T., Gambôa, L.A., 1983. A seismic reﬂection study of the Rio\nGrande rise. In: Barker, P.F., Carlson, R.L., Hohnson, D.A. (Eds.), Initial Reports of\nthe Deep Sea Drilling Program, 72. Government Printing Ofﬁce, Washington, D.C.,\npp. 499–517.\nBouhallier, H., Chardon, D., Choukroune, P., 1995. Strain patterns in Archaean dome-\nand-basin structures: the Dharwar craton (Karnataka, South India). Earth and\nPlanetary Science Letters 135, 57–75.\nBrami, T.R., Pirmez, C., Archie, C., Holman, K.L., 2000. Late Pleistocene deep-water stra-\ntigraphy and depositional processes, offshore Trinidad and Tobago. GCSSEPM Bob\nF. Perkins 20th Annual Research Conference, Houston, TX, pp. 402–421.\nBrown, A.R., 2004. Interpretation of Three-Dimensional Seismic Data, sixth ed. American\nAssociation of Petroleum Geologists, Tulsa.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.5063171386719,
+                619.045166015625,
+                561.6197509765625,
+                744.9844970703125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "95f01ab6570e47fb1839aeb77ed7e798",
+        "text": "Bruhn, C.H.L., Walker, R.G., 1997. Internal architecture and sedimentary evolution of\ncoarse-grained, turbidite channel-levee complexes, early Eocene Regência Canyon,\nEspírito Santo Basin, Brazil. Sedimentology 44, 17–46.\nBull, S., Cartwright, J., Huuse, M., 2009. A review of kinematic indicators from mass\ntransport complexes using 3D seismic data. Marine and Petroleum Geology 26\n(7), 1132–1151.\nChang, H.K., Kowsmann, R.O., Figueiredo, A.M.F., Bender, A., 1992. Tectonics and stra-\ntigraphy of the East Brazil Rift system: an overview. Tectonophysics 213 (1–2),\n97–138.\nDavison, I., 2004. Bathymetric controls on Paleocene gravity ﬂows around salt domes in\nthe Central Graben, North Sea. GCSSEPM 24th Annual Meeting, Bob Perkins Research\nConference, December 5th–8th 2004, Houston Texas, pp. 1031–1044 (CD Rom).\nDavison, I., Alsop, G.I., Evans, N.G., Safaricz, M., 2000a. Overburden deformation patterns\nand mechanisms of salt diapir penetration in the Central Graben, North Sea. Marine\nand Petroleum Geology 17 (5), 601–618.\nDavison, I., Alsop, I., Birch, P., Elders, C., Evans, N., Nicholson, H., Rorison, P., Wade, D.,\nWoodward, J., Young, M., 2000b. Geometry and late-stage structural evolution\nof Central Graben salt diapirs, North Sea. Marine and Petroleum Geology 17,\n499–522.\nDemercian, S., Szatmari, P., Cobbold, R., 1993. Style and pattern of salt diapirs due to thin-\nskinned gravitational gliding, Campos and Santos basins, offshore Brazil. Tectonophysics\n228 (3–4), 393–433.\nDimitrov, L.I., 2002. Mud volcanoes—the most important pathway for degassing deeply\nburied sediments. Earth-Science Reviews 59, 49–76.\nDott, R.H., 1963. Dynamics of subaqueous gravity depositional processes. AAPG Bulletin\n47, 104–128.\nDuarte, C.S., Viana, A., 2000. Santos Drift System: stratigraphic organization and im-\nplications for late Cenozoic palaeocirculation in the Santos Basin, SW Atlantic\nOcean. In: Viana, A., Rebesco, M. (Eds.), Economic and Palaeoceanographic Signif-\nicance of Contourite Deposits. : Geol. Soc. London Spec. Pub., 276. Geol. Soc., London,\npp. 171–198.\nDykstra, M., 2005. Dynamics of Sediment Mass-Transport From the Shelf to the Deep\nSea. (PhD thesis) University of California, Santa Barbara (152 pp.).\nEdwards, C.M., Hodgson, D.M., Flint, S.S., Howell, J.A., 2005. Contrasting styles of shelf\nsediment transport and deposition in a ramp margin setting related to relative\nsea-level change and basin ﬂoor topography, Turonian (Cretaceous) Western Interior\nof central Utah, USA. Sedimentary Geology 179 (1–2), 117–152.\nFairbairn, C.M., Ward, W.A., 1984. The Use of High-pass Filtering to Aid Detection of\nSmall Reﬂector Discontinuities 46th Meeting of European Association of Exploration\nGeophysicists, London.\nFiduk, J.C., Brush, E.R., Anderson, L.E., Gibbs, P.B., Rowan, M.G., 2004. Salt deformation,\nmagmatism, and hydrocarbon prospectivity in the Espírito Santo Basin, offshore\nBrazil. In: Post, P.J. (Ed.), Salt–sediment Interactions and Hydrocarbon Prospectivity:\nConcepts, Applications, and Case Studies for the 21st Century. Gulf Coast Sect., Soc.\nof Sediment. Geol., Houston, Tex., pp. 370–392.\nFrey-Martínez, J., 2010. 3D seismic interpretation of mass transport deposits: implica-\ntions for basin analysis and geohazard evaluation. Submarine Mass Movements\nand Their Consequences: Advances in Natural and Technological Hazards Research,\n28, pp. 553–568.\nFrey-Martinez, J., Cartwright, J., Hall, B., 2005. 3D seismic interpretation of slump\ncomplexes: examples from the continental margin of Israel. Basin Research 17,\n83–108.\nFrey-Martínez, J., Cartwright, J., James, D., 2006. Frontally conﬁned versus frontally\nemergent submarine landslides: a 3D seismic characterisation. Marine and Petro-\nleum Geology 23 (5), 585–604.\nGamboa, D., Alves, T., Cartwright, J., Terrinha, P., 2010. MTD distribution on a ‘passive’\ncontinental margin: the Espírito Santo Basin (SE Brazil) during the Palaeogene.\nMarine and Petroleum Geology 27 (7), 1311–1324.\nGamboa, D., Alves, T., Cartwright, J., 2011. Distribution and characterization of failed\n(mega) blocks along salt ridges, southeast Brazil: implications for vertical ﬂuid\nﬂow on continental margins. Journal of Geophysical Research 116, B08103.\nhttp://dx.doi.org/10.1029/2011JB008357.\nGarfunkel, Z., Ben-Avraham, Z., 1996. The structure of the Dead Sea basin. Tectonophysics\n266, 155–176.\nGawthorpe, R.L., Clemmey, H., 1985. Geometry of submarine slides in the Bowland\nBasin (Dinantian) and their relation to debris ﬂows. Journal of the Geological Soci-\nety of London 142, 555–565.\nGee, M.J.R., Gawthorpe, R.L., Friedmann, J.S., 2005. Giant striations at the base of a sub-\nmarine landslide. Marine Geology 214, 287–294.\nGee, M.J.R., Gawthorpe, R.L., Friedmann, S.J., 2006. Triggering and evolution of a giant\nsubmarine landslide, offshore Angola, revealed by 3D seismic stratigraphy and\ngeomorphology. Journal of Sedimentary Research 76, 9–19.\nGee, M.J.R., Uy, H.S., Warren, J., Morley, C.K., Lambiase, J.J., 2008. The Brunei slide: a\ngiant submarine landslide on the North West Borneo Margin revealed by seismic\ndata. Marine Geology 246, 9–23.\nGibbs, P.B., Brush, E.R., Fiduk, J.C., 2003. The evolution of the syn rift and transition\nphase of the central/southern Brazilian and W. African conjugate margins: the im-\nplications for source rock distribution in time and space, and their recognition on\nseismic data. Eighth International Congress of the Brazilian Geophysical Society,\nSeptember 14–18, 2003, Rio de Janeiro, Brazil, pp. 1–7.\nGoldﬁnger, C., Kulm, L.D., McNeill, L.C., Watts, P., 2000. Super-scale failure of the southern\nOregon Cascadia Margin. Pure and Applied Geophysics 157, 1189–1226.\nHampton, M.A., Lee, H.J., Locat, J., 1996. Submarine landslides. Reviews of Geophysics\n34 (1), 33–59.\nHjelstuen, B.O., Eldholm, O., Faleide, J.I., 2007. Recurrent Pleistocene megafailures on\nthe SW Barents Sea margin. Earth and Planetary Science Letters 258, 605–618.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 15,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                33.73200225830078,
+                56.141456604003906,
+                284.8769836425781,
+                739.9934692382812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "667ed9d4644893e5ed9b5c5521774e46",
+        "text": "Hudec, M.R., Jackson, M.P.A., 2007. Terra inﬁrma: understanding salt tectonics. Earth-\nScience Reviews 82, 1–28.\nHunerbach, V., Masson, D.G., 2004. Landslides in the North Atlantic 646 and its adjacent\nseas: an analysis of their morphology, setting and behaviour. Marine Geology 213,\n343–362.\nHünerbach, V., Masson, D.G., Partners, C.P., 2004. Landslides in the North Atlantic and\nits adjacent seas: an analysis of their morphology, setting and, behaviour. Marine\nGeology 213, 343–362.\nLaberg, J.S., Vorren, T.O., Dowdeswell, J.A., Kenyon, N.H., Taylor, J., 2000. The Andøya\nSlide and the Andøya Canyon, north-eastern Norwegian–Greenland Sea. Marine\nGeology 162, 259–275.\nLamarche, G., Joanne, C., Collot, J.-Y., 2008. Successive, large mass-transport deposits in\nthe south Kermadec fore-arc basin, New Zealand: The Matakaoa Submarine Insta-\nbility Complex. Geochemistry, Geophysics, Geosystems 9, 1–30.\nLucente, C.C., Pini, G.A., 2003. Anatomy and emplacement mechanism of a large submarine\nslide within a Miocene foredeep in the northern Apennines, Italy: a ﬁeld perspective.\nAmerican Journal of Science 303, 565–602.\nMasson, D.G., Canals, M., Alonso, B., Urgeles, R., Huhnerbach, V., 1998. The Canary de-\nbris ﬂows: source area morphology and failure mechanisms. Sedimentology 45\n(2), 411–432.\nMc Gilvery, T.A., Cook, D.L., 2003. The inﬂuence of local gradients on accommodation space\nand linked depositional elements across a stepped slope proﬁle, offshore Brunei. In:\nRoberts, H.H., Rosen, N.C., Fillon, R.H., Anderson, J.B. (Eds.), Shelf Margin Deltas and\nLinked Down Slope Petroleum Systems: Global Signiﬁcance and Future Exploration Po-\ntential: Gulf Coast Section SEPM 23rd Annual Research Conference, pp. 387–419.\nMcAdoo, B.G., Pratson, L.F., Orange, D.L., 2000. Submarine landslide geomorphology, US\ncontinental slope. Marine Geology 169, 103–136.\nMedialdea, T., Somoza, L., Pinheiro, L.M., Fernández-Puga, M.C., Vázquez, J.T., León, R.,\nIvanov, M.K., Magalhaes, V., Díaz-del-Río, V., Vegas, R., 2000. Tectonics and mud\nvolcano development in the Gulf of Cádiz. Marine Geology 261, 48–63.\nMilkov, A.V., 2000. Worldwide distribution of submarine mud volcanoes and associated\ngas hydrates. Marine Geology 167, 29–42.\nMohriak, W.U., 1995. Salt tectonics and structural styles in the deep-water province of the\nCabo Frio region, Rio de Janeiro, Brazil. In: Jackson, M.P.A., Roberts, D.G., Snelson, S.\n(Eds.), Salt Tectonics: A Global Perspective: AAPG Memoir, 65, pp. 273–304.\nMohriak, W.U., 2003. Bacias Sedimentares da Margem Continental Brasileira. In: Bizzi,\nL.A., Schobbenhaus, C., Vidottie, R.M., Gonçalves, J.H. (Eds.), Geologia, Tectônica e\nRecursos Minerais do Brasil. CPRM, Brasília, pp. 87–165.\nMohriak, W.U., 2005. Interpretação geológica e geofísica da Bacia do Espírito Santo e da\nregião de Abrolhos: Petrograﬁa, datação radiométrica e visualização sísmica das\nrochas vulcânicas. Boletim de Geociencias da Petrobras 14 (1), 133–142.\nMohriak, W.U., Macedo, J.M., Castelani, R.T., Rangel, H.D., Barros, A.Z.N., Latge, M.A.L.,\nRicci, J.A., Mizusaki, A.M.P., Szatmari, P., Demercian, L.S., Rizzo, J.G., Ayres, J.R.,\n1995. Salt tectonics and structural styles in the deep-water province of the Cabo\nFrio Region, Rio de Janeiro, Brazil. In: Jackson, M.P.A., Roberts, D.G., Snelson, S.\n(Eds.), Salt Tectonics. : A Global Perspective, 65. AAPG Mem., pp. 273–304.\nMoreira, J.L.P., Carminatti, M., 2004. Eocene slope and basin depositional systems in the\nCampos Basin. Bul. Geoc., 12. Petrobras, pp. 73–87.\nMoscardelli, L., Wood, L., 2007. New classiﬁcation system for mass transport complexes\nin offshore Trinidad. Basin Research 20, 73–98.\nMoscardelli, L., Wood, L., Mann, P., 2006. Mass-transport complexes and associated\nprocesses in the offshore area of Trinidad and Venezuela. AAPG Bulletin 90 (7),\n1059–1088.\nNissen, S.E., Haskell, N.L., Steiner, C.T., Coterill, K.L., 1999. Debris ﬂow outrunner blocks,\nglide tracks, and pressure ridges identiﬁed on the Nigerian continental slope using\n3-D seismic coherency. The Leading Edge 18, 595–599.\nNorem, H., Locat, J., Schieldrop, B., 1990. An approach to the physics and the modelling\nof submarine ﬂowslides. Marine Geotechnology 9, 93–111.\nO'Leary, D.W., 1986. The Munson–Nygren slide: a major lower-slope slide off the\nGeorges Bank. Marine Geology 72, 101–114.\nO'Leary, D.W., 2002. Submarine mass movement, a formative process of passive continental\nmargins: the Munson–Nygren landslide complex and the southeast New England land-\nslide complex. In: Schwab, W.C., Lee, H.J., Twichell, D.C. (Eds.), Submarine Landslides:\nSelected Studies in the U.S. Exclusive Economic Zone: U.S. Geological Survey Bulletin,\npp. 23–39.\nOjeda, H.A.O., 1982. Structural framework, stratigraphy, and evolution of Brazilian\nmarginal basins. AAPG Bulletin 66 (6), 732–749.\nPosamentier, H.W., 2003. Depositional elements associated with a basin ﬂoor channel-\nlevee system: case study from the Gulf of Mexico. Marine and Petroleum Geology\n20, 677–690.\nPosamentier, H.W., Kolla, V., 2003. Seismic geomorphology and stratigraphy of deposi-\ntional elements in deep-water settings. Journal of Sedimentary Research 73 (3),\n367–388.\nRamsay, J.G., Huber, M.I., 1987. The Techniques of Modern Structural Geology. Academic\nPress Inc., London 700.\nRichardson, S.E.J., Richard, J.D., Mark, B.A., Grant, F.S., 2011. Structure and evolution of\nmass transport deposits in the South Caspian Basin, Azerbaijan. Basin Research 23,\n702–719.\nRupke, N.A., 1967. Large-scale slumping in a ﬂysch basin, southwestern Pyrenees. Journal\nof the Geological Society of London 132, 121–130.\nShoulders, S.J., Cartwright, J., Huuse, M., 2007. Large-scale conical sandstone intrusions\nand polygonal fault systems in Tranche 6, Faroe–Shetland Basin. Marine and Petroleum\nGeology 24 (3), 173–188.\nStewart, S.A., 2006. Implications of passive salt diapir kinematics for reservoir seg-\nmentation by radial and concentric faults. Marine and Petroleum Geology 23,\n843–853.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 15,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.7164611816406,
+                56.063507080078125,
+                552.853515625,
+                739.9951171875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2674b4da47303150240cb4bfa2b3ecd9",
+        "text": "Strachan, L., 2002. Slump-initiated and controlled syndepositional sandstone remobilisation:\nan example from the Namurian of County Clare, Ireland. Sedimentology 49, 25–41.\nTownsend, C., Firth, I.R., Westerman, R., 1998. Small seismic-scale fault identiﬁcation\nand mapping. In: Jones, G., Fisher, Q.J., Knipe, R.J. (Eds.), Faulting, Fault Sealing\nand Fluid Flow in Hydrocarbon Reservoirs: Geological Society, London, Special\nPublications, 147, pp. 1–25.\nTrincardi, F., Argnani, A., 1990. Gela submarine slide: a major basin wide event in the\nPlio–Quaternary foredeep of Sicily. Geo-Marine Letters 10, 13–21.\nTwichell, D.C., Chaytor, J.D., Ten Brink, U.S., Buczkowski, B., 2009. Morphology of late\nQuaternary submarine landslides along the U.S. Atlantic continental margin. Marine\nGeology 264, 4–15.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 16,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51966857910156,
+                56.141456604003906,
+                293.6423034667969,
+                142.226318359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "53b50b44574d82cc02f001a67ad332d2",
+        "text": "Varnes, D.J., 1978. Slope movement types and processes. In: Schuster, R.L., Kruse, R.J.\n(Eds.), Landslides, Analysis and Control. : Special Report, 176. National Academy\nof Sciences, Washington, pp. 11–33.\nVendeville, B.C., Jackson, M.P.A., 1992a. The rise of diapirs during thin-skinned extension.\nMarine and Petroleum Geology 9, 331–353.\nVendeville, B.C., Jackson, M.P.A., 1992b. The fall of diapirs during thin-skinned extension.\nMarine and Petroleum Geology 9, 354–371.\nWeimer, P., Shipp, C., 2004. Mass transport complex: musing on past uses and sugges-\ntions for future directions. Offshore Technology Conference, Houston, TX.\nYilmaz, O., 1987. Seismic Data Processing, volume 2. Society of exploration Geophysicists.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0025322713000571-main.pdf",
+            "page_number": 16,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.50994873046875,
+                56.139503479003906,
+                561.6481323242188,
+                134.23077392578125
+            ],
+            "is_full_width": false
+        }
+    }
+]

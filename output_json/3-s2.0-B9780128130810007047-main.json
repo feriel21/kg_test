@@ -1,0 +1,629 @@
+[
+    {
+        "element_id": "247a3bbbf18d7e9d371d4787bb1f4e43",
+        "text": "Methane Hydrate and Submarine Slides",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "3-s2.0-B9780128130810007047-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                82.09130096435547,
+                55.41105270385742,
+                310.0384216308594,
+                69.35865020751953
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3306b088f0511207df52189adb4724a4",
+        "text": "J Mienert, University of Tromsø, Tromsø, Norway",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "3-s2.0-B9780128130810007047-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                82.09130096435547,
+                76.32292175292969,
+                248.43141174316406,
+                85.28922271728516
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "47bff4a55c6cc51c741c435f9aa93761",
+        "text": "© 2009 Elsevier Ltd. All rights reserved.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "3-s2.0-B9780128130810007047-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                82.09130096435547,
+                94.06597137451172,
+                203.5658721923828,
+                102.03617095947266
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3a77ca794236d286dba21538b7074e9f",
+        "text": "Introduction\n364\nMethane Hydrate Stability and Seismic Detection\n365\nNatural Trigger Mechanisms of Slides from Geological Records\n366\nMethane Hydrate Decomposition as a Natural Trigger Mechanism\n367\nMethane Hydrates in Regions of Slope Instability: Searching for a Link\n368\nA Link between Slide Headwall and Excess Pore Pressure\n369\nMethane Blasts in the Past?\n369\nDiscussion\n370\nFurther Reading\n370",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "3-s2.0-B9780128130810007047-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                73.13388061523438,
+                115.15751647949219,
+                544.8330078125,
+                211.82327270507812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4c3d75e9e491198921310f13bf5980d9",
+        "text": "Introduction",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "3-s2.0-B9780128130810007047-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                73.13390350341797,
+                235.0078125,
+                123.30953979492188,
+                244.9704132080078
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "de04f0daa56a38583f37c285fd1f2612",
+        "text": "Methane hydrate is an ice-like substance composed of water molecules forming a rigid lattice of cages that enclose single molecules\nof gas, mainly methane. They occur in vast quantities beneath the ocean floor, and they are stable under high-pressure and low-\ntemperature conditions existing along many continental margins (Figure 1). In siliciclastic margins, sediment sliding and slumping\ncan generate simple or complex slide scars and seabed morphologies (Figure 2). The gravity-driven movements of sediments masses\nvary in volume from a few cubic kilometers to several thousands of cubic kilometers. Giant slides reach run-out distances close to\n1000 km, such as the Storegga slide on the mid-Norwegian margin. Average slope angles are low and vary typically between 2\u0001 and\n4\u0001. A slide is distinguished from a slump based on the Skampton ratio h/l, where h is the thickness of the sliding block or depth and l\nis the length of the slide. Most observed submarine mass movements appear to be translational with Skampton ratios <0.15.\nSlumps are rotational with Skampton ratios >0.33 and may coexist with translational slides creating mingled slope-failure\ngenerations.\nSeabed bathymetry and reflection seismic data from continental slopes and rises of the Atlantic, Pacific, and Indian Oceans and\nthe Black Sea reveal major slide scars and slumps overlying gas hydrate deposits. Slides and slumps shape the morphology of world\nocean margins and represent a major mechanism for transferring enormous amounts of sediment material over a relatively short\ntime, between hours and years, into the deep sea. In most of the past slope-failure events, the trigger mechanisms of the slides and\nslumps are unknown and lead to speculations about various mechanisms. Many of the large slides are associated with surprisingly\nlow slope angles (<4\u0001), much less than are required to destabilize the seafloor under static conditions. It appears that failure\nmechanisms have the highest possibility of triggering slumps during sea-level lowstands. However, this is not true for some of the\nlargest slides known on continental margins; for example, the Storegga and Traenadjupet slides on the mid-Norwegian margin\noccurred during the last 8000 years within a period of rapid sea-level rise.\nThe role of methane hydrate in the development of slides and slumps is an intriguing question in ocean and climate research.\nThe interest stems mainly from the hypothesis that large releases of methane from marine gas hydrate reservoirs generate\ncontinental margin instability. If methane hydrate dissociates, gas and fresh water are released. Based on the amount of dissociated\nhydrate, this volume increase can generate pore-fluid overpressure and zones of reduced shear strength; thus glide planes develop in\ncontinental margin sediments. These zones develop critical preconditions for a slope to fail. Continental margin instability leading\nto slides or slumps and abrupt release of methane, a greenhouse gas, may be sufficiently large enough to trigger major climatic\nchanges. Substantial uncertainties exit in the amount of gas hydrate in space and time, and in the dynamics of dissociation processes\ncontrolled mainly by ocean pressure (sea level) and temperature (hydro- and geothermal), and material properties of the sub-\nseafloor. They lead to many developments of regional and global scenarios and a basis for a continuing debate.\nOne of the main debates centers on the explanation of observations of massive injections of isotopically light carbon into the\noceans and atmosphere in Cenozoic and Mesozoic times, and whether the observations in the geological record are sufficient to\npropose a major release of methane from gas hydrate. Accumulating seabed observations from various areas along continental\nmargins indicate massive slumping during late Cenozoic and Mesozoic times. Many have wondered which processes could account\nfor giant slumps (>1000 km2), aside from the classical preconditioning factors and trigger mechanisms such as oversteepening of\nslopes, rapid sediment loading, and, most importantly, earthquakes. The idea of linking methane hydrate and slumps became\nwidespread after 1981 following a discovery of a slump/gas hydrate area on the eastern US continental margin. Further observations\nwhere slump locations coincide with present gas hydrate reservoirs suggested linkages, which in turn are considered as possible\nagents for rapid releases of methane. But the picture is more complex because climatically induced increases in sedimentation rate\nand changes in sediment type can create zones of weakness. The geological evidence to discriminate the mechanisms is generally",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "3-s2.0-B9780128130810007047-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                73.12545776367188,
+                258.48480224609375,
+                544.83837890625,
+                672.419189453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bcfb1f0ebb756827603e3cda2290876a",
+        "text": "This article is a reprint of J. Mienert, Methane Hydrate and Submarine Slides, Encyclopedia of Ocean Sciences (2nd Edn), edited by John H. Steele, Academic Press,\n2009, pp. 790–798.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "3-s2.0-B9780128130810007047-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                73.13390350341797,
+                697.2086791992188,
+                544.7847290039062,
+                714.9157104492188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "37255c36d0ef3d74e366b1aef916a466",
+        "text": "Figure 1\nMethane hydrate stability zone as a function of water temperature, geothermal and pressure gradient. A methane hydrate I structure is shown on the\nupper left and a methane hydrate sample on the upper right. The hydrate stability zone (HSZ) increases with water depth (pressure) while the base of the hydrate\nstability zone (BHSZ) is evident from the seismic detection by a bottom simulating reflector (BSR). The hydrate occurrence zone (HOZ) where hydrates occupy the\npore space of sediments lies between the seafloor and the BSR. Adapted from Kayen RE and Lee HJ (1991) Pleistocene slope instability of gas-hydrate laden\nsediment on the Beaufort Sea margin. Marine Technology 10: 32–40.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "3-s2.0-B9780128130810007047-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                67.464599609375,
+                246.51316833496094,
+                539.221435546875,
+                294.3423767089844
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5661bf8ffeca8eaf574f0fe7aaf42673",
+        "text": "missing after an offshore slide or slump has occurred. From the existing knowledge, it is difficult to extract any overarching role of\nmethane hydrate in slope stability and slumping.\nOne solution may arise from investigations of slump timing and frequency. Since the temperature–pressure regime on\ncontinental margins controls the stability of methane hydrates on a large scale, either of these can alter the stability of hydrates.\nThis knowledge implies that methane hydrate reservoirs in continental margins should react vigorously and almost simultaneously\nwith global change in the ocean environments, that is, sea level and temperature. Yet, current knowledge of all geophysically\ninferred gas hydrate occurrences and all drilled gas hydrate reservoirs underlines that we have no reason to consider hydrates to be\neither continuously or homogenously distributed in continental margins. Geophysical and geochemical data demonstrate that\nmethane hydrate accumulations are a result of fluid migration and their pathways. Attempts to verify coupled processes between\nhydrate dissociation and slumps from geological records are ongoing and are notably important for understanding climate-induced\ngeohazards. It requires a knowledge of where, how much, and how far accumulations of gas hydrate extend in continental margins.\nEqually important is an adequate knowledge of changes in slope stability during hydrate formation and dissociation processes in a\nvariety of geological environments from high to low latitudes.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "3-s2.0-B9780128130810007047-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                67.464599609375,
+                312.2297058105469,
+                539.1365966796875,
+                452.2259826660156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "32b7ff75ffe812f3f00ad49478cd349a",
+        "text": "Methane Hydrate Stability and Seismic Detection",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "3-s2.0-B9780128130810007047-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                67.464599609375,
+                475.10223388671875,
+                269.3796081542969,
+                485.0648193359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "63f5758ee4f682fe92667ab55b08b94b",
+        "text": "Methane hydrates belong to compounds named ‘clathrates’ after the Latin clathratus, meaning encaged. Gases that form hydrates\noccur mainly in two distinct structures: structure I hydrates form with natural gases containing molecules smaller than propane.\nThey are found in situ in continental margin sediments with biogenic gases that consist mostly of methane but rarely contain carbon\ndioxide and hydrogen sulfide. Structure II hydrates form from thermogenic gases that, in addition to methane, incorporate\nmolecules larger than ethane but smaller than pentane. The Gulf of Mexico is an area of massive but local development of structure\nII hydrates, where salt tectonics and related structures control focused fluid flow from hydrocarbon reservoirs. It is therefore of less\nrelevance for extended slides and slumps. For oceanic methane hydrates and slumps, structure I hydrates are considered to be\nimportant.\nThe methane hydrate stability depends mainly on pressure (P), temperature (T), and the presence of gas in excess of solubility as\na function of P and T. The stability of hydrates is more susceptible to changes in temperature than in pressure. Methane hydrate\nequilibrium conditions are complex, depending also on the texture of the host sediments, pore water salinity, and type of gas\nentrapped. Laboratory results show that sand is more conducive to hydrate formation than silt and clay. Hydrate formation in sands\nstarts at a lower pressure (shallower water depth) compared to silt and clay. Beneath the hydrate stability zone (HSZ), the solubility\nof gas controls the amount of free gas. Lateral and vertical variations in texture and mineralogical properties of sediment contribute\nto a heterogeneous distribution of hydrate in the HSZ and free gas beneath it.\nIt is generally accepted that the depth of the HSZ can often be found by seismic detection of the base of the hydrate stability zone\n(BHSZ). The base is generally inferred from the presence of a bottom-simulating seismic reflector (BSR), though the absence of a\nBSR does not rule out the presence of hydrates. A phased-reversed seismic reflector originates at this hydrate–gas phase boundary\ndue to a distinct acoustic impedance contrast. The impedance contrast is caused by the low p-wave velocity of gas-bearing sediments\nbeneath the higher p-wave velocities of hydrate-bearing sediments. The bottom-simulating behavior of the hydrate–gas phase",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "3-s2.0-B9780128130810007047-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                67.464599609375,
+                496.4955139160156,
+                539.1544189453125,
+                715.2213745117188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "006ccc3a97fd519806f0b5ababafbdaf",
+        "text": "Figure 2\nExtent of one of the largest known submarine slides on continental margins and today&apos;s 4000 km2 gas hydrate province inferred from BSR\ndistributions (yellow). The slide affected an area of approximately 95 000 km2 and removed 2500–3500 km3 of sediments. The main slide scar is shown on the inlet\nfigure with the main headwall at the continental shelf and several headwalls and individual glide planes downslope.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "3-s2.0-B9780128130810007047-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                73.13217163085938,
+                576.4091796875,
+                544.8346557617188,
+                607.8510131835938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "71bd5218cb679b7cd2efa61ab1ef7ecb",
+        "text": "boundary suggests a direct dependence on geothermal gradients, that is, temperature. Geological controls on hydrate formation\nmay explain the often-observed discrepancies between the calculated BHSZ and the calculated and observed BSR depth. Observa-\ntions of BSR&apos;s beneath slump scars became an argument for inferring a link between methane hydrates and slumps, but this is\nclearly not sufficient as a sole indicator.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "3-s2.0-B9780128130810007047-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                73.13390350341797,
+                623.5870971679688,
+                544.7982788085938,
+                664.8780517578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8c8434503cd73e3a1bc4a766504775aa",
+        "text": "Natural Trigger Mechanisms of Slides from Geological Records",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "3-s2.0-B9780128130810007047-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                73.13390350341797,
+                685.7730102539062,
+                332.6187744140625,
+                695.735595703125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "00294bb29ee41182e9352975af7e60d2",
+        "text": "Most submarine landslides occur unobserved on the seabed along continental margins. We, therefore, deduct the processes\ninvolved on the basis of seabed bathymetry, sub-seabed paleomorphology, and sediment cores a long time after an event takes",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "3-s2.0-B9780128130810007047-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                73.13390350341797,
+                709.25,
+                544.7593994140625,
+                728.6591186523438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8e0e62857f8a12c667d70069665ca31b",
+        "text": "place. Only a very few submarine landslide events are directly documented. They caused submarine cable breaks or started as an\nunderwater slope failure and retrogressively approached the coastline. Much less information exists about their trigger mechanisms,\nand the most widely used example for a continental slope failure is the 1929 Grand Banks earthquake. It appeared to trigger a slump\nthat subsequently developed into a turbidity current.\nAnother condition that is most commonly associated with submarine slides is the rapid accumulation of thick sedimentary\ndeposits over under-consolidated sediments, which by generating excess pore pressure reduces the effective stress that holds\nthe sediment grains together. The magnitude of a combined instantaneous loading and a progressive excess pore pressure buildup\nappear to generate weakened sediment layers. The resulting reduction in shear strength allows sediments to move down very gentle\nslopes (<1\u0001). Good examples are the well-studied areas of the Mississippi River delta. On formerly glaciated continental margins such\nas the passive Norwegian margin, thick layers of siliceous ooze of Miocene age exist in the sub-seabed. Their low density provides\nconditions for high compressibility and thus pore pressure builds up when subjected to rapid sediment loading during ice\nsheet advances of Pleistocene times. Cyclic sedimentation rates with high inputs of dense material during glacial times and low\nsediment input of more permeable material during interglacial times may explain the long-term instability of this margin. Megaslides\nseem to occur at a frequency of approximately 100 ky after each of the major ice ages since the onset of continental shelf glaciations at\n500 ka. It is speculated that earthquake loading is the final trigger for the initiation of the slides at the end of each glaciation.\nSteeper slopes or internally derived seepage forces might aid to fracturing the seabed leading to slope failures. Examples come\nfrom salt tectonics and flow of salt and mud in the sub-seabed of the Gulf of Mexico and the western Mediterranean of the Nile River\ndelta. Up to now, the analysis of the forces of gravity and earthquake loading have shown that they are often not great enough to be\nthe sole cause of failure along the slopes of continental margins. The controls on most identified slides are still obscure though\nearthquakes have been documented for a few events. Gas hydrate dissociation is another factor that is becoming more frequently\nused to decipher what controls slope failure.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "3-s2.0-B9780128130810007047-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                67.4632568359375,
+                60.172969818115234,
+                539.210693359375,
+                287.81402587890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a9eb24c93ec76e572212646f309e01b2",
+        "text": "Methane Hydrate Decomposition as a Natural Trigger Mechanism",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "3-s2.0-B9780128130810007047-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                67.464599609375,
+                310.6928405761719,
+                337.3016662597656,
+                320.6554260253906
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "577fb3e7f6bb0044dff3e1691fea5a70",
+        "text": "In fully saturated structure I hydrates there is one molecule of methane present for every six molecules of water. In theory, when\nmethane hydrate dissociates this results in an increase of volume and pressure buildup, because 1 m3 of methane hydrate\ndissociation develops into 164 m3 of methane gas at standard temperature and pressure conditions. The effect of dissociation\npore pressure depends on water depth; if we decompose 1 m3 of gas hydrate at 900 m water depth (90 atm) we will get 1.82 m3 of\nfree gas while at 1500-m water depth (150 atm) only 1.09 m3 of free gas develops. Shallow-water methane hydrate reservoirs are\nexpected to develop a larger volume of free methane and are therefore able to generate higher excess pore pressure per unit volume\nthan deep-water methane hydrate reservoirs depending on the rate of dissociation and the permeability of the sediment. As a result,\nupper continental margin slopes are more vulnerable to gas hydrate dissociation than lower slopes. Dissociaition of methane\nhydrates into liquid and free gas can build up excess pore pressure that reduces the shear strength of the sediments, thereby causing a\nnatural trigger mechanism for a slope to fail.\nA change in gas solubility generated by variations in temperature and/or pressure is generally ignored as a factor in methane\nhydrate and slumps. A geological model for a retrogressive (bottom-up) failure surface generated by hydrate dissolution due to gas\nsolubility, and a sketch for a progressive (top-down) failure surface by the hydrate dissociation due to a temperature increase\nillustrates the resulting differences in slope instabilities (Figure 3). There are numerous fundamental problems remaining with our\nobservations and theories. We know that the degree of hydrate saturation in the pore space of sediments will determine the total\nvolume and pore-pressure increase during decomposition. Observations indicate a heterogeneous distribution of hydrates within\nthe hydrate stability zone (HSZ) in which, except for massive hydrates, the space occupied by hydrates is usually low (<5%) with\nlocal peaks (up to <15%). Thus, there appears to be no continuous or homogenous methane hydrate occurrence zone (HOZ)\nleading to a glide plane. The thickness of the HSZ increases with water depth, and theoretical gas–hydrate-bearing sediments could\noccur in a zone of \u0003400 m below the seafloor (mbsf ) in deep water of \u00032000 m.\nQuantifying in situ distributions of methane hydrates in three dimensions is difficult because of the effect of the heterogeneous\ndistribution sediment type and texture. Laboratory experiments and the physics involved in modeling hydrate formation and\ndissociation are complex, and simplified assumptions have been made which take into consideration the time dependence of the\nprocesses. The hydrate formation rates beneath the seabed depend on the fluid flow from beneath the HSZ. Here, it is the\navailability of water and gas which in turn depends on diffusion rates and seepage conditions. On the other hand, hydrate\ndissociation requires only temperature increase and/or pressure reduction, but these occur at different rates in nature. To add to\nthis complexity, the dissipation rates of excess gas and water and thus excess pore pressure depend on the diffusion coefficient and\npermeability of the sub-seabed.\nLet us consider a simple hypothetical scenario. A drop in sea level during glacial times reduces the hydrostatic pressure, leading to\na thinning of the HSZ and a potential thickening of the free gas zone beneath. As a consequence, the potential for pore-pressure\nbuildup and slumps increases. The emission of methane as part of the slump process would become greater with the frequency\nof slumps. Methane releases would enhance the greenhouse gases and provide a negative feedback to growing glaciations, thus\nbecoming a potential terminator to glaciations during Quaternary times. The opposite can be drawn from methane releases during\ninterglacial times. Ocean warming is superior to sea level rise affecting gas hydrate stability, methane hydrate melting, and the potential\nfor slump processes and methane release increases. Such positive feedback may create an amplifier for global warming. Yet, like\nmany other negative–positive feedback loop models, such classical scenarios remain to be proven and are mostly conjectural.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "3-s2.0-B9780128130810007047-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                67.464599609375,
+                334.1697998046875,
+                539.2506713867188,
+                726.16357421875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c1c84fca4d01f6ffbb5a7c2320e89df2",
+        "text": "Figure 3\n(a) Methane hydrates affected by ocean warming on the upper continental margin leading to progressive slide mechanisms while methane hydrates\naffected by sea level changes have the potential for retrogressive slide mechanisms. (b) Cyclic sedimentation with high density and less permeable sediments over\nless density and more permeable sediments causes overpressurized layers and characteristic glide planes indicating retrogressive sliding (see also Figure 2).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "3-s2.0-B9780128130810007047-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                73.13389587402344,
+                369.99041748046875,
+                544.8366088867188,
+                397.9179992675781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d42ba4046d8befb2e655c2eca2497763",
+        "text": "Methane Hydrates in Regions of Slope Instability: Searching for a Link",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "3-s2.0-B9780128130810007047-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                73.13390350341797,
+                431.221923828125,
+                362.6959228515625,
+                441.18450927734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "af038fa82ac9e34b4e00092d2118c343",
+        "text": "The most needed information is how excess pore pressure induced by the dissociation of methane hydrate is linked to the spatial\nand temporal changes in methane hydrate concentrations in continental margins. Such key information is far from being obtained.\nThere is hardly any direct evidence that the observed slides and slumps are triggered by methane hydrate dissociation. Up to now,\nobservations and possible connections between methane hydrate and slumps exist in selected areas of nearly all ocean margins.\nEvidence is provided from slumps of the eastern US Atlantic continental slope; slides and slumps of the continental rise and slope of\nSW Africa; giant slides and slumps of the continental slope of Norway; slides and slumps of the continental slope on the Alaska\nBeaufort Sea; slides on the northern California continental margin; slides on the southern Caspian Sea margins; slumps of the\nwestern continental margin of India; slope failures along the Chile–Peru margins; slope failures in the northwestern Sea of Okhotsk;\nslope failures on the Amazon fan of the Brazil margin; slope failures on the northern Black Sea margin; slope failures on the Gulf of\nCadiz margin (Figure 4).\nLong-term instability is evident from the New Jersey margin of the East Coast of the United States. Within the Paleogene, four\nperiods – near the Cretaceous–Tertiary boundary, Palaeocene–Eocene boundary, top of Lower Eocene, and Middle Eocene – show\nslope failures. They are identified in reflection seismic records. Since all of the events occur close to major sea level lowstands,\nmethane hydrate dissociation accompanied by excess pore pressure is regarded as a potential factor for the initiation of the slides\nand slumps.\nLinking methane hydrates with slope failures also remains speculative during Neogene times. Dating the event of many of the\nslope failures is still a problem and therefore large uncertainties exist in relating slides and slumps to a specific ocean&apos;s sea\nlevel and/or temperature condition. It has been suggested that for the past 45 ky, glacial-period slope failures occur mainly in low\nlatitudes associated with sea level lowstand. It is during periods of change that hydrate is most likely to dissociate or to experience\ndissolution, depending on which direction of sea level and/or water temperature leads. This case is used to propose that reduced\nhydrostatic pressure triggered dissociation of methane hydrate and slope failure. In contrast, ocean warming during rising sea level\nconditions in the northern high latitudes is used to argue for dissociation of methane hydrate contributing to slope failure. Another\napproach for dating slides is based on turbidite sequences deposited in ocean basins that are a consequence of slides and slumps.\nDating of turbidites resulted in an equally complex picture. At the Norwegian margin, the inferred slides occurred during (1) periods",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "3-s2.0-B9780128130810007047-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                73.12542724609375,
+                454.69891357421875,
+                544.8126831054688,
+                715.22314453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1abdb9cd93126b976effb760806535d2",
+        "text": "Figure 4\nGlobal distribution of major submarine landslides overlying areas of today&apos;s known gas hydrate provinces.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "3-s2.0-B9780128130810007047-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                67.464599609375,
+                251.50218200683594,
+                431.02679443359375,
+                259.4723815917969
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "607cd372e1f967ee4c904319e29b5550",
+        "text": "of sea level lowstand or an advance or presence of the Fennoscandian Ice Sheet at the shelf break, or (2) at periods of rapid sea level\nrise accompanied by ocean warming. Seabed side-scan sonar and bathymetry data from the northern rim of the giant Storegga slide\non the mid-Norwegian margin show cracks in the seabed upslope. The BSR, which crosses bedding planes and is projected toward\nthe shelf edge pinches out at the upper slope where the HSZ intersects the seabed in the area of the cracks. Other empirical support of\nBSR occurrences in areas of slumps exists particularly from the west coast off India, Nankai trough, and the US Atlantic\ncontinental slope.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "3-s2.0-B9780128130810007047-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                67.464599609375,
+                288.7587890625,
+                539.131591796875,
+                351.9908447265625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7c37ac86023d605e07852140fa8e6389",
+        "text": "A Link between Slide Headwall and Excess Pore Pressure",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "3-s2.0-B9780128130810007047-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                67.464599609375,
+                374.8692321777344,
+                305.0765075683594,
+                384.8318176269531
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9b25883e2fe6544ee4158b9b53b9e5a5",
+        "text": "Ocean conditions and hence the stability of methane hydrate along most continental margins have changed significantly since the\nLast Glacial Maximum (LGM). In terms of methane hydrate stability, both the pressure related to eustatic sea level changes and\nbottom water temperature (BWT) changes in intermediate water masses have to be addressed.\nThe hypothetical scenario mentioned before is replaced by an actual scenario for the Norwegian margin, where detailed\ninformation about ocean and seabed conditions exists. The combined effect of eustatic sea level rise of \u0003120 m and BWT increases\nof \u00035 \u0001C, documented since the last LGM, change hydrate stability conditions along the entire continental slope. In water depth of\n>800 m, BHSZ deepens slightly due to the sea level rise. No temperature increase is indicated for deeper seabed. In contrast, the\neffect of sea level rise on the HSZ is, for localities above 800-m water depth, more than compensated by a rise in BWT. The\ncombination of two such opposing or counteracting effects in terms of gas hydrate stability conditions (sea level rise is favorable for\nHSZ while BWT rise is not) predicts a distinct reduction in the extent and thickness of the HSZ in shallower water between 300 and\n700 m since the LGM. Such results illustrate that shallower water depth areas are more sensitive to changes in sea level and water\ntemperature than deeper localities. From this we may conclude that deeper water areas are less sensitive and methane hydrate\ndissociation may trigger slumps favorably along the upper continental margins. Combining the dissociation model and the\nobservation of a BSR along reflection seismic profiles crossing the Storegga headwall supports the hypothesis of excess pore pressure\nbuildup at slide headwalls and thus slide progradation (from upper to lower slope). However, it contradicts many geomorphologic\nobservations along continental margins including the well-studied Norwegian margin, which indicates retrogressive sliding (from\nthe lower to the upper slope). Discussions about the seemingly opposing results are ongoing and lead to suggestions that excess\npore pressure can also result from methane hydrate dissolution. This argument is based on thermodynamic calculations. Models\nshow that due to a temperature and pressure increase, hydrate dissolution may start at the top of the hydrate occurrence zone.\nSimulation also documents that this process, due to a change in gas solubility, can occur at the origin of a retrogressive failure\ninitiated at the lower slope. No conclusions exist as yet but the effect of dissolution, that is, the gas entering the pore water, and\ndissociation on deep and shallow water hydrates appear to be of importance for understanding all aspects of triggering retrogressive\nversus progressive slides.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "3-s2.0-B9780128130810007047-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                67.464599609375,
+                398.34619140625,
+                539.140625,
+                647.8717651367188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fdb6d88d5a84afe89fff7c3a312ffadd",
+        "text": "Methane Blasts in the Past?",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "3-s2.0-B9780128130810007047-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                67.464599609375,
+                670.7494506835938,
+                183.4033660888672,
+                680.7120361328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2f5f24f381c03f13176544f1f4e45719",
+        "text": "Current debates concern the explanation of massive injections of isotopically light carbon to the oceans and atmosphere in\nCenozoic and Mesozoic times but also beyond. Distinct negative d13C excursions measured in samples from various locations",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "3-s2.0-B9780128130810007047-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                67.464599609375,
+                694.2263793945312,
+                539.1068725585938,
+                713.6364135742188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0e6afcb56fd898668822e1f1200754e4",
+        "text": "reflect a rapid injection of massive quantities of 12C-rich carbon to the ocean and atmosphere. Support for a hypothesis of methane\nblasts from gas hydrate dissociation has grown since agreements among scientists that other reservoirs cannot supply a sufficient\nmass of carbon over the relatively short geological timescales represented by the d13C spikes. Abrupt negative d13C excursions are\nreported from the Neoproterozoic; the early Paleozoic; the Permian/Triassic; the Triassic/Jurassic; the late and early Jurassic; the early\nCretaceous (Aptian); the Paleocene– Eocene boundary; and the Quaternary. The Quaternary has the advantage to be documented\nby both high-resolution climate ice core and ocean sediment core records. The Quaternary methane within the trapped air in the\nGreenland and Antarctica ice cores, and the d13C excursions from both planktonic and benthic foraminifera created a heated and\nongoing debate about the sources of methane. What caused the rapid and large atmospheric methane increase in the atmosphere\nduring interstadials, and the negative d13C excursions in the Santa Barbara Basin offshore California? What caused the rapid shifts to\npositive excursions during stadials? Which sources can react fast enough and at the same time are so large that shifts reach several\nhundred ppbv (parts per billion by volume) in atmospheric methane and several per mil (\u00041% to \u00046%) in ocean carbon isotopes?\nThough indirect methane measurements of atmospheric methane concentration from ice cores go back more than a hundred\nthousand years, direct atmospheric measurements of methane only go back to 1970. Coming from the last glaciation into the\ndeglaciation, the atmospheric methane as recorded in ice cores increased from c. 400 to 700 ppbv, but from 1800 to 1990 it reached\n1700 ppbv. It is still increasing and eventually most methane (CH4) will end up as CO2 and water. Evidently, CH4 and CO2 changes\ndo track most of the rapid climate shifts. Up to now, terrestrial measurements of the global methane budget provide clear hints that\nthe main drivers of methane appear to be the terrestrial sources (natural, anthropogenic) and sinks (soil microbes). A general\nconsensus exists that continental wetlands are a major methane source. At the same time there is a major unknown, which is the role\nof the deep and shallow ocean environment where microbes are thriving on methane, and where methane hydrate dissociation and\nslumps may release significant amounts of methane. These processes are now becoming recognized as part of a complex feedback\nsystem. The suggested methane blasts of the past were certainly helpful in increasing our awareness for a holistic approach.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "3-s2.0-B9780128130810007047-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                73.12771606445312,
+                58.30149841308594,
+                544.82763671875,
+                287.81622314453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "104eac6c502bf75b8eec6db13a133eb0",
+        "text": "Discussion",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "3-s2.0-B9780128130810007047-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                73.13390350341797,
+                310.6928405761719,
+                117.5182876586914,
+                320.6554260253906
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "87d5878a448d031ed10adcf20dac6b7e",
+        "text": "Massive and rapid releases of methane from hydrates via slumping may have the potential for entering the atmosphere. The natural\nformation of methane hydrate beneath the oceans, however, may buffer the volume of methane entering the ocean and atmosphere.\nOur present observations from continental margin methane hydrate, BSRs, and slumps are still insufficient to quantify any of these\nmajor processes on a global or even regional scale. A breakthrough may come from a less obvious field, the methane records from\nice cores. They may open new pathways for one of the two competing explanations for abrupt CH4 increases. One working\nhypothesis uses the sudden release of methane from marine hydrates while the other explanation makes the terrestrial biosphere\nresponsible for rapid methane releases. Developments of today&apos;s arguments and theories for linkages of methane hydrate,\nslumps, and climate greatly depend on an understanding of the Quaternary atmospheric CH4 record coming from ice cores. Equally\nimportant are ocean records such as negative d13C spikes in fossil records of planktonic and benthic foraminifera, and the age and\nfrequency of slumps associated with gas hydrate reservoirs. Quaternary ice core records may soon allow confirmation or rejection of\nthe proposed scenarios for methane release from ocean margins due to the distinct deuterium/hydrogen record of marine hydrates.\nThere is hope that dDCH4 provides a means of discriminating between methane sources from land or marine methane hydrate\nreservoirs. In Cenozoic and earlier times, the geological records of slumps and negative d13C excursions are less clear. An underlying\nunderstanding about the role of both methane hydrate and slumps for methane releases from past ocean hydrate reservoirs will\nremain a challenge for the years to come. An answer as to whether or not the dissociation/dissolution of massive methane hydrates\ncontributed to slumping and rapid increases of atmospheric greenhouse gases would give us an important perspective on how likely\nit is that we shall encounter such geohazards in the future. It is not unreasonable to expect that the amount of methane hydrates and\nrelated pore pressure buildup during dissociation and dissolution processes in slide-dominated ocean margins is soon to be\nquantified. Today&apos;s evaluations show that an ocean warming leading to a temperature increase at the BHSZ can lead to\ndissociation of gas hydrates and generation of high excess pore pressure. Sea level fall can generate similar effects. More research will\nestablish whether this is a viable phenomenon leading to assessments of today&apos;s methane hydrate and slope stability.\nImproved techniques for deciphering the origin of methane from ice cores, quantifications of methane records in oceans from\nisotopically light carbon spikes, and determinations of the timing of submarine slides and slumps in Cenozoic times will provide\nnew information for the development of theories (models, hypotheses, etc.) for this potentially dynamic part of ocean margins.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "3-s2.0-B9780128130810007047-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                73.13082885742188,
+                334.1697998046875,
+                544.8147583007812,
+                594.6961059570312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6f55e5817ab36f96d28985902daff92b",
+        "text": "Further Reading",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "3-s2.0-B9780128130810007047-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                73.13390350341797,
+                617.571533203125,
+                139.25669860839844,
+                627.5341186523438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3d9f8af63a7c0a0072f4822ddff07da1",
+        "text": "Carpenter G (1981) Coincident sediment slump/clathrate complexes on the US Atlantic continental slope. Geo-Marine Letters 1: 29–32.\nDickens GR (2001) The potential volume of oceanic methane hydrates with variable external conditions. Organic Geochemistry 32: 1179–1193.\nHampton MA, Lee HJ, and Locat J (1996) Submarine landslides. Reviews of Geophysics 34(1): 33–60.\nHenriet JP and Mienert J (eds.) (1998) Geological Society, London, Special Publications No. 137: Gas Hydrates – Relevance to World Margin Stability and Climate Change. London:\nGeological Society.\nHiggins JA and Schrag DP (2006) Beyond methane: Towards a theory for the Paleocene–Eocene thermal maximum. Earth and Planetary Science Letters 245: 523–537.\nKatz ME, Cramer BS, Mountain GS, Katz S, and Miller KG (2001) Uncorking the bottle: What triggered the Paleocene/Eocene thermal maximum methane release? Paleoceanography\n16: 549–562.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "3-s2.0-B9780128130810007047-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                73.13390350341797,
+                639.41455078125,
+                544.809326171875,
+                709.6860961914062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0a8ccc567bd428fc70220d2b9aca2e48",
+        "text": "Kayen RE and Lee HJ (1991) Pleistocene slope instability of gas-hydrate laden sediment on the Beaufort Sea margin. Marine Technology 10: 32–40.\nKennett JP, Cannariato KG, Hendy IL, and Behl RJ (2003) American Geophysical Union, Special Publication, Vol. 54: Methane Hydrates in Quaternary Climate Change – The Clathrate\nGun Hypothesis, 216pp. Washington, DC: American Geophysical Union.\nMaslin M, Owen M, Day S, and Long D (2004) Linking continental-slope failures and climate change: Testing the clathrate gun hypothesis. Geology 32: 53–56.\nMcIver RD (1982) Role of naturally occurring gas hydrates in sediment transport. AAPG Bulletin 66: 789–792.\nMienert J, Vanneste M, Bünz S, Andreassen K, Haflidason H, and Sejrup HP (2005) Ocean warming and gas hydrate stability on the mid-Norwegian margin at the Storegga slide.\nMarine and Petroleum Geology 22: 233–244.\nMulder TH and Cochonat P (1996) Classification of offshore mass movements. Journal of Sedimentary Geology 66: 43–57.\nPaull CK, Buelow WJ, Ussler W, III, and Borowski WS (1996) Increased continental margin slumping frequency during sea-level lowstands above gas hydrate-bearing sediments.\nGeology 24: 143–146.\nSloan ED and Koh C (2008) Clathrate Hydrates of Natural Gases, 3rd edn., Chemical Industries Series/119. Boca Raton, FL: CRC Press, Taylor and Francis Group. New York: Dekker.\nSower T (2006) Late quaternary atmospheric CH4 isotope record suggests marine clathrates are stable. Science 311(5762): 838–840.\nSultan N, Cochonat P, Foucher JP, and Mienert J (2004) Effect of gas hydrates melting on seafloor slope instability. Marine Geology 213: 379–401.\nXu W and Ruppel C (1999) Predicting the occurrence, distribution, and evolution of methane gas hydrate in porous marine sediments. Journal of Geophysical Research 104(B3):\n5081–5096.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "3-s2.0-B9780128130810007047-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                67.464599609375,
+                60.353248596191406,
+                539.15283203125,
+                193.43563842773438
+            ],
+            "is_full_width": false
+        }
+    }
+]

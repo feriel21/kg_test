@@ -1,0 +1,2567 @@
+[
+    {
+        "element_id": "23cd3416c839cb3676f47c3aae8ea61f",
+        "text": "Feature Selection Using Principal Feature Analysis",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                88.5,
+                72.6299819946289,
+                523.3834838867188,
+                92.71797943115234
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "331fc0b2d2174e01b3b75ffbc9530a92",
+        "text": "Yijuan Lu \nUniversity of Texas at San \nAntonio",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.0,
+                95.99189758300781,
+                176.02664184570312,
+                144.01425170898438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "82ab299bc119a3fe0165779345347933",
+        "text": "Ira Cohen \nHewlett-Packard Labs \n1501 Page Mill Road \nPalo Alto, CA 94304 \nIra.cohen@hp.com",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                191.4600067138672,
+                107.58006286621094,
+                296.3904724121094,
+                202.9319610595703
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "35570ca2725b71ebc96166371ee0e53d",
+        "text": "One UTSA Circle  \nSan Antonio, TX, 78249 \nlyijuan@cs.utsa.edu",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                61.08000183105469,
+                148.37196350097656,
+                171.90357971191406,
+                202.69203186035156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "02e24ed43103434ad539b07a7fff20b9",
+        "text": "ABSTRACT \nDimensionality reduction of a feature set is a common \npreprocessing step used for pattern recognition and classification \napplications. Principal Component Analysis (PCA) is one of the \npopular methods used, and can be shown to be optimal using \ndifferent optimality criteria. However, it has the disadvantage that \nmeasurements from all the original features are used in the \nprojection to the lower dimensional space. This paper proposes a \nnovel method for dimensionality reduction of a feature set by \nchoosing a subset of the original features that contains most of the \nessential information, using the same criteria as PCA. We call this \nmethod Principal Feature Analysis (PFA). The proposed method \nis successfully applied for choosing the principal features in face \ntracking and content-based image retrieval (CBIR) problems. \nAutomated annotation of digital pictures has been a highly \nchallenging problem for computer scientists since the invention of \ncomputers. The capability of annotating pictures by computers \ncan lead to breakthroughs in a wide range of applications \nincluding Web image search, online picture-sharing communities, \nand scientific experiments. In our work, by advancing statistical \nmodeling and optimization techniques, we can train computers \nabout hundreds of semantic concepts using example pictures from \neach concept. The ALIPR (Automatic Linguistic Indexing of \nPictures - Real Time) system of fully automatic and high speed \nannotation for online pictures has been constructed. Thousands of \npictures from an Internet photo-sharing site, unrelated to the \nsource of those pictures used in the training process, have been \ntested. The experimental results show that a single computer \nprocessor can suggest annotation terms in real-time and with good \naccuracy.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.0,
+                209.32789611816406,
+                296.4582824707031,
+                529.3853149414062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c39517757ebb10ae90cb31a637cbd667",
+        "text": "Categories and Subject Descriptors \nI.4.7 [Feature Measurement] \nGeneral Terms \nAlgorithms, Theory, Performance, Experimentation  \nKeywords \nFeature Extraction, Feature Selection, Principal Component \nAnalysis, Discriminant Analysis",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                53.99971008300781,
+                535.60791015625,
+                296.3946533203125,
+                627.2036743164062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "16530ac2e58ccd513b95ee6e57a29053",
+        "text": "Permission to make digital or hard copies of all or part of this work for \npersonal or classroom use is granted without fee provided that copies are \nnot made or distributed for profit or commercial advantage and that copies \nbear this notice and the full citation on the first page. To copy otherwise, \nor republish, to post on servers or to redistribute to lists, requires prior \nspecific permission and/or a fee. \nMM’07, September 23-28, 2007, Augsburg, Bavaria, Germany. \nCopyright 2007 ACM 978-1-59593-701-8/07/0009...$5.00.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.0,
+                633.809814453125,
+                300.1319885253906,
+                718.2239990234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a6d11dd0a5f9a17aec9a3340303a4a39",
+        "text": "Qi Tian \nUniversity of Texas at San \nAntonio \nOne UTSA Circle \nSan Antonio, TX, 78249 \nqitian@cs.utsa.edu",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                438.6000061035156,
+                107.57987976074219,
+                558.1666259765625,
+                180.8518829345703
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f96c63c184c9e3cf7f47e5cf063b8cd3",
+        "text": "Xiang Sean Zhou \nSiemens Medical Solutions \nUSA, Inc.  \n51 Valley Stream Parkway \nMalvern, PA, 19355 \nxiang.zhou@siemens.\ncom",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                309.4800109863281,
+                107.57994079589844,
+                432.5249938964844,
+                208.4518585205078
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1143816b78d24f7c9ef6f4c16c2a8528",
+        "text": "1. INTRODUCTION \nIn many real world problems, reducing dimension is an essential \nstep before any analysis of the data can be performed. The general \ncriterion for reducing the dimension is the desire to preserve most \nof the relevant information of the original data according to some \noptimality \ncriteria. \nIn \npattern \nrecognition \nand \ngeneral \nclassification problems, methods such as Principal Component \nAnalysis (PCA), Independent Component Analysis (ICA) and \nFisher Linear Discriminate Analysis (LDA) have been extensively \nused. These methods find a mapping from the original feature \nspace to a lower dimensional feature space.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                317.8800048828125,
+                215.16001892089844,
+                560.3856201171875,
+                333.9812316894531
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b8d2cae31600dc5d2d48337534886b5b",
+        "text": "In some applications it might be desired to pick a subset of the \noriginal features rather then find a mapping that uses all of the \noriginal features. The benefits of finding this subset of features \ncould be in saving cost of computing unnecessary features, saving \ncost of sensors (in physical measurement systems), and in \nexcluding noisy features while keeping their information using \n“clean” features (for example tracking points on a face using easy \nto track points- and inferring the other points based on those few \nmeasurements).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                317.8800048828125,
+                338.59820556640625,
+                560.3256225585938,
+                433.2643127441406
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "45c36e148bb6cf9ff6c679a4aa4555ca",
+        "text": "Variable selection procedures have been used in different settings. \nAmong them, the regression area has been investigated \nextensively. In [1], a multi layer perceptron is used for variable \nselection. In [2], stepwise discriminant analysis for variable \nselection is used as inputs to a neural network that performs \npattern recognition of circuitry faults. Other regression techniques \nfor variable selection are described in [3]. In contrast to the \nregression methods, which lack unified optimality criteria, the \noptimality properties of PCA have attracted research on PCA \nbased variable selection methods [4, 5, 6, 7]. As will be shown, \nthese methods have the disadvantage of either being too \ncomputationally expensive, or choosing a subset of features with \nredundant information. This work proposes a computationally \nefficient method that exploits the structure of the principal \ncomponents of a feature set to find a subset of the original feature \nvector. The chosen subset of features is shown empirically to \nmaintain some of the optimal properties of PCA.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                317.8800048828125,
+                437.6609802246094,
+                560.3604736328125,
+                616.5790405273438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "51a234f0a0d8a52c89c976889360b53a",
+        "text": "The rest of the paper is as follows. The existing PCA based \nfeature selection methods are reviewed in Section 2. The \nproposed method, Principal Feature Analysis (PFA), is described \nin Section 3.  We apply PFA to face tracking and content-based \nimage retrieval problems in Section 4. Discussion will be given in \nSection 5.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                317.8800048828125,
+                621.1961059570312,
+                560.3146362304688,
+                683.95751953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "275109d38bf0cc39a17a6494c82dca33",
+        "text": "2. BACKGROUND AND NOTATION \nWe consider a linear transformation of a random vector \nn\nX\nℜ\n∈\nwith zero mean and covariance matrix \nx\nΣ to a lower",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.0,
+                72.60002136230469,
+                296.4267272949219,
+                112.57195281982422
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "70b430ac0cd5ca973dc4af3852a345e0",
+        "text": "dimension random vector \nn\nq\nq\nY\n<\nℜ\n∈\n,",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                53.99969482421875,
+                114.66592407226562,
+                209.61000061035156,
+                130.76126098632812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "676b3857c5b3fbd2c5efea3a6aef5a69",
+        "text": "X\nA\nY\nT\nq\n=\n \n \n \n     (1)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                91.08000183105469,
+                134.85679626464844,
+                295.2740783691406,
+                149.6586151123047
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0a649d8dfe6fb04232f3b52ed99d1240",
+        "text": "with \nq\nq\nT\nq\nI\nA\nA\n=\n where \nq\nI\nis the \nq\nq×\nidentity matrix.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.00029754638672,
+                153.83657836914062,
+                260.8920593261719,
+                168.61355590820312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0dc4dbaab415bb0137bb26697a12d817",
+        "text": "In PCA, Aq is a \nq\nn×\n matrix whose columns are the q \northonormal eigenvectors corresponding to the first q largest \neigenvalues of the covariance matrix \nx\nΣ . There are ten optimal \nproperties for this choice of the linear transformation [4]. One \nimportant property is the maximization of the “spread” of the \npoints in the lower dimensional space which means that the points \nin the transformed space are kept as far apart as possible, and \ntherefore retaining the variation in the original space. Another \nimportant property is the minimization of the mean square error \nbetween the predicted data and the original data.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                53.9993896484375,
+                173.95956420898438,
+                296.4908752441406,
+                288.48431396484375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a8285b5b33e62478696b279fd16609c5",
+        "text": "Now, suppose we want to choose a subset of the original \nvariables/features of the random vector X. This can be viewed as a \nlinear transformation of X using a transformation matrix",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.0,
+                292.8809814453125,
+                296.42401123046875,
+                323.96337890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f39492258b68ea1783ac9c5dfd068318",
+        "text": "⎡\n=\n×\n−\nq\nq\nn",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                139.44015502929688,
+                325.5176696777344,
+                187.9958038330078,
+                354.032958984375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7eced4346cce0ebe52bb7f8636d7b822",
+        "text": "⎤\n⎢\n⎣",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                147.83987426757812,
+                325.5186767578125,
+                193.19398498535156,
+                356.4308166503906
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0ba06562aacbd723f48dad8a26ee80eb",
+        "text": "q\nq\nI\nA\n)\n(]\n[0\n                                      (2)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                126.84011840820312,
+                326.08062744140625,
+                295.1733093261719,
+                354.011962890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "aa72047067590333c93c845e74b7eb5b",
+        "text": "⎥\n⎦",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                89.99909973144531,
+                334.9995422363281,
+                193.19398498535156,
+                356.43182373046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2590d177426b454f56201a42ef5565c1",
+        "text": "or any matrix that is permutation of the rows of Aq. Without loss \nof generality, lets consider the transformation matrix Aq as given \nabove and rewrite the corresponding covariance matrix of X as",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                53.99969482421875,
+                357.56097412109375,
+                296.37890625,
+                388.86431884765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "014dc065fee0e7d39b06f8ff82bdb107",
+        "text": "⎡\nΣ\nΣ\nΣ\nΣ\n=\nΣ\n−\n×\n−\n×\n−",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                96.71977233886719,
+                389.5980529785156,
+                226.7958984375,
+                418.71295166015625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b81a3e7023fc0eaca43145ec9cb86263",
+        "text": "⎤\n⎢\n⎣",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                113.58027648925781,
+                390.19866943359375,
+                238.43399047851562,
+                421.1108093261719
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7998ee75519a9bd23c1ee08c0887ca8c",
+        "text": ")\n(\n12\n11\n}\n{\n}\n{\n}\n{\n}\n{",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                116.70049285888672,
+                390.75048828125,
+                226.312255859375,
+                416.8199462890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d8b8970617fdccadaa8ed4a52747d432",
+        "text": "−\n×\n×",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                148.56124877929688,
+                395.14532470703125,
+                219.5966339111328,
+                403.71307373046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f29b001e1f275217c1e483d61765c62f",
+        "text": "q\nn\nq\nq\nq\n \n    (3)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                144.8988037109375,
+                395.95068359375,
+                294.3284606933594,
+                410.0443115234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ab209c43fee08dbe6db50b4e8d7e11f2",
+        "text": "⎥\n⎦",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                90.00044250488281,
+                398.95245361328125,
+                238.43399047851562,
+                421.11181640625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7d0d3e635908b1dbb56484129fe808a2",
+        "text": ")\n(\n)\n(\n22\n)\n(\n21",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                127.38197326660156,
+                410.94317626953125,
+                233.5115203857422,
+                418.69195556640625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "281667c41732f41ae057dfc7a2caaec9",
+        "text": "q\nn\nq\nn\nq\nq\nn",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                141.17996215820312,
+                410.9504699707031,
+                230.71580505371094,
+                418.690185546875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5cde23e4a094b6d62f66a4093bcd5002",
+        "text": "In [4] it is shown that it is not possible to satisfy all of the \noptimality properties of PCA using the same subset. Finding the \nsubset \nwhich \nmaximizes \n|\n|\n|\n|\n11\nΣ\n=\nΣY\nis \nequivalent \nto \nmaximization of the “spread” of the points in the lower \ndimensional space, thus retaining the variation of the original \ndata.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                53.99969482421875,
+                422.2409973144531,
+                296.4300231933594,
+                489.4436950683594
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a6781ecabc04f17f33c80addb4d65822",
+        "text": "Minimizing the mean square prediction error is equivalent to \nminimizing the trace of  \n                          \n12\n1\n11\n21\n22\n1|\n22\nΣ\nΣ\nΣ\n−\nΣ\n=\nΣ\n−\n.                           (4)",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                53.99969482421875,
+                494.0606689453125,
+                296.43402099609375,
+                530.8318481445312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6f185730be12d900e74cd88ba7022a6f",
+        "text": "This can be seen since the retained variability of a subset can be \nmeasured using",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.00030517578125,
+                537.2012329101562,
+                296.4081115722656,
+                557.723876953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ce3305d2153482659e6be594b3371f59",
+        "text": "⎞",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                216.3596649169922,
+                559.9061279296875,
+                220.183837890625,
+                572.1275024414062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "88ff1043f54527d19efe7a2221fc64dd",
+        "text": "⎛\nΣ\n−\n=\nn",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                142.5001220703125,
+                559.9071044921875,
+                253.754638671875,
+                589.108642578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c69a4d0d15777762e375461d6fc5b774",
+        "text": "⋅\n⎟⎟\n⎟\n⎟",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                216.3596649169922,
+                566.3263549804688,
+                223.8961944580078,
+                603.0863647460938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c94073d21dae2bc1c0378488c96c3b6b",
+        "text": "⎜⎜\n⎜\n⎜",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                150.180419921875,
+                566.3273315429688,
+                154.0045928955078,
+                603.0873413085938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d5404c3476c79b3e256493516e0672e4",
+        "text": "1|\n22\n%\n100\n)\n(\n1\nσ\nσ\n    (5)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                154.08042907714844,
+                569.7431030273438,
+                295.88861083984375,
+                601.3470458984375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b6857e9f25442f468f7ed72bcf36eb95",
+        "text": "trace",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                167.82000732421875,
+                569.7435302734375,
+                188.3387908935547,
+                580.7967529296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8dc842f5fcbabd883127b7c95ec8cfab",
+        "text": "2",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                264.540283203125,
+                576.1927490234375,
+                268.0349426269531,
+                583.929931640625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "840e00c1796c6a22a1db364aa33748a7",
+        "text": "Retained Variability\n∑",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.0,
+                577.9921875,
+                254.80723571777344,
+                589.0842895507812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "472b1119b34a5ffa8580b3c82880c411",
+        "text": "i\ni\nn",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                182.93975830078125,
+                583.153076171875,
+                265.5232238769531,
+                596.2301025390625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "846a0875f57c9c8a970d24178c5a7eae",
+        "text": "∑\n=",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                181.86036682128906,
+                587.6957397460938,
+                253.8501434326172,
+                600.9696044921875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9b0691e14a09731c4a8e491c6d61a0cf",
+        "text": "2",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                197.2200469970703,
+                588.43310546875,
+                200.71469116210938,
+                596.1702880859375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cd80a0f7de0a000e5454520a044e07d1",
+        "text": "1",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                253.5,
+                588.4924926757812,
+                256.9946594238281,
+                596.2296752929688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4d0897e464f78fae6b046ef91985974d",
+        "text": "i\ni",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                180.2397918701172,
+                595.4535522460938,
+                198.20298767089844,
+                608.470458984375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7806a94ae55681e3f69489bb7a812061",
+        "text": "⎠",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                216.3596649169922,
+                597.226318359375,
+                220.183837890625,
+                609.4476928710938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c5c6d9451cb0bcab35d934a7252282e3",
+        "text": "⎝",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                150.180419921875,
+                597.227294921875,
+                154.0045928955078,
+                609.4486694335938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "189f7f93ea61ad04d63e6d26a5483fe8",
+        "text": "=",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                182.69976806640625,
+                599.9360961914062,
+                186.5299072265625,
+                608.490966796875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fa6d8f8e8907ef873aeadfab0a48a66e",
+        "text": "1",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                186.17974853515625,
+                600.7328491210938,
+                189.6743927001953,
+                608.4700317382812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "93636120ed78220ee1813cda13b0d6cf",
+        "text": "where σi is the standard deviation of the i’th feature.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                53.999725341796875,
+                610.9298706054688,
+                266.489990234375,
+                623.899658203125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "42e0244c3f19c4609365735b6d268d9d",
+        "text": "Thus, to find an optimal subset of q features, one of the two \nquantities above is computed for all possible combinations of q \nfeatures. This method is very appealing since it satisfies well-\ndefined properties. Its drawback is in the complexity of finding \nthe subset. It is not computationally feasible to find this subset for \na large feature vector.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                53.99998474121094,
+                627.6807250976562,
+                296.3942565917969,
+                690.442138671875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "04e5498b9062990472fdf4bf68522f00",
+        "text": "Another method, proposed in [5], uses the principal components \nas the basis for the feature selection. A high absolute value of the",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                53.99999237060547,
+                695.0592041015625,
+                296.4070739746094,
+                715.5818481445312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2e87d507a94ee85da68120225deb4fea",
+        "text": "i’th coefficient of one of the principal components (PC) implies \nthat the xi element of X is very dominant in that axes/PC. By \nchoosing the variables corresponding to the highest coefficients of \neach of the first q PC’s, the same projection as that computed by \nPCA is approximated. This method is a very intuitive and \ncomputationally feasible method. However, because it considers \neach PC independently, variables with similar information content \nmight be chosen.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                317.87969970703125,
+                72.37889099121094,
+                560.3118286132812,
+                156.26217651367188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e5cb6a4d28de20f056f79be68d5d49de",
+        "text": "The method proposed in [6] and [7] chooses a subset of size q by \ncomputing its PC projection to a smaller dimensional space, and \nminimizing a measure using the Procrustes analysis [8]. This \nmethod helps reduce the redundancy of information, but is \ncomputationally expensive because many combinations of subsets \nare explored.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                317.87969970703125,
+                160.8791961669922,
+                560.3087158203125,
+                223.64065551757812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "89b89eeebf0347d942d77cdb2dade1b9",
+        "text": "In our method, we exploit the information that can be inferred by \nthe PC coefficients to obtain the optimal subset of features. But \nunlike the method in [5], we use all of the PC’s together to gain a \nbetter insight on the structure of our original features. So we can \nchoose variables without redundancy of information.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                317.87969970703125,
+                228.25767517089844,
+                560.3492431640625,
+                280.4594421386719
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e358aadaa8b57c51153c640d91210ca2",
+        "text": "3. PRINCIPAL FEATURE ANALYSIS \nLet X be a zero mean n-dimensional random feature vector. Let  Σ \nbe the covariance matrix of X. Let A be a matrix whose columns \nare the orthonormal eigenvectors of the matrix Σ:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                317.8798828125,
+                289.32000732421875,
+                561.072509765625,
+                335.5710144042969
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d4b7902069b80ad6af38991220680ad8",
+        "text": "T\nA\nAΛ\n=\nΣ\n \n \n                    (6)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                317.8796081542969,
+                337.03192138671875,
+                556.2938842773438,
+                349.9468688964844
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7404a2f84f76426aa18a8d2f7dc01337",
+        "text": "λ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                365.131591796875,
+                351.3901062011719,
+                374.7975769042969,
+                363.6298522949219
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9515fd09b8636a732421272087c71982",
+        "text": "⎤",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                424.8599853515625,
+                352.0042419433594,
+                428.6844787597656,
+                364.22662353515625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f79e76280689eef87f9013a8d72e7549",
+        "text": "⎡",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                361.97967529296875,
+                352.0042419433594,
+                365.8041687011719,
+                364.22662353515625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3c571faa9a95ef2ef401dfff1a44c9f1",
+        "text": "1",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                371.1600036621094,
+                357.7325134277344,
+                374.6546630859375,
+                365.46966552734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "000d2bd553f200680b015b0a905b644c",
+        "text": "⎥\n⎥\n⎥\n⎥",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                424.8599853515625,
+                361.48358154296875,
+                428.6844787597656,
+                402.20684814453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cb922ccaacb0c7ce715a29c0bc4d5d71",
+        "text": "⎢\n⎢\n⎢\n⎢",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                361.97967529296875,
+                361.48358154296875,
+                365.8041687011719,
+                402.20684814453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f35c3b6d389826c60e40171dd0c4f258",
+        "text": "0\n.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                386.21966552734375,
+                367.54339599609375,
+                404.1723327636719,
+                378.5965576171875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a1a1be8d390082ea67538fbff9fc0010",
+        "text": ", \nn\nλ\nλ\nλ\n≥\n≥\n≥\n...\n2\n1",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                431.3999938964844,
+                373.89019775390625,
+                509.9250183105469,
+                387.9098205566406
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2a370f69f7bab1c57c36f247e03928df",
+        "text": "=\nΛ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                344.2792053222656,
+                373.9046630859375,
+                359.29156494140625,
+                386.1270446777344
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f147e7ffada338e1d39a1397a844c5cd",
+        "text": "where",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                317.8800048828125,
+                375.0121765136719,
+                342.4049987792969,
+                386.10430908203125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e0490982d823cfeaa34ff652e353fded",
+        "text": ".\n0",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                384.9595642089844,
+                382.5435485839844,
+                402.9361877441406,
+                393.5967102050781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "351a8162b0733fcf7cde39062fb7cdfb",
+        "text": "n\nλ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                412.6510009765625,
+                396.39019775390625,
+                422.9549865722656,
+                410.4698181152344
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3dfc6aad9fa26965f77aec8d5a9e4d9c",
+        "text": "⎦",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                424.8599853515625,
+                399.2241516113281,
+                428.6844787597656,
+                411.446533203125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "68d3b3ffd4a8de90b135bb5941cb4904",
+        "text": "⎣",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                361.97967529296875,
+                399.2241516113281,
+                365.8041687011719,
+                411.446533203125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5495f0d525e01567db2fe6043887b81f",
+        "text": "n\nλ\nλ\nλ\n,...\n,\n2\n1\n are the eigenvalues of Σ  and   \nn\nT\nI\nA\nA\n=\n.  Let",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                318.96710205078125,
+                413.1445007324219,
+                560.2540893554688,
+                428.88983154296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "906691bafd08a33d29bd970be151d20d",
+        "text": "Aq be the first q columns of A and let \nq\nn\nV\nV\nV\nℜ\n∈\n,...\n,\n2\n1\nbe the \nrows of the matrix Aq.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                317.87957763671875,
+                431.1719055175781,
+                560.2652587890625,
+                458.07598876953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5f5bcc3f39f53035e92dc568a54bd365",
+        "text": "Each vector Vi represents the projection of the i’th feature \n(variable) of the vector X to the lower dimensional space, that is, \nthe q elements of Vi correspond to the weights of the i’th feature \non each axis of the subspace.  The key observation is that features \nthat are highly correlated or have high mutual information will \nhave similar absolute value weight vectors Vi (changing the sign \nhas no statistical significance [5]). On the two extreme sides, two \nindependent variables have maximally separated weight vectors; \nwhile two fully correlated variables have identical weight vectors \n(up to a change of sign).  To find the best subset, we use the \nstructure of the rows Vi to first find the subsets of features that are \nhighly correlated and follow to choose one feature from each \nsubset. The chosen features represent each group optimally in \nterms of high spread in the lower dimension, reconstruction and \ninsensitivity to noise. The algorithm can be summarized in the \nfollowing five steps: \nStep 1 Compute the sample covariance matrix, or use the true \ncovariance matrix if it is available. In some cases it is \npreferred to use the correlation matrix instead of the \ncovariance matrix [5]. The correlation matrix is defined as \nthe n×n matrix whose i,j’th entry is",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                317.87969970703125,
+                461.8409729003906,
+                560.3508911132812,
+                685.6710205078125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c7ef1c5fb20eb8277a427190a83f9cb7",
+        "text": "[\n]",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                356.7605895996094,
+                678.8634033203125,
+                467.7086486816406,
+                705.803955078125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0e8b45fae04ad88360f5f6a610d846cc",
+        "text": "x\nx\nE\n=\nρ\n \n \n     (7)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                402.8110046386719,
+                686.926025390625,
+                558.0736083984375,
+                706.0499267578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c71feedd59e7746ee043c55a076f45ac",
+        "text": "j\ni\nij\nx\nE\nx\nE",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                409.68072509765625,
+                692.11181640625,
+                466.6719055175781,
+                714.8960571289062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "586f457813fc31b12fbc95d60212e127",
+        "text": "]\n[\n]\n[\n2\n2\nj\ni",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                433.68048095703125,
+                702.010498046875,
+                476.00604248046875,
+                716.7697143554688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3958ed122a6b69c8ddfdca6d98393467",
+        "text": "This representation is preferred in cases where the \nfeatures have very different variances from each other, \nand using the regular covariance form will cause the PCA \nto put very heavy weights on the features with the highest \nvariances. See [5] for more details. \nStep 2 Compute the Principal components and eigenvalues of the \nCovariance/Correlation matrix as defined in equation (6). \nStep 3 Choose the subspace dimension q and construct the matrix \nAq from A. This can be chosen by deciding how much of \nthe variability of the data is desired to be retained. The \nretained variability can be computed using:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.00028991699219,
+                72.38102722167969,
+                296.4375915527344,
+                191.90341186523438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "87a99c6cce05e7a19e71064fa92b4e0c",
+        "text": "q",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                202.4998779296875,
+                193.51165771484375,
+                205.994873046875,
+                201.2495880126953
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "81216771e08e5d269e65b18f03b03443",
+        "text": "λ\n \n    (8)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                208.11087036132812,
+                197.79071044921875,
+                294.0899963378906,
+                222.30433654785156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bdef655b7b3e9b22c5e86896c6c80ac6",
+        "text": "∑",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                201.4199981689453,
+                199.8603057861328,
+                207.1159210205078,
+                209.65219116210938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "706890c958b08e2736e76242decd49f6",
+        "text": "i\ni",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                199.7996368408203,
+                204.13153076171875,
+                216.68258666992188,
+                217.1497344970703
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "16e9d51ce3b3d30f43aff45dbda6d7b3",
+        "text": "=\nn",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                202.32000732421875,
+                208.6155242919922,
+                206.150146484375,
+                226.32972717285156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a605de6e5f5050827e1f5ff70770c18f",
+        "text": "1\n⋅\n=",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                190.98037719726562,
+                209.41049194335938,
+                223.17701721191406,
+                222.32740783691406
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a6797b71cf8f0976fa80c059e1e6f968",
+        "text": "Variability Retained \n%\n100",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.0,
+                211.21218872070312,
+                246.70008850097656,
+                222.30433654785156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3d32938eb641aa478208327b5575df51",
+        "text": "λ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                208.11102294921875,
+                222.3302001953125,
+                217.77699279785156,
+                234.56996154785156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "23385120cb16f539225edbfd5b1b8da5",
+        "text": "∑",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                201.4199981689453,
+                224.3999786376953,
+                207.1159210205078,
+                234.19186401367188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b1b80a6ffcf59e140b7c428f48f0cf7a",
+        "text": "i\ni",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                199.8003387451172,
+                228.67138671875,
+                216.68328857421875,
+                241.74964904785156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d85a42120cb054249b18f9e084d6e0fc",
+        "text": "=",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                202.32000732421875,
+                233.2157440185547,
+                206.150146484375,
+                241.77064514160156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c9b485dbab8fc920d4d75cdb52316e5c",
+        "text": "1",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                205.8000030517578,
+                234.01046752929688,
+                209.29580688476562,
+                241.75018310546875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7f7a98e59845b95535a4ace4f9554849",
+        "text": "Step 4 Cluster \nthe \nvectors \nq\nn\nV\nV\nV\nℜ\n∈|\n|\n|,...,\n||,\n|\n2\n1\nto \nq\np ≥\nclusters using K-Means algorithm. The distance \nmeasure used for the K-Means algorithm is the Euclidean \ndistance. The reason to choose p greater then q in some \ncases is if the same retained variability as the PCA is \ndesired, a slightly higher number of features is needed \n(Usually 1-5 more are enough). \nStep 5 For each cluster, find the corresponding vector Vi which is \nclosest to the mean of the cluster. Choose the \ncorresponding feature, xi , as a principal feature. This step \nwill yield the choice of p features. The reason for \nchoosing the vector nearest to the mean is twofold. This \nfeature can be thought of as the central feature of that \ncluster- the one most dominant in it, and which holds the \nleast redundant information of features in other clusters. \nThus it satisfies both of the properties we wanted to \nachieve- large “spread” in the lower dimensional space, \nand good representation of the original data.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.0,
+                244.39190673828125,
+                296.431884765625,
+                444.8015441894531
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2daa7d3373e60127e9b2514c4a034142",
+        "text": "For clarity it should be noted that the clustering is the \nrepresentation of the features in the lower dimensional space, and \nnot of the projection of the measurements to that space (as in [6]).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.0006103515625,
+                449.41851806640625,
+                296.41473388671875,
+                480.50091552734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e833e90f970630a7272601bf29af2674",
+        "text": "The complexity of the algorithm is of the order of performing \nPCA, because the K-Means algorithm is applied on just n q-\ndimensional vectors.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.0006103515625,
+                485.1178894042969,
+                296.4146728515625,
+                516.2002563476562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ebacccd349095afec64d83838ee87b01",
+        "text": "4. EXPERIMENTAL RESULTS \n4.1 Facial Motion Feature Points Selection  \nThe first experiment is selection of the important points that \nshould be tracked on a human face in order to account for the \nnon-rigid motion. This is a classic example of the need for feature \nselection because it can be very expensive and difficult to track \nmany points on the face reliably.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                53.99999237060547,
+                525.06005859375,
+                296.4501953125,
+                607.102783203125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "463477a90436fd0fa3949d85cbe2d420",
+        "text": "We capture video sequences of the subjects with markers on their \nface. Tracking of these markers is done automatically using \ntemplate matching, with manual error correction. Thus we have \nreliable tracking results for the entire video sequence (60 sec at 30 \nframes per second) of human facial motion performing several \nnormal actions - smiling, frowning, acting surprised, and talking. \nThe images in Figure 1 demonstrate some facial motions that \nappear in the video sequence. There are a total of 40 facial points \nthat are being tracked.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                53.99999237060547,
+                611.7197875976562,
+                296.4348449707031,
+                706.1603393554688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "500fb5c9d61bea4e17e8104a2862bf87",
+        "text": "For the principal feature analysis, the points are split into two \ngroups, upper face (eyes and above) and lower face. Each point is \nrepresented by its horizontal and vertical direction, and therefore \nthe actual number of features we have is 80. We apply PFA on the \ndata, retaining 90% of the variability in the data. Figure 2 shows \nthe results of the analysis. The chosen features are marked by \narrows, which display the principal directions chosen for those \nfeature points. It can be seen that the chosen features correspond \nto physical based models of the face, i.e., horizontal motion is \nchosen for the middle lip point, with more features chosen around \nthe lips than other lower facial regions. Vertical motion features \nare chosen for the upper part of the face (with the inner eyebrows \nchosen to represent the horizontal motion which appeared in the \noriginal sequence). This implies that much of the lower-face \nregion’s motion can be inferred using mainly lip motion tracking \n(an easier task from the practical point of view). In the upper part \nof the face, points on the eyebrows are chosen, and in the vertical \ndirection mostly, which is in agreement with the physical models. \nIt can also be seen that less points are needed for tracking in the \nupper part of the face (7 principal motion points) then the lower \npart of the face (9 principal motion points) since there are fewer \ndegrees of freedom in the motion of the upper part of the face.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                317.8800048828125,
+                72.37767028808594,
+                560.3974609375,
+                304.3243103027344
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bd74d5a578747f0e22f50201d1045a34",
+        "text": "Figure 1. Examples of Facial Expressions",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                358.79998779296875,
+                349.3921813964844,
+                556.364990234375,
+                372.864013671875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a960d25340338b7506bf788526cb6f6d",
+        "text": "Figure 2. Principal Motion Features chosen for the facial \npoints. The arrows show the motion direction chosen \n(Horizontal or Vertical) \nThe example shows that the PFA can model a difficult physical \nphenomenon such as the face motion to reduce complexity of \nexisting algorithms by saving the necessity of measuring all of the \nfeatures. This is in contrast to PCA, which will need the \nmeasurements of all original motion vectors to do the same \nmodeling.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                317.8793640136719,
+                420.55218505859375,
+                560.3322143554688,
+                530.301513671875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e51f86d0eb2af7483fc0bb61478b1a03",
+        "text": "4.2 Feature Selection in Content-based Image \nRetrieval \nThe second experiment is designed to test the output of the \nprincipal feature analysis (PFA) algorithm for the purpose of \ncontent-based image retrieval. In a typical content-based image \ndatabase retrieval application, the user has an image that he or she \nis interested in and wants to find similar images from the entire \ndatabase. A two-step approach to search the image database is \nadopted. First, for each image in the database, a feature vector \ncharacterizing some image properties is computed and stored in a \nfeature database. Second, given a query image, its feature vector \nis computed, compared to the feature vectors in the feature \ndatabase, and images most similar to the query images are \nreturned to the user. The features and the similarity measure used \nto compare two feature vectors should be efficient enough to",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                317.8800048828125,
+                537.1199340820312,
+                560.33349609375,
+                701.6602783203125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "22423b817caf10f26a99fd90c5e0cd52",
+        "text": "match similar images as well as being able to discriminate \ndissimilar ones.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.0,
+                72.38102722167969,
+                296.4150695800781,
+                92.90371704101562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0051894a76cb9d14ddeee53deabfb6b6",
+        "text": "Image similarity is mainly based on low-level features, such as \ncolor, texture and shape, although this might not always match \nwhat a user perceives as similar. We use 9 color and 20 wavelet \nmoments (WM) as feature representation. \nThe test dataset from Corel consists of 17695 images. 400 of them \nare “airplanes”, and 100 of them are “American eagles”. Table 1 \nshows the comparisons using the original feature set, PCA, PFA \nand a feature set of same cardinality as PFA, but spanning a \nsmaller number of clusters. The retrieval results are the average \nnumbers of hits in top 10, 20, 40 and 80 returns using each of 100 \nairplanes and each of 100 eagles as the query image, respectively. \nPFA performs best for both airplanes and eagles among all \nmethods. This result demonstrates that using too many features, \nwhich are ‘noisy’ in terms of the classification problem at hand, \nresults in worse classification. In this case PCA does not help \nbecause it still uses all of the original features.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                53.999969482421875,
+                97.52073669433594,
+                296.47705078125,
+                267.8591003417969
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "dcf04b3ab3b5d101fa08f3112bc9100e",
+        "text": "Table1. Performance Comparison using original feature set, \nPCA, PFA, and a 7 features subset spanning fewer clusters \nthan PFA for Corel dataset.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                58.620567321777344,
+                272.6560974121094,
+                291.78631591796875,
+                303.7384948730469
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b46385750e01168e81a7ccf811785349",
+        "text": "Airplanes \n#Hit in \ntop 10 \nTop 20 \nTop 40 \nTop 80",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                74.27965545654297,
+                308.5948791503906,
+                286.802001953125,
+                329.1175842285156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "88d54c768e2e6203ac0de757c67afe9f",
+        "text": "10 WM’s \n3.32     \n5.75     \n9.94    \n17.1",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                75.9000015258789,
+                332.2409973144531,
+                281.49969482421875,
+                342.2040100097656
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f92c524c63c94c21c7ddf46cc1b2af8c",
+        "text": "7 PC’s \n3.37     \n5.71     \n9.90    \n16.8",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                80.87999725341797,
+                348.7409973144531,
+                281.48028564453125,
+                358.7040100097656
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f35b0f5984e97e4ec020d8a5d3137a38",
+        "text": "7 PF’s \n(1,5,6,7,8,9,10) \n3.58     \n6.24    \n11.2    \n19.3",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                65.15999603271484,
+                362.7809753417969,
+                281.4346008300781,
+                383.3036804199219
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "13421c9f81751d1575ea7736e2cd23fa",
+        "text": "(1,2,3,4,8,9,10) \n3.20   \n5.34     \n9.25    \n15.6",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                65.16000366210938,
+                387.3809814453125,
+                281.435546875,
+                397.343994140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6c33540f6da3b4db8fec1e51bc6003d7",
+        "text": "Eagles \n#Hit in \ntop 10 \nTop 20 \nTop 40 \nTop 80",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                80.5199966430664,
+                401.6006774902344,
+                286.8026428222656,
+                422.1233825683594
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b9ef84b2ffbd3108cbad2a23104a6687",
+        "text": "10 WM’s \n1.98    \n2.82    \n4.43    \n6.58",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                75.9000015258789,
+                425.2409973144531,
+                281.4619140625,
+                435.2040100097656
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5a240f2e78e411bcba576889542b45b8",
+        "text": "7 PC’s \n1.96     \n2.76     \n4.13    \n6.27",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                80.87999725341797,
+                441.7409973144531,
+                281.48028564453125,
+                451.7040100097656
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2aec6d5f711490455e01f301b87d13bd",
+        "text": "7 PF’s \n(1,5,6,7,8,9,10) \n2.14     \n2.96     \n4.67    \n7.21",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                65.15999603271484,
+                455.7809753417969,
+                281.421142578125,
+                476.3036804199219
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9e83ba50a057694ffbefa15d9c837783",
+        "text": "(1,2,3,4,8,9,10) \n1.78    \n2.50     \n3.71    \n5.75",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                65.16000366210938,
+                480.3809814453125,
+                281.435546875,
+                490.343994140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "03b6bb214b27eb1113718cc9f4c6ca83",
+        "text": "Table 2. Performance Comparison using the full features, \nPCA, PFA and randomly selected features.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                63.47999954223633,
+                500.60089111328125,
+                286.8834533691406,
+                521.12353515625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ba011e9d3e80c0b95b66e1597c2ed3c7",
+        "text": "40 random queries in \nCorel \n#Hit in top 10 \nTop 20",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                69.7197036743164,
+                525.9808959960938,
+                271.96405029296875,
+                546.5035400390625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "30acbbb174eb1b9894af4a0e34e8dcb1",
+        "text": "22 PC’s \n(7 color, 15 WM) \n        4.80 \n      8.20",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                78.84030151367188,
+                547.1609497070312,
+                266.40496826171875,
+                567.68359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fbe6d0bb97d5f08366e482187f1a2091",
+        "text": "22 PF’s \n(7 color, 15 WM) \n4.90     \n8.15",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                78.84030151367188,
+                568.5209350585938,
+                273.3762512207031,
+                589.0435791015625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4c49d8324e0b78f991c31116204e1a5e",
+        "text": "22 random selected (I) \n(7 color, 15 WM)  \n3.88     \n6.65",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                69.9000015258789,
+                589.8809204101562,
+                275.66973876953125,
+                610.403564453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8e05bb0f956f481d5c8b8f524d5a958c",
+        "text": "22 random selected (II) \n(7 color, 15 WM)  \n4.18     \n6.85",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                68.4000015258789,
+                611.2409057617188,
+                275.6700439453125,
+                631.7635498046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3651e1eae1836a03e76847693caeed93",
+        "text": "22 random selected (III) \n(7 color, 15 WM)  \n4.40     \n7.18",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                66.9000015258789,
+                632.6008911132812,
+                275.67034912109375,
+                653.12353515625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3e6511e723742eca97a8e0ed05102489",
+        "text": "Table 2 shows results on the 20 wavelet moments plus 9 color \nmoments for the Corel database. 7 out 9 color features and 15 out \nof 20 wavelet features are selected by PFA. 40 randomly selected \nimages are picked as the query image. The average number of hits \nin top 10, 20 returned images are calculated for all the query",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.0,
+                659.9609375,
+                296.4512023925781,
+                712.1626586914062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8afa107e69e61319114609f3862b9a5d",
+        "text": "images. The performance of the original feature set and the \nprincipal feature set are tested against 3 randomly selected (but \nthe same number of) features. It clearly shows that principal \nfeatures yield comparable results as that of original set and PCA, \nand significantly higher results than any of random picks.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                317.8800048828125,
+                72.37968444824219,
+                560.359375,
+                124.80433654785156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2bd35f9d6503b8a1d3db8d016073605f",
+        "text": "Because the number of features in these examples is relatively \nsmall, we were able to analyze the ranking of the selected subsets \nusing the optimality criteria suggested in [4] and described in the \nSection 2. The selected subset was ranked on average in the top \n5% of all possible subset selection. For example, for the 15 \nWavelet features selected out of 20, the subset was ranked 20 out \nof 15504 possible combinations.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                317.8802490234375,
+                129.20103454589844,
+                560.3330078125,
+                202.52218627929688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "791dc4372d4067f5ae3db7e80ed75577",
+        "text": "5. DISCUSSION \nIn this paper we propose a new method for feature selection \nnamed principal feature analysis. The method exploits the \nstructure of the principal components of a set of features to \nchoose the principal features, which retain most of the \ninformation, both in the sense of maximum variability of the \nfeatures in the lower dimensional space and in the sense of \nminimizing the reconstruction error. The proposed method is \napplied to two applications, face tracking and content-based \nimage retrieval. The results demonstrate that PFA does have \ncomparable performance to PCA. However, for PCA, all of the \noriginal features are needed. This point is the main advantage of \nPFA over PCA: fewer sensors require or fewer features to \ncompute and the selected features have their original physical \nmeaning. When compared to the optimal features selected in [4], \nthe results show that the PFA features are averagely ranked in the \ntop 5% of all possible combinations.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                317.8800048828125,
+                211.37998962402344,
+                560.3264770507812,
+                393.5593566894531
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c8e057ce5048754a9aac8248ef6cddfb",
+        "text": "6. REFERENCES \n[1] Lisboa, P.J.G., Mehri-Dehnavi, R. Sensitivity Methods for \nVariable Selection Using the MLP. International Workshop \non Neural Networks for Identification, Control, Robotics and \nSignal/Image, 1996, 330-338.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                317.8800048828125,
+                404.4000244140625,
+                558.9854125976562,
+                459.8630676269531
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a369e2c0337d2caa3cc53fce6cfcbb2c",
+        "text": "[2] Lin, T.-S., Meador, J. Statistical Feature Extraction and \nSelection for IC Test Pattern Analysis. Circuits and systems, \nvol 1., 1992, 391-394.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                317.8800048828125,
+                464.35406494140625,
+                556.7697143554688,
+                495.56243896484375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6e78eb26cb6849692132d0bd463aa3fc",
+        "text": "[3] Hocking, R.R. Development in Linear Regression \nMethodology: 1959-1982. Technometrics, vol. 25, 1983, \n219-249.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                317.8799743652344,
+                500.0534362792969,
+                542.718017578125,
+                531.2617797851562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6bbe9a26494ddf875d61ebc21a662c23",
+        "text": "[4] McCabe, G.P. Principal Variables. Technometrics, vol. 26, \n1984, 127-134.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                317.8799743652344,
+                535.7528076171875,
+                550.4974365234375,
+                556.4014892578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f0fc8f41b912a46026a9368295768778",
+        "text": "[5] Jolliffe, I.T. Principal Component Analysis. Springer-Verlag, \nNew-York, 1986.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                317.87908935546875,
+                560.8925170898438,
+                559.7224731445312,
+                581.5411987304688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "63521629b4d9731e17d56513f957cff5",
+        "text": "[6] Krzanowski, W.J. Selection of Variables to Preserve \nMultivariate Data Structure, Using Principal Component \nAnalysis. Applied Statistics- Journal of the Royal Statistical \nSociety Series C, vol.36, 1987, 22-33.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                317.87908935546875,
+                586.0322265625,
+                554.9931030273438,
+                627.80029296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ed2b48e9543ce57e48c1ebcc9e3364bf",
+        "text": "[7] Krzanowski, W.J. A Stopping Rule for structure- Preserving \nVariable Selection. Statistics and Computing, March vol. 6, \n1996, 51-56.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                317.87908935546875,
+                632.2913208007812,
+                556.0280151367188,
+                663.4996948242188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1dfd1fe30a647c829cae507bbb4a15d8",
+        "text": "[8] Gower, J.C., Statistical Methods of Comparing Different \nMultivariate Analyses of the Same Data, Mathematics in the \nArchaeological and Historical Sciences), University Press, \nEdinburgh, 1971, 138-149.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1291233.1291297.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                317.87908935546875,
+                667.99072265625,
+                556.6066284179688,
+                709.7587890625
+            ],
+            "is_full_width": false
+        }
+    }
+]

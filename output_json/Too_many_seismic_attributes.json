@@ -1,0 +1,1256 @@
+[
+    {
+        "element_id": "d71257b0b18ca92b1d2cee37997f3498",
+        "text": "Arthur Barnes\nLandmark Graphics Corporation, Colorado, USA",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                62.16019821166992,
+                61.08064651489258,
+                270.7892761230469,
+                86.70773315429688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "17dae30958dc1d6fe71f992ad6b9a97a",
+        "text": "Are there too many seismic attributes? Their great number\nand variety is almost overwhelming. How can one decide\nwhich ones to use? But it is not as bad as it looks. Throw away\nall the unnecessary attributes and what is left over is quite\nmanageable.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                62.16001892089844,
+                106.730224609375,
+                305.284912109375,
+                159.98629760742188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2e8c068f010f92a6ae7002bc79a2b966",
+        "text": "It’s easy to identify unnecessary seismic attributes. Just\nreview your attributes in the light of these common-sense\nprinciples:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                62.1600341796875,
+                168.8902587890625,
+                305.2435607910156,
+                200.06588745117188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b006e2e8fd153b3b6e1c5d6496ca55c7",
+        "text": "• Seismic attributes should be unique. You only need one\nattribute to measure a given seismic property. Discard\nduplicate attributes. Where multiple attributes measure the\nsame property, choose the one that works best. If you can’t\ntell which one works best then it doesn’t matter which one\nyou choose.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                62.1600341796875,
+                205.61004638671875,
+                305.4000244140625,
+                269.4259948730469
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "052e635eb560fbd87f6465a08bb814bb",
+        "text": "• Seismic attributes should have clear and useful meanings.\nIf you don’t know what an attribute means, don’t use it. If\nyou know what it means but it isn’t useful, discard it.\nPrefer attributes with geological or geophysical meaning;\navoid attributes with purely mathematical meaning.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                62.160125732421875,
+                274.9705505371094,
+                305.55963134765625,
+                327.9867858886719
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2427ef887f08774a9c66513ccea2fcc1",
+        "text": "• Seismic attributes represent subsets of the information in\nthe seismic data. Quantities that are not subsets of the data\nare not attributes and should not be used as attributes.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                62.16004180908203,
+                333.5294494628906,
+                305.4639892578125,
+                364.46649169921875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "63686918e6320a48d78e0b8fde8fe207",
+        "text": "F i g u re 1. \nNine maps \nof common\na m p l i t u d e\na t t r i b u t e s\ncomputed in \na 100 ms\nwindow (25\nsamples) at a\nconstant time.\nThe maps all\nshow about the\nsame picture .",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                62.16019821166992,
+                597.7388916015625,
+                109.19097137451172,
+                713.8067626953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ef3ed70d5e012fd4de337d445406a162",
+        "text": "• Attributes that differ only in resolution are the same\nattribute; treat them that way.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                323.27886962890625,
+                106.72943115234375,
+                566.1738891601562,
+                126.86569213867188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f1ccb6d9d9f4f2b74f2ba34906e1e10e",
+        "text": "• Seismic attributes should not vary greatly in response to\nsmall changes in the data. Avoid overly sensitive attributes.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                323.2793273925781,
+                132.409423828125,
+                566.2307739257812,
+                152.30545043945312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "77f8f40f4071cd031332b46162d59783",
+        "text": "• Not all seismic attributes are created equal. Avoid poorly\ndesigned attributes.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                323.2784423828125,
+                157.84918212890625,
+                566.2171020507812,
+                177.98544311523438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a2946de8e419155476739e794d9d6fbf",
+        "text": "Unnecessary attributes are thus duplicates, or they are\nobscure or unstable or unreliable, or they are not really attrib-\nutes at all. Look first for duplicate attributes, the most\nnumerous kind of unnecessary attribute. Many basic seismic\nproperties, particularly amplitude, frequency, and disconti-\nnuity, are quantified through multiple seismic attributes vari-\nously computed.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                323.27764892578125,
+                187.12921142578125,
+                566.3883666992188,
+                262.2250671386719
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8524f31564bc48fd2b3717d8fbd0241e",
+        "text": "Consider the most important seismic property, amplitude.\nFigure 1 compares nine common amplitude attribute maps.\nThese maps are all similar. Crossplots between them reveal\nfairly linear or quadratic relationships demonstrating that\nthey contain nearly the same information (Figure 2). Rarely\nare the differences between these attributes important, and\nrarely is anything gained by using more than one. Average\nreflection strength nearly always suffices.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                323.27642822265625,
+                271.1302185058594,
+                566.468505859375,
+                357.265625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7175980e2015239a7d2680cffe609274",
+        "text": "You may prefer average energy because it exhibits\nmore contrast than reflection strength. Use it, but\nrecognize that average energy has exactly the same\ninformation as RMS amplitude and almost the same\nas reflection strength. Its greater contrast is due only\nto how it presents the information. Perhaps also you\nwant to use the maximum amplitude attribute\nbecause in your application it has useful meaning,\nand the diff e rences between average re f l e c t i o n\nstrength and maximum amplitude are significant –\nif you truly know what they mean.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                35.28010177612305,
+                56.81011962890625,
+                242.45310974121094,
+                176.06613159179688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "09a15ff3d1f64cc4f0245b700385f752",
+        "text": "Take a more involved seismic property, disconti-\nnuity. Figure 3 compares four common disconti-\nnuity attributes based on correlation, semblance,\ncovariance, and weighted correlation. Their cross-\nplots are given in Figure 4. Despite significant\ncomputational differences and enthusiastic claims to\nthe contrary, these four discontinuity attributes are\nso nearly the same that it doesn’t matter which one\nyou use.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                35.28010177612305,
+                184.9700927734375,
+                242.4759521484375,
+                282.1461486816406
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "eeb86cd082e79a092995795b296c231c",
+        "text": "Many duplicate attributes masquerade as unique\nm e a s u res. A rc length is one of these. It is driven by\nboth amplitude and fre q u e n c y, but amplitude\nusually dominates to the extent that it re s e m b l e s\nreflection strength (Figure 5). You probably don’t\nneed it. A c t u a l l y, you really don’t need it – arc length\nis nonsense. Defined as the length along the wiggles\nof a seismic trace in amplitude-time space, it has no\nuseful meaning because amplitude and time are\nu n related. Discard it.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                35.28010177612305,
+                291.28912353515625,
+                242.36013793945312,
+                399.2661437988281
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ab1af5ab96ec18251784bc5488e1034f",
+        "text": "F i g u re 2. Crossplots derived from the amplitude maps of Figure 1. The simple linear and quad -\nratic relations demonstrate that these attributes all contain the same information. The plot of\nmaximum peak amplitude versus maximum trough amplitude appears to be an exception, but\nthe relatively greater scatter is due more to randomness in the attributes than to inhere n t l y\nd i f f e rent information.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                258.47900390625,
+                369.0179138183594,
+                555.6241455078125,
+                413.0872497558594
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "119ea4b9cd1a2da992e87583f48b235f",
+        "text": "Amplitude variance also masquerades as a unique\nmeasure. Intuitively it should be unique, or at least\nmuch different than amplitude attributes such as\nreflection strength. But for zero mean data a stan-\ndard variance equals the average energy, which is\nthe square of the RMS amplitude, which is a close\napproximation to reflection strength. As a result,\namplitude variance derived directly from seismic\ndata resembles most amplitude attributes (refer to\nFigures 1 and 2).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                35.28010177612305,
+                408.4101257324219,
+                242.38351440429688,
+                516.6260986328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fb05f1038b2214148a3dae737407a65e",
+        "text": "An effective amplitude variance attribute can be\ndefined as the variance of the reflection strength\nnormalized by the average reflection strength. This\nnormalized variance is different than amplitude and\nnoisier than standard variance (Figure 6). Whether it\nis also useful must be determined empirically.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                35.28010177612305,
+                525.7701416015625,
+                242.37161254882812,
+                589.8261108398438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "84bf8ed14c9490954ccf68fd04323596",
+        "text": "Attributes based on principal components often\nmasquerade as independent measures. While prin-\ncipal components are naturally independent,\nnormalized principal components tend to be well\ncorrelated. Figure 7 shows two seismic discontinuity\nattributes, one computed from the normalized first\nprincipal component, PC1, and another computed\nfrom the normalized second principal component,\nPC2. These look like mirror images of each other. A\ncorresponding attribute based on the third principal\ncomponent, PC3, resembles a fuzzy version of PC1.\nRatios of principal components, such as the",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                35.28010177612305,
+                598.9701538085938,
+                242.52711486816406,
+                729.0252075195312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d0ba5cd4114adcec829d30e502ed8dd3",
+        "text": "F i g u re 3. Four discontinuity attributes based on correlation, semblance, covariance, and corre -\nlation weighted by trace magnitude, computed as maps in a 60 ms window (15 samples) at a\nconstant time. These attributes are nearly identical.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                258.47900390625,
+                704.2979125976562,
+                555.6241455078125,
+                730.3684692382812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "762fc9e072396069394c7b464652b4f4",
+        "text": "F i g u re 4. Crossplots derived from the discontinuity attribute maps of Figure 3 are fairly linear,\ndemonstrating that the attributes are, for all practical purposes, equivalent.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                35.28010177612305,
+                270.138916015625,
+                337.0403137207031,
+                287.0872497558594
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "aeb45690d89401e81d4759d65c96777b",
+        "text": "F i g u re 5. Arc length compared with reflection strength, computed as maps in a 100 ms window\n(25 samples) at a constant time. The roughly linear crossplot indicates that they have about the\nsame information.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                35.28010177612305,
+                408.3789367675781,
+                337.1096496582031,
+                434.447265625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e60c48798ef63884ec973d6c49f1b120",
+        "text": "F i g u re 6. Standard amplitude variance compared with the variance of the reflection stre n g t h\nnormalized by the average reflection strength, computed as maps in a 100 ms window (25 samples)\nat a constant time. Their crossplot is a random scatter, demonstrating that they contain differe n t\ni n f o r m a t i o n .",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                35.28010177612305,
+                554.0589599609375,
+                337.17315673828125,
+                589.2472534179688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "748f301ed55cbb7e6a140d728be48d7a",
+        "text": "Karhunen-Loeve signal complexity (what does that mean?), can\nalso look like PC1 and PC2. These principal component attrib-\nutes all show the same picture. Keep PC1 and discard the others.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                36.23979187011719,
+                613.84912109375,
+                292.36260986328125,
+                645.02685546875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "78b80c48eacbeb1ffe560aa81da112a6",
+        "text": "Further muddying the waters, some attributes have duplicate\nnames. Reflection strength, trace envelope, and instantaneous\namplitude are the same attribute. Covariance discontinuity,\neigen-structure discontinuity, and the normalized first principal\ncomponent, PC1, are the same attribute, which initially was\ncalled “Amoco C3.” Response attributes are also called wavelet",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                36.239776611328125,
+                654.170654296875,
+                292.391845703125,
+                718.2264404296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8aa259244e398f835c76e844d1e50383",
+        "text": "attributes. The quadrature trace and the imaginary\ntrace are the same – but this is a poor example. The\nquadrature trace is just a 90° phase rotation and is not\nan attribute since it does not subset the information.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                351.1187744140625,
+                56.8104248046875,
+                566.3594970703125,
+                99.02627563476562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c2fde98cbac3a467f1886bb2a82692ad",
+        "text": "Some attributes are more than similar, they are essen-\ntially identical. Identical attributes contain exactly the\nsame information and differ merely in how they\np resent this information. As already noted, RMS\namplitude and average energy are identical. Other\nidentical attributes include instantaneous phase and\ncosine of the phase, and dip-azimuth (reflection dip\ncombined with reflection azimuth) and shaded relief.\nChoose the one you prefer and discard the other.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                351.11895751953125,
+                108.1700439453125,
+                566.3923950195312,
+                205.10531616210938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "36d3bb24e22c53219e689268a9136450",
+        "text": "Cosine of the phase is not only identical to instanta-\nneous phase, it is also nearly identical to a strong auto-\nmatic gain (Figure 8). In fact, cosine of the phase is the\nultimate automatic gain, completely removing all\namplitude contrasts. Treat it more as a process than as\nan attribute.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                351.118408203125,
+                214.24908447265625,
+                566.2434692382812,
+                278.3053283691406
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0ab5fe26bb0b0ff242f42e69d5aaa388",
+        "text": "Though dip-azimuth and shaded relief are identical\nattributes, they look quite different (Figure 9). Dip-\nazimuth combines reflection dip and re f l e c t i o n\nazimuth through a circular two dimensional colorbar\nfor which azimuth controls the hue and dip controls\nthe intensity. Shaded relief combines reflection dip\nand azimuth to simulate the shading of illuminated\nreflections, for which a gray-scale colorbar suffices.\nYou don’t need both.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                351.1190185546875,
+                287.4490966796875,
+                566.3932495117188,
+                384.6239929199219
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "99dc83dd92614c1bf30baae6ff1a77aa",
+        "text": "Attributes that lack clear and useful meaning might\nwell be labeled useless. Such attributes are more\ncommon than you would think. A rc length and the\nK a rhunen-Loeve signal complexity are useless attrib-\nutes. Average instantaneous phase is another useless\nattribute. The more instantaneous phase is averaged,\nthe more predictable and the more worthless the re s u l t :\nz e ro. Average unwrapped instantaneous phase is\ns c a rcely better. The “slope of the instantaneous\nf requency” may have clear mathematical meaning (or\nmay not), but its geological meaning is so obscure that\nit is useless. Response phase and response fre q u e n c y\na re also useless if you insist that they describe the\nseismic source wavelet as advertised. They succeed\nonly in the absence of noise or reflection interfere n c e .\nSimply put, they succeed only in the absence of re a l\ndata. You can use these attributes empirically, of\ncourse, recognizing what they really re c o rd. Response\nphase re c o rds the apparent phase of re f l e c t i o n s ,\ncomposite or solitary, at envelope peaks, and helps in\ntracking events. Response frequency acts like a\nnonlinear filter for instantaneous fre q u e n c y, producing a cleaner\nattribute free of spikes and negative values. This has utility, but a\nweighted average frequency is better because it offers the same\nbenefits plus it is smoother and has simpler meaning (Figure 10).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.32037353515625,
+                393.7701416015625,
+                566.3543090820312,
+                666.864013671875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c8b29acb713635f113ece85981ad6917",
+        "text": "Changing the resolution of an attribute does not change its\nn a t u re. An attribute remains inherently the same whether\ncomputed in a short window or in a long window. This is\nobvious for attributes like RMS amplitude and energy half-time,",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.32037353515625,
+                675.7692260742188,
+                566.3535766601562,
+                717.9843139648438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4d8bb19fb6ae890ee442468586347543",
+        "text": "but it is also true, though not obvious, of instanta-\nneous frequency and weighted average frequency.\nThey are really the same frequency attribute with\ndifferent resolution. You might reasonably use both\nto investigate targets with different resolution, but\nrecognize they are the same attribute.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                35.27941131591797,
+                58.00982666015625,
+                242.38470458984375,
+                122.30569458007812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c68d317226dd3a07377f1eea71386ec8",
+        "text": "Weighted average frequency can be computed either\nin the time domain as weighted average instanta-\nneous frequency, or in the frequency domain as\nweighted average Fourier spectral frequency. With\na p p ropriate weights, these completely diff e re n t\nmethods produce exactly the same results. Similarly,\nbandwidth can be quantified as a spectral variance\neither in the time-domain or in the fre q u e n c y\ndomain. Some multi-dimensional attributes, such as\nazimuth, dip, or dip variance (a measure of reflec-\ntion parallelism), can also be generated in either\ndomain. Because these attributes are the same in\neither domain, it is pointless to compute them in\nboth domains. Not all spectral attributes are so flex-\nible. Spectral kurtosis, for example, must be\ncomputed in the frequency domain, but as it has no\ninherent geological or geophysical meaning, you\nprobably don’t need it.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                35.279266357421875,
+                131.20965576171875,
+                242.38687133789062,
+                327.9866027832031
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "19e37765ebeb94ec935bbad5b4d8714a",
+        "text": "F i g u re 7. Acomparison of the normalized first principal component, PC1, and the normalized second\nprincipal component, PC2, computed as maps in a 100 ms window (25 samples) at a constant time.\nThese discontinuity attributes resemble mirror-images of each other and their crossplot suggests the\nlinear relationship, PC2 \u0000  1 – PC1.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                256.32000732421875,
+                167.65789794921875,
+                566.3196411132812,
+                202.60723876953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fcc983473e826f9d26a3c2a75c5d6889",
+        "text": "Attributes that are sensitive to small perturbations in\nthe data are unstable. A p p a rent polarity is an\nexample. It is defined as the sign of the seismic data\nat envelope peaks scaled by the envelope peak and\nheld constant in each interval around a peak. This\nworks fine for clean zero-phase data free of re f l e c t i o n\ni n t e r f e rence, but it is ambiguous for thin-bed re f l e c-\ntions, which have an apparent phase of around 90°.\nF i g u re 11 shows this for simple synthetic data. A s\nlong as the reflections don’t interfere, appare n t\npolarity is correct, but where they do interfere ,\na p p a rent polarity flips randomly from trace to trace.\nThe same problem occurs on real data. Discard\na p p a rent polarity and use response phase instead.\nAttributes that count the integral number of peaks or\nt roughs in an interval are also unstable, as they are\nsensitive to small changes in interval definition. The\ndetails shown by these attributes cannot be tru s t e d ;\navoid them.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                35.2794189453125,
+                337.13037109375,
+                243.2435302734375,
+                544.7063598632812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b04155f62f559c2744a8931aeebadddd",
+        "text": "F i g u re 8. A seismic line processed with (a) cosine of the phase, and with (b) a strong AGC using\na 28 ms window (7 samples). They are almost indistinguishable.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                267.1210021972656,
+                344.0589294433594,
+                566.3196411132812,
+                361.24725341796875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fd0577478ba1b4b177aa9d94bdffb69e",
+        "text": "F i g u re 9. A comparison along a time slice of (a) dip-azimuth and (b) shaded relief. These attrib -\nutes look very different and yet present the same information.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                270.0,
+                503.1789245605469,
+                568.5851440429688,
+                520.3682861328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "93d395876b16c05e83c89fccef4cac27",
+        "text": "Beware of differences between programs for gener-\nating seismic attributes. Aside from incorrect algo-\nrithms, which especially plague instantaneous\nf re q u e n c y, the same attribute produced by\ncompeting programs can differ substantially due to\nimplementation details. One such detail regards the\nwindowing, which is the way an algorithm selects\nseismic data from an interval. Attributes are filters,\nand like any filter they should employ tapered\nwindows to reduce Gibb’s effects. Non-tapered or\n“boxcar” windows are nonetheless widely used.\nFigure 12 compares the effect of a boxcar window\nwith that of a tapered window of the same length in\nthe computation of energy half-time. The boxcar\nwindow gives rise to banding in the time domain\nand ringing in the frequency domain, which are the",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                35.279052734375,
+                553.8501586914062,
+                242.4095916748047,
+                728.3045654296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "450b0df9250bc78e14bdd0582a716b4b",
+        "text": "F i g u re 10. A comparison on a seismic line of (a) instantaneous fre q u e n c y, (b) response fre q u e n c y,\nand (c) weighted average frequency computed in a 52 ms window (13 samples); the original\nseismic data is overlain in black variable area format. Both response frequency and weighted\naverage frequency improve the interpretability of instantaneous fre q u e n c y, but weighted average\nf requency is smoother and easier to comprehend. Red is low fre q u e n c y, blue is high.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                267.1210021972656,
+                683.4174194335938,
+                566.7906494140625,
+                727.4871826171875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9e622787358cfa2a55ad72020d21df78",
+        "text": "F i g u re 11. Illustration of the instability of apparent polarity. The synthetic data is composed of three reflections with a\nsmall amount of random noise. The top reflection has positive polarity, the bottom reflection has negative polarity, and\nthe middle reflection is a composite of two reflections 4 milliseconds apart. The composite reflection looks like a single\nreflection with 90° of phase for which the apparent polarity flips randomly. Every 20th trace is overlain in wiggle format.\nRed is positive polarity, blue is negative.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                126.72000122070312,
+                286.93792724609375,
+                494.2142333984375,
+                331.00726318359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b3b6efb3e10176eefd3938e96cb852be",
+        "text": "F i g u re 12. Energy half-time computed with (a) a boxcar window, and with (b) a Hamming window. Both windows are 60 ms window\nlong (15 samples ms). The Hamming window prevents spectral ringing and provides a clearer image.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                106.31999969482422,
+                703.0983276367188,
+                514.52490234375,
+                720.2871704101562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ed3271c6212b0bf57274446b87b38b02",
+        "text": "Amplitude\nPhase\nFrequency\nDiscontinuity\nMiscellaneous",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                35.28010177612305,
+                59.939353942871094,
+                543.06591796875,
+                65.93841552734375
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "83cd36ee73b0980ebd711b58a4682ad6",
+        "text": "reflection strength\ninstantaneous phase\ninstantaneous frequency\ncorrelation discontinuity\narc length",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                41.28010177612305,
+                70.2658920288086,
+                532.5399169921875,
+                77.34024047851562
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "82c2d9988a2ab4a701f6441812813f2e",
+        "text": "trace envelope\ncosine of phase\nweighted average instantaneous \nsemblance discontinuity\nenergy half-time\nfrequency",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                41.279571533203125,
+                81.30611419677734,
+                552.8080444335938,
+                96.30026245117188
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "21228db79e1bea042fab2cb97fa4fd5b",
+        "text": "instantaneous amplitude\napparent polarity\nweighted average Fourier \ncovariance discontinuity\nquadrature trace",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                41.279998779296875,
+                103.3861312866211,
+                553.28955078125,
+                110.46047973632812
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "3923a5ff348a116628cb05234423e5f7",
+        "text": "spectral frequency",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                181.1999969482422,
+                114.18587493896484,
+                238.2581329345703,
+                121.26022338867188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "605d6e1a044e8eef6a777be61fedd1f3",
+        "text": "RMS amplitude\nresponse phase\nresponse frequency\neigen-structure discontinuity\ndip-azimuth",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                41.279998779296875,
+                128.34609985351562,
+                542.284423828125,
+                135.42044067382812
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "5d95bab16b13be8245226aaa10fa9982",
+        "text": "average or total absolute amplitude\naverage phase\nspectral bandwidth\nPC1\nshaded relief",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                41.28010177612305,
+                153.30587768554688,
+                541.8031005859375,
+                160.38021850585938
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "ff2d1db2573cebbdd7c160fdb53ec6be",
+        "text": "maximum peak, minimum \nunwrapped phase\nspectral frequency variance\nPC2\nKarhunen-Loeve",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                41.280303955078125,
+                167.46609497070312,
+                555.5602416992188,
+                174.54043579101562
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "9f719639f4efefc58cd1571c1fad891d",
+        "text": "trough amplitudes\nsignal complexity",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                45.11989974975586,
+                178.50588989257812,
+                556.7061767578125,
+                185.58023071289062
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "813f025e20f5cbf986f0eb3f370dc7fa",
+        "text": "average energy, total energy\nspectral kurtosis\nPC3\nazimuth, dip",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                41.28010177612305,
+                192.42587280273438,
+                541.7623291015625,
+                199.50021362304688
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "08c22c0e5d4c2f5d27bfbc7216d585d4",
+        "text": "standard amplitude variance\ninstantaneous frequency slope\nAmoco C3\ndip variance",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                41.28010177612305,
+                206.34591674804688,
+                540.5093383789062,
+                213.42025756835938
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "ca15a033f1a6ea43f1b9f7e52fa99968",
+        "text": "normalized amplitude variance\nparallelism",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                41.28010177612305,
+                220.50588989257812,
+                536.3986206054688,
+                227.58023071289062
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "5c94da34ac274ee78426ff8065eab745",
+        "text": "Table 1. A list of all the seismic attributes mentioned in this paper categorized by the properties that they measure .",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                35.76018142700195,
+                233.658935546875,
+                390.6697082519531,
+                241.728271484375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "87e65a1772f6615d26b06cd30915f246",
+        "text": "Amplitude\nPhase\nFrequency\nDiscontinuity\nMiscellaneous",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                41.28010177612305,
+                274.2583312988281,
+                543.06591796875,
+                280.25738525390625
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "923f3102cfacf0bcef8b9acc7869178f",
+        "text": "reflection strength\nresponse phase\nfrequency\ndiscontinuity\nshaded relief",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                41.28010177612305,
+                287.4659118652344,
+                541.802734375,
+                294.5402526855469
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "e02ae788ae152454bfd64363871be2de",
+        "text": "normalized amplitude variance\nbandwidth\nazimuth, dip",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                41.28010177612305,
+                301.6249084472656,
+                541.762451171875,
+                308.6992492675781
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "bb22acc446086b7a72864eec270bd79b",
+        "text": "energy half-time (amplitude change)\nparallelism",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                41.28010177612305,
+                315.5448913574219,
+                536.3986206054688,
+                322.6192321777344
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "1b34799421fbe1dbcb4e2b90b750bac9",
+        "text": "Table 2. The list of seismic attributes from Table 1 after ruthless clean-up.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                35.28010177612305,
+                329.658935546875,
+                263.3598937988281,
+                337.728271484375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cae52e1d0b93efc0de21a84042a3be44",
+        "text": "Gibb’s effects. The tapered window produces a sharper image and a smoother\npower spectrum. Where possible, avoid attributes with ringy spectra.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                35.279998779296875,
+                377.2091064453125,
+                368.13507080078125,
+                397.3469543457031
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ad6d88ce153ffe600affaa493ae71004",
+        "text": "Energy half-time is a measure of amplitude change. Use it in this sense. Optimistic\ndescriptions that suggest it to be a lithologic indicator are wrong.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                35.279685974121094,
+                406.49072265625,
+                368.210693359375,
+                426.6262512207031
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6874a688a8676559fcdea5c6eeed853d",
+        "text": "I could review many more seismic attributes, including waveform, spectral attrib-\nutes, curvature, AVO attributes, and others, to weed out the unnecessary ones. But I\nhave made my point: there are too many duplicate attributes, too many useless\nattributes, and too many misclassified attributes. This breeds confusion and makes\nit hard to apply attributes effectively. Reduce your attributes to a manageable subset.\nDiscard duplicate and dubious attributes, prefer attributes that make intuitive sense,\nunderstand resolution, distinguish processes from attributes, and avoid poorly\ndesigned attributes. Tables 1 and 2 summarize these ideas. Table 1 lists all the attrib-\nutes mentioned here, while Table 2 lists only those worth keeping. Table 1 looks\nimpressive but is too confusing to be helpful. In contrast, Table 2 is more honest and\nmuch clearer, and consequently is more useful.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                35.279449462890625,
+                435.77001953125,
+                368.3081970214844,
+                554.785888671875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ec33041e3a50099b80509afc627b6547",
+        "text": "Do you have too many seismic attributes? Throw away the ones you don’t need and\nyour attribute analysis will improve.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                35.280853271484375,
+                563.9296875,
+                368.2724609375,
+                584.065185546875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cfcfa09ee740b141172d4a0ecd2972f4",
+        "text": "Acknowledgements",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                35.280853271484375,
+                598.451904296875,
+                135.42324829101562,
+                609.447021484375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b7bc2abc09aad8ebfcb6403f00eef44a",
+        "text": "I thank Seitel Data Ltd. for permission to publish the seismic data used in Figures 1\nthrough 7, and I thank the Geological Survey of Denmark and Greenland, GEUS, for\npermission to publish the data used in Figure 9.  R",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                35.28076171875,
+                618.1699829101562,
+                368.11944580078125,
+                649.1071166992188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e3791ef7c69bf260088e72aee3204219",
+        "text": "(combined)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Too_many_seismic_attributes.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                393.8389892578125,
+                139.38589477539062,
+                429.1601867675781,
+                146.46023559570312
+            ],
+            "is_full_width": false
+        }
+    }
+]

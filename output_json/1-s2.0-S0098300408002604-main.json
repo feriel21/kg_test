@@ -1,0 +1,800 @@
+[
+    {
+        "element_id": "9692a4405b07099324c403d6e87ddab0",
+        "text": "Contents lists available at ScienceDirect",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0098300408002604-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                196.04400634765625,
+                60.24233627319336,
+                353.4060974121094,
+                68.37027740478516
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9725a344ffab608520785b11f0b1b5d1",
+        "text": "Computers & Geosciences",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0098300408002604-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                187.65350341796875,
+                85.20084381103516,
+                361.6748962402344,
+                99.42461395263672
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b53b2ae4caad89c91f51c4a87fade960",
+        "text": "journal homepage: www.elsevier.com/locate/cageo",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0098300408002604-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                165.08949279785156,
+                115.9715805053711,
+                384.31488037109375,
+                124.09952545166016
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ecbe3ac1f06b077f811bf03d0ccbbea3",
+        "text": "Semantics, ontologies and eScience for the geosciences",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0098300408002604-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                40.81890106201172,
+                163.44142150878906,
+                398.90509033203125,
+                177.1571807861328
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "72bfa8597c108e7f8efa5003000f462b",
+        "text": "Femke Reitsma a,\u0002, John Laxton b, Stuart Ballard c, Werner Kuhn d, Alia Abdelmoty e",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0098300408002604-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                40.81890106201172,
+                183.0027618408203,
+                459.0169982910156,
+                198.4779815673828
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ff224c8978e09a2ea363b521e561569a",
+        "text": "a School of Geosciences, Edinburgh University, UK\nb British Geological Survey, UK\nc The National Institute for Environmental eScience, UK\nd Institute for Geoinformatics, University of Mu¨nster, UK\ne Cardiff School of Computer Science, Cardiff University, UK",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0098300408002604-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                40.81890106201172,
+                203.2677459716797,
+                214.64157104492188,
+                246.84713745117188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4758f22ec024049330d8d29b643422ba",
+        "text": "a r t i c l e i n f o",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0098300408002604-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                40.81890106201172,
+                268.97412109375,
+                130.79110717773438,
+                278.117919921875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "554a4bb04de8265fb48303a0bf3adb25",
+        "text": "a b s t r a c t",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0098300408002604-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                205.22830200195312,
+                268.97412109375,
+                269.1348876953125,
+                278.117919921875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "613804543e4191f1782252c9640a3f64",
+        "text": "Semantics, ontologies and eScience are key areas of research that aim to deal with the\ngrowing volume, number of sources and heterogeneity of geoscience data, information\nand knowledge. Following a workshop held at the eScience Institute in Edinburgh on the\n7–9th of March 2008, this paper discusses some of the signiﬁcant research topics and\nchallenges for enhancing geospatial computing using semantic and grid technologies.\n& 2008 Elsevier Ltd. All rights reserved.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0098300408002604-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                205.22830200195312,
+                292.5407409667969,
+                507.0976257324219,
+                347.6480712890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "734711dd452be4b259cf81857f9b532b",
+        "text": "Article history:\nReceived 18 April 2007\nReceived in revised form\n7 January 2008\nAccepted 28 March 2008",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0098300408002604-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                40.81890106201172,
+                292.6724548339844,
+                117.92382049560547,
+                333.4730529785156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1eed7dd60cf98b2538e703d1ad1990c6",
+        "text": "Keywords:\nGeosemantic\nGrid\neScience\nOntologies\nGeoSciML\nGeoscience\nGeoinformatics",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0098300408002604-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                40.81890106201172,
+                348.6275939941406,
+                87.54615783691406,
+                415.1094665527344
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a56a1bdb484d6d22ad6cee00d72190bd",
+        "text": "1. Introduction",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0098300408002604-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                40.81890106201172,
+                455.24212646484375,
+                102.36958312988281,
+                463.2123107910156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "94901c7708481fe056b06c3ee77c2e3e",
+        "text": "Semantics, ontologies and eScience have increasing\ncurrency in our present climate of data deluge, informa-\ntion overload, and widely distributed knowledge sources.\nGeo-anything also seems to be the ﬂavor of the month\nfollowing technological advances such as the proliferation\nof\nmash-ups,\nthe\nrise\nof\ngeography\nin\nthe\npublic\nconsciousness, and real world problems such as the\nrecognition of the need for global science to deal with\nenvironmental problems of global consequence. Bringing\nthese ﬁelds together, the European Geoinformatics work-\nshop was run to share the latest research in representing\nand using semantics and ontologies for eScience in the",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0098300408002604-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                40.818702697753906,
+                477.0576171875,
+                262.0377197265625,
+                600.2704467773438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "83d501e40238e0b2dd3a7ea8d93f79dd",
+        "text": "\u0002 Corresponding author.\nE-mail addresses: femkereitsma@gmail.com (F. Reitsma),\njll@bgs.ac.uk (J. Laxton), stuart@niees.ac.uk (S. Ballard),\nkuhn@uni-muenster.de (W. Kuhn),\na.i.abdelmoty@cs.cf.ac.uk (A. Abdelmoty).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0098300408002604-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                40.81878662109375,
+                623.4188842773438,
+                225.3983612060547,
+                666.997314453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "918b5e4a2af409b461216012a82b73c6",
+        "text": "0098-3004/$ - see front matter & 2008 Elsevier Ltd. All rights reserved.\ndoi:10.1016/j.cageo.2008.03.014",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0098300408002604-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                40.81890106201172,
+                676.049072265625,
+                259.99737548828125,
+                692.1129150390625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "97ded04f0576f79126cd5069c345ead8",
+        "text": "Geosciences, supporting the crosspollination of ideas\nfrom at least two different communities and encouraging\nfuture collaborative research.\nWhat follows are some signiﬁcant current topics,\nchallenges and research directions regarding enhanced\ngeospatial computing involving semantic and grid tech-\nnologies, which arose from a workshop held at the\neScience Institute (eSI) in Edinburgh from the 7th to 9th\nof March called the European Geoinformatics workshop.1",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0098300408002604-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                285.90277099609375,
+                455.11566162109375,
+                507.1533203125,
+                546.921142578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9490be411427d7eb5cd07efe3b042f2d",
+        "text": "The workshop brought together geoinformatics research-\ners, geoscience data providers, semantic web researchers\nand software developers, and covered topics of geoscience\nontologies\nand\nlanguage,\nshared\ngeoscience\ndata\nmodels and developments in the semantic web and GRID\ntechnologies\nrelevant\nto\ngeoscience.\nIt\nwas\nrun\nin",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0098300408002604-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                285.9023132324219,
+                549.284423828125,
+                507.116455078125,
+                609.6825561523438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "77e4f944deaa261b368d197dc035ca0a",
+        "text": "1 For all referenced presentations and material from the workshop,\nplease see http://www.nesc.ac.uk/action/esi/contribution.cfm?Title=712\nand the theme events at http://wiki.esi.ac.uk/Spatial_Semantics_for_\nAutomating_Geographic_Information_Processes.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0098300408002604-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                285.90252685546875,
+                631.9794921875,
+                507.0989074707031,
+                666.9974975585938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7d7b1e3fd5b40c4478ee2ebb55206da4",
+        "text": "conjunction with an eSI theme called ‘‘Spatial Semantics\nfor\nAutomating\nGeographic\nInformation\nProcesses’’,2",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0098300408002604-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                36.850399017333984,
+                56.62311553955078,
+                258.0196838378906,
+                75.23902893066406
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "35a56986ee6d9e2d70ed33da868da2f1",
+        "text": "which involves research, a series of events and collabora-\ntion through a visitor programme.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0098300408002604-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                36.850399017333984,
+                77.54285430908203,
+                258.098388671875,
+                96.15876770019531
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f849383bb9c65a988e0d39fb737ccef4",
+        "text": "2. Challenges",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0098300408002604-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                36.850399017333984,
+                111.45643615722656,
+                90.84532928466797,
+                119.4266357421875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5980dde1bc9eccf8ab4da34bebb90e1c",
+        "text": "There are a number of challenges that are critical to the\ndevelopment and use of eScience applications for the\nGeosciences that utilise the semantics of information.\nThese challenges include the need to identify appropriate\nstandards and languages for formalising semantics, the\nlimitations of ontologies for representing the meaning,\nGrid challenges and top down versus bottom-up devel-\nopment of geosemantic standards and applications.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0098300408002604-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                36.85020446777344,
+                133.2719268798828,
+                258.0815734863281,
+                214.58937072753906
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "911a9d3f24e70e9ef244716b6dce10c9",
+        "text": "2.1. Semantic agreement",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0098300408002604-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                36.85020446777344,
+                229.8189239501953,
+                129.24630737304688,
+                237.9468536376953
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0a7c88473207172479dfce53eaf8a746",
+        "text": "One of the main drivers of research in this area is the\nincreased expectation of users of geoscience data to be\nable to access the data they require digitally and in a\nstandard form from different suppliers, including legacy\ndata. This requires not only the adoption of geoscience\ndata exchange standards but also semantic interoperabil-\nity,\nreasoning\nacross\nheterogeneous\ndeﬁnitions\nof\ngeoscience concepts in order to achieve semantic integra-\ntion across disciplines.\nGeospatial data and geoscientiﬁc research standards\nare needed to support geosemantic interoperability. There\nare levels of interoperability from a basic interchange\nbetween software applications, to the exchange of data\nand concepts, to a high level of interoperability that\ninvolves automated\ndiscovery and\nuse of\ngeospatial\nresources. Geosemantic standards need to be able to\nhandle things such as dynamic geometric representations,\ndiscrete and continuous data, spatio-temporal things and\nprocesses. Ideas for how this might be accomplished may\ninvolve semantic languages such as OWL and extensions\nsuch as SWRL and SWSL, building on the work done on\nexisting relevant ontologies such as the GEON project.3",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0098300408002604-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                36.85020446777344,
+                251.75929260253906,
+                258.13134765625,
+                479.5689392089844
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ea7b9f15048a6d4246aadd4c6896b8c6",
+        "text": "In Europe, the INSPIRE initiative is acting as a driver for\nstandardisation of data structures for data exchange and\ninteroperability, such as the use of ISO/OGC standards to\nenable the interoperability of both marine and earthquake\ndata. Similar standards-based interoperability initiatives\nare\ntaking\nplace\nin\nUSA,\nwith\nthe\ncoordination\nof\ngeoinformatics efforts between USGS and state geological\nsurveys, and in Australia with the AuScope program\naiming\nto\nintegrate\na wide\nrange\nof\nearth\nscience\ninformation. Globally, the GeoSciML initiative is develop-\ning an internationally agreed geoscience data exchange\nformat, underpinned by an agreed conceptual data model.\nWhile this conceptual data model involves developing\nagreed geoscience concept deﬁnitions, the semantics of\nthese deﬁnitions are not yet being formalised, as is the\ncase with the majority of other efforts. However, the\nobjective is that the work will lead to the development of",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0098300408002604-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                36.85020446777344,
+                481.87652587890625,
+                258.1156311035156,
+                657.3595581054688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ce729d32173577204ea3e043e1ce50c7",
+        "text": "2 http://www.nesc.ac.uk/esi/themes/theme_04/index.htm.\n3 http://www.geongrid.org/.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0098300408002604-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.812599182128906,
+                674.2156982421875,
+                227.6193084716797,
+                692.1130981445312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ff43392348ee623c84772c0f551e63fa",
+        "text": "formal ontologies, which both handle the relationships\nbetween concepts and also the relationships between the\n‘same’ concepts deﬁned by different agencies in slightly\ndiffering ways.\nThe\ndevelopment\nof\nGeoSciML\nis\nleading\nto the\nestablishment of an internationally agreed structure for\nthe exchange of geoscience data. However, in order to\nachieve useful data exchange, the concept deﬁnitions\n(ontology) that underpin the data also need to be\nharmonised. A GeoSciML concept deﬁnitions working\ngroup has been set up for this purpose, their ﬁrst step\nbeing the issue of a widespread call for existing concept\ndeﬁnitions, which will be collated. Subsequent work will\nlook at the relationship between concept deﬁnitions,\nincluding partially overlapping deﬁnitions. The aim is to\nenable mapping from concept deﬁnitions in existing data\nsets to the commonly agreed deﬁnitions, which will be\nmade available in different languages.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0098300408002604-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                281.93426513671875,
+                56.61859893798828,
+                503.2030334472656,
+                242.58949279785156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8d439c2da3f6c4eec9e107cc821c3e25",
+        "text": "2.2. The limitations of ontologies and reasoning",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0098300408002604-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                281.93426513671875,
+                259.6330261230469,
+                459.48626708984375,
+                267.760986328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "25847586e49c0b3dc4b9af9d0b998686",
+        "text": "Geoscience ontologies as a basis for ‘smart’ data\ndiscovery and use are seen as a solution to semantic\ninteroperability. The GEON project, for example, has\ndeveloped methods for ontology-based discovery, integra-\ntion and analysis of geoscience data. A further example is\nNASA’s move from an instrument based to a measure-\nment-based data structure, with a view to integrating data\nfrom different disciplines to assess, for example, the\nclimatic impact of volcanic eruptions. But ontologies have\nlimitations. Ontologies are more concerned with ‘what’\nthan ‘why’ or ‘how’, limiting the questions they can\naddress.\nFurthermore,\nontologies\nare\ntypically\nstatic.\nOntologies could develop through usage and context with\nevolving concepts.\nWithin qualitative spatial reasoning research much\nwork has been done on qualitative spatial representation,\nbut relatively little on world views and the incorporation\nof context into reasoning. While the end user mixes\nquantitative and qualitative reasoning within a certain\ncontext, the challenge arises about whether we can\nunderstand and represent context abstractly in a useable\nway. A shift in focus is needed that moves from research\non pure qualitative reasoning to that within a disciplinary\nor application context, where application areas such\nas way ﬁnding research are taking the lead. We also\nneed appropriate languages to be able to represent\nvagueness related to qualitative reasoning, as well as use\ncases and benchmarks against which to test these, such as\nspatial decision support applications used in emergency\nplanning.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0098300408002604-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                281.93426513671875,
+                281.5733947753906,
+                503.187255859375,
+                593.0606079101562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b6ebff93db3959b0581a43af646742bf",
+        "text": "2.3. Grid technologies for geoscience",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0098300408002604-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                281.93426513671875,
+                610.1041870117188,
+                418.0555114746094,
+                618.2321166992188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "10775f257e895377fc7c5da5c2831b8c",
+        "text": "Currently a range of grid technologies are being used to\novercome issues related to working collaboratively across\nmultiple institutes to fulﬁl either data sharing or compu-\ntational requirements. Grid technologies hide the compu-\ntational complexity from scientists, allowing them to\nfocus on new and exciting research. For example, Grid",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0098300408002604-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                281.93426513671875,
+                631.9879760742188,
+                503.20050048828125,
+                692.442626953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f9404c092318a3a6cf3b48879ba38793",
+        "text": "technologies could support the combination of simulation\ncodes and data sets from different institutes, and the rapid\nmodelling of a variety of situations to produce predictions.\nDepending on the user’s requirements, they can carry on\nas normal with either command line interfaces and/or\nportals.\nThe vision and challenge of grid technologies is to\nseamlessly harness the power of geographically distrib-\nuted and controlled heterogeneous computational re-\nsources and data, without having any control over those\nresources and without dedicated computer ofﬁcer sup-\nport. Realising this vision would redeﬁne ‘cutting edge\nscientiﬁc research’.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0098300408002604-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                40.81890106201172,
+                56.62311553955078,
+                262.0868225097656,
+                190.2672882080078
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d2666fcc7beba221ec811f7aadf5de90",
+        "text": "2.4. Small ‘‘g’’ versus big ‘‘G’’ geosemantics",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0098300408002604-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                40.81890106201172,
+                208.8985137939453,
+                200.5382843017578,
+                217.0264434814453
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5a952c17bc1cad34df8d7a37e2396d27",
+        "text": "Within the Semantic Web community, an early interest\nin geospatial semantics resulted in a basic RDF vocabulary\nthat provides a namespace for representing latitude\n(/geo:latS),\nlongitude\n(/geo:longS)\nand\naltitude\n(/geo:altS) as properties of points (/geo:PointS) using\nWGS84 as a reference datum.4 This minimalist ontology\nprovides very little in the way of geospatial semantics and\nyet has been widely used in applications such as Flickr,\ngiving us ‘‘small s’’ semantics through tagging and the\napplication of microformats for ‘‘small g’’ geosemantics\nthat\nlargely\ninvolves\ngeotagging\nthings.\nThe\nonline\ngazetteer geonames5 provides another example of expres-\nsing the semantics of geospatial information. Within\ngeonames,\nrelationships\nexpressed\nin\nOWL\ndeﬁning\nspatial containment (ChildFeature, ParentFeature), and\nneighbourhood relations (NeighbouringFeatures, Nearby-\nFeatures), are generated on demand from an underlying\ndatabase that does the relevant spatial reasoning.\nThe developments around what is called the ‘‘Web\n2.0’’, i.e. the transition of users of the web (and semantic\nweb) into information providers, deeply affects standar-\ndisation in the geospatial area. Traditional geospatial\nstandards have been designed with a view of geospatial\ninformation coming ‘‘down’’ to users from agencies (such\nas national mapping agencies) or large enterprises (such\nas navigation data providers). Suddenly, geospatial in-\nformation pops up in wikis and mash-ups all over the\ninternet, often provided by users rather than authorities.\nThe\nchallenges\nposed\nby\nthis\n‘‘bottom-up’’\nkind\nof\ninformation include: (1) trading off of simplicity and\nsecurity; (2) designing different kinds of metadata; (3)\ncoping with legal implications and justiﬁcation processes;\n(4) transforming the role of agencies as information\nproviders; and (5) developing measures of quality based\non trust. Addressing these challenges will require coping\nwith an explosion of small standards, making information\nsources more transparent, tracking identities of providers,\nlowering entry barriers, adapting trust and reputation\nmodels from other domains, and providing simple but\nuseful geospatial processing services. A ﬁrst step in\nsupporting the transition will be to come up with different",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0098300408002604-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                40.818084716796875,
+                230.83888244628906,
+                262.0671081542969,
+                657.3575439453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2860f94d314aac36815873bd1194eb6a",
+        "text": "4 http://www.w3.org/2003/01/geo/.\n5 http://www.geonames.org/.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0098300408002604-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                52.78110122680664,
+                674.2156982421875,
+                162.7057342529297,
+                692.1130981445312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6af3e27fda3a56f2921dd9d1c6a8b936",
+        "text": "types of applications, organised along reliability, trust-\nworthiness, and other axes.\nIn contrast, ‘‘big G’’ Geosemantics involves the repre-\nsentation of spatial and spatio-temporal theories, rela-\ntionships, mediations and transformations in order to\nenhance interoperability, as have partly been developed\nand used in research on geographic information retrieval.\nBut such semantics have yet to be expressed and used in\nan appropriate language or formalised in a standard, such\nas OGC or W3C standards. There exist many standards for\ngeospatial interoperability, which standardise the voca-\nbulary or syntax, but not the meaning of concepts and\nterms. In order to develop a Geospatial Semantic Web, we\nneed standards for ontologies, reasoning, discovery and\nservices, to push us up the hierarchy of interoperability\nfrom systems and schema-level interoperation to seman-\ntic interoperation.\nSome of the key challenges in representing and\nutilising spatial and spatio-temporal semantics are found\nin the languages, we have to express those semantics,\nparticularly in providing calculi which allow a machine to\nrepresent and reason qualitatively with spatial entities of\nhigher dimension, without resorting to traditional quan-\ntitative techniques. We do not yet have appropriate calculi\nthat encompass the expression of spatio-temporal primi-\ntives and their spatio-temporal properties and relation-\nships. Nor are current languages for expressing non-\nspatial concepts always appropriate (such as OWL), as has\nbeen evident in research at the ordnance survey for\ndeveloping a new language, Rabbit, a controlled natural\nlanguage (English) for ontology authoring.\nDespite the fundamental limits of languages to express\nand reason with spatial and spatio-temporal objects and\ntheir relations, work with ‘‘small g’’ geosemantics are\nforging ahead utilising collective knowledge to develop\nemergent knowledge systems from structured data. Such\ncollective knowledge systems are typically a mix of\nstructured, machine-readable data and unstructured data\nderived from human input. A future vision is that\ngeospatial data can provide a backbone for cobbling\ntogether different types of data and services. Geoseman-\ntics would then enable the meaningful cobbling of data\nand services, bringing spatial data to a social web context.\nBut there is some scepticism about whether collectively\ndeveloped ontologies will be useful in a scientiﬁc context,\nand a recognition that we need to capture things in an\nontology that our current languages cannot express, such\nas process behaviour, spatial/temporal characteristics and\ndata and process relationships. Such future developments\nin ontologies would better support large scale scientiﬁc\ncomputing on the Grid, which is another crucial compo-\nnent of a future vision of eScience for geosemantics.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0098300408002604-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                285.90313720703125,
+                56.61658477783203,
+                507.1692199707031,
+                598.2168579101562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f3cb298acebfd4f2f2848afceffd7208",
+        "text": "3. Brainstorming, a research agenda",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0098300408002604-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                285.9023132324219,
+                620.6719970703125,
+                429.131591796875,
+                628.6422119140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "153b3f2731696d3ebf5bdf78d36fab72",
+        "text": "A central theme that was highlighted at the workshop\nwas the need for semantically rich registries that support\ndiscovery and use of georesources such as models, data\nand knowledge. New ways of representing these geor-\nesources are needed that handle different notions of time",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0098300408002604-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                285.902099609375,
+                642.487548828125,
+                507.0888366699219,
+                692.4542236328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6dc45859853a98b92c3a26a05cc0ac3c",
+        "text": "and space as well as processes. And research needs to be\nundertaken to clearly deﬁne the semantics we need for\ngeoscience research, beyond the limitations of current\nontology languages, and to consider appropriate lan-\nguages for geoscientiﬁc reasoning.\nAs another key item for a research agenda, it is critical\nthat\nwe\nﬁnd\na\nway\nto\nbridging\nthe\ngap\nbetween\ncommunity-developed knowledge systems for creating\ngeoresources, such as those formed through geotagging\nand microformats, and standards driven approaches, such\nas OGC/ISO supported methods.\nFor these georesources, digital rights management or\ngeorights are critical for supporting their appropriate use\nand for providing trust in their validity and usefulness.\nNotions of trust are necessary for utilising georesources\nbased on provenance and lineage information in order to\nautomate scientiﬁc processes. From the perspective of\ncommercial and government sectors, there is also interest",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0098300408002604-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                36.850399017333984,
+                56.62311553955078,
+                258.11663818359375,
+                242.59400939941406
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "dc2e7a745a95ef5dd041168b74983ceb",
+        "text": "in how we distribute and fund the use of georesources.\nClearly, we need new business models to cope with the\nchanges in resource creation and use.\nAnd ﬁnally, in supporting the development of research\nin\nthis\nﬁeld,\nuse\ncases\nand\ndata\nsets\nare\nneeded.\nMore speciﬁcally, geoscience uses cases that clearly\npresent the challenges of expressing and utilising seman-\ntics, ontologies and eScience for the GeoSciences are\nneeded to help communicate the problem to computer\nscientists and other researchers developing languages\nand tools for representing and using the semantics of\ninformation.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0098300408002604-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                281.9344787597656,
+                56.61981964111328,
+                503.19818115234375,
+                179.8325958251953
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5985034f650920cf88c8fcc502a4a59c",
+        "text": "Acknowledgement",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0098300408002604-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                281.9344787597656,
+                202.0918731689453,
+                356.7674865722656,
+                210.2198028564453
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9e3e117980c05c8915d5b6f52a0e8063",
+        "text": "Thanks to the eScience Institute for their support of the\nworkshop and theme. ohttp://www.nesc.ac.uk/esi/4.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0098300408002604-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                281.9344787597656,
+                223.9756622314453,
+                503.0979919433594,
+                243.46534729003906
+            ],
+            "is_full_width": false
+        }
+    }
+]

@@ -1,0 +1,4125 @@
+[
+    {
+        "element_id": "0839d2754bd5f61596e2e490cc3ae52b",
+        "text": "Contents lists available at ScienceDirect",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                228.16700744628906,
+                62.67008972167969,
+                368.5763244628906,
+                70.64019012451172
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4a984d2f20cc1b7f7ee6dc0865526bfb",
+        "text": "Signal Processing: Image Communication",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                170.8560028076172,
+                86.38638305664062,
+                425.8897399902344,
+                100.3340835571289
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c6bb6f42f08b2c58a3f5f2e188fd2830",
+        "text": "journal homepage: www.elsevier.com/locate/image",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                201.37899780273438,
+                117.26624298095703,
+                395.35528564453125,
+                125.23634338378906
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "097188b655d394027af80eda4c46a1e5",
+        "text": "A Haar wavelet-based perceptual similarity index for image quality\nassessment",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                36.88999938964844,
+                164.7952117919922,
+                437.7822570800781,
+                195.4808349609375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cc6f7ebd6d03d6ad17865f356245559a",
+        "text": "Rafael Reisenhofer a,*, Sebastian Bosse b, Gitta Kutyniok c, Thomas Wiegand b,d",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.3380012512207,
+                201.977294921875,
+                404.94061279296875,
+                213.93418884277344
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d27fbd20b1eef944aa7b064b0f956961",
+        "text": "a Working Group Computational Data Analysis, Universität Bremen, Fachbereich 3, Postfach 330440, 28334 Bremen, Germany\nb Fraunhofer Heinrich Hertz Institute (Fraunhofer HHI), 10587 Berlin, Germany\nc Department of Mathematics, Technische Universität Berlin, 10623 Berlin, Germany\nd Image Communication Laboratory, Berlin Institute of Technology, 10587 Berlin, Germany",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.3380126953125,
+                216.7542266845703,
+                378.7908630371094,
+                251.06629943847656
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4efb08bdfd38e75133d6c51540e27a2b",
+        "text": "a b s t r a c t",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                201.99700927734375,
+                273.5865478515625,
+                267.7566223144531,
+                282.5529479980469
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4ea0cc0d346ca55ca0e07b22e3354a27",
+        "text": "a r t i c l e\ni n f o",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.58700180053711,
+                273.5865783691406,
+                132.236328125,
+                282.552978515625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a7e778b1cd5e0b29d2b09f96abc91430",
+        "text": "In most practical situations, the compression or transmission of images and videos creates distortions that\nwill eventually be perceived by a human observer. Vice versa, image and video restoration techniques, such\nas inpainting or denoising, aim to enhance the quality of experience of human viewers. Correctly assessing\nthe similarity between an image and an undistorted reference image as subjectively experienced by a human\nviewer can thus lead to significant improvements in any transmission, compression, or restoration system. This\npaper introduces the Haar wavelet-based perceptual similarity index (HaarPSI), a novel and computationally\ninexpensive similarity measure for full reference image quality assessment. The HaarPSI utilizes the coefficients\nobtained from a Haar wavelet decomposition to assess local similarities between two images, as well as the\nrelative importance of image areas. The consistency of the HaarPSI with the human quality of experience was\nvalidated on four large benchmark databases containing thousands of differently distorted images. On these\ndatabases, the HaarPSI achieves higher correlations with human opinion scores than state-of-the-art full reference\nsimilarity measures like the structural similarity index (SSIM), the feature similarity index (FSIM), and the visual\nsaliency-based index (VSI). Along with the simple computational structure and the short execution time, these\nexperimental results suggest a high applicability of the HaarPSI in real world tasks.\n© 2017 Elsevier B.V. All rights reserved.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                201.9969940185547,
+                296.656982421875,
+                556.3484497070312,
+                437.72802734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b44675c3ae3dd64c0d987fffcf43f09f",
+        "text": "Keywords:\nImage quality\nPerceptual similarity\nHaar wavelets\nHuman visual system",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.58700180053711,
+                297.1751403808594,
+                97.74551391601562,
+                337.8309326171875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8518af703bb12f9bf48f9a9452ffda0f",
+        "text": "1. Introduction",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.58700180053711,
+                478.38958740234375,
+                96.78890991210938,
+                486.35968017578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c8a675a8842735f2bd48a89497d9beab",
+        "text": "Digital images and videos are omnipresent in daily life and the\nimportance of visual data is still growing: According to [1], by 2020,\nnearly a million minutes of video content is estimated to cross the\ninternet every second.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.58700180053711,
+                498.79010009765625,
+                288.6929626464844,
+                537.6412353515625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4f16aab8d44b6580e52362246fc3c66e",
+        "text": "Typically, video and image signals are intended to be ultimately\nviewed by humans. For transmission or storage, most signals are\ncompressed in order to meet today’s channel and/or storage demands.\nCompression as well as transmission errors can introduce distortions to\nvideo or image signals that are visible to human viewers. For evaluating\nor optimizing a transmission system or parts of it, e.g. by controlling\nthe rate–distortion trade-off of a video encoder, it is crucial to measure\nthe severity of distortions in a perceptually meaningful way. Quality\n’in a perceptually meaningful way’ can only be measured reliably in\npsychometric tests. In such tests, participants are asked to rate the\nsubjectively perceived quality of images or videos that have previously",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.58700180053711,
+                539.9641723632812,
+                288.6858825683594,
+                650.8692626953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1867dd84fb555f37da173cd9379be105",
+        "text": "* Corresponding author.\nE-mail addresses: reisenhofer@math.uni-bremen.de (R. Reisenhofer), sebastian.bosse@hhi.fraunhofer.de (S. Bosse), kutyniok@math.tu-berlin.de (G. Kutyniok),\nthomas.wiegand@hhi.fraunhofer.de (T. Wiegand).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.586997985839844,
+                665.671875,
+                498.2109069824219,
+                691.1759643554688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1cce3d99b8a59af5e5c109fd99037cdc",
+        "text": "https://doi.org/10.1016/j.image.2017.11.001\nReceived 8 May 2017; Received in revised form 6 November 2017; Accepted 6 November 2017\nAvailable online 13 November 2017\n0923-5965/© 2017 Elsevier B.V. All rights reserved.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.587005615234375,
+                703.2308349609375,
+                307.417236328125,
+                735.3109130859375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "213f65ffdddbdaf798b6584b3a024f1d",
+        "text": "been subject to some kind of distortion introducing processing. The\nquality ratings of individual participants can eventually be averaged to\nobtain a single mean opinion score (MOS) for each stimulus. However,\nalthough being the gold standard for assessing perceived quality such\nstudies are expensive and time-consuming and not feasible at all for real-\ntime tasks like optimizing or monitoring transmission systems. This has\nbeen motivating research in computational image quality assessment for\ndecades.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.60400390625,
+                478.3701171875,
+                557.718017578125,
+                562.3351440429688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "32c881a24695647d539928d84112aaa8",
+        "text": "Image quality assessment methods typically belong to one of three\ncategories with different challenges and scopes of applications: Full\nreference (FR) image quality assessment approaches require and utilize\nthe availability of a reference image. Reduced reference (RR) methods\nexploit a small set of features extracted from the reference image. No\nreference (NR) approaches estimate the perceived quality of a possibly\ndistorted image solely from the image itself [2]. Unconstrained NR IQA\nhas the notion of being the holy grail of IQA and, when successful,",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.60400390625,
+                565.2210693359375,
+                557.7017822265625,
+                649.1851806640625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d2d630142bd1f60e49effddaa934377c",
+        "text": "essentially replicates human abilities. It is, however, not a feasible\napproach for some applications such as, for example, encoder control\nfor video compression. An NR quality metric used for rate–distortion\noptimization in a video encoder would steer the optimization towards\ncoding decisions that remove any type of noise or artifacts. However,\nthere are videos in which noise and artifacts were intentionally added\nto create a certain visual effect. As an example, the reader is invited\nto imagine a video encoder that removes film grain from the Quentin\nTarantino movie The Hateful Eight due to the application of an NR\nquality metric that penalizes ’’noisy’’ coding decisions. Such an encoder\nwould change a deliberate artistic decision made by the filmmakers and\nthus deteriorate the viewing experience.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.587005615234375,
+                55.17411804199219,
+                288.6850280761719,
+                176.66429138183594
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "60537d3c603a9d001677c4d812ed9902",
+        "text": "The simplest FR image quality metric is the mean squared error\n(MSE), which is defined as the average of the squared differences of the\nreference and the distorted image. Although being widely used, it does\nnot correlate well with perceived visual quality [3]. More sophisticated\napproaches towards perceptually accurate image quality assessments\n(IQA) typically follow one of three strategies. Bottom-up approaches\nexplicitly model various processing mechanisms of the human visual\nsystem (HVS), such as masking effects [4], contrast sensitivity [5], or\njust-noticeable-distortion [6,7] in order to assess the perceived quality\nof images. For instance, the adaptivity of the HVS to the magnitude of\ndistortions is modeled explicitly by the concept of most apparent distor-\ntion (MAD) [8] in order to apply two different assessment strategies for\nsupra- and near-threshold distortions.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.587005615234375,
+                179.0142059326172,
+                288.6929626464844,
+                310.82537841796875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "97e64acee3e982b49cc37be407bf76ce",
+        "text": "However, the method proposed in this paper as well as most image\nquality metrics developed recently follow a top-down approach. There,\ngeneral functional properties of the HVS (considered as a black box) are\nassumed in order to identify and to exploit image features correspond-\ning to the perceived quality. Prominent examples are the structural\nsimilarity index (SSIM) [9], visual information fidelity (VIF) [10], the\ngradient similarity measure (GSM) [11], spectral residual based simi-\nlarity (SR-SIM) [12], and the visual saliency-induced index (VSI) [13].\nThe SSIM [9] aims at taking into account the sensitivity of the human\nvisual system towards structural information. This is done by pooling\nthree complementary components, namely luminance similarity (com-\nparing local mean luminance values), contrast similarity (comparing\nlocal variances) and structural similarity, which is defined as the local\ncovariance between the reference image and its perturbed counterpart.\nAlthough being criticized [14], it is highly cited and among the most\npopular image quality assessment metrics. The SSIM was generalized\nfor a multi-scale setting by the multi-scale structural similarity index\n(MS-SSIM) [15]. One of the first information theoretic approaches to FR\nIQA was presented as visual information fidelity (VIF) [10]. VIF models\nthe wavelet coefficients as Gaussian Scale Mixtures and quantifies\nthe mutual information shared between reference and test images.\nThe information theoretic measure of mutual information is shown\nto be correlated to perceived image quality. Changes in contrast and\nstructure are captured by considering local gradients in [11], while the\nsquared difference in pixel values between the reference image and the\ndistorted image is used to measure luminance variations. This approach\nthus follows the basic framework of combining complementary feature\nmaps originally introduced in [9]. Additionally, masking effects are\nestimated, based on the local gradient magnitude of the reference image\nand incorporated when the two feature maps are combined. Spectral\nresidual-based similarity (SR-SIM) [12] takes into account changes in\nthe local horizontal and vertical gradient magnitudes. Additionally,\nit incorporates changes in a spectral residual-based visual saliency\nestimate. The visual saliency-induced index (VSI) [13] follows the same\nline as SR-SIM by combining similarities in the gradient magnitude\nand the visual saliency. However, it further exploits the visual saliency\nmap for weighting the spatial similarity pooling. Furthermore, [13] also\nexplores the influence of different saliency models on the performance of\nthe proposed image quality measure. A combination of two feature maps\nis also applied successfully by the feature similarity index (FSIM) [16].\nDue to its conceptual similarity to the proposed method, it will be\ndiscussed in more detail in a later section.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.587005615234375,
+                313.17529296875,
+                288.7009582519531,
+                744.2676391601562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7fc65c92eaeb94ce445d411bee933e09",
+        "text": "Adopting the advances in machine learning and data science, IQA\nmethods following a third, purely data driven strategy have been pro-\nposed recently. So far, data driven approaches were mainly developed\nfor the domain of NR IQA [17–20], but they have also been adapted in\nthe context of FR IQA [21].",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.6040344238281,
+                55.17454528808594,
+                557.7018432617188,
+                104.78868865966797
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7321d93454f3cb694f5f4a0d935489b6",
+        "text": "1.1. Contributions",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.6040344238281,
+                117.53072357177734,
+                368.5237121582031,
+                125.50082397460938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "dd54aafffbf8f3e1af5d8da3d9e7c39e",
+        "text": "This work introduces the Haar wavelet-based perceptual similarity\nindex (HaarPSI), a novel and computationally inexpensive measure\nyielding FR image quality assessments. The HaarPSI utilizes the mag-\nnitudes of high-frequency Haar wavelet coefficients to define local\nsimilarities and low-frequency Haar wavelet coefficients to weight the\nimportance of (dis)similarities at specific locations in the image domain.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.6040344238281,
+                138.31358337402344,
+                557.7020874023438,
+                198.33970642089844
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4b1a05f6aaa719976c3246c64cc65973",
+        "text": "The six discrete two-dimensional Haar wavelet filters used in the\ndefinition of the HaarPSI respond to horizontal and vertical edges on\ndifferent frequency scales. The HaarPSI is thus based on elementary\nimplementations of functional properties known to be exhibited by\nneurons in the primary visual cortex, namely orientation selectivity and\nspatial frequency selectivity. We aim to demonstrate that such a simple\nmodel already suffices to define a similarity measure that yields state-\nof-the-art correlations with human opinion scores.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.6040344238281,
+                200.78062438964844,
+                557.7099609375,
+                281.6278076171875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0ba913f30cb52ce80b88c424dd0f0c75",
+        "text": "The HaarPSI can also be seen as a drastic simplification of the\nFSIM [16], which is based on a similar combination of similarity and\nweight maps. In the definition of the FSIM, both local similarities and\nweights rely on the phase congruency measure [22], whose computation\nrequires images to be convolved with 16 complex-valued filters and\ncontains several non-trivial steps such as adaptive thresholding. For\nthe HaarPSI on the other hand, the two maps are computed from\nthe responses of only six discrete Haar wavelet filters and are cleanly\nseparated in the sense that local similarities and weights are based on\ndifferent frequency scales. Surprisingly, these simplifications not only\ndecrease the required computational effort but also lead to consistently\nhigher correlations with human mean opinions scores.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.6040344238281,
+                284.0687255859375,
+                557.7099609375,
+                406.5609130859375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "814cad73cd4baff534d067c992abc23e",
+        "text": "In Section 3, we evaluate the consistency of the HaarPSI with the\nhuman quality of experience and compare its performance to state-of-\nthe-art similarity measures like SSIM [9], FSIM [16], and VSI [13]. As\ndepicted in Tables 1 and 2, the HaarPSI achieves higher correlations\nwith human opinion scores than all other considered FR quality metrics\nin all test cases except one, where it only comes second to the VSI.\nIn addition, the HaarPSI can be computed significantly faster than the\nmetrics yielding the second and third highest correlations with human\nopinion scores, namely VSI and FSIM. In order to facilitate reproducible\nresearch, our Matlab implement of the HaarPSI is publicly available at\nhttp://www.haarpsi.org/.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.6040344238281,
+                409.0018310546875,
+                557.7021484375,
+                521.0830078125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "62742013b2910c5d56ae6d456c021cfb",
+        "text": "It is both convenient and surprising that the promising experimental\nresults of the HaarPSI are based on the responses of Haar filters, which\nare arguably the simplest and computationally most efficient wavelet\nfilters existing. The results of a numerical analysis of the applicability\nof other wavelet filters in the newly proposed similarity measure can be\nfound in Table 4.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.6040344238281,
+                523.52392578125,
+                557.7021484375,
+                583.5490112304688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1aae9f8baf90ef6152c8a7c16760158b",
+        "text": "1.2. The feature similarity index (FSIM)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.6040344238281,
+                596.291015625,
+                442.3587646484375,
+                604.2611083984375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6c8fbb88260e4ef62c61fe36d0068b84",
+        "text": "The feature similarity index (FSIM) [16], proposed in 2011, is\ncurrently one of the most successful and influential FR image quality\nmetrics. The FSIM combines two feature maps derived from the phase\ncongruency measure [22] and the local gradients of the reference and\nthe distorted image to assess local similarities between two images. For\na grayscale image 𝑓∈𝓁2(Z2), the gradient map is defined by",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.6040344238281,
+                617.0739135742188,
+                557.7099609375,
+                677.0999755859375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2050d0ef6953bd1145b1580a121466b3",
+        "text": "Gf[𝑥] =\n√((𝑔hor ∗𝑓)[𝑥])2 + ((𝑔ver ∗𝑓)[𝑥])2,\n(1)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.60400390625,
+                676.84375,
+                557.6886596679688,
+                698.232177734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ce07737af9ee6d26a82f414766306b40",
+        "text": "where 𝑔hor and 𝑔ver denote horizontal and vertical gradient filters\n(e.g. Sobel or Scharr filters), and ∗denotes the two-dimensional con-\nvolution operator. The method used in the implementation of the\nFSIM to compute the phase congruency map was developed by Peter",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.6038818359375,
+                702.2741088867188,
+                557.6974487304688,
+                744.2672119140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b60663130e570330c8f4d2e89c4041f7",
+        "text": "Table 1\nSpearman rank order correlations of IQA metrics with human mean opinion scores.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                89.59701538085938,
+                51.94545364379883,
+                325.56365966796875,
+                66.87396240234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0155fed3857fc25183d6c477ffcb97d4",
+        "text": "Table 2\nMean SROCC and execution time.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                116.3030014038086,
+                266.1094665527344,
+                211.8106231689453,
+                281.0379638671875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8775bc16987946eeb9beb0337bd5017b",
+        "text": "Color Images\nGrayscale Images",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                190.80299377441406,
+                286.765869140625,
+                378.2730407714844,
+                293.1419677734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "142f77949b1ae9e6a395f89601c9c08c",
+        "text": "SROCC\nTime (ms)\nSROCC\nTime (ms)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                190.80299377441406,
+                298.64886474609375,
+                472.6902770996094,
+                305.02496337890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "650061f6b53c0d249ebae59b1aee9860",
+        "text": "HaarPSI\n0.9279\n24\n0.9093\n10\nVSI\n0.9223\n79\n0.8946\n80\nFSIM\n0.9076\n142\n0.8925\n121\nSRSIM\n0.8982\n10\n0.8982\n10\nMAD\n0.8821\n892\n0.8821\n891\nGSM\n0.8780\n8\n0.8780\n7\nMSSSIM\n0.8762\n30\n0.8762\n24\nSSIM\n0.8350\n6\n0.8350\n5\nVIF\n0.8273\n459\n0.8273\n453\nPSNR\n0.7185\n2\n0.7185\n1",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                122.8280029296875,
+                310.5308837890625,
+                454.5511169433594,
+                394.0179138183594
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9c4e45951e0e7201bc8bd71df42899a0",
+        "text": "Kovesi [23] and contains several non-trivial operations, such as adaptive\nsoft thresholding. However, in its essence, the phase congruency map of\na grayscale image 𝑓is given by",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.58700180053711,
+                415.3751220703125,
+                288.6930236816406,
+                444.6382141113281
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "487bed6069da019b385782624fae82d3",
+        "text": "PCf[𝑥] ≈\n||\n∑\n𝑛(𝑔c\n𝑛∗𝑓)[𝑥]||\n∑\n𝑛||(𝑔c\n𝑛∗𝑓)[𝑥]||\n,\n(2)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.586997985839844,
+                444.4839782714844,
+                288.6716613769531,
+                476.6246337890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ebd40057ee5b598811d3d6795c195cfe",
+        "text": "where 𝑔c\n𝑛denotes differently scaled and oriented complex-valued\nwavelet filters. The idea behind (2) is that if the obtained complex-\nvalued wavelet coefficients have the same phase at a location 𝑥, taking\nthe absolute value of the sum is the same as taking the sum of the\nabsolute values. If this is the case, PCf[𝑥] will be close to or precisely 1.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.586971282958984,
+                477.7593078613281,
+                288.677001953125,
+                531.0833740234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3137daca4e194eb37bf158f182fcac2b",
+        "text": "To assess local similarities between two images with respect to the\nmaps defined in (1) and (2), the FSIM – like many other image quality\nmetrics – uses a simple similarity measure for scalar values that already\nappeared in [9], namely",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.58698272705078,
+                532.2731323242188,
+                288.6850280761719,
+                572.1821899414062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c9877f4e49974a022771ca73d4a60394",
+        "text": "S(𝑎, 𝑏, 𝐶) =\n2𝑎𝑏+ 𝐶\n𝑎2 + 𝑏2 + 𝐶,\n(3)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                38.91598129272461,
+                579.4861450195312,
+                288.67169189453125,
+                598.453857421875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ccafc1b80f5891504358d69656c95b32",
+        "text": "with a constant 𝐶> 0. The graph of S(𝑎, 𝑏, 𝐶) for values ranging from\n0 to 100 and 𝐶= 30 is shown in Fig. 1(b). The local feature similarity\nmap for two grayscale images 𝑓1, 𝑓2 ∈𝓁2(Z2) is defined by",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.586997985839844,
+                602.6141357421875,
+                288.6730041503906,
+                634.0628662109375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d08ea69ca8435f63977372038dd9beb9",
+        "text": "FSf1,f2[𝑥] = S\n(\nGf1[𝑥], Gf2[𝑥], 𝐶1\n)𝛽\n⋅S\n(\nPCf1[𝑥], PCf2[𝑥], 𝐶2\n)𝛾\n,\n(4)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.587005615234375,
+                634.4169921875,
+                288.6717224121094,
+                655.1361694335938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3a22f0dc5cde808448ae31f0371d9a8b",
+        "text": "with constants 𝐶1, 𝐶2\n> 0 and exponents 𝛽, 𝛾\n> 0. Based on the\nassumption that the human visual system is especially sensitive towards\nstructures at which the phases of the Fourier components are in con-\ngruency (see e.g. [24]), the phase congruency map is not only used in\n(4) but also applied to determine the relative importance of different\nimage areas with respect to human perception. Eventually, the feature\nsimilarity index is computed by taking the weighted mean of all local\nfeature similarities, where the phase congruency map is used as a weight",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.5870361328125,
+                661.5521240234375,
+                288.6850891113281,
+                744.2672119140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "245c508efa74e031d8cf6f2c9610a90e",
+        "text": "function, that is",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.6040344238281,
+                415.3760986328125,
+                362.4903869628906,
+                423.3462219238281
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1e34467add639ffae5bdf01ae40ce204",
+        "text": "∑\n𝑥FSf1,f2[𝑥] ⋅PCf1,f2[𝑥]",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                349.4360046386719,
+                422.27001953125,
+                431.95111083984375,
+                439.70318603515625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "aa657a82d736bba214606e70a734d7c3",
+        "text": "∑\n𝑥PCf1,f2[𝑥]\n,\n(5)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                368.1969909667969,
+                435.51800537109375,
+                557.688720703125,
+                452.951171875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e23065de535fd630006d56267678b1d8",
+        "text": "FSIMf1,f2 =",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.6040344238281,
+                436.2847900390625,
+                346.02655029296875,
+                447.74188232421875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0763de8e154c5055c2524a96286141f6",
+        "text": "where",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.60400390625,
+                457.54010009765625,
+                328.3464050292969,
+                465.5102233886719
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fe362b89ac132b8a67a8b94e40af6f4a",
+        "text": "PCf1,f2[𝑥] = max\n(\nPCf1[𝑥], PCf2[𝑥]\n)\n.\n(6)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.60400390625,
+                465.79400634765625,
+                557.6887817382812,
+                486.5131530761719
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "89bb6e11dfd92abc5b39bebb6c31e883",
+        "text": "The original publication of the FSIM proposes a generalization to\ncolor images defined in the YIQ color space, named FSIMC. In the YIQ\nspace, the Y channel encodes luminance information, while the I and\nQ channels encode chromatic information. Color images defined in the\nRGB color space can easily be transformed to the YIQ space with a linear\nmapping, namely",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.6040954589844,
+                492.99407958984375,
+                557.6940307617188,
+                553.8081665039062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7d8c68ee5a7f7c85bb274aeb7ded3916",
+        "text": "𝑓Y",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.8561096191406,
+                559.5662841796875,
+                320.97808837890625,
+                568.9971923828125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5fb3dac5d1ae23192d5bcb68b7d7c6de",
+        "text": "𝑓R",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                436.6481018066406,
+                559.5662841796875,
+                445.9075622558594,
+                568.9971923828125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8ddaa33f330675c16d48434cae5e2ed0",
+        "text": "⎡\n⎢\n⎢⎣",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                307.9320983886719,
+                560.8439331054688,
+                311.5186462402344,
+                592.4856567382812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5ccd112dfce156976183cd0a080f5157",
+        "text": "⎤\n⎥\n⎥⎦\n≈\n⎡\n⎢\n⎢⎣",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                321.8131103515625,
+                560.8439331054688,
+                338.8736572265625,
+                592.4856567382812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "95558c696c900ffc39cfbd99b6a04128",
+        "text": "⎤\n⎥\n⎥⎦\n⋅\n⎡\n⎢\n⎢⎣",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                423.51611328125,
+                560.8439331054688,
+                436.5106506347656,
+                592.4856567382812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d3ae5b11bfb20c58cd38a10719694a26",
+        "text": "⎤\n⎥\n⎥⎦\n.\n(7)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                446.5421142578125,
+                560.8439331054688,
+                557.6888427734375,
+                592.4856567382812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f2ad9b27e8a8db7cecc6bcce06d23a8e",
+        "text": "0.299\n0.587\n0.114\n0.596\n−0.274\n−0.322\n0.211\n−0.523\n0.312",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                338.87310791015625,
+                561.067138671875,
+                423.5162658691406,
+                590.15185546875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "675be15022ee0bd62b123b34a8475919",
+        "text": "𝑓I",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                312.7411193847656,
+                570.1072998046875,
+                320.09271240234375,
+                579.5382080078125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f80afa1f369263b7a9498225361f2ca5",
+        "text": "𝑓G",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                436.5111083984375,
+                570.1072998046875,
+                446.0455322265625,
+                579.5382080078125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "39e32f17cebd036dbdba2d563512813c",
+        "text": "𝑓Q",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.51910400390625,
+                580.6482543945312,
+                321.3165588378906,
+                590.0792236328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "082079d5ebf6f6e70fee60efb70f896a",
+        "text": "𝑓B",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                436.77911376953125,
+                580.6482543945312,
+                445.77557373046875,
+                590.0792236328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ecf80a9f17b4ce51153d4b86d27b9768",
+        "text": "FSIMC simply incorporates the chroma channels I and Q into the\nlocal feature similarity measure (4). The gradient maps as well as the\nphase congruency maps are purely derived from the luminance channel\nY in FSIMC and FSIM alike.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.6041564941406,
+                597.2810668945312,
+                557.6941528320312,
+                636.9571533203125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "47f248f44bd97c1eb5185565824e50c9",
+        "text": "2. The Haar wavelet-based perceptual similarity index",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.6041564941406,
+                651.2255249023438,
+                514.3130493164062,
+                659.1956176757812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3f661651308a745327a328d6f67efdbc",
+        "text": "The basic idea of the HaarPSI is to construct feature maps in the spirit\nof (1) as well as a weight function similar to (2) by considering a single\nwavelet filterbank. The response of any high-frequency wavelet filter\nwill look similar to the response yielded by a gradient filter like the Sobel\noperator. Furthermore, the phase congruency measure used as a weight\nfunction in the FSIM is computed directly from the output of a multi-\nscale complex-valued wavelet filterbank, as illustrated by Eq. (2). This",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.6041564941406,
+                672.8840942382812,
+                557.7022705078125,
+                744.2671508789062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "03a7a9d4a05a2576c4bf4133083bf456",
+        "text": "(a) Haar wavelet filters.\n(b) 𝑆(𝑥, 𝑦, 𝐶).\n(c) 𝑙𝛼(𝑥).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                101.02999877929688,
+                160.0009002685547,
+                475.0562744140625,
+                167.55787658691406
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9c3ceed4d43e19f9a8031aa5d842856f",
+        "text": "Fig. 1. (a) The six Haar wavelet filters whose responses build the core of the HaarPSI. (b) The function 𝑆(𝑥, 𝑦, 𝐶) for 𝐶= 30. (c) The logistic function 𝑙𝛼(𝑥) for 𝛼= 4.2.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                62.60498046875,
+                184.90391540527344,
+                532.6722412109375,
+                192.4608917236328
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cadf73a5554e6457b28f34103acdf03d",
+        "text": "gives a strong intuition that it should be possible to define a similarity\nmeasure derived from the response of a single set of discrete wavelet\nfilters that at least matches the performance of the FSIM on benchmark\ndatabases but requires significantly less computational effort.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.58697509765625,
+                207.2051239013672,
+                288.67706298828125,
+                246.3811492919922
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ee6c4f7d57b1e06fcda988c87d798ea3",
+        "text": "The wavelet chosen for this endeavor is the so-called Haar wavelet,\nwhich was already proposed in 1910 by Alfred Haar [25] and is arguably\nthe simplest and computationally most efficient wavelet there is. The\none-dimensional Haar filters are given by",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.58697509765625,
+                248.8120574951172,
+                288.6769714355469,
+                287.9881286621094
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9cd91a30e4375735c263a4216a8fe302",
+        "text": "ℎ1D\n1\n=\n1\n√",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.58697509765625,
+                294.9957275390625,
+                68.97502136230469,
+                310.66363525390625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6fc63efa6cca68f263535d82e3cb0e92",
+        "text": "2\n⋅[1, 1] and 𝑔1D\n1\n=\n1\n√",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                68.68800354003906,
+                294.99578857421875,
+                145.05604553222656,
+                316.22186279296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "28037e2f3ac39cd37b92a535f8961303",
+        "text": "2\n⋅[−1, 1],\n(8)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                144.7689971923828,
+                299.42510986328125,
+                288.6716613769531,
+                316.22186279296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bfc6a2d8f644fa7ee2e5fa739fb22dbd",
+        "text": "where ℎ1D\n1\ndenotes the low-pass scaling filter and 𝑔1D\n1\nthe corresponding\nhigh-pass wavelet filter. For any scale 𝑗∈N, we can construct two-\ndimensional Haar filters by setting",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.58697509765625,
+                321.413330078125,
+                288.6859436035156,
+                351.5492248535156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2511433660449d9d528618dab9d41a6b",
+        "text": "𝑔(1)\n𝑗\n= 𝑔1D\n𝑗\n⊗ℎ1D\n𝑗,",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.58697509765625,
+                357.6083068847656,
+                97.20249938964844,
+                370.0679016113281
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a16fe6a93fadfc6b651b11f9dd18c217",
+        "text": "𝑔(2)\n𝑗\n= ℎ1D\n𝑗\n⊗𝑔1D\n𝑗,",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.58697509765625,
+                372.5592956542969,
+                97.20249938964844,
+                385.0188903808594
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a23edea40063c135167ebe1ad0ae091e",
+        "text": "where ⊗denotes the outer product and the one-dimensional filters ℎ1D\n𝑗\nand 𝑔1D\n𝑗\nare given for 𝑗> 1 by",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.58697509765625,
+                390.3813171386719,
+                288.1747741699219,
+                413.06292724609375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3cc76ff0b6e1a445a054778b1a9e8781",
+        "text": "𝑔1D\n𝑗\n= ℎ1D\n1\n∗(𝑔1D\n𝑗−1)↑2,",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.94599151611328,
+                418.4243469238281,
+                109.34251403808594,
+                430.62847900390625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9135769617c4f5aeaf80237e0c68fd11",
+        "text": "ℎ1D\n𝑗\n= ℎ1D\n1\n∗(ℎ1D\n𝑗−1)↑2,",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.58699035644531,
+                432.9743957519531,
+                110.01951599121094,
+                445.17852783203125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "df2cd57f73de54b2b7d88702bcf654aa",
+        "text": "where ↑2 is the dyadic upsampling operator, and ∗denotes the one-\ndimensional convolution operator. Note that 𝑔(1)\n𝑗\nresponds to horizontal",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.58699035644531,
+                450.87957763671875,
+                288.677978515625,
+                471.54705810546875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a0e190faf1a13c99bbf79fc35b85cece",
+        "text": "structures, while 𝑔(2)\n𝑗\npicks up vertical structures. The six Haar filters\nused to define the HaarPSI are shown in Fig. 1(a).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.586997985839844,
+                471.0484924316406,
+                288.6772766113281,
+                491.6534118652344
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "de07b42ef66a79788e4ed237332332a6",
+        "text": "The local similarity map FSf1,f2 multiplicatively combines gradient-\nbased and phase congruency-based similarities whose contributions are\nweighted by the exponents 𝛼, 𝛽> 0. The HaarPSI does not consider\ndifferent types of similarities. However, to correctly predict the per-\nceptual similarity experienced by human viewers, it can be useful to\napply an additional non-linear mapping to the local similarities obtained\nfrom high-frequency Haar wavelet filter responses. This non-linearity is\nchosen to be the logistic function, which is widely used as an activation\nfunction in neural networks for modeling thresholding in biological\nneurons and is given for a parameter 𝛼> 0 as",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.58702087402344,
+                494.0579833984375,
+                288.6850891113281,
+                595.6724853515625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d41ca9fd1277af6a036797034d02b01e",
+        "text": "𝑙𝛼(𝑥) =\n1\n1 + 𝑒−𝛼𝑥.\n(9)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.58702087402344,
+                602.6790161132812,
+                288.6716613769531,
+                620.8508911132812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d8e55ce3b6163d85fc4e7832f3570348",
+        "text": "For two grayscale images 𝑓1, 𝑓2\n∈\n𝓁2(Z2), the local similarity\nmeasure used to compute the HaarPSI is based on the first two stages of\na two-dimensional discrete Haar wavelet transform and given by",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.587005615234375,
+                624.1129150390625,
+                288.6809387207031,
+                654.8281860351562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ec4ad9cf4bd30fe33e9a12389f5129c8",
+        "text": "(\n1\n2",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                88.23100280761719,
+                654.7649536132812,
+                99.85205078125,
+                683.1758422851562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ee2db4462b1a50d86f0ae901ef0fde61",
+        "text": "𝑗=1\nS\n(|||(𝑔(k)\n𝑗\n∗𝑓1)[𝑥]||| , |||(𝑔(k)\n𝑗\n∗𝑓2)[𝑥]||| , 𝐶\n))",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                102.63999938964844,
+                654.7650146484375,
+                249.0918731689453,
+                686.263427734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0ed890cd3f322f697766220dc2c9b3c3",
+        "text": "2\n∑",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                102.375,
+                660.9568481445312,
+                112.67237091064453,
+                672.5046997070312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6ef5f82c39f4a07337e380cac3d9c567",
+        "text": "HS(k)\nf1,f2[𝑥] = 𝑙𝛼",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.587005615234375,
+                667.4213256835938,
+                86.16526794433594,
+                681.7501831054688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "032fd738baa309e2fc0c9c428b2175a2",
+        "text": ",\n(10)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                250.4200439453125,
+                669.4342041015625,
+                288.671875,
+                677.624267578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "84060ede615c0f56ce711faad473ba20",
+        "text": "where 𝐶> 0, 𝑘∈{1, 2} selects either horizontal or vertical Haar wavelet\nfilters, S denotes the similarity measure (3), and ∗is the two-dimensional\nconvolution operator. The local similarity measure HS(k)\nf1,f2 can be seen",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.5870361328125,
+                691.9562377929688,
+                288.67584228515625,
+                725.8212890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "87821d146cccf06f26c0b3d674e5b102",
+        "text": "as an analog to FSf1,f2. However, HS(k)\nf1,f2 does not mix different concepts\nlike gradients and phase congruency and is computed straightforwardly",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.58702087402344,
+                723.5733642578125,
+                288.6850280761719,
+                744.2672729492188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "dae1fd038603ab74e208b67a60b6b9f4",
+        "text": "on the responses of two high-frequency discrete Haar wavelet filters. A\nvisualization of the local similarity map HS(k)\nf1,f2 is shown in Fig. 2.\nAnalogous to the phase congruency map PCf in the definition of the\nFSIM, the HaarPSI considers a weight map which is derived from the\nresponse of a single low-frequency Haar wavelet filter:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.60400390625,
+                207.20518493652344,
+                557.685791015625,
+                258.143310546875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "762d51f2a5efac03790af7b1aa630d6c",
+        "text": "W(k)\nf [𝑥] = |||(𝑔(k)\n3\n∗𝑓)[𝑥]||| ,\n(11)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.60400390625,
+                265.2950134277344,
+                557.6888427734375,
+                285.3476867675781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "548676dd7c97cb10f60b633a9ee24d7e",
+        "text": "where 𝑘∈{1, 2} again differentiates between horizontal and vertical\nfilters. Fig. 2 shows an example of the weight map W(k)\nf\ncomputed from\na natural image.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.60394287109375,
+                287.9591064453125,
+                557.6860961914062,
+                317.8002014160156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a9028e3eff2e785d00341d74f362fe17",
+        "text": "The Haar-wavelet based perceptually similarity index for two\ngrayscale images 𝑓1, 𝑓2 is eventually given as the weighted average of\nthe local similarity map HS(k)\nf1,f2, that is,",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.60394287109375,
+                320.65606689453125,
+                557.6929321289062,
+                354.40313720703125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f64ac6000d43d2a9ab87a67c3cc91378",
+        "text": "∑\n𝑥\n∑2\n𝑘=1 HS(k)\nf1,f2[𝑥] ⋅W(k)\nf1,f2[𝑥]\n∑\n𝑥\n∑2\n𝑘=1 W(k)\nf1,f2[𝑥]",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                372.18499755859375,
+                357.1919860839844,
+                473.22607421875,
+                392.54412841796875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8a13afbd3536a44d00ec106281ae6494",
+        "text": "2",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                478.0080261230469,
+                359.5147705078125,
+                480.996826171875,
+                365.49237060546875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "16d0480437718ae18c90039f4e228ea0",
+        "text": "⎞\n⎟\n⎟⎠",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                474.4210205078125,
+                361.8149719238281,
+                478.007568359375,
+                393.599609375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "dc30d1c5b999b2898a05b16e1e273194",
+        "text": "⎛\n⎜\n⎜⎝",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                367.4029846191406,
+                361.81500244140625,
+                370.9895324707031,
+                393.5996398925781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "371082044e1da5f925dee589fd8bd28c",
+        "text": "HaarPSIf1,f2 = 𝑙−1\n𝛼",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.60394287109375,
+                370.9178161621094,
+                366.9044494628906,
+                384.0488586425781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c7eaee1d78ff85e48e0b6da9c0b82ad7",
+        "text": ",\n(12)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                481.4950256347656,
+                372.3990783691406,
+                557.6889038085938,
+                380.58917236328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "90b9b980e0f55cb2779219c34ebedc37",
+        "text": "with",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.60400390625,
+                397.7930908203125,
+                322.5442199707031,
+                405.76318359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d1f0fd094e87910b8a01e971812b3672",
+        "text": "W(k)\nf1,f2[𝑥] = max(W(k)\nf1 [𝑥], W(k)\nf2 [𝑥])\n(13)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.60400390625,
+                414.335205078125,
+                557.6888427734375,
+                429.38177490234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3480625bdf9bf06a8fec1cfbd486757c",
+        "text": "for 𝑘∈{1, 2}. The function 𝑙−1\n𝛼(⋅) maps the weighted average from the\ninterval [ 1",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.6039123535156,
+                433.7756652832031,
+                557.6763916015625,
+                453.8680725097656
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a4561fd4dea100db056b60d96d68c7c3",
+        "text": "2 , 𝑙𝛼(1)] back to [0, 1]. Applying (⋅)2 further spreads the HaarPSI\nin the unit interval and helps to linearize the relationship between the\nHaarPSI and human opinion scores. In particular, this procedure aims\nto increase the readability of the HaarPSI in the sense that a single\nvalue should be ’meaningful on its own’ and not only relative to other\nHaarPSI values. Please note that, due to the monotonicity of the logistic\nfunction, applying 𝑙−1\n𝛼(⋅)2 cannot improve or worsen the rank order-\nbased correlations with human opinion scores reported in Section 3.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.6039733886719,
+                443.109130859375,
+                557.7099609375,
+                529.6461791992188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "51a4fafd081a1fe58e134d785aaaa761",
+        "text": "Analogous to the FSIM, the HaarPSI can be extended to color images\nin the YIQ color space by considering a third local similarity map based\non the chroma channels I and Q. The map HS(3)\nf1,f2 is computed analogous\nto (10) by averaging local similarities obtained from comparing 𝑓I\n1 with\n𝑓I\n2 and 𝑓Q\n1 with 𝑓Q\n2 . In contrast to HS(1)\nf1,f2 and HS(2)\nf1,f2, the chromatic",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.6039733886719,
+                532.5021362304688,
+                557.7018432617188,
+                590.4942016601562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f4e25d0b868d77b58a6274a545e87143",
+        "text": "information used for HS(3)\nf1,f2 is not based on orientation sensitive filters.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.6041259765625,
+                588.246337890625,
+                557.6902465820312,
+                603.3202514648438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8ce18567095efbd5537ab1ccc2d01cc5",
+        "text": "The corresponding weight map W(3)\nfY\n1 ,fY\n2\nis thus also computed by aver-",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.6041259765625,
+                601.0723266601562,
+                557.69921875,
+                618.4019775390625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "66de30020603ede57ea59ea97b5cc4e4",
+        "text": "aging W(1)\nfY\n1 ,fY\n2\nand W(2)\nfY\n1 ,fY\n2\n. Formally, the generalization of the HaarPSI to",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.60406494140625,
+                616.8034057617188,
+                557.6968994140625,
+                634.1329956054688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ea6ad365184ac738fbc2354d95d2f4a2",
+        "text": "color images is given by",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.60400390625,
+                632.4331665039062,
+                391.7963562011719,
+                640.4032592773438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f844d1d0f65e10eccf029814366c91f8",
+        "text": "∑\n𝑥\n∑3\n𝑘=1 HS(k)\nf1,f2[𝑥] ⋅W(k)\nfY\n1 ,fY\n2\n[𝑥]",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                377.50103759765625,
+                644.9720458984375,
+                479.79705810546875,
+                666.7900390625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c019a297a1f84517ff15332e33bad765",
+        "text": "2",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                484.57904052734375,
+                646.580810546875,
+                487.5678405761719,
+                652.5584106445312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ecb27ab9944939437ea451d2bf0e5278",
+        "text": "⎞\n⎟\n⎟\n⎟⎠",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                480.9920349121094,
+                648.8819580078125,
+                484.5785827636719,
+                687.9036865234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2bbf1fab9aacc18c44b742358dcedaf5",
+        "text": "⎛\n⎜\n⎜\n⎜⎝",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                372.7190246582031,
+                648.8820190429688,
+                376.3055725097656,
+                687.9037475585938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c039d614f53af6bb1ca07d9468530e24",
+        "text": "HaarPSICf1,f2 = 𝑙−1\n𝛼",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.60400390625,
+                661.6028442382812,
+                372.2204895019531,
+                674.7339477539062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bb6167769842e38d4eff7e585881dac9",
+        "text": ",\n(14)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                488.0660400390625,
+                663.0841674804688,
+                557.68896484375,
+                671.2742309570312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1ef1ec64bff4ca7d965355d54ed2e7ab",
+        "text": "∑\n𝑥\n∑3\n𝑘=1 W(k)\nfY\n1 ,fY\n2\n[𝑥]",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                396.92401123046875,
+                664.4119873046875,
+                460.37408447265625,
+                686.2299194335938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f7b2ff3dbf9083ba3a59b7ccfbb12037",
+        "text": "with HS(1)\nf1,f2 and HS(2)\nf1,f2 defined as in (10),",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.60406494140625,
+                692.1993408203125,
+                456.3223876953125,
+                707.273193359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "56a5b99609b83ee45eb79e42065044a2",
+        "text": "(\nS\n(|||(𝑚∗𝑓I\n1)[𝑥]||| , |||(𝑚∗𝑓I\n2)[𝑥]||| , 𝐶\n)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                372.1929931640625,
+                707.9579467773438,
+                492.0028076171875,
+                732.6657104492188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f4024e5b8145c8daaa2f5c61cd742351",
+        "text": "HS(3)\nf1,f2[𝑥] = 𝑙𝛼\n( 1",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.6041259765625,
+                707.958984375,
+                369.669189453125,
+                730.0621337890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5c28a4dbe7e87ff1318763bd5a45d009",
+        "text": "2",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                365.6839904785156,
+                723.5167846679688,
+                369.6690368652344,
+                731.4868774414062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b011409f72635a8fa1c1d9cf135fa27e",
+        "text": "+ S(|||(𝑚∗𝑓Q\n1 )[𝑥]||| , |||(𝑚∗𝑓Q\n2 )[𝑥]||| , 𝐶)\n))\n,\n(15)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                352.0619812011719,
+                725.8909912109375,
+                557.6888427734375,
+                750.5986938476562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b850969b9ec76414fdf7c37c96ca915c",
+        "text": "(a) reference 𝑓1.\n(c) HS(1)\nf1,f2 .\n(e) W(1)\nf1,f2 .",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                109.1240005493164,
+                171.87289428710938,
+                474.38433837890625,
+                183.34405517578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3a34e61978e9e32245bf0dc003358601",
+        "text": "(b) distorted 𝑓2.\n(d) HS(2)\nf1,f2 .\n(f) W(2)\nf1,f2 .",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                111.16200256347656,
+                305.5478515625,
+                474.0093078613281,
+                317.0189514160156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "79fb53f4888c20c0b4346b4348f10b33",
+        "text": "Fig. 2. (a) An undistorted reference image. (b) The reference image distorted by the JPEG compression algorithm. (c) The horizontal local similarity map HS(1)\nf1,f2 . (d) The vertical local",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.587005615234375,
+                331.1778259277344,
+                557.6942138671875,
+                342.6479187011719
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "373025ed34acdfa925f4e6ebd49f9acc",
+        "text": "similarity map HS(2)\nf1,f2 . (e) The (normalized) horizontal weight function W(1)\nf1,f2 . (f) The (normalized) vertical weight function W(2)\nf1,f2 . The images (a) and (b) are part of the CSIQ database [8].",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.5870361328125,
+                341.86279296875,
+                557.6941528320312,
+                353.3338928222656
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "193d13c8dfd7624726313b324797dc80",
+        "text": "(a)\n(b)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                192.13800048828125,
+                491.890869140625,
+                446.8965148925781,
+                498.2669677734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ade4bd8f9cab4353550092dca77a2f70",
+        "text": "Fig. 3. (a) Values for the parameters 𝐶and 𝛼which maximize the mean SROCC with respect to randomly selected subsets of the considered databases. The values in the first column\nwere obtained by including all four databases in the optimization procedure. For the results depicted in columns 2 and 3, the optimization was restricted to the TID 2008 & TID 2013\nrespectively the LIVE & CSIQ databases. The SROCC values shown in the last four rows are with respect to the full databases. (b) The mean SROCC with respect to the subsets of all four\ndatabases plotted as a function of the parameters 𝐶and 𝛼.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.58697509765625,
+                514.5808715820312,
+                557.6981201171875,
+                546.8369140625
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "5ea9bd18c18e4d24496dd68a2cbed8c9",
+        "text": "with a 2 × 2 mean filter 𝑚and",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.58697509765625,
+                562.3651123046875,
+                145.44293212890625,
+                570.55517578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bfc40d9477e92f8953959ed2dda8218b",
+        "text": "(\nW(1)\nfY\n1 ,fY\n2\n[𝑥] + W(2)\nfY\n1 ,fY\n2\n[𝑥]\n)\n.\n(16)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                86.79600524902344,
+                568.2539672851562,
+                288.67181396484375,
+                595.7889404296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8e11dd9a05baf0dd1eb363b79c6fbca3",
+        "text": "W(3)\nfY\n1 ,fY\n2\n[𝑥] = 1",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.58697509765625,
+                576.041748046875,
+                84.27202606201172,
+                595.7889404296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "934c42724dfd8d5a7c67e0b414cf308a",
+        "text": "2",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                80.28700256347656,
+                586.2427978515625,
+                84.27204895019531,
+                594.212890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a140f5b0f527c2104f24663206ad1b71",
+        "text": "2.1. Parameter selection",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.58697509765625,
+                610.63916015625,
+                119.71886444091797,
+                618.6092529296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fc72e01b6d8747013164bd75199e7cb6",
+        "text": "The HaarPSI as well as the HaarPSIC require only two parameters to\nbe selected, namely 𝐶and 𝛼. Both parameters were optimized on ran-\ndomly chosen subsets of four large publicly available databases, where\neach subset was a quarter the size of the original database. Each of the\ndatabases, which will be described in more detail in Section 3, contains\nlarge numbers of differently distorted images and their corresponding\nMOS values. The parameters 𝐶and 𝛼were selected to maximize the\nmean of the four Spearman rank order correlation coefficients (SROCC)\nobtained from comparing HaarPSIC and MOS values from subsets of the\nTID 2008 [26], TID 2013 [27], LIVE [28] and CSIQ [8] image databases.\nThe optimization was carried out in two steps. First, a grid search was",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.58695983886719,
+                631.6201171875,
+                288.69293212890625,
+                744.2672119140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c9814792f2c558603f74ce39447b6761",
+        "text": "performed in which the parameter 𝐶took values in the interval [5, 100]\nand 𝛼in the range between 2 and 8. The best (𝐶, 𝛼) pair was then used\nas the initial value of the Nelder–Mead algorithm. The thus refined\nparameters were eventually rounded to the nearest integer in the case of\n𝐶and to the nearest tenth in the case of 𝛼. This procedure resulted in the\nchoices of 𝐶= 30 and 𝛼= 4.2. To verify the generality of the HaarPSI,\nthe same optimization procedure was repeated once only considering\nthe TID 2008 and TID 2013 databases and once restricted to the LIVE\nand the CSIQ image databases. The results of all three optimizations are\ncompiled in Fig. 3.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.6038818359375,
+                562.3661499023438,
+                557.6939086914062,
+                663.0161743164062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2dad4695c83747bb6f644898833792bc",
+        "text": "3. Experimental results",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.6038818359375,
+                674.8635864257812,
+                396.1878662109375,
+                682.8336791992188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "16960793bfb503c0e138a39343ca6bea",
+        "text": "The consistency of the HaarPSI with the human perception of image\nquality was evaluated and compared with most of the image quality\nmetrics discussed in Section 1 on four large publicly available bench-\nmark databases of quality-annotated images. Those databases differ in\nthe number of reference images, the number of distortion magnitudes",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.6038818359375,
+                695.203125,
+                557.7098388671875,
+                744.2672119140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "621b029f3cf9f8fad0e35bf0bcdb47ba",
+        "text": "and types, the number of observers, the level of control of the viewing\nconditions, and the stimulus presentation procedure.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.587005615234375,
+                55.17411804199219,
+                288.6690979003906,
+                73.62224578857422
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8103881cd9862796c1c774a1e99677a0",
+        "text": "The LIVE database [28] contains 29 reference color images and 779\ndistorted images that were perturbed by JPEG compression, JPEG 2000\ncompression, additive Gaussian white noise, Gaussian blurring as well\nas JPEG 2000 compressed images that have been transmitted over a\nsimulated Rayleigh fading channel. Each distortion is introduced at\nfive to six different levels of magnitude. On average, about 23 subjects\nevaluated the quality of each image with respect to the reference image.\nThe viewing conditions were fairly controlled for in terms of viewing\ndistance. Ratings were collected in a double stimulus manner.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.587005615234375,
+                76.13114929199219,
+                288.68505859375,
+                167.9322967529297
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a2f66327c3ae0b36743350ea9bcd0d5c",
+        "text": "The TID 2008 database [26] comprises 25 colored reference images\nand 1700 degraded images, that had been subject to a wide range of\ndistortions, including various types of noise, blur, JPEG and JPEG 2000\ncompression, transmission errors, local image distortions, as well as\nluminance and contrast changes. Subjective ratings were gathered by\ncomparisons. The results from several viewing conditions of experiments\nin three different labs and on the internet were averaged. TID 2008 was\nlater extended to TID 2013 [27], which added new types of distortions,\nwhich are mostly of a chromatic nature. In total, TID 2013 contains 3000\ndifferently distorted images.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.587005615234375,
+                170.4402313232422,
+                288.6929016113281,
+                272.72039794921875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1bb64a339642f2a3e2e74ca9f00e68ca",
+        "text": "The CSIQ database [8] is based on 30 reference color images and\ncontains 866 distorted images. Six different types of distortions (JPEG\ncompression, JPEG 2000 compression, global contrast decrements, addi-\ntive pink Gaussian noise, and Gaussian blurring) at four to five different\ndegradation magnitudes were applied to the reference images. The\nviewing distance was controlled. Images were presented on a monitor\narray and subjects were asked to place all distorted versions of one\nreference image according to its perceived quality.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.587005615234375,
+                275.22930908203125,
+                288.68505859375,
+                356.5504150390625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0a1129ebddd275588773118dfe84f36a",
+        "text": "The main goal of most computational image similarity measures\nis to yield a monotonic relationship with human mean opinion scores\nacross different databases and distortion types. To ensure a fair eval-\nuation, different computational measures are typically compared with\nrespect to rank order-based correlations or after performing nonlinear\nregression. Throughout the numerical evaluation of the HaarPSI, we\napply the rank order-based SROCC to measure correlations between\nhuman mean opinion scores and different computational similarity and\ndistortion indexes. We also considered applying Kendall’s 𝜏and the\nPearson product-moment correlation after performing a four parameter\nlogistic regression as alternatives for the SROCC. We found that these\ncorrelation coefficients essentially duplicate the results reported in this\nsection. The corresponding versions of Tables 1 and 3 were thus not\nincluded here but can be found at www.haarpsi.org.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.58699035644531,
+                359.059326171875,
+                288.68505859375,
+                503.25445556640625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7b9ad2a4931204524cdd20eb62257997",
+        "text": "Following the ITU guidelines for evaluating quality prediction mod-\nels [29], we also tested the statistical significance of the results reported\nin this section. Correlation coefficients for which the 𝐻0 hypothesis\nthat they are not significantly different than the respective HaarPSI\ncorrelation can be refuted with 𝑝< 0.05 are highlighted in color\nin Tables 1, 3 and 4. In accordance with [30], the variance of the\nz-transforms were approximated by 1.06∕(𝑁−3), where 𝑁denotes\nthe degrees of freedom (i.e. the number of samples in the considered\ndatabase or distortion specific subset).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.58695983886719,
+                505.7623291015625,
+                288.67791748046875,
+                597.5634765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "dc6b808bf9fd0d68ad4852977707b6ef",
+        "text": "The four databases used in the numerical evaluation only contain\ncolor images. However, out of the metrics considered in our experi-\nments, only the FSIM and the HaarPSI are defined for both grayscale\nand color images, while the visual saliency-based index (VSI) was\nspecifically designed for color images. All other similarity measures\nconsidered in our experiments only accept grayscale images as input\nor perform an RGB to grayscale conversion as a first processing step. To\nreflect these differing designs, all methods were tested on all databases\nonce with the original color images and once with grayscale conversions\nobtained from the Matlab rgb2gray function. To obtain the VSI for pairs\nof grayscale images, corresponding RGB images were created by setting\nthe values for all three color channels to the values of the given grayscale\nchannel. The correlation coefficients of all ten considered similarity\nmeasures with the human mean opinion scores for the LIVE image",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.58695983886719,
+                600.0723876953125,
+                288.68499755859375,
+                744.2665405273438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2704e513cf8794a7e9285184cfcb448e",
+        "text": "database, TID 2008, TID 2013 and the CSIQ database are compiled in\nTable 1.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.60394287109375,
+                55.17344665527344,
+                557.6936645507812,
+                73.61956024169922
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3471884d77135883b50f699718120dcc",
+        "text": "Table 2 provides a quick impression of the overall performance of\neach metric. It depicts the average SROCC of each metric with respect\nto all four databases as well as the mean execution time in milliseconds.\nThe average execution time was measured on a Intel Core i7-4790\nCPU clocked at 3.60 GHz. To measure the execution time, each quality\nmeasure was computed ten times for ten different pairs of randomly\ngenerated 512 × 512 pixel images. All computations and measurements\nwere carried out in Matlab using implementations made freely available\nby the respective authors. Note that due to an additional conversion\nstep, metrics that are only defined for grayscale images can have slightly\nhigher execution times when evaluated on color images.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.60394287109375,
+                76.12443542480469,
+                557.7037353515625,
+                188.8484344482422
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "00684d26466ae38554fccd73f7a38bb7",
+        "text": "A high correlation with the mean opinion scores annotated to the\ndistorted images of a large database containing many different types\nand degrees of distortions is arguably the best indicator of an image\nquality measure’s consistency with human perception. However, for\ncertain applications like compression or denoising, it could be more\nimportant to know if an image quality metric has a high correlation with\nthe human experience within a single distortion class. Table 3 depicts\nthe SROC coefficients for all image quality metrics when only subsets\nof databases containing specific distortions like Gaussian blur or JPEG\ntransmission errors are considered.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.60394287109375,
+                191.35435485839844,
+                557.7020263671875,
+                293.6033935546875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "94f8a41e47488ff2f69666f844280ef6",
+        "text": "Single correlation coefficients provide a useful means of objectively\nevaluating and comparing different computational models of image\nquality. However, they only measure a specific aspect of the relationship\nbetween an image similarity metric and human opinion scores, like\nlinearity in the case of the Pearson correlation coefficient or mono-\ntonicity in the case of the SROCC. In an attempt to better visualize\nthe relationship between the HaarPSI and human opinion scores, Fig. 4\nshows scatter plots of the HaarPSI against difference mean opinion\nscores (DMOS) for all four databases. To provide as much insight as\npossible, the plots are categorized by specific distortion types.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.60394287109375,
+                296.1082763671875,
+                557.7020874023438,
+                398.35748291015625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ad8987b3e2128ece2ebad8de6eabf723",
+        "text": "It should be noted that for all results reported in this section, the\nHaarPSI, as well as other image quality metrics such as the SSIM, the\nFSIM or the VSI, were preprocessing each image by convolving it with a\n2 × 2 mean filter as well as a subsequent dyadic subsampling step. This\npreprocessing approximates the low-pass characteristics of the optical\npart of the human visual system [31] by a simple model.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.60394287109375,
+                400.8634033203125,
+                557.6939697265625,
+                461.2105407714844
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cd4a76eae73fc6f8d1b33508fe5ca601",
+        "text": "4. Conclusion",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.6039733886719,
+                474.35693359375,
+                359.93988037109375,
+                482.3270263671875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "10b40777697c60dfe1bf83213938e3af",
+        "text": "The HaarPSI is a novel and computationally inexpensive image qual-\nity measure based solely on the coefficients of three stages of a discrete\nHaar wavelet transform. Its validity with respect to the human percep-\ntion of image quality was tested on four large databases containing more\nthan 5000 differently distorted images, with very promising results. In\na comparison with 9 popular state-of-the-art image similarity metrics,\nthe HaarPSI yields significantly higher or statistically indistinguishable\nSpearman correlations when restricted to grayscale conversions. For\ncolor images, it only comes second to the VSI when tested on the TID\n2013 (see Table 1). Along with its simple computational structure and\nits comparatively short execution time, this suggests a high applicability\nof the HaarPSI in real world optimization tasks. In particular, image\nquality metrics like PSNR, SSIM, or SR-SIM, that outperform the HaarPSI\nwith respect to speed achieve considerably inferior correlations with\nhuman opinion scores (see Table 2). Regarding the applicability of the\nHaarPSI in specific optimization tasks, we would like to mention that the\nHaarPSI has consistently high correlations with human opinion scores\nthroughout all databases with respect to distortions caused by the JPEG\nand JPEG 2000 compression algorithms (see Table 3).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.6039733886719,
+                495.3614501953125,
+                557.7021484375,
+                691.8895874023438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3c942417f79eb2eb2ec8f0479a936e50",
+        "text": "The results reported in Tables 1 and 3 might seem contradictory at\nfirst glance. In many cases, the HaarPSI yields the highest SROCC for\na complete database but is outperformed by other metrics like the VSI\nwhen restricting the same database to a single distortion type. However,\ntaking into account statistical significance, it is apparent that only when",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.6039733886719,
+                694.3955078125,
+                557.7181396484375,
+                744.2666015625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "08736a450d1de801db28f1ee814465d6",
+        "text": "Table 3\nSpearman rank order correlations of IQA metrics with human mean opinion scores.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                89.59701538085938,
+                51.94545364379883,
+                325.56365966796875,
+                66.87396240234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0e6f725c74313cdd890d7098df5b1f82",
+        "text": "tested on the TID databases restricted to Gaussian blur, the performance\nof the HaarPSI is consistently lower than the performance of other\nsimilarity metrics. This particular shortcoming can be explained by the\nfact that the HaarPSI is almost exclusively relying on high-frequency\ninformation and thus maybe too sensitive in the case of distortions\npurely based on low-pass filtering.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.58700180053711,
+                684.7161254882812,
+                288.68505859375,
+                744.2672119140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8d18c6917f87a361cda227b4d946b069",
+        "text": "When only considering a specific type of distortion, the correlations\nyielded by the HaarPSI might be improved by tuning the constants\n𝐶and 𝛼, which have originally been selected to optimize the overall\nperformance. Increasing 𝐶decreases the sensitivity of the HaarPSI to\nchanges in the high-frequency components measured by the similarity\nmaps HS(1,2)\nf1,f2 relative to the weights W(1,2)\nf\n, which are based on a lower",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.6039733886719,
+                684.7161254882812,
+                557.6939697265625,
+                749.1382446289062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "16b4399c31d51f427b918df5d395c93d",
+        "text": "Fig. 4. Scatter plots of HaarPSIC values against difference mean opinions scores (DMOS) from the LIVE, TID 2008, TID 2013 and CSIQ image databases.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                81.43099975585938,
+                424.869873046875,
+                513.862548828125,
+                431.2615661621094
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1809d03676b4f33b8e6ad8f53e0e5699",
+        "text": "(a) JPEG.\n(b) JP2K.\n(c) Blur.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                116.3499984741211,
+                570.921875,
+                475.39483642578125,
+                577.2979736328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6e41eb8d498a9d2f198cf65322f49109",
+        "text": "(d) AWGN.\n(e) SCN.\n(f) Denoising.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                114.33599853515625,
+                691.5408935546875,
+                483.01507568359375,
+                697.9169921875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f6be5d41965fe34e0b2c4f452997c16a",
+        "text": "Fig. 5. Spearman rank order correlations as functions of the parameters 𝐶and 𝛼for images affected by (a) JPEG compression, (b) JP2K compression, (c) Gaussian Blur, (d) additive\nGaussian white noise, (e) spatially correlated noise white noise, and (f) denoising. All correlations are with respect to TID2013.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.587005615234375,
+                719.73388671875,
+                557.6964721679688,
+                734.8539428710938
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "107e5ca253d62ffd70ecdaf44deafeae",
+        "text": "Table 4\nSROCC with human mean opinion scores for different wavelet filters.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.587005615234375,
+                54.43642044067383,
+                233.56283569335938,
+                69.36395263671875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "27d02ea4c1de34fa66dac905880f651e",
+        "text": "frequency band and serve as a rough model of attention-like processes.\nThe effect of the parameter 𝛼on the HaarPSI is qualitatively similar\nwhen it is approaching zero. This could explain the roughly negative\nlinear relationship between 𝐶and 𝛼in Fig. 3. However, for larger\nchoices of 𝛼, the function 𝑙𝛼(⋅) is increasingly mimicking the behavior of\na thresholding operator in the sense that only severe changes in the high-\nfrequency components will have a significant effect on the HaarPSI. To\nalso provide a quantitative analysis of these relationships, Fig. 5 depicts\nthe influence of 𝐶and 𝛼on the correlation with human opinion scores\nin the case of TID 2013 with respect to six different distortions. Fig. 5(c)\nindeed suggests that in the case of Gaussian blur, the performance of\nthe HaarPSI can be improved by attenuating its sensitivity to changes in\nthe high-frequency components via increasing 𝐶and choosing 𝛼close to\n0. In contrast, Fig. 5(a) indicates that the HaarPSI achieves the highest\ncorrelations in the case of JPEG compression artifacts when it is tuned\nto be sensitive to severe changes in the high frequency components at\nhighly salient locations.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.58697509765625,
+                235.2690887451172,
+                288.68505859375,
+                410.248046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "62520c53a26f1fa2956b35c0e06a0088",
+        "text": "It is surprising that the extremely simple computational model\nof orientation and spatial frequency selectivity used in the HaarPSI\nsuffices to obtain comparatively high correlations with human opinion\nscores. Additionally, these correlations are stable with respect to a wide\nrange of parameters 𝐶and 𝛼(cf. Fig. 3). This could indicate that the\ncomputational structure of the HaarPSI succeeds at reproducing the\nfunctional essence of at least some parts of the human visual system. It\nis, however, quite likely that the HaarPSI owes some of its experimental\nsuccess to the limitations of the used benchmark databases, which only\nconsider a limited number of reference images and specific types of\ndistortions. Certainly, orientation selectivity in the primary visual cortex\nis not restricted to horizontal and vertical edges.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.58702087402344,
+                412.7159423828125,
+                288.69305419921875,
+                535.5049438476562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8feebd9a20d1ff0c236ad82c0ac81cc5",
+        "text": "Another computational principle that plays an important role in\nnatural neural systems and that was recently successfully applied in\nthe context of perceptual image similarity measurement is divisive nor-\nmalization [32]. While the similarity measure S(𝑎, 𝑏, 𝐶) introduces some\nkind of normalization, divisive normalization is not included in any of\nthe computational stages of the HaarPSI. It remains an open question\nif and how the HaarPSI could be further improved by incorporating\ndivisive normalization in a similar fashion as the concepts of orientation\nselectivity and spatial frequency selectivity.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.587032318115234,
+                537.9728393554688,
+                288.7010498046875,
+                629.4479370117188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a8de3d26ee10adf58fc2ba70df0bc72d",
+        "text": "Many practical applications demand image similarity metrics to yield\nvalues that are easy to interpret. Ideally, an image similarity of 0.9\nwould in fact indicate that the average human would also assess a simi-\nlarity of 90% between two images or that a decrease in similarity to 0.8\ncorresponds to a 10% decrease in perceived quality for a human viewer.\nDue to the generality and difficulty of this task, computational models\nof image similarity typically only aim at establishing a monotonic\nrelationship with human mean opinion scores, which is also reflected\nin the choice of the SROCC as a measure of consistency. In the case of\nthe HaarPSI, applying 𝑙−1\n𝛼(⋅)2 to the final similarity score significantly\nlinearizes its relationship with human opinion scores, thereby leading",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.58705139160156,
+                631.9158325195312,
+                288.6930847167969,
+                744.2659912109375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "986ae1f00df0769315020ce6fc7da56c",
+        "text": "to the strong linear correlations depicted in the scatter plots in Fig. 4.\nWhile 𝑙−1\n𝛼(⋅)2 is monotonically increasing on [ 1",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.6040954589844,
+                55.17289733886719,
+                557.7020874023438,
+                75.29875183105469
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a8b435229d3e23aaaa2dfe1dfa4b135e",
+        "text": "2, 1) and therefore not\naffecting the SROCC, we hope that this improves the readability and\napplicability of the HaarPSI. To also provide an objective measure of\nlinear correlation, we repeated the numerical evaluation from Section 3\nwith the Pearson product-moment correlation instead of the SROCC (see\nTable 5 in Appendix). The results of this analysis indicate that even\nwithout additional nonlinear regression, the HaarPSI has a highly linear\nrelationship with human mean opinion scores from different databases\nand across varying types of distortion.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.60400390625,
+                64.97013854980469,
+                557.6940307617188,
+                153.2922821044922
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e8133156782735450cd87029833e70bb",
+        "text": "The HaarPSI can conceptually be understood as a simplified version\nof the FSIM. Both metrics rely on the construction of two maps, where\none map measures local similarities between a reference image and a\ndistorted image and the other map assesses the relative importance of\nimage areas. However, in the HaarPSI, these maps are defined only in\nterms of a single Haar wavelet filterbank, while the FSIM utilizes an\nimplementation of the phase congruency measure that requires the input\nimages to be convolved with 16 complex-valued filters and contains\nseveral non-trivial computational steps, like adaptive thresholding.\nAnother difference is that the FSIM uses the phase congruency measure\nboth as a weight function in (5) and as a part of the local similarity\nmeasure (4). In the HaarPSI, the weight function (11) and the local\nsimilarity measure (10) are strictly separated in the sense that they are\nbased on distinct bands of the frequency spectrum.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.60400390625,
+                155.33921813964844,
+                557.7020263671875,
+                293.5234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2be7325df7e8320e2e9992421a7e2834",
+        "text": "These conceptual simplifications lead to a significant decrease in\nexecution time (see Table 2) and enable a better understanding of\nhow single elements of the measure and properties of the input images\ncontribute to the final similarity score. In the case of the HaarPSI, it\nis clear that the local similarity measure is based on high-frequency\ninformation, while the weight map, which provides a crude measure\nof visual saliency, is using filters that are tuned to lower frequencies.\nWe suspect that a similar principle plays an important role in the\nFSIM, where additional high-frequency filters are applied to obtain the\ngradient map used in the local similarity measure (4). However, for\nthe FSIM, it is difficult to verify this, as filters that are tuned to lower\nfrequencies are only implicitly used in the computation of the phase\ncongruency measure, which is in turn part of both the local similarity\nmeasure and the weight map.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.60400390625,
+                295.5703125,
+                557.7020874023438,
+                433.75537109375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "244588d60528d9e8871a446bf44e42b4",
+        "text": "We do not have a straightforward explanation as to why the\nHaarPSI outperforms the FSIM with respect to correlations with human\nopinion scores (see Table 1). After all, both measures have a similar\noverall structure and implement similar principles such as frequency\nand orientation selectivity. We assume that the reduced complexity of\nthe HaarPSI also limits uncontrollable side effects when accentuating\ndifferent aspects of the input images by varying the parameters 𝐶\nand 𝛼. This could improve the chance of successfully fitting subsets\nof benchmark databases when only considering two free parameters,\nbut also decrease the generalization error. Furthermore, the principle of\norientation selectivity is implemented differently in the HaarPSI in the\nsense that measurements regarding horizontal and vertical structures\nare only combined at the very end, that is, when taking the weighted\naverage. It is well known that orientation selectivity is a strong organiza-\ntion principle in the primary visual cortex, where neurons that are tuned\nto similar orientations are grouped together in so-called orientation\ncolumns [33]. It thus seems reasonable that a consistent separation of\nthe information yielded by vertical and horizontal filters has a positive\neffect on the correlations with human opinion scores.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.60400390625,
+                435.80126953125,
+                557.7098999023438,
+                624.068359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b401ffe5975aab14a489fd6cd8b533bb",
+        "text": "From a computational point of view, it is very beneficial to apply\ndiscrete Haar wavelet filters instead of other wavelet filters. However,\nby changing ℎ1D\n1\nand 𝑔1D\n1\nin (8) to the respective filters, the measure\ngiven in (12) can easily be defined for other wavelets. Table 4 de-\npicts the performance of such measures based on selected Daubechies\nwavelets [34], symlets [35], coiflets [36] and the Cohen–Daubechies–\nFeauveau wavelet [37] with respect to the four databases considered in\nSection 3. It is interesting to see that Haar filters not only seem to be the\ncomputationally most efficient but also the qualitatively best choice for\nthe measure (12).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.60400390625,
+                626.115234375,
+                557.7101440429688,
+                724.2343139648438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a55037b6dff724b097d86fbc747ae89f",
+        "text": "Matlab and Python implementations of the HaarPSI are available at\nwww.haarpsi.org.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.6040344238281,
+                726.2802124023438,
+                557.7017822265625,
+                744.267333984375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d929015e04e365764b9b89548769b03a",
+        "text": "Table 5\nPearson correlations of IQA metrics with human mean opinion scores.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                89.59701538085938,
+                51.94545364379883,
+                287.95111083984375,
+                66.87396240234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "af1eb099b44fac85df1268921ce0f6b2",
+        "text": "Acknowledgments",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.58700180053711,
+                682.9735717773438,
+                107.21380615234375,
+                690.9436645507812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f1bd00a194339c7ad56cb070447f9a5f",
+        "text": "R. Reisenhofer would like to thank Eero Simoncelli, Johannes Ballé\nand the members of the Laboratory for Computational Vision at NYU\nfor their kind hospitality and very insightful discussions. S. Bosse and\nG. Kutyniok would like to thank Anthony Norcia for fruitful discussions.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.58700180053711,
+                704.6030883789062,
+                288.6849365234375,
+                744.2672119140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6a0bbe5766f29c006ee21012ad99a318",
+        "text": "G. Kutyniok would also like to thank Eero Simoncelli for interesting\ndiscussions on the topic and to acknowledge support by the Einstein\nFoundation Berlin, the Einstein Center for Mathematics Berlin (ECMath)\n(Project CH2), the European Commission-Project DEDALE (contract\nno. 665044) within the H2020 Framework Program, DFG Grant KU\n1446/18, DFG-SPP 1798 Grants KU 1446/21 and KU 1446/23, the",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.60400390625,
+                682.9541015625,
+                557.701904296875,
+                744.2672119140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "acd45953c2c4f979cfa6809a99fd119d",
+        "text": "DFG Collaborative Research Center TRR 109 Discretization in Geometry\nand Dynamics (Project C03), and by the DFG Research Center Matheon\nMathematics for Key Technologies in Berlin (Project CH2) (this project\nis financed by ECMath and Matheon).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.587005615234375,
+                55.17411804199219,
+                288.68499755859375,
+                94.52623748779297
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d747d8425e43d10e50dd67d0cd96e851",
+        "text": "Appendix. Pearson product-moment correlations",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.587005615234375,
+                107.49663543701172,
+                224.2946014404297,
+                115.46673583984375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6a64ee056b84f02f088c47443abb45ea",
+        "text": "See Table 5.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                49.543006896972656,
+                128.39915466308594,
+                92.42214965820312,
+                136.36924743652344
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "398c3fa4efeca1ea58f40137760adf7f",
+        "text": "References",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                37.587005615234375,
+                150.83465576171875,
+                78.80039978027344,
+                158.80474853515625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a92d43e118a184a98ae9ad41c34d2194",
+        "text": "[1] Cisco, Cisco visual networking index: Forecast and methodology, 2015–2020, White",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                40.3800048828125,
+                171.0499267578125,
+                288.6909484863281,
+                177.426025390625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "422720a6aa408ae523b28f26a5725f40",
+        "text": "paper, 2016.\n[2] W. Lin, C.-C.J. Kuo, Perceptual visual quality metrics: A survey, J. Vis. Commun.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                40.3800048828125,
+                179.616943359375,
+                288.7099914550781,
+                194.56103515625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cdf0b69f2d5ea099024a1fee37d6b951",
+        "text": "Image Represent. 22 (4) (2011) 297–312.\n[3] B. Girod, What’s wrong with mean-squared error? in: Digital Images and Human",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                40.3800048828125,
+                196.7529296875,
+                288.6844787597656,
+                211.697021484375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c9f46bd6b8e11563e8184e4487c7037d",
+        "text": "Vision, 1993, pp. 207–220.\n[4] A.B. Watson, R. Borthwick, M. Taylor, Image quality and entropy masking, in: SPIE",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                40.3800048828125,
+                213.888916015625,
+                288.6972351074219,
+                228.8330078125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5448c4362fdbce5f91a461ba8e434f56",
+        "text": "Proceedings, Vol. 3016, 1997 pp. 1–11.\n[5] S.J. Daly, Application of a noise-adaptive contrast sensitivity function to image data",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                40.3800048828125,
+                231.02490234375,
+                288.70361328125,
+                245.968994140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f0e768957c5f56812ee48b33e63bc75b",
+        "text": "compression, Opt. Eng. 29 (8) (1990) 977–987.\n[6] J. Lubin, A human vision system model for objective picture quality measurements,",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                40.3800048828125,
+                248.159912109375,
+                288.68450927734375,
+                263.10400390625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9680efb73e333ebf369f90ef414adeae",
+        "text": "in: International Broadcasting Convention, 1997, pp. 498–503.\n[7] Y. Jia, W. Lin, A.A. Kassim, Estimating just-noticeable distortion for video, IEEE",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                40.3800048828125,
+                265.2958984375,
+                288.69097900390625,
+                280.239990234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "68255422b483e1d4efd28996be1118be",
+        "text": "Trans. Circuits Syst. Video Technol. 16 (7) (2006) 820–829.\n[8] E.C. Larson, D.M. Chandler, Most apparent distortion: Full-reference image quality",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                40.3800048828125,
+                282.431884765625,
+                288.697265625,
+                297.3759765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0890947e6ebb5ab8d84609f8fb3483f9",
+        "text": "assessment and the role of strategy, J. Electron. Imaging 19 (1) (2010) 011006-1–\n011006-21.\n[9] Z. Wang, A.C. Bovik, H.R. Sheikh, E.P. Simoncelli, Image quality assessment: From",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                40.3800048828125,
+                299.56787109375,
+                288.69085693359375,
+                323.0789489746094
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b82463b65aff4abf91a448412bd979ee",
+        "text": "error visibility to structural Similarity, IEEE Trans. Image Process. 13(4) (2004) 600–\n612.\n[10] H.R. Sheikh, A.C. Bovik, Image information and visual quality, IEEE Trans. Image",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                36.79000473022461,
+                325.2708435058594,
+                288.6906433105469,
+                348.7829284667969
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1a50e0112060dad99843546e105cfdde",
+        "text": "Process. 15 (2006) 430–444.\n[11] A. Liu, W. Lin, M. Narwaria, Image quality assessment based on gradient similarity,",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                36.79000473022461,
+                350.9748229980469,
+                288.69061279296875,
+                365.9189147949219
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9499a8fef777df026422e90c3d573a4d",
+        "text": "IEEE Trans. Image Process. 21 (4) (2012) 1500–1512.\n[12] L. Zhang, H. Li, SR-SIM: A fast and high performance IQA index based on spectral",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                36.79000473022461,
+                368.1108093261719,
+                288.6842041015625,
+                383.0549011230469
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "665060f10df0df7ffe34bbc59219d7cb",
+        "text": "residual, in: 2012 19th IEEE International Conference on Image Processing, Sept.\n2012 pp. 1473–1476.\n[13] L. Zhang, Y. Shen, H. Li, Vsi: A visual saliency-induced index for perceptual image",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                36.79000473022461,
+                385.24578857421875,
+                288.69061279296875,
+                408.75787353515625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b8941c06762f6611735ae7dd813d54f7",
+        "text": "quality assessment, IEEE Trans. Image Process. 23 (10) (2014) 4270–4281.\n[14] R. Dosselmann, X.D. Yang, A comprehensive assessment of the structural similarity",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                36.79000473022461,
+                410.94976806640625,
+                288.6969299316406,
+                425.89385986328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3ca9948447d4ce6820b08ef3c91746d8",
+        "text": "index, Signal Image Video Process. 5 (1) (2011) 81–91.\n[15] Z. Wang, E.P. Simoncelli, A.C. Bovik, Multi-Scale structural similarity fror image",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                36.79000473022461,
+                428.08575439453125,
+                288.697021484375,
+                443.02984619140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "02fccaa2c14a001e12b19cca4448b149",
+        "text": "quality assessment, in: Proceedings of 37th IEEE Asilomar Conference on Signals,\nSystems and Computers, 2003.\n[16] L. Zhang, L. Zhang, X. Mou, D. Zhang, FSIM: A feature similarity index for image",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                36.79000473022461,
+                445.2207336425781,
+                288.6905822753906,
+                468.7328186035156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f220671fdf7fc23f6785792fc5012b0d",
+        "text": "quality assessment, IEEE Trans. Image Process. 20(8) (2011) 2378–2386.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                53.34700393676758,
+                470.9247131347656,
+                259.68408203125,
+                477.3008117675781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c2026bd2eda75d98feec42f3b73100da",
+        "text": "[17] L. Kang, P. Ye, Y. Li, D. Doermann, Convolutional neural networks for no-reference",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                305.8070068359375,
+                56.378719329833984,
+                557.7073364257812,
+                62.75482177734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "06748865349561b9a367d986d5dbae94",
+        "text": "image quality assessment, in: 2014 IEEE Conference on Computer Vision and Pattern\nRecognition (CVPR), 2014 pp. 1733–1740.\n[18] P. Ye, D. Doermann, No-reference image quality assessment using visual codebooks,",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                305.8070068359375,
+                64.94671630859375,
+                557.7073364257812,
+                88.45880126953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b481ebd0c1c84649d177d9bd8e1ecb4f",
+        "text": "IEEE Trans. Image Process. 21 (7) (2012) 3129–3138.\n[19] P. Zhang, W. Zhou, L. Wu, H. Li, SOM: Semantic obviousness metric for image quality",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                305.8070068359375,
+                90.65069580078125,
+                557.7073974609375,
+                105.59478759765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "16df7593a347b70eaedd32b0f085ae9a",
+        "text": "assessment, in: 2015 IEEE Conference on Computer Vision and Pattern Recognition\n(CVPR), 2015, pp. 2394–2402.\n[20] S. Bosse, D. Maniry, T. Wiegand, W. Samek, A deep neural network for image quality",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                305.8070068359375,
+                107.78668212890625,
+                557.7009887695312,
+                131.29779052734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "60107c2d5da1148c742f370f627f859c",
+        "text": "assessment, in: IEEE International Conference on Image Processing (ICIP), 2016.\n[21] S. Bosse, D. Maniry, K.-R. Müller, T. Wiegand, W. Samek, Full-reference image",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                305.8070068359375,
+                133.48968505859375,
+                557.7009887695312,
+                148.43377685546875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "92f77fee0abb7b3c309f8de18a0a05ce",
+        "text": "quality assessment using neural networks, in: Int. Work. Qual. Multimed. Exp., 2016.\n[22] P. Kovesi, Phasecongruency: A low-level image invariant, Psychol. Res. 64 (2000)",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                305.8070068359375,
+                150.62567138671875,
+                557.7120361328125,
+                165.56976318359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "dd9d4a16aa78707aea37744b8a91f361",
+        "text": "136–148.\n[23] P.D. Kovesi, MATLAB and octave functions for computer vision and image pro-",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                305.8070068359375,
+                167.76165771484375,
+                557.70751953125,
+                182.70574951171875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f83fd479ef5619e7522c73afc4507486",
+        "text": "cessing, centre for exploration targeting, School of Earth and Environment, The\nUniversity of Western Australia. Available from http://www.csse.uwa.edu.au/~pk/\nresearch/matlabfns/.\n[24] M.C. Morrone, J.R. Ross, D.C. Burr, R.A. Owens, Machbands are phase dependent,",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                305.8070068359375,
+                184.89666748046875,
+                557.7135620117188,
+                216.97674560546875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e3810cd9572e7d29e55453c3927c4106",
+        "text": "Nature 324 (6094) (1986) 250–253.\n[25] A. Haar, Zur Theorie der orthogonalen Funktionensysteme, Math. Ann. 69 (3) (1910)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                305.8070068359375,
+                219.16864013671875,
+                557.7008056640625,
+                234.11273193359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7c11471c7f90a7b9531aa5a8e47d20e0",
+        "text": "331–371.\n[26] N. Ponomarenko, V. Lukin, A. Zelensky, K. Egiazarian, M. Carli, F. Battisti, TID2008",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                305.8070068359375,
+                236.30462646484375,
+                557.70703125,
+                251.24871826171875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8ecdfbb1c958968a7f3ffb8fcc792370",
+        "text": "— a database for evaluation of full-reference visual quality assessment metrics, Adv.\nMod. Radioelectron. 10 (2009) 30–45.\n[27] N. Ponomarenko, L. Jin, O. Ieremeiev, V. Lukin, K. Egiazarian, J. Astola, B. Vozel,",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                305.8070068359375,
+                253.43963623046875,
+                557.7119140625,
+                276.95172119140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8376c69137fa821fe0e91c00757a712c",
+        "text": "K. Chehdi, M. Carli, F. Battisti, C.-C.J. Kuo, Image database TID2013: Peculiarities,\nresults and perspectives, Signal Process., Image Commun. 30 (2015) 57–77.\n[28] H.R. Sheikh, Z. Wang, L. Cormack, A.C. Bovik, LIVE Image Quality Assessment",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                305.8070068359375,
+                279.14361572265625,
+                557.7073974609375,
+                302.65570068359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2a38d701612a7ce44830d1e1226ee913",
+        "text": "Database Release 2. Available from http://live.ece.utexas.edu/research/quality.\n[29] International Telecommunication Union, ITU-T P.1401, Methods, metrics and pro-",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                305.8070068359375,
+                304.84759521484375,
+                557.7073364257812,
+                319.79168701171875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "11274da558525b5865bb6901d93ae645",
+        "text": "cedures for statistical evaluation, qualification and comparison of objective quality\nprediction models, 2012.\n[30] E.C. Fieller, H.O. Hartley, E.S. Pearson, Tests for rank correlation coefficients. I,",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                305.8070068359375,
+                321.9825744628906,
+                557.7119140625,
+                345.4946594238281
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "57425612f869f4a008b5fc4d5f916a8c",
+        "text": "Biometrika 44 (3/4) (1957) 470–481.\n[31] S.E. Palmer, Vision Science: Photons to Phenomenology, Vol. 1, MIT Press,",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                305.8070068359375,
+                347.6865539550781,
+                557.700927734375,
+                362.6306457519531
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8a538b4ef66e174d5fc06e01fc891b4a",
+        "text": "Cambridge, MA, 1999.\n[32] V. Laparra, A. Berardino, J. Ballé, E.P. Simoncelli, Perceptually optimized image",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                305.8070068359375,
+                364.8225402832031,
+                557.7074584960938,
+                379.7666320800781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2b22f41860f6bde90a939d7184ec2bfc",
+        "text": "rendering, 2017. arXiv preprint arXiv:1701.06641.\n[33] D.H. Hubel, T.N. Wiesel, Sequence regularity and geometry of orientation columns",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                305.8070068359375,
+                381.9585266113281,
+                557.701171875,
+                396.901611328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "069f1014f4b49fb0059b31f5ebf4d821",
+        "text": "in the monkey striate cortex, J. Comp. Neurol. 158 (3) (1974) 267–293.\n[34] I. Daubechies, Orthonormal bases of compactly supported wavelets, Comm. Pure",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                305.8070068359375,
+                399.093505859375,
+                557.7010498046875,
+                414.03759765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5127fc3d9bd4585daa1d6511c4d88618",
+        "text": "Appl. Math. 41 (7) (1988) 909–996.\n[35] I. Daubechies, Ten Lectures on Wavelets, Society for Industrial and Applied Mathe-",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                305.8070068359375,
+                416.2294921875,
+                557.7009887695312,
+                431.173583984375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "792c83797eace8131be9a355d436ca10",
+        "text": "matics, 1992.\n[36] I. Daubechies, Orthonormal bases of compactly supported wavelets II: Variations on",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                305.8070068359375,
+                433.365478515625,
+                557.7073364257812,
+                448.3095703125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e05c2a1a666e231aedcd938b4a1a0ea3",
+        "text": "a theme, SIAM J. Math. Anal. 24 (2) (1993) 499–519.\n[37] A. Cohen, I. Daubechies, J.-C. Feauveau, Biorthogonal bases of compactly supported",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                305.8070068359375,
+                450.50146484375,
+                557.7137451171875,
+                465.4445495605469
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0b2003e42558c6237c085f685a8101d2",
+        "text": "wavelets, Comm. Pure Appl. Math. 45 (5) (1992) 485–560.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0923596517302187-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                322.364013671875,
+                467.6364440917969,
+                489.3604431152344,
+                474.0125427246094
+            ],
+            "is_full_width": false
+        }
+    }
+]

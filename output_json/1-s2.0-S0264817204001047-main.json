@@ -1,0 +1,1769 @@
+[
+    {
+        "element_id": "551b9991de3773b422161b9e329c2b51",
+        "text": "Marine and Petroleum Geology 21 (2004) 1013–1025",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                206.58889770507812,
+                149.68392944335938,
+                380.5506896972656,
+                157.6541290283203
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0ac78967d1ad6b3a619e7caf04ac83a2",
+        "text": "Mechanism of thin-skinned detachment in the Amazon Fan: assessing\nthe importance of ﬂuid overpressure and hydrocarbon generation",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                52.49760055541992,
+                201.38665771484375,
+                534.5294189453125,
+                238.27923583984375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1faff68df21442bc1f047ed2ff799a65",
+        "text": "P.R. Cobbolda,*, R. Mourguesa, K. Boydb",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                183.4582061767578,
+                251.6239471435547,
+                403.6912536621094,
+                267.47900390625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8b498b6705d004c2c396f88b5758888d",
+        "text": "aGe´osciences-Rennes (UMR6118 du CNRS), Universite de Rennes, Campus de Beaulieu, Avenue du General-Leclerc, 35042 Rennes, France\nbBrazil Deepwater Exploration, BP, Sunbury-on-Thames, UK",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                65.8770980834961,
+                276.18023681640625,
+                521.3180541992188,
+                296.29998779296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "00b6f293b4eaf3ecb5e6d1e174f17988",
+        "text": "Received 25 September 2003; received in revised form 9 May 2004; accepted 15 May 2004",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                144.4536590576172,
+                304.3423767089844,
+                442.71875,
+                312.31256103515625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8af8bb18fdbdc4ae8205b318a024a8e4",
+        "text": "Abstract",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                344.10284423828125,
+                75.82950592041016,
+                353.06915283203125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f4442ca1481580a36977d692d3a9d67b",
+        "text": "Since about 10 Ma, a wedge of clastic sediment up to 10 km in thickness has accumulated near the mouth of the Amazon River, forming\nthe Amazon Fan. Thin-skinned extensional and contractional structures root into a common basal detachment, hundreds of kilometers long.\nExtensional faults have formed landward of the prograding delta slope and contractional folds and faults have formed seaward of it. By plan-\nview restoration, we show that extension and contraction balance. We therefore infer that slope instability has provided the driving force for\nthin-skinned deformation.\nOn seismic data, the detachment appears as a sharp surface within Late Cretaceous strata. However, there is no evidence at that level for\nsoft layers, such as evaporites or muds. Abnormal ﬂuid pressure provides a more reasonable mechanism for the detachment. At depths of\nseveral thousand meters, deep wells have encountered ﬂuid overpressures.\nAmongst the possible causes of abnormal ﬂuid pressures are compaction and hydrocarbon generation. Although compaction may have\ncontributed to ﬂuid overpressures encountered in wells, we argue that hydrocarbon generation provides the best explanation for detachment\nin Cretaceous rocks, which were old and lithiﬁed when it occurred. In particular, the broadly triangular area of detachment coincides with an\ninferred pod of Cenomanian–Turonian source rock, which is interpreted to have been in the gas window during detached deformation.\nWe have developed new techniques of sandbox modelling to investigate the geometries of fault patterns produced by ﬂuid ﬂow through\nporous media. For the Amazon Fan, we have been able to reproduce the structural pattern, on the assumption that ﬂuid overpressures existed\nover a broadly triangular area beneath the detachment.\nq 2004 Elsevier Ltd. All rights reserved.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                360.16619873046875,
+                544.6461181640625,
+                533.962158203125
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "2d7368d45eece6986f16896145e54754",
+        "text": "Keywords: Amazon Fan; Thin-skinned detachment; Slope instability; Fluid overpressure; Hydrocarbon generation",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                541.4068603515625,
+                411.2708435058594,
+                549.4588012695312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0f44b07c0d19c91ddb5cd52f21a4b1d4",
+        "text": "1. Introduction",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                587.174560546875,
+                107.22380065917969,
+                597.1371459960938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5aedb4efea557c33b6b36786e15250d3",
+        "text": "Fan, in water depths of 100–3000 m (Damuth, 1975; Flood\n& Piper, 1997; Mickelsen, Maslin, Giraudeau, & Showers,\n1997). The surface of the Upper Fan is remarkably conical\nand has a good degree of bilateral symmetry about an axis\nthat coincides with the submarine Amazon Channel and\ndeeply incised Amazon Canyon. Under the concentrated\nweight of the fan, the lithosphere has deﬂected (Driscoll &\nKarner, 1994), forming a depression much like the imprint\nof a human heel.\nIn the last few decades, the Ocean Drilling Program has\nprovided a wealth of information on the shallow structure,\nsedimentary environments and biostratigraphic age of the\nAmazon Fan (Flood & Piper, 1997; Damuth & Kowsmann,\n1998; Mickelsen et al., 1997). However, the deeper structure\nhas remained more elusive. Although the Amazon Fan is\nlocated on a passive margin, it contains a variety of internal",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                305.51739501953125,
+                587.258544921875,
+                544.6427612304688,
+                781.8101806640625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8c693d9124e40dabd53b3d8af7882929",
+        "text": "The submarine Amazon Fan or Amazon Cone (Foz do\nAmazonas, in Portuguese) lies off the NE coast of Brazil,\nnear the mouth of the Amazon River (Fig. 1). Prior to\n10 Ma, the headwaters of this river ﬂowed northward to the\nCaribbean margin, from a source area in the Andean\nforeland. Then, for some unknown reason, possibly tectonic,\nit diverted to its present eastward course, ﬂowing into the\nAtlantic Ocean.\nSince about 10 Ma, up to 10 km of clastic sediment has\naccumulated in the Amazon Fan, at an average rate of up to\n1 mm/yr. Although the Lower Fan reaches water depths of\nmore than 4000 m, most of the sediment underlies the Upper",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                611.2962646484375,
+                281.6199645996094,
+                752.898681640625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b1554f9b803dbe0c6b437f377e7da53b",
+        "text": "* Corresponding author. Tel.: þ33-223-236096; fax: þ33-223-236100.\nE-mail address: peter.cobbold@univ-rennes1.fr (P.R. Cobbold).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                46.48820114135742,
+                766.2192993164062,
+                279.6668701171875,
+                784.9612426757812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bc5b7073704c7802f3585f8ad36ec249",
+        "text": "www.elsevier.com/locate/marpetgeo",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                427.6918029785156,
+                160.11532592773438,
+                544.6951293945312,
+                168.0855255126953
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "006442bd03be95ab43ed42c08f039ed3",
+        "text": "P.R. Cobbold et al. / Marine and Petroleum Geology 21 (2004) 1013–1025\n1014",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                50.6268310546875,
+                95.68489074707031,
+                423.7503662109375,
+                103.73683166503906
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "26d834117009ededbed79ebef9df6f1f",
+        "text": "Fig. 1. Amazon Fan, NE Brazil. Inset (bottom right) shows general location. Sea-bottom contours (labelled in metres) deﬁne conical upper surface to fan. Axis\nof bilateral symmetry (dashed line) trends NE–SW. Area of available data (dashed square) encloses polygonal exploration blocks, BFZ-2 and BM-FZA-1,\nestablished by Brazilian National Petroleum Agency (ANP) during licensing rounds 0 and 1. Of the 51 wells (circles), only 1-BP-2-APS and 1-BP-1A-APS are\nin waters deeper than 500 m. Regional seismic proﬁles (white bars), three in each block, trend almost parallel to fan axis.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                50.626800537109375,
+                732.8270874023438,
+                552.8148193359375,
+                770.6743774414062
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "8422ed4e314b902bafc383f884ff594f",
+        "text": "P.R. Cobbold et al. / Marine and Petroleum Geology 21 (2004) 1013–1025\n1015",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                171.55270385742188,
+                95.68727111816406,
+                544.6593017578125,
+                103.73921203613281
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d8d80831bf3cd46ac4642c509741d8c0",
+        "text": "hydrates (Sad, Silveira, & Silva, 1998). Silva and da Maciel\n(1998) showed (1) an interpreted seismic proﬁle, about\n300 km long across the entire Amazon Fan (although at a\nscale of about 1:4,000,000, so that details are obscure); (2) a\nlithospheric proﬁle, based on gravity data and modelling;\nand (3) subsidence proﬁles for the time interval since\n115 Ma. The lithospheric proﬁle has the bulk of the Amazon\nFan resting on thinned crust of the continental margin, rather\nthan on oceanic crust.\nSince 1998 and 1999, BP (operator) and partners have\nexplored blocks BFZ-2 and BM-FZA-1 (Fig. 1), acquir-\ning additional seismic proﬁles and 3D seismic surveys,\nand drilling two deepwater wells. Well 1-BP-2-APS\n(under 967 m of water, Block BFZ-2), had shows of\ngas and oil, reported in April and July 2001 (ANP\nWebsite).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                305.51739501953125,
+                117.61173248291016,
+                544.6375732421875,
+                307.06256103515625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6ea7614837e95ecec2a163defd360499",
+        "text": "structures, including faults and folds. These are thin-skinned\nand root into a common detachment. They appear to have\nresulted mainly from slope instability, under the action of\ngravitationally induced stresses. The detached area is\nhundreds of kilometers wide and some of the folds have\namplitudes of several kilometres, yet little information on\nthem has hitherto reached the public domain.\nIn this paper, we describe the results of a study of the\nthin-skinned structures in the Amazon Fan. As well as\ndescribing structural styles, our objective was to identify the\ncauses of detachment, including the possible roles of ﬂuid\noverpressure and hydrocarbon generation. To gain further\nmechanical insights, we have done experiments on granular\nmaterials, in which pore ﬂuids migrate down overpressure\ngradients.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                117.6144790649414,
+                281.638916015625,
+                294.98968505859375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1a0a0297e40e41ee5a83b8d0bc923196",
+        "text": "2. History of exploration",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                308.98095703125,
+                148.33148193359375,
+                318.9435729980469
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d2953a8c7e5c53c5157d3033eeac4e78",
+        "text": "3. Data",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                305.5184326171875,
+                323.2077331542969,
+                336.4393310546875,
+                333.17034912109375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9e3ddb87e4e82e6c561529facdb3cde4",
+        "text": "What is known about the deep structure of the Amazon\nFan is mainly a result of petroleum exploration.\nIn the 1970s and 1980s, the Brazilian state oil company,\nPetrobras, and foreign companies under risk contracts,\nstarted systematic exploration of the area. From early\nresults, Schaller (1971) described the stratigraphic\nsequences of the Foz do Amazonas Basin. Out of a total of\n51 wells, most were on the shelf (Fig. 1); but well 1-APS-\n51A (drilled by Exxon in 1982 in 438 m of water)\npenetrated nearly 4000 m of Amazon Fan sediment\n(Branda˜o & Feijo´, 1994, their Fig. 8.7). One of the ﬁrst\nseismic proﬁles to be released was across the upper part of\nthe fan (Petrobra´s, 1984). It revealed listric growth faults\nand associated rollover anticlines in an extensional domain\nabout 25 km long and 4 km deep. Subsequently, Figueiredo\n(1985) published a geological sketch map of the Amazon\nFan and surrounding area, as well as a longer seismic proﬁle\n(about 70 km) across the domain of growth faults. In 1976,\nPetrobras discovered a sub-commercial accumulation (Pir-\napema) with estimated recoverable reserves of some 880 bcf\nof gas (Figueiredo, 1985). As part of a synthesis of salt and\nshale tectonics around the Brazilian continental margin,\nSchaller and Dauzacker (1986) described another seismic\nproﬁle (89-RL-49), running about 15 km across the\nextensional domain. These authors attributed extensional\nstructures to slope instability, ﬂuid overpressures and\nassociated shale tectonics. Finally, from Petrobras data,\nBranda˜o and Feijo´ (1994) produced a detailed chronostrati-\ngraphic chart of the Foz do Amazonas Basin and described\nintervals from ﬁve key wells (1-APS-1, 1-APS-18, 1-APS-\n21, 1-APS-29 and 1-APS-51A).\nIn the 1990s, Brazil opened exploration to foreign\ncompanies, under the auspices of the Brazilian National\nPetroleum Agency (ANP). This led to widespread interest in\nthe Amazon Fan and its possible deep-water plays.\nRecent reviews have considered possible source rocks\n(Advocate et al., 1998), histories of subsidence and\nmaturation (Silva & da Maciel, 1998), and shallow gas",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.518714904785156,
+                332.9890441894531,
+                281.6429443359375,
+                785.4356689453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "57b527991c8b0343697f29e5b84d0229",
+        "text": "For our study, we had access to (1) seismic data, (2) well\ndata, (3) biostratigraphic ages (mainly from nannofossils)\nfrom 8 wells, and (4) a geochemical evaluation of\nhydrocarbon seeps, oil and gas shows from well 1-BP-2-\nAPS, and potential source rocks.\nThe seismic data included both 2D proﬁles and 3D\nvolumes. The total line length of 2D seismic proﬁles was\nmore than 10,000 km. Petrobras shot the older proﬁles and\nthe ANP provided them to BP. Western Geophysical shot\nmore recent proﬁles, some for BP and some as speculative\ndata. The 3D seismic data were acquired for BP over an area\nof 6000 km2.\nCharacteristic seismic reﬂectors were identiﬁed, dated,\nand correlated across the area of study. They were then used\nto generate regional maps, showing depth contours for each\nreﬂector and thickness contours for selected intervals.\nTravel times were converted to approximate depths, using\nvelocity data from wells.\nOf the original seismic proﬁles, six were converted to\ntrue depth and used to study the shapes of structures. The\nproﬁles trend northeast, almost parallel to the axis of the\nAmazon Fan (for location, see Fig. 1). In what follows we\nwill refer to two of them (Fig. 2).\nOf the regional maps we have made simpliﬁed versions\n(Fig. 3), showing a limited number of contours. The maps\nare for (1) depth to the top Miocene, (2) depth to the basal\ndetachment, (3) thickness of source rock, and (4) depth to\nthe top of pre-rift basement.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                305.51837158203125,
+                347.3293762207031,
+                544.6657104492188,
+                680.3311767578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "958cc700bb3a40a296bb906fa76de927",
+        "text": "4. Regional stratigraphy and structure",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                305.51837158203125,
+                703.5069580078125,
+                471.32183837890625,
+                713.4695434570312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e714f5a9b217baed4698b5d4982794b5",
+        "text": "In discussing the regional stratigraphic sequences and\nstructure of the area, it is convenient to consider ﬁrst the fan\nitself and then what lies under and around it.\nThe base of the Amazon Fan succession (dated at\napproximately 10 Ma) is up to 10 km deep, implying an",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                305.51837158203125,
+                727.6286010742188,
+                544.6138916015625,
+                785.4395751953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5dada167e788f5921826d83687e1551e",
+        "text": "P.R. Cobbold et al. / Marine and Petroleum Geology 21 (2004) 1013–1025\n1016",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                50.62681579589844,
+                95.68458557128906,
+                423.75030517578125,
+                103.73652648925781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1a77f814d694ee3c87b4ce6fa35ba245",
+        "text": "average rate of accumulation of as much as 1 mm/yr (Fig. 2).\nThe base of the Pliocene (5.2 Ma) reaches a depth of 5 km.\nLocally, however, rates have been as fast as 25 mm/yr\n(Flood & Piper, 1997). The deposits (Fig. 4) include\nshoreline facies (Tucunare´ Formation) to deepwater facies\n(Orange Formation). Although much of the fan is mud-rich,",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                50.62583923339844,
+                117.6144790649414,
+                289.7271423339844,
+                187.67138671875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f60526b2d82f0b0d2f3ca846570c52fd",
+        "text": "Fig. 3. Simpliﬁed maps of depth to top Miocene (A), depth to detachment (B), thickness of Cenomanian–Turonian source rock (C), and depth to top of\npre-rift basement (D). Outer box encloses area of available data (see Fig. 1). Key (A, top right) indicates depth below sea level in km. Black contours (B,\nC, D) are also in km below sea level. Thick black lines indicate mapped limits of detachment (B) or of source rock (C). Bathymetry (grey contours) is in\nm (as in Fig. 1).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                50.626800537109375,
+                744.7892456054688,
+                552.7840576171875,
+                782.6365966796875
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "ba12607dd935474209f4b6a4e292e1d0",
+        "text": "the Ocean Drilling Program (ODP), shallow seismic\nproﬁling, and high-resolution sonar images of the sea ﬂoor\nhave shown that sand is an important component of the fan,\nmaking up channel-ﬁll, base-of-channel, and lower-fan\ndeposits (Damuth & Kowsmann, 1998; Flood & Piper,\n1997).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                313.62353515625,
+                117.6143569946289,
+                552.7210083007812,
+                187.614501953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "828a6079751346df36e2ccb239ba33f0",
+        "text": "P.R. Cobbold et al. / Marine and Petroleum Geology 21 (2004) 1013–1025\n1017",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                171.55319213867188,
+                95.68531799316406,
+                544.6597900390625,
+                103.73725891113281
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6559aa4ef838456b7ee21c6902b8a7a8",
+        "text": "Fig. 3 (continued)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                263.96209716796875,
+                664.6571655273438,
+                323.1966247558594,
+                672.7091064453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1760023e0a9ce7b1497795746c0f0380",
+        "text": "(Figueiredo, 1985). On the equatorial margin of Brazil,\nrifting had a component of right-lateral wrenching and pull-\napart grabens have triangular or rhombohedral shapes (Fig.\n3D). Unconformably overlying the rift strata is a transgres-\nsive sequence of Cenomanian–Turonian deep-water mud-\nstones and siltstones (lower Limoeiro Formation; Schaller,\n1971). Deposited under anoxic marine conditions, this",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                305.5174865722656,
+                700.5846557617188,
+                544.612060546875,
+                784.361083984375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "044976db73fc13781c3c795730d1a1e9",
+        "text": "Beneath the Amazon Fan succession are other strati-\ngraphic sequences, more regional in extent and more typical\nof a passive margin (Figs. 2 and 4). Above a Precambrian to\nTriassic basement, Barremian to Albian ﬂuvio-deltaic and\nlacustrine strata (Cacipore´ Formation) inﬁll a series of half-\ngraben, which formed during a period of continental\nrifting that preceded opening of the Equatorial Atlantic",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.519805908203125,
+                700.5875854492188,
+                281.6081848144531,
+                784.361083984375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "659bd101dd6a0abd3d64abf9ba0982c0",
+        "text": "P.R. Cobbold et al. / Marine and Petroleum Geology 21 (2004) 1013–1025\n1018",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                50.626800537109375,
+                95.68476867675781,
+                423.75030517578125,
+                103.73670959472656
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "301154563695c5881a01c90df9edc0f9",
+        "text": "sequence is a recognized source interval of regional extent\n(Advocate et al., 1998; Silva & Maciel, 1998). Above the\nmudstones is a prograding platform sequence of sandstones\nand siltstones (upper Limoeiro Formation) of broadly Late\nCretaceous age (Coniacian to Palaeocene). The sands form\npotential reservoir rocks. From the Palaeocene to the\nMiocene, a stable carbonate platform developed on\nthe shelf (Amapa´ Formation). Laterally equivalent calcilu-\ntites and monotonous deep-water mudstones (Travosas",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                50.62580108642578,
+                117.6144790649414,
+                289.73406982421875,
+                225.82427978515625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "009dc3c831969ac2cccd96dbe5d54a76",
+        "text": "Fig. 4. Chronostratigraphic chart, Foz do Amazonas Basin (modiﬁed after Branda˜o & Feijo´, 1994). Amongst possible source rocks (diamonds containing letter\nS), Cenomanian–Turonian interval is best deﬁned. For further description, see text.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                50.626800537109375,
+                766.6158447265625,
+                552.751220703125,
+                784.904296875
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "1f941ed736b7fc0dd12c13b980286562",
+        "text": "Formation) provide potential seals for underlying sand\nreservoirs.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                313.62347412109375,
+                117.6135025024414,
+                552.6909790039062,
+                139.5382080078125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "06595508c28d4e2e52d9bca8db5c4b4b",
+        "text": "5. Thin-skinned structures",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                313.62347412109375,
+                155.96730041503906,
+                427.3086853027344,
+                165.9298858642578
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e9535be5b08736f9c443eab3a782217a",
+        "text": "In the Amazon Fan, thin-skinned structures root into a\nbasal detachment surface that is as deep as 10 km (Figs. 2\nand 3). To a ﬁrst approximation, the structures that lie in less\nthan 500 m of water depth are predominantly extensional,",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                313.62347412109375,
+                179.9753875732422,
+                552.7448120117188,
+                225.82427978515625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "be21ceb930ad1f6c0b2ec4a8ea3fdc3e",
+        "text": "P.R. Cobbold et al. / Marine and Petroleum Geology 21 (2004) 1013–1025\n1019",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                171.55270385742188,
+                95.68727111816406,
+                544.6593017578125,
+                103.73921203613281
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6b36aac44614db49966292cc61a47431",
+        "text": "the Amazon Fan. The contraction concentrated in one\narea, forming a large anticlinal stack (Fig. 2). In post-\nPliocene\ntimes,\nthis\nanticline\nwent\ninto\nextension,\nprobably when it became part of the shelf, once the\nUpper Fan had prograded over it.\nDespite differences in timing, a single sharp detachment\nsurface underlies both the extensional and contractional\ndomains, as well as the relatively undeformed domain\nbetween them (Fig. 3B). Depth to the detachment is greatest\nunder the upper fan, where sediment thickness is greatest.\nMore generally, depth contours have an element of bilateral\nsymmetry about the axis of the fan. This is because the\ndetachment is stratigraphically controlled (near the top\nCretaceous), so that the contours reﬂect depth of burial\nunder the fan. In contrast, the area of detachment is\nasymmetric with respect to the fan, as are the overlying\nstructures. In the northwest block, the area of detachment is\nwide and its seaward edge has a convex frontal lobe. In\nthe southeast block, the detachment area tapers. We infer\nthat this asymmetry reﬂects factors other than the weight of\nthe fan.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                305.51739501953125,
+                117.61356353759766,
+                544.6318359375,
+                366.7613525390625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bb6c9decff51e3d30536cd02dad7e785",
+        "text": "whereas those between 1000 and 1500 m of water depth are\ncontractional.\nThe extensional domain contains listric normal faults,\nstratigraphic wedges and rollover anticlines. Most listric\nfaults dip seaward. However, large rollovers occur between\nconjugate pairs of faults, dipping landward and seaward.\nMost of the listric faults root into a detachment that is close\nto top Cretaceous, but some root into a shallower\ndetachment that is close to the base of the Amazon Fan\nsuccession.\nThe contractional domain contains folds and thrust\nfaults, most of which verge seaward. Strata onlapping the\nfold limbs provide evidence for coeval sedimentation and\ncontraction. In the cores of major anticlines, structural\ncomplexity and lack of seismic resolution make for difﬁcult\nand ambiguous interpretation. However, most structures\nappear to root into a sharp detachment near the top\nCretaceous.\nFor the top Miocene, a remarkable feature of the\nstructural pattern is its lack of bilateral symmetry\n(Fig. 3A). Structures in the northwest half of the fan\n(exploration block BFZ-2) are different from those in the\nsoutheast half of the fan (block BM-FZA-1). In the\nnorthwest block, the area of thin-skinned structures is\nabout 200 km wide. To account for observed variations in\nstratigraphic thickness, most of the deformation must have\noccurred during deposition of the Amazon Fan. Extensional\nstructures are slightly concave seawards. In contrast, the\nleading seaward edge of contractional structures is a lobe,\nconvex seawards. All around the lobe, the top Miocene has\nbeen uplifted in the hanging walls of reverse faults. On its\nﬂanks, faults are steep and may have strike-slip components.\nIn its hinge, thrusts break through to the current sea ﬂoor,\ncausing noticeable relief on 3D seismic images of the\nseabed. In places, canyons cut through hanging wall\nanticlines. Locally, the top Miocene reaches the sea ﬂoor\nalong a relatively steep ramp. As no corresponding ﬂat is\nvisible above Pliocene or Pleistocene sediment, we infer\nthat it must have been removed by erosion.\nThere is good evidence that these thin-skinned structures\nare due to slope instability, under the action of gravitation-\nally induced stresses, as suggested by Schaller and\nDauzacker (1986).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969528198242,
+                117.6144790649414,
+                281.62701416015625,
+                630.7233276367188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3742ba04798d8da33a8d2778a786d491",
+        "text": "6. Restoration in map view",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                305.51837158203125,
+                392.65789794921875,
+                421.3963317871094,
+                402.6205139160156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "798d3bec79a55302e733349a29732a72",
+        "text": "We have used a simple method of kinematic restoration\nin map view (Rouby et al., 1993) to obtain the displacement\nﬁeld for selected points at the top Miocene (Fig. 5).\nOn a map, fault heaves show as lenses (Fig. 3A),\nrepresenting stratigraphic gaps (for extensional faults) or\noverlaps (for contractional faults). Because of doubtful\ninterpretation, overlaps are almost certainly underestimated,\nboth in number and in width. Although fault lenses may be\nisolated, it requires little extrapolation to make them\ninterconnect. At this stage, the top Miocene is visible as a\nseries of discrete fault blocks (Fig. 5A). Restoration is then a\nsimple matter of closing the gaps and undoing the overlaps,\nin such a way as to minimize all misﬁts. For the Amazon\nFan, we have done this manually, assuming that the\nsurrounding area did not deform, and paying attention\nmore to closing the gaps than to undoing the overlaps. The\noperation results in a good ﬁt, except in the areas of overlaps\n(Fig. 5B). On comparing block patterns in the current and\nrestored states, we obtain displacement vectors for selected\nmaterial points.\nThe overall displacement pattern is noticeably asym-\nmetric about the axis of the Amazon Fan. Most vectors\ntrend nearly north–south, highly oblique to the symmetry\naxis of the fan, but nearly parallel to the axis of the main\nfrontal lobe. The largest values of displacement (about\n35 km) occur within that lobe. They decrease abruptly\nacross\nthe\nmain\nﬂanking\nfaults,\nproving\nstrike-slip\ncomponents (right-lateral in the northwest and left-lateral\nin the southeast).\nFrom\nthe\nresults\nof\nmap-view\nrestoration,\nit\ncan be seen that it would be dangerous to restore",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                305.51837158203125,
+                416.7227783203125,
+                544.6427001953125,
+                785.4346923828125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f02cb4cf5decbab7781f1825a18367df",
+        "text": "1. Extensional and contractional structures are linked and\nroot into a common ﬂat-lying detachment surface.\n2. The extensional domain is near the top of the slope,\nwhereas the contractional domain is near the toe of the\nslope.\n3. On regional proﬁles, the total amount of extension is\nbroadly equivalent to the amount of contraction.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                644.9120483398438,
+                281.6200256347656,
+                726.7039794921875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "85dd5c7451475c49e233a5d134eb8cb8",
+        "text": "In the southeast block, the area of thin-skinned\nstructures is no wider than 50 km. To account for\nvariations in underlying stratigraphic thickness, some of\nthe deformation must have occurred before deposition of",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                739.5318603515625,
+                281.6120300292969,
+                785.4375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e5dde82f2042015cfec2c809ae120813",
+        "text": "P.R. Cobbold et al. / Marine and Petroleum Geology 21 (2004) 1013–1025\n1020",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                50.626800537109375,
+                95.68513488769531,
+                423.75030517578125,
+                103.73707580566406
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9894f9b2098aed7718de4ea2ac36abc8",
+        "text": "Fig. 5. Restoration in map view of top Miocene marker. Maps show fault blocks (grey) in current state (A) and restored state (B). Restoration is by minimizing\ngaps (white strips) and overlaps (dark grey) between blocks. Displacement vectors for selected material points (thick black lines, B) have been obtained by\nsuperposing the two maps. Bathymetry (grey contours) is in m (as in Fig. 1).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                50.626800537109375,
+                665.0790405273438,
+                552.8339233398438,
+                692.948486328125
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "259ebc6b3feff18d3ac9ea2731d28aec",
+        "text": "northeast-trending\nregional\nsections\nalone,\non\nthe\nassumption that all deformation has been within those\nplanes of section. In Proﬁle 5, the contractional domain\nis close to a lateral edge of thin-skinned deformation.\nDisplacement vectors are strongly oblique to the section\nand the amount of in-plane horizontal contraction is",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                50.626800537109375,
+                703.4221801757812,
+                289.74603271484375,
+                774.8939208984375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "73191b7fa8433b32530922a3bac53dba",
+        "text": "deceptively small. The resulting structures reﬂect wrench-\ning, rather than thrusting. In contrast, the extensional\ndomain is not close to a lateral edge. The amount of\nhorizontal\nextension is therefore large. Clearly, the\namounts of extension and contraction do not balance\nproperly in these vertical sections.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                313.6244812011719,
+                703.4202270507812,
+                552.7329711914062,
+                774.8919067382812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1d0197cad528b663c3071251c6fbeae5",
+        "text": "P.R. Cobbold et al. / Marine and Petroleum Geology 21 (2004) 1013–1025\n1021",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                171.55270385742188,
+                95.68727111816406,
+                544.6593017578125,
+                103.73921203613281
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d478b75479989dfbed0cbb1edd847477",
+        "text": "7. Possible causes of detachment",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                117.53058624267578,
+                181.66835021972656,
+                127.4931869506836
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7311c467d2f420c21cb9f2a1b52fc8d2",
+        "text": "1. Several wells have encountered signiﬁcant ﬂuid over-\npressures. For two wells on the shelf, the pressure gradient\nbecame equal to about two thirds of the difference\nbetween lithostatic and hydrostatic gradients, at depths\nbelow 3000 m; whereas for one well further offshore (1-\nAPS-51A), overpressure set in at shallow depths (Fig. 6).\nFor two wells even further offshore (1-BP-2-APS and 1-\nBP-1A-APS), similar overpressures appeared at shallow\ndepths and persisted down to several kilometres below the\nsea ﬂoor (data not shown).\n2. The thin-skinned detachment is a sharp discontinuity,\nrather than a layer of ﬁnite thickness.\n3. The leading edge of thin-skinned deformation does not\ncoincide with any obvious changes in lithological\ncomposition.\n4. The host rock for the detachment (Late Cretaceous\nsandstone) may be porous enough to act as a reservoir\nfor overpressured ﬂuid.\n5. Overlying Tertiary mudstones may provide a good\nregional seal.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                305.5163879394531,
+                117.61173248291016,
+                544.7073974609375,
+                355.98956298828125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a520ebec601660c3e0963d029085123e",
+        "text": "From the shape of the Amazon Fan we infer that\ndetachment was remarkably efﬁcient.\nThe sedimentary wedge containing thin-skinned struc-\ntures is less than 10 km thick and as much as 300 km long\n(Fig. 2). Its upper boundary (the sea bottom) slopes seaward\nat no more than 28, whereas its lower boundary (the\ndetachment) is nearly horizontal, or even slopes landward at\nfractions of a degree. In other words, the sedimentary wedge\nhas a very small angle of taper. For such a slim wedge and\nassuming a frictional material, a mechanical analysis of\nstresses at equilibrium leads to the inevitable conclusion\nthat basal shear stress is very small, in comparison with the\nweight of overlying sediment (for details, see Dahlen,\n1990).\nWhat induced such small shear stresses at the base of the\nAmazon Fan? What caused the detachment to form where it\ndid? Various possibilities come to mind.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.518699645996094,
+                141.53868103027344,
+                281.6388854980469,
+                342.78131103515625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b08cafb15aca81c5cea291a1a9eb8443",
+        "text": "7.1. Salt",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51871109008789,
+                356.697509765625,
+                76.05182647705078,
+                366.6601257324219
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ab50be44bdd8c9a210457d6bd52d036f",
+        "text": "Worldwide, perhaps the commonest cause of thin-\nskinned detachment is a layer of weak salt. Was this the\ncause of detachment in the Amazon Fan?\nThe answer is probably no, for the following reasons.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51871109008789,
+                380.723876953125,
+                281.6190185546875,
+                426.5727844238281
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cbb765a1c5fc2bd54820cd02b4283400",
+        "text": "8. Possible causes of ﬂuid overpressure",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                305.51739501953125,
+                386.53466796875,
+                472.1677551269531,
+                396.4972839355469
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a4ef414bbfee7de571b460fa61232096",
+        "text": "If ﬂuid overpressure was the cause of detachment in the\nAmazon Fan, as seems likely from the evidence discussed\nabove, what processes could have generated it?\nFor sedimentary basins in general, the most likely causes\nof overpressure would appear to be compaction and\nhydrocarbon generation (Swarbrick, Osborne & Yardley\n2002). Which of these is most important in the Amazon Fan?",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                305.51739501953125,
+                411.3935546875,
+                544.67529296875,
+                493.4695129394531
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1b62e20c71176799b830980bfb62b6e1",
+        "text": "1. The thin-skinned detachment is not a layer, but a sharp\ndiscontinuity.\n2. No well has intersected Cretaceous salt.\n3. No reﬂections or features that are characteristic of salt\nhave been observed on the seismic data.\n4. In the cores of anticlines, seismic velocities are much\nslower than those found in salt.\n5. In the cores of anticlines, stratigraphic thickening is due\nto repetitions across thrusts, rather than to ductile\ndeformation.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51871109008789,
+                440.53436279296875,
+                281.64306640625,
+                558.0990600585938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "150decb84b1f3cac3170fd5609671de7",
+        "text": "8.1. Compaction",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                305.51739501953125,
+                509.7099914550781,
+                372.3285827636719,
+                519.672607421875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9f0efb60fda43706f9556922fed7f60e",
+        "text": "Compaction of ﬁne-grained, water-saturated sediment is\nheld to be the most common mechanism for generating ﬂuid\noverpressure in sedimentary basins, especially if sediment is\nyoung and has accumulated rapidly.\nIn the Amazon Fan, where sediment is younger than\n10 Ma and has accumulated at about 1 mm/yr, compaction\nwould seem a good mechanism for explaining overpressure.\nIndeed, it might well explain the overpressures encountered\nin wells down to several kilometres. However, it does not so\nreadily explain overpressure at the observed level of\ndetachment, for the following reasons.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                305.51739501953125,
+                534.587158203125,
+                544.6427001953125,
+                664.7953491210938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8746c22bfbad5990f86535d31e63f5b6",
+        "text": "7.2. Soft mud",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51871109008789,
+                572.0153198242188,
+                96.20118713378906,
+                581.9779052734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "64a728535dd386a2693983fd3ea85047",
+        "text": "A layer of soft mud, especially if it is overpressured, is\nanother good candidate for detachment. Is this what\nhappened in the Amazon Fan? Again, the answer is almost\ncertainly no, for the following reasons.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51871109008789,
+                596.0416870117188,
+                281.609130859375,
+                641.833740234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "570e726b4eaeb80524baa6f4b3640ddf",
+        "text": "1. The thin-skinned detachment is not a layer, but a sharp\ndiscontinuity.\n2. On the shelf, no well has intersected soft Cretaceous mud.\nInstead, the material is dry, lithiﬁed rock. This is hardly\nsurprising, because it is at least 70 million years old.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51871109008789,
+                655.7953491210938,
+                281.6936950683594,
+                713.6063232421875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "821eca6710fc59cfe8eecc5ebd2e46ff",
+        "text": "1. The detachment is up to 10 km deep and the host rocks\nare more than 70 million years old. They almost certainly\nbecame cemented and lithiﬁed, before deposition of the\nAmazon Fan.\n2. In wells on the shelf, equivalent rocks are indeed\ncemented and lithiﬁed.\n3. The detachment area is not bilaterally symmetric about\nthe Amazon Fan, as might be expected if ﬂuid over-\npressures were due to compaction in the fan itself.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                305.51739501953125,
+                679.380615234375,
+                544.6387939453125,
+                785.3806762695312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1e0658f04a925a5e73e6aebd458a49a8",
+        "text": "7.3. Fluid overpressure",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51871109008789,
+                727.5225219726562,
+                137.2291717529297,
+                737.485107421875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4a87c98009f80c215ba28a82c9752e97",
+        "text": "If there was no soft layer, the reason for detachment\nmight be ﬂuid overpressure. Indeed, several lines of\nevidence point in this direction.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51871109008789,
+                751.5488891601562,
+                281.65106201171875,
+                785.4356689453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "461c18c4da756466a8f317b56c900fb1",
+        "text": "P.R. Cobbold et al. / Marine and Petroleum Geology 21 (2004) 1013–1025\n1022",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                50.62677001953125,
+                95.68568420410156,
+                423.75030517578125,
+                103.73762512207031
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8d844450ae9f2fa25f038207ae7bda91",
+        "text": "Fig. 6. Pressure proﬁles for a cluster of three wells (1-APS-10B, 1-APS-53, and 1-APS-54A) near shelf edge and one well (1-APS-51A) further offshore. For\nlocations, see Fig. 1. Data points represent weight of drilling mud. They are assumed to indicate pore ﬂuid pressure in surrounding rock. Straight lines indicate\nnominal hydrostatic and lithostatic gradients.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                50.626766204833984,
+                471.1327209472656,
+                552.7979736328125,
+                499.0587158203125
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "d24c05a320e036ac02585c562422becc",
+        "text": "8.2. Hydrocarbon generation",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                50.626800537109375,
+                508.0697326660156,
+                168.68057250976562,
+                518.0323486328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8deb03f12778d58a4fb05f231af484d5",
+        "text": "Although hydrocarbon generation is perhaps not the most\npopular mechanism for generating overpressures, it has\nfound acceptance in speciﬁc cases.\nIn the Amazon Fan, we consider that hydrocarbon\ngeneration is likely to have been the major factor, for the\nfollowing reasons.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                50.626800537109375,
+                533.570556640625,
+                289.7071228027344,
+                603.8546752929688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b5e91eed64eeb62f58c9528707db74ec",
+        "text": "1. In well 1-BP-2-APS, there were shows of oil and gas\n(ANP Website). The gas has proven to be in part\nthermogenic. Thus a petroleum system is operating, or\nhas operated in the past.\n2. According to our own work, the geochemical signature\nof oil shows in wells 1-BP-2-APS and 1-APS-10B\n(Pirapema ﬁeld) is typical of a marine source rock and\ncorrelates with extracts from Cenomanian–Turonian\nmudstones in well 1-APS-29.\n3. The Cenomanian–Turonian source rock is regionally\nwidespread on the shelf (Advocate et al., 1998; Silva &\nda Maciel, 1998). From our seismic data, it appears to\nunderlie the entire area of thin-skinned structures and\ndetachment.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                50.626800537109375,
+                618.9500122070312,
+                289.7470703125,
+                785.4419555664062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "587b01bf7ead44ec269508db3d5eee71",
+        "text": "4. According to numerical modelling (Silva & da Maciel,\n1998; and our own results), Cenomanian–Turonian\nsource rocks should have reached the gas window by\nthe time that detachment was most active (about 6 Ma).\n5. The area of detachment coincides with that of the\ninferred source pod, both being asymmetric about the\nAmazon fan.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                313.62451171875,
+                508.1738586425781,
+                552.7459716796875,
+                590.13623046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1ee3adf7dcbf225a15df74c9f2bfd704",
+        "text": "We conclude that gas generation was probably the main\ncause of deep ﬂuid overpressure in the Amazon Fan.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                313.62451171875,
+                604.3817749023438,
+                552.7000122070312,
+                626.3632202148438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "158a4c474ed728a2cf767bed72014868",
+        "text": "9. Sandbox modelling of detachment in the Amazon Fan",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                313.62451171875,
+                654.5272216796875,
+                552.739990234375,
+                664.4898071289062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bf60e458f871a41cae91c1a2bf888e9a",
+        "text": "Sandbox modelling is a powerful method for studying the\ndevelopment of tectonic structures at various scales (for\nexample, see the thematic list of references in Cobbold\n& Castro, 1999). By a careful choice of model materials,\nthe dimensionless ratio between reference values of gravita-\ntional force and surface force (stress) can be made the same in\nexperiment as it is in nature, ensuring dynamic similarity.\nRecently, we have developed new experimental tech-\nniques, which allow for ﬂuid ﬂow through the pore spaces of",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                313.62451171875,
+                679.3294067382812,
+                552.8424682617188,
+                785.4429931640625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "22cf156fc407e1c93522dc5a02b0c689",
+        "text": "P.R. Cobbold et al. / Marine and Petroleum Geology 21 (2004) 1013–1025\n1023",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                171.552490234375,
+                95.68507385253906,
+                544.6590576171875,
+                103.73701477050781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c352fecdadd6896e03f1a10266c6e0ca",
+        "text": "granular materials, under the action of overpressure\ngradients (Cobbold & Castro, 1999). In this way, we have\nbeen able to study the behaviour of granular materials, under\nthe effects of seepage forces and very small effective\nstresses (Mourgues & Cobbold, 2003). In horizontally\nlayered models, if materials have different grain sizes and\ntherefore different permeabilities, vertical proﬁles of ﬂuid\npressure are kink-like. Beneath any one sealing layer of\nsmall permeability, ﬂuid pressure may attain a nearly\nlithostatic value, so that the effective normal stress is very\nsmall. The layer interface then slips easily, forming a sharp\ndetachment.\nFor practical reasons, compressed air has been used as a\npore ﬂuid. Following a ﬁrst application to thrust wedges\n(Cobbold, Castro, & Mourgues, 2001), we have started to\nmodel the effects of slope instability (Mourgues & Cobbold,\n2003).\nConsider a horizontally layered model, at the boundaries\nof which air pressure is atmospheric, except over a given\nbasal window, where it is nearly lithostatic. Air ﬂows from\nbottom to top, according to Darcy’s law. If the operator tilts\nthe model, it will slip along the interface where pore\npressure is closest to lithostatic. The area that slips is found\nto overlie the basal window (Mourgues & Cobbold, 2003).\nIn order to have basal windows of any required shape, we\nhave constructed a new apparatus for feeding air to the base\nof a model, from a reservoir at uniform pressure (Fig. 7). At\nits base, the reservoir receives compressed air through\na system of perforated plates, which diffuse the ﬂow. From\nthe reservoir, air ﬂows through a ﬁrst sieve, into a series\nof rectangular tubes, 5 cm wide. The model itself rests on\na second sieve, which allows compressed air to ﬂow\nthrough it.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51768493652344,
+                117.6144790649414,
+                281.6399230957031,
+                511.84039306640625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a6c42ffa4d96121fda1fd9790be56829",
+        "text": "Each rectangular tube contains a different preset thick-\nness of sand. The air pressure is constant in each tube, but\ndifferent from one tube to another. The pressure in each tube\ndepends on the thickness of sand within it and also on the\nthickness and permeability of the overlying model. For a\ngiven model, by pre-selecting the thickness of sand in each\ntube, it is possible to have any desired steady value of basal\nﬂuid pressure. By varying the thickness of sand, from one\ntube to another, it is possible to approximate, stepwise\nhorizontally, to any required distribution of ﬂuid pressure.\nWe use U-tube manometers to monitor the pressure in the\nbasal reservoir, as well as within ﬁve of the tubes.\nAssuming that the ratio, l; of ﬂuid overpressure to\nlithostatic pressure was uniform and steady over a source\npod under the Amazon Fan, we have modelled its horizontal\ndistribution to within a resolution of 5 cm in the model,\nwhich is equivalent to about 20 km in nature. We have\nassumed that the source pod was broadly triangular in shape,\nas in Fig. 3D.\nWe built a wedge-shaped model of layered quartz sand\n(Figs. 7 and 8). The three tapering layers were of different\ngrain sizes: 315 mm for the lowermost layer, 125 mm for the\nintermediate one and 200 mm for the uppermost layer. This\nensured that the maximum value of l was at the base of the\nintermediate layer, as in the experiments of Cobbold et al.\n(2001) and Mourgues and Cobbold (2003). At the surface of\nthe model we laid a marker grid of thin sand stripes, 2.5 cm\napart (Fig. 8).\nOnce the model was in place, we tilted it and the\nunderlying apparatus though an angle of 88. We then\nincreased the ﬂuid pressure in the reservoir. At a pressure of\n4.5 cm of water (measured in a U-tube), the model started to\nslip (Fig. 8A). It did so only over an area within the central",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                305.515380859375,
+                117.6153335571289,
+                544.6439208984375,
+                511.8980407714844
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ea973a1a79e7a40f84acfe6b1d14c881",
+        "text": "Fig. 7. Experimental apparatus (schematic longitudinal section). For details, see text.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                156.30230712890625,
+                776.9909057617188,
+                430.87432861328125,
+                784.9611206054688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8a562d03193da7ad8021debe89453875",
+        "text": "P.R. Cobbold et al. / Marine and Petroleum Geology 21 (2004) 1013–1025\n1024",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                50.626861572265625,
+                95.68568420410156,
+                423.7503662109375,
+                103.73762512207031
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "743b81940da3c078eb3e41dc64fa1430",
+        "text": "Fig. 8. Sandbox model of slope instability due to ﬂuid overpressure beneath Amazon Fan. Photographs of top surface illustrate four stages in progressive\ndevelopment of thin-skinned structures above a sharp basal detachment, for basal air pressures (expressed as height of equivalent column of water) of 4.5 cm\n(A), 4.7 cm (B), 4.9 cm (C) and 5.4 cm (D). Base and surface of model both slope toward top of page. Area of basal overpressure (within dashed black polygon)\nis comparable in shape to inferred Cenomanian–Turonian source pod beneath Amazon Fan (see Fig. 3D). Fault traces (white lines) are from scarps or offset\ngridlines at surface. Notice that slope instability spread little beyond area of basal overpressure.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                50.626800537109375,
+                469.82879638671875,
+                552.8291625976562,
+                517.6539916992188
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "ea9bf3e730499d6fbcc74094bb97f316",
+        "text": "part of the modelled source pod (dashed contour, Fig. 8).\nThe resulting structures were normal faults at the upper edge\nof the slide, reverse faults at the lower edge, and strike-slip\nfaults at the sides. As a result of frictional stick-slip, sliding\nsoon stopped. We therefore increased the ﬂuid pressure to\n4.7 cm of water, which produced a further slide (Fig. 8B).\nThis procedure we continued in steps, up to a maximal\npressure of 5.4 cm of water (Fig. 8D). As the pressure\nincreased, so the area of the slide widened, until it occupied\nalmost the entire area of modelled source pod. At later\nstages of sliding, new structures formed well within the\nlimits of the modelled source pod. Finally, the surface grid\nshowed that the central part of the model had slipped some\n10 cm, equivalent to about 40 km in nature. It also rotated\nclockwise about a pole that was close to the apex of the\nbroadly triangular source area.\nOn comparing our experimental results with the structure\nof the Amazon Fan, we notice similarities and differences.\nThe main similarities are the sharpness of the detachment\nand the area and shapes of thin-skinned structures. In the\nmodel, the shape of an overpressured area directly controls",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                50.626800537109375,
+                528.4679565429688,
+                289.748046875,
+                784.5266723632812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b5e434c025dc99d4ce3bdde5f3534b35",
+        "text": "the shape of a sliding zone. The same would appear to have\nhappened in the Amazon Fan, if we assume that sliding\nwas due to ﬂuid overpressure and that this in turn was due to\nhydrocarbon generation.\nThe main difference between model and nature is\nthat structures in the model initiated in the central part\nof\nthe\noverpressured\narea,\nwhereas\nthose\nin\nnature\nappear to have initiated in the southeast corner of an\noverpressured area. To improve the ﬁt between model\nand nature, the former should allow lateral propagation\nof an area of overpressure through time. However, this\nwould require a more complex apparatus than the one at\nour disposal.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                313.62451171875,
+                528.4609985351562,
+                552.7547607421875,
+                682.1958618164062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e49eb744c239ea9eeb55fe96181a53b2",
+        "text": "10. Conclusions",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                313.62451171875,
+                702.9905395507812,
+                380.5194091796875,
+                712.953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "485282b95385513adabf5b41da4b57c9",
+        "text": "1. In the Amazon Fan, a ﬂat-lying detachment links normal\nfaults at the top of the slope to thrusts at the bottom of the\nslope.\n2. Fluid\noverpressure\nwas\nprobably\nthe\ncause\nof\ndetachment.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                313.62451171875,
+                727.5655517578125,
+                552.7498168945312,
+                785.4332885742188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ab108003fe429ef62310aaed1e442710",
+        "text": "P.R. Cobbold et al. / Marine and Petroleum Geology 21 (2004) 1013–1025\n1025",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                171.55223083496094,
+                95.69154357910156,
+                544.6588134765625,
+                103.74348449707031
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9617658f84424c538352f8c70358fcd7",
+        "text": "3. Gas generation was probably the cause of ﬂuid\noverpressure.\n4. Hydrocarbons probably originated in a Cenomanian–\nTuronian\nsource\ninterval\nthat\nwas\nregionally\nwidespread.\n5. In\nsandbox\nmodels,\nﬂuid\noverpressure\nover\na\nbroadly triangular area resulted in slope instability\nand a fault pattern that was similar to that of the\nAmazon Fan.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                117.6144790649414,
+                281.6778564453125,
+                223.21710205078125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4b0c1062696f31651bd9fb0e72972201",
+        "text": "models based on ODP drilling of Amazon Fan. AAPG International\nConference, Rio de Janeiro, Extended Abstracts, 406–407.\nDriscoll, N. W., & Karner, G. D. (1994). Flexural deformation due to\nAmazon Fan loading: a feedback mechanism affecting sedimentary\ndelivery to margins. Geology, 22, 1015–1018.\nFigueiredo, A. M. F. de (1985). Geologia das bacias brasileiras. In E. J. Viro\n(Ed.), Avaliac¸a˜o de Formaco˜es no Brasil (pp. 11–38). Rio de Janeiro:\nSchlumberger.\nFlood, R. D., & Piper, D. J. W. (1997). Amazon Fan sedimentation: the\nrelationship to Equatorial climate change, continental denudation, and\nsea-level ﬂuctuations. In R. D. Flood, D. J. W. Piper, A. Klaus, & L. C.\nPeterson (Eds.), (Vol. 155) (pp. 653–675). Proceedings of the Ocean\nDrilling Program, Scientiﬁc Results.\nMickelsen, N., Maslin, M., Giraudeau, J., & Showers, W. (1997).\nBiostratigraphy and sedimentation rates of the Amazon Fan. In R. D.\nFlood, D. J. W. Piper, A. Klaus, & L. C. Peterson (Eds.), (Vol. 155) (pp.\n577–591). Proceedings of the Ocean Drilling Program, Scientiﬁc\nResults.\nMourgues, R., & Cobbold, P. R. (2003). Some tectonic consequences of\nﬂuid pressures and seepage forces as demonstrated by sandbox\nmodelling. Tectonophysics, 376, 75–97.\nPetrobra´s, (1984). Foz do Amazonas Basin, offshore Brazil. In A. W. Bally\n(Ed.), Seismic expression of structural styles (Vol. 15) (pp. 2.2.3-\n66–2.2.3-69). AAPG sudies in geology.\nRouby, D., Cobbold, P. R., Szatmari, P., Demercian, S., Coelho, D., & Rici,\nJ. A. (1993). Least-squares palinspastic restoration of regions of normal\nfaulting-application to the Campos basin (Brazil). Tectonophysics, 221,\n439–452.\nSad, A. R. E., Silveira, D. P., Silva, S. R. P., Maciel, R. R., & Machado,\nM. A. P. (1998). Marine gas hydrates along the Brazilian margin. AAPG\nInternational Conference, Rio de Janeiro, Extended Abstracts,\n146–147.\nSchaller, H. (1971). Estratigraﬁa preliminar da Bacia Sedimentar da Foz do\nAmazonas. 25 Congresso Brasileiro de Geologia, Sa˜o Paulo, Anais, 3,\n189–202.\nSchaller, H., & Dauzacker, M. V. (1986). Tectoˆnica gravitacional e sua\naplicac¸a˜o na explorac¸a˜o de hidrocarbonetos. Boletim Te´cnico da\nPetrobra´s, 29, 193–206.\nSilva, S. R. P., & da Maciel, R. R. (1998). Foz do Amazonas Basin\nhydrocarbon system. AAPG International Conference, Rio de Janeiro,\nExtended Abstracts, 480–481.\nSwarbrick, R. E., Osborne, M. J. & Yardley, G. S. (2002). Comparison\nof overpressure magnitude resulting from the main generating mechan-\nisms. In A. R. Huffman, & G. L. Bowers (Eds.), Vol. 76 (pp. 1–12).\nPressure regimes in sedimentary basins and their prediction,\nAAPG Memoir.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                305.51776123046875,
+                117.73854064941406,
+                544.7379760742188,
+                588.5261840820312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8f1a15c210b755169001d4b7c8fdc730",
+        "text": "Acknowledgements",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                246.05213928222656,
+                125.04889678955078,
+                256.0147399902344
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "50f1e1cb170dce96a18eaa49a367f65a",
+        "text": "We thank the managements of BP Brasil Ltda and their\npartners in the Foz area (Shell, British Borneo, Petrobras,\nAGIP, Exxon-Mobil, Total-Fina-Elf) for supporting this\nproject and for permission to publish the main results. The\nexperiments were done at Ge´osciences-Rennes. R.M. is\ngrateful to his father for help in constructing the\nexperimental apparatus.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                270.0602111816406,
+                281.625,
+                351.7386474609375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fc2fe701a3dfebc93d9a832e4df70dbb",
+        "text": "References",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51971435546875,
+                377.57843017578125,
+                89.16361999511719,
+                387.5410461425781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8890d3eca7eca7c1202cbf32e829cb51",
+        "text": "Advocate,D.M.,Young,S.W.,Ross,A.H.,Buerkert,T.P.,Neal,J.E.,&Mahon,\nK. L. (1998). Post-rift hydrocarbon systems. Greater Amazon Mouth, Brazil:\ntransition from shelf to basin and source distribution controls. AAPG\nInternational Conference, Rio de Janeiro, Extended Abstracts, 602–603.\nBranda˜o, J. A. S. L., & Feijo´, F. J. (1994). Bacia da Foz do Amazonas.\nBoletim de Geocieˆncias da Petrobra´s, 8, 91–99.\nCobbold, P. R., & Castro, L. (1999). Fluid pressure and effective stress in\nsandbox models. Tectonophysics, 301, 1–19.\nCobbold, P. R., Durand, S., & Mourgues, R. (2001). Sandbox modelling of\nthrust wedges with ﬂuid-assisted detachments. Tectonophysics, 334,\n245–258.\nDahlen, F. A. (1990). Critical taper model of fold-and-thrust belts and\naccretionary wedges. Annual Review of Earth and Planetary Sciences,\n18, 55–99.\nDamuth, J. E. (1975). Amazon cone: morphology, sediments, age and\ngrowth\npattern.\nGeological\nSociety\nof\nAmerica\nBulletin,\n86,\n863–878.\nDamuth, J. E., & Kowsmann, R. O. (1998). New evidence for extensive\nsand distribution in ‘mud-rich’ submarine fans: insights and fan",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51881790161133,
+                401.57049560546875,
+                281.67279052734375,
+                588.8599243164062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "eda21e9f36478492caba3919121f7bf3",
+        "text": "Fig. 2. Regional seismic proﬁles 2 and 5. For locations, see Fig. 1. Proﬁles span entire width of thin-skinned deformation in blocks BFZ-2 and BM-FZA-1, respectively. Vertical scale (in metres) has been obtained by conversion of arrival times, using seismic velocity data from wells. Notice two-fold vertical exaggeration. Ages of characteristic seismic reﬂectors (in colour) are\nmainly from nannofossils. Faults (yellow lines) are from later interpretation.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-S0264817204001047-main.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                570.9718017578125,
+                69.55230712890625,
+                588.8633422851562,
+                1252.481201171875
+            ],
+            "is_full_width": false
+        }
+    }
+]

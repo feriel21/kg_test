@@ -1,0 +1,2187 @@
+[
+    {
+        "element_id": "ae6f552a3f2a4dd9936143413ac9e4df",
+        "text": "Contents lists available at ScienceDirect",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                226.20469665527344,
+                73.39111328125,
+                382.432861328125,
+                81.36131286621094
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "44f75768c3f4a0e7f60bb5dd55fac8a6",
+        "text": "Marine and Petroleum Geology",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                199.5590057373047,
+                97.73271179199219,
+                409.00543212890625,
+                111.68031311035156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6f2838493302d4bae56d3bf18d2b3b11",
+        "text": "journal homepage: www.elsevier.com/locate/marpetgeo",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                171.38259887695312,
+                129.3470458984375,
+                437.1207580566406,
+                137.31724548339844
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "42973280dbb229482a2dcda807df8482",
+        "text": "Research paper",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                158.734619140625,
+                112.25361633300781,
+                168.29872131347656
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "580f8285a2c27be0781c22dfac04bfd3",
+        "text": "Effects of a regional d\u0001ecollement level for gravity tectonics on late\nNeogene to recent large-scale slope instabilities in the Foz do\nAmazonas Basin, Brazil",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.519683837890625,
+                175.9871063232422,
+                471.2123718261719,
+                225.52699279785156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0e001da5a5471ebb0afa7f33654f05e2",
+        "text": "A.T. Reis a, *, E. Araújo b, c, C.G. Silva b, A.M. Cruz b, c, C. Gorini c, L. Droz d, S. Migeon e,\nR. Perovano a, I. King f, F. Bache g, 1",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                234.86488342285156,
+                469.7779846191406,
+                260.69207763671875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fcaa8344d7654071f78624d99f2cc628",
+        "text": "a Department of Geological Oceanography, School of Oceanography, Rio de Janeiro State University (UERJ), Rua S~ao Francisco Xavier, 524, 4\u0001 Andar, Bl. E,\nMaracan~a, Rio de Janeiro, RJ, CEP: 20.550-013, Brazil\nb Departamento de Geologia-Lagemar, Universidade Federal Fluminense (UFF), Av. Litor^anea, s/n, Boa Viagem, Niter\u0001oi, RJ, CEP: 24210-346, Brazil\nc Sorbonne Universit\u0001es, UPMC Univ Paris 06, UMR 7193 and CNRS and UMR 7193, ISTeP, F-75005, Paris, France\nd Laboratoire Domaines Oc\u0001eaniques, Universit\u0001e de Bretagne Occidentale, CNRS, UMR6538, IUEM, 29280, Plouzan\u0001e, France\ne Sorbonne Universit\u0001es, UPMC Univ Paris 06 and CNRS UMR7329 G\u0001eoazur, 06560, Valbonne, France\nf Directorate of Hydrography and Navigation (DHN) e Brazilian Navy, Rua Bar~ao de Jaceguaí e Ponta D'areia, Niter\u0001oi, RJ, CEP: 24048-900, Brazil\ng GNS Science, P.O. BOX 30368, Lower Hutt 5040, New Zealand",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                265.5082092285156,
+                488.8389892578125,
+                334.6999206542969
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "50b065191b057f869727902e4d1b771d",
+        "text": "a r t i c l e i n f o",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                359.0634460449219,
+                138.1790771484375,
+                368.0297546386719
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c1f21232c37f8466a69b2fef7af95a70",
+        "text": "a b s t r a c t",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                206.92909240722656,
+                359.0634460449219,
+                274.6579284667969,
+                368.0297546386719
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ddad44a630728995f6a67321a66693d7",
+        "text": "Article history:\nReceived 6 December 2014\nReceived in revised form\n11 November 2015\nAccepted 14 April 2016\nAvailable online 19 April 2016",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                379.7444152832031,
+                134.35362243652344,
+                428.92254638671875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c501a28552cc3506b02ec4f16cd892e5",
+        "text": "Extra sets of 2D multi-channel seismic and chronostratigraphic data allowed us to undertake analyses of\nsource to sink processes and triggering mechanisms of the gigantic megaslides previously documented\noff the NW and SE steep slope settings of the Foz do Amazonas basin. As these megaslides comprise two\nsets of stacked allochthonous masses within the Upper Miocene-Quaternary sedimentary record, they\nare now described as Mass-Transport Complexes (MTCs) and have been renamed the Amap\u0001a Megaslide\nComplex (AMC) and the Par\u0001a-Maranh~ao Megaslide Complex (PMMC). Individual megaslides of both MTCs\ncan mobilize up to kilometre-thick sedimentary series as allochthonous masses with distinct ﬂow di-\nrections, degrees of sediment disruption and internal coherence. Megaslides spread downslope over\nareas as large as thousands of km2, attaining dimensions comparable to the world's largest mass-\ntransport deposits. Among all the megaslides, the basal and largest AM1 megaslide (AMC) stands as a\nquite unique example of mass-transport deposit in the basin, interpreted as a dominant carbonate\nallochthonous mass sourced from a mixed carbonate-siliciclastic platform. The instability was probably\ntriggered between the late Miocene and the end of the Early Pliocene by the gravitational collapse of the\nmixed platform under its own weight, after successive subaerial exposures which generated kar-\nstiﬁcation processes. Siliciclastic-type megaslides, on the other hand, are all sourced from large upslope\nslide and/or rotated blocks (up to 60 km wide in the case of the PMMC). The detachment of upslope\nblocks was triggered by structurally-induced seabed movements during the Mid Pliocene-Pleistocene (in\nthe case of the PMMC) and during the Pleistocene (in the case of the AMC). All mapped features support\nthe interpretation of sedimentary blocks which have undergone long lasting deformation, having been\nvariably folded and faulted by the sliding along an overpressured condensed section (H3 horizon). H3\nhorizon equally acts as the upper d\u0001ecollement level for the gravity tectonic system that operates on the\nregional scale of the Foz do Amazonas basin. In such a context, the results of this study evidence complex\nlinks between variable modes and scales of gravity processes (gravity tectonics and MTCs emplace-\nments), all induced by instability created from a condensed section prone to produce pore ﬂuid over-\npressure. And yet, seismic attributes of the d\u0001ecollement H3 across the slope, characterized by a reﬂector of\nnegative polarity of high amplitude, indicate that the potential for similar large scale sediment failures\ncontinues to exist across the AMC and PMMC.\n© 2016 Elsevier Ltd. All rights reserved.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                206.92825317382812,
+                380.0793151855469,
+                562.6364135742188,
+                645.489013671875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "79e8b07330292a174327efbd36019175",
+        "text": "Keywords:\nDeep-water deposits\nSubmarine megaslides\nMass-transport deposits\nCarbonate megaslides\nTriggering mechanisms of megaslides",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                442.3892822265625,
+                157.28294372558594,
+                491.6241455078125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4be4f4cca88b4d4fdcd9ec865f89e434",
+        "text": "* Corresponding author.\nE-mail address: tadeu.reis@gmail.com (A.T. Reis).\n1 Now at: Santos Ltd, 60 Flinders Street, Adelaide 5000, Australia.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                47.565399169921875,
+                692.7324829101562,
+                249.8776397705078,
+                716.2999267578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ae3fcc742931151ccdecf7ba27131326",
+        "text": "http://dx.doi.org/10.1016/j.marpetgeo.2016.04.011\n0264-8172/© 2016 Elsevier Ltd. All rights reserved.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                728.29248046875,
+                198.09486389160156,
+                743.2288208007812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c2c4287319d4a91e6986332ce5270c10",
+        "text": "1. Introduction",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.825199127197266,
+                66.3354721069336,
+                94.95140838623047,
+                74.30567169189453
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9681e1ffa9134e6d90c25eff804c4755",
+        "text": "The Foz do Amazonas basin (Amazon Mouth basin) is the largest\noffshore basin located on the Brazilian Equatorial Atlantic margin.\nThis basin has been the target of systematic exploration by oil\ncompanies in recent decades, due to the potential occurrence of oil\nplays in the deep-water marine setting. The Amazon Deep-sea Fan\n(referred to hereinafter as the Amazon fan) stands as the main deep\nbasin sedimentary feature, built out as a prominent, thick sedi-\nmentary prism, of about 10 km in thickness according to Brand~ao\nand Feij\u0001o (1994) and Figueiredo et al. (2007). Mass-transport de-\nposits have also long been reported as important stratigraphic el-\nements in the margin sedimentary construction, especially in the\nUpper Quaternary Amazon fan (e.g., Damuth and Embley, 1981;\nDamuth et al., 1988; Flood et al., 1991; Piper et al., 1997; Maslin\net al., 2005).\nIn most studies of the upper 500e800 m layers of the Amazon\nfan the occurrence of mass wasting has been correlated either\nwith climate-induced processes, gas hydrate instability or sedi-\nment loading (e.g., Damuth and Embley, 1981; Damuth et al., 1988;\nFlood et al., 1991; Piper et al., 1997; Maslin and Mikkelsen, 1997;\nPirmez and Imran, 2003; Maslin et al., 2005). However, the Up-\nper Cretaceous to Quaternary stratigraphic section of the basin\nalso glides along multiple d\u0001ecollements in a linked extensional-\ncompressional system (Cobbold et al., 2004; Silva et al., 2009;\nReis et al., 2010). An upslope set of extensional faults and huge\ndownslope fold-and-thrust belts root into three main basal weak\nlevels. Thrust structures can reach the sea ﬂoor, forming scarps as\nhigh as 500 m (Reis et al., 2010). In such a deformational context,\nReis et al. (2010) showed that gravity tectonics has also acted as a\nsigniﬁcant preconditioning parameter for slope failures: a link has\nbeen established between compressional deformation of fold-and-\nthrust belts in the central Amazon fan and the onset of triggering\nconditions\nfor\nsediment\nsliding\nprocesses\nduring\nthe\nlate\nQuaternary.\nThe occurrence of megaslides has also been reported in Foz do\nAmazonas basin (Araújo et al., 2009; Silva et al., 2010), recorded as\ngigantic and multiple slide masses which, unlike the Upper Qua-\nternary MTDs previously mapped in the area (e.g., Damuth and\nEmbley, 1981; Damuth et al., 1988; Flood and Piper, 1997; Maslin\net al., 2005), occur only off the steep margin settings both to the\nNW and SE of the Amazon fan (Fig. 1). These megaslides, named\nthe Amap\u0001a Megaslide and the Par\u0001a-Maranh~ao Megaslide, occur as\nstacks of large-scale and thick mass-transport deposits (individual\nthicknesses of up to 1000 m). As the megaslides are located along\nportions of the steep continental slope of the basin, and under\nsedimentation rates considerably lower than those of the central\nbasin region of the Amazon fan, Silva et al. (2010) ascribed the\nmain inducing factor for these mega-events to high slope gradi-\nents. However, due to the limited database these allochthonous\nmasses were neither stratigraphically constrained nor have their\ninternal structures and features yet been analyzed in detail until\nnow. In this context, further details as to how these mega mass-\ntransport deposits occur and how they are stratigraphically orga-\nnized are not only necessary but also fundamental for exploration\npurposes.\nIn the present study, we have integrated additional 2D regional\nseismic lines and well data to supplement the database of Silva\net al. (2010), in order to clarify internal seismic facies, structures\nand the stratigraphy of the megaslides of both complexes. This\nprocedure now provides the most detailed correlation framework\nwith chronostratigraphic signiﬁcance for the Amap\u0001a and the Par\u0001a-\nMaranh~ao Megaslides. It has also allowed us to propose their\nsource\nto\nsink\nprocesses\nas\nwell\nas\ntheir\nmain\ntriggering\nmechanisms.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.82354736328125,
+                87.25484466552734,
+                283.98089599609375,
+                743.7915649414062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fcf2a81839327f31e4d1944ae0260e4d",
+        "text": "2. Regional setting",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.83404541015625,
+                66.3325424194336,
+                378.2004699707031,
+                74.30274200439453
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7a25f1b396f8a302b27fcbbdd26dee6d",
+        "text": "The Foz do Amazonas basin evolved within a context of both\nwrenching tectonics, kinematically related to ancient transform\nmovements especially along the Saint Paul Fracture Zone (e.g.,\nMatos, 2000; Moulin et al., 2010), and compressional tectonics,\nrelated to the history of the Andean uplift, which reshaped the\ncatchment basin of the Amazon river (e.g., Hoorn et al., 1995;\nLatrubesse et al., 2007; Figueiredo et al., 2009). In terms of crus-\ntal structures, the Cear\u0001a Rise stands as an outstanding aseismic\nridge in the western Equatorial Atlantic located approximately\n800 km east of the Amazon river mouth (Fig. 2). The top of this rise\nlies at about 3000 m below sea level, located just beyond the edge\nof the Amazon fan and surrounded by a seaﬂoor of an average\ndepth of about 4500 m. The Amazon fan deposits lap onto the base\nof the western side of the Cear\u0001a Rise at about 4200 m water depth\n(Curry et al., 1995; Dobson et al., 2001).\nThe base of the stratigraphic succession of the Foz do Amazonas\nbasin is composed of Neocomian to Albian ﬂuvio-deltaic, lacustrine\nand marine strata, inﬁlling pull-apart half-grabens (Brand~ao and\nFeij\u0001o, 1994; Figueiredo et al., 2007). Open marine clastic deposi-\ntion started during the Eo-Albian (c. 102 Ma) with the deposition of\ndeep-water mudstones and siltstones that lasted until the Neo-\nPaleocene (Limoeiro Formation; Fig. 3). The Cenozoic sedimentary\nhistory of the basin was dominated, from the late Paleocene to the\nlate Miocene (~61.7e~9.5 Ma), by carbonates which were periodi-\ncally disrupted by siliciclastic deposition (Wolff and Carozzi, 1984;\nGorini et al., 2014), resulting in the buildup of a mixed carbonate-\nsiliciclastic platform as thick as 4000 m (Maraj\u0001o and Amap\u0001a For-\nmations), laterally equivalent to deep-water calcilutites and mud-\nstones (Travosas Formation; Fig. 3).\nDuring the development of the mixed carbonate-siliciclastic\nplatform, the basin experienced a series of drowning phases\nintercalated with major regressive phases (Figueiredo et al., 2007).\nThe last and most important drowning phase occurred during the\nMiddle Miocene, reaching the maximum transgression during the\nLanghian (c. 15.2 Ma). Following this Middle Miocene maximum\nﬂooding, coastal depositional systems prograded (Maraj\u0001o Forma-\ntion; Fig. 3), while the carbonate platform continued to develop on\nthe external continental shelf. This drowning phase lasted until the\nlate Miocene when lower sea levels exposed, karstiﬁed and eroded\nthe carbonate platform culminating in the deﬁnitive cessation of\ncarbonate sedimentation at c. 9.5 Ma (Gorini et al., 2014). As\nrecently shown by Gorini et al. (2014), until the late Pliocene\nincreasing siliciclastic input into this basin occurred as dominantly\nprograding shelf clinoforms developed across the proximal basin,\nwhereas higher siliciclastic input into deep-water settings occurred\nduring the Quaternary.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.8318176269531,
+                87.25191497802734,
+                552.9647216796875,
+                565.9456176757812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "186c50eb96f7db0f6f0a2fb7858d167f",
+        "text": "2.1. Gravity tectonics in the Foz do Amazonas Basin",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.8318176269531,
+                578.8948364257812,
+                492.27789306640625,
+                586.8650512695312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "079a0469546e0d63e40c9ce0ac6a9c71",
+        "text": "The entire gravity system across the Foz do Amazonas basin\n(Silva et al., 1999, 2009; Cobbold et al., 2004; Reis et al., 2010;\nPerovano et al., 2011) affects an area as large as 40,000 km2 (Reis\net al., 2010), across the shelf downslope to ~2100 m (Figs. 2 and\n4). Silva et al. (1999) were the ﬁrst authors to identify a linked\nextensional-compressional system gliding over two surfaces of\nweak overpressured shales, likely induced by progradation and\noverloading of the Amazon fan: a lower d\u0001ecollement placed at the\ntop of the early Cretaceous Marine Megasequence (c.100 Ma; Fig. 4)\nand an intermediate d\u0001ecollement located at the base of the\nPaleocene-Eocene Marine Megasequence (c. 65 Ma; Fig. 4). Silva\net al. (2009) and Reis et al. (2010) reﬁned the gravity tectonic\nstructural framework previously mapped in order to evaluate how\ngravity\ntectonics\nevolved\nand\nhow\nit\naffected\nthe\nbasin's",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.8318176269531,
+                599.814208984375,
+                552.9395141601562,
+                743.7904663085938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "80da18412b435237b344c0a5efac123f",
+        "text": "Fig. 1. Bathymetric map of the Foz do Amazonas Basin with location of the major mass transport deposits previously mapped in the basin: the 50\u0001W (mapped by Damuth and\nEmbley, 1981); WMTD (Western Superﬁcial Mass-Transport Deposits), EMTD (Eastern Superﬁcial Mass-Transport Deposits), URMTD (Unit R Mass-Transport Deposits) and BMTD\n(Buried Mass-Transport Deposits) from Damuth et al. (1988); the Amap\u0001a Megaslide and the Par\u0001a-Maranh~ao Megaslide mapped at the scale of the Foz do Amazonas Basin and re-\ninterpreted in this study (slightly modiﬁed from Silva et al., 2010).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51666259765625,
+                489.346435546875,
+                562.6134643554688,
+                522.52294921875
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "b96bbc5002fe4a2dac751ed52739f260",
+        "text": "architecture. The occurrence of a third upper d\u0001ecollement level\n(horizon H3 in Fig. 4B) was identiﬁed at the base of the Amazon fan,\nalong which part of the fan's stratigraphic succession has been\nthrusting, decoupled from more ancient fold-and-thrust belts\nwhich detach along the lower and intermediate d\u0001ecollements\n(Fig. 4). Towards the ﬂanks of the Amazon fan, where the Amap\u0001a\nand Par\u0001a-Maranh~ao megaslides occur, the upper d\u0001ecollement level\naccommodates proximal normal faults (extensional domain) but\nwithout any basinward thrusting system, thus not constituting a\ntypical gravity tectonic nappe composed of upslope extension\nlinked to downslope compression (Fig. 5).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.518882751464844,
+                542.4682006835938,
+                293.6140441894531,
+                656.030029296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1329abaa2f620d2c92010715030c88aa",
+        "text": "2.2. Mass-transport deposits in the Foz do Amazonas Basin",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.518890380859375,
+                673.0615234375,
+                260.5159606933594,
+                681.03173828125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a7b53b49af3b3df273b1a616656039fe",
+        "text": "The upper 500e800 m of the Amazon fan (late Pleistocene)\nconsist of channel-levee complexes interbedded with recurrent\nMTDs. Remobilized sediment masses (slumps, slides and debris\nﬂows) can be as large as 15,000 km2, reaching individual thick-\nnesses of up to 200 m (e.g., Damuth and Embley, 1981; Damuth",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.518890380859375,
+                693.8932495117188,
+                293.573486328125,
+                743.7919921875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f84122ba1a39d5fa60b9b796ab34eb9e",
+        "text": "et al., 1988; Piper et al., 1997; Flood and Piper, 1997; Maslin et al.,\n2005), as occurs in (Fig. 1): the Western Superﬁcial Mass-Transport\nDeposits (WMTD), the Eastern Superﬁcial Mass-Transport Deposits\n(EMTD), the Unit R Mass-Transport Deposits (URMTD) and the Bot-\ntom Mass-Transport Deposits (BMTD).\nGas hydrates destabilization, higher sedimentation rates during\nlowstands, and the rise of hydrostatic pressure during trans-\ngressions and sea-level highstands have been considered the main\ncauses of slope instabilities and mass movement initiation for these\nUpper Pleistocene MTDs on the central Amazon fan (e.g., Damuth\nand Embley, 1981; Damuth et al., 1988; Flood and Piper, 1997;\nPiper et al., 1997; Maslin and Mikkelsen, 1997; Maslin et al.,\n2005). More recently, however, Reis et al. (2010) evidenced that\nsigniﬁcant volumes of mass-transport deposits, geographically\ncoincident with those Upper Pleistocene MTDs of the central fan,\nhad their triggering mechanisms preconditioned by the gravita-\ntional compression of gravity-tectonic fold-and-thrust belts. Thus,\nthis study has documented for the ﬁrst time a clear link in the area\nbetween two modes of gravitational processes in the Foz do",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.5285949707031,
+                543.4617919921875,
+                562.6552124023438,
+                739.7064819335938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f8f0fb55ad180d0e787c827e0170c646",
+        "text": "Fig. 2. Regional bathymetry and simpliﬁed gravity-tectonic map of the Foz do Amazonas Basin with the location of the seismic grid and wells used in this study. Regional ba-\nthymetry from GEBCO (General Bathymetric Charts of the Oceans, www.gebco.net) and higher-resolution bathymetric data located on the Upper to Middle Amazon Fan compiled by\nthe Directorate of Hydrography and Navigation (DHN) of the Brazilian Navy. White and black circles represent location of available exploratory drilling wells.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.8251953125,
+                468.0585021972656,
+                552.9473876953125,
+                491.62548828125
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "eb4a06258ea01060489c413a4f89c970",
+        "text": "Amazonas Basin e gravity tectonics and mass wasting.\nOccurrences of megaslides have also been reported by Silva et al.\n(2010) and Araújo et al. (2009) on the ﬂanks of the Amazon fan, this\ntime involving thicker and more ancient sedimentary sections. On\nthe southeastern ﬂank of the Amazon fan, the Par\u0001a-Maranh~ao\nMegaslide was mapped as a unique allochthonous mass of up to\n1000 m thick spreading across an estimated area of 90,000 km2,\nand composed of a combination of debris ﬂows, slide blocks and\ncompressively-deformed sedimentary units (Fig. 1). On the north-\nwestern ﬂank of the fan, the Amap\u0001a Megaslide was recognized as\na succession of superimposed allochthonous masses, recurrent\nthrough the late Neogene sedimentary section and covering a total\nestimated area of 80,000 km2 (Fig. 1). Higher slope gradient values\noff these steep margins were considered to be the main inducing\nfactor to have initiated these mass wasting mega-events. A regional\ninteraction of gravity tectonics and mass wasting processes has also\nbeen suggested as another possible triggering mechanism, but\nlimited data coverage did not allow the authors to explore the\ndetails of the entire gravity tectonic framework of the Foz do\nAmazonas basin further.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.824127197265625,
+                512.4776000976562,
+                283.94500732421875,
+                719.2997436523438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "da17d514bf0619d3d4a0b76791eb856b",
+        "text": "3. Database and methods",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.8321533203125,
+                512.5630493164062,
+                404.65069580078125,
+                520.5332641601562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5958ca4e0b6466ea672526f34fbb2b8e",
+        "text": "The dataset for this study included approximately 20,000 km of\n2D multi-channel seismic data, extra exploratory well data recently\nmade available for our research group by the Brazilian of Petroleum\nand Gas Agency (ANP) (Fig. 2).\nThe seismic dataset concerns a super-regional seismic grid of\n100 km spacing and an industrial seismic grid of 10e20 km spacing\n(Fig. 2): the ﬁrst consists of the LEPLAC Survey lines collected at 13 s\nrecorded time intervals by the Brazilian Navy (vertical resolution of\ncirca 20 m); the second grid, collected at 10 s recorded time in-\ntervals (vertical resolution between 10 and 20 m) was provided by\nANP, together with litho- and chronostratigraphic data from 2 in-\ndustry wells (wells P1 and P2; Fig. 2). Complementary mono\nchannel seismic data (up to 9 s penetration) acquired during VEMA\nCruise 31 (Leg 06) was also integrated into the data base (http://\nmaps.continentalshelf.org/geodas/V3106.htm) in order to tie in\nbiostratigraphic data from the DSDP site well 142 (Hayes et al.,\n1972) represented as well P3 in Fig. 2.\nThe regional bathymetric data are taken from the General\nBathymetric Charts of the Oceans e GEBCO (www.gebco.net),\nwhereas newly available higher-resolution bathymetry on the",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.8321533203125,
+                533.4824829101562,
+                552.959716796875,
+                740.2151489257812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1488afc510910000cbc08b366f8a9a73",
+        "text": "Fig. 3. Stratigraphic chart of the Foz do Amazonas basin with pointing out the stratigraphic interval investigated in this study (redrawn and modiﬁed from Figueiredo et al., 2007).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                600.3797607421875,
+                562.548828125,
+                606.825927734375
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "bdf317615a57a0df5aba2516b1669994",
+        "text": "upper to middle Amazon fan were provided by the Directorate of\nHydrography and Navigation, Brazilian Navy, from compilation of\ndifferent sources, including PETROBRAS and the Geophysical Data\nSystem e GEODAS (www.ngdc.noaa.gov/mgg/geodas).\nSeismic data were interpreted on the software Kingdom Suite®.\nA seismic sequence stratigraphic framework was undertaken based\non the available exploratory wells data, coupled with data pub-\nlished in earlier papers (e.g., Hayes et al., 1972; Silva et al., 1999;\nBrand~ao and Feij\u0001o, 1994; Figueiredo et al., 2009, 2010). This strati-\ngraphic framework allowed the mapping, for the ﬁrst time, of\nregionally persistent horizons across the entire deep basin with the",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51952362060547,
+                627.7652587890625,
+                293.59661865234375,
+                740.3329467773438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7a88249dc9149388985960e235a0cec6",
+        "text": "objective of establishing some age deﬁnition of the emplacement of\nmegaslides. Horizons of interest in the deeper basin were also tied\nto the main stratigraphic sequences and stratigraphic events of the\nmargin, according to material recently published by Gorini et al.\n(2014). For all the calculations of sediment thickness related to\nmass-transport deposits, an interval seismic velocity value of\n1800 m/s was considered.\nThe criteria used to recognize mass transport deposits were the\noccurrence of seismic facies and features indicative of sediment\nfailures and remobilized sediment deposits, such as those identi-\nﬁed in case-studies (e.g., Hampton et al., 1996; Biscontin and",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.52752685546875,
+                627.6765747070312,
+                562.6367797851562,
+                740.331298828125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "18c9ba3af6c5cdc381b3b9aea5816be6",
+        "text": "Fig. 4. Illustrative section of the gravity tectonic framework in the Amazon fan, central Foz do Amazonas basin (modiﬁed from Reis et al., 2010). The linked extensional-compressional system glides over d\u0001ecollements (H1 and H2),\nwhereas an upper d\u0001ecollement (H3) accommodates thrust-faulting across the main thrust-and-fold belt (B; modiﬁed from Perovano, 2012). See Fig. 2 for location of the seismic sections.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                470.1557312011719,
+                66.7723159790039,
+                485.89935302734375,
+                742.1104125976562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "01193245d7d27102359237db40c38d38",
+        "text": "Fig. 5. Illustrative sections of the gravity tectonic framework off the NW (A) and SE (B) steep slope of the Foz do Amazonas basin. (A) Across these domains, the upper d\u0001ecollement\nsurface (H3) is the base for listric normal faults characterizing extensional domains which are not succeeded by a compressional domain basinwards (modiﬁed from Reis et al.,\n2010). See Fig. 2 for location of the seismic sections.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51904296875,
+                473.1041564941406,
+                562.5441284179688,
+                497.408203125
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "b3867c3059b14ca01ff12bf59401a1db",
+        "text": "Pestana, 2006; Nisbet and Piper, 1998; Floquet and Hennuy, 2001,\n2003; Sultan et al., 2004a; Sultan et al., 2004b; Canals et al.,\n2004; Eberli et al., 2004; Bryn et al., 2005; Frey-Martinez et al.,\n2005; Frey-Martínez et al., 2006; Moscardelli et al., 2006; Heinrich\net al., 2008; Callot et al., 2008; Bull et al., 2009; Alves, 2010; Reijmer\net al., 2015): erosional scarps or disrupted scars; masses of acoustic\ntransparency and/or chaotic facies whether associated or not with\ninternal micro-faulting and downslope compressional structures\n(fold and thrusts); the presence of strong negative polarity re-\nﬂectors at the base of transported masses, that indicates the pres-\nence of ﬂuids and/or basal d\u0001ecollement surfaces.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                518.2913208007812,
+                293.6480712890625,
+                630.8584594726562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c0b554cb81c80b43d2a4973b3ccd7d43",
+        "text": "4. Results",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51885986328125,
+                652.1420288085938,
+                82.60101318359375,
+                660.1122436523438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "900504e9a6e1a9bc0cc1948ec72c4712",
+        "text": "The results presented below are organised into three main\nsections, addressing different geological aspects that present\nadditional information for the comprehension of megaslide oc-\ncurrences across of the Foz do Amazonas basin: the Slope\nmorphology (subsection 4.1); Basin-scale chronostratigraphic corre-\nlation (subsection 4.2); and the Architectural analysis of megaslide\ncomplexes (subsection 4.3).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.518043518066406,
+                673.0614013671875,
+                293.6588134765625,
+                743.789794921875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2231dcbfaefbdfa40ae1164131ff70ed",
+        "text": "4.1. Slope morphology",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.52691650390625,
+                518.2880859375,
+                393.700439453125,
+                526.25830078125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5b7f9f4fb0541e0417f69daadec0b914",
+        "text": "The morphology of the central Foz do Amazonas Basin is greatly\naffected by the Amazon fan deposition, whereas much steeper\ngradients are observed both on the NW and SE continental slopes\nadjacent to the fan, which are characterized by narrower conti-\nnental margins (Fig. 6).\nIn the central basin, the gradient is rather subdued by the thick\nsedimentary sequences responsible for the Amazon fan's con-\nstruction: the regional gradient on the upper fan is of the order of\n0.9\u0001; whereas on the middle fan the regional gradient is slightly\nsmoother (of the order of 0.8\u0001; proﬁle B in Fig. 6). On the other\nhand, the NW continental slope of the basin has the highest relative\ngradient values observed throughout the continental margin (up to\n5.8\u0001), followed by a reduction of gradient values from the depth of\n2000 m basinwards (0.4e0.25\u0001; proﬁle A in Fig. 6). The SE conti-\nnental slope of the basin is equally rather steep, presenting relative\ngradient values up to 4.0\u0001, followed by a gradient reduction\nbasinward from the depth of 3000 m (0.4\u0001e0.5\u0001; proﬁle C in Fig. 6).\nSmoother\ndeep-water\ngradients\nfrom\nthe\ndepth\nof\n2000e3000 m basinward off both the NW and the SE basin slopes",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.5264892578125,
+                539.208251953125,
+                562.6810913085938,
+                735.5146484375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "063955054e6ac9a6ecb3b1885e5accf9",
+        "text": "reﬂect the dominance of depositional processes under the inﬂu-\nence of the distal deposition of the Amazon fan (Fig. 6).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.8251953125,
+                66.247802734375,
+                283.8647766113281,
+                84.73706817626953
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5acd565ff69d916e1b61da80969c3ca9",
+        "text": "4.2. Basin-scale chronostratigraphic correlation",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.8251953125,
+                100.69100189208984,
+                207.0449981689453,
+                108.66120147705078
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2753f82511ed46c901dda20057f53f58",
+        "text": "In the absence of basin-scale stratigraphic correlations, it was\nnecessary to undertake a stratigraphic study of the Foz do Ama-\nzonas deep basin, in order to relate the development of the meg-\naslide complexes (MTCs) to the major depositional intervals and\nregional deformational events. This analysis was performed by the\ninterpretation of the extra well data available for the present study\n(P1, P2 and P3; Fig. 2), correlated with chronostratigraphic well\ndata from previous chronostratigraphic and biostratigraphic pub-\nlished data (e.g., Hayes et al., 1972; Figueiredo et al., 2009, 2010;\nGorini et al., 2014). Based on such correlations we were able to\nextend a series of Cenozoic time horizons from the shelf downslope\ninto the deeper basin (Fig. 7), which allowed us either to re-\ninterpret or to trace the major basin-scale stratigraphic surfaces\nwhich play a role in mass wasting processes:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.8251953125,
+                121.6103744506836,
+                283.95849609375,
+                265.58477783203125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c174df0307f3c5903b9ec17adbede29e",
+        "text": "Fig. 6. Morphological proﬁles across the Foz do Amazonas Basin. (A) Across the NW continental slope the morphological proﬁle depicts the highest slope gradients calculated in the\narea. (B) Morphological proﬁle reproducing the lowest slope gradients in the area are in the central basin across the Amazon fan. (C) Morphological proﬁle across the SE steep\ngradient slope.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.825199127197266,
+                719.8316650390625,
+                552.9146728515625,
+                743.398681640625
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "4e166feb8a433c84d29af59583b67161",
+        "text": "i. H3 is a basin-wide surface seismically mapped in the deeper\nbasin, following a negative polarity horizon correlatable to the\nUpper d\u0001ecollement level described by Silva et al. (2009) and Reis\net al. (2010). In the absence of chronostratigraphic data from\nwells at that time, these authors assigned an approximate age of\n~40 Ma for this horizon, based on correlations with seismic lines\npreviously published by Silva et al. (1999). However, according\nto the well data now available, H3 is laterally correlated at\nseismic level with the erosive horizon A, recently dated at c. 9.5\nMa by Gorini et al. (2014) at the top of the carbonate platform on\nthe shelf and upper slope (Fig. 7). Besides that, surface A and\nsurface H3 are seismically indistinguishable in well P1. Both\nsurfaces may be correlated to a thin stratigraphic interval whose\nthickness is close to the vertical seismic resolution of the con-\nventional seismic data used in this study: an 18 m thick interval\ndeposited between ~11.9 Ma and ~9.5 Ma (time span from bio-\nzones from NN7 to NN9; Fig. 7A). In such a context, the deep-\nwater horizon H3 may be correlated to the biozone NN7, that\naccording to Haq et al. (1987), recalibrated in accordance with",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                305.8019104003906,
+                66.04842376708984,
+                552.95166015625,
+                262.29296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "433f3a666ed9c41f1b4f4cbad7e838bf",
+        "text": "Fig. 7. Lithological, sonic logs and nannofossil biozones of three wells used to construct the late Neogene chronostratigraphic model of the deep Foz do Amazonas basin. Data of\nwells 1 and 2 are courtesy of ANP, reinterpreted based on Figueiredo et al. (2009) and Gorini et al. (2014). Well 3 is derived from the DSDP site's 142 well (Hayes et al., 1972).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                692.916015625,
+                562.5921630859375,
+                707.8524169921875
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "d5ce2159f97acdcabc2ac5f33824640c",
+        "text": "the most recent time scale available (Hilgen et al., 2012), records\na major global Neogene transgression between ~11.8e10.5 Ma\n(Haq, 2014). As such, H3 is interpreted in the present study as a\ncondensed section (ﬁnal age placed at 10.5 Ma) which also acts\nas the Upper d\u0001ecollement level for regional gravity tectonics\npreviously proposed by Silva et al. (2009) and Reis et al. (2010)\n(Figs. 4B and 5);\nii. Ages of c. 5.6e5.3 Ma, c. 3.4e3.8 Ma and c. 1.8 Ma have been\nattribute in the present study to the three younger horizons\nidentiﬁed in the deeper basin were dated. These horizons,\nidentiﬁed in wells P1, P2 and P3 (Fig. 7), are laterally correlated\nwith horizons C, D and H, respectively, already identiﬁed in the\nshelf region by Gorini et al. (2014) after bio-chronostratigraphic\nwell data analysis. We have thus assigned the same names and\ncorresponding signiﬁcances to them. The horizon dated at c.\n5.6e5.3 Ma in the deeper basin was interpreted as a correlative\nconformity related to the shelf C unconformity, thus repre-\nsenting the late Messinian regression (close to the Miocene-\nPliocene boundary; Fig. 7). The horizon dated at c. 3.4e3.8 Ma\nin the deeper basin was interpreted as a correlative conformity\nrelated to the shelf unconformity D (Fig. 7), which resulted from\nthe late Zanclean regression. The horizon dated at c. 1.8 Ma was\nagain interpreted as a correlative conformity related to the\nsubaerial unconformity H on the shelf (Early-Middle Pleistocene\nlimit;\nFig.\n7),\nthus\nrepresenting\nthe\nGelasian-Calabrian\nboundary.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                34.412803649902344,
+                66.0520248413086,
+                283.9455871582031,
+                335.54266357421875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9930810e5674167edb589eda6abb8420",
+        "text": "4.3. Architecture and stratigraphic analysis of megaslide complexes",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.823822021484375,
+                359.09381103515625,
+                277.9053955078125,
+                367.0639953613281
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7d21312b309676b30b5b8280e5fd1bfe",
+        "text": "The new database available for this study allowed us to re-\ninterpret in further detail the megaslides previously documented\nby Silva et al. (2010) across the NW and SE ﬂanks of the Amazon fan,\nincluding\nthe\nrecognition\nof\nother\nregional\noccurrences\nof\nallochthonous masses.\nAs the megaslides are two sets of stacked allochthonous masses\nwithin the Upper Miocene-Quaternary sedimentary record, they\nare best described as Mass Transport Complexes (MTCs), and here-\nafter renamed as: the Amap\u0001a Megaslide Complex (AMC) and the\nPar\u0001a-Maranh~ao Megaslide Complex (PMMC).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.823822021484375,
+                380.01318359375,
+                283.95379638671875,
+                482.09759521484375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6337e5ff9219b504744251656a617ca8",
+        "text": "4.3.1. The Amap\u0001a Megaslide Complex\nThe Amap\u0001a Megaslide Complex (AMC) corresponds to a series of\nstacked megaslides, named Amap\u0001a after the adjacent coastal\nAmap\u0001a State in northern Brazil (Silva et al., 2010). The AMC is\ncomposed of six\nmajor individual megaslides\nencompassing\ndifferent stratigraphic levels, interlayered with undisturbed depo-\nsitional intervals which display either continuous or strong re-\nﬂectors (Fig. 8). Several other smaller MDTs could also be identiﬁed,\nbut because they could not be correlated across the study area\n(because they were too thin or because of the lack of regional\nextent) they are not described in this paper. An acronym was\nassigned to each mappable megaslide, according to its position in\nthe stratigraphic section (from the most ancient to the most recent;\nFigs. 8 and 9 and Table 1): AM1 (Amap\u0001a Megaslide 1); AM2 (Amap\u0001a\nMegaslide 2); AM3 (Amap\u0001a Megaslide 2); AM4 (Amap\u0001a Megaslide\n4); AM5 (Amap\u0001a Megaslide 5) and AM6 (Amap\u0001a Megaslide 6).\nAM1 to AM6 are marked by seismically well-deﬁned basal\nd\u0001ecollement surfaces (Fig. 8), whereas their disturbed masses show\nseismic evidence of distinct degrees of displacements and disrup-\ntions, as indicated by a set of variable acoustic seismic facies types,\nsuch as: internal transparent to chaotic facies; or a combination of\nchaotic facies with local interbedded facies (Fig.10). The megaslides\nlie either directly on the top of each other, as AM4, AM5 and AM6\ndo, or may be separated from each other by continuous units of",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.82440185546875,
+                494.16607666015625,
+                283.98248291015625,
+                743.7887573242188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c3a9b147d4fdf40b91d1b65b8a0ee12e",
+        "text": "strong plan-parallel reﬂectors: as thick as 300 ms as in the case of\nthat between AM2 and AM3; or as thick as 700 ms, as in the case of\nthat between AM1 and AM2. These continuous strong plan-parallel\nunits were seismically interpreted as a combination of turbiditic\nand hemipelagic deposition (Figs. 8 and 9B).\nAM1 is the basal megaslide, lying directly on horizon H3 (Fig. 8).\nIt is also the largest megaslide mapped throughout the basin,\nextending downslope for about 280 km in a general SeN direction,\npresenting a maximum width of c. 250 km and covering a total area\nof approximately 67,000 km2 (Table 1 and Fig. 9A). The depositional\narea of AM1 is located some 40e50 km downslope from the\nheadscarps of the younger AM2 (Figs. 8 and 9), being mostly\ncharacterized by highly chaotic to transparent seismic facies which\nthicken\nsigniﬁcantly\nbasinwards\nand\nbulge\nup\nappreciably\n(maximum thickness of c. 778 m), creating a major positive topo-\ngraphic feature over the coeval seaﬂoor.\nClear headwall scarps related to AM1 are difﬁcult to identify\n(Fig. 8), as no scars cutting into siliciclastic series in a plausible\nlocation and with plausible dimensions were found in spatial\nrelation to this huge allochthonous mass. However, across the\nnorthwestern steep margin, AM1 deposits are found some 100 km\ndownslope from a large erosive area clearly recognizable along the\nslope, which merges downslope with the basal horizon H3, indi-\ncating that AM1 could have slid away downslope from the\ndismantling of the mixed carbonate siliciclastic platform, leaving\nbehind a large evacuation scar (Figs. 8B and 9A). In some parts of\nthe NW basin, slope scarps are even replaced directly downslope by\ndetached blocks of high amplitude reﬂection, in continuity to\nwhich we ﬁnd the transparent AM1 megaslide seaward from the\nfold-and-thrust belt system (Figs. 11 and 9A). Internal huge blocks\nof comparable very high amplitude reﬂections (up to 15e20 km\nwide) are preserved as pre-failed stratigraphic layering within the\ntransparent AM1 allochthonous mass (Figs. 8, 10A and 11).\nOn the other hand, the upper part of the AMC is composed of a\nstack of ﬁve closely-layered megaslides (AM2-AM6; Figs. 8 and 9B).\nHeadwall scarps related to AM2-AM6 are clearly identiﬁed. The\nnorthwestern slope area is dominated by a steep NW-SE-oriented\nfaulted-erosive scarp (scarp A on Fig. 8), which extends laterally\nfor about 160 km, between c. 450-1200 m water depth (mean\nvertical relief of 750 m). On the lower slope lies a large rotated block\n(some 30 km wide) affected by numerous normal faults. AM2-AM6\nheadscarps are found just downslope from the rotated block as\nburied\nstepped\nscarps,\nresulting\nin\npaleorelief\nas\nhigh\nas\n~150e300 m cutting into undisturbed layers. We can thus recog-\nnize a sharp transition between upslope undisturbed plan-parallel\nsiliciclastic units and the chaotic and/or transparent seismic facies\ndepicting these megaslides downslope (Fig. 8). We can also observe\nthat:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.8307800292969,
+                66.2420654296875,
+                552.9649658203125,
+                565.9406127929688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1e9dd0739aabb25487195efe511c3e6e",
+        "text": "(1) AM2 stands as one of the largest siliciclastic units of the AMC.\nIt exhibits a tabular-like geometry (Table 1 and Fig. 9B). Its\ninternal seismic character is dominated by transparent\nfacies, with the presence of local parallel-layered facies\ninterpreted as preserved internal blocks, while its distal\ndepositional units are extremely chaotic. These seismic and\narchitectural characteristics point to a high degree of sedi-\nment disruption, supporting the interpretation of AM2 as\npredominantly liqueﬁed mass ﬂows (Figs. 8 and 9B);\n(2) AM3 and AM4 slide along basal d\u0001ecollement surfaces that\nshift upward or downward in the stratigraphy, depicting\nstaircase morphologies (Fig. 8). AM3, the smallest megaslide\nin area (Table 1 and Fig. 9B), is dominated by chaotic facies\nand is substantially thicker close to its upslope limit, where\ntraces of previous stratiﬁcation were preserved (Fig. 10B).\nAM4, the largest siliciclastic megaslide of the AMC (Table 1),",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.299072265625,
+                578.8897705078125,
+                552.95166015625,
+                743.7911376953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8479a829b42342313ff37ab1964af182",
+        "text": "Fig. 8. Dip-oriented interpreted seismic proﬁle across the Amap\u0001a Megaslide Complex (AMC) showing the stratigraphic context of the six individual MTDs in the SW part of the\nstudy area. The basal AM1 is clearly separated from the upper complex (AM2 to AM6) by a plane-parallel, low amplitude sedimentary interval, which reinforces the differences of\nsource and causal processes between them. Close to the base of the slope a deformed block rotated and slides over the d\u0001ecollement level H3. See Fig. 9 for location.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                418.678955078125,
+                562.5365600585938,
+                442.9830017089844
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "d6f75199c3aca033806e598ba7cdec8d",
+        "text": "also exhibits dominant internal chaotic facies, but contains\nwidespread internal preserved slid blocks. The degree of\nfragmentation is highly variable, with the largest coherent\nblocks presenting widths of up to several kilometers. Its basal\nshear surface can be continuously traced with remarkable\nspatial variations and geometries. Locally, it ramps the stra-\ntigraphy up and down to create a series of staircase-like\ngeometries (Figs. 8 and 10B and C). Both AM3 and AM4\nbulge up above the regional undeformed slope datum at\nsome point of their downslope spread (Fig. 8). These seismic\nand architectural characteristics support the interpretation\nof AM3 and AM4 as predominantly debris-ﬂow deposits\ncontaining higher content of chaotic and more viscous sed-\niments in comparison to AM2. No internal imbricate struc-\ntures are seismically visible at their borders, indicating thus\nthat no signiﬁcant lateral or frontal conﬁnement is present;\n(3) AM5 differs from all other siliciclastic megaslides since it\ndoes not present any clear headscarp. Like AM2, AM5 slides\ndown along a very ﬂat basal d\u0001ecollement surface and presents\nexternal tabular-like geometry (Figs. 8 and 10C and Table 1).\nIt also displays a combination of transparent and chaotic\nfacies interspersed with internal deformed blocks (Fig. 10C).\nThese seismic and architectural features indicate thus a de-\ngree of sediment disruption comparable to that of AM2;\n(4) AM6 corresponds to a stratigraphic succession that slid along\na general ﬂat basal d\u0001ecollement surface, which shifted slightly\ndownwards (Fig. 8 and Table 1). It also displays dominant",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                52.04107666015625,
+                463.5826110839844,
+                293.6148376464844,
+                743.5613403320312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9577e29adfc220f95cad48bc55e84673",
+        "text": "chaotic facies interspersed with frequent internal deformed\nblocks, but AM6 bulges up midway to its downslope move-\nment (Figs. 10B and C), until it thins again to disappear\ncompletely in continuity with non-deformed layered re-\nﬂectors (not shown in Fig. 8). This megaslide does not pre-\nsent distal imbricate structures (thrust sheets), suggesting\nthat no signiﬁcant frontal conﬁnement is present. However,\ncompressional features are observed midway along its entire\nextent, taking the form of thrust sheets that ramp up por-\ntions of a basal preserved block, forming a compressional\nridge of about ~5 km width (Figs. 9B and 10C). These seismic\nand architectural characteristics point to predominantly\ndebris-ﬂow but with some degree of viscosity, represented\nby the great number of internal preserved blocks.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                335.39031982421875,
+                463.5777893066406,
+                562.65185546875,
+                607.55224609375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b46212c14ec543009f966c4872cfe6b2",
+        "text": "4.3.2. The Par\u0001a-Maranh~ao Megaslide Complex\nOur results evidenced that the Par\u0001a-Maranh~ao Megaslide, pre-\nviously described as a single megaslide by Silva et al. (2010), is\nactually part of a thicker megaslide complex, composed of 4 main\nallochthonous masses. An acronym was assigned to each megaslide\nrecognized and mapped during the present study (from the most\nancient to the most recent; Figs. 12 and 13 and Table 2): PM1 (Par\u0001a-\nMaranh~ao Megaslide 1), PM2 (Par\u0001a-Maranh~ao Megaslide 2), PM3\n(Par\u0001a-Maranh~ao Megaslide 2) and PM4 (Par\u0001a-Maranh~ao Megaslide\n4). Similarly to the AMC, several smaller MTDs have also been\nidentiﬁed on different seismic lines, but they are not correlated",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 11,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.522705078125,
+                630.165283203125,
+                562.6409912109375,
+                743.7913208007812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0e039eaef59444f5b3f0871fd591a524",
+        "text": "Fig. 9. Simpliﬁed map of the Amap\u0001a Megaslide Complex (AMC), Foz do Amazonas Basin. (A) Basal mixed carbonate-siliciclastic megaslide AM1 that composes the Lower Complex. (B) AM2-AM6 siliciclastic megaslides that make up the\nUpper Complex. See Fig. 2 for map location.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 12,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                465.79034423828125,
+                66.75839233398438,
+                481.5339660644531,
+                742.1104125976562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d4b6706fa2b54ee816d5f2ab229c9b58",
+        "text": "Table 1\nDimensions, volumes, sources and ages of megaslides that constitute the Amap\u0001a Megaslide Complex.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                66.40274810791016,
+                349.4727478027344,
+                81.33917236328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4d2754de9fd84970fc43ff56092cd305",
+        "text": "MTD Max. length (km) Mean width (km) Maximum thickness (m) Area (km2) Approximated volume (km3) Source area\nTime of emplacement",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.47283935546875,
+                87.81352233886719,
+                515.9443359375,
+                95.51263427734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "abc7293c876e53909754e2b9971af8b3",
+        "text": "AM6 83,998\n61,933\n356\n6755\n1084\nSlope\nMid-late Pleistocene\nAM5 118,788\n56,860\n304\n8830\n1214\nSlope\nMid-late Pleistocene\nAM4 195,723\n89,473\n364\n21,321\n2865\nSlope\nMid-late Pleistocene\nAM3 68,814\n48,588\n337\n3944\n560\nSlope\nMid-late Pleistocene\nAM2 217,842\n90,822\n420\n24,276\n4316\nSlope\nMid-late Pleistocene\nAM1 283,725\n168,970\n778\n66,918\n17,037\nCarbonate platform Late Miocene-end of Early Pliocene",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.47283935546875,
+                102.28971099853516,
+                556.5751342773438,
+                151.46783447265625
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "7ee28c38774b5bd1cf57ce8eab389367",
+        "text": "Fig. 10. Zoom-outs illustrating internal facies of the Amap\u0001a Megaslide Complex (: (A) AM1 megaslide bulges up downslope while huge individual inner blocks are still preserved;\n(B) the upslope part of AM2-AM6 megaslides represented by a sharp transition between upslope undisturbed layered and failed masses downslope; (C) the intermediate part of\nAM2 with a strong inner preserved horizon. The toe of AM3 is marked by compressive structures, while AM4 is represented by stair-case geometry. See Fig. 8A for location.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 13,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.519683837890625,
+                719.1513671875,
+                562.56201171875,
+                743.398681640625
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "b0baede15079b8ad84d67145b6f382ba",
+        "text": "Fig. 11. (A) Seismic line illustrating features of the AM1 mass ﬂow in spatial connection with upslope carbonate detached blocks. (B) The same seismic line represented in amplitude\nvolume. See Fig. 9A for map location.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.82456970214844,
+                507.2333068847656,
+                552.84033203125,
+                522.2398681640625
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "dab142650f6be2cdb917e6f868214550",
+        "text": "across the entire area, because of the lack of regional extension or\ndue to relatively limited seismic data resolution.\nThe PMMC exhibits a particular architecture, being composed of\na large upslope cohesive slide block with smaller runout distances\nwhen compared to the main distinguishable MTDs downslope\n(PM1, PM2, PM3 and PM4; Fig. 13). The slide block is composed of\nhighly reﬂective though sometimes discontinuous internal re-\nﬂectors organised in a series of closely-spaced tilted and rotated\ncompartments limited by synthetic normal listric faults. This large\nslide block (as thick as 1000 km) involves about 12,500 km2 of\nremobilized sediments (Fig. 12), which has the seismically well-\ndeﬁned horizon H3 as a basal d\u0001ecollement (Fig. 13). Upslope from\nthe displaced block lies a steep NW-SE-oriented erosive scarp\n(Scarp 1 on Fig. 13) which extends laterally for about 180 km along\nthe upper slope, at between ~200 and 900 m water depth (mean\nvertical relief of 1000 m). This scarp is the product of gravitational\ninstability having its origin in normal listric faulting along the high-\ngradient slopes in the area, partially as a result from the detach-\nment of the large block which slides along the horizon H3 (Fig. 13).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.82402038574219,
+                543.1227416992188,
+                283.95440673828125,
+                739.4254150390625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ab4889b1500686b4b9d26c3aa389456c",
+        "text": "The downslope limit of the displaced block is a second major\nprominent scarp, erosive in nature, derived by successive slide-offs\nand disruption of the distal portion of the slide block (Scarp 2 in\nFigs. 13 and 14A). Scarp 2 runs along about 260 km across the lower\nslope\n(between\n2100e3300\nm\nwater\ndepth)\nforming\nan\namphitheater-shaped feature of regional expression, causing a\nmajor bathymetric impact as high as 720 m (Figs. 12 and 13).\nRemobilized masses PM1, PM2, PM3 and PM4 were all sourced\nfrom the downslope movement of the slide block (Fig. 14A).\nPM1, PM2, PM3 and PM4 are marked by seismically well-\ndeﬁned d\u0001ecollements (Fig. 13), whereas their seismic facies show\nevidence of distinct degrees of displacements and disruptions as\nindicated by a variable set of acoustic features, that can be grouped\ninto distinct seismic facies types, such as: internal transparent to\nchaotic facies; imbricates composed of closely-spaced thrust\nsheets; and a combination of chaotic facies with local interbedded\nfacies (Fig. 14).\nThe set of PM1-PM3 megaslides is much smaller in extension\nand thickness than PM4, and ﬂows in a general SW-NE direction",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 14,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.8320617675781,
+                543.1209106445312,
+                552.9421997070312,
+                739.4221801757812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6dbf819eddf2530a42b43122d2bba500",
+        "text": "Fig. 12. Simpliﬁed map of the Par\u0001a-Maranh~ao Megaslide Complex (PMMC), SE slope of Foz do Amazonas Basin. (A) PM1-PM3 siliciclastic megaslides sliding northeastwards. (B) The\nupper PM4 siliciclastic megaslide is forced to change direction toward the Par\u0001a-Maranh~ao basin, due to a strong conﬁnement exerted by the Cear\u0001a Rise as well as by the Amazon\nfan's thick depositional ﬂank. See Fig. 2 for map location.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 15,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51905822753906,
+                608.3167724609375,
+                562.5505981445312,
+                632.6207885742188
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "06a135c2c6f4c5bb2c2c6fc266c8b0c7",
+        "text": "(Fig. 12A and Table 2). Though each individual MTD varies in\nthickness and presents variable extensions, it is much thinner than\nPM4 and occupies a much smaller area (Table 2). In addition, the\nMTDs’ basal shear surfaces can be continuously traced as ﬂat sur-\nfaces. These megaslides present no preserved headscarps since part\nof their proximal sedimentary record was totally erased by the\ndownslope displacement of PM4 which clearly erodes part of the\nunderneath sedimentary package, including the stratigraphic",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 15,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51884460449219,
+                653.5037841796875,
+                293.5991516113281,
+                734.7200927734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "47034ed153e5275df23bd3e63b2bead6",
+        "text": "horizons D and H (Fig. 14A).\nPM3, PM2 and PM1 are thoroughly dominated by chaotic to\ntransparent facies indicating a correspondingly high degree of\nsediment disruption, compatible with their interpretation as\ndominant debris ﬂows, interspersed with frequent preserved\nseismic horizons which denote the presence of internal deformed\nblocks. At their distal end, short zones of compression are observed\n(imbricate thrusts), evidencing frontally-conﬁned megaslides that",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 15,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.5277099609375,
+                653.5021362304688,
+                562.6378173828125,
+                734.718505859375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6b45203a297ad92eec499167d88733a3",
+        "text": "Fig. 13. Interpretation of dip-oriented seismic section depicting the stratigraphic context of the four MTDs that constitute the Par\u0001a-Maranh~ao Megaslide Complex. Proximal landslides occur as cohesive slide blocks with smaller runout\ndistances compared to the main distinguishable MTDs (PM1, PM2, PM3, and PM4). The upslope detached block slides over the H3 horizon (late Miocene, c. 10.5 Ma) and shows slightly deformed horizon H (Gelasian-Calabrian\nboundarye c. 1.8 Ma). See Fig. 12 for location.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 16,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                248.25978088378906,
+                66.76873779296875,
+                272.507080078125,
+                742.1110229492188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a234d927b754703614f0c2f36cb56f0c",
+        "text": "do not spread over paleo sea-ﬂoor units (Figs. 12A and 14).\nPM4, the topmost megaslide, is a much larger unit which ex-\ntends downslope in a general E-W direction for about 600 km into\nthe neighboring Par\u0001a-Maranh~ao basin, covering a total area of\napproximately 118,700 km2, involving a total remobilized volume\nof c. 33.000 km3 (Fig. 12B). PM4 remobilized sediments thin\nsigniﬁcantly from about 1000 me100 m towards its outermost\neastern distal portion located in the Par\u0001a-Maranh~ao basin, given\nthat the landslide mass tends to migrate to higher stratigraphic\nhorizons (Figs. 14B and 15). Its maximum thickness (c. 700 m) is\nreached midway along its whole extension (Fig. 14). Upslope, PM4\nis dominated by chaotic to transparent facies indicating a high\ndegree of sediment disruption, seismically compatible with debris\nﬂows (Fig. 14A). Further downslope, however, it is composed of a\nlarge series of imbricate thrusts as wide as 50 km that in map view\nform crescent-shaped compressional structures which eventually\nreach the seaﬂoor to form a topographic high relief (up to 100 m\nhigh; Figs. 12B and 14B). These structures clearly indicate that this\nlandslide mass has undergone signiﬁcant frontal conﬁnement\n(Fig. 14). Similarly, near its eastern end in the Par\u0001a-Maranh~ao basin,\nPM4 exhibits pressure ridges (Figs. 12B and 15). On the other hand,\nsome distal portions although initially ramping up and exhibiting\nsome degree of buttressing, eventually spread over undeformed\nsea-ﬂoor units in an unconﬁned way (Fig. 15).\nPM4 is, throughout, overlain by a continuous layer of about\n150e200 m thick, characterized by in situ discontinuous plane-\nparallel reﬂectors, reﬂecting its original layering preserved on the\ntop of the MTD. This upper inﬁlling layer is nevertheless marked by\nsmall irregularities of the seaﬂoor and is eventually lifted by the\ndistal pressure ridge as well (Figs. 13 and 14).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 16,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.83203125,
+                66.247802734375,
+                552.9647827148438,
+                377.66552734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "dcac55790c890e58f858fa40ba57d12c",
+        "text": "5. Discussion",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 16,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.834716796875,
+                390.6147155761719,
+                355.70037841796875,
+                398.58489990234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2cacbd4a51674560dbb27e774852fafe",
+        "text": "Our results evidence that the Foz do Amazonas basin represents\nin many instances an outstanding setting for mass movement\ninvestigation on passive margins, because of the dimensions of\nMTCs, associated source to sink processes and the triggering\nmechanisms involved in the slope failure processes.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 16,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.834716796875,
+                411.5340881347656,
+                552.8858032226562,
+                461.343017578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a35969d373169c59c15f4ad86072f9ca",
+        "text": "5.1. Ages and dimensions of the MTCs in the Foz do Amazonas basin",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 16,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.834716796875,
+                474.2929992675781,
+                546.900634765625,
+                482.26318359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e3a766b67f0906a8d4f664d50852635b",
+        "text": "The MTCs mapped in this study on the NW and SE ﬂanks of the\nAmazon fan have evidenced that large MTDs have been more\nrecurrent and widespread than previously reported in the basin\n(Figs. 16 and 1). Besides that, the present study has also provided\nfurther detail concerning both the dimensions and ages of the two\nMTCs in comparison to previous studies: MTDs of the AMC all\ntogether constitute a total volume of remobilized sediments of\napproximately 27,832 km3, whereas the MTDs of the PMMC have a\ntotal volume of approximately 44,443 km3. The two largest meg-\naslides of each complex alone (AM1 and PM4, respectively; Tables 1\nand 2) are comparable to the world's largest mass-wasting deposits\n(Fig. 17). Further, the two MTCs show that large MTDs have been\nrecurrent throughout the basin since at least the late Miocene, thus\nstanding out as essential architectural elements of the basin's\nstratigraphy (Figs. 16 and 18).\nAge correlations, together with the reﬁnement of the in-\nterpretations of the seismic facies and stratigraphic origins of each\ncomponent of the PMMC and the AMC, allowed us to evidence that\nthese MTCs comprise vertical stacks of huge megaslides (interlay-\nered with undisturbed turbidites or hemipelagites) which involve\nthe Upper Miocene-Quaternary sedimentary succession (Figs. 16\nand 18). Such depositional architecture evidences that the margin\nhas suffered a long history of slope failures, probably as result of\ncombined modes of gravitational instabilities since the late",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 16,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.83258056640625,
+                495.12469482421875,
+                552.9489135742188,
+                743.7898559570312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "611052471e030fda187d1ca62290234d",
+        "text": "Table 2\nDimensions, volumes, sources and ages of megaslides that constitute the Par\u0001a-Maranh~ao Megaslide Complex.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 17,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                66.40274810791016,
+                374.47283935546875,
+                81.33917236328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c6b6bfab5b03de4aad9bda609585e188",
+        "text": "MTD\nMax. lenght (km)\nMean width (km)\nMuximum\nthickness (m)\nArea (km2)\nApproximated\nvolume (km3)\nSource area\nTime of emplacement",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 17,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.47216796875,
+                87.81352233886719,
+                481.8155517578125,
+                104.0732421875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "038e7565a6e2ec4c9383708b9cf16db6",
+        "text": "PM4\n593,858\n244,863\n712\n118,783\n32,921\nUpper slope\nMid to late Pleistocene\nPM3\n197,680\n190,911\n315\n34,756\n3646\nUpper slope\nPM2\n300,206\n220,299\n237\n54,085\n5938\nUpper slope\nEnd of Early Pliocene- End of Early Pleistocene\nPM1\n160,000\n164,457\n163\n23,754\n1452\nUpper slope",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 17,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.472747802734375,
+                110.85025787353516,
+                556.5477905273438,
+                142.90753173828125
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "2135be7967c219458a6bf267ab21367d",
+        "text": "Fig. 14. Zoom-outs of seismic-reﬂection proﬁles across the Par\u0001a-Maranh~ao Megaslide Complex (PMMC): (A) The Regional d\u0001ecollement surface for gravity tectonics (horizon H3) is\nalso the base of multistage triggering of mass-transport processes that form megaslides. The upper portion of the PM4 megaslide is constituted here of partially preserved\nallochthonous sediments probably sourced from the Amazon fan, and its lower portion is mainly chaotic; (B) Note the lateral conﬁnement of the allochthonous mass, evidenced by\nthrust imbricates and the formation of a pressure ridge with positive morphological impact. See Fig. 13 for location.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 17,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.5184326171875,
+                539.66162109375,
+                562.635986328125,
+                572.4693603515625
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "aa8bd3b0acb8f3749ec3084f64a4a695",
+        "text": "Miocene e gravity tectonics and mass wasting (Figs. 3, 4 and 18).\nUnfortunately,\nhowever,\nthe\navailable\nchronostratigraphic\ndatabase does not provide sufﬁcient accurate age data to enable us\nto determine the precise age of initiation and the emplacement\ntime of each megaslide that composes either the PMMC or the AMC,\nnor their respective slope failure frequencies. Further, each distin-\nguished megaslide may even comprise multiple collapse events.\nNevertheless, the stratigraphic interpretation allows us to constrain\nthe major time intervals during which each sediment slide may\nhave taken place:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 17,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                593.3217163085938,
+                293.638916015625,
+                695.5451049804688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f82652b803729d2216c6362db57fee1e",
+        "text": "(1) age correlations clearly evidence that the gravitational\ncollapse and the initiation of downslope mass movement are",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 17,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                52.04435729980469,
+                708.4943237304688,
+                293.59417724609375,
+                726.8959350585938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9a99fdd577c803bbe0a297d6b700a2fa",
+        "text": "not time related in the two MTCs, being older in the AMC\n(Fig. 19);\n(2) within the AMC, the most ancient AM1 lies either directly\nover horizon H3 or erodes it. This relation implies that the\nAM1 took place necessarily in a time span between the late\nMiocene (age of Horizon H3, c. ~10.5 Ma) and the end of the\nEarly Pliocene (age of the top layered units covering the slide\nrepresented by the horizon D dated at c. ~3.8 Ma). The\nyounger AM2-AM6 involve remobilization events which all\noccurred during the mid to late Pleistocene, as indicated by\nthe age of the stratigraphic horizon H (c. 1.8 Ma), lying\nbeneath AM2 (Figs. 8 and 19);\n(3) within the PMMC, the PM1 and PM2 megaslides involve\nevents of sediment collapse that occurred between the end",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 17,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                320.99517822265625,
+                593.1240844726562,
+                562.6544799804688,
+                737.0985717773438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "dbf46944f52125b88fbb77255408ceb4",
+        "text": "Fig. 15. Seismic section across the distal limits of the PM4 megaslide, in the Par\u0001a-Maranh~ao basin. The base of slide surface migrates systematically to upper stratigraphic levels, but\nno features of frontal conﬁnement (thrust imbricates) are observed across the distal limit of the allochthonous mass (considering the resolution of the available data). See Fig. 12B\nfor location.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 18,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.8245849609375,
+                209.14199829101562,
+                552.8751831054688,
+                233.446044921875
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "4323f6cf309ae82cb65a64de13e43365",
+        "text": "Fig. 16. Simpliﬁed map of the study area, illustrating the regional distribution of gravity tectonic structures and the stacks of megaslides mapped in the present study on the NW\nand SE ﬂanks of the Amazon fan, the Amap\u0001a Megaslide Complex and the Par\u0001a-Maranh~ao Megaslide Complex, respectively.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 18,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.825199127197266,
+                673.0599365234375,
+                552.8751831054688,
+                688.123291015625
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "1aa59151acdf10404d8147880f45bf6a",
+        "text": "of the Early Pliocene and the end of the Early Pleistocene,\nthat is to say, between Horizons D (c. 3.8 Ma) and H (c. 1.8\nMa). The younger PM3 and PM4 took place during the mid to",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 18,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                56.692901611328125,
+                708.7793579101562,
+                283.93121337890625,
+                737.6689453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "08c2b884d2dc1aad7af83b17b2da1b0a",
+        "text": "late Pleistocene, as indicated by the age of the stratigraphic\nhorizon H (c. 1.8 Ma) which lies just below AM3 (Figs. 8 and\n19).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 18,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                325.64459228515625,
+                708.7793579101562,
+                552.9020385742188,
+                737.6689453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d1486823523246fba3e5f6b21efa5c63",
+        "text": "Fig. 17. Comparison of downslope total length vs. mean width and area plot for the\nMTCs mapped in this study and other worldwide occurrences (modiﬁed from Canals\net al., 2004). Note that the MCTs in Foz do Amazonas basin deposits are greater in\nwidth and volume than the Storegga Slide (Haﬂidason et al., 2004).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 19,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                295.61212158203125,
+                288.83544921875,
+                327.6694030761719
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "06295d04c043d8a26352855137665fe3",
+        "text": "5.2. Source to sink and downslope transport processes",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 19,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                348.6094970703125,
+                242.62628173828125,
+                356.5796813964844
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "dca10edf6904f73e97a3238b4e4f721b",
+        "text": "In order to better deﬁne the source areas and the overall\ntransport processes that are at the origin of the megaslides, we\nexamined (a) the geometry of their headscarps and slide masses,\n(b) their internal seismic facies, disruption patterns and related\ndeformations, as well as (c) their overall distribution and esti-\nmates of remobilized volumes. In spite of the similarities between\nthe two MTCs, each of them has its distinct characteristics with\nrespect to each MTC. In a general way, PMMC deposits are well\nindividualized and present relatively more homogeneous patterns\nof internal seismic facies than those of the AMC deposits. By\ncontrast, the rather distinct seismic facies between the basal AM1\nand the upper AM2-AM6 equally imply distinct sources and\ncauses of mass failures.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 19,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.52052307128906,
+                369.4411926269531,
+                288.9068298339844,
+                503.0152893066406
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9e6f1789813189dd6cddf58cb8111700",
+        "text": "5.2.1. The Amap\u0001a Megaslide Complex\nThe AMC megaslides spread downslope as radial masses in a\ngeneral NeS direction, as essentially unconﬁned slide masses,\nsince they do not present distal imbricate structures (Figs. 8 and\n9). Even if the geometries of their seismic units clearly show\nthat they are all failed masses, different seismic facies, volumes,\nsites of occurrence and ages show that AM1 and AM2-AM6 have\nproceeded from different source areas and from eroded material\nof even rather distinct sedimentological nature.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 19,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.52052307128906,
+                515.0271606445312,
+                288.9151916503906,
+                607.7261962890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "694661c3cea67a4c6ba395473b79fc09",
+        "text": "5.2.1.1. AM2-AM6 megaslides: structural collapse of the NW ﬂank of\nthe Amazon fan. AM2 to AM6 headscarps cut into well stratiﬁed\nlower slope siliciclastic layers related to the lateral depositional\nﬂank of the Amazon fan, whose gravitational failure constitutes\nthe source area for the related submarine landslides (Figs. 8 and\n9B). These multiple buried slide scars exhibit remarkable spatial\nvertical coincidence. Actually, all slide scars occur along sea-bed\nﬂexures of a large proximal faultederotated block which de-\ntaches in stratigraphic continuity with sections that host AM2 to\nAM6, revealing long term instability related to the rotational\ndeformation of the faulted block along horizon H3 (Fig. 8).\nConcerning the mechanism of transport, AM2-AM6 display a",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 19,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.52052307128906,
+                620.6450805664062,
+                288.9216613769531,
+                743.7879028320312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "473174a6d9d30d22bd35028a34857385",
+        "text": "Fig. 18. Regional strike seismic line illustrating the spatial relation between megaslides (Amap\u0001a Par\u0001a-Maranh~ao Megaslide Complexes) and the Amazon fan. Note the widespread occurrence of megaslides throughout the Upper\nMiocene-Quaternary stratigraphic succession of the Foz do Amazonas basin. See Fig. 2 for location.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 19,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                533.8218994140625,
+                66.79946899414062,
+                549.5655517578125,
+                742.1104125976562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "df08e9eb8319264e699a0886ee1f2a4b",
+        "text": "Fig. 19. Timeline graph depicting the stratigraphic intervals of occurrences of the\nmajor megaslides that constitute the Amap\u0001a Megaslide Complex (AMC) and the Par\u0001a-\nMaranh~ao Megaslide Complex (PMMC), constrained in the present study.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 20,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.8245849609375,
+                494.3208312988281,
+                283.8999938964844,
+                517.8176879882812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "22d15a9a1e175011e5a75605046f4b72",
+        "text": "combination of transparent and chaotic facies that slide over basal\nﬂat shear surfaces (except for the base of AM4), which may or may\nnot bulge up downslope (Fig. 8). These seismic and architectural\nattributes indicate translational slides of a high degree of sediment\ndisruption, such as debris ﬂows containing internal preserved\nblocks, thus constituting typical submarine land-slides triggered by\nsudden catastrophic events. However, a few of these megaslides’\nfeatures are of note:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 20,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.8251953125,
+                538.7573852539062,
+                283.9502258300781,
+                619.9737548828125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0103f996b27efa8a7159654ce6b0a8ea",
+        "text": "(i) AM2 and AM5 display dominant transparent facies (Figs. 8\nand 10 B and C), suggesting that each one may have been\ngenerated by a single sudden catastrophic event;\n(ii) by contrast, the prominent staircase geometry at the base of\nAM4 and AM3, and to a lesser extent at the base of AM6\n(Figs. 8 and 10 B and C), attests to a much higher erosive\npower of their downslope ﬂow, pointing to incremental\nincorporation of new material during their emplacement,\nand thus to the occurrence of multiple failures and sliding\nevents at their origin;",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 20,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.23631286621094,
+                632.9229125976562,
+                283.8921813964844,
+                735.0020751953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2c13212f327a88734a4c1a30429f3cf8",
+        "text": "(iii) the most recent AM5 and AM6 have incorporated channel-\nlevee features during their sliding, evidencing the aerial\nexpansion of the Amazon fan to the NW basin. However,\ndeformation makes recognition and mapping of the fan more\ndifﬁcult in the area.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 20,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                308.806640625,
+                66.0472640991211,
+                552.9465942382812,
+                115.85620880126953
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "aa0a570c52f789ffd2261bdd7eceae7e",
+        "text": "5.2.1.2. AM1: an ancient carbonate platform collapse. The basal AM1\nis a quite unique allochthonous mass in the context of the entire Foz\ndo Amazonas basin. It is the oldest allochthonous mass and cor-\nresponds to a rather thick and extensive megaslide (Table 1 and\nFig. 8) whose deposition predates the higher siliciclastic input to\ndeep-water settings known to have occurred from the late\nPliocene-Quaternary onwards (Figueiredo et al., 2009; Gorini et al.,\n2014).\nAlthough identiﬁcation of its headscarp area is far less clear than\nthose of the AM2-AM6 set of megaslides, regional seismic and\nstratigraphic analyses support the interpretation that the basal\nAM1 was sourced from the collapse of the Upper Paleocene-Upper\nMiocene mixed carbonate-siliciclastic platform. This interpretation\nis based on the concave-shaped geometry of the shelf-edge of the\ncentral basin, made up of a series of backstepping features carved in\nthe steep margins of the mixed siliciclastic-carbonate, evidencing\nthat the platform has frequently failed (Fig. 20). Failure of this\nplatform produced rock slides like those represented by high\namplitude reﬂections, comparable to the conﬁguration of re-\nﬂections of the carbonate platform itself (Fig. 11B). Besides that, the\nhighly chaotic to transparent seismic facies that dominates AM1 for\nat least 300 km downslope evidences a rather mobile and erosive\nnature of the allochthonous mass, probable as a result of a pre-\nfailed weakening of the platform due to karstiﬁcation during suc-\ncessive periods of shelf exposure (see subsection 5.3.1. below). The\nNorth-Northwestern direction of ﬂow, in its turn, was most prob-\nably conditioned by the late Miocene paleo bathymetry which\ndescribes a regional morphological depression dipping north-\nwestwards (Fig. 20A).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 20,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.83245849609375,
+                139.40737915039062,
+                552.9674072265625,
+                440.248779296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ce179c08c20ab037328cf26d06647a5c",
+        "text": "5.2.2. Par\u0001a-Maranh~ao Megaslide Complex\nThe PMMC megaslides involve different intervals of the strati-\ngraphic succession deposited in the basin since the late Pliocene\n(last c. 3.8 Ma), all of them being sourced from the same upslope\nslide block which detaches along the horizon H3. This slide block is\nbounded by two scarps which cut into mid-slope sediments,\nstanding as distinguishable subregional features between the SE\nsteep basin slope and the SE ﬂank of the Amazon fan (scarps 1 and 2\nin Fig. 13).\nAll these features support the interpretation that the PMMC's\nmegaslides have been sourced as individual sediment failures from\nthe long lasting deformation of the same deformed and faulted\nblock upslope, which continued to move downslope and to thicken\nfrom 10.5 Ma onwards. As such, PM4 is the only megaslide clearly\nsourced from the dismantling of the slide block as reﬂected by the\nerosive scarp 2. PM1, PM2 and PM3, on the other hand, are found\nsome 60 km downslope from the erosive scarp 2 while their\nrespective slide scars (and scarps) were thoroughly erased by the\ncontinuous collapse of frontal blocks, as well as by the highly\nerosive PM4 basal surface, as reﬂected by its irregular staircase\nmorphology (Fig. 14A).\nIn a general way, the internal deformation and geometries of\neach individual megaslide that compose the PMMC spread down-\nslope clearly conﬁned by the Cear\u0001a Rise. However, the location and\nwidth of frontally-conﬁned compressional structures evidence that\nthe reworked deposits have followed distinct ﬂow paths and that\nthey have been emplaced with different degrees of conﬁnement\n(Figs. 12 and 13):",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 20,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.8321533203125,
+                452.3172607421875,
+                552.950439453125,
+                743.7886962890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6d10a57324a3e807ddcdbad5814ac707",
+        "text": "Fig. 20. Possible source area for the AM1 megaslide. (A) Paleo morphological map of the Late Miocene seaﬂoor, before deposition of megaslide AM1, evidencing a regional paleo\nbathymetric low SE-NW oriented. (B) Dip-oriented seismic proﬁle illustrating a stair-case morphology on the top of the mixed carbonate-siliciclastic platform evidencing high\nerosion (the black dashed line represents the erosive surface).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 21,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51844787597656,
+                646.017578125,
+                562.541015625,
+                669.5845336914062
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "fdd6ec3d5119bdac20444c88a41aef00",
+        "text": "(i) the radial shapes of PM1, PM2 and PM3 reveal downslope\nﬂow displacement in a general NE-SW direction, dominated\nby debris ﬂows containing preserved blocks of variable size\nwhich, coupled with their basal ﬂat shear surface, indicate\nthe occurrence of failure masses triggered by sudden",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 21,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                54.368499755859375,
+                690.2407836914062,
+                293.5891418457031,
+                740.0497436523438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c9a53141c35a6410f933d214240eb092",
+        "text": "catastrophic events (Figs. 12 and 13). But their distal portions\ndo not spread over the sea-ﬂoor units, having undergone\nsome degree of fontal conﬁnement exerted by the Cear\u0001a Rise,\nas indicated by their distal zones of imbricate thrusts of some\n5 km wide (Figs. 12 and 14B);",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 21,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                335.3952941894531,
+                690.239990234375,
+                562.5831298828125,
+                740.0489501953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7e8f2458b4abab2092a5dcf760ecc0a6",
+        "text": "(ii) the thicker PM4, on the other hand, clearly shows a pro-\ngressive lost in coherence heading upslope, from a seismic\nreﬂection character where it is still possible to recognize the\noriginal stratiﬁcation (thrust sheets) to transparent and\nchaotic facies upslope. Further, the prominent staircase ge-\nometry at its base might attest to the erosive power of the\nﬂow, suggesting incremental incorporation of new material\nduring its emplacement. These facies and the involved high\nremobilized volume involved support the interpretation of\nPM4 as multiphase slope failures which may probably have\nencompassed a large time span and progressively incre-\nmental volumes of eroded sediments (Figs. 14 and 19). As a\nresult, PM4 is the largest megaslide in volume (Table 2),\nhaving been forced to change direction toward the Par\u0001a-\nMaranh~ao basin, due to a strong buttressing effect exerted by\nthe Cear\u0001a Rise, and probably also by the Amazon fan's thick\ndepositional ﬂank as well (Figs. 12 and 14). Structures\nreﬂecting such strong frontal conﬁnement are represented\nby the wide zone of thrust structures, some 70 km wide,\nsimilar to the examples described by Frey-Martínez et al.\n(2006) in the continental margin offshore Israel. The last\nset of thrusts emerges above the general regional datum\ndeﬁned by the top of the landslide mass, creating a positive\ntopography of about 100 m high (Figs. 13 and 14B). Similarly,\nnear its eastern end in the Par\u0001a-Maranh~ao basin, the land-\nslide mass ramps up from about 450 m to 100 m below sea-\nﬂoor exhibiting compressional features that indicate some\ndegree of buttressing and frontal conﬁnement (thrust\nsheets), even if its distal portion spreads over undeformed\nsea-ﬂoor units (Fig. 15);\n(iii) an ongoing active deformation seems still to occur across the\nentire PM4, since its upper inﬁlling stratiﬁed layer is itself\nalso affected by features such as small irregularities of the\nseaﬂoor, normal faults and local folds, clearly indicating that\nsome degree of gravitational instability has continued, even\nafter the major remobilization events leading to the mega-\nslide have ceased (Fig 14).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 22,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                39.799278259277344,
+                66.0520248413086,
+                283.982421875,
+                450.5709228515625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8029bdf1f9ea76837fcf939d468f10da",
+        "text": "5.3. Triggering mechanisms",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 22,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.82591247558594,
+                463.8038635253906,
+                134.53611755371094,
+                471.7740478515625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1f6db66df7ff2ddc7de3e9227b65ff82",
+        "text": "Slope angle may have an important impact on slope instabilities\nbut it is not the only indicator of susceptibility to landsliding (e.g.,\nMigeon et al., 2006). Slope failure processes are generally triggered\nby a combination of several parameters, such as: oversteepening of\nthe sea-ﬂoor, under-consolidated sediments and rapid sediment\naccumulation/sedimentary loading, which may generate an excess\nof pore pressure (e.g., Hampton et al., 1996; Biscontin and Pestana,\n2006; Nisbet and Piper, 1998; Sultan et al., 2004a, 2004b; Canals\net al., 2004; Bryn et al., 2005; Frey-Martinez et al., 2005; Frey-\nMartínez et al., 2006; Moscardelli et al., 2006; Migeon et al., 2006;\nHeinrich et al., 2008; Bull et al., 2009; Alves, 2010). Sudden and\nhigh amplitude sea level variations are also understood to be one of\nthe causes for increasing pore pressure (e.g., Piper et al., 1997;\nMaslin and Mikkelsen, 1997; Maslin et al., 2004; Garziglia et al.,\n2008). As for carbonate resedimentation, their triggering mecha-\nnism and depositional processes remain far less well understood\nthan their equivalents on siliciclastic margins (e.g., Labaume et al.,\n1987; Floquet and Hennuy, 2001, 2003; Eberli et al., 2004; Callot\net al., 2008; Reijmer et al., 2015).\nAlthough we do not deny that sea-ﬂoor oversteepening and\nrapid sediment accumulation and sedimentary loading are poten-\ntial mechanisms playing a role off the steep margin of the NW and\nSE ﬂanks of the Amazon fan, we, nonetheless, identiﬁed across the\nentire MTCs two major mechanisms as probably being the most\nfundamental triggers for submarine landsliding in the area: the",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 22,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.8251953125,
+                484.7232360839844,
+                283.9609680175781,
+                743.7899780273438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4dc6e45b6f517ba4e3b94f77114386eb",
+        "text": "Gravitational collapse of the mixed carbonate-siliciclastic platform\nunder its own weight and Sediment slides triggered by block rotation\nand/or sliding along the regional H3 d\u0001ecollement for gravity tectonics.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 22,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.8332214355469,
+                66.3309555053711,
+                552.8976440429688,
+                95.22052764892578
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9e93f41d9bc2dd6e7cf302a46f6ccc83",
+        "text": "5.3.1. Sediment slide triggered by gravity collapse of the mixed\ncarbonate-siliciclastic platform\nEscarpments in carbonates are normally primarily produced by\na combination of aggradational growth and erosion, arising from\nthe ability of carbonate platforms to construct very steep slopes and\nfrom the erosional processes that affect these slopes (Eberli et al.,\n2004). We interpret that the AM1 was triggered by the gravita-\ntional collapse of the mixed carbonate-siliciclastic platform under\nits own weight. However, making it much more susceptible to\nfailure and collapse, the dismantling of the hard carbonate platform\nwould probably occur after its subaerial exposure provided favor-\nable conditions for karstiﬁcation processes (Crevello and Schlager,\n1980; Schlager, 2005). Within such a context, a few scenarios of\npreconditioning factors may be proposed to explain the collapse\nprocess of the carbonate platform:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 22,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.83404541015625,
+                108.1697006225586,
+                552.9608154296875,
+                262.57550048828125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fc3b925672007d71789b1753077d4d16",
+        "text": "(i) During the Serravallian-Tortonian regression (around c. 11.8\nMa) the sea level fell ~100 m below the current sea-level\n(Haq et al., 1987). The resulting shelf exposure and erosion\nmay quite probably have promoted a weakening of the\nMiocene carbonate platform, turning it into a rock type more\nsusceptible to gravitational collapse and to a higher degree of\nsediment disruption, resulting thus in mass ﬂows. Such as-\nsumptions are also supported by information provided by\nWolfﬁand Carozzi (1984), who, after analyzing core samples\nfrom 18 wells drilled throughout the Amap\u0001a Formation,\npointed out that the uppermost Early to Mid-Miocene\nsequence of the carbonate platform “shows the most\nintense generation of secondary porosity and of dolomiti-\nzation …” and that it “… is characterized by the widespread\noccurrence of vuggy to channel porosity”;\n(ii) as the global sea-level rose again between 11.8 Ma and 10.5\nMa (Haq et al., 1987), it is possible that the distal shelf may\nhave been drowned again and that the water column may\nhave overloaded an already fragile shelf. Then, at some point\nthe platform became weak enough to collapse under its own\nweight;\n(iii) but the shelf seems to have resisted during most of the 10.5\nMa sea level rise, since the condensed section depicted by\nhorizon H3 is at places strongly eroded by the AM1 down-\nslope ﬂow (Figs. 8 and 11). Such temporal correlations make\nit clear that the central-northwestern carbonate platform\ncollapsed only after the cessation of the carbonate sedi-\nmentation (~9.5 Ma). Thus, it is possible that the 9.2 Ma sea-\nlevel fall exposed again the distal shelf to further weathering;\n(iv) ﬁnally, seismicity (especially along the Saint Paul) cannot be\nexcluded as a complementary driving force for the collapse of\nan already undermined carbonate shelf, including fault\nrupture-induced sliding. A map of historical earthquakes on\nthe Brazilian Margin compiled by Assumpç~ao (1998) shows\ndifferent magnitude epicenters (up to 5\u0001 in magnitude)\nwhich follow the lineation of the neighboring Romanche\nFracture Zone. We then hypothesize that such magnitude of\nseismicity could have acted as a potential trigger for insta-\nbility, especially if additional weakening factors such as\nkarstiﬁcation had preconditioned the slope for failure.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 22,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                308.8091735839844,
+                275.5246887207031,
+                552.964111328125,
+                691.4638671875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "37a2acabd9b0db4cc9b21db6886c62fa",
+        "text": "5.3.2. Sediment slides triggered by block rotation and/or sliding\nalong the regional H3 d\u0001ecollement for gravity tectonics\nAcross both the AMC and PMMC, the base of the slide for the",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 22,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.8326721191406,
+                714.9017944335938,
+                552.8365478515625,
+                743.7913818359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ff21cadb8b9f76195e91bc950f5aa136",
+        "text": "upslope source area of, respectively, the set of megaslides AM2-\nAM6\nand\nPM1-PM4\ncorrelates\nlaterally\nwith\nthe\nregional\ncondensed section depicted by the horizon H3 (Figs. 8 and 13). This\ncorrelation evidences that the impermeability and ﬂuid over-\npressure of the upper d\u0001ecollement for gravity tectonics in the\nAmazon fan, in the central portion of the Foz do Amazonas basin,\nhave also induced the instability and failure of sediment layers on\nthe NW and SE ﬂanks of the Amazon fan (Fig. 20):",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 23,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.51969909667969,
+                66.3354721069336,
+                293.6430969238281,
+                147.4951934814453
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7deaab1d26bce41c0b1e60d2db4d1c10",
+        "text": "(i) across the AMC, AM2 to AM6 were all triggered in similar\nways. Their slide scars were all triggered in response to\nstructurally-induced sea-bed ﬂexures of the large proximal\nfaultederotated\nblock,\nwhich\nexperienced\ndeformation\ninduced by overpressure conditions along the d\u0001ecollement\nlevel H3. This proximal faultederotated block is itself\npartially detached from the upslope continuous scarp A, as\nlow angle faults detaching along H3 (Figs. 8B and 9B). And\nyet, excess of pore water ﬂuid pressure still seems to occur\nalong horizon H3, as depicted by the inversed polarity of its\nassociated reﬂection signal (Fig. 8A). All these features sup-\nport the interpretation of a rotated block that has been var-\niably folded\nand\nfaulted during\nits\ndisplacement\nand\ndownslope sliding along H3 since 1.8 Ma (age of the dated\nhorizon beneath the AM2). Under such conditions, exten-\nsional deformation of the entire sedimentary package above\nH3 was accommodated by a combination of proximal\nextension and rotation along listric faults and sediment\ndisruption along the seaward limbs of the rotated block\n(Fig. 8B). The reason why the NW portion of the basin did not\nproduce a typical gravity tectonic nappe (upslope extension\nlinked to downslope compression) may quite probably be\nexplained by the local steep sea-ﬂoor. The high gradient\nslopes (in the range of 5\u0001e6\u0001) which occur along the concave\nupward basal d\u0001ecollement in the head area of the AMC\n(Fig. 6A) may have made the slope more unstable, preventing\nthe deposition of thicker sediment succession in stable\nconditions and thus favoring a higher frequence of sudden\nblock deformation. This structural pattern led, in its turn, to\nmore catastrophic and successive disruption events of sedi-\nment layers, instead of to a cumulative downslope stress\ncapable of being accommodated by distal compression\nacross thicker sedimentary series;\n(ii) in a similar way to the AM2-AM, the PMMC megaslides are\nall sourced from the same upslope deformed block, which\nhas equally detached and moved downslope apparently\ninduced by overpressure conditions along the d\u0001ecollement\nlevel H3. Here again, an excess of pore water ﬂuid pressure\nstill seems to occur along the upslope portion of the horizon\nH3, as depicted by the inversed polarity of its associated\nreﬂection signal (Fig. 14A). However, by contrast, the upslope\nPMMC block seems to have experienced a dominant down-\nslope\ntranslational\nmovement,\ninduced\nby\nthe\nbasal\nd\u0001ecollement that exhibits a more regular morphology. As a\nconsequence, multistage deformation of the entire sedi-\nmentary section above H3 also took place from 3.8 Ma on-\nwards (age of the dated horizon beneath PM1). Deformation\nof the sliding block is accommodated by widespread normal\nfaulting that gave rise to successive frontal block slide-offs\nwhich promoted a much higher degree of sediment disrup-\ntion when compared to the rotated block that sources the\nAMC megaslides.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 23,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.93084716796875,
+                160.44436645507812,
+                293.67376708984375,
+                701.9485473632812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1461fd239b62eb5fde60de96184790e5",
+        "text": "6. Conclusions",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 23,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                42.518104553222656,
+                714.897705078125,
+                101.9952163696289,
+                722.867919921875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a6fe51f7d2791f3ab72c6bdd5ebbce4c",
+        "text": "out in the present study evidence a long history of slope instability\nand sediment failure on the NW and SE ﬂanks of the Amazon fan,\nFoz do Amazonas basin. Our main results revealed that mass-\ntransport processes have multiple implications for the basin's\nstratigraphic record, as well as for explotation strategies:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 23,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.526123046875,
+                66.3282699584961,
+                562.590576171875,
+                116.13721466064453
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3a88b7a70247dd2df27d22e0554a4ba5",
+        "text": "(a) recurrent failure masses are recorded as large-scale MTCs,\nthe\nAmap\u0001a\nMegaslide\nComplex\n(AMC)\nand\nthe\nPar\u0001a-\nMaranh~ao Megaslide Complex (PMMC), involving individual\nvolumes of allochthonous masses of up to c. 24,000 km3.\nSome of these failure masses are highly mobile and erosive,\ncapable of travelling long downslope distances, which im-\nplies a great power of deformation and/or destruction of the\noriginal depositional architecture and stratigraphy of the\nbasin;\n(b) successive subaerial exposures and karstiﬁcation processes\nof a mixed carbonate-siliciclastic platform favored its gravity\ncollapse during the late Miocene-early Pliocene, generating a\nbasal carbonate slide (AM1) which occurs only in the AMC,\nsince it spreads out preferentially across the central-\nnorthwest basin, conditioned by the paleo bathymetry of\nthe period;\n(c) most megaslides of these MTCs are siliciclastic in nature,\nsourced from sea-bed deformations generated by multistage\nrotation or the sliding of large upslope blocks (from 30 to\n60 km wide). Blocks deformation was triggered by ﬂuid\noverpressure along a regional Upper Miocene condensed\nsection,\nhorizon\nH3,\nwhich\nalso\nacts\nas\nthe\nregional\nd\u0001ecollement level for gravity tectonics in the basin;\n(d) ﬂuid overpressure conditions along H3 does not seem to\nhave been attained synchronously throughout the basin. In\nthe case of the PMMC sufﬁcient overpressure capable of\ntriggering sediment slide seems to have been attained from\nthe Early Pliocene onwards; in the case of the AMC over-\npressure conditions seems to have been attained later on,\nfrom the mid Pleistocene onwards;\n(e) the conditions for structurally-induced slope instability\ngenerated by the regional d\u0001ecollement level H3 are still pre-\nsent across the MTCs. The reﬂector of high amplitude nega-\ntive\npolarity\nthat\ncharacterizes\nH3\nindicates\nthat\nthe\npotential for similar large scale sediment failures continues\nto exist in the basin.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 23,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                320.82391357421875,
+                129.08639526367188,
+                562.6512451171875,
+                503.18243408203125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5cb01bb2ad9b5741a6f7c04e024efae5",
+        "text": "Acknowledgments",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 23,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.5263671875,
+                526.5637817382812,
+                384.8980712890625,
+                534.5339965820312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3cef445ae60cee3f4bcea0152c684d35",
+        "text": "The authors gratefully acknowledge the ﬁnancial support and\nscholarships granted during the completion of this study from\nCAPES (Coordination for the Improvement of Higher Level Educa-\ntion-Brazil), the contribution of\nthe CNPq-Brazilian National\nResearch Agency (in the form of grants made to the ﬁrst and third\nauthors), that of the Brazilian National Petroleum and Gas Agency\n(ANP) for supplying data. Our special thanks are also due to GAIA\nand FUGRO for making additional seismic data available and for\npermission to publish our results, to the Brazilian Navy (DHN/\nLEPLAC- The Brazilian Continental Shelf Survey Programme) for\npermission to use the LEPLAC seismic lines, and to SMT Kingdom\nfor the use of educational licenses of the software Kingdom Suite®.\nWe would like also to thank Dr Roger Flood and an anonymous\nreviewer for their comments and advices that much improved the\noverall quality of this manuscript. We are also indebted to Bilal Haq\nfor his critical and insightful comments of our work. This is a\ncontribution of the research group GEOMARGEM: Geology and\nOceanography\nof\nPassive\nContinental\nMargins\n(http://www.\ngeomargem.org).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 23,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.5263671875,
+                547.3955078125,
+                562.642333984375,
+                743.791015625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b66dc437701c7f660cc24cff2f3cf108",
+        "text": "References",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 24,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.825199127197266,
+                66.3354721069336,
+                75.48184967041016,
+                74.30567169189453
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "27c6356e37c54ca5af9b9003393d2092",
+        "text": "Alves, T., 2010. 3D Seismic examples of differential compaction in mass-transport\ndeposits and their effect on post-failure strata. Mar. Geol. 271, 212e224.\nAraújo, E.F.S., Silva, C.G., Reis, A.T., Perovano, R., Gorini, C., Vendeville, B.C.,\nAlbuquerque, N.C., 2009. Movimentos de massa multiescala na Bacia da Foz do\nAmazonas e Margem equatorial brasileira. Rev. Bras. Geofís. 27 (3), 485e508.\nAssumpç~ao, M., 1998. Seismicity and stresses in the Brazilian passive margin. Bull.\nSeismol. Soc. Am. 88, 160e169.\nBiscontin, G., Pestana, J.M., 2006. Factors affecting seismic response of submarine\nslopes. Nat. Hazards Earth Syst. Sci. 6 (1), 97e107.\nBrand~ao, J.A.S.L., Feij\u0001o, F.J., 1994. Bacia da Foz do Amazonas. Bol. Geoci^enc. Petrobr\u0001as\n8, 91e99.\nBryn, P., Berg, K., Forsberg, C.F., Solheim, A., Kvalstad, T.J., 2005. Explaining the\nStoregga slide. Mar. Pet. Geol. 22, 11e19.\nBull, S., Cartwright, J., Huuse, M., 2009. A review of kinematic indicators from mass-\ntransport complexes using 3D seismic data. Mar. Pet. Geol. 26, 1132e1151.\nCallot, P., Sempere, T., Odonne, F., Robert, E., 2008. Giant submarine collapse of a\ncarbonate platform at the Turonian-Coniacian transition: the Ayabacas For-\nmation, southern Peru. Basin Res. 20, 333e357.\nCanals, M., Lastras, G., Urgeles, R., Casamor, J.L., Mienert, J., Cattaneo, A., De\nBatist, M., Haﬂidason, H., Imbo, Y., Laberg, J.S., Locat, J., Long, D., Longva, O.,\nMasson, D.G., Sultan, N., Trincardi, F., Bryn, P., 2004. Slope failure dynamics and\nimpacts from seaﬂoor and shallow sub-seaﬂoor geophysical data: case studies\nfrom the COSTA Project. Mar. Geol. 213, 9e72.\nCobbold, P.R., Mourgues, K., Boyd, K., 2004. Mechanism of thin-skinned detachment\nin the Amazon Fan: assessing the importance of ﬂuid overpressure and hy-\ndrocarbon generation. Mar. Pet. Geol. 21, 1013e1025.\nCrevello, P.D., Schlager, W., 1980. Carbonate debris sheets and turbidites, Exuma\nSounds, Bahamas. J. Sediment. Petrol. 50, 1121e1148.\nCurry, W.B., Shackleton, N.J., Richter, C., Backman, J.E., Bassinot, F., Bickert, T.,\nChaisson, W.P., Cullen, J.L., de Menocal, P., Dobson, D.M., Ewert, L., Qrutzner, J.,\nHagelberg, T.K., Hampt, Q., Harris, S.E., Herbert, T.D., Moran, K., Murayama, M.,\nMurray, D.W., Pearson, P.N., Rafﬁ, I., Schneider, D.A., Tiedemann, R., Valet, J.,\nWeedon, G.P., Yasuda, H., Zachos, J.C., 1995. Proc. ODP, Init. Repts. (Ocean Dril-\nling Program), College Station, TX, p. 154.\nDamuth, J.E., Embley, R.W., 1981. Mass-transport processes on the Amazon Cone:\nwestern equatorial Atlantic. AAPG Bull. 65, 629e643.\nDamuth, J.E., Flood, R.D., Kowsmann, R.O., Belderson, R.H., Gorini, M.A., 1988.\nAnatomy and growth pattern of Amazon deep-sea fan as revealed by long-\nrange side-scan sonar (GLORIA) and high resolution seismic studies. AAPG\nBull. 72, 885e911.\nDobson, D.M., Dickens, G.R., Rea, D.K., 2001. Terrigenous sediment on Ceara rise: a\nCenozoic record of South American orogeny and erosion. Palaeogeogr. Palae-\noclimatol. Palaeoecol. 165, 215e229.\nEberli, G.P., Anselmetti, F.S., Betzler, C., Van Konijnenburg, J.-H., Bernoulli, D., 2004.\nCarbonate platform to basin transitions on seismic data and in outcrops: great\nBahama Bank and the Maiella Platform margin, Italy, in Seismic imaging of\ncarbonate reservoirs and systems. AAPG Mem. 81, 207e250.\nFigueiredo, J.J.P., Zal\u0001an, P.V., Soares, E.F., 2007. Bacia da Foz do Amazonas. Bol.\nGeoci^enc. Petrobr\u0001as 15, 299e309.\nFigueiredo, J.J.P., Hoorn, C., van der Ven, P., Soares, E., 2009. Late Miocene onset of\nthe Amazon river and the Amazon deep-sea fan: evidence from the Foz do\nAmazonas basin. Geology 37, 619e622.\nFigueiredo, J.J.J.P., Hoorn, C., van der Ven, P., Soares, E., 2010. Late Miocene onset of\nthe Amazon river and the Amazon deep-sea fan: evidence from the Foz do\nAmazonas basin. Reply to comment by Campbell K. Geol. 38, 213.\nFloquet, M., Hennuy, J., 2001. Anatomy of a carbonate resedimentation within the\nlatest Turonian - Earliest Coniacian South-Provencal Basin. G\u0001eol. M\u0001editerr.\nXXVIII (1e2), 67e71. Tome.\nFloquet, M., Hennuy, J., 2003. Evolutionary gravity ﬂow deposits in the Middle\nTuronian - Early Coniacian, Southern Provence Basin (SE France): origins and\ndepositional processes. In: Locat, J., Mienert, J. (Eds.), Submarine Mass Move-\nments and Their Consequences, Kluwer Academic Publishers Bookseries, Ad-\nvances in Natural and Technological Hazards Research, 19, pp. 417e424.\nFlood, R.D., Manley, P.L., Kowsmann, R.O., Appi, C.J., Pirmez, C., 1991. Seismic facies\nand Late quaternary growth of Amazon submarine fan. In: Weimer, P., Link, M.L.\n(Eds.), Seismic Facies and Sedimentary Processes of Submarine Fans and\nTurbidite Systems. Springer-Verlag, New York, pp. 415e433.\nFlood, R.D., Piper, D.J.W., 1997. Amazon Fan sedimentation: the relationship to\nEquatorial climate change, continental denudation, and sea-level ﬂuctuations.\nIn: Flood, R.D., Piper, D.J.W., Klaus, A., Peterson, L.C. (Eds.), Proceedings of the\nOcean Drilling Program, Scientiﬁc Results, vol. 155, pp. 653e675.\nFrey-Martinez, J., Cartwright, J., Hall, B., 2005. 3D seismic interpretation of slump\ncomplexes: examples of continental margin of Israel. Basin Res. 17, 83e108.\nFrey-Martínez, J., Cartwright, J., James, D., 2006. Frontally conﬁned versus frontally\nemergent submarine landslides: a 3D seismic characterization. Mar. Pet. Geol.\n23, 585e604.\nGarziglia, S., Migeon, S., Ducassou, E., Loncke, L., Mascle, J., 2008. Mass-transport\ndeposits on the Rosetta province (NW Nile deep-sea turbidite system, Egyptian\nmargin): characteristics, distribution, and potential causal processes. Mar. Geol.\n250, 180e198.\nGorini, C., Haq, B.U., dos Reis, A.T., Silva, C.G., Cruz, A., Soares, E., Grangeon, D., 2014.\nLate Neogene sequence stratigraphic evolution of the Foz do Amazonas basin,",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 24,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                32.821197509765625,
+                85.62162017822266,
+                283.9574890136719,
+                737.611328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6f03968ab1c532fe7fa461c5a187d3ff",
+        "text": "Brazil. Terra Nova 26 (3), 179e185.\nHaﬂidason, H., Sejrup, H.P., Nygard, A., Mienert, J., Bryn, P., Lien, R., Forsberg, C.F.,\nBerg, K., Masson, D., 2004. The Storegga slide: architecture, geometry and slide\ndevelopment. Mar. Geol. 213, 201e234.\nHampton, M.A., Lee, H., Locat, J., 1996. Submarine landslides. Rev. Geophys. 34 (1),\n33e59.\nHaq, B., 2014. Cretaceous eustasy revisited. Glob. Planet. Change 113, 44e58.\nHaq, B., Hardenbol, J., Vail, P., 1987. Chronology of ﬂuctuating sea levels since the\nTriassic. Science 235, 1156e1167.\nHayes, D.E., Pimm, A.C., Beckmann, J.P., Benson, W.E., Berger, W.H., Roth, P.H.,\nSupko, P.R., von Rad, U., 1972. In: Initial Reports of the Deep Sea Drilling Project,\nVolume XIV. U.S. Government Printing Ofﬁce, Washington, pp. 249e282.\nHilgen,\nF.J.,\nLourens,\nL.J.,\nVan\nDam,\nJ.A.,\n2012.\nThe\nNeogene\nperiod.\nIn:\nGradstein, F.M., Ogg, J.G., Schmitz, M., Ogg, G. (Eds.), The Geologic Time Scale\n2012. Elsevier, Amsterdam, pp. 923e978.\nHeinrich, R., Hanebuth, T.J.J., Krastel, S., Neubert, N., Wynn, R.B., 2008. Architecture\nand sediment dynamics of the Mauritania slide complex. Mar. Pet. Geol. 25,\n17e33.\nHoorn, C., Guerrero, J., Sarmiento, G.A., Lorente, M.A., 1995. Andean tectonics as a\ncause for changing drainage patterns in Miocene, northern South America.\nGeology 23, 237e240.\nLabaume, P., Mutti, E., Seguret, M., 1987. Megaturbidites: a depositional model from\nthe Eocene of the SW-Pyrenean Foreland Basin, Spain. Geo Mar. Lett. 7, 91e101.\nLatrubesse, E., Silva, S.F., Cozzuol, M., Absy, M.L., 2007. Late Miocene continental\nsedimentation in the southwestern Amazonia and its regional signiﬁcance:\nbiotic and geological evidence. J. S. Am. Earth Sci. 23, 61e80.\nMaslin, M., Mikkelsen, N., 1997. Amazon Fan mass-transport deposits and under-\nlying interglacial deposits: age estimates and fan dynamics. In: Proceedings of\nthe Ocean Drilling Program, Scientiﬁc Results, 155.\nMaslin, M., Owen, M., Day, S., Long, D., 2004. Linking continental-slope failures and\nclimate change: testing the clathrate gun hypothesis. Geology 32 (1), 53e56.\nMaslin, M., Vilela, C., Mikkelsen, N., Grootes, P., 2005. Causes of catastrophic sedi-\nment failures of the Amazon Fan. Quat. Sci. Rev. 24, 2180e2193.\nMatos, R.M.D., 2000. Tectonic evolution of the equatorial South Atlantic. In:\nMohriak, W.U., Talwani, M. (Eds.), Atlantic rifts and Continental Margins, AGU\nGeophys. Monogr, 115, pp. 331e354.\nMigeon, S., Cattaneo, A., Hassoun, V., Larroque, C., Corradi, N., Fanucci, F., Dano, A.,\nLepinay, Mercier de, Gorini, C., 2006. Morphology, distribution and origin of recent\nsubmarine landslides of the Ligurian Margin (North-western Mediterranean):\nsome insights into geohazard assessment. Mar. Geophys. Res. 32 (1e2), 225e243.\nMoscardelli, L., Wood, L., Mann, P., 2006. Mass-transport complexes and associated\nprocesses in the offshore area of Trinidad and Venezuela. AAPG Bull. 90 (7),\n1059e1088.\nMoulin, M., Aslanian, D., Unternher, P., 2010. A new starting point for the south and\nequatorial Atlantic Ocean. Earth Sci. Rev. 98, 1e37.\nNisbet, E., Piper, D.J.W., 1998. Giant submarine landslides. Nature 392, 329e330.\nPerovano, R., 2012. An\u0001alise estrutural da tect^onica gravitacional na bacia da Foz do\nAmazonas a partir da interpretaç~ao de dados sísmicos e de modelagem\nexperimental. Thesis. Departamento de Geologia - Universidade Federal Flu-\nminense e UFF, Niter\u0001oi, p. 296.\nPerovano, R., Vendeville, B., Reis, A.T., Silva, C.G., Gorini, C., Araújo, E.F.S., 2011.\nModelagem física experimental de mecanismos de deformaç~ao gravitacional\nsimulando múltiplos intervalos superpressurizados: aplicaç~ao \u0003a Bacia da Foz do\nAmazonas. Rev. Bras. Geofísica 29, 583e607.\nPiper, D.J.W., Pirmez, P.L., Manley, P.L., Long, D., Flood, R.D., Normark, W.R.,\nShowers, W., 1997. Mass-transport deposits of the Amazon fan. Proceedings of\nthe Ocean drilling Program. Sci. Results 155.\nPirmez, C., Imran, J., 2003. Reconstruction of turbidity currents in Amazon channel.\nMar. Pet. Geol. 20, 823e849.\nReijmer, J.J.G., Mulder, T., Borgomano, J., 2015. Carbonate slopes and gravity de-\nposits. Sediment. Geol. 315, 83e90.\nReis, A.T., Perovano, R., Silva, C.G., Vendeville, B.C., Araujo, E., Gorini, C., Oliveira, V.,\n2010. Two-scale gravitational collapse in the Amazon Fan: a coupled system of\ngravity tectonics and mass-transport processes. J. Geol. Soc. Lond. 167, 593e604.\nSchlager, W., 2005. Carbonate Sedimentology and Sequence Stratigraphy. SEPM\nSociety for Sedimentary Geology, Tulsa, p. 200.\nSilva, S.R.P., Maciel, R.R., Severino, M.C.G., 1999. Cenozoic tectonics of Amazon\nMouth Basin. Geo Mar. Lett. 18, 256e262.\nSilva, R., Reis, A.T., Silva, C.G., Vendeville, B., Gorini, C., Araújo, E.F.S., 2009. O processo\nde colapso gravitacional e a estruturaç~ao da seç~ao marinha da bacia da Foz do\nAmazonas - Margem equatorial brasileira. Rev. Bras. Geofís. 27, 459e484.\nSilva, C.G., Araújo, E.F.S., Reis, A.T., Perovano, R., Gorini, C., Vendeville, B.C.,\nAlbuquerque, N.C., 2010. Megaslides in the Foz do Amazonas Basin, Brazilian\nequatorial margin. In: Mosher, D.C., Shipp, R.C., Moscardelli, L., Chaytor, J.D.,\nBaxter, C.D.P., Lee, H.J., Urgeles, R. (Eds.), Submarine Mass Movements and Their\nConsequences. Springer-Verlag, New York, pp. 581e591.\nSultan, N., Foucher, J.P., Cochonat, P., Tonnerre, T., Bourillet, J.F., Ondreas, H.,\nCauquil, E., Grauls, D., 2004a. Dynamics of gas hydrate: case of the Congo\ncontinental slope. Mar. Geol. 206, 1e18.\nSultan, N., Cochonat, P., Foucher, J.-P., Mienert, J., 2004b. Effect of gas hydrates\nmelting on seaﬂoor slope instability. Mar. Geol. 213, 379e401.\nWolff, B., Carozzi, A.V., 1984. Microfacies, Depositional Environments, and Diagen-\nesis of the Amap\u0001a Carbonates (Paleoceneemiddle Miocene), Foz Do Amazonas\nBasin, Offshore NE Brasil. In: Petrobras, S\u0001erie Ci^encia-T\u0001ecnica Petr\u0001oleo: Seç~ao\nExploraç~ao de Petr\u0001oleo, 13, p. 102.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Dos-Reis-et-al-2016-MPG.pdf",
+            "page_number": 24,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                301.82904052734375,
+                66.32369995117188,
+                552.927490234375,
+                742.2650756835938
+            ],
+            "is_full_width": false
+        }
+    }
+]

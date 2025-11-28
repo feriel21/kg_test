@@ -1,0 +1,1750 @@
+[
+    {
+        "element_id": "74a5ef7d893c020f1afa303320ef9362",
+        "text": "Numerical modeling of landquakes",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                60.94499969482422,
+                100.4884033203125,
+                270.5245056152344,
+                114.43599700927734
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3463f4ce5a3512fb8a9c58d5e334518a",
+        "text": "P. Favreau,1 A. Mangeney,1,2 A. Lucas,1 G. Crosta,3 and F. Bouchut4",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                60.94499969482422,
+                118.57762145996094,
+                372.4434509277344,
+                134.4122314453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9fd9b0f87a20a33e6e9f78dfadd817c1",
+        "text": "Received 6 April 2010; revised 3 June 2010; accepted 8 June 2010; published 11 August 2010.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                60.94499969482422,
+                141.663330078125,
+                372.02679443359375,
+                149.63352966308594
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a96642f2c8e3b3f239a4b9e59a85042e",
+        "text": "[1]\nThe Thurwieser landslide that occurred in Italy in 2004\nand the seismic waves it generated have been simulated and\ncompared to the seismic signal recorded a few tens of\nkilometers from the landslide source (i.e., landquake).\nThe main features of the low frequency seismic signal\nare reproduced by the simulation. Topography effects on\nthe flowing mass have a major impact on the generated\nseismic signal whereas they weakly affect low‐frequency\nwave propagation. Simulation of the seismic signal makes\nit possible to discriminate between possible alternative\nscenarios for flow dynamics and to provide first estimates\nof the rheological parameters during the flow. As\nlandquakes are continuously recorded by seismic networks,\nour results provide a new way to collect data on the\ndynamics and rheology of natural flows. Citation: Favreau, P.,\nA. Mangeney, A. Lucas, G. Crosta, and F. Bouchut (2010), Numerical\nmodeling of landquakes, Geophys. Res. Lett., 37, L15305,\ndoi:10.1029/2010GL043512.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                60.944339752197266,
+                157.03831481933594,
+                300.0960998535156,
+                353.1133728027344
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "32c63dffccff3ef716ee53b306ace6af",
+        "text": "1.\nIntroduction",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                60.94499969482422,
+                368.6314392089844,
+                138.34075927734375,
+                379.5904541015625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "18aaa87cc83e67994da3db5945d1e47f",
+        "text": "[2] Gravitational instabilities such as debris flows, land-\nslides or avalanches play a key role in erosion processes on\nthe Earth’s surface and represent one of the major natural\nhazards threatening life and property in mountainous, vol-\ncanic, seismic and coastal areas.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                60.94477081298828,
+                385.22723388671875,
+                300.0560302734375,
+                439.0143127441406
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a630aba5de419267548acf5011e111e6",
+        "text": "[3] Research involving the dynamic analysis of gravita-\ntional mass flows is advancing rapidly. One of its ultimate\ngoals is to produce tools for detection of natural instabilities\nand for prediction of velocity and runout extent of rapid\nlandslides. Of special interest are field measurements and\nmodeling developments that can help explain the high\nmobility of natural flows [e.g., Legros, 2002; Lucas and\nMangeney, 2007].",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                60.94477081298828,
+                439.9926452636719,
+                300.0440673828125,
+                526.6622314453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d5981533d7eccee657703fbb6e708189",
+        "text": "[4] Field measurements relevant to the dynamics of natural\nlandslides are scarce. This is due to their unpredictability and\ndestructive power and prevents detailed investigation of the\nmechanical properties of the flowing material. Furthermore,\ndata on the deposits are not always available due to subse-\nquent flows, erosion processes or site inaccessibility. In this\ncontext, the analysis of the seismic signal generated by nat-\nural instabilities provides a unique way to study flow",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                60.94477081298828,
+                527.6964721679688,
+                300.0450744628906,
+                614.3660888671875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d55f01fa8e925b5cec8440f6962ad933",
+        "text": "1Equipe Sismologie, UMR 7154, Institut de Physique du Globe de\nParis, Paris, France.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                60.88816833496094,
+                656.6691284179688,
+                299.9877624511719,
+                675.46044921875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f929e4448647c2f5847b9831989555e1",
+        "text": "2UFR STEP, Université Paris‐Diderot 7, Paris, France.\n3Department of Geology and Geotechnologies, Università di Milano\nBicocca, Milan, Italy.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                60.88795852661133,
+                674.6408081054688,
+                299.98199462890625,
+                702.3328247070312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3a25ac1340dab316a6b4abee710ed460",
+        "text": "4LAMA, UMR 8050, Université Paris‐Est‐Marne‐la‐Vallée, Marne‐\nla‐Vallée, France.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                60.88636779785156,
+                701.5132446289062,
+                299.9915466308594,
+                720.3045654296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "19e22f1abd90e00f444cf610a936a74f",
+        "text": "dynamics and to discriminate between the physical processes\nat play during their emplacement.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.9803466796875,
+                157.04185485839844,
+                551.0318603515625,
+                178.003173828125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "20afbe5c23fc30af6af52c799a81825d",
+        "text": "[5] Seismic detection of natural instabilities has been\ndeveloped in various geological environments. Even though\nsnow avalanche, rockfall and pyroclastic flow activity is\nnow continuously recorded on a routine basis, the char-\nacteristics of the associated seismic signals are still poorly\ndefined (i.e., frequency range, amplitude, duration, surface\nwaves versus body waves, etc.) [Dahlen, 1993; Kishimura\nand Izumi, 1997; De Angelis et al., 2007]. Recent studies\nhave proved the potential of the seismic signal to provide\nestimates of the geometrical properties and nature of the\nflow (mass, volume, fluid content, etc.) and of its dynamics\nand mechanical behaviour (velocity, friction coefficient,\netc.) [Suriñach et al., 2001; Brodsky et al., 2003; La Rocca\net al., 2004; Vilajosana et al., 2007; Huggel et al., 2007;\nDeparis et al., 2008; Cole et al., 2009].",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.9797668457031,
+                178.97850036621094,
+                551.1051635742188,
+                342.3551940917969
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8efa92a53fda352356d193ce7d9fabd2",
+        "text": "[6] However, inferring information from the seismic sig-\nnal to characterize the “landslide source” (hereafter called\nlandquake) suffers from uncertainties related to the respec-\ntive role of topography, mass involved, flow dynamics and\nwave propagation on the recorded signal. Coupled numeri-\ncal modeling of landslide dynamics and generated seismic\nwaves provides a unique tool to address this issue.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.98077392578125,
+                343.3878479003906,
+                551.0830078125,
+                419.0587463378906
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d9aee6f6768edd60924469ad66eb9a99",
+        "text": "[7] As a first step towards quantification of these effects,\nclassical models of gravitational flows over complex\ntopography will be used together with a wave propagation\nmodel to simulate the Thurwieser rock avalanche (Italian\nCentral Alps) and its associated seismic signal. The extraor-\ndinary and unusual quantitative observations available for\nthis landslide make it possible to (i) demonstrate that\nnumerical simulation of the landslide generated seismic\nwaves can match the observed low frequency seismic signal,\n(ii) show that topography effects on landslide dynamics play a\nkey role in the generated signal, (iii) discriminate between\npossible alternative scenarios for flow dynamics and provide\nfirst estimates of the rheological parameters.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.98077392578125,
+                420.0933532714844,
+                551.0950927734375,
+                561.5293579101562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b6437acb5a42d463ce11166ecbc59799",
+        "text": "2.\nObserved Avalanche and Seismic Signal",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.981201171875,
+                574.8235473632812,
+                519.9951171875,
+                585.7825317382812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4ee0ef37e877087407edfc8be4ade003",
+        "text": "[8] The 2.5 Mm3 Punta Thurwieser rock avalanche\noccurred at 13.41 pm on September 18th 2004 in the Italian\nCentral Alps [Sosio et al., 2008]. The rock debris traveled\n2.9 km from the source (N46.495, E10.526) along the Marè\nvalley, covered in its upper 650 m by the Zebru glacier\n(Figure 1a). Along the avalanche path, the slope varies from\n42° on the steepest part to ∼9° on the inclined Zebru glacier\nplateau that ends with a large rock‐covered headwall with a\nchange in slope of ∼29° over about 500 m. The avalanche\npath then extends over a gentler slope of ∼15° for the last\n1000 m. This is the only such event to have been recorded\non video, providing very accurate measurements of the\nlandslide duration (75–90 s) and front velocity (maximum\nfront velocity below the glacier limit of ∼60–65 m s−1",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.9804382324219,
+                586.9973754882812,
+                551.1061401367188,
+                743.8540649414062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "56f23cc1c6999c42fceba2e2149a61c9",
+        "text": "Figure 1. (a) Map showing the location of the Thurwieser\nrock avalanche (Italy) and the FUORN and BERNI seismic\nstations (Switzerland). The picture shows the rock avalanche\ndeposit [Sosio et al., 2008] outlined with white dashed lines\nfor thicknesses h > 1 m. (b) Vertical ground velocity re-\ncorded at FUORN station. The recorded seismic signal is\nrepresented in black for the raw data and in pink and red for\nthe data filtered at 5–20 s and 20–50 s, respectively. (c)\nSpectrogram of the seismic signal.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                60.944000244140625,
+                573.1641235351562,
+                300.0273742675781,
+                670.8324584960938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "57f1d0152d6eab28c57dedd71283d25e",
+        "text": "observed on the descent over the headwall). Furthermore,\nthe deposit geometry and material have been precisely\ncharacterized. Most of the debris was deposited downslope\nof the headwall, with maximum thickness of about 25–28 m\n(Figure 1a) [Sosio et al., 2008].",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                60.94499969482422,
+                693.7500610351562,
+                300.0364074707031,
+                747.537109375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "802574c77b79be63e3411d3bd008b279",
+        "text": "19448007, 2010, 15, Downloaded from https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2010GL043512 by Bibliothèque de Sorbonne Université, Wiley Online Library on [11/03/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                595.7743530273438,
+                15.84002685546875,
+                602.257568359375,
+                775.4083862304688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ada643e7b724060fa315fbfc7cfa4f3c",
+        "text": "[9] The seismic signal generated by the rock avalanche\nwas recorded by two broadband Streckeisen STS‐2 seismic\nstations, FUORN (N46.62, E10.26) and BERNI (N46.41,\nE10.02), located in Switzerland at about 24 km and 39 km\nfrom the source, respectively. The vertical ground velocity\nwas ∼1 × 10−6 m s−1 at FUORN and the duration of the\nseismic signal was about 150 s with a main frequency range\nf 2 [0, 10] Hz (Figures 1b and 1c). An initial small ampli-\ntude signal lasting 50 s, possibly due to rockfall activity,\nwas observed just before the rock avalanche started to flow\n[Sosio et al., 2008]. It was followed by a strong signal\nobserved for about 90 s (roughly the landslide duration)\nwith a larger low frequency content, mainly made of a small\npulse followed by two higher amplitude pulses (Figures 1b,\n1c, and 3).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.98077392578125,
+                58.5627326965332,
+                551.0914306640625,
+                221.9951171875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "145e6b42f4eb520a8372a8bc14dbf61f",
+        "text": "3.\nLandslide Simulation",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.981201171875,
+                240.2220458984375,
+                430.47760009765625,
+                251.18104553222656
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a1f0ee911322f137a5d7dae0630fd9f4",
+        "text": "[10] The idea is to calculate the spatio‐temporal stress\nfield representing the low frequency source function of\n“landquakes” using classical avalanche models. The Thur-\nwieser landslide has already been simulated with calibration\nof the rheological parameters using unique front velocity\ndata [Sosio et al., 2008]. Generally models are calibrated\nusing the runout distance and, when available, the deposit\nextent. However these data are hardly ever measured for\nnatural events, in particular for submarine landslides. We\nshow here that models can be calibrated using the seismic\nsignal generated by the landslide, a measurement that can\neasily be obtained from seismic networks and that contains\ninformation on the dynamics.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.9810485839844,
+                256.50225830078125,
+                551.0814208984375,
+                398.3105773925781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2864d6344b8b0ff90ab93cd07729385f",
+        "text": "[11] We use here the SHALTOP numerical model that\ndescribes granular flows over a complex 3D topography\n[Bouchut et al., 2003; Bouchut and Westdickenberg, 2004;\nMangeney‐Castelnau et al., 2005; Mangeney et al., 2007a].\nThis model is based on the depth‐averaged thin layer\napproximation and takes into account a Coulomb type\nfriction law. It describes the change in time of the thickness\nh(x, y, t) in the direction normal to the topography and of the\ndepth‐averaged velocity of the flow u(x, y, t) along the\ntopography z = b(x, y), where (x, y, z) are the coordinates in a\nhorizontal/vertical reference frame. Contrary to most models\nused in geophysics, this model deals with the full tensor of\nterrain curvature H. SHALTOP has successfully reproduced\nexperimental granular flows [Mangeney‐Castelnau et al.,\n2005; Mangeney et al., 2007a] and natural landslides\n[Lucas and Mangeney, 2007; Kuo et al., 2009].",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.9810485839844,
+                399.28704833984375,
+                551.109375,
+                573.6624145507812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0ac5ff448358c2bc194dc21a33522ca0",
+        "text": "[12] As the main issue in landslide modeling is their still\nunknown mechanical behaviour, we choose the simplest\nfriction law involving only one empirical parameter, the\nfriction coefficient m = tan d, where d is the friction angle.\nThis parameter can be considered as a measure of the mean\ndissipation during the flow. The material involved in the\nThurwieser avalanche mainly consists of dry, broken rocks\nmixed with a few ice blocks so that an empirical friction\ncoefficient typical of dry granular flows is expected. Note\nthat for natural landslides with volumes ≥1 Mm3, the\nempirical friction angle d is generally smaller than the typ-\nical friction angle of natural material (dn ≥30°) [e.g., Pirulli\nand Mangeney, 2008].",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.9810485839844,
+                574.6382446289062,
+                551.0985717773438,
+                716.1285400390625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5502cd7bab18257d1ab0a8ab7dcbd58c",
+        "text": "[13] We performed numerical simulations using the pre‐\nand post‐event Digital Elevation Model provided by Sosio\net al. [2008]. The friction angles were calibrated to best fit",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.9810485839844,
+                716.7351684570312,
+                551.1033935546875,
+                749.0106811523438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "78d0317c79f680a4a85d3370b8e6ad05",
+        "text": "Figure 2. Numerical modeling of the Thurwieser rock avalanche (a–c) without taking the glacier into account, i.e., with a\nconstant friction angle d = 23°, and (d–f) taking the glacier into account with friction angles d1 = 26°, and d2 = 6° when the\nmass flows over the glacier (represented in light blue).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                60.94499969482422,
+                335.3053894042969,
+                551.0980834960938,
+                367.5238342285156
+            ],
+            "is_full_width": true
+        }
+    },
+    {
+        "element_id": "ec604d518e30c81843ac7d4d23d4ab91",
+        "text": "the observed runout distance. Assuming a constant friction\ncoefficient over the entire avalanche path, the best fit of the\nrunout distance was obtained with d = 23° (Figures 2a–2c).\nIn that case, hereafter called scenario 1, the main part of the\nmass stops on the plateau covered by the glacier, before the\nheadwall, with a maximum deposit thickness of 43 m and a\nthin deposit (h < 12 m) in the downslope valley. The\nmaximum velocity below the glacier is about 50 m s−1,\nreached at time t ’ 45 s when the front descends the\nheadwall. The upper part of the flow stops at ts ’ 45 s while\nthe remaining mass located downslope within the valley\nstops at around ts = 100 s.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                60.94462966918945,
+                395.43194580078125,
+                300.0297546386719,
+                527.6243896484375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e91a4d525cc6454b197ad2b4fdb3ea4c",
+        "text": "[14] However, the presence of a glacier along the ava-\nlanche path is known to significantly reduce the basal fric-\ntion when the flow passes over it [Sosio et al., 2008]. The\nsimplest way to take this into account is to assign a different\nfriction angle for flow over the glacier, i.e., d2, while the\nfriction angle is d1 everywhere else. The observed runout\ndistance can be reproduced numerically with various com-\nbinations of (d1, d2). The results are shown in Figures 2d–2f\nfor friction angles d1 = 26° and d2 = 6°, hereafter referred to\nas scenario 2, that give the best fit to the seismic signal (see\nsection 5). In this case, the dynamics are very different from\nscenario 1. Due to the low friction on the glacier, the main\npart of the mass overrides and spreads out widely over the\nheadwall. The bulk deposit is found downslope in the Marè\nvalley with maximum thickness of 27.5 m, in agreement\nwith field observations [Sosio et al., 2008] (Figures 1a and\n2f). The maximum velocity downslope of the glacier is\nabout 65 m s−1, reached at time t ’ 40 s when the front\ndescends the headwall, also consistent with field measure-\nments, showing that calibration using the seismic signal",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                60.94485855102539,
+                526.9595336914062,
+                300.0472412109375,
+                745.0987548828125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3d3bf304e146a20f398e2d733a18f565",
+        "text": "19448007, 2010, 15, Downloaded from https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2010GL043512 by Bibliothèque de Sorbonne Université, Wiley Online Library on [11/03/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                595.7743530273438,
+                15.84002685546875,
+                602.257568359375,
+                775.4083862304688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bd119b3f461b8bbe5b2c75e0e1478ed2",
+        "text": "helps constrain the flow dynamics. The mass stops at time\nts ’ 100 s.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.9817199707031,
+                395.4334411621094,
+                551.0511474609375,
+                417.6648864746094
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4a1d61a31b0341fbcba1ec2474299a92",
+        "text": "4.\nLandquake Seismic Wave Modeling",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.981201171875,
+                440.2346496582031,
+                500.2426452636719,
+                451.19366455078125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "79e6f426ae5b91175a46a30980453f0d",
+        "text": "[15] The flowing mass generates a time dependent basal\nstress field applied on top of the terrain, inducing seismic\nwaves. In the topographic reference frame (eX, eY, eZ), where\neZ is directed upwards normal to the plane tangent to the\ntopography and (eX, eY) defines an orthonormal reference\nframe in this plane, the stress T = (TX, TY, TZ) can be\nexpressed as:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.9810485839844,
+                456.8303527832031,
+                551.0924682617188,
+                532.5569458007812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "755fb1ef4dc20e34ade6caee032903f8",
+        "text": "\u0001\n\u0003",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                372.3584289550781,
+                535.2643432617188,
+                441.3702392578125,
+                544.2306518554688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "dd79c9aad1ed897a0d60f8b4f33ebc86",
+        "text": "kuk ; \u00021\n\u0001\n\u0003",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                441.3539733886719,
+                535.2643432617188,
+                522.101806640625,
+                562.9962768554688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "46af50e266317228f2a672a93865632f",
+        "text": "T ¼ \u0001gh cos \u0003 þ ut",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                340.9512939453125,
+                540.7049560546875,
+                415.3827819824219,
+                556.8734741210938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7ad886f4002a748a8a32e75bd217f984",
+        "text": "hHuh\ng cos2 \u0003",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                407.3952941894531,
+                541.7843627929688,
+                434.83563232421875,
+                562.9962768554688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "84212a7978ab559351bef3faaef88996",
+        "text": "\u0004 uX",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                447.87353515625,
+                541.7843627929688,
+                466.1216125488281,
+                556.8731689453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a02d3196f0354b272063ed18c1df65c9",
+        "text": "kuk ; \u0004 uY",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                454.73388671875,
+                541.7843627929688,
+                494.14166259765625,
+                562.9962768554688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1a42bd10fec50361ebe85df1dbe2386c",
+        "text": "ð1Þ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                539.7169799804688,
+                547.9068603515625,
+                551.10595703125,
+                556.8731689453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "447ce81406c6343de9dc6354aa46b6b6",
+        "text": "where \u0003(x, y) is the steepest slope angle, uh = (ux, uy) the\nprojection of the velocity in the horizontal plane, g\nacceleration due to gravity and r the density of the flowing\nmass. Equation (1) shows that the simulated source\nessentially reflects the loading/unloading conditions related\nto the spatio‐temporal variation of the thickness of the\nflowing mass which is in turn a result of a complex balance\nbetween inertia, pressure gradients, gravity and friction\n[Mangeney‐Castelnau et al., 2003]. Centrifugal accelera-\ntion also contributes due to the curvature radii of the terrain\n(second term in expression (1)). The tangential stress involves\nthe friction coefficient as defined by the Coulomb friction\nlaw.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.98028564453125,
+                574.2659912109375,
+                551.1514892578125,
+                716.1310424804688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9305a56f4b28d603d7a29d179cb0a30e",
+        "text": "[16] The calculated stress field (1) is used as a surface\nboundary condition in a seismic wave propagation model.\nThis model, developed by Pascal Favreau, is based on a fast",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.9810485839844,
+                717.107421875,
+                551.0795288085938,
+                749.0106811523438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bbe5196737a02a748ea6f85a17f14e7e",
+        "text": "Figure 3.\nVertical ground velocity filtered at 20–50 s at\n(a) FUORN and (b) BERNI stations. Observed data are\nrepresented in red and the seismic signal calculated from\nscenario 1 (without glacier) and scenario 2 (with glacier)\nare represented in green and blue, respectively. Inserts: com-\nparison between observed data (red) and the seismic signals\nsimulated with (dark blue) and without (light blue) curvature\neffects (see equation (1)).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                60.94409942626953,
+                367.6770324707031,
+                300.0434875488281,
+                454.7189025878906
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1a59dddbdd5ca166e913f836a4b503b9",
+        "text": "Green’s function calculation with a discrete frequency‐\nwavenumber method inspired by the work of Bouchon\n[1979]. Here, topography and complex media effects are\nneglected and the model solves the elastodynamic equa-\ntions in a horizontally stratified half‐space. Free surface\nboundary conditions are applied at the top, continuity con-\nditions at each interface and vanishing conditions at infinite\ndepth.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                60.944000244140625,
+                476.0738830566406,
+                300.04144287109375,
+                563.1157836914062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b9cb48c7971a197b968021972b6d4486",
+        "text": "[17] Because depth‐averaged landslide models like the\none used here do not simulate high frequency sources\nrelated to impacts and collisions of individual blocks, only\nthe long‐period simulated and recorded seismic signals are\ncompared, i.e., T 2 [20 s, 50 s]. For T ≥20 s, the typical\nwavelength is l = cT ≥50 km for a typical wave velocity of\nc = 2.5 km s−1. In this frequency range, topographic and\ncomplex media effects are expected to weakly affect seismic\nwave propagation. Here, the source‐seismometer distance is\n<40 km, so that for periods T ≥20 s the recorded seismic\nsignal can be considered as a near‐field signal.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                60.94485855102539,
+                563.7777709960938,
+                300.0466003417969,
+                683.7009887695312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9175a55c2a2bf5b10e4f8dc89d2fb5de",
+        "text": "5.\nResults",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                60.94499969482422,
+                700.5116577148438,
+                113.00354766845703,
+                711.4706420898438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e2420bfe96a3dcbfc549b734e88551b8",
+        "text": "[18] Let us compare the observed and simulated vertical\ncomponents of the seismic signals at FUORN station, filtered\nbetween 20 s and 50 s, for scenario 1 and 2 (Figure 3a). The",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                60.94485855102539,
+                717.107421875,
+                300.0043640136719,
+                749.0106811523438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "dd97713979863106f3df6f7b57c35166",
+        "text": "19448007, 2010, 15, Downloaded from https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2010GL043512 by Bibliothèque de Sorbonne Université, Wiley Online Library on [11/03/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                595.7743530273438,
+                15.84002685546875,
+                602.257568359375,
+                775.4083862304688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "def47668dc5175d31c3d5c950e9fe56b",
+        "text": "signal calculated using scenario 1 (without glacier) simulates\nthe two first peaks observed in the data, however the last\npeak is not reproduced. The sign and amplitude of the first\nmotion well match the data until tl = 20 s, where tl is counted\nfrom the beginning of the seismic signal t0 and roughly\ncorresponds to the time elapsed from the initial mass desta-\nbilization. The simulation overestimates the amplitude for\n20 s < tl < 45 s and underestimates it for tl > 50 s. Similar\nfeatures are observed for BERNI station (Figure 3b).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.98046875,
+                59.5867805480957,
+                551.0829467773438,
+                157.1932373046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5571110d7905dfa43da68df2c9f325ad",
+        "text": "[19] Taking into account the glacier significantly im-\nproves the results: the simulated amplitude closely matches\nthe data, and the last peak observed in the seismic signal is\naccurately reproduced for both stations (Figures 3a and 3b).\nThe peak ground velocity is accurately simulated for both\nstations. The simulated amplitude is underestimated only for\n50 s < tl < 60 s. Analysis of the horizontal components give\nsimilar qualitative results but less agreement between sim-\nulated and observed signals.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.9810485839844,
+                158.2288055419922,
+                551.072509765625,
+                255.83905029296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "02e4c6b906c752585208395b7ca27713",
+        "text": "[20] These results show that the landslide dynamics are\nmuch better reproduced using scenario 2. Although analysis\nof the seismic signal in terms of flow dynamics is relatively\nuncertain, we propose some possible interpretations of the\nresults. At the beginning (tl < 20 s), the simulated seismic\nsignal is almost the same for the two scenarios that differ\nonly in terms of the values of the friction coefficients. This\nmay result from the small contribution of the friction force\ncompared to inertia or longitudinal pressure gradients, dur-\ning the first instants of a granular mass collapse [e.g.,\nMangeney‐Castelnau et al., 2003]. Due to the low friction\nangle when the landslide passes over the glacier, the mass\nspreads over the entire headwall in scenario 2 while it is\nrestricted to a narrow zone in scenario 1 (Figures 2e and 2b).\nThe larger spreading observed in scenario 2 at time 20 s <\ntl < 45 s is associated with smaller amplitude seismic\nsignals. At tl > 50–55 s in scenario 1, the main part of the\nmass is already at rest upslope while a small amount of\nmaterial is still flowing in the valley below, contrary to\nscenario 2 where the entire mass is flowing in the valley,\ngenerating a higher amplitude seismic signal. A sensitivity\nstudy has been performed by varying the friction angles in\nthe model. The best fit for the seismic signal is obtained\nfor friction coefficients d1 = 26° and d2 = 6° (see section\n3). These friction angles are similar to those fitted for\nfront velocity data by Sosio et al. [2008].",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.98065185546875,
+                256.81781005859375,
+                551.1358642578125,
+                540.7776489257812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d33fab5e0d1247128315322a9265efe2",
+        "text": "[21] Curvature effects play a major role in the generated\nseismic signal. Indeed, the signal simulated without taking\ninto account the curvature term does not fit the data (inserts\nin Figure 3). Numerical simulation clearly shows that the\nsensitivity of the flow to the topography strongly depends\non its rheology. Because the dynamics of the flow over the\ntopography is “scanned” by the seismic signal, the signal\ncan be analyzed to recover the flow history and thus the\nrheological parameters, if topography effects are accounted\nfor.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.9810485839844,
+                541.75634765625,
+                551.0924072265625,
+                650.3665771484375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6fda3078b6c01283754a717e96b2b4f9",
+        "text": "6.\nConclusion",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.981201171875,
+                667.6298217773438,
+                382.3083801269531,
+                678.5888061523438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4392ba1626e6e3ee51026f6877aaee81",
+        "text": "[22] The simulation of a landslide and the generated\nseismic waves is shown to explain the main features of\nlandquake low frequency seismic signals observed at dis-\ntances greater than about 10 times the length of the land-\nslide. We show here that the effects of topography on the\nflowing mass have a major impact on the generated seismic",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.9810485839844,
+                684.2256469726562,
+                551.0845336914062,
+                749.0114135742188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0490c551e6daadc8d692001393dc874d",
+        "text": "signal, as already suggested by Suriñach et al. [2001]. As a\nresult, analysis of the seismic signal must take into account\nthe complex 3D topography along the avalanche path. On\nthe other hand, for the source‐station distance and periods\nconsidered here, topography seems to only weakly affect\nwave propagation.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                60.94499969482422,
+                59.5832405090332,
+                300.02239990234375,
+                124.3690185546875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6bcb84da8d6864f4860635247f047894",
+        "text": "[23] We have shown that the seismic signal can be used to\ncalibrate the rheological parameters characterizing the flow.\nAs seismic waves reflect the flow dynamics, they provide\nstronger constraints on the rheological parameters than\ninformation on the deposit which, in addition, is not always\navailable [e.g., Mangeney‐Castelnau et al., 2005].",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                60.94485855102539,
+                125.34703063964844,
+                300.0331726074219,
+                190.0760498046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "398971a8375b317af31850e13fd5b631",
+        "text": "[24] This is a very important result given that seismic\nsignals generated by landslides of significant size are re-\ncorded by local or regional permanent seismic networks\nproviding unique data on natural flow dynamics. The seis-\nmic signal generated by landslides can be analyzed to pro-\nvide new data on the time duration and mobility of natural\nflows that may help improve our understanding of their yet\nunexplained high mobility. As erosion processes or fluid/\nsolid interactions have been shown to significantly change\nflow dynamics [e.g., Iverson, 1997; Hungr and Evans,\n2004; Mangeney et al., 2007b, 2010; Crosta et al., 2009],\nthere is some hope of recovering the signature of these\nprocesses through detailed analysis of the generated seismic\nsignals.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                60.94485855102539,
+                191.11070251464844,
+                300.0232849121094,
+                343.54547119140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "465e690ec6c25c286b603a3d6617f39d",
+        "text": "[25] Much more work needs to be done to systematically\nquantify the effects of the initial geometry and volume of the\nreleased mass, topography and rheological parameters on\nthe generated seismic signal. Furthermore detailed analysis\nof the effect of topography and complex media on wave\npropagation depending on the landquake‐station distance\nmust be investigated.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                60.943870544433594,
+                344.521728515625,
+                300.0570983886719,
+                420.24945068359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "38d1214c63b44ddc6f12653fe8709c2c",
+        "text": "[26]\nAcknowledgments.\nWe thank Nikolai Shapiro, Yann Capde-\nville, Eleonore Stutzmann, Oldrich Hungr, Pascal Bernard and Jean‐Pierre\nVilotte for fruitful discussions and Emily Brodsky for her very interesting\nreview. This work has been supported by ANR PLANETEROS, ANR\nUNDERVOLC and ANR VOLBIFLOW. Contribution IPGP 3039.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                60.944129943847656,
+                440.1626281738281,
+                300.0732727050781,
+                483.49932861328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7d9188d92db68b80d532bdc112156225",
+        "text": "References",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                60.94499969482422,
+                497.26763916015625,
+                111.34545135498047,
+                508.2266540527344
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d30e216aa7321dd2edb7bcd44005bd69",
+        "text": "Bouchon, M. (1979), Discrete wave number representation of elastic wave",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                60.94499969482422,
+                511.4144287109375,
+                300.01666259765625,
+                519.3846435546875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f727100124b397b2a5297d1592a105bd",
+        "text": "fields in three‐space dimensions, J. Geophys. Res., 84(87), 3609–3614.\nBouchut, F., A. Mangeney‐Castelnau, B. Perthame, and J. P. Vilotte",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                60.94499969482422,
+                519.5642700195312,
+                300.05816650390625,
+                536.33642578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d1ebad2d235da9ac54e85626cf9cbabb",
+        "text": "(2003), A new model of Saint‐Venant and Savage‐Hutter type for\ngravity driven shallow water flows, C. R. Acad. Sci. Paris, Ser. I, 336,\n531–536.\nBouchut, F., and M. Westdickenberg (2004), Gravity driven shallow water",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                60.946590423583984,
+                536.5160522460938,
+                300.0295104980469,
+                570.1834716796875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e8b2c971f7ece60c20a031da30b0451e",
+        "text": "models for arbitrary topography, Commun. Math. Sci, 2, 359–389.\nBrodsky, E. E., E. Gordeev, and H. Kanamori (2003), Landslide basal fric-",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                60.94580078125,
+                570.419677734375,
+                300.023193359375,
+                587.1353149414062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "40aa22738cd697bc2fb301e14bf7c5e7",
+        "text": "tion as measured by seismic waves, Geophys. Res. Lett., 30(24), 2236,\ndoi:10.1029/2003GL018485.\nCole, S. E., S. J. Cronin, S. Sherburn, and V. Manville (2009), Seismic sig-",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                60.94580078125,
+                587.6126708984375,
+                300.0039978027344,
+                612.5347290039062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c356a8fef62620f21e1adf2a72214454",
+        "text": "nals of snow‐slurry lahars in motion: 25 September 2007, Mt Ruapehu,\nNew Zealand, Geophys. Res. Lett., 36, L09405, doi:10.1029/\n2009GL038030.\nCrosta, G. B., S. Imposimato, and D. Roddeman (2009), Numerical mod-",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                60.94580078125,
+                612.71435546875,
+                300.0272216796875,
+                646.4383544921875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a5c046e854bc52113cc2d040ebe2b3de",
+        "text": "eling of 2‐D granular step collapse on erodible and nonerodible surface,\nJ. Geophys. Res., 114, F03020, doi:10.1029/2008JF001186.\nDahlen, F. A. (1993), Single‐force representation of shallow landslide",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                60.94580078125,
+                646.6179809570312,
+                299.98162841796875,
+                671.8378295898438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a28e461cfcf5cd6753ced55c728eefb3",
+        "text": "sources, Bull. Seismol. Soc. Am., 83(1), 130–143.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                68.88252258300781,
+                672.0173950195312,
+                229.15530395507812,
+                680.285400390625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f1a1dfcbd2679482f0829b857a5a76b6",
+        "text": "19448007, 2010, 15, Downloaded from https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2010GL043512 by Bibliothèque de Sorbonne Université, Wiley Online Library on [11/03/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                595.7743530273438,
+                15.84002685546875,
+                602.257568359375,
+                775.4083862304688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f929d18cdf9beb56e35b21e58d628ef2",
+        "text": "De Angelis, S., V. Bass, V. Hards, and G. Ryan (2007), Seismic character-",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.9823913574219,
+                61.106868743896484,
+                551.0628662109375,
+                69.07707214355469
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fb8d8092386f3499b9ab1c4b7636cf7d",
+        "text": "ization of pyroclastic flow activity at Soufrière Hills Volcano, Montser-\nrat, Nat. Hazards Earth Syst. Sci., 7, 467–472.\nDeparis, J., D. Jongmans, F. Cotton, L. Baillet, F. Thouvenot, and D. Hantz",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.9823913574219,
+                69.55450439453125,
+                551.0532836914062,
+                94.47648620605469
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e04f8203057c5c8aba5d82e93b1c86ec",
+        "text": "(2008), Analysis of rock‐fall and rock‐fall avalanche seismograms in the\nFrench Alps, Bull. Seismol. Soc. Am., 98(4), 1781–1796.\nHuggel, C., J. Caplan‐Auerbach, C. F. Waythomas, and R. L. Wessels",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.9823913574219,
+                94.6561279296875,
+                551.0923461914062,
+                119.87596130371094
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a308983819b8aaac3862071c87f50361",
+        "text": "(2007), Monitoring and modeling ice‐rock avalanches from ice‐capped\nvolcanoes: A case study of frequent large avalanches on Iliamna\nVolcano, Alaska, J. Volcanol. Geotherm. Res., 168(1–4), 114–136.\nHungr, O., and S. G. Evans (2004), Entrainment of debris in rock ava-",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.98077392578125,
+                120.1121826171875,
+                551.097900390625,
+                153.7723846435547
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fad30b95a53f371b961ffcfc767c5a17",
+        "text": "lanches: An analysis of a long run‐out mechanism, Bull. Geol. Soc.\nAm., 9–10(116), 1240–1252.\nIverson, R. M. (1997), The physics of debris flows, Rev. Geophys., 35,",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.98077392578125,
+                153.9520263671875,
+                551.0867309570312,
+                179.17185974121094
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2559b04327787ac3c41870cf9afa4a25",
+        "text": "245–296.\nKishimura, K., and K. Izumi (1997), Seismic signals induced by snow",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.9815673828125,
+                179.3514404296875,
+                551.100341796875,
+                196.12364196777344
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0c126e9972cb2497f06b08a1a814b9f6",
+        "text": "avalanche flow, J. Nat. Hazards, 15(1), 89–100.\nKuo, C. Y., Y. C. Tai, F. Bouchut, A. Mangeney, M. Pelanti, R. F. Chen,",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.9815673828125,
+                196.30328369140625,
+                551.0916137695312,
+                213.01890563964844
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a1eb4ef98db38f85f51b4ca312685cae",
+        "text": "and K. J. Chang (2009), Simulation of Tsaoling Landslide, Taiwan,\nbased on Saint Venant equations over general topography, Eng. Geol.,\n104(3–4), 181–189.\nLa Rocca, M., D. Galluzzo, G. Saccorotti, S. Tinti, G. B. Cimini, and",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.9815673828125,
+                213.55291748046875,
+                551.1074829101562,
+                246.9225311279297
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d5b478d9f8d75d02a2125772a547bc08",
+        "text": "E. Del Pezzo (2004), Seismic signals associated with landslides and\nwith a tsunami at Stromboli Volcano, Italy, Bull. Seismol. Soc. Am.,\n94(5), 1850–1867.\nLegros, F. (2002), The mobility of long‐runout landslides, Eng. Geol., 63,",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.9815673828125,
+                247.39996337890625,
+                551.121826171875,
+                280.7695617675781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "034f62df7630564993e644c04779658f",
+        "text": "301–331.\nLucas, A., and A. Mangeney (2007), Mobility and topographic effects for",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.9815673828125,
+                281.00579833984375,
+                551.093994140625,
+                297.72137451171875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5972e342e52dad3301bb59d4a19c0eab",
+        "text": "large Valles Marineris landslides on Mars, Geophys. Res. Lett., 34,\nL10201, doi:10.1029/2007GL029835.\nMangeney, A., L. S. Tsimring, D. Volfson, I. S. Aranson, and F. Bouchut",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.98077392578125,
+                298.1988220214844,
+                551.064453125,
+                323.1208190917969
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4523976a7ac1c407d2a52054fef8e97f",
+        "text": "(2007a), Avalanche mobility induced by the presence of an erodible\nbed and associated entrainment, Geophys. Res. Lett., 34, L22401,\ndoi:10.1029/2007GL031348.\nMangeney, A., F. Bouchut, N. Thomas, J. P. Vilotte, and M. O. Bristeau",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.9815673828125,
+                323.5982360839844,
+                551.0723876953125,
+                357.0244445800781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "442a662c9f40ca2f8acb6659777becd3",
+        "text": "(2007b), Numerical modeling of self‐channeling granular flows and\nof their levee‐channel deposits, J. Geophys. Res., 112, F02017,\ndoi:10.1029/2006JF000469.\nMangeney, A., O. Roche, O. Hungr, N. Mangold, G. Faccanoni, and",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.9815673828125,
+                357.2041015625,
+                551.0653686523438,
+                390.8714904785156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ea7625585e9ddaf18d9a2e3b26245c58",
+        "text": "A. Lucas (2010), Erosion and mobility in granular collapse over sloping\nbeds, J. Geophys. Res., doi:10.1029/2009JF001462, in press.\nMangeney‐Castelnau, A., J.‐P. Vilotte, M. O. Bristeau, B. Perthame,",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.98236083984375,
+                391.34893798828125,
+                551.064697265625,
+                416.27093505859375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a7853bf5851e4547da3bba47fc167c89",
+        "text": "F. Bouchut, C. Simeoni, and S. Yerneni (2003), Numerical modeling\nof avalanches based on Saint Venant equations using a kinetic scheme,\nJ. Geophys. Res., 108(B11), 2527, doi:10.1029/2002JB002024.\nMangeney‐Castelnau, A., F. Bouchut, J. P. Vilotte, E. Lajeunesse,",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.9814758300781,
+                416.7942199707031,
+                551.0571899414062,
+                450.163818359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0b46e9404da8f29921c73619ca8bd86b",
+        "text": "A. Aubertin, and M. Pirulli (2005), On the use of Saint Venant equations\nto simulate the spreading of a granular mass, J. Geophys. Res., 110,\nB09103, doi:10.1029/2004JB003161.\nPirulli, M., and A. Mangeney (2008), Result of back‐analysis of the prop-",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.9814758300781,
+                450.6412658691406,
+                551.0787353515625,
+                484.0108947753906
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f8b1a4a71bef15c9efd4a08d1353dc4a",
+        "text": "agation of rock avalanches as a function of the assumed rheology, Rock\nMech. Rock Eng., 41(1), 59–84.\nSosio, R., G. B. Crosta, and O. Hungr (2008), Complete dynamic modeling",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.9806823730469,
+                484.4883117675781,
+                551.0612182617188,
+                509.4103088378906
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "efbd76bcca7a433d9174ebb89d634116",
+        "text": "calibration for the Thurwieser rock avalanche (Italian Central Alps), Eng.\nGeol., 100(1–2), 11–26.\nSuriñach, E., G. Furdada, F. Sabot, B. Biescas, and J. M. Vilaplana (2001),",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.9806823730469,
+                509.9443359375,
+                551.0946655273438,
+                534.809814453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f248188894e8cd2234f1f4065e854d02",
+        "text": "On the characterization of seismic signals generated by snow avalanches\nfor monitoring purposes, Ann. Glaciol., 32(1) 268–274.\nVilajosana, I., E. Suriñach, G. Khazaradze, and P. Gauer (2007), Snow ava-",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.9814758300781,
+                535.34375,
+                551.071533203125,
+                560.209228515625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "90fbc9aa0ff9d7ea5ff84df093846ef5",
+        "text": "lanche energy estimation from seismic signal analysis, Cold Reg. Sci.\nTechnol., 50(1–3), 72–85.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                319.9755859375,
+                560.7431640625,
+                551.0062866210938,
+                577.1610107421875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ebb0bb46718df9cb4c756c48bedcad9b",
+        "text": "F. Bouchut, Laboratoire d’Analyse et de Mathématiques Appliquées,\nUniversité Paris‐Est‐Marne‐la‐Vallée, 5 boulevard Descartes, F‐77454\nMarne‐la‐Vallée CEDEX 2, France.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.9822692871094,
+                589.8124389648438,
+                551.0755004882812,
+                615.0322265625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8a1334b52c880b216ef7eea8e207d5e5",
+        "text": "G. Crosta, Department of Geology and Geotechnologies, Università di\nMilano Bicocca, Piazza della Scienza 4, I‐20126 Milano, Italy.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.98309326171875,
+                615.5096435546875,
+                551.0062255859375,
+                631.9840087890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0e05bcc6e5699ff38ea5e4908f5ee439",
+        "text": "P. Favreau, A. Lucas, and A. Mangeney, Equipe Sismologie, Institut de\nPhysique du Globe de Paris, 4 place Jussieu, F‐75005 Paris CEDEX,\nFrance. (pfavre@ipgp.jussieu.fr; mangeney@ipgp.jussieu.fr)",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "Geophysical Research Letters - 2010 - Favreau - Numerical modeling of landquakes.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                311.98309326171875,
+                632.46142578125,
+                551.0891723632812,
+                657.3834838867188
+            ],
+            "is_full_width": false
+        }
+    }
+]

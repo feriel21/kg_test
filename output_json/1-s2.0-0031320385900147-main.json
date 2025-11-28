@@ -1,0 +1,2738 @@
+[
+    {
+        "element_id": "cefb5514fdfc9ad578d3a90550e02da5",
+        "text": "STATISTICAL MODELING AND FEATURE SELECTION \nFOR SEISMIC PATTERN RECOGNITION",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                131.760009765625,
+                99.04256439208984,
+                458.2616882324219,
+                130.45016479492188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b129142b9f6b22e10ea51022d6c79db5",
+        "text": "R. F. KUBICHEK and E. A. QUINCY \nDepartment of Electrical Engineering, University of Wyoming, Laramie, WY 82071, U.S.A.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                138.72010803222656,
+                138.67666625976562,
+                453.4543151855469,
+                162.84274291992188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e7abb83b2e2f9140cca0ac4c5a9c45ad",
+        "text": "(Received 7 December 1984; received for publication 5 March 1985)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                182.1601104736328,
+                171.79666137695312,
+                410.07208251953125,
+                183.96273803710938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f38aed60d95e20c1e74b74324d6c2598",
+        "text": "AImmct--Application of pattern recognition techniques to reflection seismic data is difficult for several \nreasons. The amount of available training data is limited by the degree ofweU control in the area and may not \nbe sufficient. In contrast, seismic data sets are often extremely large, necessitating the use of the smallest \npossible feature set to allow quick and efficient processing. In this paper, a method to generate synthetic \ntraining data is described, which alleviates the problem of insufficient training data. A means is provided for \ninjecting a priori geologic knowledge into the classifier, including well logs. Finally, a feature evaluation \nalgorithm using a performance metric related to the Bayes probability of error is outlined and applied to the \ntraining data to identify effective feature sets.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                113.2801513671875,
+                192.67666625976562,
+                477.577880859375,
+                268.2027282714844
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "46b473e6544aa2465a6742229f7d9081",
+        "text": "Seismic pattern recognition \nFeature selection \nStatistical modeling \nSynthetic training data",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                113.76014709472656,
+                276.6766662597656,
+                462.15771484375,
+                288.8427429199219
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "685498dc5b7f752d71f3e8a042bce6d4",
+        "text": "I. INTRODUCTION",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                153.12017822265625,
+                323.12384033203125,
+                221.7630157470703,
+                332.08831787109375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a4de914f7f8fbeeb4c0e2dd5d501bce8",
+        "text": "Stratigraphic traps containing hydrocarbon deposits \nare normally difficult to locate using seismic data. \nConsequently it is estimated that traps of this form \ncontain much of the world's remaining undiscovered \nhydrocarbon reserves. (1) The ineffectiveness of the \nusual seismic prospecting methods can be attributed to \nthe subtle nature of stratigraphic traps. In many cases, \nthe reservoir is a sandstone layer only tens of meters \nthickma fraction of the seismic wavelength and below \nthe ordinary limits of resolution. (2~ Furthermore, res- \nervoirs bounded by small lateral changes of porosity \nmay be discernible only by minute changes in the \ncharacter of the reflection waveform. \nThe research described in this paper addresses \nseveral problems associated with applying pattern \nrecognition techniques to reflection seismic data. \nAmong these is the difficulty of designing a classifier \nwhich utilizes the a priori knowledge of the geologist \nabout the characteristics of expected hydrocarbon \ntraps. A second problem stems from the small number \nof traces measured in the vicinity of a control well, \nwhich is normally required to associate seismic reflec- \ntions with hydrocarbon or non-hydrocarbon bearing \nstrata. These traces may not be available in sufficient \nquantity to adequately train the classification al- \ngorithm or to select an effective feature set. Finally, \ncareful selection of the feature set and application of a \nBayes classifier are critical for discriminating between \nsubtle changes in waveform. Feature selection must \ntherefore be based on a metric related to the Bayes \nprobability of error. \nIn the following sections, we describe a statistical \nmodeling procedure for generating training data \nwhich includes a priori geological information. A",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                83.04023742675781,
+                340.99664306640625,
+                291.34967041015625,
+                716.5228271484375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9488753140449b8bf1eb8f3b8c859ab8",
+        "text": "feature selection method is also described which uses a \nmetric related to the Bayes performance. A flowchart \ndepicting the major processing steps is given in Fig. 1. \nStatistical generation of seismic training data is not \ndiscussed elsewhere. A thorough treatment of feature \nperformance metrics and feature selection techniques \nare available in the literature. (3\" 4) The measurement \nand selection of seismic attributes for linear classifiers \nis detailed in Khattri et al. (5-~) Discussions on selection \nof seismic attributes applicable to a non-linear Bayes \nclassifier were not found in other literature.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                300.4803161621094,
+                322.2767028808594,
+                507.7154846191406,
+                445.56280517578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "56ff6a7c8da0b1fc48e3358d26f2d510",
+        "text": "2. STATISTICAL MODEUNG",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                353.2802734375,
+                466.1639099121094,
+                452.03948974609375,
+                475.1283874511719
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "270cfb8cd7d6123adde468e913d09e44",
+        "text": "In order to incorporate a priori geological knowl- \nedge into the classifier design, synthetic seismic traces \nare generated based on well control and the statistics of \nanticipated properties of the various rock layers. This \nmodeling procedure also alleviates the problem of \ninadequate training data by creating as many synthetic \ntraces as are needed. \nStatistical modeling consists of generating a set of \n1-D normal incidence seismic traces according to a \nstatistical model. Specifically, the layered earth is \ndescribed by inputting the probability density function \n(pdf) for the rock velocity, density, and depth (or \nthickness) of each layer. The density functions repre- \nsent a priori geologic knowledge and can be arrived at \nby either theoretical considerations, (s' 9) or by sketch- \ning out pdfs which describe intuitive feelings about the \nexpected layering. A computer program generates a set \nof synthetic velocity and density well logs which vary \nrandomly according to the input pdfs. Next, a syn- \nthetic seismic trace is created for each velocity/den- \nsity well log using a method described by Wyatt.(i°)",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                300.0002136230469,
+                483.5567321777344,
+                507.8962097167969,
+                714.8428344726562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ad145577a752a17c9285476bfb5ea3e9",
+        "text": "441",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                288.72021484375,
+                721.3967895507812,
+                302.7259826660156,
+                733.5628662109375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d756acd18df7fd59ae2667383b99ba60",
+        "text": "I A-PRIORI I \nKNOWLEDGE \nAND WELL \nCONTROL \nl \nSTATISTICAL ] \nMODELING",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                90.47998046875,
+                63.09199523925781,
+                156.23318481445312,
+                153.7362823486328
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9cc65a165c86daa004e321b0d5eb60de",
+        "text": "L \nQSYNTHETIC Q \nRANDOM \nTRACES",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                91.19996643066406,
+                143.9433135986328,
+                185.56137084960938,
+                216.8562774658203
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "297f8392b11dcb55c178be9dc6a3c64c",
+        "text": "I \nEXTRACTION ] \nOF SEISMIC \nATTRIBUTES",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                99.5999755859375,
+                216.29129028320312,
+                157.58279418945312,
+                276.37628173828125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e227e57e376f47bc957fd47fbdc0caba",
+        "text": "BOTTOM-UP [ \nFEATURE \nSELECTION",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                200.8799591064453,
+                296.61212158203125,
+                251.9047393798828,
+                335.4162902832031
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "393d8e3f631d4ee80746e83bc9cef222",
+        "text": "TA FEATURE', \nVECTORS ~",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                99.5999755859375,
+                313.4901428222656,
+                153.08758544921875,
+                333.7228698730469
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "65eb1125b7774148f5381204f5fae67b",
+        "text": "TPJ~I'NING OF \nBAYES \nCLASSIFIER \nI",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                95.51996612548828,
+                342.1665344238281,
+                211.2820587158203,
+                418.6962890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4b14185447b5fb4f8f9873d843a57dc5",
+        "text": "BEST I \nFEATURE \nSET",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                205.67996215820312,
+                354.93212890625,
+                249.2627716064453,
+                388.456298828125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "80c9a2579fc6942b4e29e2bf2e80d3e7",
+        "text": "Fig. 1. Major processing steps for statistical modeling and \nfeature selections.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                64.55996704101562,
+                430.9967956542969,
+                270.2300109863281,
+                452.2828674316406
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c5ede75b6fc00aad1b6a4d16d12a8fd7",
+        "text": "Table !. Statistical model description of South Glenrock field reflecting a priori knowledge",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                126.9600830078125,
+                464.59661865234375,
+                439.1777648925781,
+                476.7626953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c7c32d5378e1ca6a3a6da0d0c02081f3",
+        "text": "Depth \nFormation \nVelocity* \nDensity*",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                101.76004028320312,
+                481.1566162109375,
+                442.92425537109375,
+                493.32269287109375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a93728994cb4c9ec1d4fbd0e462b1534",
+        "text": "(Control at nonproductive well 2) \n0 \nBelle Four(he Shale \n10638 \n2.45 \n152 \nMowry Shale \nI 1364 \n2.45 \n332 \nShell Creek Shale \n10526 \n2.41 \n352 \nMarine Siltstone \n12195 \n2.51 \n359 \nShell Creek Shale \n10526 \n2.45 \nU(371,375) \nMuddy Sandstone \n13699 \n2.58 \nU(396, 411) \nSkull Creek Shale \nI 1364 \n2.58 \n501 \nDakota Sandstone \n14493 \n2.64",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                101.28002166748047,
+                498.8515625,
+                434.7624206542969,
+                581.4027099609375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "92dcb8140a127d40281d2fcf945e49ae",
+        "text": "(Control at productive well 5) \n0 \nBelle Fourche Shale \n10638 \n2.45 \n152 \nMowry Shale \n11364 \n2.45 \n332 \nShell Creek Shale \n10526 \n3.41 \n352 \nMarine Siltstone \n12 ! 95 \n2.51 \n359 \nShell Creek Shale \n10526 \n2.45 \nU(371,375) \nMuddy Sandstone \n13699 \n2.58 \nU(396, 411 ) \nAlluvial Channel Sandstone \n13300 \n2.44 \n+ U(5, 25) \nSkull Creek Shale \n1 ! 364 \n2.58 \n501 \nDakota Sandstone \n14493 \n2.64",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                101.04000854492188,
+                588.8515625,
+                434.2823791503906,
+                679.3226928710938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "eb7e52f27f349669c48183609288a99e",
+        "text": "* Velocity and density values: in all cases these are normally distributed with the mean values shown \nabove, and having standard deviations of I00 fps for velocity and 0.025 gcrn -3 for density, \nNotation: U(a. b) is a uniformly distributed number between a and b. + U(a, b) is a uniformly distributed \nnumber between a and b which is added to the previous depth.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                100.3199462890625,
+                682.9966430664062,
+                462.5029296875,
+                721.802734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "20e437b9794bb8859080505b5764f503",
+        "text": "Because these are one-dimensional traces, use ofthis \nsystem is restricted to cases which involve essentially \nonly horizontal layering, Such traps are not un- \ncommon, however, and those due to horizontal \nchanges in porosity, pinchouts and even sandstone \nlenses can be modeled without incurring unreasonable \nseismogram error. \nTo demonstrate this procedure, we generate syn- \nthetic traces for a model of the South Glenrock field \nin north central Wyoming described by Ryder et al/1 t~ \nThis field produces in part from deposits in a thin \nsandstone lens, and would be difficult to detect using \n40 Hz seismic data. Figure 2 shows a model of the \nSouth Glenrock field which includes four artificial \nlenses (numbered 1, 2, 3 and 4) added to test classifier \nperformance when geological conditions differ from \nthe region near the control wells. The actual field \nconsists of lens 5. Figure 3 shows a synthetic seis- \nmogram produced from this model by a ray tracing \ntechnique using a 40 Hz Ricker wavelet. Wells 4 \nthrough 7 are productive while wells 2 and 3 are dry. \nThe statistical model is listed in Table 1 and assumes \ncontrol at well 5 (producing) and at well 2 (non- \nproducing). Layer depths are assumed to be known \nconstants or uniformly varying within a known range \nwhile the velocity and density are normally distributed \nwith standard deviations of 100 fps and 0.025 g cm- 3, \nrespectively. The mean values used are the velocities \nand densities measured from the control well logs. \nRepresentative synthetic well logs are shown in Fig. \n4 and suites of random traces are presented in Fig. 5, \nThe traces on the bottom correspond to the unproduc- \ntive well 2 while the traces on the top represent the \nproducing well 5. Although there is random variation \nfrom trace to trace, differences between the bottom and",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                278.1600341796875,
+                62.83682632446289,
+                486.27044677734375,
+                451.8027038574219
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "228501986af4fe192c2cecb8cc234443",
+        "text": "DJstonce trnil,es)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                184.80003356933594,
+                71.43804168701172,
+                238.52981567382812,
+                81.00108337402344
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "37558c11e903d26053bc84ed99544924",
+        "text": "(0638 \n2.45",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                259.2000427246094,
+                106.4960708618164,
+                280.1943054199219,
+                122.17048645019531
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f617706729ae597d5ae126d92d81d005",
+        "text": "11364 \n2.45",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                258.96002197265625,
+                164.318115234375,
+                280.125,
+                180.84117126464844
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "be35e84e42360fd240f5c567a6b338d8",
+        "text": "A= 320",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                107.0400390625,
+                206.55804443359375,
+                129.17506408691406,
+                216.12107849121094
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b097f2f1e11d15e9a880fdc6cb1bbe4c",
+        "text": "12~s5 2.Sf\"~ \n. ios26 \n2.4=",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                138.48001098632812,
+                211.87673950195312,
+                263.06439208984375,
+                224.13522338867188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "70aa0712cf49dec53094b4fe4ec8561f",
+        "text": "_(0526 245\" \n13699 \n2.58",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                136.32000732421875,
+                230.55810546875,
+                264.3863220214844,
+                240.1211395263672
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "506600877cf3bf846def2c4ea853415c",
+        "text": "' \n3-",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                161.760009765625,
+                240.0810546875,
+                236.88739013671875,
+                251.38265991210938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "83b179e97ca61d1c71e73e9693b8dac5",
+        "text": "I \n2.44 \n2.44 \n.44 \n2.44",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                136.32000732421875,
+                257.2160949707031,
+                281.13037109375,
+                270.60113525390625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cc47d4893ce6cc865f82fc2809e16764",
+        "text": "14463 \n2 64",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                258.47998046875,
+                285.5180969238281,
+                281.373046875,
+                302.0411376953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f62113a681a600dc0bae46a1c800a2c6",
+        "text": "¢s4c",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                114.96003723144531,
+                321.758056640625,
+                127.79808044433594,
+                331.32110595703125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ea0b111fe49f214e51c8add38ff245f7",
+        "text": "Fig. 2. Model of South Glenrock field. Consists only of sandstone lens 5; lenses 1-4 were added for testing \nreasons. Velocity (fps) and density (g era- 3) pairs given for each layer.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                93.5999755859375,
+                341.71673583984375,
+                457.9388427734375,
+                362.7628173828125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fa9d597e180d7af506374b2c684e2858",
+        "text": "top traces are barely discernable. These traces have \nbeen used to train a classifier yielding a 15~o error rate \nwhen applied to synthetic seismic data similar to that \nin Fig. 3.\" ~) The random nature of these training traces \nallows the classifier to perform well even when the \nvelocity, density, or layer thickness is different from the \ncontrol well log values. Statistical modeling is also \nused to generate data used in the feature selection \nprocess described next.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                62.39990234375,
+                379.396728515625,
+                270.8272399902344,
+                479.6428527832031
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cb89aae6618640a2469493d51fe0019d",
+        "text": "3. FEATURE EVALUATION",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                118.5599136352539,
+                493.1567687988281,
+                216.8307647705078,
+                505.3228454589844
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5368a817362cb406f3bc3aeb086e85dd",
+        "text": "Computer time requirements for pattern recog- \nnition software grows as the number of attributes \nincreases, making it advantageous to reduce the size of \nthe feature space. Feature selection is used to deter- \nmine a small subset of the 29 available attributes which \nprovides suffi~ent ~inatory \npower for a dassi- \ntier. The features measured and evaluated here are \nlisted in Table 2 and are described in more detail in \nKubichek. (t3) \nBecause complex interrelationships can exist be- \ntween features, the optimal set can be identified only by \nconducting an exhaustive search of all possible com- \nbinations of attributes. Normally, an exhaustive search \nis impra~ical due to the enormous number of possible \nfeature combinations. Narendra and Fukunaga \"') \nhave proposed an optimal 'branch and bound' al- \ngorithm which substantially reduces the number of set \ncombinations that must be evaluated. This approach \nrequires a feature performance metric which decreases \nFig. 3. Synthetic seismogram of S. Glenrock model using \n40 Hz Ricker wavelet.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                60.7198486328125,
+                513.3168334960938,
+                482.9747009277344,
+                725.1629028320312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1e561904415e7a6e8e1f2c23c7d5d2f8",
+        "text": "i \n2 \nS 4 5 6 \n? \no~, \nooo \no",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                292.3200378417969,
+                63.27806854248047,
+                370.3592834472656,
+                83.25257873535156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7f95b53e08ac4b2cab54164b8064eb69",
+        "text": "e \no \n12 mites",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                419.7599792480469,
+                66.6402359008789,
+                446.3412780761719,
+                89.88114929199219
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "589a06148749e71ed6b4c936b49ab33b",
+        "text": "Legend \n0 Oil, weft \n..~ Dry weft",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                334.5600280761719,
+                94.23809051513672,
+                377.8948059082031,
+                119.64115905761719
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "df9d6dbf1bca36ec84fcab51a5e7048e",
+        "text": "5 \nJ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                343.1999816894531,
+                238.71807861328125,
+                376.5030212402344,
+                248.28111267089844
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "53d22fcae890e2bc4eda7dd313cd2946",
+        "text": "~\n1\n1\n3\n6\n4\n \n2.44 \n2.58",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                312.9599914550781,
+                251.19805908203125,
+                390.75177001953125,
+                267.8504638671875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c0aa4717fda8885763fa413b9f7b5756",
+        "text": "V- Log \nO - tog \nV - tog \nD - tog",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                174.00001525878906,
+                61.92799377441406,
+                441.1496276855469,
+                69.84223175048828
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "54b7eb7a37c692b00b438ad58c517097",
+        "text": ":- \ny- \n- \nN \nm \nN \n.- \n. \n.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                164.88003540039062,
+                73.20802307128906,
+                446.1600646972656,
+                81.12226104736328
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "af1de764129595dafd643a7ee0af1569",
+        "text": "m \nm \n0 \nm \nm",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                250.80003356933594,
+                84.48805236816406,
+                449.24395751953125,
+                92.40229034423828
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5402327a8c864446b4191d2ad81d3414",
+        "text": "(a)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                127.19999694824219,
+                86.01148986816406,
+                138.0830535888672,
+                96.9806900024414
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3b6fa13207d7653f24cbd3b048a7e003",
+        "text": "O.OOE + O0 _- \n=",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                115.67999267578125,
+                110.64796447753906,
+                155.511962890625,
+                124.56220245361328
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fd699a5e5bdb9d9b50fc849f702f3e69",
+        "text": "=",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                149.99998474121094,
+                132.9679718017578,
+                154.07138061523438,
+                140.88221740722656
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a42a5f24a11694511bf7b92975803773",
+        "text": "I.Oq[*02",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                117.3599853515625,
+                150.00794982910156,
+                141.31605529785156,
+                157.9221954345703
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "64a6b6787856b742845676f05807d054",
+        "text": "_=",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                150.239990234375,
+                163.6879425048828,
+                156.15028381347656,
+                171.60218811035156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "16cb2735050f388339b39aaaa2082675",
+        "text": "T",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                102.72000122070312,
+                191.9062042236328,
+                116.66426849365234,
+                223.8166046142578
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "db2680eb6fd261d5d53263a7729cab2a",
+        "text": "2.00[ + 02 ,~_",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                116.15998840332031,
+                192.24794006347656,
+                154.98175048828125,
+                200.1621856689453
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7994d8e7487daf070a9d4ac7fc8da13d",
+        "text": "_=",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                150.47999572753906,
+                203.52796936035156,
+                156.39028930664062,
+                211.4422149658203
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b420a62e584e20bf915bd6b00d2a2bab",
+        "text": "P.50[ ¢ 02 -~ \n_=",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                115.43999481201172,
+                213.3679962158203,
+                156.521484375,
+                226.3222198486328
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d988c05124d6d8082af5bf369849f6fa",
+        "text": "S.OOE ÷0~' .-~",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                115.91999816894531,
+                234.2480010986328,
+                153.90988159179688,
+                242.16224670410156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "231e838bc416aab0a6a019323eafd689",
+        "text": "3.50E÷02 ---~",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                116.16000366210938,
+                255.3679962158203,
+                155.16029357910156,
+                263.2822265625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ed72368366288206461cfcd9e5d5d066",
+        "text": "I \n. \n- \nI",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                243.36007690429688,
+                271.457763671875,
+                385.4593811035156,
+                284.7537536621094
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "541e219148d0d077b162fe7bbe07dd09",
+        "text": "4.00E ÷ 02 -~_ \n= \n=",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                115.92000579833984,
+                275.76800537109375,
+                154.90914916992188,
+                289.9222106933594
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "dee7652baa815daf0a33c85d0063d658",
+        "text": "4.S0[ ~ OZ ---2",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                115.20001220703125,
+                296.88800048828125,
+                155.26805114746094,
+                304.8022155761719
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8048cccb4bb4fac6ea382929ea807053",
+        "text": "S.OOE ,~ OZ --~_",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                115.92001342773438,
+                318.2480163574219,
+                155.75437927246094,
+                326.1622314453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "868ee369abbcf2424f6dd91516b1f567",
+        "text": "~,.SOE,* Oz \n-=",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                116.16001892089844,
+                337.4480285644531,
+                156.10183715820312,
+                345.36224365234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "285328b3efa6f4bcf658bd383261f730",
+        "text": "Fig. 4. Representative density and velocity well logs for S. Gienrock statistical model. (a) Non-productive and \n(b) productive.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                98.40007019042969,
+                354.68951416015625,
+                458.41937255859375,
+                375.6554260253906
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "513a3567db8afca6b630b1d9659e8329",
+        "text": "or increases whenever a feature is removed or added to",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                68.64009094238281,
+                389.3716735839844,
+                272.85504150390625,
+                400.34088134765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ebe7f99d459d0c60a8100978197821dd",
+        "text": "a given subset. Unfortunately, the metric selected for \nthis research (described below) does not always behave \nthis way and the branch and bound method cannot be \nused. \nSeveral suboptimal methods exist for finding feature",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                68.40011596679688,
+                398.31866455078125,
+                274.7251892089844,
+                455.575439453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "339c06599a04aaef0bb198ad9367d694",
+        "text": "Table 2. List of features",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                235.92015075683594,
+                468.20953369140625,
+                319.08258056640625,
+                480.0554504394531
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e942ee4b2c8a81283871ae353ad84f03",
+        "text": "Abbreviation \nDescription \nReferences",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                98.16012573242188,
+                484.76953125,
+                442.42852783203125,
+                496.6154479980469
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8763eab9a1e4566e1a7ca4029197afa5",
+        "text": "NFTTT",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                98.16012573242188,
+                500.8495178222656,
+                127.776611328125,
+                512.6954345703125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "53aab73627116a317f179c66a6d4cbcd",
+        "text": "Normalized peak-trough time",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                187.92015075683594,
+                500.8495178222656,
+                292.0150146484375,
+                512.6954345703125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "312432f3597b3e57225fa0e56d7e2412",
+        "text": "Coefficients of 3rd order auto-regressive model",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                187.92015075683594,
+                514.2894897460938,
+                350.94671630859375,
+                526.1354370117188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0c2d92cb7a0841a238253ead83e28ec7",
+        "text": "A3- !, A3-2",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                98.4001235961914,
+                514.76953125,
+                139.02252197265625,
+                526.615478515625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "38f7173e484edd27c102b90f23c11f46",
+        "text": "Reflection coefficient or partial correlation coefficients",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                188.16014099121094,
+                527.7295532226562,
+                375.8702392578125,
+                539.5755004882812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "842ea2457490915281124576481e44df",
+        "text": "REFCI, REFC2, \nREFC3",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                98.4001235961914,
+                527.9695434570312,
+                159.77940368652344,
+                548.9354858398438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "314e0810ee0fc8f7ff46bf999edbf3f4",
+        "text": "Principal components of inst. frequency",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                187.92018127441406,
+                550.0494995117188,
+                325.2400207519531,
+                561.8954467773438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "83a33161224d2d24e9ceae0f105e1453",
+        "text": "INSTFI, INSTF2, \nINSTF3, INSTF4",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                98.16012573242188,
+                550.2894897460938,
+                164.43336486816406,
+                571.2554321289062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f00ffee350e98f8a255719e86759d8fa",
+        "text": "INSTPI, INSTP2, \nINSTP3, INSTP4",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                98.16012573242188,
+                572.6094970703125,
+                163.36746215820312,
+                593.575439453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "14d6ead3040b744124f7aab5df0ec7c0",
+        "text": "Principal components of inst. phase \n26; 27",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                187.920166015625,
+                572.6095581054688,
+                425.8544006347656,
+                584.4555053710938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7e72084b9c0cfc3f5353aa7d8768edbc",
+        "text": "Dominent polarity \n28; 29; 30, \np. 220",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                187.92018127441406,
+                594.9295043945312,
+                440.3780517578125,
+                615.6554565429688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "be25887d9b73d41ce798a337634894c3",
+        "text": "DPOLAR",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                98.16012573242188,
+                595.1694946289062,
+                135.54612731933594,
+                607.0154418945312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "78e67f2c027e942de9d6675ab3b0b090",
+        "text": "Frequency of maximum power \n5; 6; 7",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                188.16017150878906,
+                617.009521484375,
+                426.19281005859375,
+                628.85546875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b9b9c36d28ada7d7358353d7fdd72347",
+        "text": "FMAX",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                98.16012573242188,
+                617.24951171875,
+                126.05484771728516,
+                629.095458984375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6de09c57e1c077199e1387ed684c4070",
+        "text": "FAVW",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                97.92012786865234,
+                630.4495239257812,
+                125.89705657958984,
+                642.2954711914062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e58fe0c6525112fb00c443878debc1ec",
+        "text": "Average power weighted frequency \n5; 6; 7",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                187.440185546875,
+                630.4495239257812,
+                426.19232177734375,
+                642.2954711914062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "42e407bc9e5f979cc2e8e2476e9ebd9a",
+        "text": "F25, FS0, F75",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                98.16012573242188,
+                643.8895263671875,
+                148.5986328125,
+                655.7354736328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c5a0c87ea416faa55ad77b2e29c1f3ac",
+        "text": "2.Sth, 50th and 75th percentile of integrated spectrum \n5; 6; 7",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                187.92019653320312,
+                644.7239990234375,
+                427.7790832519531,
+                655.8151245117188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "37dd7d3fdb40cc0878ec809c0453b529",
+        "text": "Ratios of autocorrelations \n5; 6; 7",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                187.9202117919922,
+                657.0895385742188,
+                426.19232177734375,
+                668.9354858398438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "73289605d808004f18ab48f1f5d010bc",
+        "text": "AI/A0, A2/A0, A3/A0, \nA2/A I, Amin/A0",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                97.68013000488281,
+                657.3295288085938,
+                180.3495330810547,
+                678.0554809570312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4c90d421eda286e4a799ec8554450121",
+        "text": "TZERI, TZER2, \nTZER3",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                97.44013977050781,
+                679.6495361328125,
+                158.4037628173828,
+                700.615478515625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "120e43be3e057fc9f53b38e886e9732d",
+        "text": "Time lags of Ist, 2nd, 3rd zero crossings \n5; 6; 7",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                187.44020080566406,
+                680.2440185546875,
+                427.5390625,
+                691.3351440429688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c0d3b84316d4a25fe8646f69f6c5b909",
+        "text": "TMIN",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                97.44014739990234,
+                701.7294921875,
+                122.39055633544922,
+                713.575439453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8e6e128f73a7ced6143d43ac41c6ce0a",
+        "text": "Lag of first minimum \n5; 6; 7",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                187.68019104003906,
+                701.7295532226562,
+                425.9540100097656,
+                713.5755004882812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ec8e7f33d0a2df6e43adc62a8a88d0de",
+        "text": "O.OOE + O0",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.72003173828125,
+                105.84803771972656,
+                335.5210266113281,
+                113.76227569580078
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c88e1c0fc7e3a4ec6aaf2ed43ac0e293",
+        "text": "• \n-- \nS I~E *01",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                309.84002685546875,
+                122.97157287597656,
+                344.62823486328125,
+                136.88055419921875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0d625a4503c8095728a4cc2093486905",
+        "text": "I.~E÷~ -~_",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                308.8800354003906,
+                146.84942626953125,
+                348.9598693847656,
+                158.6953582763672
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bed36186902643e8fb8dcca4f2269de8",
+        "text": "_= \nt. 60| + 0=* .--~",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                308.8800354003906,
+                159.8094482421875,
+                349.7267761230469,
+                178.0823516845703
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e17e6f95954d71f9d5ffb87023cfe7d5",
+        "text": "_=",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                341.7600402832031,
+                179.52809143066406,
+                347.67034912109375,
+                187.4423370361328
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e27afcc941b6944334f734b617ed85c2",
+        "text": "~.OOE,t 02 ~",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                306.72003173828125,
+                191.04811096191406,
+                340.27685546875,
+                198.9623565673828
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cd79b80f69974f86cf09b7e7f103fad9",
+        "text": "=7 ;LSOE÷O;~ \"-~ \n?. \n-",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                297.12005615234375,
+                211.44813537597656,
+                345.5536193847656,
+                228.0395965576172
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "38ef546b1ec42650d4f4284622e5c76b",
+        "text": "5.(~S÷ ~ \n--~",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                308.1600646972656,
+                234.66575622558594,
+                345.48370361328125,
+                241.06895446777344
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "61d346607d4dd9a1441c7716950aff0b",
+        "text": "_= \nI \n--\"",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                341.52008056640625,
+                259.8895263671875,
+                430.0851745605469,
+                272.1864013671875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6765e21e2e334558b8df9b81ac60cb09",
+        "text": "4.~OE+O:*",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                307.2000732421875,
+                296.6481628417969,
+                335.1614074707031,
+                304.5623779296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "91c3e42f9d87c9ac0a76e1cfecd657c3",
+        "text": "__= \n=",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                341.28009033203125,
+                303.8841552734375,
+                346.9937438964844,
+                317.5223693847656
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7b0b45af937d862d9fd44624e9cce202",
+        "text": "-- \nI",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                341.52008056640625,
+                324.25775146484375,
+                393.1393737792969,
+                337.5537414550781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cb569c476977dee55971aba739ea0cc7",
+        "text": "S.SI~ *01~ \n-",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                307.9200744628906,
+                337.8657531738281,
+                343.8384704589844,
+                344.2689514160156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7eafe2a85b0bc38798b7ab9f5ca33ad3",
+        "text": "subsets which do not guarantee the best set will be \nidentified. The fact that our main goal is to determine a \nlow dimensional feature set suggests we utilize a \n'bottom-up' type search which operates as follows. An \ninitial subset is formed using the single feature with the \nhighest performance score. Each subsequent iteration",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                282.96014404296875,
+                388.2895202636719,
+                488.6194152832031,
+                455.8154602050781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "021f1b88ecb3936dd6cdef73b91bb3ab",
+        "text": "18; 19, 20",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                403.9201965332031,
+                500.84954833984375,
+                438.09442138671875,
+                513.1464233398438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9ac8d6a28a7cd31408252b8304309155",
+        "text": "21; 22; 23; 24",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                403.2001953125,
+                514.28955078125,
+                450.4256286621094,
+                526.135498046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3757e0d1f469d6e8035453a63b79814d",
+        "text": "13; 25, pp. 104, \n105, 113",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                403.4402160644531,
+                529.0440063476562,
+                458.6145935058594,
+                549.255126953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2d78ca51a8975e579b7a42f07d239e7e",
+        "text": "26; 27",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                403.2001953125,
+                551.364013671875,
+                427.3420715332031,
+                562.4551391601562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1722d12604a4bd1b41d4ba44b74a4040",
+        "text": "Table 3. Top 5 feature sets for 40 HZ S. Glenrock data",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                74.63998413085938,
+                63.07663345336914,
+                265.5435485839844,
+                75.24271392822266
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ceb991aa8fe50f17889c724e87b9b40f",
+        "text": "Feature set \nI-NN \nBayes",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                67.19999694824219,
+                79.39663696289062,
+                263.8094177246094,
+                91.5627212524414
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "df2dd37ddbbda0777969cb2d367038aa",
+        "text": "1. AMIN/A0, DPOLAR, INSTPI \n81.3 \n82.9",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                67.43998718261719,
+                95.71664428710938,
+                260.2828063964844,
+                107.88272857666016
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "66d1fe42f3322f866b4c461bb1c925e0",
+        "text": "2. REFC2, F75, A2/AI \n76.6 \n78.1",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                66.719970703125,
+                113.71664428710938,
+                259.724365234375,
+                125.88272857666016
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4a1d1efab1128a151bcf44de3632c49e",
+        "text": "3. F75, DPOLAR \n77.0 \n77.9",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                66.71998596191406,
+                131.71664428710938,
+                260.2828369140625,
+                143.88272094726562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "81c9f3d3531ede75616d5ec8e534dad6",
+        "text": "4. FMAX \n79.7 \n76.7",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                66.239990234375,
+                149.71664428710938,
+                260.2828369140625,
+                161.88272094726562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "da2c603f7b6f8158eb7d15c906003eee",
+        "text": "5. TZER3, F25 \n73.4 \n76.4",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                66.71998596191406,
+                167.71664428710938,
+                260.2823791503906,
+                179.88272094726562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "74167f554cfb6af29f1f2065291a9548",
+        "text": "contains a step to add one feature to the set and a step \nwhich may remove one feature. In the add step all the \nfeatures not yet included are examined one at a time to \nsee which one will most improve the current set. If the \namount of improvement exceeds a preset threshold, \nthe feature is added and the algorithm continues on to \nthe next step, otherwise the algorithm terminates. In \nthe removal step each feature currently included in the \nset (unless it has just been added) is temporarily \nremoved, one at a time, to see if that feature is no longer \nuseful. An attribute is deleted from the set if its removal \ndoes not reduce the performance beyond a set thresh- \nold. In this way, features are taken out when they no \nlonger contribute to the set's discrimination power. \nThe search procedure requires a metric directly \nrelated to Bayes classifier performance. Measures such \nas the Bayes error rate, divergence, or the Kolmogorov \nvariational distance ~3'4~ are applicable, but make \nexcessive demands on computer time, due to the \nevaluation of multidimensional integrals and the prob- \nlem of estimating the conditional density function for \neach class. \nThe metric used in this paper is the per cent correct \nclassifications for a l-nearest neighbor (I-NN) deci- \nsion rule. Using the 1-NN rule, a sample is assigned the \nsame class as the closest training sample. The feature \nset performance metric is calculated by classifying \nevery sample of the training data set using the 1-NN \nrule and determining the error rate. Whitney (1 s) shows \nthat the Bayes risk R* (or probability of error) is \nrelated to the 1-NN risk (or probability of error) R(1) \nby:",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                64.55999755859375,
+                191.71664428710938,
+                273.6858215332031,
+                546.8426513671875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c723b727bbfd9b35a24d66c2025a5213",
+        "text": "[1 - x/1 - 2R(1)]/2 ~< R* ~< R(I)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                102.24000549316406,
+                553.1566162109375,
+                236.8623809814453,
+                565.3226928710938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cafa3c0415ee2a0ac5e1c06bf296dda3",
+        "text": "In other words, R(1) provides an asymptotic upper \nbound on Bayes classification error and is therefore a \nreasonable measure of the discriminatory power of a \nfeature set. \nThe bottom-up search using the I-NN metric was \napplied to the data set generated by the statistical \nmodeling method. This data was first modified by \nadding 10~o bandpass filtered Gaussian noise in order \nto identify variables which are effective when con- \nditions are not ideal. \nThe Bayes performance of attributes chosen by the \nbottom-up procedure was measured in order to verify \ntheir effectiveness. The Bayes classifier was implemen- \nted with the class probability density function modeled",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                65.04000854492188,
+                569.7166137695312,
+                273.4810791015625,
+                723.72265625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "087fe5c9ee19bc0fdf34f5d7f20f026e",
+        "text": "Fig. 5. Trace ensembles generated by statistical modeling for \nthe S. Glenrock model using 40 Hz. Bottom traces corre- \nspond to non-productive well 2 and top traces to productive \nwell 5.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                283.6800231933594,
+                301.63653564453125,
+                491.05084228515625,
+                341.16259765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f231c16e207d47f65d236d3ff150d474",
+        "text": "as a weighted sum of Gaussians/~ 6, t T~ \nThe top 5 feature sets are listed in Table 3 along with \ntheir 1-NN and Bayes performance values. Examin- \nation of these values indicates that the 1-NN measure \ndoes not provide a consistent lower bound. This is \nprimarily caused by the inclusion of variables such as \npeak-trough time, which contain a number of identical \nmeasurement values. In this situation, the determin- \nation of the closest neighboring sample depends on the \nsorted order of the feature vectors in computer \nmemory. The 1-NN metric is thus biased upward since \nadjacent vectors often belong to the same data class. \nVariables which sometimes exhibited this 'clumped' \nbehavior are NPTTT, TMIN, and FMAX. \nAnother reason for the I-NN metric exceeding the \nBayes performance is the type of clustering displayed \nby the data in the Oven feature space. Use of \nISODATA cluster analysis (used for pdf estimation) \nand multi-model Gaussian estimates of the density \nfunction implicitly assume that clusters are approxi- \nmately hyper-ellipsoidal in shape. When this is not the \ncase, the Bayes classifier can be expected to yield \nsuboptimal results. \nBecause of these problems, we identify ten feature \nsets for each data case rather than relying completely \non the first selection. After an initial set is found, the \nfirst feature chosen by the bottom-up procedure in the \nprevious set is removed from the list of available \nfeatures. Another set of attributes is then identified \nfrom this list and the process continues until ten sets \nare known. \nFigure 6 illustrates 9 iterations of the bottom-up \nprocedure showing the I-NN metric plotted as a solid \nline and the Bayes result as a dashed line. As expected,",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                283.43988037109375,
+                348.196533203125,
+                491.8158874511719,
+                724.442626953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "75c974add7db8d851159d90d69eed9f4",
+        "text": "Performonce meosure compori$on \nSol.id line = I - NN metric \nDoshed Line = Boyes Derformonce",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                221.99996948242188,
+                64.07002258300781,
+                326.2776184082031,
+                86.95403289794922
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cdf43dd5fa194d82ebcdd8abed9a639a",
+        "text": "eo",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                164.15997314453125,
+                84.22999572753906,
+                172.47738647460938,
+                92.47399139404297
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8b3cc6d7bb70bbdbc2c261f609fd4a73",
+        "text": "8'5 \nin",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                153.83999633789062,
+                103.43000793457031,
+                172.62844848632812,
+                119.35399627685547
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ba66582e6aa776866e28c6cf07542d94",
+        "text": "eo",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                163.1999969482422,
+                123.12800598144531,
+                171.79623413085938,
+                131.04225158691406
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "df3c7a5246b1f2742235e9f4362c002d",
+        "text": "70",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                163.1999969482422,
+                161.0299835205078,
+                171.6630096435547,
+                169.27398681640625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4fa12a9903008cf2389fbbc3cc91c0bf",
+        "text": "J5 J \n2 \n3 \n4 \n5 \nE \n? \ng \n! \nHero,ion number",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                163.67999267578125,
+                178.0747833251953,
+                414.9581298828125,
+                200.4739990234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "be040c4a959f311f7ac60f517ebec929",
+        "text": "Fig. 6. Bayes and I-NN performance metrics for the bottom-up evaluation example.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                133.9199676513672,
+                207.8347930908203,
+                419.1730651855469,
+                219.04039001464844
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "51c18792de0e4e987b1e0aff462f35d4",
+        "text": "the 1-NN metric provides a rough lower bound on \nBayes performance but the two curves do not track \neach other exactly. This indicates that small changes of \nthe metric may not translate directly into similar small \nchanges in Bayes performance. Furthermore, experi- \nence with curves of this type indicate that feature sets \ncontaining about 5 or more variables are not signifi- \ncantly better than smaller sets. The feature sets de- \nscribed in Table 3 therefore represent only the top 4 \nvariables and do not include those which add no more \nthan 2 or 3 per cent to the performance measure.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                66.47993469238281,
+                227.46392822265625,
+                273.7110290527344,
+                350.3501892089844
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2cd64af178cca96e55fee0fa1aa9d1b1",
+        "text": "subtle changes in waveforms. Feature selection must \ntherefore be based on a metric related to the Bayes \nprobability of error. \nIn order to incorporate a priori geological knowl- \nedge into the classifier design, synthetic seismic traces are \ngenerated based on well control and the statistics of \nanticipated properties of the various rock layers. \nProbability density functions (palls) describing these \nstatistics are used to generate suites of random well \nlogs which describe possible conditions at points \nremote to the control wells. Synthetic seismic traces are \nderived from these random well logs and are sub- \nsequently used to train the classifier. This modeling \nprocedure alleviates the problem of inadequate train- \ning data by creating as many synthetic traces as are \nneeded. \nSelection of an effective feature set is accomplished \nby a 'bottom-up' approach which successively adds in \nattributes that improve performance and removing \nthose which are no longer useful. Since this step is \ncarried out using statistically generated training data, \nthe resulting feature sets should be effective for the \nrange of anticipated geological conditions. The perfor- \nmance metric employed is the per cent correct classifi- \ncations of a 1-nearest neighbor (1-NN) decision rule \napplied to the training data. Whitney (Is) has shown \nthis measure to provide a lower bound on Bayes \nclassifier performance. \nThese techniques are demonstrated by generating \nsynthetic training data for a sandstone lens model. \nFeature selection is applied to this data to identify five \neffective sets of attributes. In a companion paper 112) \nthis process is used in conjunction with Bayes classifi- \ncation and relaxation labeling to successfully identify \nstratigraphic traps in synthetic seismograms.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                277.43988037109375,
+                228.424072265625,
+                486.1628723144531,
+                615.55029296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b3631aa1dafb3658feec1b8faa3b7930",
+        "text": "4. CONCLUSIONS",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                135.8399658203125,
+                360.71484375,
+                199.67694091796875,
+                371.9204406738281
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "41ed00d2c74518f6e490397a678f68dd",
+        "text": "A Bayes classifier using feature set I (Table 3) and \ntrained using statistical modeling was able to produce \n85% correct classifications on data similar to that in \nFig. 3. Even with 20°~ added noise (signal-to-noise \nratio of about 11 dB) performance dropped only 6.4% \ndemonstrating the robustness of the technique. In \nsummary, this research has shown that statistical \nmodeling can generate effective training data by using \nboth well control and a priori geological information. \nThe statistical training data can also be used on conjunc- \ntion with a feature selection procedure and a I-NN \nperformance metric to identify potent feature sets. The \napplication of these techniques along with Bayes \nclassification and relaxation labeling are discussed in \nKubichek and Quincy. I~)",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                64.55999755859375,
+                379.62396240234375,
+                270.8829040527344,
+                546.6703491210938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "64ac0522e7a055c563758f4ab2973e60",
+        "text": "SUMMARY",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                147.1200714111328,
+                558.9548950195312,
+                189.04705810546875,
+                570.1605224609375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e661ad33b8d694268928b5f77f1b587e",
+        "text": "Stratigraphic traps containing hydrocarbon de- \nposits are normally difficult to locate using seismic \ndata. The research described in this paper addresses \nseveral problems associated with applying pattern \nrecognition techniques to reflection seismic data. \nAmong these is the difficulty of designing a classifier \nwhich utilizes the a priori knowledge of the geologist \nabout the characteristics of expected hydrocarbon \ntraps. A second problem stems from the small number \nof traces measured in the vicinity of a control well, \nwhich can result in insufficient training data. Finally, \ncareful selection of the feature set and application of a \nBayes classifier are critical for discriminating between",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                64.56007385253906,
+                577.864013671875,
+                270.6443176269531,
+                720.9103393554688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5777b391904e71e04cd4468e524fa5a3",
+        "text": "Acknowledgements--The authors wish to express their appre- \nciation to Dr SCOTT SMITHSON, Department of Geology and \nGeophysics, University of Wyoming, for his valuable dis- \ncussions on geologic modeling.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                277.919921875,
+                637.4348754882812,
+                482.8709411621094,
+                675.04052734375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6aa592e6c888d39371461610eabd4da3",
+        "text": "REFERENCES \n1. M. T. Halbouty, Rationale for deliberate pursuit of \nstratigraphic, unconformity, and paleogeomorphic traps,",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                281.5199279785156,
+                690.23486328125,
+                482.57550048828125,
+                722.0805053710938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "621772f6f52523b7da116b9570175ac3",
+        "text": "AAPG Memoir 26. 3-7, American Association of Petro- \nleum Geologists, Tulsa, OK (1972). \n2. M. B. Dobrin, Seismic exploratiion for stratigraphic \ntraps, AAPG Memoir 26. 329-351, American Association \nof Petroleum Geologists, Tulsa, OK (1977). \n3. P. A. Devijver and J. Kittler, Pattern Recoonition: A \nStatistical Approach, Prentice-Hall, London (1982). \n4. C. H. Chen, Statistical Pattern Recoonition, Hayden \nBook Co., Rochelle Park, NJ (1973). \n5. K. Khattri, A. Sinvhai and A. K. Awashthi, Seismic \ndiscriminants of stratigraphy derived from Monte-Carlo \nsimulation of sedimentary formations, Geophys. Pros- \npect. 27, 168-195 (1979). \n6. A. Sinvhal and K. Khattri, Application of seismic reflec- \ntion data to discriminate subsurface lithostratigraphy, \nGeophysics 48, 1498-1513 (1983). \n7. K. Khattri and R. Gir, A study ofthe seismic signatures of \nsedimentation models using synthetic seismograms, Geo- \nphys. Prospect. 24, 454-477 (1976). \n8. E. W. McLemore, Probability studies in three variants: \nvelocity, depth, and lithology, Geophysics 28, 46-86 \n(1963). \n9. C. J. Velzeboer, The theoretical seismic reflection re- \nsponse of sedimentary sequences, Geophysics 46, 843-853 \n(1981). \n10. K. D. Wyatt, Synthetic vertical seismic profile, Geo- \nphysics 46, 880-891 (1981). \n1 I. R.T. Ryder, M. W. Lee and G. N. Smith, Seismic Models \nof Sandstone Stratigraphic Traps in Rocky Mountain \nBasins. American Association of Petroleum Geologists, \nTulsa, OK (1981). \n12. R. F. Kubichek and E. A. Quincy, Identification of \nseismic stratigraphic traps using statistical pattern recog- \nnition, Pattern Recognition 18, 449--458 (1985). \n13. R.F. Kubichek, Identification of stratigraphic traps from \n2-D seismic data using non-linear statistical pattern \nrecognition. Ph.D. Dissertation, University of Wyoming \n0984). \n14. P. M. Narendra and K. Fukunaga, A branch and bound \nalgorithm for feature subset selection, IEEE Trans. \nComput. C-26, 917-922 (1977). \n15. A. W. Whitney, A direct method of nonparametric \nmeasurement selection, IEEE Trans. Comput. C-20, \n1100-1103 (1971). \n16. A. N. Mucciardi and E. E. Gose, A comparison of seven \ntechniques for choosing subsets of pattern recognition \nproperties, IEEE Trans. Comput. C-20, 1023-1031",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                64.56002807617188,
+                69.10208892822266,
+                273.52392578125,
+                496.7878112792969
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7aa13bf3f94edbdea4095bada56de4fc",
+        "text": "About the Author--R. F. KUBICHEK received B.S. degrees in Electrical Engineering and Computer Science at \nthe University of Wyoming in 1976. He received an M.S. in Electrical Engineering in 1977 at the same \nuniversity. He has recently completed the requirements for a Ph.D. degree in Electrical Engineering at the \nUniversity of Wyoming. \nHe worked for Boeing Computer Services for two years, and has since worked as a Lecturer, Research \nAssistant and Consultant, Mr Kubichek is currently employed in electrical engineering at the University of \nWyoming on seismic signal processing research. \nHis interests are statistical signal processing and pattern recognition. Mr Kubichek is a member of IEEE \nand the Society of Exploration Geophysicists.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                92.88021850585938,
+                520.781982421875,
+                458.2463073730469,
+                604.5477294921875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9a808b36f6b51e722bcdae49f2cc7886",
+        "text": "About the AU~N'mEDMUND A. QuINcY received his B.S.E.E. degree from the University of Nebraska in \n1960, an M.S. degree in Engineering from the University of California, Los Angeles in 1962 and a Ph.D. \ndegree in Electrical Engineering from Purdue University in 1966. Both advanced degrees were specialized in \nStatistical Communication Theory. \nFrom 1960 through 1963 he was employed in the aerospace industry working on radar cross-section \ndesign and optical space communications. From 1966 to 1968 Dr Quincy conducted signal design and \ndetection research for the U.S. Department of Commerce, Boulder, CO, and was concurrently a Visiting \nLecturer at the University of Colorado. \nIn 1968 he joined the Department of Electrical Engineering at Colorado State University as an Assistant \nProfessor. Dr. Quincy accepted the position of Associate Professor with the Department of Electrical \nEngineering at the University of Wyoming, Laramie, WY, in 1970 and was promoted to Professor in 1977. \nSince 1968 his research has been directed toward statistical signal processing in geophysics, including pattern \nrecognition, image processing and estimation. Research project., have included induction sounding of",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                92.64019775390625,
+                611.02197265625,
+                458.3321228027344,
+                729.3477172851562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7fecbfb6057eda4c219312affa90efc8",
+        "text": "(1971). \n17. E. A. Quincy, Non-linear correlation receivers for non- \nGaussian statistics, Record of 1970 Annual Southwestern \nIEEE Conf.. p. 204 (1970). \n18. L.D. Meckel Jr andA.K.Nath, Geologic considerations \nfor stratigraphic modeling and interpretation, AAPG \nMemoir 26, 417--438, American Association of Petroleum \nGeologists, Tulsa, OK (1977). \n19. M. W. Schramm Jr, E. V. Dedman and J. P. Lindsey, \nPractical stratigraphic modeling and interpretation, \nAAPG Memoir 26. 477-502, American Association of \nPetroleum Geologists, Tulsa, OK (1977). \n20. N. S. Neidell and E. Poggiagliolmi, Stratigraphic model- \ning and interpretation--geophysical principles and tech- \nniques, AAPG Memoir 26, 389--416, American Associ- \nation of Petroleum Geologists, Tulsa, OK (1977). \n21. P. Bois, Autoregressive pattern recognition applied to the \ndelimitation of oil and gas reservoirs, Geophys. Prospect. \n28, 572-591 (1980). \n22. P. Bois, Determination of the nature of reservoirs by use \nof pattern recognition algorithm with prior learning, \nGeophys. Prospect. 29, 687-701 (1981). \nD. Tjostheim and O. Sandvin, Multivariate autoregres- \nsive recognition of multichannel waveforrns, IEEE Trans. \nPattern Anal. Mach. lmell. PAMI-I, 80-86 (1979). \nL Marple, A new autoregressive spectrum analysis \nalgorithm, I EEE Trans. Acoustics Speech Signal Process. \nASSP-28, 441--454 (1980). \n25. J. Makhoul, Linear prediction: a tutorial review, Proc. \nIEEE 63, 561-580 (1975). \n26. K. Huang and K. Fu, Classification of Ricker wavelets \nand the detection of bright spots using a tree classifier, \nProc. 3rd Int. Syrup. on Computer Aided Seismic Analysis \nand Discrimination, pp. 89-97 (1983). \n27. D. C. Hagen, The application of principal component \nanalysis to seismic data sets, Proc. 2nd Int. Symp. on \nComputer Aided Seismic Analysis and Discrimination, pp. \n98-109 (1981). \n28. M. J. Taner and R. E. Sheriff, Application of amplitude, \nfrequency, and other attributes to stratigraphic and \nhydrocarbon determination, AAPG Memoir 26, 301-327, \nAmerican Association of Petroleum Geologists, Tulsa, \nOK (1977). \n29. M.T. Taner, F. Koehler and R. E. Sheriff, Complex trace \nanalysis, Geophysics 44, 1041-1063 (1979). \n30. N. A. Anstey, Seismic Interpretation: The Physical As- \npects. IHRDC, Boston, MA (1977).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                278.6399230957031,
+                67.9020767211914,
+                486.8562927246094,
+                496.3077087402344
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "265d93a724d6aca04994c29abdc8e771",
+        "text": "23.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                278.1601257324219,
+                269.55474853515625,
+                290.8897399902344,
+                279.7466125488281
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ea9fe19ed0b512c6cd121cb6b801a2bf",
+        "text": "24.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                278.64013671875,
+                295.7147521972656,
+                291.3697509765625,
+                305.9066162109375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6598e99eb4b5898f24ddcea840158973",
+        "text": "underground coal gasification sites, in situ oil shale burn detection, pattern recognition of ice crystals, \nprediction of freezing on bridge decks and seismic image enhancement, beam steering and pattern \nrecognition. \nDr Quincy has consulted for North American Rockwell, IBM, the U.S. Department of Energy and major \noff companies. He is a Senior Member of IEEE, has served as Secretary to the Denver Section and Chairman \nof the Communications Society Chapter of IEEE, Denver Section. In addition, he has served as Associate \nEditor of the IEEE Communications Society Digest. He is also a member of Etta Kappa Nu, Sigma Tau, Tau \nBeta Pi and Sigma Xi.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "1-s2.0-0031320385900147-main.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                112.56002807617188,
+                62.86204147338867,
+                473.2524719238281,
+                137.26780700683594
+            ],
+            "is_full_width": false
+        }
+    }
+]

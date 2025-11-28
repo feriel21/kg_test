@@ -1,0 +1,3460 @@
+[
+    {
+        "element_id": "6a15bd5898e3062d082c3f435f32c257",
+        "text": "Bacia da Foz do Amazonas",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                56.71240234375,
+                57.26237869262695,
+                276.4420166015625,
+                75.26237487792969
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0df1b4d90fd4ced567585a4b07e29bbb",
+        "text": "Jorge de Jesus Picanço de Figueiredo1, Pedro Victor Zalán2, Emilson Fernandes Soares1",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                56.71240234375,
+                141.5557861328125,
+                503.0019836425781,
+                151.6343994140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8ada663609c26b967c1d6f7146055434",
+        "text": "Palavras-chave: Bacia da Foz do Amazonas l Estratigrafia l carta estratigráfica",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                56.71240234375,
+                213.3583221435547,
+                256.2476501464844,
+                222.38662719726562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8f1c85e21b1d6bc396acfa6ebb712950",
+        "text": "Keywords: Foz do Amazonas Basin l Stratigraphy l stratigraphic chart",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                56.72138977050781,
+                234.89297485351562,
+                235.987060546875,
+                243.98297119140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cb51a65b6d1d4bbd70339658b8c9ec74",
+        "text": "introdução",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                56.71240234375,
+                498.79498291015625,
+                154.21865844726562,
+                526.1591796875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2a0bb280edc6bea95f9a8f423a18addd",
+        "text": "aquisição sísmica 2D e 3D e de uma breve campa-\nnha de perfuração de quatro poços exploratórios (três\nem águas profundas, entre 2001 e 2004). Estes po-\nços visaram basicamente o Cone do Amazonas, a\nseção superior do Cenozóico (Neógeno e parte do\nPaleógeno) da Bacia da Foz do Amazonas deposita-\nda pelo Rio Amazonas nos últimos 11 Ma.\nApesar de mais de 60 poços perfurados\nna bacia, apenas três estão localizados em águas\nprofundas, no Cone do Amazonas. As seções do\nNeocretáceo (Fase Drifte, marinho franco) e parte\ndo Eocretáceo (Fase Rifte) só foram amostradas,",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                290.56243896484375,
+                504.67498779296875,
+                510.3706359863281,
+                657.6548461914062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "914e572a9617945d88d697f69f3ad3da",
+        "text": "A Bacia da Foz do Amazonas corresponde à\nmais extrema bacia ao norte da margem continental\nbrasileira, situando-se em frente a todo o litoral do\nEstado do Amapá e parte do litoral noroeste do Esta-\ndo do Pará. Sua área é de 268.000 km2 (Brandão e\nFeijó, 1994). Sua exploração processou-se basicamen-\nte durante as décadas de 70 e 80, em águas rasas.\nA retomada do processo exploratório na Foz do\nAmazonas no final dos anos 90 consistiu de extensa",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                56.71238708496094,
+                544.0049438476562,
+                276.49359130859375,
+                658.0149536132812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "25ee3a692d3c6e285c4d15f236d271b8",
+        "text": "1 E&P Exploração/Interpretação e Avaliação da Margem Equatorial e Bacias Interiores/Interpretação\ne-mail: picanco@petrobras.com.br",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                56.708404541015625,
+                689.8109130859375,
+                417.53631591796875,
+                709.8658447265625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "00bd93829755f919bb6f4152a8753b38",
+        "text": "2 E&P Exploração/Gestão de Projetos Exploratórios/NNE",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 1,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                56.71240234375,
+                714.470947265625,
+                256.2254638671875,
+                722.5258178710938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8a5d6af0956aeef85096df9067df9ac1",
+        "text": "por poços, nas águas rasas da porção noroeste da\nbacia. A Bacia da Foz do Amazonas, em particu-\nlar, teve seu último poço em águas rasas perfura-\ndo em 1987 (1-APS-53). Conseqüentemente, ne-\nnhum dado estratigráfico novo relativo à seção pré-\neocênica advindo de poços foi incorporado ao co-\nnhecimento geológico desta bacia da margem\nequatorial desde a publicação pioneira da Petro-\nbras sobre as cartas estratigráficas das bacias bra-\nsileiras (Brandão e Feijó, 1994).\nOs dados aqui apresentados para a Fase\nRifte da bacia são baseados predominantemente\nnos resultados de projetos diversos contratados\npela Petrobras e, obviamente, em trabalhos pu-\nblicados anteriormente. Para a Fase Drifte, os\nresultados apresentados são fruto de cuidadosa\nreinterpretação dos dados de poços existentes,\namarrados com as linhas sísmicas disponíveis, à\nluz dos conceitos mais modernos da estratigrafia\nde seqüências. Particularmente, os poços de águas\nprofundas permitiram uma reinterpretação deste\nbanco de dados sob a luz dos avanços científicos\ndas últimas duas décadas.\nA Fase Rifte da Bacia da Foz do Amazo-\nnas é constituída por três grábens principais, alon-\ngados paralelamente à direção NNO-SSE. São de-\nnominados, de oeste para leste, de: Cassiporé,\nCassiporezinho e Externo. Os dois primeiros são\nclássicos semi-grábens confinados entre altos do\nembasamento, apresentando borda falhada a oes-\nte (maioria das falhas sintéticas, mergulhando\npara nordeste/leste) e borda flexural a leste. O\nGráben Externo ocorre em porções mais distais e\nsua continuação/extensão em direção às águas\nprofundas não pode ser visualizada com clareza\nnas linhas sísmicas.\nA Fase Drifte iniciou-se no final do Albia-\nno (circa 102 Ma) e transcorre até o tempo pre-\nsente. Três domínios litoestratigráficos são clara-\nmente identificados nessa fase: entre o final do\nAlbiano e o Neopaleoceno (Selandiano) ocorre um\ndomínio de deposição siliciclástica. A partir de\nSelandiano até o topo do Mesomioceno instalou-\nse uma plataforma mista (carbonato-siliciclástica).\nDo Neomioceno (10,7 Ma) até o Presente desen-\nvolveu-se uma portentosa edificação sedimentar co-\nnhecida como o “Cone do Amazonas”. A inter-\npretação da evolução cronoestratigráfica da seção\nDrifte permitiu a individualização de 11 seqüênci-\nas de 2ª ordem de acordo com Mitchum e Van\nWagoner (1991).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                153.06097412109375,
+                57.61494445800781,
+                372.87225341796875,
+                721.8248901367188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "32f82e28eeb0adfacf3c1c70c028c194",
+        "text": "A nomenclatura utilizada para a litoestratigra-\nfia foi mantida semelhante à utilizada por Brandão e\nFeijó (1994), até hoje a mais completa revisão da es-\ntratigrafia da Bacia da Foz do Amazonas.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                386.9109802246094,
+                57.61494445800781,
+                606.6709594726562,
+                106.61494445800781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "eefe88f0e12ea175d5cb44a0c0246d04",
+        "text": "embasamento",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                386.9110107421875,
+                146.2649688720703,
+                518.1069946289062,
+                173.62918090820312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9d2c41cfac0e27d5fadec576f4cd5f9b",
+        "text": "Os Grábens do Cassiporezinho e Externo da\nBacia da Foz do Amazonas foram implantados so-\nbre a Faixa Móvel Rokelides, um cinturão de do-\nbramentos e cavalgamentos de idade neoprote-\nrozóica de direção NNO-SSE que se formou du-\nrante a amalgamação do supercontinente Gondwa-\nna (Evento Orogenético Brasiliano). A Faixa\nRokelides ocorre na área como resultado da jun-\nção entre a Faixa Araguaia e a Faixa Gurupi mais\na sul (ambas de idade brasiliana e situadas no\nentorno dos Crátons Amazônico e de São Luís).\nO nome Rokelides provém da extensão desta faixa\nmóvel amalgamada na África. Por serem zonas\nlineares constituídas de fortes anisotropias late-\nrais, as faixas móveis são zonas preferenciais para\na instalação de riftes durante o processo de\nquebramento continental e propagação de ruptu-\nras. Sua composição compreende rochas metas-\nsedimentares e metavulcânicas de origem\ninfracrustal e supracrustal, com idades originais\nvariando do Arqueano ao Neoproterozóico.\nO Gráben do Cassiporé, de direção NO-\nSE, implantou-se como um ramo isolado, diver-\ngente em relação aos outros dois, em meio ao\nCráton das Guianas, constituído pelo Complexo\nGuianense (gnaisses, granitóides, migmatitos, gra-\nnulitos e ortoanfibolitos). Nesse domínio apare-\ncem também, as rochas plutônicas ácidas e as\nsupracrustais do Paleoproterozóico.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                386.9109802246094,
+                191.47486877441406,
+                606.7105712890625,
+                565.4646606445312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f81c6969aedd354f3777afc563a878d4",
+        "text": "Superseqüência Pré-Rifte",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                386.9110107421875,
+                599.4450073242188,
+                605.8536987304688,
+                626.8092041015625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8430019771cde08caac7be34689036a6",
+        "text": "Arenitos castanho-avermelhados intercala-\ndos com lavas basálticas ocorrem como uma se-\nqüência plano-paralela, refletiva, de espessura\nconstante, no assoalho dos três grábens. Em ter-\nmos de litoestratigrafia corresponde à Formação\nCalçoene (Brandão e Feijó, 1994). Recentes",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 2,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                386.9110107421875,
+                644.6549682617188,
+                606.7077026367188,
+                719.6649780273438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cb6f713c10cc62f27279bdcc0c5d9533",
+        "text": "lhante à da Formação Codó, de idade neo-aptiana,\nbem caracterizada pela associação composta pre-\ndominantemente por folhelhos e calcilutitos, bem\ncomo pela sua assinatura elétrica, foi perfurada nos\nGrábens de Cassiporé e Externo pelos poços APS-\n18 e APS-49, respectivamente. A idade neo-aptiana\nfoi atestada apenas no último. Litologicamente, a\nfácies Codó é representada no APS-49 por folhe-\nlhos cinza-escuros, calcíferos e carbonosos, e no\nAPS-18 por intercalações de folhelhos, siltitos, are-\nnitos e calcilutitos. Em termos de caráter sísmico,\na litofácies Codó é caracterizada, a exemplo das\noutras bacias estudadas, por refletores contínuos,\nplano-paralelos, com altos contrastes de\nimpedância acústica. Sua ocorrência marca sem-\npre o topo das seqüências Rifte I e II e é restrita ao\ninterior dos grábens. Crescimentos visíveis em sua\nsismofácies atestam seu caráter sinrifte no Gráben\ndo Cassiporezinho. Assim sendo, a litofácies Codó\nmarca a presença indubitável da Seqüência Rifte II\ndentro destes grábens. Seu contato superior é uma\ndiscordância sobre a qual repousam em onlap os\nrefletores da seqüência sobrejacente, e seu conta-\nto inferior com a Seqüência Rifte I é concordante.\nIncorpora-se, neste trabalho, uma mudança\nna coluna estratigráfica da bacia, em relação à\napresentada por Brandão e Feijó (1994). A Forma-\nção Codó, pelas razões descritas acima, é introdu-\nzida em meio à Formação Cassiporé na idade Neo-\naptiano. A Formação Cassiporé foi utilizada por\nBrandão e Feijó (1994) para designar todas as ro-\nchas sedimentares da Seqüência Rifte, do\nBarremiano ao Albiano. Este uso é mantido neste\ntrabalho, com a inserção da litofácies da Forma-\nção Codó (representante do Rifte II) no meio da\nFormação Cassiporé (cujas litofácies representam\nos Riftes I e III).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                289.15240478515625,
+                57.40486145019531,
+                510.38629150390625,
+                524.8146362304688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3e211c5e25ddb4c6bacd31d6d2c422b3",
+        "text": "datações dos basaltos pelo método Ar-Ar apon-\ntam idades entre 235 e 194 Ma, indicando assim\numa idade mesotriássica a eojurássica para a de-\nposição desta unidade. A espessura máxima esti-\nmada para esta superseqüência é de 1.000 m\n(Brandão e Feijó, 1994).\nA extensão areal subjacente a todos os\ngrábens, sua ocorrência em alto estrutural separan-\ndo os Grábens de Cassiporezinho e Externo, sua\nsismofácies de “trilhos”, a ausência de crescimentos\nou de variações bruscas de espessura e a presença\nde rochas ígneas básicas apontam para uma seqüên-\ncia depositada em uma bacia do tipo sag Pré-Rifte,\nem condições intracratônicas desérticas. Este é o\npaleoambiente deposicional esperado para o interi-\nor do supercontinente Gondwana às vésperas de seu\nquebramento e ruptura.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                56.71229553222656,
+                57.61494445800781,
+                275.1224365234375,
+                275.60491943359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "17a48f236f6cd24522797ecfcb3e09a9",
+        "text": "Superseqüência Rifte",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                56.71240234375,
+                315.25494384765625,
+                252.3894805908203,
+                342.6191711425781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5d85f903ff48baf0fbf6f7ce461ddb4b",
+        "text": "Seqüências K20-K40 e K50",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                56.71240234375,
+                357.9004821777344,
+                251.70933532714844,
+                378.42364501953125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ccaf0a3b3c50a68ea7413d4df74c9c28",
+        "text": "A pequena quantidade de poços que pe-\nnetraram nos sedimentos rifte, a falta de dados\nbioestratigráficos mais precisos e o não-reconhe-\ncimento de uma discordância significativa na sís-\nmica não permitiram a separação das Seqüên-\ncias K20-K40 (Rifte I) e K50 (Rifte II) nos grábens\nsubjacentes da Bacia da Foz do Amazonas. Mes-\nmo a ocorrência de uma fase de rifteamento neo-\ncomiana-barremiana é inferida nesta bacia, ten-\ndo em vista a sua localização entre o Rifte do\nMarajó (onde sedimentos rifte dessa idade são\ncomprovados em poços), a sul; e o Platô de De-\nmerara, a norte, onde sua ocorrência também é\ncomprovada por poços. A idade máxima neoco-\nmiana para esta fase de rifteamento é também\ninferida pela idade do rifte, imediatamente a\nnorte, no Platô de Demerara. As maiores espes-\nsuras dessas seqüências ocorrem nos Grábens do\nCassiporezinho e Externo.\nEm termos de litoestratigrafia, esta uni-\ndade corresponde à Formação Cassiporé, consti-\ntuída por intercalações de folhelhos cinza-escuros,\narenitos cinzentos muito finos a finos, seleção mo-\nderada e arenitos finos a médios, bem seleciona-\ndos (Brandão e Feijó, 1994). Uma litofácies seme-",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                56.71238708496094,
+                396.614990234375,
+                275.1123962402344,
+                718.4048461914062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b3890bbe022f7c549289fe8aa72f02ca",
+        "text": "Seqüência K60",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                289.15240478515625,
+                539.4004516601562,
+                394.136474609375,
+                559.9236450195312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2899b61f882ea8d91b02a6829255d994",
+        "text": "A propagação do rifteamento, do Aptiano para\no Albiano, parece ter sido em padrão backstepping,\nisto é, o depocentro da Seqüência K60 (Rifte III) ocor-\nre deslocado em relação ao depocentro das Seqüên-\ncias Rifte I + II em direção à borda falhada, para\noeste. Assim sendo, os máximos de espessura destas\ndiferentes fases sinrifte não se superpõem. A maior\nespessura da Seqüência Rifte III ocorre no Gráben do\nCassiporé, enquanto as maiores espessuras das Se-\nqüências Rifte I e II ocorrem nos Grábens do Cassipo-\nrezinho e Externo. A Seqüência III é composta, pre-",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 3,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                289.15240478515625,
+                578.114990234375,
+                510.3656005859375,
+                718.0149536132812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d402a3c9eafcdda78b48145de2dfb23d",
+        "text": "dominantemente, por arenitos intercalados com\nfolhelhos e siltitos, bem datados como neo-aptianos\na albianos. Os ambientes deposicionais são inter-\npretados como continental, transicional a marinho\n(recorrentes incursões marinhas). Em sísmica, seus\nrefletores são fracos e descontínuos. Entretanto, o\ncrescimento de suas espessuras em direção às fa-\nlhas de borda é notável. Em termos de litoestrati-\ngrafia foram também englobados sob a denomina-\nção de Formação Cassiporé (Brandão e Feijó, 1994).\nO topo desta seqüência é claramente\numa discordância angular entre seus estratos bas-\nculados, rotacionados e falhados, e os estratos\nde uma nítida seqüência do tipo sag Pós-Rifte,\ncom refletores de amplitude moderada a forte,\ncontínuos, subhorizontais e com espessamento\ngradual em direção offshore. Seu contato infe-\nrior é igualmente discordante, repousando em\nonlap sobre as litofácies da Formação Codó (os\nestratos da Seqüência Rifte III encontram-se me-\nnos rotacionados do que os estratos das Seqüên-\ncias Rifte I e II subjacentes).\nBrandão e Feijó (1994) estimam para toda\na Fase Rifte (sua Formação Cassiporé) uma espes-\nsura máxima de 7.000 m. De maneira mais preci-\nsa, seções sísmicas convertidas em profundidade\nindicam para as Seqüências I e II da Bacia do Ma-\nrajó espessuras máximas de 6.000 m e para a Se-\nqüência III 4.000 m.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                153.60101318359375,
+                57.52503967285156,
+                373.4572448730469,
+                426.0250244140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fb0c0e6e7564be6805de0a3d8d4eef62",
+        "text": "Superseqüência Drifte",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                153.60101318359375,
+                460.0050048828125,
+                357.5584411621094,
+                487.36920166015625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fc820fdf1341c2d0491799651566afb3",
+        "text": "As interpretações mais recentes posicionam\no final da fase Rifte na Bacia da Foz do Amazo-\nnas próxima do final do Albiano. A partir daí, ini-\nciou-se a sedimentação marinha franca com a de-\nposição de uma coluna sedimentar siliciclástica\nque se propagou por todo o Neocretáceo e só foi\ninterrompida no Neopaleoceno (Selandiano) com\na instalação de uma plataforma carbonático-sili-\nciclástica. Esta por sua vez atravessou todo o Pa-\nleógeno (desde o Neopaleoceno) e parte do Neó-\ngeno até ser completamente obstruída pela che-\ngada dos sedimentos terrígenos trazidos pelo Rio\nAmazonas no Neomioceno (10,7 Ma, Tortoniano),\nque foram os responsáveis pela formação do Cone\ndo Amazonas.\nA fase Drifte, que engloba os três domínios\ncitados acima, foi dividida por Brandão e Feijó",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                153.60101318359375,
+                505.2149658203125,
+                373.4479064941406,
+                723.2048950195312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b9686f77543f34ab57eeb7d72acb1bca",
+        "text": "(1994) em nove seqüências, que foram interpreta-\ndas como sendo de 3ª ordem, assim distribuídas:\nquatro no Neocretáceo e cinco no Cenozóico. Neste\ntrabalho foram individualizadas onze seqüências\ndeposicionais, sendo quatro até a base do Maas-\ntrichtiano e sete deste ponto até o Recente. Da\nmesma forma, como interpretado pelos autores\nacima citados, não foi identificada, no presente\ntrabalho, nenhuma discordância próxima ao limite\nCretáceo-Paleógeno. Portanto, nenhum limite de\nseqüência foi reconhecido neste tempo. De outra\nforma, ao contrário de Brandão e Feijó (1994), as\nseqüências individualizadas e apresentadas neste\ntrabalho, com tempo de duração variando entre 5\nMa, a mais curta, e 18 milhões de anos, a mais\nlonga, foram classificadas como de 2ª ordem\n(Mitchum e Van Wagoner, 1991).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                387.5110168457031,
+                57.61494445800781,
+                606.7111206054688,
+                275.60491943359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0851508eb9eef0a5ed312bfc90e87bdd",
+        "text": "O padrão deposicional para a fase Drifte\nsugerido na carta de Brandão e Feijó (1994) é\nde tendência geral transgressiva através do tem-\npo geológico. Também neste ponto diverge o pre-\nsente trabalho, uma vez que foram interpreta-\ndos três grandes momentos de afogamento da\nbacia intercalados por fases regressivas. O pri-\nmeiro ocorreu logo após o término da fase rifte,\nno final do Albiano e início do Cenomaniano. O\nsegundo se deu no Paleoceno, seguindo uma\ntendência já presente deste o Campaniano, po-\nrém, não suplantando a do Albiano. O terceiro,\ne maior de todos, ocorreu no Eomioceno. Este\núltimo perpetuou-se no registro geológico sob a\nforma da Formação Pirabas (a Formação Pirabas\nnão é reconhecida na Bacia da Foz do Amazo-\nnas; os calcáreos cronoequivalentes aos da For-\nmação Pirabas estão contidos na porção miocê-\nnica da Formação Amapá) encontrada, continen-\nte adentro, a uma distância de aproximadamen-\nte 200 km a partir da linha de costa atual (Ros-\nseti, 2001). Após esse máximo afogamento ini-\nciou-se uma fase de progradação com novo re-\ncuo da linha de costa durante o qual foram de-\npositados os sedimentos coevos aos da Forma-\nção Barreiras, identificada no continente (Rosse-\nti, 2001). Neste contexto, o Cone do Amazonas\né crono-correlato ao que este autor denominou\nde “pós-Barreiras”.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                387.5110168457031,
+                280.87493896484375,
+                606.729736328125,
+                654.86474609375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9c967c167e834c7c6af9dd8c0aaac2d8",
+        "text": "Intercalando-se aos máximos de afoga-\nmentos ocorreram máximos regressivos durante\nos quais foram expostas as seqüências mais anti-\ngas. Entre o Albiano e o Paleoceno, a máxima\nregressão, pela interpretação corrente, teria",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 4,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                387.5110168457031,
+                660.104736328125,
+                606.6591796875,
+                721.61474609375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f121a72634cd321dc4c59e8147407004",
+        "text": "acontecido no Campaniano, por volta de 80 Ma\n(Gradstein et al. 2004) (todas as idades absolu-\ntas referidas neste trabalho são baseadas em Gra-\ndstein et al. 2004). Entre o Paleoceno e o Eo-\nmioceno, o evento erosivo de maior magnitude\nteria ocorrido imediatamente após a máxima\ntransgressão, ou seja, ainda no Paleoceno, por\nvolta de 59 Ma.\nAs onze seqüências de 2ª ordem identifica-\ndas neste trabalho enquadram-se, dessa forma, em\num padrão de mais baixa freqüência de longas ten-\ndências transgressivas e regressivas e permeiam os\ntrês domínios litoestratigráficos relatados anteriormen-\nte. A metodologia que permitiu a identificação das\nseqüências de 2ª ordem baseou-se em interpreta-\nções bioestratigráficas através da técnica de correla-\nção gráfica (Wescott et al. 1998; Neal et al. 1998;\nAubry, 1995). Em uma segunda etapa, as interpre-\ntações foram cruzadas com dados sísmicos para se\nratificar, ou não, os eventos de afogamento e ero-\nsão. Como resultado desse trabalho apresenta-se, a\nseguir, uma descrição sucinta para as onze seqüên-\ncias identificadas.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                56.71232604980469,
+                57.40498352050781,
+                275.146484375,
+                347.0050048828125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6f29de42dc3f0738b98b59144a6c58e8",
+        "text": "luna geocronológica de Gradstein et al. (2004), é\nde aproximadamente 3 Ma.\nO registro geológico encontrado nos poços\nque perfuraram essa seqüência revela a predomi-\nnância de folhelhos e siltitos em detrimentos de\narenitos. Isso sugere que os sistemas alimentado-\nres da bacia ou estavam distantes, em direção ao\ncontinente, ou não possuíam as características ne-\ncessárias para entregar um forte aporte de sedi-\nmentos grosseiros à bacia.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                289.15240478515625,
+                57.61494445800781,
+                510.332275390625,
+                183.2050323486328
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "29add6e4fadc1438aa36787b82243f7f",
+        "text": "Seqüência K82-K86",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                289.15240478515625,
+                197.79037475585938,
+                430.8839111328125,
+                218.3135223388672
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "68bf029bfe21632b9700ca01c515afea",
+        "text": "Começando na base do Cenomaniano, a Se-\nqüência K82-K86 sobrepõe-se à K70, porém, não\nem toda a sua extensão, denotando o caráter re-\ngressivo da deposição após o afogamento do Albia-\nno. O limite superior desta seqüência é uma discor-\ndância posicionada na porção intermediária do\nTuroniano, por volta de 91 Ma. Neste caso existe\numa excelente correlação entre o hiato deposicio-\nnal e uma forte queda no nível global dos mares\nregistrada na curva de Haq (1988) recalibrada para\nGradstein et al. (2004) naquela idade. Um outro\nfator que poderia ser relacionado como causa ou,\npelo menos, como amplificador dessa discordância\né um evento magmático ocorrido na bacia durante\no Turoniano, registrado no poço PAS 24 e datado\npor Ar-Ar em 90 Ma. O tempo de duração sugerido\npara a Seqüência K82-K86, baseado em critérios\nsemelhantes aos utilizados para a Seqüência K70,\né em torno de 8 Ma.\nAnálises paleoambientais em poços per-\nfurados nas porções de águas rasas da bacia atual\nindicam ambiente marinho raso para os sedimen-\ntos da Seqüência K82-K86. Todavia, a ocorrência\nde siltitos e folhelhos, inclusive com característi-\ncas de deposição em ambientes anóxicos, ainda\nsupera os arenitos, sugerindo, como no caso an-\nterior, ou distância dos sistemas alimentadores ou\nbaixa energia dos mesmos.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                289.15240478515625,
+                236.47486877441406,
+                510.394287109375,
+                594.8049926757812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3b158ca40ccf910c17e41af15e4dfa0e",
+        "text": "Seqüência K70",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                56.71240234375,
+                361.5904846191406,
+                161.6941680908203,
+                382.1136474609375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6bad8040f2f3d87dd480aa2ff09e5efd",
+        "text": "Marca o início da deposição Drifte. Seu li-\nmite inferior é determinado pela discordância do\nbreak up (final da fase Rifte, ~102 Ma) e o supe-\nrior por uma discordância na base do Cenoma-\nniano, em torno de 99 Ma. O posicionamento\ndessa discordância, como de outras descritas do-\nravante, foi feito cruzando-se as informações so-\nbre hiatos deposicionais, obtidas nos crossplots\n(tempo geológico versus profundidade) de dados\nbioestratigráficos, com a curva de Haq (1988),\nrecalibrada para Gradstein et al. (2004). Nesse\ncaso (discordância do Cenomaniano) existe uma\nboa correlação entre o hiato deposicional obser-\nvado e uma queda no nível global dos mares re-\ngistrada na curva referida.\nA Seqüência K70 descrita neste trabalho é\ncaracterizada por um afogamento generalizado da\nbacia. Após o Albiano, somente no Mioceno o mar\nvoltou a cobrir uma grande extensão da bacia. Tal\nfato é constatado em alguns poços onde os sedi-\nmentos do Mioceno repousam diretamente sobre\naqueles do Albiano. A duração estimada da Se-\nqüência K70, interpretada com base no posiciona-\nmento das discordâncias que a limitam sobre a co-",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                56.71238708496094,
+                400.30499267578125,
+                275.15325927734375,
+                709.3148803710938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "422e30dd015c5e3101566be1f25f5495",
+        "text": "Seqüência K88-K90",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                289.15240478515625,
+                609.3905029296875,
+                430.8839111328125,
+                629.9136962890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "07ac9b52d69107be74cf8c82d9824089",
+        "text": "A última seqüência da fase regressiva do\nNeocretáceo, com tempo de duração de, aproxi-\nmadamente, 11 Ma, é limitada em seu topo por\numa discordância na porção intermediária do Cam-\npaniano, em torno de 80 Ma.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 5,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                289.15240478515625,
+                648.10498046875,
+                510.3424072265625,
+                710.125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8817cdda35a69ea1dc9e28e5ca17c0bb",
+        "text": "Também no caso da discordância do Cam-\npaniano existe uma boa correlação entre o hiato\nobservado no registro geológico e uma queda no\nnível global dos mares registrada na curva de Haq\n(1988), recalibrada para Gradstein et al. (2004). A\ndiscordância em questão é de grande importância\nna história geológica da bacia, pois além de mar-\ncar um ponto de inflexão no padrão deposicional\nde regressivo para transgressivo, representa a má-\nxima regressão registrada no Neocretáceo. Além\ndisso, ressalta-se o fato de que após essa\ndiscordância ocorreu uma drástica mudança no\nconteúdo litológico da região de águas rasas da\nbacia, onde a deposição de sedimentos grossei-\nros (arenitos), diferentemente das seqüências an-\nteriores, tornou-se preponderante sobrepujando\na sedimentação de finos (folhelhos e siltitos). A\nSeqüência K88-K90 posicionada abaixo da dis-\ncordância do Campaniano ainda possui um con-\nteúdo litológico semelhante ao da Seqüência K88-\nK90, qual seja os folhelhos, siltitos e arenitos in-\ntercalados. Onde amostrados por poços, os dois\nprimeiros sobrepõem-se ao terceiro.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                153.06097412109375,
+                57.61494445800781,
+                372.9126892089844,
+                353.60498046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cc3f6f49a726dc982916ccea79d9975b",
+        "text": "Seqüência K100-K120",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                153.06100463867188,
+                368.19049072265625,
+                315.0802307128906,
+                388.7136535644531
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7665204481d69fc8d8c5ec1c5de3a27f",
+        "text": "Após o topo da Seqüência K88-K90, no\nCampaniano (~80 Ma), só foi identificada outra\ndiscordância próxima à base do Maastrichtiano\n(~70 Ma). Como a primeira discordância marca,\ncaracteristicamente, o topo da Seqüência K88-\nK90 e a segunda a base da Seqüência K130-E20\nnas bacias da Margem Equatorial, optou-se, nes-\nte trabalho, por se agrupar as Seqüências K100 a\nK120 em uma só com tempo de duração em tor-\nno de 10 Ma.\nA discordância do topo da Seqüência K100-\nK120 não possui correlação com nenhuma queda no\nnível global dos mares registrada na curva referida\nanteriormente, porém, recentes estudos anteriores\nindicam um evento de soerguimento das áreas con-\ntinentais da Margem Equatorial exatamente em tor-\nno de 70 Ma. Este evento tectônico pode, dessa for-\nma, estar relacionado à causa da discordância que\nmarca o topo da Seqüência K100-K120. Essa seqüên-\ncia também difere das anteriores por possuir um pa-\ndrão deposicional transgressivo e um conteúdo\nlitológico predominantemente arenoso, onde\namostrado por poços.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                153.06100463867188,
+                406.90496826171875,
+                372.8749694824219,
+                702.9248046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "487832de9469812048b068ade77060ff",
+        "text": "Seqüência K130-E20",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                386.9110107421875,
+                55.050506591796875,
+                539.1795043945312,
+                75.57366180419922
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "defaee3159f636319cf20669aba3e4f2",
+        "text": "Esta seqüência se inicia no Cretáceo (base\ndo Maastrichtiano, ~70 Ma) e propaga-se até o\nNeopaleoceno (meio do Thanetiano, ~58 Ma) com\ntempo de duração em torno de 12 Ma. Durante o\nseu desenvolvimento ocorreu um dos máximos de\nafogamento da bacia, após o qual iniciou-se a pro-\npagação dos carbonatos em um tempo próximo à\npassagem entre o Eopaleoceno e o Neopaleoceno.\nCruzando-se os dados de hiatos deposicionais com\na curva de Haq (1988) observa-se uma boa corre-\nlação dos primeiros com uma acentuada queda no\nnível dos mares no estágio Thanetiano (~58 Ma).\nNeste ponto foi posicionada a discordância do topo\nda Seqüência K130-E20, que marca o máximo re-\ngressivo do Cenozóico. A partir daí, a deposição\nocorreu continuamente com tendência transgres-\nsiva até o Mesomioceno.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                386.9110107421875,
+                93.76496887207031,
+                606.6887817382812,
+                311.75494384765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2e832075aa4b9f1c1681a3219e3755f5",
+        "text": "Seqüência E30-E50",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                386.9110107421875,
+                326.3404846191406,
+                528.6939086914062,
+                346.8636474609375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "285731dd7ea4527e7f75be0852572d82",
+        "text": "As Seqüências E30 a E50 foram agrupadas\nem uma única, que foi individualizada entre a dis-\ncordância do Thanetiano e outra ocorrida no Eo-\nceno médio (Lutetiano, ~42 Ma). Com tempo de\nduração de aproximadamente 18 Ma, a Seqüên-\ncia E30-E50 experimentou certa complexidade de-\nposicional uma vez que a chegada de sedimentos\nsiliciclásticos, ocorrida durante o Ypresiano, na\nporção sudeste da bacia, interrompeu localmente\no desenvolvimento dos carbonatos que se propa-\ngavam desde o Neopaleoceno.\nA deposição desses siliciclásticos ocorreu de\nforma intermitente aos carbonatos até o final do\nMesomioceno e provocou uma diferenciação de-\nposicional ao longo do strike da bacia que resul-\ntou na construção de uma plataforma mista (car-\nbonático/siliciclástica) na metade sudeste, conco-\nmitante ao desenvolvimento de uma plataforma\ntipicamente carbonática na metade noroeste. Na\nporção sudeste, a Seqüência E30-E50 começou\nsob o domínio de carbonatos. Logo após o início\ndo Ypresiano, a deposição mudou para predomi-\nnantemente siliciclástica e continuou assim até o\nfinal desse estágio quando os carbonatos voltaram\na ter a supremacia por aproximadamente 2/3 do\ntempo total do estágio seguinte (Lutetiano). No\nterço superior do Lutetiano, os siliciclásticos vol-\ntaram e permaneceram como majoritários até o",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 6,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                386.9109802246094,
+                365.05499267578125,
+                606.6920776367188,
+                726.0548095703125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "666a1ac113247d9493e9467d181a0786",
+        "text": "final da Seqüência E30-E50. Para além da E30-\nE50, observa-se a continuação da dominação dos\nsiliciclásticos até o Neo-oligoceno. Uma vez mais,\na sedimentação carbonática sobrepujou os\nterrígenos. Desta feita até a chegada do Cone\ndo Amazonas no Neomioceno.\nSeqüência E60",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                56.71232604980469,
+                57.61494445800781,
+                275.10516357421875,
+                164.9136199951172
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7e233ec8661f58fe721dbe34162c5b1a",
+        "text": "mioceno e Mesomioceno (Burdigaliano, ~16,5 Ma).\nEvidências sobre a presença dessa discordância fo-\nram encontradas tanto nas interpretações já relata-\ndas anteriormente, quanto em informações obtidas\nna bibliografia publicada. Rossetti (2001) em estudos\ngeológicos de superfície em área contígua à Bacia\nda Foz do Amazonas interpretou grandes eventos\nerosivos na região nos tempos: base do Chatiano;\ntopo do Burdigaliano e a base do Tortoniano.\nNeste contexto, a Seqüência E80-N10 indivi-\ndualizada neste trabalho tem base na discordância\ndo Chatiano (~28,5 Ma) e o topo na discordância do\nBurdigaliano (~16,5 Ma) com uma duração de cerca\nde 12 Ma. Ao contrário das duas anteriores, ela foi\ndepositada totalmente sob o domínio dos carbonatos\n(excetuando-se apenas a sua base). Durante a Se-\nqüência E80-N10 ocorreu a máxima inundação da\nbacia. A Formação Pirabas está, temporalmente,\ncontida na Seqüência E80-N10.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                289.15240478515625,
+                57.76509094238281,
+                510.3602294921875,
+                305.36529541015625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4f6fd2a5b3003553f30b88c42e44fdde",
+        "text": "A Seqüência E60 foi individualizada entre as\ndiscordâncias do Lutetiano (~42 Ma) e outra no limite\nentre o Bartoniano e o Priaboniano (~37 Ma). Essas\nduas discordâncias, como outras descritas anteriormen-\nte, foram interpretadas com base no cruzamento de\ndados de hiatos deposicionais com a curva de varia-\nção global do nível dos mares. Todavia, dados de poço\nrecentemente perfurado em águas profundas na Foz\ndo Amazonas corroboraram seu posicionamento e\nreforçaram a metodologia utilizada neste trabalho para\no posicionamento de discordâncias na coluna crono-\nestratigráfica. A Seqüência E60 foi toda depositada\nsob o domínio de siliciclásticos na porção SE da bacia,\nenquanto na porção NO a seção coeva é predomi-\nnantemente carbonática.\nSeqüência E70",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                56.71238708496094,
+                180.3150177001953,
+                275.12420654296875,
+                404.6136474609375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e03bb1ac4316263186c92b5120b5e583",
+        "text": "Seqüência N20-N30",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                289.15240478515625,
+                320.0104675292969,
+                435.40948486328125,
+                340.53363037109375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "afe745bdbfbc606ec2c7ef6ff62e200a",
+        "text": "A discordância próxima da base do Torto-\nniano (aqui se reposiciona a discordância para pró-\nximo da base e não exatamente nela) (~10,7 Ma)\nque marca o topo da Seqüência N20-N30 é a dis-\ncordância mais bem documentada na Foz do Ama-\nzonas. Imageada com bastante clareza em sísmi-\nca, é ratificada por dados de poços (águas rasas e\nprofundas) podendo ainda ser observada em su-\nperfície (Rossetti, 2001). Circunscrita quase que\ntotalmente ao Mesomioceno, durante o transcurso\nda Seqüência N20-N30 ocorreu a progradação dos\nsistemas deposicionais costeiros após a máxima\ninundação do Eomioceno, que são registrados nas\nporções proximais da Margem Equatorial, hoje to-\ntalmente sobre o continente (Formação Barreiras)\n(Rossetti, 2001). Todavia, ao mesmo tempo da\ndeposição da Formação Barreiras, nas porções pro-\nximais, continuava a deposição de carbonatos nas\nporções distais, daí o porquê de na Foz do Amazo-\nnas serem encontrados, predominantemente, car-\nbonatos no Mesomioceno.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                289.15240478515625,
+                358.81500244140625,
+                510.366455078125,
+                630.8047485351562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4ddfd200afab66832a7cbe457d950444",
+        "text": "Com limites entre a base do Priaboniano\n(~37 Ma) e a base do Chatiano (~28,5 Ma) a ampli-\ntude temporal da Seqüência E70 é bem superior a\nda Seqüência E60. O conteúdo litoestratigráfico, po-\nrém, é o mesmo da seqüência anterior. A predomi-\nnância de terrígenos no SE e carbonatos no NO, ana-\nlisando dados da seção sedimentar entre o Eoceno\nmédio e a base do Cone, depositada no talude infe-\nrior/bacia profunda da Foz do Amazonas, mostram\nque existe uma boa correlação entre os eventos geo-\nlógicos (discordâncias, inundações máximas etc) pre-\nviamente interpretados, baseados unicamente em\ninformações obtidas na plataforma, com aqueles\nobservados na seção coeva depositada em águas\nprofundas da bacia. A interpretação do posiciona-\nmento das discordâncias que limitam as Seqüências\nE60, E70, E80-N10 e N20-N30, entre o Eoceno mé-\ndio e a base do Cone, é assim reforçada.\nSeqüência E80-N10",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                56.71238708496094,
+                420.0149841308594,
+                275.13140869140625,
+                683.3136596679688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8810c45e04517e5e7715af6a1787ba60",
+        "text": "Seqüência N40-N60",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                289.15240478515625,
+                645.3904418945312,
+                435.40948486328125,
+                665.9136352539062
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5d8c8b01f17ed9b8d843d7618b0e4c33",
+        "text": "A última seqüência da Bacia da Foz do Ama-\nzonas iniciou-se circa 10,7 Ma (conforme explicado\nanteriormente) e continua até o Recente. Esta se-",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                289.15240478515625,
+                684.10498046875,
+                510.34429931640625,
+                720.114990234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5f14fa2b130fd4507ecba25034092b75",
+        "text": "O topo da Seqüência E80-N10 é marcado pelo\nevento discordante próximo ao limite entre o Eo-",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 7,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                56.71238708496094,
+                698.7149658203125,
+                275.0836181640625,
+                721.7050170898438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d2fb5a57dbb3fb878c8b77298250401b",
+        "text": "qüência, apesar de representar apenas cerca de 10%\ndo tempo da fase Pós-Rifte da Bacia, contém o ter-\nceiro grande domínio litoestratigráfico (o Cone do\nAmazonas), e sozinha é responsável por mais de 50%\ndo volume de sedimentos depositados na bacia des-\nde o final do Albiano. Como o principal foco da re-\ncente fase exploratória na Foz do Amazonas incidiu\nsobre o “Cone”, a Seqüência de 2ª ordem N40-N60\npode ser mais bem detalhada e subdividida em 11\nseqüências de 3ª ordem (Pasley et al. 2004).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                153.06100463867188,
+                57.61494445800781,
+                372.8551940917969,
+                184.623046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "80fe3a36296f6b98233ad72fdea0dd0a",
+        "text": "tectonismo na Fase\nDrifte",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                153.06100463867188,
+                227.11500549316406,
+                332.3299560546875,
+                279.6792297363281
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8ddbc9a7001c66d2b874b07639055108",
+        "text": "Após um evento de ruptura continental defi-\nnitiva, as bacias costeiras formadas nas margens dos\ncontinentes ficam submetidas a um regime de esfor-\nços intraplaca que é uma conseqüência da natureza\ndo tipo de margem sob a qual determinada bacia foi\ninstalada. A Foz do Amazonas, instalada sob uma\nmargem do tipo transformante, tem sido subme-\ntida, em sua fase Drifte, tanto às conseqüências\ndos eventos tectônicos causados pelo processo de\nespalhamento do Oceano Atlântico, cujos princi-\npais agentes são as ramificações das zonas de\nfraturas para o interior da bacia (Saint Paul, no\ncaso da Foz do Amazonas), quanto ao esforço\ndevido à compressão ocorrida na margem oeste\ndo continente sul-americano, causador do soer-\nguimento da Cordilheira dos Andes. Os primeiros\neventos, ou seja, aqueles devidos ao espalhamen-\nto oceânico possuem muito mais um caráter trans-\nformador da configuração do conteúdo deposi-\ncional da bacia do que propriamente um caráter\nmotriz do processo deposicional. Os eventos epi-\nsódicos de soerguimento na Cordilheira dos An-\ndes, de outra forma, por agirem diretamente so-\nbre as áreas fontes que fornecem sedimentos para\na bacia, têm desempenhado um papel de suma\nimportância no processo de preenchimento sedi-\nmentar da Foz do Amazonas.\nRecentes estudos em Traços de Fissão em\nApatitas têm demonstrado uma boa correlação\nentre eventos registrados em sedimentos e inter-\npretados como de soerguimentos das áreas fon-\ntes e os principais picos de soerguimento dos\nAndes relatados na bibliografia. Destes, o mais",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                153.06100463867188,
+                300.375,
+                372.86297607421875,
+                726.3547973632812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7eba7e9c54723f866b39327a5b332c05",
+        "text": "importante para a evolução sedimentar na Foz\ndo Amazonas foi o soerguimento ocorrido no\nMesomioceno denominado Tectônica Quéchua II,\nque alterou o padrão da drenagem na Amazônia\nOcidental resultando na formação do moderno Rio\nAmazonas (Hoorn et al. 1995) com a conseqüen-\nte formação do Cone do Amazonas na Bacia da\nFoz do Amazonas.\nOutro elemento tectônico importante para\na sedimentação em bacias costeiras é o soergui-\nmento flexural da borda da bacia em função da\ncarga sedimentar. Este elemento foi particularmen-\nte importante para a sedimentação Plio-Pleistocê-\nnica na Foz do Amazonas.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                386.9110107421875,
+                57.61482238769531,
+                606.6901245117188,
+                236.6048126220703
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8e6a7d52784a9ee6efe1073e8c075966",
+        "text": "referências\nbibliográficas",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                386.9110107421875,
+                276.25494384765625,
+                510.6939392089844,
+                328.8191833496094
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "40cb45dfe6e18cd283ff1815a073a17f",
+        "text": "AUBRY, M. P. From chronology to stratigraphy:\ninterpreting the lower and middle Eocene\nstratigraphic record in the Atlantic Ocean:\ngeochronology time-scale and global stratigraphic\ncorrelation. Tulsa: Society of Economic Paleontolo-\ngists and Mineralogists, 1995. p. 213-274. (SEPM.\nSpecial Publication, 54).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                386.9110107421875,
+                349.51495361328125,
+                606.6912231445312,
+                437.514892578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "aa338d5598c615addc345be750bef798",
+        "text": "BRANDÃO, J. A. S. L.; FEIJÓ, F. J. Bacia da Foz do\nAmazonas. Boletim de Geociências da Petro-\nbras, Rio de Janeiro, v. 8, n. 1, p. 91-99, jan./\nmar. 1994.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                386.9110412597656,
+                457.514892578125,
+                606.702392578125,
+                506.5148620605469
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4c5604281e7d4eda7029ae226f7c97fa",
+        "text": "GRADSTEIN, F. M.; OGG, J. G.; SMITH, A. G. A\ngeologic time. Cambridge: Cambridge University\nPress, 2004, 610 p.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                386.9110412597656,
+                526.5148315429688,
+                606.685302734375,
+                562.5248413085938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1a84147bf7289d8962e13363e122c598",
+        "text": "HAQ, B. U.; HARDENBOL, J.; VAIL, P. R. Mesozoic\nand Cenozoic chronostratigraphy and cycles of\nsea-level change. IN WILGUES, C. K.; HASTINGS,\nB. S.; POSAMENTIER, H. W.; VAN WAGONER, J. C.;\nROSS, C. A.; KENDALL, C. G. S. G. (Ed.). Sea-level\nchanges: an integrated approach. Houston: Society\nof Economic Paleontologists and Mineralogists, 1988.\np. 71-108. (SEPM. Special Publication, 42).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                386.9110107421875,
+                582.5248413085938,
+                606.6637573242188,
+                683.5148315429688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ca063cb9ecb0d5b5fb154482a2260fb2",
+        "text": "HOORN, C.; GUERRERO, J.; SARMIENTO, G. A.;\nLORENTE, M. A. Andean tectonics as a cause for",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 8,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                386.91107177734375,
+                703.5148315429688,
+                606.675048828125,
+                726.5048217773438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "389db4f279fab5b735c54923a9221ad1",
+        "text": "changing drainage patterns in miocene, northern\nSouth America. Geology, Boulder, v. 23, n. 3, p.\n237-240, Mar.1995.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                56.71232604980469,
+                57.61494445800781,
+                275.12518310546875,
+                93.62501525878906
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a4527ddf09c8c0a82eb3b37734de4f40",
+        "text": "MITCHUM JUNIOR, R. M.; VAN WAGONER, J. C.\nHigh-frequency sequences and their stacking\npatterns: sequence-stratigraphic evidence of high-\nfrequency eustatic cycles. Sedimentary Geology,\nAmsterdam, v. 70, p. 131-160, 1991.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                56.71240234375,
+                113.62501525878906,
+                275.12152099609375,
+                175.61500549316406
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "68702b9a02418fbba3c0bc1c2c6c263c",
+        "text": "NEAL, J.E., STEIN, J. A., GAMBER, J. H. Nested\nstratigraphic cycles and depositional systems\nof the paleogene Central North Sea: mesozoic\nand cenozoic sequence stratigraphy of European\nBasins. Tulsa: Society of Economic Paleontologists\nand Mineralogists, 1998. p. 261-288. (SEPM.\nSpecial Publication, 60).",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                56.71240234375,
+                195.61500549316406,
+                275.1083068847656,
+                283.614990234375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6860d432a98ad8dc1e0eb2de52627a35",
+        "text": "PASLEY, M. A.; SHEPHERD, D. B.; POCKNALL, D.\nT.; BOYD, K. P.; ANDRADE, V.; FIGUEIREDO, J. J. P.\nSequence stratigraphy and basin evolution of the\nFoz do Amazonas Basin, Brazil. In: AAPG\nINTERNATIONAL CONFERENCE AND EXHIBITION,\n2004, Cancun. Book of Abstracts. Houston:\nAmerican Association of Petroleum Geologists.\n2004. 1 CD-ROM.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                56.71238708496094,
+                303.614990234375,
+                275.1112060546875,
+                404.60498046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "962557a2702643a0b4c38abcf6fb97d1",
+        "text": "ROSSETTI, D. F. Late cenozoic sedimentary\nevolution in northeastern Pará, Brazil, within the\ncontext of sea level changes. Journal of South\nAmerican Earth Sciences, Oxford, v. 14, p. 77-\n89, 2001.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                56.71238708496094,
+                424.60498046875,
+                275.2125244140625,
+                486.62493896484375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cc76eedd39d979c29325eaa06798fdcd",
+        "text": "WESCOTT, W. A.; KREBS, W. N.; SIKORA, P. J.;\nBOUCHER, P. J.; STEIN, J. A. Modern application\nof biostratigraphy in exploration and production.\nThe Leading Edge, Tulsa, v. 17, p. 1204-1210,\nSep. 1998.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 9,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                56.71238708496094,
+                506.62493896484375,
+                275.1343688964844,
+                568.6149291992188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "48458f9fa6b7448138ed8c6d7fac4c46",
+        "text": "BACIA  DA  FOZ  DO  AMAZONAS",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                200.94100952148438,
+                63.652931213378906,
+                378.8120422363281,
+                75.08544921875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b18262a0c54b4043e1018bd75f849a3b",
+        "text": "SEDIMENTAÇÃO",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                197.4585723876953,
+                80.72720336914062,
+                201.9449920654297,
+                116.5369873046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8a6510c28e412d0514c4176f937aabc8",
+        "text": "NATUREZA DA",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                192.3585662841797,
+                82.89356994628906,
+                196.84498596191406,
+                114.10693359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8673c04e875080fed25582420dd00cb8",
+        "text": "DISCORDÂNCIAS\nAMBIENTE\nDEPOSICIONAL\nGEOCRONOLOGIA",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                92.82100677490234,
+                89.3825454711914,
+                340.0376281738281,
+                105.9384765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d28ca161ab0753b1d96db677202261b1",
+        "text": "Ma",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                47.131004333496094,
+                98.69488525390625,
+                58.719886779785156,
+                107.03290557861328
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5fd969ec73142a61a8bc0556556200e4",
+        "text": "ÉPOCA\nIDADE",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                103.71100616455078,
+                107.96932220458984,
+                175.31478881835938,
+                114.6397705078125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b6c9e31be4df340650f9ff875bc1ccb4",
+        "text": "0",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                51.963645935058594,
+                121.51832580566406,
+                55.31438064575195,
+                127.55297088623047
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bddb816812a26dc1e170678571264af2",
+        "text": "PLATAFORMA",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                224.5468292236328,
+                126.53604888916016,
+                230.5814666748047,
+                166.7869873046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "928646d233810346ae958c7d20237032",
+        "text": "REGRESSIVO",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                194.64151000976562,
+                126.57841491699219,
+                200.55418395996094,
+                164.62689208984375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3d6def28b5c57cc9071a37f43b316f6d",
+        "text": "TALUDE",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                247.71949768066406,
+                134.4674835205078,
+                262.9253234863281,
+                162.68797302246094
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b2804fe3af00a4e44f179606ef08c597",
+        "text": "EO",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                129.36099243164062,
+                139.0730438232422,
+                135.41221618652344,
+                144.28273010253906
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9f6a9f156899f637bcd92cb733d608c5",
+        "text": "M E S S I N I A N O\nZ A N C L E A N O",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                146.52862548828125,
+                139.3094940185547,
+                182.5770721435547,
+                151.5391387939453
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f87bd32371a625e6e218646db66a876e",
+        "text": "PROF.",
+        "type": "NarrativeText",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                258.6199645996094,
+                148.77456665039062,
+                269.72723388671875,
+                167.4764404296875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cbe2c3116e699f0bfc28cc48f8945549",
+        "text": "P A L E Ó G E N O\nN E Ó G E N O",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                74.52241516113281,
+                149.0998992919922,
+                83.00094604492188,
+                323.656982421875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "95d2a47ca3c620b7df3c69e67c187aa7",
+        "text": "NEO",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                127.88872528076172,
+                154.54978942871094,
+                137.1197967529297,
+                159.7594757080078
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2bdc51930c4d9e42e9026e33fcb13aaf",
+        "text": "T O R T O N I A N O",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                145.80679321289062,
+                157.6689910888672,
+                183.2908477783203,
+                162.87867736816406
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a835f98adcf592744f043a429990a2ce",
+        "text": "10",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.33100128173828,
+                159.9427032470703,
+                55.0716438293457,
+                165.9773406982422
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1d48baa8d572b65e9725e6d8909d45b2",
+        "text": "S E R R A V A L I A N O",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                142.65740966796875,
+                170.23692321777344,
+                186.20298767089844,
+                175.4466094970703
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6411e191d70edae94904ca0118d6b2c3",
+        "text": "MESO",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                126.69100189208984,
+                174.8330535888672,
+                139.04151916503906,
+                180.04273986816406
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9d90dbbe5e90b4138c4a3da421eb1978",
+        "text": "L A N G H I A N O",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                148.68881225585938,
+                178.93699645996094,
+                181.3836212158203,
+                184.1466827392578
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "0da14d361ff34f15c7948ec144ac7129",
+        "text": "B U R D I G A L I A N O",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                143.37924194335938,
+                191.9871063232422,
+                186.4492950439453,
+                197.19679260253906
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "80cda0f56d85322bf6a29e77b3bfd6b0",
+        "text": "EO",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                129.35916137695312,
+                196.5832977294922,
+                135.4103546142578,
+                201.79298400878906
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "283cc63bcf027b13ef28c8ed265ea7ec",
+        "text": "20",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.33100128173828,
+                198.37281799316406,
+                55.0716438293457,
+                204.40745544433594
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "90a0b1fb7bbf6e298f10ca1993541858",
+        "text": "A Q U I T A N I A N O",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                145.80679321289062,
+                204.55503845214844,
+                184.7757110595703,
+                209.7647247314453
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5182fbcbd17a74b6c2e5b58410738e13",
+        "text": "NEO",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                128.37100219726562,
+                220.52305603027344,
+                137.60206604003906,
+                225.7327423095703
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "a483ecced2cc6d145325bb0c951f8640",
+        "text": "C H A T T I A N O",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                148.924072265625,
+                220.9958953857422,
+                181.12474060058594,
+                226.20558166503906
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "454b6adf803951a3e66387023bb2e34b",
+        "text": "TRANSGRESSIVO",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                193.71890258789062,
+                222.52346801757812,
+                202.0569305419922,
+                296.11688232421875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9389772b72958180e157152c16602193",
+        "text": "PLATAFORMA",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                221.795166015625,
+                232.3829803466797,
+                230.13319396972656,
+                288.86126708984375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bd4b2c6c158127108ca6a31e3e371912",
+        "text": "PROFUNDO",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                258.54888916015625,
+                235.09341430664062,
+                266.88690185546875,
+                283.7869873046875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cb1f04cdd3589b56b15f083b642972ed",
+        "text": "30",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.33100128173828,
+                236.5626983642578,
+                55.0716438293457,
+                242.5973358154297
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "888d8c19a0dc8e9cafbac1403c6634c7",
+        "text": "EO",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                129.36099243164062,
+                241.5531463623047,
+                135.41221618652344,
+                246.76283264160156
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8a785d58d05bb3d5ff75b8c33a2d9406",
+        "text": "R U P E L I A N O",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                148.6834716796875,
+                241.7867889404297,
+                181.3706817626953,
+                246.99647521972656
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8c9c9235a761ab987ab49ec7f1e4ee31",
+        "text": "TALUDE",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                244.50152587890625,
+                243.5107879638672,
+                252.8395538330078,
+                276.28790283203125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "26288085d97790dc66d57d782a5274b1",
+        "text": "P R I A B O N I A N O",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                145.08493041992188,
+                258.2276306152344,
+                184.52967834472656,
+                263.43731689453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "69841ec741fac7ee9f0983e10d2262f6",
+        "text": "NEO",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                128.13101196289062,
+                258.7130432128906,
+                137.36207580566406,
+                263.9227294921875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2c6e8c916991b07e420f1ea2dcefad13",
+        "text": "B A R T O N I A N O",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                146.76556396484375,
+                270.5745544433594,
+                183.52821350097656,
+                275.78424072265625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "10e42f7dbdc5c7da3b9705bcec60d192",
+        "text": "40",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.33100128173828,
+                274.752685546875,
+                55.0716438293457,
+                280.787353515625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fac3eafa234c2f50f147ba0c21ff6a66",
+        "text": "E O C E N O",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                103.46798706054688,
+                279.7621154785156,
+                110.312744140625,
+                312.7969970703125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "aa592778b6d6e8f68db8992c005a9098",
+        "text": "MESO",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                126.45038604736328,
+                287.2439270019531,
+                138.80088806152344,
+                292.45361328125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "dd783ad6a8ea76f35cbfefd5af7a33ce",
+        "text": "L U T E T I A N O",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                149.91326904296875,
+                292.5458068847656,
+                181.61668395996094,
+                297.7554931640625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "cee2cacbaa221057916f0bf5000b6593",
+        "text": "50",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.33100128173828,
+                313.18267822265625,
+                55.0716438293457,
+                319.21734619140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1a901f092e41744fe15fa70788841c13",
+        "text": "Y P R E S I A N O",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                149.67266845703125,
+                321.7982482910156,
+                182.5652618408203,
+                327.0079345703125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "536716d7bf600fc845c49cf856dfada7",
+        "text": "EO",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                129.35916137695312,
+                321.8057556152344,
+                135.4103546142578,
+                327.01544189453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "64eb27a8166007b3ad00dd2191a63bef",
+        "text": "PALEOCENO",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                102.98799133300781,
+                339.2185974121094,
+                109.83274841308594,
+                374.6868896484375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "85d57709d2590eb7006c9fcdfd3454a7",
+        "text": "T H A N E T I A N O",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                146.28433227539062,
+                341.4036560058594,
+                182.32142639160156,
+                346.61334228515625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4afce2f56fd74eb0f7ad09ed5b457b3d",
+        "text": "NEO",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                128.12933349609375,
+                347.4237976074219,
+                137.3603973388672,
+                352.63348388671875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f3b508c3dc9fe15268113c10438f4a65",
+        "text": "60",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.33100128173828,
+                351.61279296875,
+                55.0716438293457,
+                357.6474609375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "23eb61e79924778cfec6b6770f53ff22",
+        "text": "S E L A N D I A N O",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                146.52328491210938,
+                352.7308044433594,
+                182.57481384277344,
+                357.94049072265625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9b42ac9de1d12e7a336610876cba44ac",
+        "text": "TALUDE",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                257.5889892578125,
+                354.4565734863281,
+                265.927001953125,
+                387.500732421875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9f267e3534471150ccf9516652567681",
+        "text": "REGRESSIVO\nTRANSGRESSIVO",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                193.71890258789062,
+                354.7533264160156,
+                202.0569305419922,
+                497.9570007324219
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "fae50ef277ec25d01dcaddd5df78f9da",
+        "text": "PLATAFORMA",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                226.38888549804688,
+                365.3477478027344,
+                234.72691345214844,
+                422.0570068359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c6932e210709c27fcd9970476c3ecda1",
+        "text": "EO",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                129.59976196289062,
+                366.0218811035156,
+                135.65098571777344,
+                371.2315673828125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1211499a339ed60ee5d82e9d1771cd94",
+        "text": "D A N I A N O",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                151.11099243164062,
+                366.2631530761719,
+                176.03016662597656,
+                371.47283935546875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c3000fa70c6e648cc77dc411f87534e8",
+        "text": "70",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.33100128173828,
+                390.0428466796875,
+                55.0716438293457,
+                396.0774841308594
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f17053b3d04bcd733d784d8902489b5b",
+        "text": "( G Á L I C O )\n( S E N O N I A N O )",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                129.51205444335938,
+                396.9320068359375,
+                136.26022338867188,
+                557.4169921875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "6f0f4fd9efaf6cc5ee57aeb0f1ac4497",
+        "text": "C A M P A N I A N O",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                146.5263671875,
+                416.7795715332031,
+                183.2992706298828,
+                421.9892578125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e7fb30811cf6bb2f4ee8ad502079008e",
+        "text": "80",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.33100128173828,
+                428.23284912109375,
+                55.0716438293457,
+                434.2674865722656
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "52366d48864aeb340137cff06a1bc63b",
+        "text": "EO\nNEO",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                102.26799011230469,
+                433.24658203125,
+                109.35107421875,
+                590.5070190429688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d7f57e26b41423fcf27ac231dfaf4322",
+        "text": "PLATAFORMA",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                226.38888549804688,
+                441.2386779785156,
+                234.72691345214844,
+                497.9570007324219
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d7dece45dd4496e68db8817c303a57c0",
+        "text": "S A N T O N I A N O",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                146.04513549804688,
+                447.02178955078125,
+                182.81211853027344,
+                452.2314758300781
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "527d12280e90117113d6e481f5dee21e",
+        "text": "C O N I A C I A N O",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                146.7669677734375,
+                457.4020080566406,
+                182.5796356201172,
+                462.6116943359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f88418ac554f591ad001fa2330bdaad0",
+        "text": "90",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                48.33100128173828,
+                466.662841796875,
+                55.0716438293457,
+                472.6974792480469
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3ec895873ae86a4bddf0edbefa9c1234",
+        "text": "TALUDE",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                260.2284851074219,
+                469.0176086425781,
+                268.5664978027344,
+                502.0659484863281
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "36ef9d3305053db2e69b6f2b01229a2a",
+        "text": "T U R O N I A N O",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                147.72409057617188,
+                473.3606262207031,
+                181.37705993652344,
+                478.5703125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f6ed8f82ba6c3a5666c21071e6de4064",
+        "text": "C E N O M A N I A N O",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                143.61224365234375,
+                492.4409484863281,
+                185.7199249267578,
+                497.650634765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9993d79abdcacfdb6a7b8dd518290db4",
+        "text": "C R E T Á C E O",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                75.75242614746094,
+                504.193115234375,
+                83.75094604492188,
+                553.5469970703125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "24066c8f5c9614b580013896f62a180c",
+        "text": "100",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                45.90099334716797,
+                505.33282470703125,
+                56.03154373168945,
+                511.3674621582031
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c2b7a6bb7d68ef83e00f96794193338e",
+        "text": "MARINHO",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                193.71890258789062,
+                524.1734619140625,
+                202.0569305419922,
+                564.406982421875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1fea8c01f0ca67179d9b09f7e1a8c928",
+        "text": "A L B I A N O",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                152.55099487304688,
+                526.283203125,
+                176.7856903076172,
+                531.4928588867188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "8f3c05c33684ae3beec5f10fd0d40d54",
+        "text": "PLATAFORMA",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                209.88101196289062,
+                530.1549072265625,
+                266.39630126953125,
+                538.492919921875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bbf981a1159bfd71819b90dbf575e667",
+        "text": "110",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                45.90099334716797,
+                543.5233154296875,
+                55.55424880981445,
+                549.5579833984375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "92c645985f75b88ae734513d4ab73c77",
+        "text": "APTIANO\nALAGOAS",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                143.13101196289062,
+                572.2138061523438,
+                185.23013305664062,
+                582.7328491210938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e72009b6dbefc2ecd5986a8fd553dfa2",
+        "text": "120",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                45.90099334716797,
+                581.9857177734375,
+                56.03154373168945,
+                588.0203857421875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7b3e014ee7343de42bf69a37ccbb6adf",
+        "text": "CONTINENTAL",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                193.71890258789062,
+                587.8950805664062,
+                202.0569305419922,
+                647.3270263671875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "890be0a05c3f6d02311c35fd60260caf",
+        "text": "DELTAICO/\nLACUSTRE/\nFLUVIAL/\nALUVIAL",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                217.65890502929688,
+                593.7969970703125,
+                260.3441467285156,
+                641.77294921875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d4590893284374742b985f98e4cbcb59",
+        "text": "J I Q U I Á",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                166.1163330078125,
+                599.3101806640625,
+                185.2425537109375,
+                604.5198364257812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1c302d744bf8c9f778fd3b803c4e2953",
+        "text": "BURACICA",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                164.91860961914062,
+                608.01025390625,
+                186.43710327148438,
+                613.2199096679688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1912cc61d81d307ffb77042273c09317",
+        "text": "BARRE-\nMIANO",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                144.57327270507812,
+                608.4822998046875,
+                160.3094940185547,
+                619.4835815429688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "16ec1a86154b31a68daf1f118d5ce8a7",
+        "text": "130",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                45.90099334716797,
+                620.41796875,
+                56.03154373168945,
+                626.45263671875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3f1c55474b09352002496e5ea1f16ba8",
+        "text": "(NEOCOMIANO)",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                129.51113891601562,
+                624.6531982421875,
+                135.54022216796875,
+                662.2969970703125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b36371cfdeb39ce9073a5d5657bf9ef2",
+        "text": "A R A T U",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                166.59756469726562,
+                625.4104614257812,
+                184.52391052246094,
+                630.6201171875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "3591cf8badec4cb35475a80c25aecde1",
+        "text": "HAUTE-\nRIVIANO",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                143.37554931640625,
+                630.4761962890625,
+                160.5832977294922,
+                641.4774780273438
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ad4055b72393f9f2bc33185961a3e4fa",
+        "text": "R I O\nD A\nS E R R A",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                166.11636352539062,
+                645.2115478515625,
+                184.99874877929688,
+                662.0348510742188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e874913c9c540abd4976e3e546eff0cc",
+        "text": "VALAN-\nGINIANO",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                143.13494873046875,
+                650.3077392578125,
+                160.8313751220703,
+                661.3090209960938
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "05d142c1f26e8849c92516f93bf6f3c0",
+        "text": "140",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                45.90099334716797,
+                658.6083984375,
+                56.03154373168945,
+                664.64306640625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5db1320b6737154a4c8940834a8be559",
+        "text": "194\n200",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                45.90099334716797,
+                670.1828002929688,
+                56.03154373168945,
+                684.2000122070312
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "c78f9b58c8b6b11d20ba265693fc2186",
+        "text": "DESÉRTICO",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                213.99099731445312,
+                681.4448852539062,
+                263.68133544921875,
+                689.7828979492188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1285456677a3e999310d226fa9410866",
+        "text": "235",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                45.659934997558594,
+                696.3179321289062,
+                55.79048538208008,
+                702.3526000976562
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9cdd64bcc7ee9c77ee7259e1c1b613b2",
+        "text": "542",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                45.90099334716797,
+                707.65283203125,
+                56.03154373168945,
+                713.6875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "4ce5d84a1c4abad233809945242c1339",
+        "text": "E M B A S A M E N T O",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                310.23101806640625,
+                710.4176635742188,
+                414.314697265625,
+                720.697509765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "29a0f2c449501fe5219a02cc2c4246a2",
+        "text": "LITOESTRATIGRAFIA",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                392.9410095214844,
+                85.46932220458984,
+                460.9309997558594,
+                92.1397705078125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e830053b9bd2d1050a5d40a1475bddf8",
+        "text": "FORMAÇÃO\nMEMBRO",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                396.8110046386719,
+                104.09932708740234,
+                482.443115234375,
+                111.009765625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b9fd772d444513bc3fe7fcc8a6c3c9f4",
+        "text": "TUCUNARÉ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                392.60650634765625,
+                124.71113586425781,
+                400.1875,
+                166.06689453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "15e4051bfa893ad4da8318078c8bd184",
+        "text": "PIRARUCU",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                407.3313293457031,
+                125.5895004272461,
+                424.5506591796875,
+                165.06871032714844
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9ce5fb1d1f8ecea34aa05079bf1e4af0",
+        "text": "N40 - N60\nN20-",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                529.41650390625,
+                130.21705627441406,
+                539.3921508789062,
+                185.656982421875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "d9b288ef22b59e05ff59af0e0f2dc7a9",
+        "text": "ORANGE",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                425.6712341308594,
+                130.2622528076172,
+                440.4820861816406,
+                163.5712890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5c13db723d90f225b1ff619f1df8f8c7",
+        "text": "9000\n5500",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                501.5788879394531,
+                136.35784912109375,
+                510.3969421386719,
+                627.7369995117188
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7ef2d32f068c3006dcbf30567f1e03e4",
+        "text": "N30\nE80 - N10\nE60 \nE30 - E50\nK130 - E20\nK100-K120\nK88-K90\nK82-K86",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                531.5764770507812,
+                172.75709533691406,
+                544.462158203125,
+                502.5382385253906
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9a02bf356001884bd6fa726a243be089",
+        "text": "TRAVOSAS",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                428.5589294433594,
+                212.81565856933594,
+                436.8969421386719,
+                258.406982421875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "ad3b4c8b5a3007613a5e075db10229b4",
+        "text": "E70",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                532.3264770507812,
+                242.59706115722656,
+                539.3921508789062,
+                255.01702880859375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "7181842ffdae87c6cfb8cf587f0dbaac",
+        "text": "AMAPÁ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                411.8489074707031,
+                249.5356903076172,
+                420.1869201660156,
+                279.1968994140625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1acde8b066d8f468a92c9b15e34516b5",
+        "text": "4000\n2500",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                501.5788879394531,
+                255.27783203125,
+                509.9169006347656,
+                442.0970153808594
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "72d3b64b182b4e75c397e19a30f47223",
+        "text": "MARAJÓ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                395.4089050292969,
+                274.9634704589844,
+                403.7469177246094,
+                310.60699462890625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "1600b4c956ba068b502f8c823a963bd9",
+        "text": "LIMOEIRO\nCASSIPORÉ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                411.60888671875,
+                417.58349609375,
+                420.9369201660156,
+                642.2570190429688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "002a1ea001432b6555e66337bf305ae4",
+        "text": "K70",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                529.0809936523438,
+                507.6824951171875,
+                541.7684936523438,
+                514.7481689453125
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "b7e6f55037c78d018436a6cbe4941d0c",
+        "text": "4000",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                502.0589294433594,
+                524.0772094726562,
+                510.3969421386719,
+                542.89697265625
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "e47957348328bd36e05179d7bb04ea87",
+        "text": "CASSIPORÉ",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                390.27099609375,
+                530.1549072265625,
+                440.02545166015625,
+                538.492919921875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "72cb9c7c7335d45b96815b117db60957",
+        "text": "K60",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                529.0809936523438,
+                531.62255859375,
+                541.7684936523438,
+                538.688232421875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "5ff765ba58174c6ad3d7a336fddbbdb7",
+        "text": "CODÓ\n500",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                402.3609924316406,
+                560.3627319335938,
+                511.6573791503906,
+                569.1829223632812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "bd163924212569870a6fca97d7cc318d",
+        "text": "K50",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                529.0809936523438,
+                560.87255859375,
+                541.7684936523438,
+                567.938232421875
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "f27b35893394bd2a66345da6c4a58f5a",
+        "text": "K20-K40",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                532.3264770507812,
+                603.4594116210938,
+                539.3921508789062,
+                630.8870239257812
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "559f288533192263f53a0a01ec52314d",
+        "text": "T-J",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                530.7764892578125,
+                679.9696044921875,
+                538.872802734375,
+                691.3070068359375
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "9c7930e6941dd881f925be37da1e8961",
+        "text": "CALÇOENE",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                391.7409973144531,
+                681.7149047851562,
+                438.56658935546875,
+                690.0529174804688
+            ],
+            "is_full_width": false
+        }
+    },
+    {
+        "element_id": "2ea5920c909d4d7688d2fc24ba09bd5d",
+        "text": "1000",
+        "type": "Title",
+        "metadata": {
+            "source_doc": "13-Bacia_da_Foz_do_Amazonas.pdf",
+            "page_number": 10,
+            "languages": [
+                "eng"
+            ],
+            "coordinates": [
+                495.2397155761719,
+                683.8772583007812,
+                514.0594482421875,
+                692.2152709960938
+            ],
+            "is_full_width": false
+        }
+    }
+]

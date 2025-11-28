@@ -1,0 +1,22 @@
+Subject,Class_S,Relation,Object,Class_O
+landslides,PROCESS,LOCATED_IN,margin,LOCATION
+landslides,PROCESS,RELATED_TO,pore pressure,TRIGGER
+sediments,MATERIAL,RELATED_TO,seaward,LOCATION
+sediments,MATERIAL,RELATED_TO,continental slope,LOCATION
+pore pressure,TRIGGER,CAUSES,failure,PROCESS
+basin,LOCATION,RELATED_TO,sediments,MATERIAL
+surface,FEATURE,RELATED_TO,top surface,FEATURE
+surface,FEATURE,RELATED_TO,slope,LOCATION
+surface,FEATURE,RELATED_TO,critical toe circle,FEATURE
+sedimentation,MATERIAL,RELATED_TO,lateral fluid flow,PROCESS
+sediment deposition,MATERIAL,TRIGGERED_BY,failure,PROCESS
+earthquakes,TRIGGER,RELATED_TO,margin,LOCATION
+pressure area,TRIGGER,RELATED_TO,normal pressure,TRIGGER
+critical toe circle,FEATURE,RELATED_TO,surface,FEATURE
+surface tension,FEATURE,RELATED_TO,flow,PROCESS
+shelf edge delta,LOCATION,RELATED_TO,continental margin,LOCATION
+shelf edge delta,LOCATION,RELATED_TO,mass transport complex,PROCESS
+shelf edge delta,LOCATION,RELATED_TO,sediments,MATERIAL
+basins,LOCATION,RELATED_TO,local tectonics,TRIGGER
+basins,LOCATION,RELATED_TO,surface,FEATURE
+surface slope angle,FEATURE,RELATED_TO,deformation,PROCESS
