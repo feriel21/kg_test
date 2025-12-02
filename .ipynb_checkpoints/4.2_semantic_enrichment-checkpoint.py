@@ -1,6 +1,7 @@
 import networkx as nx
 import os
 import csv
+import json
 
 # ================================
 # CONFIG
@@ -9,8 +10,22 @@ INPUT_GEXF = "output_graph/final_graph_clean_final.gexf"
 OUTPUT_GEXF = "output_graph/final_graph_knowledge_layer.gexf"
 OUTPUT_FACTS = "output_graph/geological_facts.csv"
 
+REFERENCE_KG_PATH = "reference/reference_kg.json"
+
 # ================================
-# ONTOLOGY (DOMAIN KNOWLEDGE)
+# LOAD REFERENCE ONTOLOGY
+# ================================
+if os.path.exists(REFERENCE_KG_PATH):
+    with open(REFERENCE_KG_PATH, "r", encoding="utf-8") as f:
+        ref_data = json.load(f)
+    REF_ONTOLOGY = ref_data.get("ontology", {})
+    print(f"Loaded ontology from {REFERENCE_KG_PATH} with {len(REF_ONTOLOGY)} entries.")
+else:
+    print("⚠️ WARNING: reference_kg.json not found. Using heuristic ontology only.")
+    REF_ONTOLOGY = {}
+
+# ================================
+# HEURISTIC ONTOLOGY (FALLBACK)
 # ================================
 ONTOLOGY_CLASSES = {
     "PROCESS": [
@@ -19,9 +34,9 @@ ONTOLOGY_CLASSES = {
         "deformation", "transport"
     ],
     "FEATURE": [
-        "scarp", "headwall", "toe", "block", "lobe",
+        "scarp", "scar", "headwall", "toe", "block", "lobe",
         "lens", "channel", "levee", "mound", "geometry",
-        "ramp", "surface", "boundary"
+        "ramp", "surface", "boundary", "plane", "interface"
     ],
     "FACIES": [
         "chaotic", "transparent", "amplitude",
@@ -47,9 +62,18 @@ ONTOLOGY_CLASSES = {
 # UTILITIES
 # ================================
 def get_node_class(label: str) -> str:
-    """Classify a node as PROCESS, LOCATION, etc."""
-    text = label.lower()
+    """
+    Classify a node using:
+    1) Reference ontology (expert KG)
+    2) Heuristic ontology by keywords (fallback)
+    """
+    text = label.lower().strip()
 
+    # 1) Expert ontology from reference_kg.json
+    if text in REF_ONTOLOGY:
+        return REF_ONTOLOGY[text]
+
+    # 2) Heuristic match based on domain keywords
     for cls, keywords in ONTOLOGY_CLASSES.items():
         if any(k in text for k in keywords):
             return cls
@@ -57,8 +81,11 @@ def get_node_class(label: str) -> str:
     return "OTHER"
 
 
-def refine_edge_relation(cls_u, cls_v):
-    """Apply semantic rules to refine relationships."""
+def refine_edge_relation(cls_u, cls_v, current_label=None):
+    """
+    Apply semantic rules to refine relationships.
+    If no rule applies, keep current_label as-is.
+    """
 
     # Trigger → Process
     if cls_u == "TRIGGER" and cls_v == "PROCESS":
@@ -80,22 +107,27 @@ def refine_edge_relation(cls_u, cls_v):
     if cls_u == "FEATURE" and cls_v == "FACIES":
         return "EXHIBITS"
 
-    return None  # keep existing
+    # default: keep existing label if provided
+    return current_label
 
 
 # ================================
 # STEP 6 — SEMANTIC ENRICHMENT
 # ================================
-def semantic_enrich(G):
-    print("Classifying nodes...")
+def semantic_enrich(G: nx.DiGraph):
+    print("Classifying nodes (expert ontology + heuristics)...")
 
     # Assign classes + colors
     for node, data in G.nodes(data=True):
         label = node
         cls = get_node_class(label)
-        data["class"] = cls
+        data["class"] = cls  # main ontology class
 
-        # Color for Gephi
+        # Optional: also keep 'category' for compatibility with previous steps
+        if "category" not in data:
+            data["category"] = cls
+
+        # Color for Gephi (viz attribute)
         if cls == "PROCESS":
             data["viz"] = {"color": {"r": 255, "g": 0, "b": 0}}       # Red
         elif cls == "LOCATION":
@@ -113,14 +145,18 @@ def semantic_enrich(G):
 
     enriched_count = 0
     for u, v, data in G.edges(data=True):
-        cls_u = G.nodes[u]["class"]
-        cls_v = G.nodes[v]["class"]
+        cls_u = G.nodes[u].get("class", "OTHER")
+        cls_v = G.nodes[v].get("class", "OTHER")
 
-        new_rel = refine_edge_relation(cls_u, cls_v)
+        current_label = data.get("label", "RELATED_TO")
+        new_rel = refine_edge_relation(cls_u, cls_v, current_label=current_label)
 
-        if new_rel:
+        if new_rel != current_label:
             data["label"] = new_rel
             enriched_count += 1
+        else:
+            # Ensure there is at least a generic label
+            data["label"] = current_label or "RELATED_TO"
 
     print(f"Semantic enrichment applied to {enriched_count} edges.")
 
@@ -130,21 +166,25 @@ def semantic_enrich(G):
 # ================================
 # STEP 7 — EXPORT FACTS
 # ================================
-def export_facts(G):
+def export_facts(G: nx.DiGraph):
     print(f"Exporting geological facts to {OUTPUT_FACTS}...")
 
-    with open(OUTPUT_FACTS, "w", newline="") as f:
+    with open(OUTPUT_FACTS, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
         writer.writerow(["Subject", "Class_S", "Relation", "Object", "Class_O"])
 
         for u, v, data in G.edges(data=True):
-            cls_u = G.nodes[u]["class"]
-            cls_v = G.nodes[v]["class"]
+            cls_u = G.nodes[u].get("class", "OTHER")
+            cls_v = G.nodes[v].get("class", "OTHER")
             rel = data.get("label", "RELATED_TO")
 
-            # export only meaningful facts
-            if cls_u != "OTHER" and cls_v != "OTHER":
-                writer.writerow([u, cls_u, rel, v, cls_v])
+            # Export only meaningful facts (ignore double OTHER)
+            if cls_u == "OTHER" and cls_v == "OTHER":
+                continue
+
+            writer.writerow([u, cls_u, rel, v, cls_v])
+
+    print("Facts export complete.")
 
 
 # ================================
@@ -154,7 +194,7 @@ def main():
     print(f"Loading cleaned graph: {INPUT_GEXF}")
 
     if not os.path.exists(INPUT_GEXF):
-        print("ERROR: Run clean_graph_full first.")
+        print("ERROR: Run 4.1_clean_graph_full.py first.")
         return
 
     G = nx.read_gexf(INPUT_GEXF)

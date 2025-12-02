@@ -1,192 +1,244 @@
-MTD Knowledge Graph Pipeline
+# 🌋 MTD Knowledge Graph Pipeline  
+*A complete geoscience-aware pipeline for extracting, structuring, enriching and visualizing geological knowledge from scientific PDFs.*
 
-An Automated Pipeline for Geological Knowledge Extraction and Interpretation
+---
 
-This repository provides a complete end-to-end pipeline for constructing a Geoscience-Aware Knowledge Graph from scientific articles related to Mass-Transport Deposits (MTDs).
+## 📂 Dataset (Scientific Articles)
 
-It enables any researcher to run the process on their own PDFs and automatically generate:
+All PDFs used to build the example knowledge graph are publicly available:
 
-Clean structured text extracted from PDF articles
+👉 **Google Drive (Read-Only)**  
+https://drive.google.com/drive/folders/1-Sy0SJQJ8Nq4fODSLoml4vgBWV_LmhU-?usp=sharing
 
-Domain keyword discovery using AI + expert priors
+---
 
-Auto-generated geological configuration file
+# 🎯 Objective
 
-Semantic analytics (PMI heatmap, frequency plots)
+This repository provides a fully automated pipeline that converts a collection of scientific PDF articles into a **clean**, **normalized**, **ontology-aware**, and **visually interpretable** geological Knowledge Graph (KG), specifically designed for:
 
-Scientific SVO (Subject–Verb–Object) triplets
+- Mass Transport Deposits (MTDs)  
+- Submarine landslides  
+- Slumps / slides / debris flows  
+- Slope instability processes  
 
-Normalized geological entities using SBERT
+The pipeline is meant for **geoscientists**, **ML researchers**, and **students**.
 
-A cleaned, ontology-aware knowledge graph
+---
 
-High-quality graph visualizations
+# 🧬 What the Pipeline Produces
 
-Exported geological facts for interpretation and ML
+Running the pipeline generates:
 
-Full Pipeline Overview
+### ✔ Clean structured text extracted from PDFs  
+### ✔ SciBERT-guided SVO triplets  
+### ✔ Normalized geological concepts (SBERT clustering)  
+### ✔ Cleaned & filtered KG  
+### ✔ Ontology-aware nodes (PROCESS, FEATURE, TRIGGER...)  
+### ✔ Semantically enriched relations (CAUSES, FORMS…)  
+### ✔ Publication-ready visualizations  
+### ✔ Full KG evaluation (coverage, redundancy, cohesion)  
+### ✔ Clustered heatmaps + similarity statistics  
 
-You can run the entire workflow using:
+---
 
+# 🚀 Pipeline Overview
+
+Run the entire pipeline:
+
+```bash
 bash run_all.sh
 
 
-This script executes all modules in the correct order and produces all outputs inside output_json/ and output_graph/.
+-----
 
-🧩 Pipeline Steps
-Step	Script	Description
-0	ingest_pdf.py	Extracts structured text blocks from PDF files
+### All results are stored in:
 
-1	0_discover_domain_v2.py	AI-based geological domain discovery (TF-IDF, RAKE, PMI, embeddings)
 
-2	1_auto_update_config.py	Generates domain_config.py based on discovered + expert terms
+output_json/
+output_graph/
+output_graph/visuals/
+output_graph/visuals_evaluation/
 
-3	2_visualize_analytics.py	Produces PMI heatmap & frequency barplot for conceptual analysis
 
-4	3_extract_advanced.py	Scientific SVO triplet extraction
+###Scientific Workflow
+1) PDF → Structured Text
 
-5	4_normalize_gpu.py	SBERT normalization of geological entities
+ingest_pdf.py
+Extracts sentences & narrative blocks using PyMuPDF.
 
-6	4.1_clean_graph_full.py	Structural + semantic cleaning of the knowledge graph
+2) SciBERT-Guided Relation Extraction
 
-7	4.2_semantic_enrichment.py	Adds ontology classes and semantic relations
+3_extract_advanced.py
+Extracts reliable scientific relations using:
 
-8	5_visualize_graph.py	Full high-quality graph visualizations
+Dependency parsing
 
-📂 Repository Structure
+SVO rules
+
+Geoscience phrase patterns
+
+SciBERT semantic filtering
+
+Redundancy reduction
+
+Reference KG similarity checks
+
+Produces 40k–70k high-quality triplets.
+
+3) Concept Normalization (SBERT)
+
+4_normalize_gpu.py
+Merges synonyms using Sentence-BERT:
+
+Example merges:
+
+slumps, slumping, slump blocks → slump
+
+chaotic facies, chaotically bedded → chaotic facies
+
+Reduces noise and improves KG clarity.
+
+4) Graph Cleaning
+
+4.1_clean_graph_full.py
+Removes:
+
+meaningless nodes
+
+weak nodes
+
+low degree noise
+
+isolated components
+
+5) Ontology Classification + Semantic Enrichment
+
+4.2_semantic_enrichment.py
+
+Nodes labeled into:
+
+Class	Examples
+PROCESS	slump, slide, debris flow
+FEATURE	headwall, toe, scarp
+TRIGGER	earthquake, overpressure
+FACIES	chaotic facies
+LOCATION	slope, basin
+MATERIAL	sand, clay
+
+Edges refined into:
+
+CAUSES
+
+FORMS
+
+LOCATED_IN
+
+EXHIBITS
+
+TRANSPORTS
+
+6) High-Quality Visualizations
+
+5_visualize_graph.py
+
+Produces:
+
+Full KG with:
+
+class colors
+
+relation colors
+
+bold readable labels
+
+ID-based graph (airier, publication-ready)
+
+Top-25 geoscience subgraph (Process, Feature, Trigger, etc.)
+
+Degree distribution
+
+Pareto curve
+
+Top hubs
+
+7) Knowledge Graph Evaluation
+
+6_evaluate_kg_quality.py
+Generates evaluation_results.json containing:
+
+Coverage vs reference ontology
+
+Hallucinations
+
+Redundancy
+
+Suspicious relations
+
+Weak nodes
+
+Semantic cohesion
+
+Similarity matrices
+
+8) Evaluation Visualizations
+
+7_visualize_evaluation.py
+
+Generates:
+
+Global similarity heatmap
+
+Clustered heatmap
+
+Per-class heatmaps
+
+Similarity histogram
+
+Similarity vs degree scatter
+
+Full evaluation report
+
+📁 Repository Structure
 project/
-│
-├── data/                       # Input PDF files
-├── output_json/                # Parsed JSON blocks from PDFs
-├── output_graph/               # Graphs, facts, visualizations
+├── data/                      
+├── output_json/
+├── output_graph/
+│   ├── visuals/
+│   └── visuals_evaluation/
 │
 ├── ingest_pdf.py
-├── 0_discover_domain_v2.py
-├── 1_auto_update_config.py
-├── domain_config.py            # Auto-generated
-│
-├── 2_visualize_analytics.py
 ├── 3_extract_advanced.py
 ├── 4_normalize_gpu.py
 ├── 4.1_clean_graph_full.py
 ├── 4.2_semantic_enrichment.py
 ├── 5_visualize_graph.py
+├── 6_evaluate_kg_quality.py
+├── 7_visualize_evaluation.py
 │
 └── run_all.sh
 
-🔍 Key Features
-✔ Automated Domain Discovery
-
-Combines TF-IDF, RAKE, PMI, and Sentence-BERT clustering.
-
-✔ Knowledge-Infused Rules
-
-Expert keywords + auto-learned concepts.
-
-✔ Scientific SVO Extraction
-
-Detects key geological relations like:
-
-“fluid overpressure triggers slope failure”
-
-“slumps occur on continental margins”
-
-✔ Entity Normalization
-
-Aggregates synonyms (e.g., slumps, slumping, slump block → slump).
-
-✔ Graph Cleaning
-
-Removes noise like one, they, value, area, etc.
-
-✔ Ontology-Aware Enrichment
-
-Nodes classified as:
-
-PROCESS
-
-LOCATION
-
-MATERIAL
-
-FACIES
-
-FEATURE
-
-TRIGGER
-
-Edges refined (CAUSES, LOCATED_IN, FORMS, EXHIBITS…).
-
-✔ High-Quality Visualizations
-
-Includes:
-
-Louvain communities
-
-Degree-scaled nodes
-
-Top-200 labeled concepts
-
-Degree distribution
-
-Global overview
-
-📊 Semantic Analytics Outputs
-
-Generated by 2_visualize_analytics.py:
-
-PPMI Heatmap: strongest conceptual co-occurrences
-
-Concept Frequency Plot: most dominant geological terms
-
-These visualizations support geological interpretation and model explainability.
-
-📡 Graph Outputs
-
-Located in output_graph/:
-
-final_graph_clean_full.gexf (after cleaning)
-
-final_graph_knowledge_layer.gexf (ontology-enriched)
-
-geological_facts.csv (triplets + semantic classes)
-
-PNG visualizations in output_graph/visuals/
-
-All graphs are fully compatible with Gephi, Cytoscape, NetworkX, and Neo4j.
-
-🛠 Installation
-
-Clone the repository:
-
-git clone link
-
-cd kg_test
-
-
-Install dependencies:
-
-pip install -r requirements.txt
-
-
-Run the pipeline:
-
-bash run_all.sh
-
 🧠 Technologies Used
 
-Python
+Python 3
 
 PyMuPDF
 
 spaCy
 
-NLTK
+SciBERT (allenai/scibert_scivocab_uncased)
 
-scikit-learn
-
-Sentence-BERT
+SBERT (sentence-transformers)
 
 NetworkX
 
-Matplotlib / Seaborn
+Matplotlib
+
+Seaborn
+
+Scikit-learn
+
+🛠 Installation
+git clone <your_repo_url>
+cd <your_repo_folder>
+pip install -r requirements.txt
+bash run_all.sh

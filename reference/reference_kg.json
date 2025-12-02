@@ -1,0 +1,985 @@
+{
+    "canonical_terms": [
+        "average thickness",
+        "basin depocenter position",
+        "bs flat sub-horizontal zone",
+        "bs median slope",
+        "bs ramps",
+        "bs strong amplitude",
+        "chaotic facies distribution",
+        "chemical effects",
+        "compaction during burial",
+        "deformed facies distribution",
+        "detached mtd",
+        "erosion of underlying material",
+        "evaporite deformation & mud volcanism",
+        "existing geomorphology, objects and pathways",
+        "faulty facies distribution",
+        "flow behavior: elastic, plastic, fluid",
+        "flow direction",
+        "flow velocity and energy",
+        "fluid overpressure in moving mass",
+        "fluid overpressure on basal surface",
+        "fluid overpressure, short term",
+        "frontal compression",
+        "grains heterogeneity in flowing mass",
+        "gravity, short term",
+        "horizontal aspect ratio",
+        "hs downslope evolution",
+        "hs morphology",
+        "inducing seismicity",
+        "initial aspect ratio and top of mass slope angle",
+        "initial potential energy of mass",
+        "lateral connection to other mtds",
+        "lateral distribution of mtds",
+        "lateral erosive walls",
+        "lithology distribution in mtd",
+        "lithology in transported mass",
+        "lithology of underlying material downslope",
+        "lithology of underlying material in source zone",
+        "local fluidization",
+        "local thickening of flowing material",
+        "loss of mass",
+        "max. horizontal length",
+        "max. horizontal length, if attached",
+        "modifying basin geomorphology",
+        "mtd principal direction",
+        "mtd proportion in sedimentary pile",
+        "mtd volume",
+        "multiple terracing downslope",
+        "near structural elements laterally",
+        "offshore events and waves",
+        "permeability increase",
+        "plowing effect on underlying material",
+        "plunging pool effect",
+        "plunging pool indicator",
+        "pore pressure increase by compression",
+        "pore pressure increase by fluid migration",
+        "post deposition of turbidites",
+        "post deposition regional deformation",
+        "posterior fluid migrations",
+        "presence of 'tongues' at toe",
+        "presence of preserved blocks",
+        "preserved blocks size",
+        "principal direction",
+        "remobilization",
+        "ridged facies distribution",
+        "runout distance",
+        "scours, grooves, striations",
+        "sea level evolution",
+        "seafloor effective friction angle",
+        "seafloor shapes and dip variations",
+        "sedimentation rate and type",
+        "seismicity or waves, long term",
+        "seismicity, short term",
+        "source domain in basin",
+        "subsidence/uplift, extension/compression",
+        "surface area",
+        "terminal dispersion",
+        "thickness variation",
+        "thrust fault angle increase to toe",
+        "topography confinement downwards",
+        "transparent facies distribution",
+        "trigger turbidity current at stop",
+        "triggering cascading mass movements",
+        "triggering cascading mtds",
+        "triggering turbidity current",
+        "triggering turbidity current at stop",
+        "upward connection to other mtds",
+        "us median slope",
+        "us ramps or ridges",
+        "us with turbidites on top",
+        "vertical distribution of mtds",
+        "volume of transported material",
+        "width variation"
+    ],
+    "relations": [
+        {
+            "head": "runout distance",
+            "tail": "max. horizontal length, if attached",
+            "type": "undirected"
+        },
+        {
+            "head": "topography confinement downwards",
+            "tail": "mtd principal direction",
+            "type": "undirected"
+        },
+        {
+            "head": "principal direction",
+            "tail": "scours, grooves, striations",
+            "type": "undirected"
+        },
+        {
+            "head": "detached mtd",
+            "tail": "runout distance",
+            "type": "directed"
+        },
+        {
+            "head": "detached mtd",
+            "tail": "max. horizontal length",
+            "type": "directed"
+        },
+        {
+            "head": "detached mtd",
+            "tail": "surface area",
+            "type": "directed"
+        },
+        {
+            "head": "detached mtd",
+            "tail": "horizontal aspect ratio",
+            "type": "directed"
+        },
+        {
+            "head": "lithology distribution in mtd",
+            "tail": "transparent facies distribution",
+            "type": "directed"
+        },
+        {
+            "head": "lithology distribution in mtd",
+            "tail": "faulty facies distribution",
+            "type": "undirected"
+        },
+        {
+            "head": "seafloor shapes and dip variations",
+            "tail": "thickness variation",
+            "type": "directed"
+        },
+        {
+            "head": "subsidence/uplift, extension/compression",
+            "tail": "mtd volume",
+            "type": "directed"
+        },
+        {
+            "head": "topography confinement downwards",
+            "tail": "terminal dispersion",
+            "type": "directed"
+        },
+        {
+            "head": "terminal dispersion",
+            "tail": "thickness variation",
+            "type": "directed"
+        },
+        {
+            "head": "ridged facies distribution",
+            "tail": "thickness variation",
+            "type": "undirected"
+        },
+        {
+            "head": "terminal dispersion",
+            "tail": "width variation",
+            "type": "directed"
+        },
+        {
+            "head": "flow direction",
+            "tail": "lateral erosive walls",
+            "type": "directed"
+        },
+        {
+            "head": "flow direction",
+            "tail": "scours, grooves, striations",
+            "type": "directed"
+        },
+        {
+            "head": "existing geomorphology, objects and pathways",
+            "tail": "width variation",
+            "type": "undirected"
+        },
+        {
+            "head": "existing geomorphology, objects and pathways",
+            "tail": "flow velocity and energy",
+            "type": "directed"
+        },
+        {
+            "head": "flow velocity and energy",
+            "tail": "scours, grooves, striations",
+            "type": "directed"
+        },
+        {
+            "head": "plowing effect on underlying material",
+            "tail": "bs flat sub-horizontal zone",
+            "type": "directed"
+        },
+        {
+            "head": "existing geomorphology, objects and pathways",
+            "tail": "horizontal aspect ratio",
+            "type": "directed"
+        },
+        {
+            "head": "flow behavior: elastic, plastic, fluid",
+            "tail": "horizontal aspect ratio",
+            "type": "directed"
+        },
+        {
+            "head": "volume of transported material",
+            "tail": "mtd volume",
+            "type": "directed"
+        },
+        {
+            "head": "loss of mass",
+            "tail": "mtd volume",
+            "type": "directed"
+        },
+        {
+            "head": "erosion of underlying material",
+            "tail": "mtd volume",
+            "type": "directed"
+        },
+        {
+            "head": "remobilization",
+            "tail": "mtd volume",
+            "type": "directed"
+        },
+        {
+            "head": "compaction during burial",
+            "tail": "mtd volume",
+            "type": "directed"
+        },
+        {
+            "head": "triggering turbidity current",
+            "tail": "loss of mass",
+            "type": "directed"
+        },
+        {
+            "head": "trigger turbidity current at stop",
+            "tail": "loss of mass",
+            "type": "directed"
+        },
+        {
+            "head": "flow direction",
+            "tail": "mtd principal direction",
+            "type": "directed"
+        },
+        {
+            "head": "topography confinement downwards",
+            "tail": "bs median slope",
+            "type": "directed"
+        },
+        {
+            "head": "flow behavior: elastic, plastic, fluid",
+            "tail": "bs median slope",
+            "type": "directed"
+        },
+        {
+            "head": "seafloor shapes and dip variations",
+            "tail": "plunging pool effect",
+            "type": "directed"
+        },
+        {
+            "head": "plunging pool effect",
+            "tail": "plunging pool indicator",
+            "type": "directed"
+        },
+        {
+            "head": "plunging pool effect",
+            "tail": "erosion of underlying material",
+            "type": "directed"
+        },
+        {
+            "head": "existing geomorphology, objects and pathways",
+            "tail": "plunging pool effect",
+            "type": "directed"
+        },
+        {
+            "head": "flow velocity and energy",
+            "tail": "plunging pool effect",
+            "type": "directed"
+        },
+        {
+            "head": "source domain in basin",
+            "tail": "initial aspect ratio and top of mass slope angle",
+            "type": "directed"
+        },
+        {
+            "head": "remobilization",
+            "tail": "multiple terracing downslope",
+            "type": "directed"
+        },
+        {
+            "head": "triggering cascading mass movements",
+            "tail": "multiple terracing downslope",
+            "type": "undirected"
+        },
+        {
+            "head": "upward connection to other mtds",
+            "tail": "multiple terracing downslope",
+            "type": "undirected"
+        },
+        {
+            "head": "initial potential energy of mass",
+            "tail": "erosion of underlying material",
+            "type": "directed"
+        },
+        {
+            "head": "erosion of underlying material",
+            "tail": "lateral erosive walls",
+            "type": "directed"
+        },
+        {
+            "head": "triggering cascading mass movements",
+            "tail": "bs ramps",
+            "type": "directed"
+        },
+        {
+            "head": "post deposition regional deformation",
+            "tail": "bs ramps",
+            "type": "directed"
+        },
+        {
+            "head": "flow behavior: elastic, plastic, fluid",
+            "tail": "scours, grooves, striations",
+            "type": "directed"
+        },
+        {
+            "head": "seafloor effective friction angle",
+            "tail": "scours, grooves, striations",
+            "type": "directed"
+        },
+        {
+            "head": "lithology of underlying material downslope",
+            "tail": "bs strong amplitude",
+            "type": "directed"
+        },
+        {
+            "head": "fluid overpressure on basal surface",
+            "tail": "bs strong amplitude",
+            "type": "directed"
+        },
+        {
+            "head": "post deposition of turbidites",
+            "tail": "us with turbidites on top",
+            "type": "directed"
+        },
+        {
+            "head": "triggering turbidity current",
+            "tail": "post deposition of turbidites",
+            "type": "directed"
+        },
+        {
+            "head": "triggering turbidity current at stop",
+            "tail": "post deposition of turbidites",
+            "type": "directed"
+        },
+        {
+            "head": "triggering cascading mass movements",
+            "tail": "upward connection to other mtds",
+            "type": "directed"
+        },
+        {
+            "head": "existing geomorphology, objects and pathways",
+            "tail": "lateral connection to other mtds",
+            "type": "directed"
+        },
+        {
+            "head": "triggering cascading mass movements",
+            "tail": "runout distance",
+            "type": "directed"
+        },
+        {
+            "head": "initial aspect ratio and top of mass slope angle",
+            "tail": "initial potential energy of mass",
+            "type": "directed"
+        },
+        {
+            "head": "initial potential energy of mass",
+            "tail": "runout distance",
+            "type": "directed"
+        },
+        {
+            "head": "topography confinement downwards",
+            "tail": "triggering turbidity current at stop",
+            "type": "directed"
+        },
+        {
+            "head": "topography confinement downwards",
+            "tail": "seafloor shapes and dip variations",
+            "type": "undirected"
+        },
+        {
+            "head": "flow behavior: elastic, plastic, fluid",
+            "tail": "detached mtd",
+            "type": "directed"
+        },
+        {
+            "head": "detached mtd",
+            "tail": "mtd volume",
+            "type": "undirected"
+        },
+        {
+            "head": "subsidence/uplift, extension/compression",
+            "tail": "hs downslope evolution",
+            "type": "directed"
+        },
+        {
+            "head": "subsidence/uplift, extension/compression",
+            "tail": "basin depocenter position",
+            "type": "directed"
+        },
+        {
+            "head": "source domain in basin",
+            "tail": "hs morphology",
+            "type": "directed"
+        },
+        {
+            "head": "flow behavior: elastic, plastic, fluid",
+            "tail": "presence of preserved blocks",
+            "type": "directed"
+        },
+        {
+            "head": "flow behavior: elastic, plastic, fluid",
+            "tail": "triggering turbidity current",
+            "type": "directed"
+        },
+        {
+            "head": "lithology in transported mass",
+            "tail": "triggering turbidity current",
+            "type": "directed"
+        },
+        {
+            "head": "flow direction",
+            "tail": "presence of preserved blocks",
+            "type": "directed"
+        },
+        {
+            "head": "flow velocity and energy",
+            "tail": "preserved blocks size",
+            "type": "directed"
+        },
+        {
+            "head": "initial potential energy of mass",
+            "tail": "flow velocity and energy",
+            "type": "directed"
+        },
+        {
+            "head": "grains heterogeneity in flowing mass",
+            "tail": "preserved blocks size",
+            "type": "undirected"
+        },
+        {
+            "head": "flow behavior: elastic, plastic, fluid",
+            "tail": "chaotic facies distribution",
+            "type": "directed"
+        },
+        {
+            "head": "grains heterogeneity in flowing mass",
+            "tail": "chaotic facies distribution",
+            "type": "directed"
+        },
+        {
+            "head": "grains heterogeneity in flowing mass",
+            "tail": "transparent facies distribution",
+            "type": "directed"
+        },
+        {
+            "head": "compaction during burial",
+            "tail": "transparent facies distribution",
+            "type": "directed"
+        },
+        {
+            "head": "posterior fluid migrations",
+            "tail": "transparent facies distribution",
+            "type": "directed"
+        },
+        {
+            "head": "posterior fluid migrations",
+            "tail": "chaotic facies distribution",
+            "type": "directed"
+        },
+        {
+            "head": "evaporite deformation & mud volcanism",
+            "tail": "faulty facies distribution",
+            "type": "directed"
+        },
+        {
+            "head": "post deposition regional deformation",
+            "tail": "faulty facies distribution",
+            "type": "directed"
+        },
+        {
+            "head": "frontal compression",
+            "tail": "ridged facies distribution",
+            "type": "directed"
+        },
+        {
+            "head": "topography confinement downwards",
+            "tail": "frontal compression",
+            "type": "directed"
+        },
+        {
+            "head": "flow direction",
+            "tail": "ridged facies distribution",
+            "type": "directed"
+        },
+        {
+            "head": "flow behavior: elastic, plastic, fluid",
+            "tail": "ridged facies distribution",
+            "type": "directed"
+        },
+        {
+            "head": "seafloor shapes and dip variations",
+            "tail": "thrust fault angle increase to toe",
+            "type": "directed"
+        },
+        {
+            "head": "post deposition regional deformation",
+            "tail": "thrust fault angle increase to toe",
+            "type": "directed"
+        },
+        {
+            "head": "lithology of underlying material in source zone",
+            "tail": "thrust fault angle increase to toe",
+            "type": "directed"
+        },
+        {
+            "head": "remobilization",
+            "tail": "upward connection to other mtds",
+            "type": "directed"
+        },
+        {
+            "head": "remobilization",
+            "tail": "lateral connection to other mtds",
+            "type": "directed"
+        },
+        {
+            "head": "flow behavior: elastic, plastic, fluid",
+            "tail": "surface area",
+            "type": "directed"
+        },
+        {
+            "head": "initial aspect ratio and top of mass slope angle",
+            "tail": "seafloor effective friction angle",
+            "type": "directed"
+        },
+        {
+            "head": "grains heterogeneity in flowing mass",
+            "tail": "seafloor effective friction angle",
+            "type": "directed"
+        },
+        {
+            "head": "sedimentation rate and type",
+            "tail": "lithology of underlying material in source zone",
+            "type": "directed"
+        },
+        {
+            "head": "sedimentation rate and type",
+            "tail": "lithology in transported mass",
+            "type": "directed"
+        },
+        {
+            "head": "lithology of underlying material in source zone",
+            "tail": "lithology in transported mass",
+            "type": "directed"
+        },
+        {
+            "head": "lithology of underlying material in source zone",
+            "tail": "lithology of underlying material downslope",
+            "type": "undirected"
+        },
+        {
+            "head": "lithology in transported mass",
+            "tail": "lithology distribution in mtd",
+            "type": "directed"
+        },
+        {
+            "head": "erosion of underlying material",
+            "tail": "lithology distribution in mtd",
+            "type": "directed"
+        },
+        {
+            "head": "topography confinement downwards",
+            "tail": "presence of 'tongues' at toe",
+            "type": "directed"
+        },
+        {
+            "head": "terminal dispersion",
+            "tail": "presence of 'tongues' at toe",
+            "type": "undirected"
+        },
+        {
+            "head": "grains heterogeneity in flowing mass",
+            "tail": "presence of 'tongues' at toe",
+            "type": "directed"
+        },
+        {
+            "head": "grains heterogeneity in flowing mass",
+            "tail": "lithology distribution in mtd",
+            "type": "directed"
+        },
+        {
+            "head": "existing geomorphology, objects and pathways",
+            "tail": "posterior fluid migrations",
+            "type": "directed"
+        },
+        {
+            "head": "existing geomorphology, objects and pathways",
+            "tail": "pore pressure increase by fluid migration",
+            "type": "directed"
+        },
+        {
+            "head": "existing geomorphology, objects and pathways",
+            "tail": "pore pressure increase by compression",
+            "type": "directed"
+        },
+        {
+            "head": "pore pressure increase by compression",
+            "tail": "fluid overpressure, short term",
+            "type": "undirected"
+        },
+        {
+            "head": "pore pressure increase by fluid migration",
+            "tail": "fluid overpressure, short term",
+            "type": "undirected"
+        },
+        {
+            "head": "permeability increase",
+            "tail": "pore pressure increase by fluid migration",
+            "type": "undirected"
+        },
+        {
+            "head": "existing geomorphology, objects and pathways",
+            "tail": "initial aspect ratio and top of mass slope angle",
+            "type": "directed"
+        },
+        {
+            "head": "existing geomorphology, objects and pathways",
+            "tail": "topography confinement downwards",
+            "type": "undirected"
+        },
+        {
+            "head": "grains heterogeneity in flowing mass",
+            "tail": "flow behavior: elastic, plastic, fluid",
+            "type": "directed"
+        },
+        {
+            "head": "grains heterogeneity in flowing mass",
+            "tail": "triggering turbidity current",
+            "type": "directed"
+        },
+        {
+            "head": "triggering cascading mtds",
+            "tail": "modifying basin geomorphology",
+            "type": "directed"
+        },
+        {
+            "head": "sedimentation rate and type",
+            "tail": "compaction during burial",
+            "type": "directed"
+        },
+        {
+            "head": "compaction during burial",
+            "tail": "posterior fluid migrations",
+            "type": "undirected"
+        },
+        {
+            "head": "post deposition regional deformation",
+            "tail": "subsidence/uplift, extension/compression",
+            "type": "undirected"
+        },
+        {
+            "head": "source domain in basin",
+            "tail": "near structural elements laterally",
+            "type": "directed"
+        },
+        {
+            "head": "post deposition regional deformation",
+            "tail": "us ramps or ridges",
+            "type": "directed"
+        },
+        {
+            "head": "sea level evolution",
+            "tail": "vertical distribution of mtds",
+            "type": "directed"
+        },
+        {
+            "head": "source domain in basin",
+            "tail": "pore pressure increase by compression",
+            "type": "directed"
+        },
+        {
+            "head": "permeability increase",
+            "tail": "local fluidization",
+            "type": "directed"
+        },
+        {
+            "head": "seismicity or waves, long term",
+            "tail": "permeability increase",
+            "type": "directed"
+        },
+        {
+            "head": "existing geomorphology, objects and pathways",
+            "tail": "lateral erosive walls",
+            "type": "directed"
+        },
+        {
+            "head": "sea level evolution",
+            "tail": "seismicity or waves, long term",
+            "type": "directed"
+        },
+        {
+            "head": "seismicity, short term",
+            "tail": "initial potential energy of mass",
+            "type": "directed"
+        },
+        {
+            "head": "flow velocity and energy",
+            "tail": "flow behavior: elastic, plastic, fluid",
+            "type": "undirected"
+        },
+        {
+            "head": "source domain in basin",
+            "tail": "sedimentation rate and type",
+            "type": "directed"
+        },
+        {
+            "head": "local fluidization",
+            "tail": "flow behavior: elastic, plastic, fluid",
+            "type": "undirected"
+        },
+        {
+            "head": "chemical effects",
+            "tail": "local fluidization",
+            "type": "directed"
+        },
+        {
+            "head": "initial aspect ratio and top of mass slope angle",
+            "tail": "gravity, short term",
+            "type": "undirected"
+        },
+        {
+            "head": "offshore events and waves",
+            "tail": "initial potential energy of mass",
+            "type": "directed"
+        },
+        {
+            "head": "sedimentation rate and type",
+            "tail": "basin depocenter position",
+            "type": "directed"
+        },
+        {
+            "head": "sedimentation rate and type",
+            "tail": "subsidence/uplift, extension/compression",
+            "type": "undirected"
+        },
+        {
+            "head": "sea level evolution",
+            "tail": "sedimentation rate and type",
+            "type": "directed"
+        },
+        {
+            "head": "local thickening of flowing material",
+            "tail": "thickness variation",
+            "type": "directed"
+        },
+        {
+            "head": "flow behavior: elastic, plastic, fluid",
+            "tail": "runout distance",
+            "type": "undirected"
+        },
+        {
+            "head": "fluid overpressure, short term",
+            "tail": "fluid overpressure on basal surface",
+            "type": "directed"
+        },
+        {
+            "head": "seismicity or waves, long term",
+            "tail": "seismicity, short term",
+            "type": "directed"
+        },
+        {
+            "head": "seismicity or waves, long term",
+            "tail": "offshore events and waves",
+            "type": "directed"
+        },
+        {
+            "head": "seafloor effective friction angle",
+            "tail": "flow behavior: elastic, plastic, fluid",
+            "type": "directed"
+        },
+        {
+            "head": "source domain in basin",
+            "tail": "seafloor shapes and dip variations",
+            "type": "directed"
+        },
+        {
+            "head": "existing geomorphology, objects and pathways",
+            "tail": "seafloor shapes and dip variations",
+            "type": "directed"
+        },
+        {
+            "head": "pore pressure increase by compression",
+            "tail": "fluid overpressure in moving mass",
+            "type": "directed"
+        },
+        {
+            "head": "pore pressure increase by fluid migration",
+            "tail": "fluid overpressure in moving mass",
+            "type": "directed"
+        },
+        {
+            "head": "fluid overpressure in moving mass",
+            "tail": "posterior fluid migrations",
+            "type": "directed"
+        },
+        {
+            "head": "inducing seismicity",
+            "tail": "local fluidization",
+            "type": "directed"
+        },
+        {
+            "head": "flow behavior: elastic, plastic, fluid",
+            "tail": "terminal dispersion",
+            "type": "directed"
+        },
+        {
+            "head": "lithology in transported mass",
+            "tail": "flow behavior: elastic, plastic, fluid",
+            "type": "directed"
+        },
+        {
+            "head": "seafloor shapes and dip variations",
+            "tail": "plowing effect on underlying material",
+            "type": "directed"
+        },
+        {
+            "head": "evaporite deformation & mud volcanism",
+            "tail": "deformed facies distribution",
+            "type": "directed"
+        },
+        {
+            "head": "flow behavior: elastic, plastic, fluid",
+            "tail": "deformed facies distribution",
+            "type": "directed"
+        },
+        {
+            "head": "lithology in transported mass",
+            "tail": "seafloor effective friction angle",
+            "type": "directed"
+        },
+        {
+            "head": "lithology of underlying material downslope",
+            "tail": "seafloor effective friction angle",
+            "type": "directed"
+        },
+        {
+            "head": "sea level evolution",
+            "tail": "pore pressure increase by fluid migration",
+            "type": "directed"
+        },
+        {
+            "head": "flow behavior: elastic, plastic, fluid",
+            "tail": "us median slope",
+            "type": "directed"
+        },
+        {
+            "head": "topography confinement downwards",
+            "tail": "us median slope",
+            "type": "directed"
+        },
+        {
+            "head": "frontal compression",
+            "tail": "us ramps or ridges",
+            "type": "directed"
+        },
+        {
+            "head": "flow direction",
+            "tail": "us median slope",
+            "type": "directed"
+        },
+        {
+            "head": "flow direction",
+            "tail": "us ramps or ridges",
+            "type": "directed"
+        },
+        {
+            "head": "erosion of underlying material",
+            "tail": "bs ramps",
+            "type": "directed"
+        },
+        {
+            "head": "mtd volume",
+            "tail": "average thickness",
+            "type": "undirected"
+        },
+        {
+            "head": "basin depocenter position",
+            "tail": "lateral distribution of mtds",
+            "type": "directed"
+        },
+        {
+            "head": "existing geomorphology, objects and pathways",
+            "tail": "lateral distribution of mtds",
+            "type": "directed"
+        },
+        {
+            "head": "plowing effect on underlying material",
+            "tail": "bs strong amplitude",
+            "type": "directed"
+        },
+        {
+            "head": "remobilization",
+            "tail": "thickness variation",
+            "type": "directed"
+        },
+        {
+            "head": "presence of preserved blocks",
+            "tail": "transparent facies distribution",
+            "type": "directed"
+        },
+        {
+            "head": "post deposition regional deformation",
+            "tail": "deformed facies distribution",
+            "type": "directed"
+        },
+        {
+            "head": "sedimentation rate and type",
+            "tail": "hs downslope evolution",
+            "type": "directed"
+        },
+        {
+            "head": "sedimentation rate and type",
+            "tail": "mtd proportion in sedimentary pile",
+            "type": "directed"
+        },
+        {
+            "head": "subsidence/uplift, extension/compression",
+            "tail": "vertical distribution of mtds",
+            "type": "directed"
+        },
+        {
+            "head": "evaporite deformation & mud volcanism",
+            "tail": "bs median slope",
+            "type": "directed"
+        },
+        {
+            "head": "evaporite deformation & mud volcanism",
+            "tail": "us median slope",
+            "type": "directed"
+        },
+        {
+            "head": "existing geomorphology, objects and pathways",
+            "tail": "bs ramps",
+            "type": "directed"
+        },
+        {
+            "head": "flow direction",
+            "tail": "bs ramps",
+            "type": "directed"
+        }
+    ],
+    "ontology": {
+        "runout distance": "MEASURE",
+        "max. horizontal length, if attached": "MEASURE",
+        "mtd principal direction": "FEATURE",
+        "detached mtd": "FEATURE",
+        "lithology distribution in mtd": "FEATURE",
+        "mtd volume": "FEATURE",
+        "upward connection to other mtds": "FEATURE",
+        "lateral connection to other mtds": "FEATURE",
+        "triggering cascading mass movements": "MEASURE",
+        "initial potential energy of mass": "MEASURE",
+        "triggering cascading mtds": "FEATURE",
+        "vertical distribution of mtds": "FEATURE",
+        "flow behavior: elastic, plastic, fluid": "MEASURE",
+        "lateral distribution of mtds": "FEATURE",
+        "mtd proportion in sedimentary pile": "FEATURE"
+    }
+}
