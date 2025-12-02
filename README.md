@@ -41,7 +41,7 @@ Running the pipeline generates:
 
 ---
 
-# 🚀 Pipeline Overview
+# 🚀 PipelineOverview 
 
 Run the entire pipeline:
 
@@ -51,7 +51,7 @@ bash run_all.sh
 
 -----
 
-### All results are stored in:
+#*** All results are stored in:**
 
 
 output_json/
