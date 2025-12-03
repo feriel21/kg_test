@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "======================================================"
-echo "   🔵 MTD KNOWLEDGE-GRAPH PIPELINE — FULL EXECUTION"
+echo "    MTD KNOWLEDGE-GRAPH PIPELINE — FULL EXECUTION"
 echo "======================================================"
 echo ""
 
@@ -15,31 +15,31 @@ echo ""
 echo "------------------------------------------------------"
 echo " STEP 0 — Extract PDFs → JSON"
 echo "------------------------------------------------------"
-python ingest_pdf.py || exit 1
+python 0_ingest_pdf.py || exit 1
 
 echo ""
 echo "------------------------------------------------------"
 echo " STEP 1 — SciBERT-guided Triplet Extraction"
 echo "------------------------------------------------------"
-python 3_extract_advanced.py || exit 1
+python 1_extract_advanced.py || exit 1
 
 echo ""
 echo "------------------------------------------------------"
 echo " STEP 2 — Normalize Entities (SBERT embeddings)"
 echo "------------------------------------------------------"
-python 4_normalize_gpu.py || exit 1
+python 2_normalize_gpu.py || exit 1
 
 echo ""
 echo "------------------------------------------------------"
 echo " STEP 3 — Clean Knowledge Graph"
 echo "------------------------------------------------------"
-python 4.1_clean_graph_full.py || exit 1
+python 3_clean_graph_full.py || exit 1
 
 echo ""
 echo "------------------------------------------------------"
 echo " STEP 4 — Semantic Enrichment (Ontology)"
 echo "------------------------------------------------------"
-python 4.2_semantic_enrichment.py || exit 1
+python 4_semantic_enrichment.py || exit 1
 
 echo ""
 echo "------------------------------------------------------"

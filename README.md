@@ -60,72 +60,115 @@ output_graph/visuals/
 output_graph/visuals_evaluation/
 
 
-###Scientific Workflow
-1) PDF → Structured Text
+STEP 0 — PDF → JSON Extraction
 
-ingest_pdf.py
-Extracts sentences & narrative blocks using PyMuPDF.
+0_ingest_pdf.py
 
-2) SciBERT-Guided Relation Extraction
+Extracts scientific text blocks
 
-3_extract_advanced.py
-Extracts reliable scientific relations using:
+Cleans sections, paragraphs, and narrative sentences
 
-Dependency parsing
+Removes figure/table captions, references, noise
 
-SVO rules
+Produces structured JSON ready for NLP extraction
 
-Geoscience phrase patterns
+Output:
+output_json/
 
-SciBERT semantic filtering
+STEP 1 — SciBERT-Guided Triplet Extraction
 
-Redundancy reduction
+1_extract_advanced.py
 
-Reference KG similarity checks
+Advanced dependency parsing (SciSpacy)
 
-Produces 40k–70k high-quality triplets.
+SVO extraction (subject–verb–object)
 
-3) Concept Normalization (SBERT)
+Geoscience pattern detection:
 
-4_normalize_gpu.py
-Merges synonyms using Sentence-BERT:
+X of Y → PART_OF
+
+X in Y → LOCATED_IN
+
+“characterized by” → CHARACTERIZED_BY
+
+Semantic filtering with SciBERT
+
+Anchoring to the reference KG (ontology-guided extraction)
+
+Noise removal based on similarity thresholds
+
+Output:
+knowledge_graph_triplets.json
+
+STEP 2 — SBERT Entity Normalization
+
+2_normalize_gpu.py
+
+Embeds all concepts with SBERT
+
+Clusters synonym groups (community detection)
+
+Canonicalizes geological terms
+
+Applies geoscience domain rules:
+
+protected terms
+
+critical descriptors
+
+merging long forms → short canonical names
+
+Integrates reference ontology overrides
 
 Example merges:
+slumping, slumps, slump blocks → slump
+chaotic facies, chaotically bedded facies → chaotic facies
 
-slumps, slumping, slump blocks → slump
+Output:
+entity_map.json, clusters_log.txt
 
-chaotic facies, chaotically bedded → chaotic facies
+STEP 3 — Knowledge Graph Cleaning
 
-Reduces noise and improves KG clarity.
+3_clean_graph_full.py
 
-4) Graph Cleaning
-
-4.1_clean_graph_full.py
 Removes:
 
 meaningless nodes
 
-weak nodes
+low-similarity nodes
 
-low degree noise
+weak nodes (degree ≤ 1)
 
-isolated components
+isolated subgraphs
 
-5) Ontology Classification + Semantic Enrichment
+duplicate edges
 
-4.2_semantic_enrichment.py
+Ensures the KG is clean, compact, and geologically consistent.
 
-Nodes labeled into:
+Output:
+final_graph_clean.gexf
 
-Class	Examples
-PROCESS	slump, slide, debris flow
-FEATURE	headwall, toe, scarp
-TRIGGER	earthquake, overpressure
-FACIES	chaotic facies
-LOCATION	slope, basin
-MATERIAL	sand, clay
+STEP 4 — Semantic Enrichment (Ontology Integration)
 
-Edges refined into:
+4_semantic_enrichment.py
+
+Adds expert knowledge:
+
+Node classification:
+
+PROCESS
+
+FEATURE
+
+TRIGGER
+
+FACIES
+
+LOCATION
+
+MATERIAL
+
+Relation enrichment:
 
 CAUSES
 
@@ -137,85 +180,105 @@ EXHIBITS
 
 TRANSPORTS
 
-6) High-Quality Visualizations
+Integrates reference ontology categories + rules.
+
+Output:
+final_graph_semantic.gexf
+
+STEP 5 — Knowledge Graph Visualization
 
 5_visualize_graph.py
 
-Produces:
+Generates publication-ready graphs:
 
-Full KG with:
+Full KG with ontology color coding
 
-class colors
+Top-25 geological subgraph
 
-relation colors
+Airy layout with readable labels
 
-bold readable labels
-
-ID-based graph (airier, publication-ready)
-
-Top-25 geoscience subgraph (Process, Feature, Trigger, etc.)
+Process–Feature–Trigger view
 
 Degree distribution
 
-Pareto curve
+Output:
+output_graph/visuals/
 
-Top hubs
-
-7) Knowledge Graph Evaluation
+STEP 6 — KG Quality Evaluation
 
 6_evaluate_kg_quality.py
-Generates evaluation_results.json containing:
 
-Coverage vs reference ontology
+Runs your full validation protocol:
 
-Hallucinations
+Semantic metrics:
 
-Redundancy
+Exact coverage
 
-Suspicious relations
+Semantic coverage
+
+Similarity matrix
+
+Hallucination detection
+
+Structural metrics:
+
+Degree distribution
 
 Weak nodes
 
-Semantic cohesion
+Redundancy detection
 
-Similarity matrices
+Cohesion score
 
-8) Evaluation Visualizations
+Geoscience metrics:
+
+Top-K hubs
+
+Concept coherence
+
+Output:
+evaluation_results.json
+
+STEP 7 — Evaluation Visualization
 
 7_visualize_evaluation.py
 
-Generates:
+Creates the visual report:
 
-Global similarity heatmap
-
-Clustered heatmap
-
-Per-class heatmaps
+Coverage chart
 
 Similarity histogram
 
-Similarity vs degree scatter
+Improved similarity heatmap
 
+Redundancy chart
+
+Hallucination chart
+
+Cohesion chart
+
+Top 20 hubs
+
+Top 20 hallucinations
+
+Output:
+output_graph/visuals_evaluation/
 Full evaluation report
 
-📁 Repository Structure
-project/
-├── data/                      
-├── output_json/
-├── output_graph/
-│   ├── visuals/
-│   └── visuals_evaluation/
-│
-├── ingest_pdf.py
-├── 3_extract_advanced.py
-├── 4_normalize_gpu.py
-├── 4.1_clean_graph_full.py
-├── 4.2_semantic_enrichment.py
-├── 5_visualize_graph.py
-├── 6_evaluate_kg_quality.py
-├── 7_visualize_evaluation.py
-│
-└── run_all.sh
+# Pipeline Summary
+
+Your final pipeline executes:
+
+Step	Script	Purpose
+
+0	0_ingest_pdf.py	PDF → JSON
+1	1_extract_advanced.py	SciBERT-guided extraction
+2	2_normalize_gpu.py	SBERT normalization
+3	3_clean_graph_full.py	Graph cleaning
+4	4_semantic_enrichment.py	Ontology integration
+5	5_visualize_graph.py	KG visualization
+6	6_evaluate_kg_quality.py	KG evaluation
+7	7_visualize_evaluation.py	Evaluation visualizations
 
 🧠 Technologies Used
 
