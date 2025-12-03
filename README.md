@@ -46,8 +46,9 @@ Running the pipeline generates:
 Run the entire pipeline:
 
 ```bash
-bash run_all.sh
-
+chmod +x run_all.sh
+./run_all.sh
+```
 
 -----
 
