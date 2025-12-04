@@ -21,8 +21,6 @@ This repository provides a fully automated pipeline that converts a collection o
 - Slumps / slides / debris flows  
 - Slope instability processes  
 
-The pipeline is meant for **geoscientists**, **ML researchers**, and **students**.
-
 ---
 
 # 🧬 What the Pipeline Produces
