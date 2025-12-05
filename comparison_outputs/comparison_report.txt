@@ -1,0 +1,15 @@
+=== NODE COMPARISON REPORT ===
+
+Small corpus nodes: 78
+Full corpus nodes: 79
+Shared nodes: 78
+New nodes in full corpus: 1
+Missing nodes in small corpus: 0
+
+
+=== TOP NEW GEOLOGICAL NODES (Full corpus only) ===
+ - initial potential energy of mass  | degree=3 | sim=1.00 | Strongly related to 'initial potential energy of mass'
+
+=== COVERAGE ===
+Coverage small->full : 1.00
+Coverage full->small : 0.99

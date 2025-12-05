@@ -1,0 +1,34 @@
+dataset: "small_corpus"   # or "full_corpus"
+
+paths:
+  pdf_folder: "data/{dataset}"
+  json_output: "output/{dataset}/output_json"
+  triplets: "output/{dataset}/knowledge_graph_triplets.json"
+  graph_modular: "output/{dataset}/final_graph_modular.gexf"
+  graph_clean: "output/{dataset}/final_graph_clean.gexf"
+  graph_knowledge: "output/{dataset}/final_graph_knowledge_layer.gexf"
+  clusters_log: "output/{dataset}/clusters_log.txt"
+  facts_csv: "output/{dataset}/geological_facts.csv"
+  evaluation_json: "output/{dataset}/evaluation_results.json"
+  evaluation_plots: "output/{dataset}/eval_plots"
+
+  # For comparison script
+  graph_modular_small: "output/small_corpus/final_graph_modular.gexf"
+  graph_modular_full: "output/full_corpus/final_graph_modular.gexf"
+
+reference:
+  reference_kg: "reference/reference_kg.json"
+
+
+models:
+  extractor_model: "allenai/scibert_scivocab_uncased"
+  embedder_model: "all-MiniLM-L6-v2"
+
+extraction:
+  max_span_tokens: 10
+  ref_similarity_threshold: 0.45
+  min_relation_similarity: 0.40
+
+normalization:
+  similarity_threshold: 0.90
+  ref_anchor_threshold: 0.70

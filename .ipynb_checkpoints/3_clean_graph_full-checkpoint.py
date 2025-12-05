@@ -3,11 +3,22 @@ import os
 import json
 import torch
 from sentence_transformers import SentenceTransformer, util
+# ============================
+# LOAD CONFIG
+# ============================
+from utils.config_loader import load_config
+cfg = load_config()
+paths = cfg["paths_expanded"]
 
+# Input graph (from step 2)
+INPUT_GEXF = paths["graph_modular"]
+
+# Output graph (cleaned)
+OUTPUT_GEXF = paths["graph_clean"]
 # ======================================================
 # 1 — LOAD GEOLOGICAL REFERENCE TERMS
 # ======================================================
-REFERENCE_KG_PATH = "reference/reference_kg.json"
+REFERENCE_KG_PATH = cfg["reference"]["reference_kg"]
 
 if os.path.exists(REFERENCE_KG_PATH):
     with open(REFERENCE_KG_PATH, "r", encoding="utf-8") as f:
@@ -44,11 +55,8 @@ GEO_KEYWORDS = {
 }
 
 
-# ======================================================
-# 4 — CONFIG
-# ======================================================
-INPUT_GEXF = "output_graph/final_graph_modular.gexf"
-OUTPUT_GEXF = "output_graph/final_graph_clean_final.gexf"
+
+
 
 # Semantic noise lists
 PRONOUNS = {

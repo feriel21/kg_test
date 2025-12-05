@@ -1,0 +1,113 @@
+node1,node2
+principal direction,hs morphology
+principal direction,local fluidization
+principal direction,bs strong amplitude
+principal direction,bs ramps
+principal direction,detached mtd
+principal direction,average thickness
+principal direction,frontal compression
+principal direction,near structural elements laterally
+principal direction,source domain in basin
+principal direction,mtd principal direction
+principal direction,permeability increase
+principal direction,chemical effects
+principal direction,surface area
+hs morphology,local fluidization
+hs morphology,bs strong amplitude
+hs morphology,bs ramps
+hs morphology,detached mtd
+hs morphology,average thickness
+hs morphology,frontal compression
+hs morphology,near structural elements laterally
+hs morphology,source domain in basin
+hs morphology,mtd principal direction
+hs morphology,permeability increase
+hs morphology,chemical effects
+hs morphology,surface area
+local fluidization,bs strong amplitude
+local fluidization,bs ramps
+local fluidization,detached mtd
+local fluidization,average thickness
+local fluidization,frontal compression
+local fluidization,near structural elements laterally
+local fluidization,source domain in basin
+local fluidization,mtd principal direction
+local fluidization,permeability increase
+local fluidization,chemical effects
+local fluidization,surface area
+bs strong amplitude,bs ramps
+bs strong amplitude,detached mtd
+bs strong amplitude,average thickness
+bs strong amplitude,frontal compression
+bs strong amplitude,near structural elements laterally
+bs strong amplitude,source domain in basin
+bs strong amplitude,mtd principal direction
+bs strong amplitude,permeability increase
+bs strong amplitude,chemical effects
+bs strong amplitude,surface area
+inducing seismicity,deformed facies distribution
+inducing seismicity,transparent facies distribution
+inducing seismicity,topography confinement downwards
+inducing seismicity,vertical distribution of mtds
+inducing seismicity,upward connection to other mtds
+inducing seismicity,post deposition of turbidites
+bs ramps,detached mtd
+bs ramps,average thickness
+bs ramps,frontal compression
+bs ramps,near structural elements laterally
+bs ramps,source domain in basin
+bs ramps,mtd principal direction
+bs ramps,permeability increase
+bs ramps,chemical effects
+bs ramps,surface area
+detached mtd,average thickness
+detached mtd,frontal compression
+detached mtd,near structural elements laterally
+detached mtd,source domain in basin
+detached mtd,mtd principal direction
+detached mtd,permeability increase
+detached mtd,chemical effects
+detached mtd,surface area
+average thickness,frontal compression
+average thickness,near structural elements laterally
+average thickness,source domain in basin
+average thickness,mtd principal direction
+average thickness,permeability increase
+average thickness,chemical effects
+average thickness,surface area
+frontal compression,near structural elements laterally
+frontal compression,source domain in basin
+frontal compression,mtd principal direction
+frontal compression,permeability increase
+frontal compression,chemical effects
+frontal compression,surface area
+near structural elements laterally,source domain in basin
+near structural elements laterally,mtd principal direction
+near structural elements laterally,permeability increase
+near structural elements laterally,chemical effects
+near structural elements laterally,surface area
+source domain in basin,mtd principal direction
+source domain in basin,permeability increase
+source domain in basin,chemical effects
+source domain in basin,surface area
+mtd principal direction,permeability increase
+mtd principal direction,chemical effects
+mtd principal direction,surface area
+deformed facies distribution,transparent facies distribution
+deformed facies distribution,topography confinement downwards
+deformed facies distribution,vertical distribution of mtds
+deformed facies distribution,upward connection to other mtds
+deformed facies distribution,post deposition of turbidites
+transparent facies distribution,topography confinement downwards
+transparent facies distribution,vertical distribution of mtds
+transparent facies distribution,upward connection to other mtds
+transparent facies distribution,post deposition of turbidites
+permeability increase,chemical effects
+permeability increase,surface area
+chemical effects,surface area
+topography confinement downwards,vertical distribution of mtds
+topography confinement downwards,upward connection to other mtds
+topography confinement downwards,post deposition of turbidites
+vertical distribution of mtds,upward connection to other mtds
+vertical distribution of mtds,post deposition of turbidites
+upward connection to other mtds,post deposition of turbidites

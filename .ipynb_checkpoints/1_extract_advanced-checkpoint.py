@@ -8,12 +8,32 @@ from sentence_transformers import SentenceTransformer, util
 # ================================
 # CONFIGURATION PATHS
 # ================================
-INPUT_FOLDER = "./output_json"
-OUTPUT_FOLDER = "output_graph"
-OUTPUT_FILE = os.path.join(OUTPUT_FOLDER, "knowledge_graph_triplets.json")
-BATCH_SIZE = 32  # smaller batch, safer with SciBERT
+# ================================
+# CONFIGURATION PATHS
+# ================================
+from utils.config_loader import load_config
+cfg = load_config()
+paths = cfg["paths_expanded"]
 
-REFERENCE_KG_PATH = "reference/reference_kg.json"
+# INPUT: folder containing JSON extracted from PDFs
+INPUT_FOLDER = paths["json_output"]
+
+# OUTPUT: file where extracted triplets will be saved
+OUTPUT_FILE = paths["triplets"]
+
+# OUTPUT FOLDER: derived from OUTPUT_FILE
+OUTPUT_FOLDER = os.path.dirname(OUTPUT_FILE)
+
+# Reference KG path
+REFERENCE_KG_PATH = cfg["reference"]["reference_kg"]
+
+
+# Extractor model (SciBERT)
+SCIBERT_MODEL_NAME = cfg["models"]["extractor_model"]
+
+# Batch size (if available)
+BATCH_SIZE = cfg.get("processing", {}).get("batch_size", 32)
+
 
 # ================================
 # MODEL CONFIG

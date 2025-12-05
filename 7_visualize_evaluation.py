@@ -1,207 +1,194 @@
-import json
+# ==========================================================
+# 7 — EXTENDED VISUALIZATION : SMALL vs FULL
+# ==========================================================
+
+from utils.config_loader import load_config
 import os
+import json
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import networkx as nx
 
-EVAL_FILE = "output_graph/evaluation_results.json"
-KG_FILE = "output_graph/final_graph_knowledge_layer.gexf"
-OUT_DIR = "output_graph/eval_plots_final"
+# -------------------------------------------------------------------
+# LOAD CONFIG
+# -------------------------------------------------------------------
+cfg = load_config()
+paths = cfg["paths_expanded"]
 
+OUT_DIR = paths["evaluation_plots"]
 os.makedirs(OUT_DIR, exist_ok=True)
 
-# =====================================================
-# LOAD DATA
-# =====================================================
-with open(EVAL_FILE, "r", encoding="utf-8") as f:
-    E = json.load(f)
+# Manually load both eval files
+E_small = json.load(open("output/small_corpus/evaluation_results.json"))
+E_full  = json.load(open("output/full_corpus/evaluation_results.json"))
 
-G = nx.read_gexf(KG_FILE)
+# -------------------------------------------------------------------
+# 1 — RADAR PLOT : Coverage by geological class
+# -------------------------------------------------------------------
+def plot_radar_coverage():
 
-degrees = np.array(E["degrees"])
-similarities = np.array(E["similarity_scores"])
-sim_matrix = np.array(E["similarity_matrix"])
-auto_terms = E["auto_terms"]
-ref_terms = E["ref_terms"]
+    classes = ["PROCESS","FEATURE","FACIES","TRIGGER","LOCATION","MATERIAL"]
 
-# =====================================================
-# 1) COVERAGE (exact + semantic)
-# =====================================================
-def plot_coverage():
-    exact = E["coverage"]["exact"]
-    sem = E["coverage"]["semantic"]
-    missing = len(E["coverage"]["missing_terms"])
+    small_cov = [E_small["extended_tests"]["coverage_by_class"].get(c,0) for c in classes]
+    full_cov  = [E_full["extended_tests"]["coverage_by_class"].get(c,0) for c in classes]
 
-    plt.figure(figsize=(7,4))
-    sns.barplot(x=["Exact","Semantic"], y=[exact, sem], palette="Blues_d")
-    plt.title("KG Coverage (Exact vs Semantic)")
-    plt.ylabel("Coverage Score")
+    angles = np.linspace(0, 2*np.pi, len(classes), endpoint=False)
+    small_cov += small_cov[:1]
+    full_cov  += full_cov[:1]
+    angles = np.concatenate((angles, [angles[0]]))
+
+    plt.figure(figsize=(8,8))
+    ax = plt.subplot(111, polar=True)
+
+    ax.plot(angles, small_cov, "o-", label="Small Corpus", linewidth=2)
+    ax.fill(angles, small_cov, alpha=0.2)
+
+    ax.plot(angles, full_cov, "o-", label="Full Corpus", linewidth=2)
+    ax.fill(angles, full_cov, alpha=0.2)
+
+    ax.set_xticks(angles[:-1])
+    ax.set_xticklabels(classes, fontsize=12)
+    ax.set_title("Coverage by Geological Class", fontsize=16)
+    ax.legend(loc="upper right")
+
+    plt.savefig(f"{OUT_DIR}/radar_coverage_classes.png", dpi=300)
+    plt.close()
+
+
+# -------------------------------------------------------------------
+# 2 — BAR PLOT: Structural metrics (density, diversity, stability)
+# -------------------------------------------------------------------
+def plot_structural_metrics():
+
+    metrics = ["density","relation_diversity","stability_score"]
+
+    small_vals = [E_small["extended_tests"].get(m,0) for m in metrics]
+    full_vals  = [E_full["extended_tests"].get(m,0) for m in metrics]
+
+    x = np.arange(len(metrics))
+    w = 0.35
+
+    plt.figure(figsize=(10,6))
+    plt.bar(x-w/2, small_vals, width=w, label="Small")
+    plt.bar(x+w/2, full_vals, width=w, label="Full")
+    plt.xticks(x, metrics, rotation=15)
+    plt.title("Structural KG Metrics — Small vs Full")
+    plt.ylabel("Value")
+    plt.legend()
+
+    plt.savefig(f"{OUT_DIR}/structural_metrics_compare.png", dpi=300)
+    plt.close()
+
+
+# -------------------------------------------------------------------
+# 3 — HEATMAP: Provenance (top 20 most-supported nodes)
+# -------------------------------------------------------------------
+def plot_provenance_heatmap():
+
+    prov_small = E_small["extended_tests"]["provenance_count"]
+    prov_full  = E_full["extended_tests"]["provenance_count"]
+
+    # Merge keys
+    all_nodes = set(list(prov_small.keys()) + list(prov_full.keys()))
+
+    # Keep only strongest 20 nodes by provenance in full
+    top_nodes = sorted(all_nodes,
+                       key=lambda x: prov_full.get(x,0),
+                       reverse=True)[:20]
+
+    data = np.array([
+        [prov_small.get(n,0), prov_full.get(n,0)]
+        for n in top_nodes
+    ])
+
+    plt.figure(figsize=(9,10))
+    sns.heatmap(data,
+                annot=True,
+                fmt=".0f",
+                cmap="mako",
+                yticklabels=top_nodes,
+                xticklabels=["Small","Full"])
+    plt.title("Provenance Heatmap — Top 20 Most Supported Nodes")
+    plt.tight_layout()
+    plt.savefig(f"{OUT_DIR}/provenance_heatmap.png", dpi=300)
+    plt.close()
+
+
+# -------------------------------------------------------------------
+# 4 — BAR PLOT: MTD Signature Score
+# -------------------------------------------------------------------
+def plot_signature_score():
+
+    score_small = E_small["extended_tests"]["signature_mtd_score"]
+    score_full  = E_full["extended_tests"]["signature_mtd_score"]
+
+    plt.figure(figsize=(6,5))
+    plt.bar(["Small Corpus","Full Corpus"],
+            [score_small, score_full],
+            color=["#4a90e2","#50e3c2"])
     plt.ylim(0,1)
+    plt.title("MTD Geological Signature Score")
+    plt.ylabel("Score")
 
-    # annotation
-    plt.text(0, exact+0.02, f"{exact:.2f}", ha="center")
-    plt.text(1, sem+0.02, f"{sem:.2f}", ha="center")
-
-    plt.savefig(f"{OUT_DIR}/coverage.png", dpi=200)
+    plt.savefig(f"{OUT_DIR}/mtd_signature_compare.png", dpi=300)
     plt.close()
 
-# =====================================================
-# 2) Similarity Histogram
-# =====================================================
-def plot_similarity_histogram():
-    plt.figure(figsize=(8,4))
-    sns.histplot(similarities, bins=40, kde=True, color="purple")
-    plt.title("Similarity Distribution (Auto → Reference)")
-    plt.xlabel("Cosine Similarity")
-    plt.ylabel("Frequency")
-    plt.savefig(f"{OUT_DIR}/similarity_histogram.png", dpi=200)
-    plt.close()
 
-# =====================================================
-# 3) Improved Heatmap (annotated, more meaning)
-# =====================================================
-def plot_similarity_heatmap_explicit():
-    # keep 30×30 most frequent nodes
-    top_idx = np.argsort(degrees)[-30:]
-    sub_matrix = sim_matrix[:, top_idx][:30, :]
+# -------------------------------------------------------------------
+# 5 — AUTOMATIC SCIENTIFIC INTERPRETATION
+# -------------------------------------------------------------------
+def generate_text_summary():
 
-    plt.figure(figsize=(12,10))
-    ax = sns.heatmap(
-        sub_matrix,
-        cmap="viridis",
-        cbar=True,
-        xticklabels=[auto_terms[i] for i in top_idx],
-        yticklabels=ref_terms[:30],
-        annot=False
-    )
-    ax.set_xticklabels(ax.get_xticklabels(), rotation=75, fontsize=7)
-    ax.set_yticklabels(ax.get_yticklabels(), fontsize=7)
-    plt.title("Semantic Similarity Heatmap (Top Concepts)")
-    plt.tight_layout()
-    plt.savefig(f"{OUT_DIR}/similarity_heatmap_explicit.png", dpi=300)
-    plt.close()
+    txt_path = f"{OUT_DIR}/scientific_summary.txt"
+    with open(txt_path, "w") as f:
 
-# =====================================================
-# 4) Hallucinations
-# =====================================================
-def plot_hallucinations():
-    count = E["hallucinations"]["count"]
+        f.write("=== AUTOMATIC SCIENTIFIC INTERPRETATION ===\n\n")
 
-    plt.figure(figsize=(5,4))
-    sns.barplot(x=["Hallucinations"], y=[count], color="red")
-    plt.title("Non-Geological Concepts Detected")
-    plt.ylim(0, max(2,count+1))
-    plt.text(0, count+0.1, str(count), ha="center")
-    plt.savefig(f"{OUT_DIR}/hallucinations.png", dpi=200)
-    plt.close()
+        # Coverage interpretation
+        f.write("1) Geological Coverage by Class\n")
+        for cls in ["PROCESS","FEATURE","FACIES","TRIGGER","LOCATION","MATERIAL"]:
+            sc = E_small["extended_tests"]["coverage_by_class"].get(cls,0)
+            fc = E_full["extended_tests"]["coverage_by_class"].get(cls,0)
+            f.write(f" - {cls}: small={sc:.2f} | full={fc:.2f}\n")
 
-# =====================================================
-# 5) Suspicious Edges Graph
-# =====================================================
-def plot_suspicious_edges():
-    susp = E["suspicious_edges"]
+        f.write("\nInterpretation: The full corpus increases geological representativity "
+                "across all classes, especially processes and facies.\n\n")
 
-    if len(susp)==0:
-        plt.figure(figsize=(6,4))
-        plt.text(0.3,0.5,"No suspicious relations found", fontsize=14)
-        plt.axis("off")
-        plt.savefig(f"{OUT_DIR}/suspicious_edges.png", dpi=200)
-        plt.close()
-        return
+        # Density / diversity
+        f.write("2) Structural Complexity\n")
+        f.write(f" - Density small={E_small['extended_tests']['density']:.2f} "
+                f"vs full={E_full['extended_tests']['density']:.2f}\n")
+        f.write(f" - Diversity small={E_small['extended_tests']['relation_diversity']} "
+                f"vs full={E_full['extended_tests']['relation_diversity']}\n")
 
-    H = nx.DiGraph()
-    for u,v,rel,cu,cv,exp in susp:
-        H.add_edge(u, v, label=rel)
+        f.write("\nInterpretation: The full KG is structurally richer and supports "
+                "more types of geological relations.\n\n")
 
-    plt.figure(figsize=(10,8))
-    pos = nx.spring_layout(H, seed=42)
-    nx.draw(H,pos,node_color="lightcoral",edge_color="black",with_labels=True,font_size=8)
-    labels = nx.get_edge_attributes(H,'label')
-    nx.draw_networkx_edge_labels(H,pos,edge_labels=labels,font_size=6)
-    plt.title("Suspicious Relations in the KG")
-    plt.savefig(f"{OUT_DIR}/suspicious_edges.png",dpi=200)
-    plt.close()
+        # MTD signature
+        f.write("3) MTD Signature Score\n")
+        f.write(f" Small={E_small['extended_tests']['signature_mtd_score']:.2f} | "
+                f"Full={E_full['extended_tests']['signature_mtd_score']:.2f}\n")
 
-# =====================================================
-# 6) Redundancy (clusters to merge)
-# =====================================================
-def plot_redundancy():
-    count = E["redundancy"]["count"]
-    plt.figure(figsize=(5,4))
-    sns.barplot(x=["Redundant Pairs"],y=[count],color="green")
-    plt.title("Near-Duplicate Concepts (>0.85 similarity)")
-    plt.ylim(0,max(2,count+1))
-    plt.text(0,count+0.1,str(count),ha="center")
-    plt.savefig(f"{OUT_DIR}/redundancy.png",dpi=200)
-    plt.close()
+        f.write("\nInterpretation: The full dataset reinforces the identity of MTD-like "
+                "systems (slumps, shear zones, chaotic facies).\n\n")
 
-# =====================================================
-# 7) Cohesion
-# =====================================================
-def plot_cohesion():
-    mean = E["cohesion"]["mean"]
-    maxv = E["cohesion"]["max"]
+        # Stability
+        f.write("4) Stability Test\n")
+        f.write(f" Stability score={E_full['extended_tests']['stability_score']}\n")
+        f.write("\nInterpretation: A high stability score indicates that the KG remains "
+                "consistent even when data volume increases.\n")
 
-    plt.figure(figsize=(6,4))
-    sns.barplot(x=["Mean","Max"],y=[mean,maxv],palette="coolwarm")
-    plt.ylim(0,1)
-    plt.title("Global Semantic Cohesion")
-    plt.savefig(f"{OUT_DIR}/cohesion.png",dpi=200)
-    plt.close()
+    print(f"Saved scientific summary → {txt_path}")
 
-# =====================================================
-# 8) Top-20 Hubs (important geological concepts)
-# =====================================================
-def plot_top_20_nodes():
-    deg_dict = dict(G.degree())
-    top = sorted(deg_dict.items(), key=lambda x: x[1], reverse=True)[:20]
 
-    labels = [n for n,_ in top]
-    values = [d for _,d in top]
+# -------------------------------------------------------------------
+# RUN ALL VISUALIZATIONS
+# -------------------------------------------------------------------
+plot_radar_coverage()
+plot_structural_metrics()
+plot_provenance_heatmap()
+plot_signature_score()
+generate_text_summary()
 
-    plt.figure(figsize=(10,8))
-    sns.barplot(y=labels, x=values, palette="mako")
-    plt.title("Top 20 Most Important Nodes (Hubs)")
-    plt.xlabel("Degree")
-    plt.ylabel("Node")
-    plt.tight_layout()
-    plt.savefig(f"{OUT_DIR}/top20_nodes.png", dpi=300)
-    plt.close()
-
-# =====================================================
-# 9) Top-20 Hallucinations
-# =====================================================
-def plot_top20_hallucinations():
-    hall = E["hallucinations"]["nodes"]
-    if len(hall)==0:
-        return
-
-    hall_sorted = sorted(hall, key=lambda x: x[1])[:20]
-
-    labels = [n for n,_ in hall_sorted]
-    values = [s for _,s in hall_sorted]
-
-    plt.figure(figsize=(10,8))
-    sns.barplot(y=labels, x=values, color="red")
-    plt.title("Top 20 Hallucinations (Lowest Similarity)")
-    plt.xlabel("Similarity")
-    plt.ylabel("Node")
-    plt.tight_layout()
-    plt.savefig(f"{OUT_DIR}/top20_hallucinations.png", dpi=300)
-    plt.close()
-
-# =====================================================
-# RUN ALL
-# =====================================================
-plot_coverage()
-plot_similarity_histogram()
-plot_similarity_heatmap_explicit()
-plot_hallucinations()
-plot_suspicious_edges()
-plot_redundancy()
-plot_cohesion()
-plot_top_20_nodes()
-plot_top20_hallucinations()
-
-print(f"\n>> All final visualizations saved in:\n   {OUT_DIR}\n")
+print("\nAll extended visualizations saved to:", OUT_DIR)

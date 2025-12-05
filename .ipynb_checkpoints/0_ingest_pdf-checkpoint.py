@@ -5,8 +5,13 @@ import hashlib # Pour générer l'ID unique
 from tqdm import tqdm
 
 # --- Configuration ---
-INPUT_FOLDER = "./data"
-OUTPUT_FOLDER = "./output_json"
+from utils.config_loader import load_config
+cfg = load_config()
+paths = cfg["paths_expanded"]
+
+INPUT_FOLDER = paths["pdf_folder"]        
+OUTPUT_FOLDER = paths["json_output"]      
+
 HEADER_MARGIN = 60
 FOOTER_MARGIN = 60
 

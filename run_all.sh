@@ -11,6 +11,9 @@ if [ -d "venv" ]; then
     source venv/bin/activate
 fi
 
+
+echo ">>> Running pipeline for dataset: $(jq -r .dataset_name config/pipeline_config.json)"
+
 echo ""
 echo "------------------------------------------------------"
 echo " STEP 0 — Extract PDFs → JSON"

@@ -8,8 +8,16 @@ import numpy as np
 # ============================================
 # CONFIGURATION
 # ============================================
-INPUT = "output_graph/final_graph_knowledge_layer.gexf"
-OUT = "output_graph/visuals"
+from utils.config_loader import load_config
+cfg = load_config()
+paths = cfg["paths_expanded"]
+
+# Input graph (ontology + enriched relations)
+INPUT = paths["graph_knowledge"]
+
+# Output folder for visualization
+OUT = paths["evaluation_plots"]  # or create a separate key: graph_visuals
+
 os.makedirs(OUT, exist_ok=True)
 
 print("Loading graph…")

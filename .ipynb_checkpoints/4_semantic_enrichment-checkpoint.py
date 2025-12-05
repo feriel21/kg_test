@@ -3,14 +3,26 @@ import os
 import csv
 import json
 
-# ================================
-# CONFIG
-# ================================
-INPUT_GEXF = "output_graph/final_graph_clean_final.gexf"
-OUTPUT_GEXF = "output_graph/final_graph_knowledge_layer.gexf"
-OUTPUT_FACTS = "output_graph/geological_facts.csv"
+# ============================
+# LOAD CONFIG
+# ============================
+from utils.config_loader import load_config
+cfg = load_config()
+paths = cfg["paths_expanded"]
 
-REFERENCE_KG_PATH = "reference/reference_kg.json"
+# Input graph (cleaned)
+INPUT_GEXF = paths["graph_clean"]
+
+# Output graph (knowledge layer)
+OUTPUT_GEXF = paths["graph_knowledge"]
+
+# CSV export path
+OUTPUT_FACTS = paths["facts_csv"]
+
+# Reference ontology path (MANDATORY)
+REFERENCE_KG_PATH = cfg["reference"]["reference_kg"]
+
+
 
 # ================================
 # LOAD REFERENCE ONTOLOGY

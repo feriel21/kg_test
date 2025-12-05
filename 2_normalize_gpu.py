@@ -6,11 +6,30 @@ from tqdm import tqdm
 import os
 import re
 from collections import Counter
+# ---------------------------------------------------------
+# --- CONFIGURATION PATHS ---------------------------------
+# ---------------------------------------------------------
+from utils.config_loader import load_config
+cfg = load_config()
+paths = cfg["paths_expanded"]
 
-# ---------------------------------------------------------
-# --- LOAD GEOLOGICAL REFERENCE GRAPH (NEW SECTION) -------
-# ---------------------------------------------------------
-REFERENCE_KG_PATH = "reference/reference_kg.json"
+# Input: triplets file (JSON produced by 1_extract_advanced.py)
+INPUT_FILE = paths["triplets"]
+
+# Output: graph files
+OUTPUT_GRAPH_FILE = paths["graph_modular"]
+OUTPUT_FOLDER = os.path.dirname(OUTPUT_GRAPH_FILE)
+
+# Clustering log
+CLUSTERS_LOG_FILE = paths["clusters_log"]
+
+# Reference KG
+REFERENCE_KG_PATH = cfg["reference"]["reference_kg"]
+
+
+
+SIMILARITY_THRESHOLD = 0.90
+MODEL_NAME = 'all-MiniLM-L6-v2'
 
 if os.path.exists(REFERENCE_KG_PATH):
     with open(REFERENCE_KG_PATH, "r", encoding="utf-8") as f:
@@ -24,20 +43,9 @@ else:
     REF_ONTOLOGY = {}
 # ---------------------------------------------------------
 
-# --- IMPORT DOMAIN CONFIGURATION ---
-# This ensures consistency with the Extraction Step
-from domain_config import CRITICAL_DESCRIPTORS, PROTECTED_TERMS, RELATION_MAP
 
-# --- CONFIGURATION PATHS ---
-INPUT_FILE = "output_graph/knowledge_graph_triplets.json"
-OUTPUT_FOLDER = "output_graph"
-OUTPUT_GRAPH_FILE = os.path.join(OUTPUT_FOLDER, "final_graph_modular.gexf")
-CLUSTERS_LOG_FILE = os.path.join(OUTPUT_FOLDER, "clusters_log_modular.txt")
 
-# Similarity Threshold (0.90 = High Precision)
-# We want to distinguish "Sediment" from "Sedimentation"
-SIMILARITY_THRESHOLD = 0.90
-MODEL_NAME = 'all-MiniLM-L6-v2'
+
 
 
 def sanitize_text(text):
@@ -55,44 +63,22 @@ def sanitize_text(text):
 
 def smart_simplify_label(text):
     """
-    Applies intelligent simplification rules defined in domain_config.py.
-    Goal: Keep technical terms precise (e.g. 'Chaotic Facies') but shorten generic ones.
+    Automatic label simplification WITHOUT domain_config.
+    - Keeps short labels unchanged
+    - For long multi-word labels: keeps last word (e.g., 'large submarine landslide' → 'landslide')
     """
-    text_lower = text.lower()
-
-    # Rule 1: Protected Terms (Never change these)
-    if text_lower in PROTECTED_TERMS:
-        return text
-
     words = text.split()
-
-    # Rule 2: Critical Descriptors (Allow longer names if technical)
-    # Example: 'chaotic seismic facies' (3 words) -> Kept because 'facies' is critical
-    is_critical = any(crit in text_lower for crit in CRITICAL_DESCRIPTORS)
-
-    if is_critical:
-        # If extremely long (>4 words), keep only the last 3 words
-        if len(words) > 4:
-            return " ".join(words[-3:])
-        return text
-
-    # Rule 3: General/Generic Terms (Cut to 1 word)
-    # Example: 'large submarine landslide' -> 'landslide'
     if len(words) > 3:
-        return words[-1]
-
+        return words[-1]  # most meaningful term
     return text
 
 
 def normalize_relation(verb):
     """
-    Maps raw verbs to the Ontology defined in domain_config.py.
+    Minimal automatic relation cleaning.
     """
-    verb = verb.lower()
-    for category, keywords in RELATION_MAP.items():
-        if any(k in verb for k in keywords):
-            return category
-    return "RELATED_TO"  # Default fallback
+    verb = verb.lower().strip()
+    return verb.replace(" ", "_").upper()
 
 
 def load_data():

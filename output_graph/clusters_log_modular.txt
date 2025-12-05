@@ -1,3 +1,0 @@
-Canonical: [max. horizontal length] merged: ['max. horizontal length, if attached', 'max. horizontal length']
-Canonical: [stop] merged: ['trigger turbidity current at stop', 'triggering turbidity current at stop']
-Canonical: [mtds] merged: ['vertical distribution of mtds', 'lateral distribution of mtds']
