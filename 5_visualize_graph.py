@@ -1,104 +1,112 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+STEP 4 — GEOSCIENCE-AWARE GRAPH VISUALIZATION (STYLE PAULINE LE BOUTEILLER)
+
+Produces:
+    - Full graph (clean, minimal, color-coded, readable)
+    - One subgraph per main category for comparison
+    - Additional bar charts / heatmaps (separate from graph)
+"""
+
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+import seaborn as sns
 import networkx as nx
-import os
 import numpy as np
+import pandas as pd
+import os
 
-# ============================================
-# CONFIGURATION
-# ============================================
 from utils.config_loader import load_config
 cfg = load_config()
 paths = cfg["paths_expanded"]
 
-# Input graph (ontology + enriched relations)
 INPUT = paths["graph_knowledge"]
-
-# Output folder for visualization
-OUT = paths["evaluation_plots"]  # or create a separate key: graph_visuals
-
+OUT = paths["evaluation_plots"]
 os.makedirs(OUT, exist_ok=True)
 
-print("Loading graph…")
+print("Loading enriched graph...")
 G = nx.read_gexf(INPUT)
 
-# Fix classes
-for n in G.nodes():
-    if G.nodes[n].get("class") is None:
-        G.nodes[n]["class"] = "OTHER"
+# --------------------------------------------------------
+# FIX CATEGORIES (STEP2 categories, enforced)
+# --------------------------------------------------------
+VALID_CATS = {
+    "MTD_descriptors",
+    "Mass_movement_properties",
+    "Environmental_controls",
+    "UNCLASSIFIED",
+}
 
-# Keep largest component
+for n, data in G.nodes(data=True):
+    cat = data.get("category", "UNCLASSIFIED")
+    if cat not in VALID_CATS:
+        cat = "UNCLASSIFIED"
+    data["category"] = cat
+
+# --------------------------------------------------------
+# COLORS — Pauline style
+# --------------------------------------------------------
+CAT_COLORS = {
+    "MTD_descriptors": "#1f78b4",      # blue
+    "Mass_movement_properties": "#e31a1c",   # red
+    "Environmental_controls": "#33a02c",      # green
+    "UNCLASSIFIED": "#bdbdbd",                # grey
+}
+
+REL_COLORS = {
+    "FORMS": "#e31a1c",         # red
+    "INFLUENCES": "#33a02c",    # green
+    "SHAPES": "#1f78b4",        # blue
+    "RESPONDS_TO": "#fb9a99",   # pink
+    "RELATED_TO": "#636363",    # grey
+}
+
+# --------------------------------------------------------
+# KEEP LARGEST COMPONENT
+# --------------------------------------------------------
 UG = G.to_undirected()
 largest = max(nx.connected_components(UG), key=len)
 G = G.subgraph(largest).copy()
 
-print(f"Nodes: {G.number_of_nodes()} | Edges: {G.number_of_edges()}")
+print(f"Graph nodes: {G.number_of_nodes()} | edges: {G.number_of_edges()}")
 
-# ============================================
-# COLOR MAPS
-# ============================================
-CLASS_COLORS = {
-    "PROCESS":   "#E74C3C",
-    "LOCATION":  "#3498DB",
-    "FEATURE":   "#1ABC9C",
-    "FACIES":    "#E67E22",
-    "TRIGGER":   "#8E44AD",
-    "MATERIAL":  "#8B4513",
-    "OTHER":     "#7F8C8D"
-}
-
-# DISTINCT edge relation palette (10-color tableau)
-PALETTE = [
-    "#4E79A7", "#F28E2B", "#E15759", "#76B7B2",
-    "#59A14F", "#EDC948", "#B07AA1", "#FF9DA7",
-    "#9C755F", "#BAB0AC"
-]
-
-RELATIONS = sorted({G.edges[u, v].get("label", "related_to") for u, v in G.edges()})
-REL_COLORS = {rel: PALETTE[i % len(PALETTE)] for i, rel in enumerate(RELATIONS)}
-
-# ============================================
-# DEGREE & NODE SIZE
-# ============================================
-degree_dict = dict(G.degree())
-max_degree = max(degree_dict.values())
-
-node_colors = [
-    CLASS_COLORS.get(G.nodes[n].get("class", "OTHER"), "#7F8C8D")
-    for n in G.nodes()
-]
-
-node_sizes = [
-    800 + (degree_dict[n] / max_degree) * 9000
-    for n in G.nodes()
-]
-
-# ============================================
-# LAYOUT – HIGH REPELLING (AÉRATION MAXIMALE)
-# ============================================
-print("Computing high-repulsion layout…")
-
+# --------------------------------------------------------
+# LAYOUT — Clean and airy (similar to Pauline’s publication)
+# --------------------------------------------------------
 pos = nx.spring_layout(
     G,
-    k=90,  
-    iterations=600,
+    k=65,              # high repulsion
+    iterations=500,
     seed=42,
-    scale=1000
 )
 
-# ============================================
-# FULL GRAPH VISUALIZATION
-# ============================================
-plt.figure(figsize=(46, 40))
+# Node sizes by degree
+deg = dict(G.degree())
+max_deg = max(deg.values()) if deg else 1
+node_sizes = [700 + (deg[n] / max_deg) * 5000 for n in G.nodes()]
 
-edge_colors = [REL_COLORS[G.edges[u, v].get("label", "related_to")] for u, v in G.edges()]
+# Node colors by category
+node_colors = [CAT_COLORS[G.nodes[n]["category"]] for n in G.nodes()]
+
+# Edge colors
+edge_colors = [
+    REL_COLORS.get(G.edges[u, v].get("label", "RELATED_TO"), "#636363")
+    for u, v in G.edges()
+]
+
+# --------------------------------------------------------
+# FULL GRAPH (STYLE PAULINE)
+# --------------------------------------------------------
+plt.figure(figsize=(48, 40))
 
 nx.draw_networkx_edges(
     G,
     pos,
     edge_color=edge_colors,
-    width=1.0,
+    width=1.2,
     alpha=0.35
 )
 
@@ -107,235 +115,163 @@ nx.draw_networkx_nodes(
     pos,
     node_size=node_sizes,
     node_color=node_colors,
-    edgecolors="white",
-    linewidths=1.2,
-    alpha=0.97
+    edgecolors="black",
+    linewidths=0.8,
+    alpha=0.95
 )
 
-for n, (x, y) in pos.items():
-    plt.text(
-        x, y, n,
-        fontsize=16,
-        fontweight="bold",
-        color="black",
-        ha="center",
-        va="center",
-        bbox=dict(
-            facecolor="white",
-            alpha=0.85,
-            edgecolor="none",
-            pad=0.30
-        )
-    )
-
-# Legends
-# Node classes
-for cls, color in CLASS_COLORS.items():
-    plt.scatter([], [], color=color, label=cls, s=300)
-
-plt.legend(
-    loc="upper left",
-    bbox_to_anchor=(1.02, 1.0),
-    fontsize=20,
-    title="Node Classes",
-    title_fontsize=24
-)
-
-# Edge relations
-for rel, col in REL_COLORS.items():
-    plt.plot([], [], color=col, linewidth=4, label=rel)
-
-plt.legend(
-    loc="upper left",
-    bbox_to_anchor=(1.02, 0.48),
-    fontsize=18,
-    title="Edge Relations",
-    title_fontsize=22
-)
-
-plt.title("Geological Knowledge Graph — Full Labels & Colored Relations",
-          fontsize=34, fontweight="bold")
-
-plt.axis("off")
-plt.tight_layout()
-plt.savefig(f"{OUT}/full_graph_labels_relations.png", dpi=550, bbox_inches="tight")
-plt.close()
-
-print(" full_graph_labels_relations.png saved")
-
-# ======================================================
-# 2) DEGREE DISTRIBUTION
-# ======================================================
-plt.figure(figsize=(12, 7))
-plt.hist(list(degree_dict.values()), bins=20, color="#9B59B6", alpha=0.8)
-plt.title("Degree Distribution", fontsize=20)
-plt.xlabel("Degree (# Relations)", fontsize=16)
-plt.ylabel("Frequency", fontsize=16)
-plt.grid(alpha=0.3)
-plt.savefig(f"{OUT}/degree_distribution.png", dpi=350)
-plt.close()
-
-print(" degree_distribution.png saved")
-
-# ======================================================
-# 3) TOP HUBS
-# ======================================================
-sorted_deg = sorted(degree_dict.items(), key=lambda x: x[1], reverse=True)[:20]
-nodes_top, deg_top = zip(*sorted_deg)
-
-plt.figure(figsize=(12, 8))
-plt.barh(nodes_top[::-1], deg_top[::-1], color="#2980B9")
-plt.title("Top 20 Most Connected Geological Concepts", fontsize=20)
-plt.xlabel("Degree (# Relations)", fontsize=16)
-plt.tight_layout()
-plt.savefig(f"{OUT}/top_hubs.png", dpi=350)
-plt.close()
-
-print(" top_hubs.png saved")
-
-# ======================================================
-# 4) PARETO CURVE
-# ======================================================
-sorted_all = sorted(degree_dict.values(), reverse=True)
-cum = np.cumsum(sorted_all) / sum(sorted_all)
-
-plt.figure(figsize=(12, 7))
-plt.plot(cum, color="#C0392B", linewidth=3)
-plt.axhline(0.80, color="black", linestyle="--")
-plt.axvline(int(len(cum) * 0.20), color="black", linestyle="--")
-plt.title("Pareto Curve — 80/20 Structure", fontsize=20)
-plt.xlabel("Top X% Nodes", fontsize=16)
-plt.ylabel("Cumulative Contribution", fontsize=16)
-plt.grid(alpha=0.3)
-plt.savefig(f"{OUT}/pareto_curve.png", dpi=350)
-plt.close()
-
-print(" pareto_curve.png saved")
-
-# ======================================================
-# 5) SUBGRAPH OF TOP 25 GEO-NODES
-#    → Processes / Features / Trigger / Facies / Location / Material
-#    → Colored edges by relation type + legend
-#    → Colored nodes by geological class + legend
-# ======================================================
-
-TARGET_CLASSES = {"PROCESS", "FEATURE", "TRIGGER", "LOCATION", "FACIES", "MATERIAL"}
-
-# --- Filter geologic nodes ---
-filtered_nodes = [
-    n for n in G.nodes()
-    if G.nodes[n].get("class", "OTHER") in TARGET_CLASSES
-]
-
-# --- Sort by degree (importance) ---
-sorted_deg_filtered = sorted(
-    [(n, degree_dict[n]) for n in filtered_nodes],
-    key=lambda x: x[1],
-    reverse=True
-)
-
-# --- Select top 25 ---
-top25 = [n for n, _ in sorted_deg_filtered[:25]]
-
-# Subgraph
-G_small = G.subgraph(top25).copy()
-
-print(f"Top-25 subgraph: {len(G_small.nodes())} nodes, {len(G_small.edges())} edges")
-
-# Layout
-pos_small = nx.spring_layout(
-    G_small,
-    k=2.2,
-    iterations=350,
-    seed=42
-)
-
-# Sizes
-node_sizes_small = [
-    900 + (degree_dict[n] / max_degree) * 9000
-    for n in G_small.nodes()
-]
-
-# Colors (class-based)
-node_colors_small = [
-    CLASS_COLORS.get(G_small.nodes[n].get("class", "OTHER"), "#7F8C8D")
-    for n in G_small.nodes()
-]
-
-# Edge colors
-edge_colors_small = [
-    REL_COLORS[G_small.edges[u, v].get("label", "related_to")]
-    for u, v in G_small.edges()
-]
-
-# ======================================================
-# PLOT
-# ======================================================
-plt.figure(figsize=(30, 26))
-
-# Edges
-nx.draw_networkx_edges(
-    G_small, pos_small,
-    edge_color=edge_colors_small,
-    width=2.3,
-    alpha=0.85
-)
-
-# Nodes
-nx.draw_networkx_nodes(
-    G_small, pos_small,
-    node_size=node_sizes_small,
-    node_color=node_colors_small,
-    edgecolors="white",
-    linewidths=1.5,
-    alpha=0.96
-)
-
-# Labels (big bold)
 nx.draw_networkx_labels(
-    G_small, pos_small,
+    G,
+    pos,
     font_size=18,
     font_weight="bold",
     font_color="black"
 )
 
-# ======================================================
-# LEGENDS
-# ======================================================
-
-# --- Legend 1 : Edge relations ---
-for rel, col in REL_COLORS.items():
-    plt.plot([], [], color=col, linewidth=5, label=rel)
-
-plt.legend(
-    loc="upper left",
-    bbox_to_anchor=(1.02, 1.0),
-    fontsize=15,
-    title="Edge Relations",
-    title_fontsize=18
-)
-
-# --- Legend 2 : Node classes (geoscience) ---
-for cls in TARGET_CLASSES:
-    plt.scatter([], [], color=CLASS_COLORS[cls], s=350, label=cls)
-
-plt.legend(
-    loc="upper left",
-    bbox_to_anchor=(1.02, 0.55),
-    fontsize=15,
-    title="Node Classes",
-    title_fontsize=18
-)
-
-# ======================================================
-# SAVE
-# ======================================================
-plt.title("Top 25 Geological Concepts — Processes, Features, Triggers, Facies, Location, Material",
-          fontsize=30, fontweight="bold")
+plt.title("Full Geological Knowledge Graph (Pauline-style)", fontsize=40, fontweight="bold")
 plt.axis("off")
-
 plt.tight_layout()
-plt.savefig(f"{OUT}/subgraph_top25_geo.png", dpi=520, bbox_inches="tight")
+plt.savefig(f"{OUT}/full_graph_pauline_style.png", dpi=520)
+plt.close()
+print("✔ Saved: full_graph_pauline_style.png")
+
+# --------------------------------------------------------
+# POSTER SUBGRAPH — ONE SINGLE CLEAN, READABLE GRAPH
+# --------------------------------------------------------
+print("Building poster-ready subgraph...")
+
+# Centrality metrics
+deg = dict(G.degree())
+num_nodes = G.number_of_nodes()
+bet = nx.betweenness_centrality(
+    G,
+    k=min(200, max(10, num_nodes)),  # min(200, nb de nodes), mais au moins 10
+    normalized=True,
+    seed=42
+)
+
+
+freq = {n: G.nodes[n].get("frequency", 1) for n in G.nodes()}
+
+def get_top_nodes(category, k=10):
+    nodes = [n for n in G.nodes() if G.nodes[n]["category"] == category]
+    if not nodes:
+        return []
+    scored = [
+        (n, 0.45*deg[n] + 0.35*freq[n] + 0.20*bet[n])
+        for n in nodes
+    ]
+    scored_sorted = sorted(scored, key=lambda x: x[1], reverse=True)
+    return [n for n, _ in scored_sorted[:k]]
+
+# Select 10 best from each category
+top_desc = get_top_nodes("MTD_descriptors", 10)
+top_prop = get_top_nodes("Mass_movement_properties", 10)
+top_ctrl = get_top_nodes("Environmental_controls", 10)
+
+poster_nodes = set(top_desc + top_prop + top_ctrl)
+
+# Build subgraph
+PG = G.subgraph(poster_nodes).copy()
+
+# Remove isolated nodes
+PG.remove_nodes_from([n for n, d in PG.degree() if d == 0])
+
+print(f"Poster subgraph → {PG.number_of_nodes()} nodes | {PG.number_of_edges()} edges")
+
+# Layout
+pos_p = nx.spring_layout(PG, k=4.5, iterations=350, seed=42)
+
+# Node styling
+node_colors_p = [CAT_COLORS[PG.nodes[n]["category"]] for n in PG.nodes()]
+node_sizes_p = [
+    1600 + (deg[n] / max(deg.values())) * 8000
+    for n in PG.nodes()
+]
+
+# Edge colors
+edge_colors_p = [
+    REL_COLORS.get(PG.edges[u, v].get("label", "RELATED_TO"), "#636363")
+    for u, v in PG.edges()
+]
+
+plt.figure(figsize=(40, 32))
+
+nx.draw_networkx_edges(
+    PG, pos_p,
+    width=3.0,
+    alpha=0.65,
+    edge_color=edge_colors_p
+)
+
+nx.draw_networkx_nodes(
+    PG, pos_p,
+    node_size=node_sizes_p,
+    node_color=node_colors_p,
+    edgecolors="black",
+    linewidths=1.5,
+    alpha=0.98
+)
+
+nx.draw_networkx_labels(
+    PG, pos_p,
+    font_size=22,
+    font_weight="bold",
+    font_color="black"
+)
+
+plt.title("Poster Subgraph — Key Geological Concepts & Relations",
+          fontsize=38, fontweight="bold")
+plt.axis("off")
+plt.tight_layout()
+plt.savefig(f"{OUT}/poster_subgraph.png", dpi=520)
 plt.close()
 
-print(" subgraph_top25_geo.png saved (geoscience-aware)")
+print("✔ Saved poster_subgraph.png")
+
+# --------------------------------------------------------
+# EXTRA FIGURES (BAR CHARTS & HEATMAPS)
+# --------------------------------------------------------
+# Frequency bar chart
+freq = {n: G.nodes[n].get("frequency", 1) for n in G.nodes()}
+top30 = sorted(freq.items(), key=lambda x: x[1], reverse=True)[:30]
+
+names, values = zip(*top30)
+plt.figure(figsize=(16, 12))
+plt.barh(names[::-1], values[::-1], color="#1f78b4")
+plt.title("Top 30 Concepts by Frequency", fontsize=24)
+plt.xlabel("Frequency")
+plt.tight_layout()
+plt.savefig(f"{OUT}/freq_top30.png", dpi=350)
+plt.close()
+
+# Category distribution
+cats = [G.nodes[n]["category"] for n in G.nodes()]
+count_map = {c: cats.count(c) for c in VALID_CATS}
+
+plt.figure(figsize=(10,7))
+plt.bar(count_map.keys(), count_map.values(), color=[CAT_COLORS[c] for c in count_map.keys()])
+plt.title("Category Distribution", fontsize=24)
+plt.tight_layout()
+plt.savefig(f"{OUT}/category_distribution.png", dpi=350)
+plt.close()
+
+# Category-to-category relations heatmap
+mat = np.zeros((len(VALID_CATS), len(VALID_CATS)))
+cat_list = list(VALID_CATS)
+
+for u, v in G.edges():
+    cu = G.nodes[u]["category"]
+    cv = G.nodes[v]["category"]
+    i = cat_list.index(cu)
+    j = cat_list.index(cv)
+    mat[i][j] += 1
+
+plt.figure(figsize=(12,10))
+sns.heatmap(mat, annot=True, cmap="coolwarm", xticklabels=cat_list, yticklabels=cat_list)
+plt.title("Category-to-Category Relation Matrix", fontsize=24)
+plt.tight_layout()
+plt.savefig(f"{OUT}/category_relation_heatmap.png", dpi=350)
+plt.close()
+
+print("🎉 ALL VISUALIZATIONS GENERATED SUCCESSFULLY.")

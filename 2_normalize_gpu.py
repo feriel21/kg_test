@@ -1,268 +1,267 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+"""
+STEP 2 — Graph Construction with Ontology Filtering + Deduplication
+===================================================================
+
+Pipeline :
+
+1) DEDUP — remove duplicate triplets BEFORE graph construction
+2) FILTER A — remove triplets with irrelevant / UNCLASSIFIED nodes
+3) FILTER B — enforce Pauline’s ontology (allowed transitions)
+4) BUILD GRAPH — accumulate weights, sources, sentences
+5) EXPORT — compress relations, sources, sentences
+"""
+
 import json
-import networkx as nx
-import torch
-from sentence_transformers import SentenceTransformer, util
-from tqdm import tqdm
 import os
 import re
-from collections import Counter
-# ---------------------------------------------------------
-# --- CONFIGURATION PATHS ---------------------------------
-# ---------------------------------------------------------
+import networkx as nx
 from utils.config_loader import load_config
+
 cfg = load_config()
 paths = cfg["paths_expanded"]
 
-# Input: triplets file (JSON produced by 1_extract_advanced.py)
-INPUT_FILE = paths["triplets"]
+INPUT_FILE  = paths["triplets"]
+OUTPUT_GEXF = paths["graph_modular"]
+REFERENCE_KG = cfg["reference"]["reference_kg"]
 
-# Output: graph files
-OUTPUT_GRAPH_FILE = paths["graph_modular"]
-OUTPUT_FOLDER = os.path.dirname(OUTPUT_GRAPH_FILE)
+os.makedirs(os.path.dirname(OUTPUT_GEXF), exist_ok=True)
 
-# Clustering log
-CLUSTERS_LOG_FILE = paths["clusters_log"]
+# -------------------------------------------------------
+# LOAD EXPERT KG
+# -------------------------------------------------------
+print("[STEP2] Loading expert Pauline KG…")
+ref = json.load(open(REFERENCE_KG, "r", encoding="utf-8"))
 
-# Reference KG
-REFERENCE_KG_PATH = cfg["reference"]["reference_kg"]
-
-
-
-SIMILARITY_THRESHOLD = 0.90
-MODEL_NAME = 'all-MiniLM-L6-v2'
-
-if os.path.exists(REFERENCE_KG_PATH):
-    with open(REFERENCE_KG_PATH, "r", encoding="utf-8") as f:
-        ref_data = json.load(f)
-
-    REF_TERMS = set(ref_data.get("canonical_terms", []))
-    REF_ONTOLOGY = ref_data.get("ontology", {})
-else:
-    print("⚠️ WARNING: reference_kg.json not found. Continuing without expert constraints.")
-    REF_TERMS = set()
-    REF_ONTOLOGY = {}
-# ---------------------------------------------------------
+EXPERT_NODES = ref["nodes"]  # dict: term → {sub_category, main_category}
+print(f"[STEP2] Expert nodes available: {len(EXPERT_NODES)}")
 
 
+# -------------------------------------------------------
+# SANITIZATION
+# -------------------------------------------------------
+def clean(t):
+    if not isinstance(t, str):
+        t = str(t)
+    t = "".join(ch for ch in t if ch.isprintable())
+    t = re.sub(r"\s+", " ", t.strip())
+    return t.lower()
 
 
-
-
-def sanitize_text(text):
+# -------------------------------------------------------
+# DEDUPLICATION
+# -------------------------------------------------------
+def deduplicate(triplets):
     """
-    Cleans text and removes leading determinants (The, A, An).
+    Remove redundant triplets:
+    (head, relation, tail, source_doc)
     """
-    if not isinstance(text, str):
-        return str(text)
-    # Remove non-printable chars
-    text = "".join(ch for ch in text if ch.isprintable())
-    # Remove starting articles
-    text = re.sub(r'^(the|a|an|these|those)\s+', '', text.strip(), flags=re.IGNORECASE)
-    return text.strip()
+    seen = set()
+    unique = []
 
-
-def smart_simplify_label(text):
-    """
-    Automatic label simplification WITHOUT domain_config.
-    - Keeps short labels unchanged
-    - For long multi-word labels: keeps last word (e.g., 'large submarine landslide' → 'landslide')
-    """
-    words = text.split()
-    if len(words) > 3:
-        return words[-1]  # most meaningful term
-    return text
-
-
-def normalize_relation(verb):
-    """
-    Minimal automatic relation cleaning.
-    """
-    verb = verb.lower().strip()
-    return verb.replace(" ", "_").upper()
-
-
-def load_data():
-    print(f"Loading {INPUT_FILE}...")
-    try:
-        with open(INPUT_FILE, 'r', encoding='utf-8') as f:
-            return json.load(f)
-    except FileNotFoundError:
-        print(f"Error: {INPUT_FILE} not found. Please run Step 2 first.")
-        exit(1)
-
-
-def get_canonical_entities(triplets, model, device):
-    print("Counting frequencies & Filtering candidates...")
-    entity_counts = Counter()
-    candidates = set()
-
-    for item in triplets:
-        h = sanitize_text(item['head'].lower())
-        t = sanitize_text(item['tail'].lower())
-
-        if h:
-            candidates.add(h)
-            entity_counts[h] += 1
-        if t:
-            candidates.add(t)
-            entity_counts[t] += 1
-
-    unique_list = list(candidates)
-    print(f"Vectorizing {len(unique_list)} entities on {device.upper()}...")
-
-    # ---------------------------------------------------------
-    # --- Reference-guided mapping (priority fusion) [PART C] -
-    # ---------------------------------------------------------
-    def map_to_reference(term):
-        """
-        Very simple expert mapping:
-        if the term is already exactly a canonical expert term, keep it.
-        (You can later extend this with similarity-based matching.)
-        """
-        if term in REF_TERMS:
-            return term
-        return None
-
-    reference_map = {}
-    for t in unique_list:
-        ref = map_to_reference(t)
-        if ref:
-            reference_map[t] = ref
-    # ---------------------------------------------------------
-
-    # Compute Embeddings and cluster entities
-    if unique_list:
-        embeddings = model.encode(unique_list, convert_to_tensor=True, device=device)
-        print(f"Clustering with threshold {SIMILARITY_THRESHOLD}...")
-        clusters = util.community_detection(
-            embeddings,
-            min_community_size=1,
-            threshold=SIMILARITY_THRESHOLD
+    for tr in triplets:
+        key = (
+            clean(tr["head"]),
+            clean(tr["relation"]),
+            clean(tr["tail"]),
+            tr["provenance"]["source_doc"]
         )
-    else:
-        clusters = []
+        if key not in seen:
+            seen.add(key)
+            unique.append(tr)
 
-    entity_map = {}
-    log_lines = []
-
-    for cluster in clusters:
-        cluster_terms = [unique_list[i] for i in cluster]
-
-        # Selection Strategy: Pick the most FREQUENT term in the cluster
-        # Frequency is better than brevity for scientific accuracy.
-        most_frequent = max(cluster_terms, key=lambda t: entity_counts[t])
-
-        # Apply the Smart Simplification logic to the chosen representative
-        canonical = smart_simplify_label(most_frequent)
-
-        # Log merges for audit
-        if len(cluster_terms) > 1:
-            log_lines.append(f"Canonical: [{canonical}] merged: {cluster_terms}")
-
-        for term in cluster_terms:
-            entity_map[term] = canonical
-
-    # ---------------------------------------------------------
-    # Merge reference-guided mapping on top of clustering
-    # (Expert terms override purely statistical canonical labels)
-    # ---------------------------------------------------------
-    entity_map.update(reference_map)
-    # ---------------------------------------------------------
-
-    # Save Log
-    with open(CLUSTERS_LOG_FILE, 'w', encoding='utf-8') as f:
-        f.write("\n".join(log_lines))
-    print(f"Clustering Log saved to {CLUSTERS_LOG_FILE}")
-
-    return entity_map
+    print(f"[STEP2] Dedup: {len(triplets)} → {len(unique)} triplets")
+    return unique
 
 
-def build_graph(triplets, entity_map):
+# -------------------------------------------------------
+# FILTER B — Allowed ontology transitions
+# -------------------------------------------------------
+def allowed_relation(catA, catB):
+    """
+    ONLY transitions approved by Pauline’s ontology.
+    """
+
+    # Same category = valid
+    if catA == catB:
+        return True
+
+    # Environmental → Mass Movement
+    if catA.startswith("Environmental") and catB.startswith("Mass"):
+        return True
+
+    # Mass Movement → Descriptor
+    if catA.startswith("Mass") and catB.startswith("MTD"):
+        return True
+
+    # Environmental → Descriptor
+    if catA.startswith("Environmental") and catB.startswith("MTD"):
+        return True
+
+    return False
+
+
+# -------------------------------------------------------
+# LOAD TRIPLETS
+# -------------------------------------------------------
+def load_triplets():
+    print(f"[STEP2] Loading triplets: {INPUT_FILE}")
+    return json.load(open(INPUT_FILE, "r", encoding="utf-8"))
+
+
+# -------------------------------------------------------
+# BUILD GRAPH
+# -------------------------------------------------------
+def build_graph(triplets):
     G = nx.DiGraph()
-    print("Building Graph...")
-    for item in tqdm(triplets):
-        head_raw = sanitize_text(item['head'].lower())
-        tail_raw = sanitize_text(item['tail'].lower())
+    print("[STEP2] Building ontology-filtered graph…")
 
-        # Map to canonical name OR simplify the raw name if no cluster found
-        head = entity_map.get(head_raw, smart_simplify_label(head_raw))
-        tail = entity_map.get(tail_raw, smart_simplify_label(tail_raw))
+    for tr in triplets:
+        head = clean(tr["head"])
+        tail = clean(tr["tail"])
+        rel  = clean(tr["relation"])
+        src  = tr["provenance"]["source_doc"]
+        sent = clean(tr["provenance"]["sentence"])
 
-        raw_rel = sanitize_text(item['relation'])
-        norm_rel = normalize_relation(raw_rel)
-        source = sanitize_text(item['provenance']['source_doc'])
-
+        # FILTER A — basic cleaning
         if not head or not tail or head == tail:
             continue
 
-        # ---------------------------------------------------------
-        # --- Assign ontology if available [PART A] ---------------
-        # ---------------------------------------------------------
-        head_class = REF_ONTOLOGY.get(head, "UNKNOWN")
-        tail_class = REF_ONTOLOGY.get(tail, "UNKNOWN")
+        head_cat = EXPERT_NODES.get(head, {}).get("main_category", "UNCLASSIFIED")
+        tail_cat = EXPERT_NODES.get(tail, {}).get("main_category", "UNCLASSIFIED")
 
+        # FILTER A.2 : skip if both nodes are irrelevant
+        if head_cat == "UNCLASSIFIED" and tail_cat == "UNCLASSIFIED":
+            continue
+
+        # FILTER B — ontology filtering
+        if not allowed_relation(head_cat, tail_cat):
+            continue
+
+        # --- NODE CREATION ---
         if head not in G:
-            G.add_node(head, category=head_class)
+            G.add_node(
+                head,
+                category=head_cat,
+                sub_category=EXPERT_NODES.get(head, {}).get("sub_category")
+            )
+
         if tail not in G:
-            G.add_node(tail, category=tail_class)
-        # ---------------------------------------------------------
+            G.add_node(
+                tail,
+                category=tail_cat,
+                sub_category=EXPERT_NODES.get(tail, {}).get("sub_category")
+            )
 
-        # Add Edge with weight
+        # --- EDGE CREATION ---
         if G.has_edge(head, tail):
-            G[head][tail]['weight'] += 1
-            G[head][tail]['sources'].add(source)
+            G[head][tail]["weight"] += 1
+            G[head][tail]["sources"].add(src)
+            G[head][tail]["sentences"].add(sent)
+            G[head][tail]["relations"][rel] = G[head][tail]["relations"].get(rel, 0) + 1
 
-            # Count relation types
-            if norm_rel in G[head][tail].get('rel_types', {}):
-                G[head][tail]['rel_types'][norm_rel] += 1
-            else:
-                G[head][tail]['rel_types'][norm_rel] = 1
         else:
             G.add_edge(
-                head,
-                tail,
+                head, tail,
                 weight=1,
-                sources={source},
-                rel_types={norm_rel: 1}
+                sources={src},
+                sentences={sent},
+                relations={rel: 1}
             )
 
     return G
 
+# -------------------------------------------------------
+# REPORT: Missing & Extra Concepts
+# -------------------------------------------------------
+def compare_with_reference(G, ref_nodes, out_path):
+    auto_nodes = set(G.nodes())
+    ref_nodes  = set(ref_nodes)
 
-def save_graph(G):
-    # Format attributes for Gephi export
+    missing_in_auto = sorted(list(ref_nodes - auto_nodes))
+    extra_in_auto   = sorted(list(auto_nodes - ref_nodes))
+
+    report = {
+        "total_ref_nodes": len(ref_nodes),
+        "total_auto_nodes": len(auto_nodes),
+        "missing_from_auto": missing_in_auto,
+        "extra_in_auto": extra_in_auto,
+    }
+
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(report, f, indent=4)
+
+    print(f"[STEP2] Coverage report saved → {out_path}")
+
+# -------------------------------------------------------
+# EXPORT
+# -------------------------------------------------------
+def finalize_export(G):
+    print("[STEP2] Finalizing export…")
+
     for u, v, data in G.edges(data=True):
-        data['sources'] = "|".join(data['sources'])
 
-        rel_types = data.get('rel_types', {})
-        rel_list = [f"{k}({v})" for k, v in rel_types.items()]
-        data['relations_summary'] = "|".join(rel_list)
+        data["sources"] = "|".join(sorted(data["sources"]))
+        data["sentences"] = "|".join(list(data["sentences"]))
 
-        # Determine main label for the edge
-        if rel_types:
-            data['label'] = max(rel_types, key=rel_types.get)
+        # Most frequent relation = final label
+        rel_types = data["relations"]
+        data["label"] = max(rel_types, key=rel_types.get)
 
-        if 'rel_types' in data:
-            del data['rel_types']
+        data["relations_summary"] = "|".join(f"{k}({v})" for k, v in rel_types.items())
+        del data["relations"]
 
-    os.makedirs(OUTPUT_FOLDER, exist_ok=True)
-    nx.write_gexf(G, OUTPUT_GRAPH_FILE)
-    print(f"Graph Saved successfully: {OUTPUT_GRAPH_FILE}")
+    nx.write_gexf(G, OUTPUT_GEXF)
+    print(f"[STEP2] Saved → {OUTPUT_GEXF}")
+def export_node_summary(G, out_path):
+    summary = {}
 
+    for n, data in G.nodes(data=True):
 
+        in_deg  = G.in_degree(n)
+        out_deg = G.out_degree(n)
+        deg     = G.degree(n)
+
+        # collect all sources from edges touching this node
+        srcs = set()
+        sentences = 0
+        for u, v, edata in G.in_edges(n, data=True):
+            srcs.update(edata["sources"].split("|"))
+            sentences += len(edata["sentences"].split("|"))
+        for u, v, edata in G.out_edges(n, data=True):
+            srcs.update(edata["sources"].split("|"))
+            sentences += len(edata["sentences"].split("|"))
+
+        summary[n] = {
+            "category": data.get("category", "UNCLASSIFIED"),
+            "sub_category": data.get("sub_category", None),
+            "degree_total": deg,
+            "in_degree": in_deg,
+            "out_degree": out_deg,
+            "num_sources": len(srcs),
+            "num_sentences": sentences
+        }
+
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(summary, f, indent=4)
+
+    print(f"[STEP2] Node summary saved → {out_path}")
+
+# -------------------------------------------------------
+# MAIN
+# -------------------------------------------------------
 def main():
-    # Hardware Check
-    device = "cuda" if torch.cuda.is_available() else "cpu"
-    print(f"Running on: {device.upper()}")
-
-    model = SentenceTransformer(MODEL_NAME, device=device)
-    triplets = load_data()
-
-    # IMPORTANT: Pass 'device' to avoid crashes on non-GPU nodes
-    entity_mapping = get_canonical_entities(triplets, model, device)
-
-    G = build_graph(triplets, entity_mapping)
-    save_graph(G)
+    trip = load_triplets()
+    trip = deduplicate(trip)
+    G = build_graph(trip)
+    finalize_export(G)
+    summary_path = OUTPUT_GEXF.replace(".gexf", "_nodes.json")
+    export_node_summary(G, summary_path)
+    coverage_path = OUTPUT_GEXF.replace(".gexf", "_coverage.json")
+    compare_with_reference(G, EXPERT_NODES.keys(), coverage_path)
+    print(f"[STEP2] DONE — {G.number_of_nodes()} nodes | {G.number_of_edges()} edges")
 
 
 if __name__ == "__main__":

@@ -10,217 +10,180 @@ from utils.config_loader import load_config
 cfg = load_config()
 paths = cfg["paths_expanded"]
 
-# Input graph (cleaned)
 INPUT_GEXF = paths["graph_clean"]
-
-# Output graph (knowledge layer)
 OUTPUT_GEXF = paths["graph_knowledge"]
-
-# CSV export path
 OUTPUT_FACTS = paths["facts_csv"]
 
-# Reference ontology path (MANDATORY)
 REFERENCE_KG_PATH = cfg["reference"]["reference_kg"]
 
-
-
-# ================================
-# LOAD REFERENCE ONTOLOGY
-# ================================
+# ============================
+# LOAD EXPERT ONTOLOGY (OPTIONNEL)
+# ============================
+REF_MAP = {}
 if os.path.exists(REFERENCE_KG_PATH):
     with open(REFERENCE_KG_PATH, "r", encoding="utf-8") as f:
-        ref_data = json.load(f)
-    REF_ONTOLOGY = ref_data.get("ontology", {})
-    print(f"Loaded ontology from {REFERENCE_KG_PATH} with {len(REF_ONTOLOGY)} entries.")
+        ref = json.load(f)
+    REF_MAP = {k.lower(): v for k, v in ref.get("ontology", {}).items()}
+    print(f"[STEP4] Loaded expert ontology ({len(REF_MAP)} terms).")
 else:
-    print("⚠️ WARNING: reference_kg.json not found. Using heuristic ontology only.")
-    REF_ONTOLOGY = {}
+    print("[STEP4] WARN: No reference ontology found, lexical only.")
 
-# ================================
-# HEURISTIC ONTOLOGY (FALLBACK)
-# ================================
-ONTOLOGY_CLASSES = {
-    "PROCESS": [
-        "slide", "slump", "flow", "creep", "avalanche",
-        "turbidite", "failure", "movement", "instability",
-        "deformation", "transport"
+# ============================
+# PAULINE'S 3 MAIN CATEGORIES
+# ============================
+TARGET_CLASSES = {
+    "MTD_descriptors",
+    "Mass_movement_properties",
+    "Environmental_controls"
+}
+
+# Lexical keywords approximating Pauline's tables
+ONTOLOGY_KEYWORDS = {
+    "MTD_descriptors": [
+        "morphology", "basal surface", "upper surface", "internal facies",
+        "headscarp", "headwall", "toe", "ridges", "ramp", "fault", "faults",
+        "thickness", "thickening", "thinning", "geometry", "lobe", "tongue",
+        "deformed facies", "chaotic facies", "transparent facies",
+        "groove", "scour", "scar", "scarp"
     ],
-    "FEATURE": [
-        "scarp", "scar", "headwall", "toe", "block", "lobe",
-        "lens", "channel", "levee", "mound", "geometry",
-        "ramp", "surface", "boundary", "plane", "interface"
+    "Mass_movement_properties": [
+        "trigger phase", "transport phase", "post-deposition phase",
+        "runout", "run-out", "velocity", "flow velocity", "shear",
+        "overpressure", "pore pressure", "failure", "instability",
+        "slump", "slide", "debris flow", "mass movement", "mass transport",
+        "shear zone", "basal shear", "detachment", "failure surface"
     ],
-    "FACIES": [
-        "chaotic", "transparent", "amplitude",
-        "reflection", "seismic", "stratified",
-        "hummocky", "continuous"
-    ],
-    "LOCATION": [
-        "basin", "slope", "margin", "fan", "delta",
-        "canyon", "sea", "gulf", "offshore", "continental",
-        "zone", "platform", "flank"
-    ],
-    "MATERIAL": [
-        "sediment", "sand", "clay", "mud", "debris",
-        "clast", "rock", "granule"
-    ],
-    "TRIGGER": [
-        "earthquake", "tectonic", "loading", "dissociation",
-        "pressure", "overpressure", "pore", "storm", "climate"
+    "Environmental_controls": [
+        "sea level", "relative sea level", "tectonics", "subsidence",
+        "uplift", "compression", "extension", "basin geometry",
+        "slope gradient", "topography", "sedimentation rate",
+        "climate", "glacial", "evaporite", "salt tectonics"
     ]
 }
 
-# ================================
-# UTILITIES
-# ================================
-def get_node_class(label: str) -> str:
+COLORS = {
+    "MTD_descriptors":  {"r": 52,  "g": 152, "b": 219},  # blue
+    "Mass_movement_properties": {"r": 231, "g": 76,  "b": 60},   # red
+    "Environmental_controls":   {"r": 46,  "g": 204, "b": 113},  # green
+    "UNCLASSIFIED":             {"r": 149, "g": 165, "b": 166},  # grey
+}
+
+# ============================
+# CATEGORY ASSIGNMENT (NOUVEAU)
+# ============================
+def assign_category(node_label: str, data: dict) -> str:
     """
-    Classify a node using:
-    1) Reference ontology (expert KG)
-    2) Heuristic ontology by keywords (fallback)
-    """
-    text = label.lower().strip()
-
-    # 1) Expert ontology from reference_kg.json
-    if text in REF_ONTOLOGY:
-        return REF_ONTOLOGY[text]
-
-    # 2) Heuristic match based on domain keywords
-    for cls, keywords in ONTOLOGY_CLASSES.items():
-        if any(k in text for k in keywords):
-            return cls
-
-    return "OTHER"
-
-
-def refine_edge_relation(cls_u, cls_v, current_label=None):
-    """
-    Apply semantic rules to refine relationships.
-    If no rule applies, keep current_label as-is.
+    NEW STRATEGY:
+    1) If already has a valid category from a previous step → keep it.
+    2) Try exact match with expert KG ontology (REF_MAP).
+    3) Try lexical partial match with Pauline keyword lists.
+    4) Else → UNCLASSIFIED.
     """
 
-    # Trigger → Process
-    if cls_u == "TRIGGER" and cls_v == "PROCESS":
-        return "CAUSES"
+    # 0 — preserve existing valid category if present
+    existing = data.get("category")
+    if isinstance(existing, str) and existing in TARGET_CLASSES:
+        return existing
 
-    # Process → Location
-    if cls_u == "PROCESS" and cls_v == "LOCATION":
-        return "LOCATED_IN"
+    text = (node_label or "").lower().strip()
 
-    # Process → Material
-    if cls_u == "PROCESS" and cls_v == "MATERIAL":
-        return "TRANSPORTS"
+    # 1 — Expert KG exact mapping
+    if text in REF_MAP and REF_MAP[text] in TARGET_CLASSES:
+        return REF_MAP[text]
 
-    # Process → Feature
-    if cls_u == "PROCESS" and cls_v == "FEATURE":
+    # 2 — Lexical heuristics (contains keyword)
+    for cat, kw_list in ONTOLOGY_KEYWORDS.items():
+        for kw in kw_list:
+            if kw in text:
+                return cat
+
+    # 3 — Default
+    return "UNCLASSIFIED"
+
+
+# ============================
+# RELATION ENRICHMENT RULES
+# ============================
+def enrich_relation(cat_u, cat_v):
+    """
+    Simple semantic layer aligned with Pauline logic:
+    Env → Mass → Descriptors
+    """
+    if cat_u == "Environmental_controls" and cat_v == "Mass_movement_properties":
+        return "INFLUENCES"
+
+    if cat_u == "Mass_movement_properties" and cat_v == "MTD_descriptors":
         return "FORMS"
 
-    # Feature → Facies
-    if cls_u == "FEATURE" and cls_v == "FACIES":
-        return "EXHIBITS"
+    if cat_u == "Environmental_controls" and cat_v == "MTD_descriptors":
+        return "SHAPES"
 
-    # default: keep existing label if provided
-    return current_label
+    if cat_u == "Mass_movement_properties" and cat_v == "Environmental_controls":
+        return "RESPONDS_TO"
+
+    return "RELATED_TO"
 
 
-# ================================
-# STEP 6 — SEMANTIC ENRICHMENT
-# ================================
+# ============================
+# MAIN SEMANTIC ENRICHMENT
+# ============================
 def semantic_enrich(G: nx.DiGraph):
-    print("Classifying nodes (expert ontology + heuristics)...")
 
-    # Assign classes + colors
+    print("[STEP4] Assigning Pauline categories (lexical + expert)...")
+
     for node, data in G.nodes(data=True):
-        label = node
-        cls = get_node_class(label)
-        data["class"] = cls  # main ontology class
 
-        # Optional: also keep 'category' for compatibility with previous steps
-        if "category" not in data:
-            data["category"] = cls
+        cat = assign_category(node, data)
 
-        # Color for Gephi (viz attribute)
-        if cls == "PROCESS":
-            data["viz"] = {"color": {"r": 255, "g": 0, "b": 0}}       # Red
-        elif cls == "LOCATION":
-            data["viz"] = {"color": {"r": 0, "g": 0, "b": 255}}       # Blue
-        elif cls == "FACIES":
-            data["viz"] = {"color": {"r": 255, "g": 165, "b": 0}}     # Orange
-        elif cls == "FEATURE":
-            data["viz"] = {"color": {"r": 0, "g": 255, "b": 255}}     # Cyan
-        elif cls == "TRIGGER":
-            data["viz"] = {"color": {"r": 128, "g": 0, "b": 128}}     # Purple
-        elif cls == "MATERIAL":
-            data["viz"] = {"color": {"r": 139, "g": 69, "b": 19}}     # Brown
+        data["category"] = cat
+        data["class"] = cat
+        data["viz"] = {"color": COLORS.get(cat, COLORS["UNCLASSIFIED"])}
 
-    print("Refining edges semantically...")
+    # Sanity check
+    cats = {G.nodes[n]["category"] for n in G.nodes()}
+    print(f"[STEP4] Category distribution: {cats}")
 
-    enriched_count = 0
-    for u, v, data in G.edges(data=True):
-        cls_u = G.nodes[u].get("class", "OTHER")
-        cls_v = G.nodes[v].get("class", "OTHER")
-
-        current_label = data.get("label", "RELATED_TO")
-        new_rel = refine_edge_relation(cls_u, cls_v, current_label=current_label)
-
-        if new_rel != current_label:
-            data["label"] = new_rel
-            enriched_count += 1
-        else:
-            # Ensure there is at least a generic label
-            data["label"] = current_label or "RELATED_TO"
-
-    print(f"Semantic enrichment applied to {enriched_count} edges.")
+    print("[STEP4] Refining relations...")
+    for u, v, edata in G.edges(data=True):
+        cu = G.nodes[u]["category"]
+        cv = G.nodes[v]["category"]
+        edata["label"] = enrich_relation(cu, cv)
 
     return G
 
 
-# ================================
-# STEP 7 — EXPORT FACTS
-# ================================
-def export_facts(G: nx.DiGraph):
-    print(f"Exporting geological facts to {OUTPUT_FACTS}...")
-
+# ============================
+# EXPORT FACTS
+# ============================
+def export_facts(G):
+    print(f"[STEP4] Exporting facts → {OUTPUT_FACTS}")
     with open(OUTPUT_FACTS, "w", newline="", encoding="utf-8") as f:
-        writer = csv.writer(f)
-        writer.writerow(["Subject", "Class_S", "Relation", "Object", "Class_O"])
-
-        for u, v, data in G.edges(data=True):
-            cls_u = G.nodes[u].get("class", "OTHER")
-            cls_v = G.nodes[v].get("class", "OTHER")
-            rel = data.get("label", "RELATED_TO")
-
-            # Export only meaningful facts (ignore double OTHER)
-            if cls_u == "OTHER" and cls_v == "OTHER":
-                continue
-
-            writer.writerow([u, cls_u, rel, v, cls_v])
-
-    print("Facts export complete.")
+        w = csv.writer(f)
+        w.writerow(["Subject", "Class_S", "Relation", "Object", "Class_O"])
+        for u, v, edata in G.edges(data=True):
+            w.writerow([
+                u,
+                G.nodes[u].get("category", "UNCLASSIFIED"),
+                edata.get("label", "RELATED_TO"),
+                v,
+                G.nodes[v].get("category", "UNCLASSIFIED"),
+            ])
 
 
-# ================================
-# MAIN EXECUTION
-# ================================
+# ============================
+# MAIN
+# ============================
 def main():
-    print(f"Loading cleaned graph: {INPUT_GEXF}")
-
-    if not os.path.exists(INPUT_GEXF):
-        print("ERROR: Run 4.1_clean_graph_full.py first.")
-        return
-
+    print(f"[STEP4] Loading graph: {INPUT_GEXF}")
     G = nx.read_gexf(INPUT_GEXF)
 
-    print("Applying semantic enrichment...")
     G = semantic_enrich(G)
 
-    # Save enriched graph
     nx.write_gexf(G, OUTPUT_GEXF)
-    print(f"Saved enriched graph to: {OUTPUT_GEXF}")
+    print(f"[STEP4] Saved enriched graph → {OUTPUT_GEXF}")
 
-    # Export facts
     export_facts(G)
-    print("DONE.")
+    print("[STEP4] DONE.")
 
 
 if __name__ == "__main__":
